@@ -1,0 +1,293 @@
+{
+  "reviewed_at": "2026-10-24T15:55:36.170514+00:00",
+  "scope": "Search aliases, tabs, empty state and reset at 1440/390/320. Seven-journey/eight-destination index arrived during this run; all reset checks subsequently returned 15.",
+  "cases": [
+    {
+      "width": 1440,
+      "query": "Banaras",
+      "url": "http://127.0.0.1:3108/search?q=Banaras",
+      "headings": [
+        "Kashi, before the world wakes",
+        "Along the sacred rivers",
+        "The road to Bodh Gaya",
+        "Varanasi"
+      ],
+      "links": [
+        {
+          "text": "JourneyKashi, before the world wakes4 days / 3 nights \u00b7 Varanasi \u00b7 SarnathRiver mornings, old-city lanes and an unhurried afternoon in Sarnath.",
+          "href": "/journeys/kashi-before-the-world-wakes"
+        },
+        {
+          "text": "JourneyAlong the sacred rivers6 days / 5 nights \u00b7 Varanasi \u00b7 Prayagraj \u00b7 AyodhyaFrom the ghats of Kashi to the Sangam and the temples beside the Sarayu.",
+          "href": "/journeys/along-the-sacred-rivers"
+        },
+        {
+          "text": "JourneyThe road to Bodh Gaya5 days / 4 nights \u00b7 Varanasi \u00b7 Sarnath \u00b7 BodhgayaTrace Buddhist heritage, with time for stillness around the Mahabodhi Temple.",
+          "href": "/journeys/the-road-to-bodh-gaya"
+        },
+        {
+          "text": "DestinationVaranasiGhats \u00b7 Ganga aarti \u00b7 SarnathFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time.",
+          "href": "/destinations/varanasi"
+        }
+      ],
+      "body_width": 1440,
+      "viewport": 1440,
+      "page_errors": [],
+      "screenshot": "1440-index-search-Banaras.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n4 results for \u201cBanaras\u201d\n\nJourney\nKashi, before the world wakes\n\n4 days / 3 nights \u00b7 Varanasi \u00b7 Sarnath\n\nRiver mornings, old-city lanes and an unhurried afternoon in Sarnath.\n\nJourney\nAlong the sacred rivers\n\n6 days / 5 nights \u00b7 Varanasi \u00b7 Prayagraj \u00b7 Ayodhya\n\nFrom the ghats of Kashi to the Sangam and the temples beside the Sarayu.\n\nJourney\nThe road to Bodh Gaya\n\n5 days / 4 nights \u00b7 Varanasi \u00b7 Sarnath \u00b7 Bodhgaya\n\nTrace Buddhist heritage, with time for stillness around the Mahabodhi Temple.\n\nDestination\nVaranasi\n\nGhats \u00b7 Ganga aarti \u00b7 Sarnath\n\nFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time."
+    },
+    {
+      "width": 1440,
+      "query": "Taj Mahal",
+      "url": "http://127.0.0.1:3108/search?q=Taj+Mahal",
+      "headings": [
+        "The Taj & the lanes of Braj",
+        "Awadh, Agra & the lanes of Braj",
+        "Agra"
+      ],
+      "links": [
+        {
+          "text": "JourneyThe Taj & the lanes of Braj4 days / 3 nights \u00b7 Agra \u00b7 VrindavanA full day for the Taj and Agra Fort, followed by Vrindavan's temple traditions.",
+          "href": "/journeys/taj-mahal-and-the-lanes-of-braj"
+        },
+        {
+          "text": "JourneyAwadh, Agra & the lanes of Braj7 days / 6 nights \u00b7 Lucknow \u00b7 Agra \u00b7 VrindavanAwadhi flavours, Mughal architecture and the devotional rhythm of Braj.",
+          "href": "/journeys/awadh-agra-and-braj"
+        },
+        {
+          "text": "DestinationAgraTaj Mahal \u00b7 Agra Fort \u00b7 Mughal heritageMake space for the Taj Mahal, the red-sandstone walls of Agra Fort and the Mughal stories that connect them. Taj Mahal visits need to be planned around its Friday closure.",
+          "href": "/destinations/agra"
+        }
+      ],
+      "body_width": 1440,
+      "viewport": 1440,
+      "page_errors": [],
+      "screenshot": "1440-index-search-Taj-Mahal.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n3 results for \u201cTaj Mahal\u201d\n\nJourney\nThe Taj & the lanes of Braj\n\n4 days / 3 nights \u00b7 Agra \u00b7 Vrindavan\n\nA full day for the Taj and Agra Fort, followed by Vrindavan's temple traditions.\n\nJourney\nAwadh, Agra & the lanes of Braj\n\n7 days / 6 nights \u00b7 Lucknow \u00b7 Agra \u00b7 Vrindavan\n\nAwadhi flavours, Mughal architecture and the devotional rhythm of Braj.\n\nDestination\nAgra\n\nTaj Mahal \u00b7 Agra Fort \u00b7 Mughal heritage\n\nMake space for the Taj Mahal, the red-sandstone walls of Agra Fort and the Mughal stories that connect them. Taj Mahal visits need to be planned around its Friday closure."
+    },
+    {
+      "width": 1440,
+      "query": "zzzz-does-not-exist",
+      "url": "http://127.0.0.1:3108/search?q=zzzz-does-not-exist",
+      "headings": [
+        "Let\u2019s widen the map."
+      ],
+      "links": [
+        {
+          "text": "Plan something personal",
+          "href": "/#plan"
+        }
+      ],
+      "body_width": 1440,
+      "viewport": 1440,
+      "page_errors": [],
+      "screenshot": "1440-index-search-zzzz-does-not-exist.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n0 results for \u201czzzz-does-not-exist\u201d\n\nLet\u2019s widen the map.\n\nWe couldn\u2019t find that combination. Try a city name or explore all journeys. You can also tell us about a route you have in mind.\n\nClear the search\nPlan something personal"
+    },
+    {
+      "width": 1440,
+      "query": "category and reset",
+      "journeys": [
+        "The Taj & the lanes of Braj",
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "destinations": [
+        "Agra"
+      ],
+      "reset_count": 15,
+      "page_errors": []
+    },
+    {
+      "width": 390,
+      "query": "Banaras",
+      "url": "http://127.0.0.1:3108/search?q=Banaras",
+      "headings": [
+        "Kashi, before the world wakes",
+        "Along the sacred rivers",
+        "The road to Bodh Gaya",
+        "Varanasi"
+      ],
+      "links": [
+        {
+          "text": "JourneyKashi, before the world wakes4 days / 3 nights \u00b7 Varanasi \u00b7 SarnathRiver mornings, old-city lanes and an unhurried afternoon in Sarnath.",
+          "href": "/journeys/kashi-before-the-world-wakes"
+        },
+        {
+          "text": "JourneyAlong the sacred rivers6 days / 5 nights \u00b7 Varanasi \u00b7 Prayagraj \u00b7 AyodhyaFrom the ghats of Kashi to the Sangam and the temples beside the Sarayu.",
+          "href": "/journeys/along-the-sacred-rivers"
+        },
+        {
+          "text": "JourneyThe road to Bodh Gaya5 days / 4 nights \u00b7 Varanasi \u00b7 Sarnath \u00b7 BodhgayaTrace Buddhist heritage, with time for stillness around the Mahabodhi Temple.",
+          "href": "/journeys/the-road-to-bodh-gaya"
+        },
+        {
+          "text": "DestinationVaranasiGhats \u00b7 Ganga aarti \u00b7 SarnathFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time.",
+          "href": "/destinations/varanasi"
+        }
+      ],
+      "body_width": 390,
+      "viewport": 390,
+      "page_errors": [],
+      "screenshot": "390-index-search-Banaras.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n4 results for \u201cBanaras\u201d\n\nJourney\nKashi, before the world wakes\n\n4 days / 3 nights \u00b7 Varanasi \u00b7 Sarnath\n\nRiver mornings, old-city lanes and an unhurried afternoon in Sarnath.\n\nJourney\nAlong the sacred rivers\n\n6 days / 5 nights \u00b7 Varanasi \u00b7 Prayagraj \u00b7 Ayodhya\n\nFrom the ghats of Kashi to the Sangam and the temples beside the Sarayu.\n\nJourney\nThe road to Bodh Gaya\n\n5 days / 4 nights \u00b7 Varanasi \u00b7 Sarnath \u00b7 Bodhgaya\n\nTrace Buddhist heritage, with time for stillness around the Mahabodhi Temple.\n\nDestination\nVaranasi\n\nGhats \u00b7 Ganga aarti \u00b7 Sarnath\n\nFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time."
+    },
+    {
+      "width": 390,
+      "query": "Taj Mahal",
+      "url": "http://127.0.0.1:3108/search?q=Taj+Mahal",
+      "headings": [
+        "The Taj & the lanes of Braj",
+        "Awadh, Agra & the lanes of Braj",
+        "Agra"
+      ],
+      "links": [
+        {
+          "text": "JourneyThe Taj & the lanes of Braj4 days / 3 nights \u00b7 Agra \u00b7 VrindavanA full day for the Taj and Agra Fort, followed by Vrindavan's temple traditions.",
+          "href": "/journeys/taj-mahal-and-the-lanes-of-braj"
+        },
+        {
+          "text": "JourneyAwadh, Agra & the lanes of Braj7 days / 6 nights \u00b7 Lucknow \u00b7 Agra \u00b7 VrindavanAwadhi flavours, Mughal architecture and the devotional rhythm of Braj.",
+          "href": "/journeys/awadh-agra-and-braj"
+        },
+        {
+          "text": "DestinationAgraTaj Mahal \u00b7 Agra Fort \u00b7 Mughal heritageMake space for the Taj Mahal, the red-sandstone walls of Agra Fort and the Mughal stories that connect them. Taj Mahal visits need to be planned around its Friday closure.",
+          "href": "/destinations/agra"
+        }
+      ],
+      "body_width": 390,
+      "viewport": 390,
+      "page_errors": [],
+      "screenshot": "390-index-search-Taj-Mahal.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n3 results for \u201cTaj Mahal\u201d\n\nJourney\nThe Taj & the lanes of Braj\n\n4 days / 3 nights \u00b7 Agra \u00b7 Vrindavan\n\nA full day for the Taj and Agra Fort, followed by Vrindavan's temple traditions.\n\nJourney\nAwadh, Agra & the lanes of Braj\n\n7 days / 6 nights \u00b7 Lucknow \u00b7 Agra \u00b7 Vrindavan\n\nAwadhi flavours, Mughal architecture and the devotional rhythm of Braj.\n\nDestination\nAgra\n\nTaj Mahal \u00b7 Agra Fort \u00b7 Mughal heritage\n\nMake space for the Taj Mahal, the red-sandstone walls of Agra Fort and the Mughal stories that connect them. Taj Mahal visits need to be planned around its Friday closure."
+    },
+    {
+      "width": 390,
+      "query": "zzzz-does-not-exist",
+      "url": "http://127.0.0.1:3108/search?q=zzzz-does-not-exist",
+      "headings": [
+        "Let\u2019s widen the map."
+      ],
+      "links": [
+        {
+          "text": "Plan something personal",
+          "href": "/#plan"
+        }
+      ],
+      "body_width": 390,
+      "viewport": 390,
+      "page_errors": [],
+      "screenshot": "390-index-search-zzzz-does-not-exist.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n0 results for \u201czzzz-does-not-exist\u201d\n\nLet\u2019s widen the map.\n\nWe couldn\u2019t find that combination. Try a city name or explore all journeys. You can also tell us about a route you have in mind.\n\nClear the search\nPlan something personal"
+    },
+    {
+      "width": 390,
+      "query": "category and reset",
+      "journeys": [
+        "The Taj & the lanes of Braj",
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "destinations": [
+        "Agra"
+      ],
+      "reset_count": 15,
+      "page_errors": []
+    },
+    {
+      "width": 320,
+      "query": "Banaras",
+      "url": "http://127.0.0.1:3108/search?q=Banaras",
+      "headings": [
+        "Kashi, before the world wakes",
+        "Along the sacred rivers",
+        "The road to Bodh Gaya",
+        "Varanasi"
+      ],
+      "links": [
+        {
+          "text": "JourneyKashi, before the world wakes4 days / 3 nights \u00b7 Varanasi \u00b7 SarnathRiver mornings, old-city lanes and an unhurried afternoon in Sarnath.",
+          "href": "/journeys/kashi-before-the-world-wakes"
+        },
+        {
+          "text": "JourneyAlong the sacred rivers6 days / 5 nights \u00b7 Varanasi \u00b7 Prayagraj \u00b7 AyodhyaFrom the ghats of Kashi to the Sangam and the temples beside the Sarayu.",
+          "href": "/journeys/along-the-sacred-rivers"
+        },
+        {
+          "text": "JourneyThe road to Bodh Gaya5 days / 4 nights \u00b7 Varanasi \u00b7 Sarnath \u00b7 BodhgayaTrace Buddhist heritage, with time for stillness around the Mahabodhi Temple.",
+          "href": "/journeys/the-road-to-bodh-gaya"
+        },
+        {
+          "text": "DestinationVaranasiGhats \u00b7 Ganga aarti \u00b7 SarnathFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time.",
+          "href": "/destinations/varanasi"
+        }
+      ],
+      "body_width": 320,
+      "viewport": 320,
+      "page_errors": [],
+      "screenshot": "320-index-search-Banaras.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n4 results for \u201cBanaras\u201d\n\nJourney\nKashi, before the world wakes\n\n4 days / 3 nights \u00b7 Varanasi \u00b7 Sarnath\n\nRiver mornings, old-city lanes and an unhurried afternoon in Sarnath.\n\nJourney\nAlong the sacred rivers\n\n6 days / 5 nights \u00b7 Varanasi \u00b7 Prayagraj \u00b7 Ayodhya\n\nFrom the ghats of Kashi to the Sangam and the temples beside the Sarayu.\n\nJourney\nThe road to Bodh Gaya\n\n5 days / 4 nights \u00b7 Varanasi \u00b7 Sarnath \u00b7 Bodhgaya\n\nTrace Buddhist heritage, with time for stillness around the Mahabodhi Temple.\n\nDestination\nVaranasi\n\nGhats \u00b7 Ganga aarti \u00b7 Sarnath\n\nFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time."
+    },
+    {
+      "width": 320,
+      "query": "Taj Mahal",
+      "url": "http://127.0.0.1:3108/search?q=Taj+Mahal",
+      "headings": [
+        "The Taj & the lanes of Braj",
+        "Awadh, Agra & the lanes of Braj",
+        "Agra"
+      ],
+      "links": [
+        {
+          "text": "JourneyThe Taj & the lanes of Braj4 days / 3 nights \u00b7 Agra \u00b7 VrindavanA full day for the Taj and Agra Fort, followed by Vrindavan's temple traditions.",
+          "href": "/journeys/taj-mahal-and-the-lanes-of-braj"
+        },
+        {
+          "text": "JourneyAwadh, Agra & the lanes of Braj7 days / 6 nights \u00b7 Lucknow \u00b7 Agra \u00b7 VrindavanAwadhi flavours, Mughal architecture and the devotional rhythm of Braj.",
+          "href": "/journeys/awadh-agra-and-braj"
+        },
+        {
+          "text": "DestinationAgraTaj Mahal \u00b7 Agra Fort \u00b7 Mughal heritageMake space for the Taj Mahal, the red-sandstone walls of Agra Fort and the Mughal stories that connect them. Taj Mahal visits need to be planned around its Friday closure.",
+          "href": "/destinations/agra"
+        }
+      ],
+      "body_width": 320,
+      "viewport": 320,
+      "page_errors": [],
+      "screenshot": "320-index-search-Taj-Mahal.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n3 results for \u201cTaj Mahal\u201d\n\nJourney\nThe Taj & the lanes of Braj\n\n4 days / 3 nights \u00b7 Agra \u00b7 Vrindavan\n\nA full day for the Taj and Agra Fort, followed by Vrindavan's temple traditions.\n\nJourney\nAwadh, Agra & the lanes of Braj\n\n7 days / 6 nights \u00b7 Lucknow \u00b7 Agra \u00b7 Vrindavan\n\nAwadhi flavours, Mughal architecture and the devotional rhythm of Braj.\n\nDestination\nAgra\n\nTaj Mahal \u00b7 Agra Fort \u00b7 Mughal heritage\n\nMake space for the Taj Mahal, the red-sandstone walls of Agra Fort and the Mughal stories that connect them. Taj Mahal visits need to be planned around its Friday closure."
+    },
+    {
+      "width": 320,
+      "query": "zzzz-does-not-exist",
+      "url": "http://127.0.0.1:3108/search?q=zzzz-does-not-exist",
+      "headings": [
+        "Let\u2019s widen the map."
+      ],
+      "links": [
+        {
+          "text": "Plan something personal",
+          "href": "/#plan"
+        }
+      ],
+      "body_width": 320,
+      "viewport": 320,
+      "page_errors": [],
+      "screenshot": "320-index-search-zzzz-does-not-exist.png",
+      "excerpt": "A PLACE. A FEELING. A FIRST IDEA.\nWhat draws you here?\n\nLook for a city, a landmark or a kind of journey. Try Kashi, the Taj Mahal, Buddhist trails or a family pilgrimage.\n\nSearch tours and destinations\nEverything\nJourneys\nDestinations\n\n0 results for \u201czzzz-does-not-exist\u201d\n\nLet\u2019s widen the map.\n\nWe couldn\u2019t find that combination. Try a city name or explore all journeys. You can also tell us about a route you have in mind.\n\nClear the search\nPlan something personal"
+    },
+    {
+      "width": 320,
+      "query": "category and reset",
+      "journeys": [
+        "The Taj & the lanes of Braj",
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "destinations": [
+        "Agra"
+      ],
+      "reset_count": 15,
+      "page_errors": []
+    }
+  ],
+  "status": "pass",
+  "visual_review": "Read desktop Taj Mahal and 320px Banaras/empty-state screenshots; no visible clipping or collapsed layout."
+}

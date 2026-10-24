@@ -1,0 +1,965 @@
+{
+  "browser": "WebKit",
+  "base": "http://127.0.0.1:3108",
+  "startedAt": "2026-10-24T16:00:49.164892+00:00",
+  "layouts": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 8,
+      "scrollSamples": 17
+    },
+    {
+      "route": "/journeys",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 9,
+      "scrollSamples": 12
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 15
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 16
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 16
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 17
+    },
+    {
+      "route": "/destinations/varanasi",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 8,
+      "scrollSamples": 15
+    },
+    {
+      "route": "/journeys/ayodhya-at-your-own-pace",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 15
+    },
+    {
+      "route": "/journeys/a-weekend-in-lucknow",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 15
+    },
+    {
+      "route": "/journeys/taj-mahal-and-the-lanes-of-braj",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 15
+    },
+    {
+      "route": "/destinations/ayodhya",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 3,
+      "scrollSamples": 11
+    },
+    {
+      "route": "/destinations/agra",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 3,
+      "scrollSamples": 11
+    },
+    {
+      "route": "/destinations/bodh-gaya",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 3,
+      "scrollSamples": 10
+    },
+    {
+      "route": "/search",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 2,
+      "scrollSamples": 10
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 8,
+      "scrollSamples": 11
+    },
+    {
+      "route": "/journeys",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 9,
+      "scrollSamples": 7
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 10
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 11
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 11
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 11
+    },
+    {
+      "route": "/destinations/varanasi",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 8,
+      "scrollSamples": 10
+    },
+    {
+      "route": "/journeys/ayodhya-at-your-own-pace",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 10
+    },
+    {
+      "route": "/journeys/a-weekend-in-lucknow",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 10
+    },
+    {
+      "route": "/journeys/taj-mahal-and-the-lanes-of-braj",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 10
+    },
+    {
+      "route": "/destinations/ayodhya",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 3,
+      "scrollSamples": 8
+    },
+    {
+      "route": "/destinations/agra",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 3,
+      "scrollSamples": 8
+    },
+    {
+      "route": "/destinations/bodh-gaya",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 3,
+      "scrollSamples": 7
+    },
+    {
+      "route": "/search",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 2,
+      "scrollSamples": 7
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 8,
+      "scrollSamples": 18,
+      "video": [
+        {
+          "readyState": 4,
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "error": null
+        }
+      ]
+    },
+    {
+      "route": "/search",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 2,
+      "scrollSamples": 11
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "status": 200,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "imageCount": 5,
+      "scrollSamples": 17
+    }
+  ],
+  "interactions": [
+    {
+      "name": "Menu Escape closes, unlocks and restores focus",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Menu link opens collection and unlocks scrolling",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/kashi-before-the-world-wakes",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/kashi-before-the-world-wakes",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/kashi-before-the-world-wakes",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/along-the-sacred-rivers",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/along-the-sacred-rivers",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/along-the-sacred-rivers",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/the-road-to-bodh-gaya",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/the-road-to-bodh-gaya",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/the-road-to-bodh-gaya",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/awadh-agra-and-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/awadh-agra-and-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/awadh-agra-and-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/ayodhya-at-your-own-pace",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/ayodhya-at-your-own-pace",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/ayodhya-at-your-own-pace",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/a-weekend-in-lucknow",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/a-weekend-in-lucknow",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/a-weekend-in-lucknow",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/taj-mahal-and-the-lanes-of-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/taj-mahal-and-the-lanes-of-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/taj-mahal-and-the-lanes-of-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Banaras resolves four relevant results and updates URL",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Search destination filter isolates Varanasi",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Banaras search opens Varanasi guide",
+      "width": 390,
+      "passed": true,
+      "detail": {
+        "landedURL": "http://127.0.0.1:3108/destinations/varanasi",
+        "headline": "Varanasi.\nA city to\nfeel.",
+        "searchTabStates": [
+          {
+            "text": "Everything",
+            "pressed": "false",
+            "background": "lab(96.571404 0.384659 4.96522)"
+          },
+          {
+            "text": "Journeys",
+            "pressed": "false",
+            "background": "lab(96.571404 0.384659 4.96522)"
+          },
+          {
+            "text": "Destinations",
+            "pressed": "true",
+            "background": "lab(15.8254 -12.3823 5.17067)"
+          }
+        ],
+        "rerunReason": "Initial assertion incorrectly expected editorial H1 to equal a single city name. Corrected assertion checks city text and landed route."
+      }
+    },
+    {
+      "name": "Planner retains selected journey",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Planner creates complete browser-local brief",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Planner result has no horizontal overflow",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Downloaded brief retains route and preferences",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Menu Escape closes, unlocks and restores focus",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Menu link opens collection and unlocks scrolling",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/kashi-before-the-world-wakes",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/kashi-before-the-world-wakes",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/kashi-before-the-world-wakes",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/along-the-sacred-rivers",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/along-the-sacred-rivers",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/along-the-sacred-rivers",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/the-road-to-bodh-gaya",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/the-road-to-bodh-gaya",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/the-road-to-bodh-gaya",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/awadh-agra-and-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/awadh-agra-and-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/awadh-agra-and-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/ayodhya-at-your-own-pace",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/ayodhya-at-your-own-pace",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/ayodhya-at-your-own-pace",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/a-weekend-in-lucknow",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/a-weekend-in-lucknow",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/a-weekend-in-lucknow",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/taj-mahal-and-the-lanes-of-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/taj-mahal-and-the-lanes-of-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/taj-mahal-and-the-lanes-of-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Banaras resolves four relevant results and updates URL",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Search destination filter isolates Varanasi",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Banaras search opens Varanasi guide",
+      "width": 768,
+      "passed": true,
+      "detail": {
+        "landedURL": "http://127.0.0.1:3108/destinations/varanasi",
+        "headline": "Varanasi.\nA city to\nfeel.",
+        "searchTabStates": [
+          {
+            "text": "Everything",
+            "pressed": "false",
+            "background": "lab(96.571404 0.384659 4.96522)"
+          },
+          {
+            "text": "Journeys",
+            "pressed": "false",
+            "background": "lab(96.571404 0.384659 4.96522)"
+          },
+          {
+            "text": "Destinations",
+            "pressed": "true",
+            "background": "lab(15.8254 -12.3823 5.17067)"
+          }
+        ],
+        "rerunReason": "Initial assertion incorrectly expected editorial H1 to equal a single city name. Corrected assertion checks city text and landed route."
+      }
+    },
+    {
+      "name": "Planner retains selected journey",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Planner creates complete browser-local brief",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Planner result has no horizontal overflow",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Downloaded brief retains route and preferences",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Menu Escape closes, unlocks and restores focus",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Menu link opens collection and unlocks scrolling",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Banaras resolves four relevant results and updates URL",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Search destination filter isolates Varanasi",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Banaras search opens Varanasi guide",
+      "width": 320,
+      "passed": true,
+      "detail": {
+        "landedURL": "http://127.0.0.1:3108/destinations/varanasi",
+        "headline": "Varanasi.\nA city to\nfeel.",
+        "searchTabStates": [
+          {
+            "text": "Everything",
+            "pressed": "false",
+            "background": "lab(96.571404 0.384659 4.96522)"
+          },
+          {
+            "text": "Journeys",
+            "pressed": "false",
+            "background": "lab(96.571404 0.384659 4.96522)"
+          },
+          {
+            "text": "Destinations",
+            "pressed": "true",
+            "background": "lab(15.8254 -12.3823 5.17067)"
+          }
+        ],
+        "rerunReason": "Initial assertion incorrectly expected editorial H1 to equal a single city name. Corrected assertion checks city text and landed route."
+      }
+    },
+    {
+      "name": "Day accordion opens second and closes first: /journeys/kashi-before-the-world-wakes",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Expanded day has no horizontal overflow: /journeys/kashi-before-the-world-wakes",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Day accordion collapses second: /journeys/kashi-before-the-world-wakes",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Planner retains selected journey",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Planner creates complete browser-local brief",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Planner result has no horizontal overflow",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Downloaded brief retains route and preferences",
+      "width": 320,
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "visualInspection": {
+    "status": "complete",
+    "screenshots": [
+      "cinematic-webkit-home-320.png",
+      "cinematic-webkit-search-320.png",
+      "cinematic-webkit-kashi-390.png"
+    ],
+    "findings": "Reviewed actual WebKit screenshots. Rounded mobile hero, typography, header, search controls/results and Kashi opening fit cleanly. No clipping or horizontal overflow observed."
+  },
+  "browserVersion": "26.0",
+  "executable": "C:\\Users\\Shashank Shukla\\AppData\\Local\\ms-playwright\\webkit-2248\\Playwright.exe",
+  "summary": {
+    "layouts": 31,
+    "layoutFailures": 0,
+    "interactions": 72,
+    "interactionFailures": 0
+  },
+  "finishedAt": "2026-10-24T16:02:48.271595+00:00"
+}

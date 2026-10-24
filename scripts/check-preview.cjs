@@ -3,11 +3,16 @@ const AxeBuilder = require('@axe-core/playwright').default;
 const fs = require('node:fs');
 const path = require('node:path');
 
-const routes = ['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/journeys/along-the-sacred-rivers', '/journeys/the-road-to-bodh-gaya', '/journeys/awadh-agra-and-braj', '/destinations/varanasi'];
+const routes = ['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/journeys/along-the-sacred-rivers', '/journeys/the-road-to-bodh-gaya', '/journeys/awadh-agra-and-braj', '/destinations/varanasi', '/journeys/ayodhya-at-your-own-pace', '/journeys/a-weekend-in-lucknow', '/journeys/taj-mahal-and-the-lanes-of-braj', '/destinations/ayodhya', '/destinations/agra', '/destinations/bodh-gaya', '/search'];
 const output = path.join('evidence', process.env.REVIEW_STAGE || 'multipage');
 const base = process.env.REVIEW_URL_FILE ? fs.readFileSync(process.env.REVIEW_URL_FILE, 'utf8').trim().replace(/^\uFEFF/, '') : 'http://127.0.0.1:3108';
 const baseUrl = new URL(base);
 const report = { pages: [], accessibility: [], functional: [], consoleErrors: [], pageErrors: [] };
+if (process.env.REVIEW_FUNCTIONS_ONLY) {
+  const prior = JSON.parse(fs.readFileSync(path.join(output, 'report-incomplete.json'), 'utf8'));
+  report.pages = prior.pages;
+  report.accessibility = prior.accessibility;
+}
 fs.mkdirSync(output, { recursive: true });
 
 function check(name, passed, detail) {
@@ -22,7 +27,7 @@ function check(name, passed, detail) {
   page.on('pageerror', error => report.pageErrors.push(String(error)));
   page.on('console', message => { if (message.type() === 'error') report.consoleErrors.push(message.text()); });
   await page.goto(base, { waitUntil: 'networkidle' });
-  for (const width of [1440, 390, 768, 360]) {
+  if (!process.env.REVIEW_FUNCTIONS_ONLY) for (const width of [1440, 390, 768, 360]) {
     await page.setViewportSize({ width, height: width > 600 ? 1000 : 844 });
     for (const route of routes) {
       const response = await page.goto(new URL(route, baseUrl.origin).href, { waitUntil: 'networkidle' });
@@ -44,7 +49,7 @@ function check(name, passed, detail) {
         report.accessibility.push({ route, width, violations: scan.violations.map(({ id, impact, nodes }) => ({ id, impact, nodes: nodes.map(node => ({ target: node.target, summary: node.failureSummary })) })), passes: scan.passes.length });
         const filename = route === '/' ? 'home' : route.slice(1).replaceAll('/', '-');
         await page.screenshot({ path: path.join(output, `${width}-${filename}.png`) });
-        if (['/journeys', '/journeys/kashi-before-the-world-wakes', '/destinations/varanasi'].includes(route)) {
+        if (['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/destinations/varanasi', '/destinations/agra', '/search'].includes(route)) {
           await page.screenshot({ path: path.join(output, `${width}-${filename}-full.png`), fullPage: true });
         }
       }
@@ -53,11 +58,11 @@ function check(name, passed, detail) {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(new URL('/journeys', baseUrl.origin).href, { waitUntil: 'networkidle' });
   await page.getByRole('button', { name: 'Sacred journeys', exact: true }).click();
-  check('Interest filter narrows collection', await page.locator('.collection-card').count() === 1);
+  check('Interest filter narrows collection', await page.locator('.collection-card').count() === 2);
   await page.getByLabel('Filter by destination').selectOption('Agra');
   check('Combined filters provide clear empty state', await page.locator('.collection-card').count() === 0 && await page.getByRole('button', { name: 'Show all journeys' }).isVisible());
   await page.getByRole('button', { name: 'Show all journeys' }).click();
-  check('Reset restores all four routes', await page.locator('.collection-card').count() === 4);
+  check('Reset restores all seven routes', await page.locator('.collection-card').count() === 7);
   await page.getByRole('button', { name: 'My shortlist' }).click();
   check('Empty shortlist provides guidance', await page.getByRole('heading', { name: 'Your next journey is waiting.' }).isVisible());
   await page.getByRole('button', { name: 'Show all journeys' }).click();
@@ -107,6 +112,29 @@ function check(name, passed, detail) {
   await page.locator('a[href="/?destination=Varanasi#plan"]').click();
   await page.waitForURL('**/?destination=Varanasi#plan');
   check('Destination CTA opens prefilled brief', await page.getByLabel('I’d like to explore').inputValue() === 'Varanasi');
+  await page.goto(new URL('/search?q=Banaras', baseUrl.origin).href, { waitUntil: 'networkidle' });
+  check('Search index resolves Banaras to Varanasi and relevant journeys', await page.locator('.search-result').count() === 4 && await page.locator('.search-results').textContent().then(text => text.includes('Varanasi')));
+  await page.getByRole('searchbox', { name: 'Search tours and destinations' }).fill('Taj Mahal');
+  check('Search resolves landmark aliases across tours and destinations', await page.locator('.search-result').count() === 3);
+  await page.getByRole('button', { name: 'Destinations', exact: true }).click();
+  check('Search type filter keeps the relevant destination', await page.locator('.search-result').count() === 1 && await page.locator('.search-result h2').textContent() === 'Agra');
+  await page.locator('.search-result').click();
+  await page.waitForURL('**/destinations/agra');
+  check('Search result opens the matching destination guide', page.url().endsWith('/destinations/agra') && await page.locator('h1').textContent() === 'Agra');
+  await page.goto(new URL('/search?q=no-such-place-xyz', baseUrl.origin).href, { waitUntil: 'networkidle' });
+  check('Unmatched search has a useful empty state', await page.locator('.search-empty').isVisible() && await page.locator('.search-result').count() === 0);
+  await page.getByRole('button', { name: 'Clear the search', exact: true }).click();
+  check('Search reset restores all fifteen index entries', await page.locator('.search-result').count() === 15);
+  await page.goto(baseUrl.origin + '/', { waitUntil: 'networkidle' });
+  for (const place of ['Ayodhya','Agra','Prayagraj','Lucknow','Bodhgaya','Vrindavan','Gaya','Varanasi']) {
+    await page.locator('.atlas-places').getByRole('button', {name: new RegExp('\\b' + place + '$', 'i')}).click();
+    check('Destination index selects ' + place, await page.locator('.atlas-photo-label h3').textContent() === place);
+  }
+  await page.getByRole('button', { name: 'Play Varanasi film' }).click();
+  await page.waitForTimeout(1500);
+  check('Hero film plays on explicit request with reduced motion', await page.locator('.hero-film').evaluate(v => !v.paused && v.currentTime > 0 && v.videoWidth > 0));
+  await page.getByRole('button', { name: 'Pause Varanasi film' }).click();
+  check('Hero film pause control works', await page.locator('.hero-film').evaluate(v => v.paused));
   const missing = await page.goto(new URL('/journeys/not-a-real-journey', baseUrl.origin).href, { waitUntil: 'networkidle' });
   check('Unknown route shows branded 404', missing.status() === 404 && await page.getByRole('heading', { name: /find your.*way back/ }).isVisible());
   await browser.close();

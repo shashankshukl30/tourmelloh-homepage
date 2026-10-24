@@ -48,7 +48,7 @@ export function JourneyCollection() {
             </h1>
           </div>
           <div className="collection-opening-note">
-            <span className="collection-small-number">01 — 04</span>
+            <span className="collection-small-number">{journeys.length} WAYS TO BEGIN</span>
             <p>
               Sacred rivers. Storied cities. A little time to find your own
               rhythm. Start with a journey that speaks to you.

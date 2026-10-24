@@ -1,0 +1,152 @@
+{
+  "destinations": [
+    {
+      "slug": "ayodhya",
+      "name": "Ayodhya",
+      "region": "Uttar Pradesh",
+      "lead": "Temple mornings, courtyard pauses and an evening beside the Sarayu. Let the purpose of your visit set the pace.",
+      "intro": "Ayodhya draws pilgrims to Ram Mandir, but a thoughtful stay also makes room for the older temples and riverfront. Start with the darshan that matters most to you, then shape the rest of the day around the people travelling. Hanuman Garhi, Kanak Bhawan and Ram Ki Paidi each offer a different setting. An overnight stay can give these visits breathing room, especially when Ayodhya follows a longer journey from Prayagraj or Varanasi.",
+      "hero": "/images/ayodhya-riverfront.webp",
+      "heroAlt": "Stepped ghats and historic buildings beside the water channel at Ram Ki Paidi in Ayodhya",
+      "heroCaption": "Ram Ki Paidi · Ayodhya",
+      "visits": [
+        {
+          "title": "Ram Mandir, with time for darshan",
+          "text": "Make Shri Ram Janmabhoomi Mandir the central visit if darshan is the reason for your journey. The temple follows the Nagara architectural tradition, with carved pillars and the image of Ram Lalla in its main sanctum. Give the visit an open stretch of the day so the approach, security checks and time inside can unfold without a tight onward connection. Confirm current entry arrangements before travelling, then place the smaller visits around the temple programme that is actually available."
+        },
+        {
+          "title": "The climb to Hanuman Garhi",
+          "text": "Hanuman Garhi is one of Ayodhya’s important shrines to Hanuman, with a main image showing the young deity with his mother Anjani. The staircase is part of the approach, so this visit deserves a separate conversation when travelling with older relatives or anyone who finds steps difficult. Choose a comfortable pace and leave room for a pause before continuing. Its role in Ayodhya’s devotional life makes it a meaningful companion to Ram Mandir, with its own time and attention."
+        },
+        {
+          "title": "Kanak Bhawan’s temple courtyard",
+          "text": "Kanak Bhawan brings the visit into a courtyard setting and a temple devoted to Ram and Sita. Local tradition connects the building with Sita’s arrival in Ayodhya; the images in the sanctum keep that association at the centre of worship. Spend a little time with the courtyard and its architecture before approaching for darshan. Pair it with another nearby temple only if the day still feels comfortable, allowing for the actual opening arrangements and the group’s energy."
+        },
+        {
+          "title": "An evening at Ram Ki Paidi",
+          "text": "Ram Ki Paidi is a series of ghats beside the Sarayu, with stepped edges and historic buildings shaping the riverfront. It gives an Ayodhya stay a different rhythm after the temple visits: a walk along the water, a place to pause, and time to watch the light change. Keep the length of the walk flexible and take care on steps near the water. Any aarti, lighting programme or festival gathering should be planned around current local arrangements."
+        }
+      ],
+      "practical": [
+        {
+          "title": "Let darshan set the order",
+          "text": "Confirm the current Ram Mandir entry process and any pass requirements before fixing transfers or additional visits. The route can then follow the available arrangements; a particular entry time or shortened queue is never assumed."
+        },
+        {
+          "title": "Talk through the stairs",
+          "text": "Hanuman Garhi involves a staircase, and Ram Ki Paidi has stepped water edges. Share walking and step limits while planning so the day can include suitable drop-off points, pauses and alternatives."
+        },
+        {
+          "title": "Give festivals their own plan",
+          "text": "A visit around Deepotsav or Ram Navami needs a fresh check of access, local movement and accommodation. Choose the dates deliberately; ordinary sightseeing arrangements may need to change around a major gathering."
+        }
+      ],
+      "season": "October to March is a useful starting window for planning. Adjust walking time for the actual forecast, and check festival dates separately. Summer visits need a lighter programme with breaks from the heat.",
+      "sources": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2193420&lang=2&reg=48",
+        "https://ayodhya.nic.in/tourist-place/hanuman-garhi/",
+        "https://ayodhya.nic.in/tourist-place/kanak-bhawan/",
+        "https://ayodhya.nic.in/tourist-place/ram-ki-paidi/",
+        "https://www.upstdc.co.in/website/ayodhya.aspx",
+        "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/ayodhya-deepotsav-20260"
+      ]
+    },
+    {
+      "slug": "agra",
+      "name": "Agra",
+      "region": "Uttar Pradesh",
+      "lead": "Begin with the Taj Mahal. Stay for the fort, the marble details and the view from the other side of the river.",
+      "intro": "The Taj Mahal can be the reason to come, while the rest of Agra gives it context. The red sandstone and marble of Agra Fort tell another part of the Mughal story. Across the Yamuna, Mehtab Bagh changes your perspective on the Taj, and Itimad-ud-Daulah rewards a closer look at carved screens and inlay. Two nights is a useful planning suggestion for a full monument day with room to rest, adjusted around your connections and the Taj’s Friday closure.",
+      "hero": "/images/agra-doorway.webp",
+      "heroAlt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+      "heroCaption": "A first view of the Taj · Agra",
+      "visits": [
+        {
+          "title": "The Taj in the morning light",
+          "text": "An early Taj Mahal visit lets the changing light become part of the experience. Begin with the long view through the gardens, then slow down for the marble surfaces, carved details and the building’s relationship with the river. Sunrise is a worthwhile choice, with visibility and weather always shaping the result. Allow for the entrance process and walking within the complex. The Taj is closed to general sightseeing on Fridays, so this visit should determine the order of your Agra stay."
+        },
+        {
+          "title": "Inside the walls of Agra Fort",
+          "text": "Agra Fort is a walled imperial complex where Akbar’s red sandstone meets later white-marble work associated with Shah Jahan. Moving through its courtyards and halls gives the city’s Mughal history a sense of scale and daily life. Choose a measured route through the areas open to visitors and look for the relationship between the fort, the Yamuna and the Taj beyond. A break between the two major monuments makes it easier to notice the architecture of each."
+        },
+        {
+          "title": "Across the river at Mehtab Bagh",
+          "text": "Mehtab Bagh faces the Taj Mahal from the opposite bank of the Yamuna. The garden’s paths and alignment offer a wider view, with the monument read as part of the river landscape. Consider it for the later part of the day, allowing enough time to cross the river and enter before the garden closes. Light and visibility vary, so treat the visit as time in the garden as well as a chance to make a photograph."
+        },
+        {
+          "title": "A closer look at Itimad-ud-Daulah",
+          "text": "Commissioned by Nur Jahan for her father, Itimad-ud-Daulah’s tomb invites a close look at white marble, patterned inlay and finely carved jali screens. Its smaller scale makes the individual details easier to linger over. Walk around the mausoleum to see how light passes through the stonework, then allow time for the garden around it. This is a good addition for travellers interested in craftsmanship, and can be considered alongside Mehtab Bagh when planning time across the river."
+        }
+      ],
+      "practical": [
+        {
+          "title": "Plan around Friday",
+          "text": "Keep the Taj Mahal on a day from Saturday to Thursday. If Friday is your only full day in Agra, check whether arrival or departure leaves enough time for the Taj, or adjust the stay before booking connections."
+        },
+        {
+          "title": "Give each bank enough time",
+          "text": "Mehtab Bagh and Itimad-ud-Daulah sit across the Yamuna from the Taj and fort. Group those visits thoughtfully and include the transfer; a late departure from one monument can leave too little time at the next."
+        },
+        {
+          "title": "Check the monument details",
+          "text": "Admission categories, opening arrangements and permitted belongings should be checked against the official visitor information near your visit. Keep walking distances and a midday rest in mind when pairing the Taj with Agra Fort."
+        }
+      ],
+      "season": "October to March is the usual planning window recommended by the official Taj Mahal visitor guide. Morning light is appealing, but weather and visibility remain variable. In hotter months, favour shorter outdoor visits and a generous midday break.",
+      "sources": [
+        "https://tajmahal.gov.in/faqs.aspx",
+        "https://agra.nic.in/tourism/",
+        "https://agra.nic.in/tourist-place/agra-fort/",
+        "https://agra.nic.in/tourist-place/mehtab-bagh/",
+        "https://agra.nic.in/tourist-place/tomb-of-itimad-ud-daulah-baby-taj/",
+        "https://www.incredibleindia.gov.in/en/uttar-pradesh/agra/itimad-ud-daulahs-tomb"
+      ]
+    },
+    {
+      "slug": "bodh-gaya",
+      "name": "Bodh Gaya",
+      "region": "Bihar",
+      "lead": "Make room for the Mahabodhi Temple, the Bodhi Tree and the Buddhist traditions gathered around them.",
+      "intro": "Bodh Gaya is a place to give a few visits more time. The Mahabodhi Temple complex is the central focus, associated with the Buddha’s enlightenment and recognised as a UNESCO World Heritage Site. Monasteries from different Buddhist traditions extend the experience into the town. Two nights is a useful starting suggestion for a temple visit, a small selection of monasteries and a quiet interval between them. Gaya’s Hindu pilgrimage sites belong to a separate visit, planned around your own interests.",
+      "hero": "/images/bodhgaya-spire.webp",
+      "heroAlt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+      "heroCaption": "Mahabodhi Temple · Bodh Gaya",
+      "visits": [
+        {
+          "title": "Mahabodhi Temple and the Bodhi Tree",
+          "text": "The Mahabodhi Temple complex centres on the place associated with the Buddha’s enlightenment. Its tall brick temple, sacred Bodhi Tree and smaller votive stupas make a visit richer when you allow time beyond the first view. Walk through the permitted areas, observe the practices around you and leave an interval simply to sit. This remains an active place of worship. Follow the current visitor instructions, dress respectfully and keep photographs secondary to the space people need for prayer."
+        },
+        {
+          "title": "The Thai Monastery",
+          "text": "The Thai Monastery brings another architectural language to Bodh Gaya, with an ornate roofline and an interior containing a Buddha image and painted scenes. It is a useful first choice when selecting from the town’s international monasteries. Give the building time as a working religious space: notice the details, follow the etiquette at the entrance and keep voices low. Confirm visitor access on the day, and choose any further monastery around your interests and the community’s current arrangements."
+        },
+        {
+          "title": "The Great Buddha statue",
+          "text": "The seated Great Buddha is a distinct stop within Bodh Gaya’s Buddhist landscape. Its garden setting and surrounding figures offer a different scale from the carved temple tower. Pause for the complete view, then spend a little time with the smaller sculptures and the setting around the statue. It pairs well with a modest monastery programme, leaving the Mahabodhi visit its own space in the day. Check the current opening arrangements before setting out, especially around a midday break."
+        }
+      ],
+      "practical": [
+        {
+          "title": "Check the temple’s current rules",
+          "text": "Confirm electronics, camera and entry arrangements with the Mahabodhi managing authority close to the visit. Follow posted directions on footwear and photography, and allow time to organise belongings before entering."
+        },
+        {
+          "title": "Choose a few monasteries",
+          "text": "Monasteries are working religious communities, with access shaped by their own programmes. Select a small number that interest you and confirm access locally, keeping space between visits rather than treating every monastery as a required stop."
+        },
+        {
+          "title": "Keep Gaya a separate choice",
+          "text": "Vishnupad Temple and ancestral rites in Gaya have a different purpose from Bodh Gaya’s Buddhist visits. If they are important to your journey, allow additional time and confirm the relevant access and ritual arrangements separately."
+        }
+      ],
+      "season": "Bihar Tourism identifies September to April as a broad visiting season. Choose your dates with the forecast and the amount of outdoor time in mind. Temple ceremonies and teaching programmes require their own checks; a particular event is never assumed to be available.",
+      "sources": [
+        "https://whc.unesco.org/en/list/1056/",
+        "https://tourism.bihar.gov.in/in/en/home/destinations/gaya/mahabodhi-temple",
+        "https://gaya.nic.in/places-of-interest/",
+        "https://tourism.bihar.gov.in/content/dam/bihar-tourism/catalogue/ready-reckoner-2.pdf",
+        "https://bodhgayatemple.com/"
+      ]
+    }
+  ]
+}

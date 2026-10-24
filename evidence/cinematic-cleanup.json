@@ -1,0 +1,84 @@
+{
+  "recorded_at": "2026-10-24T16:04:17.955766+00:00",
+  "scope": "D:\\Digiocular\\Websites\\india-travel-homepage",
+  "revision_start_free_bytes": {
+    "C": 76012974080,
+    "D": 36805107712
+  },
+  "after_free_bytes": {
+    "C": 75905998848,
+    "D": 36614111232
+  },
+  "removed": [
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media\\hero-film\\37350308-original.mp4",
+      "bytes": 31576382,
+      "sha256": "9cc71815d390e7049edcf0effc7083adc89cc0802f40a62fedd6d05d243a5e0d",
+      "reason": "Task-owned downloaded candidate was visually inspected and not used in either deliverable. Its source URL, dimensions and checksum remain recorded; no source dependency or unique user material."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media\\hero-film\\36631923-original.mp4",
+      "bytes": 14387571,
+      "sha256": "f79f93c30951cb111256e42727b02a72dd6e894d7b213fd3fab301c5b29fa847",
+      "reason": "Task-owned downloaded candidate was visually inspected and not used in either deliverable. Its source URL, dimensions and checksum remain recorded; no source dependency or unique user material."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-ayodhya.jpg",
+      "bytes": 220571,
+      "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-ayodhya-reference.jpg",
+      "bytes": 139669,
+      "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-source-captions.json",
+      "bytes": 2553,
+      "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-candidates.jpg",
+      "bytes": 414134,
+      "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+    }
+  ],
+  "removed_bytes": 46740880,
+  "archive_integrity": [
+    {
+      "removed_path": "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\images\\ayodhya-ram-mandir.webp",
+      "reason": "Attribution-required asset retired from public website; no active app/components/content reference; exact licensed recovery copy retained",
+      "bytes": 195936,
+      "retained_copy": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media-archive\\ayodhya-ram-mandir.webp",
+      "sha256": "3af325145920c38c67bc31cc11e672cf8d2be218cf48ed8581a5ab6eea0fa076",
+      "retained_copy_verified": true
+    },
+    {
+      "removed_path": "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\images\\gaya-vishnupad.webp",
+      "reason": "Attribution-required asset retired from public website; no active app/components/content reference; exact licensed recovery copy retained",
+      "bytes": 105636,
+      "retained_copy": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media-archive\\gaya-vishnupad.webp",
+      "sha256": "dc8b149f84ea0eca82001d162f9104511131be6306c77001e65f334d9d069871",
+      "retained_copy_verified": true
+    }
+  ],
+  "certificate": {
+    "sha256": "bf75cd7ef9dd4edf6b39053ec65cdcb7a2c5c5d17923339759676bb762aa8ac4",
+    "unchanged": true,
+    "excluded_from_publication": true
+  },
+  "retained": [
+    "Editable website code, dependencies and the active production build",
+    "Selected unmodified film original and its rebuild scripts",
+    "Source and licence records, selected photographs and brand exports",
+    "Browser verification evidence including the recorded harness fixes",
+    "User-supplied registration PDF and exact retired-image recovery copies"
+  ],
+  "notes": [
+    "Cleanup was completed by the media tasks; paths and nonexistence rechecked at closeout.",
+    "No further files were positively identified as disposable. No blanket cache or temporary-directory purge.",
+    "Archived images are retained recovery material and are not counted as reclaimed space.",
+    "Free-space change also reflects new assets and build/evidence files, not only removed bytes.",
+    "All 14 pages and current image dependencies passed Chromium and WebKit browser checks after media cleanup."
+  ]
+}

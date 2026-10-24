@@ -1,0 +1,257 @@
+{
+  "recorded_at": "2026-10-24T15:52:00.051601+00:00",
+  "project": "Tourmelloh website hero film",
+  "status": "Delivered media; website integration and its accessibility controls belong to the root implementation task.",
+  "selected_source": {
+    "platform": "Pexels",
+    "asset_id": "36631860",
+    "title": "Serene Sunrise at Varanasi Ghats",
+    "creator": "Arto Suraj",
+    "page_url": "https://www.pexels.com/video/serene-sunrise-at-varanasi-ghats-36631860/",
+    "download_endpoint": "https://www.pexels.com/download/video/36631860/",
+    "resolved_download_url": "https://videos.pexels.com/video-files/36631860/15530632_3840_2160_24fps.mp4",
+    "source_file": "research/media/hero-film/36631860-original.mp4",
+    "source_sha256": "aac7f97f1dffcf0bfb092e3076632b0c402939f229f22e43609ff666460a2a20",
+    "source_bytes": 69135619,
+    "source_width": 3840,
+    "source_height": 2160,
+    "source_fps": 24,
+    "source_seconds": 15.333333,
+    "location_basis": "Source identifies the Ganges and Varanasi Ghats. Actual frames show Varanasi riverfront masonry, ghats, boats and gulls. The visible sign reads Niranjani Ghat; no stronger landmark claim is added to the site.",
+    "type": "Real-world stock footage; no generative images or video were created or inserted.",
+    "authenticity_basis": [
+      "Named stock contributor and geographically identified original source page.",
+      "Pexels explicitly prohibits generative-AI uploads.",
+      "Frames and continuous motion were visually inspected; stable buildings, river and birds are visible. This is not a forensic camera-authenticity certification."
+    ],
+    "camera_claim": "No verified camera model for selected source. Sony/S-Log tags were present on a different candidate only; they are not camera proof and are not claimed publicly."
+  },
+  "license": {
+    "name": "Pexels License",
+    "checked_date": "2026-10-24",
+    "url": "https://www.pexels.com/license/",
+    "commercial_use_proof": "https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project",
+    "generative_ai_upload_policy": "https://help.pexels.com/hc/en-us/articles/27453505326873-Can-I-upload-generative-AI-photos-and-videos-to-Pexels",
+    "no_attribution_quote": "Attribution is not required.",
+    "commercial_use_quote": "Yes, all photos and videos on Pexels are free for commercial use.",
+    "rights_summary": "The current Pexels license permits free use, editing, website use and marketing. A visible photographer credit or CC badge is not required. Attribution and provenance are retained internally in this record.",
+    "conditions_respected": [
+      "Do not resell unaltered footage as stock or a standalone product.",
+      "Do not imply the contributor or depicted people endorse Tourmelloh.",
+      "Do not use imagery as a trademark or put identifiable people in an offensive context."
+    ],
+    "creator_profile_note": "One candidate page exposes the creator request not to use photos for standalone sales or prints. This delivery is an edited travel-website background, not a standalone photo sale or print."
+  },
+  "edit": {
+    "engine": "FFmpeg libx264 CPU encoding, one encode at a time through shared renderlock.py, maximum 3 encoder threads.",
+    "rebuild_script": "research/media/hero-film/build-hero.py",
+    "duration_seconds": 14.333333,
+    "fps": 24,
+    "frames": 344,
+    "audio": "No audio stream",
+    "loop": "Source frames 24..367 play first; the final 24 output frames dissolve over one second into source frames 0..23. Browser replay advances from that head into source frame 24. No hard-cut tail or frozen hold.",
+    "transition_note": "The one-second wrap is a conventional soft dissolve, including natural double exposure during the blend. It is not an invisible match-moved transition.",
+    "grading": "Subtle contrast 1.035 and saturation 1.035; native color otherwise preserved. No synthetic scenery, logos, text or credit overlays.",
+    "desktop": {
+      "width": 1920,
+      "height": 1080,
+      "crf": 26,
+      "maxrate": "6500k",
+      "bufsize": "13000k",
+      "full_frame": true
+    },
+    "mobile": {
+      "width": 720,
+      "height": 1280,
+      "crf": 27,
+      "maxrate": "2800k",
+      "bufsize": "5600k",
+      "source_crop": {
+        "x": 2020,
+        "y": 0,
+        "width": 1216,
+        "height": 2160
+      },
+      "wide_poster_object_position": "77% center approximately matches the portrait crop"
+    },
+    "encoding": "H.264 high profile, level 4.1, yuv420p, fast-start metadata, keyframe interval 48, no source metadata or data track in delivery."
+  },
+  "deliverables": [
+    {
+      "path": "public/videos/varanasi-desktop.mp4",
+      "sha256": "a3fa83886df6f655890f7c9392ea5c5f95c49a2422db22f62c27726157c4a48a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "nb_frames": "344"
+          }
+        ],
+        "format": {
+          "duration": "14.333333",
+          "size": "11987952"
+        }
+      },
+      "decoded_frames": 344,
+      "min_mean_luma": 139.5741729736328,
+      "min_adjacent_frame_change": 3.0436978340148926,
+      "median_adjacent_frame_change": 5.480520725250244,
+      "max_adjacent_frame_change": 7.986892223358154,
+      "loop_seam_frame_change": 6.618229389190674,
+      "freeze_frame_pairs": 0,
+      "browser": {
+        "autoplay": {
+          "time": 0.246444,
+          "width": 1920,
+          "height": 1080,
+          "muted": true,
+          "paused": false,
+          "ready": 4,
+          "duration": 14.333333
+        },
+        "after_loop": {
+          "time": 0.893518,
+          "paused": false,
+          "ready": 4,
+          "frames": 36,
+          "dropped": 0
+        },
+        "page_errors": [],
+        "loop_observed": true
+      }
+    },
+    {
+      "path": "public/videos/varanasi-mobile.mp4",
+      "sha256": "c4eed4a37f15ab8752543ebf1dd55c7f9902f8071bf7de7f59a10f7bd13f7efd",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1280,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "nb_frames": "344"
+          }
+        ],
+        "format": {
+          "duration": "14.333333",
+          "size": "4984126"
+        }
+      },
+      "decoded_frames": 344,
+      "min_mean_luma": 120.64221954345703,
+      "min_adjacent_frame_change": 3.0210070610046387,
+      "median_adjacent_frame_change": 6.553072929382324,
+      "max_adjacent_frame_change": 12.180243492126465,
+      "loop_seam_frame_change": 5.505069255828857,
+      "freeze_frame_pairs": 0,
+      "browser": {
+        "autoplay": {
+          "time": 0.219963,
+          "width": 720,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "ready": 4,
+          "duration": 14.333333
+        },
+        "after_loop": {
+          "time": 0.921651,
+          "paused": false,
+          "ready": 4,
+          "frames": 36,
+          "dropped": 0
+        },
+        "page_errors": [],
+        "loop_observed": true
+      }
+    }
+  ],
+  "poster": {
+    "path": "public/images/varanasi-film-poster.webp",
+    "bytes": 144748,
+    "sha256": "44d27265383ce90d5e24a71ec90d22d9969a8a6594b26b9d69788af92e7a5999",
+    "width": 1920,
+    "height": 1080,
+    "frame": "First frame of encoded desktop film"
+  },
+  "visual_review": {
+    "source_sheet": "research/media/hero-film/source-contact-sheet.jpg",
+    "desktop_sheet": "research/media/hero-film/varanasi-desktop-contact-sheet.jpg",
+    "mobile_sheet": "research/media/hero-film/varanasi-mobile-contact-sheet.jpg",
+    "inspected_times_seconds": [
+      0,
+      6,
+      12.9,
+      13.35,
+      13.8,
+      14.29
+    ],
+    "result": "Read both rendered contact sheets. Architecture remains in the portrait crop, river and boats remain visible; no added typography, credits or watermark. The visible one-second dissolve is intentional."
+  },
+  "other_candidates": [
+    {
+      "id": "37350308",
+      "url": "https://www.pexels.com/video/scenic-aerial-view-of-varanasi-ghats-at-sunrise-37350308/",
+      "download_url": "https://videos.pexels.com/video-files/37350308/15821150_3840_2160_25fps.mp4",
+      "sha256": "9cc71815d390e7049edcf0effc7083adc89cc0802f40a62fedd6d05d243a5e0d",
+      "bytes": 31576382,
+      "reason_not_used": "Flat/log-like tonality and weaker architecture. Actual view is river level despite aerial tags. Sony/S-Log source tags not treated as verified camera provenance. Original task-owned candidate download removed after selection."
+    },
+    {
+      "id": "36631923",
+      "url": "https://www.pexels.com/video/serene-boat-ride-on-ganges-at-twilight-36631923/",
+      "download_url": "https://videos.pexels.com/video-files/36631923/15530672_3840_2160_50fps.mp4",
+      "sha256": "f79f93c30951cb111256e42727b02a72dd6e894d7b213fd3fab301c5b29fa847",
+      "bytes": 14387571,
+      "reason_not_used": "Too short and underexposed for the chosen continuous film. Original task-owned candidate download removed after selection."
+    }
+  ],
+  "prompt_library_review": {
+    "slugs": [
+      "demitiyageekzen-7770ad",
+      "twoclipping-d89be5"
+    ],
+    "application": "Read per motion-stack workflow. General continuous-glide principle considered; no prompt composition, code, graphics or footage reused. The deliverable is a licensed real-world stock edit."
+  },
+  "cleanup": {
+    "total_download_bytes": 115099572,
+    "under_250_mb_download_budget": true,
+    "before_free_bytes": {
+      "C": 75987230720,
+      "D": 36674420736
+    },
+    "after_free_bytes": {
+      "C": 75987230720,
+      "D": 36720390144
+    },
+    "removed": [
+      {
+        "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media\\hero-film\\37350308-original.mp4",
+        "bytes": 31576382,
+        "sha256": "9cc71815d390e7049edcf0effc7083adc89cc0802f40a62fedd6d05d243a5e0d",
+        "reason": "Task-owned downloaded candidate was visually inspected and not used in either deliverable. Its source URL, dimensions and checksum remain recorded; no source dependency or unique user material."
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media\\hero-film\\36631923-original.mp4",
+        "bytes": 14387571,
+        "sha256": "f79f93c30951cb111256e42727b02a72dd6e894d7b213fd3fab301c5b29fa847",
+        "reason": "Task-owned downloaded candidate was visually inspected and not used in either deliverable. Its source URL, dimensions and checksum remain recorded; no source dependency or unique user material."
+      }
+    ],
+    "removed_bytes": 45963953,
+    "retained": "Selected unmodified 69.1 MB original, source/download checksums, build/check scripts, contact sheets, final films and poster. No temporary render tree was created."
+  },
+  "publication_scope": "Only public/videos/*.mp4 and public/images/varanasi-film-poster.webp are intended web assets. Raw source and research/media are internal. Root owns Git/Vercel exclusions and actual page integration."
+}

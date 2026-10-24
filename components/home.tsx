@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Navigation } from "@/components/navigation";
 import { Hero } from "@/components/hero";
-import { VaranasiEdit, Approach } from "@/components/editorial";
+import { VaranasiEdit } from "@/components/editorial";
 import { Destinations } from "@/components/destinations";
 import { Journeys } from "@/components/journeys";
 import { Planner } from "@/components/planner";
@@ -52,7 +52,7 @@ export function Home() {
   }
   return (
     <>
-      <Navigation />
+      <Navigation tone="paper" />
       <main id="main">
         <Hero
           onExplore={(destination, value) => {
@@ -63,8 +63,8 @@ export function Home() {
             goTo("journeys");
           }}
         />
-        <VaranasiEdit />
         <Destinations onPlan={onPlan} />
+        <VaranasiEdit />
         <Journeys
           category={category}
           setCategory={setCategory}
@@ -72,19 +72,6 @@ export function Home() {
           clearDestination={() => setFilterDestination("")}
           onPlan={onPlan}
         />
-        <Approach />
-        <section className="slow-moment" aria-label="A moment by the river">
-          <div className="slow-moment-image" />
-          <div className="page-width">
-            <span className="eyebrow">THE MOMENTS BETWEEN THE MILESTONES</span>
-            <p>
-              Sometimes, the best part
-              <br />
-              is just <em>being there.</em>
-            </p>
-            <span className="slow-caption">EVENING ON THE GANGA, VARANASI</span>
-          </div>
-        </section>
         <Planner
           selectedDestination={planDestination}
           requestId={planRequest}
@@ -95,7 +82,7 @@ export function Home() {
           aria-labelledby="faq-heading"
         >
           <div>
-            <span className="eyebrow">A FEW THINGS YOU MIGHT BE WONDERING</span>
+            <span className="eyebrow">A FEW PRACTICAL THINGS</span>
             <h2 id="faq-heading">
               Before <br />
               <em>you set off.</em>

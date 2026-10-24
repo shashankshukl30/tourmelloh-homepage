@@ -13,6 +13,9 @@ const pageTitles: Record<string, string> = {
   sacred: "Along the Sacred Rivers | Six Days with Tourmelloh",
   buddhist: "The Road to Bodh Gaya | Buddhist Trails by Tourmelloh",
   heritage: "Awadh, Agra & Braj | Seven Days Across India with Tourmelloh",
+  ayodhya: "Ayodhya at Your Own Pace | Three Days with Tourmelloh",
+  lucknow: "A Weekend in Lucknow | Awadhi Heritage with Tourmelloh",
+  braj: "Taj Mahal & the Lanes of Braj | Four Days with Tourmelloh",
 };
 
 export function generateStaticParams() {

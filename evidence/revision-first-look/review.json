@@ -1,0 +1,309 @@
+{
+  "reviewed_at": "2026-10-24T15:52:58.450014+00:00",
+  "url": "http://127.0.0.1:3108",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 960,
+      "status": 200,
+      "metrics": {
+        "viewport": 1440,
+        "body": 1440,
+        "html": 1440,
+        "heading": [
+          {
+            "text": "Begin in Kashi.Go a little further.",
+            "size": "109.44px",
+            "lineHeight": "107.251px",
+            "width": 1275.65625
+          },
+          {
+            "text": "Find your somewhere.",
+            "size": "74.88px",
+            "lineHeight": "77.8752px",
+            "width": 628.015625
+          },
+          {
+            "text": "Four days.A thousand stories.",
+            "size": "72px",
+            "lineHeight": "74.88px",
+            "width": 613.890625
+          },
+          {
+            "text": "A few ways to go.",
+            "size": "74.88px",
+            "lineHeight": "77.8752px",
+            "width": 486.515625
+          },
+          {
+            "text": "Your Indiabegins witha conversation.",
+            "size": "82.08px",
+            "lineHeight": "85.3632px",
+            "width": 596.15625
+          },
+          {
+            "text": "Before you set off.",
+            "size": "65px",
+            "lineHeight": "67.6px",
+            "width": 507.125
+          }
+        ],
+        "fontLoaded": "loaded"
+      },
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "time": 3.988158,
+        "paused": false,
+        "width": 1920,
+        "height": 1080
+      },
+      "search": {
+        "url": "http://127.0.0.1:3108/",
+        "headings": [
+          "Begin in Kashi.Go a little further.",
+          "Find your somewhere.",
+          "Four days.A thousand stories.",
+          "A few ways to go.",
+          "Your Indiabegins witha conversation.",
+          "Before you set off."
+        ],
+        "text_excerpt": "Play film\n\nRooted in Varanasi. Open to India.\n\nBegin in Kashi.\nGo a little further.\n\nThe river at first light. Cities with a thousand stories.\nIndia, experienced at your own pace.\n\nExplore the places\nOn the Ganga\nVaranasi, India\nWHERE TO NEXT?\nFollow your curiosity.\nA place on your mind\nAnywhere in India\nVaranasi\nAyodhya\nAgra\nPrayagraj\nLucknow\nBodhgaya\nVrindavan\nGaya\nWhat brings you here?\nA bit of everything\nSacred journeys\nCulture & heritage\nBuddhist trails\nFind my journey\nPLACES WITH A PULL\nFind your somewhere.\n\nAncient river cities, quiet courtyards, extraordinary architecture. Eight places we\u2019d put on your map.\n\nTHE RIVER & THE RITUAL\nVaranasi\n\nFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time.\n\nExplore a journey here\n\nWhere would you like to begin?\n\n01\nVaranasi\n02\nAyodhya\n03\nAgra\n04\nPrayagraj\n0"
+      },
+      "page_errors": [],
+      "screenshots": [
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\1440-finder.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\1440-atlas.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\1440-kashi.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\1440-routes.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\1440-planner.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\1440-footer.png"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "metrics": {
+        "viewport": 390,
+        "body": 390,
+        "html": 390,
+        "heading": [
+          {
+            "text": "Begin in Kashi.Go a little further.",
+            "size": "48px",
+            "lineHeight": "49.44px",
+            "width": 326
+          },
+          {
+            "text": "Find your somewhere.",
+            "size": "52px",
+            "lineHeight": "54.08px",
+            "width": 346
+          },
+          {
+            "text": "Four days.A thousand stories.",
+            "size": "52px",
+            "lineHeight": "54.08px",
+            "width": 346
+          },
+          {
+            "text": "A few ways to go.",
+            "size": "52px",
+            "lineHeight": "54.08px",
+            "width": 346
+          },
+          {
+            "text": "Your Indiabegins witha conversation.",
+            "size": "60.06px",
+            "lineHeight": "62.4624px",
+            "width": 346
+          },
+          {
+            "text": "Before you set off.",
+            "size": "55px",
+            "lineHeight": "57.2px",
+            "width": 346
+          }
+        ],
+        "fontLoaded": "loaded"
+      },
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "time": 3.683296,
+        "paused": false,
+        "width": 720,
+        "height": 1280
+      },
+      "search": {
+        "url": "http://127.0.0.1:3108/",
+        "headings": [
+          "Begin in Kashi.Go a little further.",
+          "Find your somewhere.",
+          "Four days.A thousand stories.",
+          "A few ways to go.",
+          "Your Indiabegins witha conversation.",
+          "Before you set off."
+        ],
+        "text_excerpt": "Rooted in Varanasi. Open to India.\n\nBegin in Kashi.\nGo a little further.\n\nThe river at first light. Cities with a thousand stories. India, experienced at your own pace.\n\nExplore the places\nOn the Ganga\nVaranasi, India\nWHERE TO NEXT?\nFollow your curiosity.\nA place on your mind\nAnywhere in India\nVaranasi\nAyodhya\nAgra\nPrayagraj\nLucknow\nBodhgaya\nVrindavan\nGaya\nWhat brings you here?\nA bit of everything\nSacred journeys\nCulture & heritage\nBuddhist trails\nFind my journey\nPLACES WITH A PULL\nFind your somewhere.\n\nAncient river cities, quiet courtyards, extraordinary architecture. Eight places we\u2019d put on your map.\n\nTHE RIVER & THE RITUAL\nVaranasi\n\nFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time.\n\nRead the destination guide\n\nWhere would you like to begin?\n\n01\nVaranasi\n02\nAyodhya\n03\nAgra\n04\nPrayagraj\n05\nLuckn"
+      },
+      "page_errors": [],
+      "screenshots": [
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\390-finder.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\390-atlas.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\390-kashi.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\390-routes.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\390-planner.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\390-footer.png"
+      ]
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "status": 200,
+      "metrics": {
+        "viewport": 320,
+        "body": 320,
+        "html": 320,
+        "heading": [
+          {
+            "text": "Begin in Kashi.Go a little further.",
+            "size": "44px",
+            "lineHeight": "45.32px",
+            "width": 264
+          },
+          {
+            "text": "Find your somewhere.",
+            "size": "52px",
+            "lineHeight": "54.08px",
+            "width": 276
+          },
+          {
+            "text": "Four days.A thousand stories.",
+            "size": "52px",
+            "lineHeight": "54.08px",
+            "width": 276
+          },
+          {
+            "text": "A few ways to go.",
+            "size": "52px",
+            "lineHeight": "54.08px",
+            "width": 276
+          },
+          {
+            "text": "Your Indiabegins witha conversation.",
+            "size": "49.28px",
+            "lineHeight": "51.2512px",
+            "width": 276
+          },
+          {
+            "text": "Before you set off.",
+            "size": "55px",
+            "lineHeight": "57.2px",
+            "width": 276
+          }
+        ],
+        "fontLoaded": "loaded"
+      },
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "time": 2.583212,
+        "paused": false,
+        "width": 720,
+        "height": 1280
+      },
+      "search": {
+        "url": "http://127.0.0.1:3108/",
+        "headings": [
+          "Begin in Kashi.Go a little further.",
+          "Find your somewhere.",
+          "Four days.A thousand stories.",
+          "A few ways to go.",
+          "Your Indiabegins witha conversation.",
+          "Before you set off."
+        ],
+        "text_excerpt": "Rooted in Varanasi. Open to India.\n\nBegin in Kashi.\nGo a little further.\n\nThe river at first light. Cities with a thousand stories. India, experienced at your own pace.\n\nExplore the places\nOn the Ganga\nVaranasi, India\nWHERE TO NEXT?\nFollow your curiosity.\nA place on your mind\nAnywhere in India\nVaranasi\nAyodhya\nAgra\nPrayagraj\nLucknow\nBodhgaya\nVrindavan\nGaya\nWhat brings you here?\nA bit of everything\nSacred journeys\nCulture & heritage\nBuddhist trails\nFind my journey\nPLACES WITH A PULL\nFind your somewhere.\n\nAncient river cities, quiet courtyards, extraordinary architecture. Eight places we\u2019d put on your map.\n\nTHE RIVER & THE RITUAL\nVaranasi\n\nFollow the river at first light, wander the old city and leave an afternoon for Sarnath. Varanasi reveals itself one small moment at a time.\n\nRead the destination guide\n\nWhere would you like to begin?\n\n01\nVaranasi\n02\nAyodhya\n03\nAgra\n04\nPrayagraj\n05\nLuckn"
+      },
+      "page_errors": [],
+      "screenshots": [
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\320-finder.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\320-atlas.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\320-kashi.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\320-routes.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\320-planner.png",
+        "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-first-look\\320-footer.png"
+      ]
+    }
+  ],
+  "completed_at": "2026-10-24T15:55:09.317991+00:00",
+  "findings": [
+    {
+      "severity": "high",
+      "id": "mobile-route-grid-column",
+      "status": "fixed_and_visually_verified_390_320",
+      "widths": [
+        390,
+        320
+      ],
+      "description": "Desktop heading column 2 persists at the mobile breakpoint, creating an implicit grid column; photo, meta, route and description in column 1 collapse. At 390 px the computed tracks were 0px 346px and the first card was 970.09px tall.",
+      "evidence": [
+        "390-routes.png",
+        "320-routes.png",
+        "390-routes-viewport.png"
+      ],
+      "suggestion": "Reset the h3 desktop grid-column assignment with matching specificity in the mobile rule; then verify each child has usable width.",
+      "recheck": "affected-recheck.json"
+    },
+    {
+      "severity": "medium",
+      "id": "desktop-hero-eyebrow-contrast",
+      "status": "fixed_and_verified_on_production_across_five_frames",
+      "widths": [
+        1440
+      ],
+      "description": "The 16px hero eyebrow sits over the pale river film at desktop y473..499. Adjacent pixels at source playback 3s measured approximately RGB 160/150/149, giving 2.5..2.7:1 contrast against the paper text. Lower paragraph had approximately 8.4:1.",
+      "evidence": [
+        "1440-hero.png"
+      ],
+      "suggestion": "Strengthen a localized overlay behind the eyebrow and first headline line while preserving scenic brightness elsewhere.",
+      "recheck": "production-final-independent.json"
+    },
+    {
+      "severity": "low",
+      "id": "atlas-inline-cta-spacing",
+      "status": "optional_polish",
+      "widths": [
+        390,
+        320
+      ],
+      "description": "Atlas footer renders Have somewhere else in mind?Tell us about it. without a visible separation; at 320 px the link wraps awkwardly.",
+      "evidence": [
+        "390-atlas.png",
+        "320-atlas.png"
+      ],
+      "suggestion": "Separate the helper sentence and link with a small gap or deliberate mobile line break."
+    }
+  ],
+  "passed_observations": [
+    "No document horizontal overflow at 1440, 390 or 320 px.",
+    "Correct desktop or portrait film loads and plays at every reviewed width; no page errors.",
+    "Large hero and section typography fit at 320 px.",
+    "Rounded hero, atlas image, Kashi image, planner and footer consistently render.",
+    "Kashi four-day section, planner controls and footer remain readable at 320 px.",
+    "Homepage finder applies destination/category and presents the expected useful empty state for Ayodhya plus Buddhist trails."
+  ],
+  "scope_notes": [
+    "Root and another agent were actively changing copy/routes during captures, so these are first-look observations rather than a frozen release audit.",
+    "Section-element screenshots include fixed-header and translated skip-link artifacts caused by screenshot clipping. Do not treat those composite positions as live layout defects. Hero/viewport captures show actual browser composition.",
+    "Footer credits intentionally omitted following latest explicit no-credits instruction; not a defect.",
+    "Search-index page checked separately in search-review.json, including seven-route/eight-destination reset count15."
+  ],
+  "cleanup": {
+    "scratch_files_created": false,
+    "retained": "Requested PNG visual evidence and JSON report only. Browser contexts closed. No disposable task files identified.",
+    "free_bytes": {
+      "C": 75969564672,
+      "D": 36691468288
+    }
+  },
+  "recheck_at": "2026-10-24T15:56:41.702089+00:00"
+}

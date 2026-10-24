@@ -81,7 +81,7 @@ export function Planner({
     >
       <div className="page-width planner-inner">
         <div className="planner-copy">
-          <span className="eyebrow">A LITTLE IDEA CAN GO A LONG WAY</span>
+          <span className="eyebrow">A JOURNEY OF YOUR OWN</span>
           <h2 id="planner-heading">
             Your India
             <br />
@@ -115,7 +115,7 @@ export function Planner({
               <span className="brief-check">
                 <Check size={24} />
               </span>
-              <span className="eyebrow">A STARTING POINT, JUST FOR YOU</span>
+              <span className="eyebrow">YOUR TRAVEL BRIEF</span>
               <h3>
                 Your journey is
                 <br />
@@ -204,7 +204,7 @@ export function Planner({
                 });
               }}
             >
-              <span className="eyebrow">LET’S SKETCH OUT A JOURNEY</span>
+              <span className="eyebrow">LET’S PLAN YOUR INDIA</span>
               <h3>What’s calling you?</h3>
               {chosenJourney && (
                 <div className="planner-chosen-journey">

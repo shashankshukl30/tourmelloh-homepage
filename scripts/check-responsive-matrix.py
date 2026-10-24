@@ -4,7 +4,7 @@ import os
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
-ROUTES = ['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/journeys/along-the-sacred-rivers', '/journeys/the-road-to-bodh-gaya', '/journeys/awadh-agra-and-braj', '/destinations/varanasi']
+ROUTES = ['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/journeys/along-the-sacred-rivers', '/journeys/the-road-to-bodh-gaya', '/journeys/awadh-agra-and-braj', '/destinations/varanasi','/journeys/ayodhya-at-your-own-pace','/journeys/a-weekend-in-lucknow','/journeys/taj-mahal-and-the-lanes-of-braj','/destinations/ayodhya','/destinations/agra','/destinations/bodh-gaya','/search']
 WIDTHS = [320, 360, 375, 390, 414, 430, 600, 700, 768, 820, 900, 1024, 1280, 1440, 1920]
 BASE = os.environ.get('REVIEW_BASE', 'http://127.0.0.1:3108')
 report = {'layouts': [], 'expanded_states': [], 'errors': []}
@@ -25,8 +25,7 @@ with sync_playwright() as p:
             })''')
             report['layouts'].append({'route':route,**result})
         page.set_viewport_size({'width':320,'height':740})
-        page.locator('.photo-credits summary').click()
-        report['expanded_states'].append({'route':route,'state':'Photo credits open at320','body':page.evaluate('document.body.scrollWidth'),'width':320})
+        report['expanded_states'].append({'route':route,'state':'Footer at320','body':page.evaluate('document.body.scrollWidth'),'width':320})
         if route=='/':
             for faq in page.locator('.faq-list summary').all(): faq.click()
             page.get_by_role('button',name='Quick overview',exact=True).first.click()

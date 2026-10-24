@@ -1,152 +1,65 @@
 "use client";
-
 import Image from "next/image";
-import { useRef, useState } from "react";
-import { ArrowLeft, ArrowRight, ArrowUpRight, X } from "lucide-react";
-import { destinations } from "@/content/travel";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { ArrowUpRight } from "lucide-react";
+import { destinations, journeys } from "@/content/travel";
 import { Reveal } from "@/components/reveal";
 
 export const imageNames: Record<string, string> = {
-  varanasi: "varanasi-riverfront",
-  ayodhya: "ayodhya-ram-mandir",
-  agra: "agra-taj-mahal",
-  prayagraj: "prayagraj-yamuna",
-  lucknow: "lucknow-rumi-darwaza",
-  bodhgaya: "bodhgaya-mahabodhi",
-  vrindavan: "vrindavan-madan-mohan",
-  gaya: "gaya-vishnupad",
+  varanasi: "varanasi-dawn", ayodhya: "ayodhya-riverfront",
+  agra: "agra-doorway", prayagraj: "prayagraj-river",
+  lucknow: "lucknow-imambara", bodhgaya: "bodhgaya-spire",
+  vrindavan: "vrindavan-prem-mandir",
 };
 const photoDescriptions: Record<string, string> = {
   varanasi: "Boats and historic ghats on the Ganga at Varanasi",
-  ayodhya: "Shri Ram Janambhoomi Mandir in Ayodhya",
-  agra: "The Taj Mahal and its reflecting pool in Agra",
-  prayagraj: "A boat on the Yamuna at Prayagraj, with Naini bridge beyond",
-  lucknow: "Rumi Darwaza in Lucknow",
-  bodhgaya: "The Mahabodhi Temple in Bodh Gaya",
-  vrindavan: "Madan Mohan Temple in Vrindavan",
-  gaya: "Vishnupad Temple in Gaya",
+  ayodhya: "The riverfront architecture of Ram Ki Paidi in Ayodhya",
+  agra: "The Taj Mahal framed through an archway in Agra", prayagraj: "The Yamuna at Prayagraj",
+  lucknow: "The Bara Imambara complex in Lucknow", bodhgaya: "Mahabodhi Temple in Bodh Gaya",
+  vrindavan: "Prem Mandir in Vrindavan",
 };
 
-export function Destinations({
-  onPlan,
-}: {
-  onPlan: (destination: string) => void;
-}) {
-  const rail = useRef<HTMLDivElement>(null);
-  const [selected, setSelected] = useState<string | null>(null);
-  const [position, setPosition] = useState({ start: true, end: false });
-  const detail = destinations.find((place) => place.name === selected);
-  const move = (direction: number) =>
-    rail.current?.scrollBy({
-      left: direction * (rail.current.clientWidth * 0.8),
-      behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? "instant"
-        : "smooth",
-    });
+export function Destinations({ onPlan }: { onPlan: (destination: string) => void }) {
+  const [selected, setSelected] = useState<string>("Varanasi");
+  useEffect(() => {
+    const place = new URLSearchParams(window.location.search).get("place");
+    if (place && destinations.some((item) => item.name === place)) setSelected(place);
+  }, []);
+  const place = destinations.find((item) => item.name === selected) ?? destinations[0];
+  const journey = journeys.find((item) => item.places.some((name) => name === place.name));
+  const guideSlug = ({ Varanasi: "varanasi", Ayodhya: "ayodhya", Agra: "agra", Bodhgaya: "bodh-gaya" } as Record<string,string>)[place.name];
   return (
-    <section
-      className="destinations-section section-space"
-      id="destinations"
-      aria-labelledby="destinations-heading"
-    >
-      <Reveal className="section-heading page-width">
-        <div>
-          <span className="eyebrow">
-            EIGHT PLACES TO BEGIN.
-          </span>
-          <h2 id="destinations-heading">
-            Where will India <em>take you?</em>
-          </h2>
-        </div>
-        <div className="rail-controls">
-          <button
-            aria-label="Previous destinations"
-            disabled={position.start}
-            onClick={() => move(-1)}
-          >
-            <ArrowLeft size={20} />
-          </button>
-          <button
-            aria-label="Next destinations"
-            disabled={position.end}
-            onClick={() => move(1)}
-          >
-            <ArrowRight size={20} />
-          </button>
-        </div>
+    <section className="atlas-section page-width" id="destinations" aria-labelledby="destinations-heading">
+      <Reveal className="atlas-heading">
+        <div><span className="eyebrow">PLACES WITH A PULL</span><h2 id="destinations-heading">Find your somewhere.</h2></div>
+        <p>Ancient river cities, quiet courtyards, extraordinary architecture. Eight places we’d put on your map.</p>
       </Reveal>
-      <div
-        className="destination-rail"
-        ref={rail}
-        onScroll={() => {
-          const el = rail.current;
-          if (el)
-            setPosition({
-              start: el.scrollLeft <= 2,
-              end: el.scrollLeft + el.clientWidth >= el.scrollWidth - 2,
-            });
-        }}
-      >
-        {destinations.map((place, i) => (
-          <button
-            className={`destination-card ${selected === place.name ? "is-selected" : ""}`}
-            key={place.name}
-            onClick={() =>
-              setSelected((current) =>
-                current === place.name ? null : place.name,
-              )
-            }
-            aria-expanded={selected === place.name}
-            aria-controls="destination-detail"
-          >
-            <div className="destination-photo">
-              <Image
-                src={`/images/${imageNames[place.image]}.webp`}
-                alt={photoDescriptions[place.image]}
-                fill
-                sizes="(max-width: 600px) 80vw, (max-width: 1000px) 42vw, 27vw"
-              />
-              <span className="destination-index">0{i + 1}</span>
-              <span className="destination-open">
-                <ArrowUpRight size={19} />
-              </span>
-            </div>
-            <div className="destination-copy">
-              <span className="eyebrow">{place.region}</span>
-              <h3>{place.name}</h3>
-              <p>{place.note}</p>
-            </div>
-          </button>
-        ))}
-      </div>
-      {detail && (
-        <div className="destination-detail page-width" id="destination-detail">
-          <div>
-            <span className="eyebrow">
-              A CLOSER LOOK AT {detail.name.toUpperCase()}
-            </span>
-            <h3>{detail.highlights}</h3>
-            <p>{detail.description}</p>
+      <div className="atlas-layout">
+        <div className="atlas-visual" id="destination-detail" aria-live="polite" aria-atomic="true">
+          <div className="atlas-photo">
+            {place.image !== "gaya" ? <Image key={place.image} src={`/images/${imageNames[place.image]}.webp`} alt={photoDescriptions[place.image]} fill sizes="(max-width: 700px) 90vw, 53vw" quality={90} />
+              : <div className="atlas-gaya"><span className="eyebrow">GAYA · BIHAR</span><p>A journey of<br /><em>remembrance.</em></p><span>Vishnupad. The Falgu. Family traditions.</span></div>}
+            <div className="atlas-photo-label"><span>{place.region}</span><h3>{place.name}</h3></div>
           </div>
-          <button className="text-link" onClick={() => onPlan(detail.name)}>
-            Plan for {detail.name} <ArrowUpRight size={18} />
-          </button>
-          <button
-            className="detail-close"
-            aria-label="Close destination details"
-            onClick={() => setSelected(null)}
-          >
-            <X size={20} />
-          </button>
+          <div className="atlas-description"><p>{place.description}</p>
+            {guideSlug && <Link href={`/destinations/${guideSlug}`} className="text-link">Read the destination guide <ArrowUpRight size={19} /></Link>}
+            {journey && !guideSlug && <Link href={`/journeys/${journey.slug}`} className="text-link">Explore a journey here <ArrowUpRight size={19} /></Link>}
+          </div>
         </div>
-      )}
-      <div className="destination-bottom page-width">
-        <span>
-          A closer look at North India. A starting point for the rest.
-        </span>
-        <a className="text-link" href="#plan">
-          Dreaming of somewhere else? <ArrowUpRight size={17} />
-        </a>
+        <div className="atlas-index">
+          <p className="atlas-index-title">Where would you like to begin?</p>
+          <div className="atlas-places" role="group" aria-label="Choose a destination">
+            {destinations.map((item,index) => <button key={item.name} type="button"
+              className={selected === item.name ? "is-selected" : ""}
+              onClick={() => setSelected(item.name)} aria-pressed={selected === item.name} aria-controls="destination-detail">
+              <span className="atlas-number">{String(index+1).padStart(2,"0")}</span>
+              <span>{item.name}</span><ArrowUpRight size={21} />
+            </button>)}
+          </div>
+          <button className="button atlas-plan" onClick={() => onPlan(place.name)} style={{ color: "var(--ink)" }}>Plan for {place.name} <ArrowUpRight size={19} /></button>
+          <p className="atlas-index-note">Have somewhere else in mind?<br />{" "}<a href="#plan">Tell us about it.</a></p>
+        </div>
       </div>
     </section>
   );

@@ -1,0 +1,15 @@
+{
+  "scope": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-destinations",
+  "before_free_bytes": {
+    "C:/": 75945725952,
+    "D:/": 36664901632
+  },
+  "removed": [],
+  "reason": "All files are task-owned browser evidence or the reproducible QA source; no disposable downloads or scratch files were created. Screenshots represent distinct page/viewport/capture scopes.",
+  "retained_bytes": 5051110,
+  "retained_count": 22,
+  "after_free_bytes": {
+    "C:/": 75945725952,
+    "D:/": 36664901632
+  }
+}

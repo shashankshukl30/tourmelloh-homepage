@@ -1,0 +1,400 @@
+{
+  "researched_on": "2026-10-24",
+  "scope": "Real photography upgrade with no mandatory on-page attribution; no AI imagery",
+  "license_verification": [
+    {
+      "url": "https://www.pexels.com/license/",
+      "checked": "2026-10-24",
+      "finding": "Pexels permits free website and marketing use, modification, and use without attribution. Endorsement may not be implied."
+    },
+    {
+      "url": "https://unsplash.com/license",
+      "checked": "2026-10-24",
+      "finding": "Unsplash permits commercial and noncommercial image use without permission or attribution. No competing image library or resale of unmodified stock."
+    }
+  ],
+  "processing": "EXIF orientation and proportional WebP conversion only. No generative edits, object removal, relighting, or composition changes. Downloaded originals decoded from memory and not duplicated on disk.",
+  "existing_asset_audit": [
+    {
+      "file": "varanasi-riverfront.webp",
+      "license": "https://unsplash.com/license",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "varanasi-evening.webp",
+      "license": "https://www.pexels.com/license/",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "varanasi-boats.webp",
+      "license": "https://www.pexels.com/license/",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "agra-taj-mahal.webp",
+      "license": "https://unsplash.com/license",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "lucknow-rumi-darwaza.webp",
+      "license": "https://unsplash.com/license",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "prayagraj-yamuna.webp",
+      "license": "https://unsplash.com/license",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "bodhgaya-mahabodhi.webp",
+      "license": "https://unsplash.com/license",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "vrindavan-madan-mohan.webp",
+      "license": "https://unsplash.com/license",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "ayodhya-ram-mandir.webp",
+      "license": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+      "attribution_required": true,
+      "action": "Archived outside public after references removed; exact source/license metadata preserved"
+    },
+    {
+      "file": "varanasi-aerial.webp",
+      "license": "https://www.pexels.com/license/",
+      "attribution_required": false,
+      "action": "Cleared for continued use without visible photo credit"
+    },
+    {
+      "file": "gaya-vishnupad.webp",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution_required": true,
+      "action": "Archived outside public after references removed; exact source/license metadata preserved"
+    }
+  ],
+  "new_assets": [
+    {
+      "file": "/images/varanasi-dawn.webp",
+      "source": "https://www.pexels.com/photo/scenic-view-of-boats-along-the-ganges-river-in-varanasi-36527284/",
+      "image": "https://images.pexels.com/photos/36527284/pexels-photo-36527284.jpeg?auto=compress&cs=tinysrgb&w=2200",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "Sayan Samanta",
+      "alt": "Wooden boats moored on the Ganges beside the Varanasi ghats in warm dawn light",
+      "recommended_use": "Preferred wide dawn / chronicle image",
+      "source_caption": "Vibrant boats moored on the Ganges River with Varanasi ghats in the background at dawn.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        3072,
+        2048
+      ],
+      "dimensions": [
+        2200,
+        1467
+      ],
+      "bytes": 326424,
+      "sha256": "eb72a370ffe4432bb9fc9315eafd4b73cf12fcbd005cdc403eecee326db7ca54"
+    },
+    {
+      "file": "/images/varanasi-mist.webp",
+      "source": "https://www.pexels.com/photo/boats-docked-on-a-shore-9206389/",
+      "image": "https://images.pexels.com/photos/9206389/pexels-photo-9206389.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "Parij Photography",
+      "alt": "Wooden boats resting on the misty Ganges at sunrise in Varanasi",
+      "recommended_use": "Quiet portrait for river experience and Kashi journey",
+      "source_caption": "Peaceful scene of docked boats on the Ganges River at sunrise in Varanasi, India.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        4000,
+        6000
+      ],
+      "dimensions": [
+        1400,
+        2100
+      ],
+      "bytes": 170856,
+      "sha256": "cc973159d48a439137749511e13b7d5e426ce29160dc2bac472e8c43c9b59628"
+    },
+    {
+      "file": "/images/varanasi-aarti.webp",
+      "source": "https://www.pexels.com/photo/ganga-aarti-ritual-at-varanasi-ghat-28556164/",
+      "image": "https://images.pexels.com/photos/28556164/pexels-photo-28556164.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "Dev Choubey",
+      "alt": "Priests raise flaming lamps during the evening Ganga aarti in Varanasi",
+      "recommended_use": "Accurate ceremony image for editorial moments; no implied personal endorsement",
+      "source_caption": "Priests perform Ganga Aarti ceremony on the banks of the Ganges River in Varanasi, India.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        2639,
+        3518
+      ],
+      "dimensions": [
+        1400,
+        1866
+      ],
+      "bytes": 147110,
+      "sha256": "49f92b7139b8fa68f939c7773c97479ad7349d9dee7eaf7b6292484e8934a134"
+    },
+    {
+      "file": "/images/varanasi-ghats-morning.webp",
+      "source": "https://www.pexels.com/photo/hindu-temple-on-the-bank-of-the-ganges-in-varanasi-16747088/",
+      "image": "https://images.pexels.com/photos/16747088/pexels-photo-16747088.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "Stijn Dijkstra",
+      "alt": "A riverside temple and ghats in Varanasi illuminated by morning light",
+      "recommended_use": "Tall architectural detail for destination page",
+      "source_caption": "Beautiful Varanasi temple by the Ganges River at sunrise showcasing rich cultural and architectural heritage.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        3955,
+        6850
+      ],
+      "dimensions": [
+        1400,
+        2425
+      ],
+      "bytes": 542158,
+      "sha256": "5804ba0ca8a65a3644522910c7f8c97864e43800511d6764d6d38786c383e6e6"
+    },
+    {
+      "file": "/images/agra-doorway.webp",
+      "source": "https://www.pexels.com/photo/taj-mahal-at-sunrise-19756404/",
+      "image": "https://images.pexels.com/photos/19756404/pexels-photo-19756404.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "vijesh vijayan",
+      "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+      "recommended_use": "Preferred Agra destination and Mughal heritage image",
+      "source_caption": "View of the Taj Mahal at sunrise from within an arched frame, capturing its iconic beauty.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        3265,
+        4898
+      ],
+      "dimensions": [
+        1400,
+        2100
+      ],
+      "bytes": 378836,
+      "sha256": "1e518c9beb9a480bc8919fd2563aa1c9763343eed86f391d8a3a5ae3cd535d19"
+    },
+    {
+      "file": "/images/lucknow-imambara.webp",
+      "source": "https://www.pexels.com/photo/historic-bara-imambara-in-lucknow-framed-by-arch-39012161/",
+      "image": "https://images.pexels.com/photos/39012161/pexels-photo-39012161.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "Lakshmi Raj",
+      "alt": "Lucknow?s Bara Imambara complex framed by a scalloped stone arch",
+      "recommended_use": "Preferred Lucknow architectural image; do not label Rumi Darwaza",
+      "source_caption": "A captivating view of Bara Imambara in Lucknow, India, framed by an ornate arch, showcasing historic Mughal architecture.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        3085,
+        4096
+      ],
+      "dimensions": [
+        1400,
+        1859
+      ],
+      "bytes": 346288,
+      "sha256": "1a44d5c1f940f85c696aa1c240da2e39c2d750ed000a48b8825372885b92c397"
+    },
+    {
+      "file": "/images/prayagraj-river.webp",
+      "source": "https://www.pexels.com/photo/iconic-yamuna-bridge-in-prayagraj-india-30604809/",
+      "image": "https://images.pexels.com/photos/30604809/pexels-photo-30604809.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "FINITE CAPTURES",
+      "alt": "The Yamuna Bridge stretching over the river in Prayagraj beneath a pale sky",
+      "recommended_use": "Prayagraj architectural river image; not a view of the Sangam",
+      "source_caption": "Captivating view of the Yamuna Bridge in Prayagraj, Uttar Pradesh, India, under a calm sky.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        2940,
+        3922
+      ],
+      "dimensions": [
+        1400,
+        1868
+      ],
+      "bytes": 314544,
+      "sha256": "dbb8b4177ee93fcf26b6816bb668857875a3ba69dd111bc63985b55beed1e32e"
+    },
+    {
+      "file": "/images/bodhgaya-spire.webp",
+      "source": "https://www.pexels.com/photo/majestic-view-of-mahabodhi-temple-in-bodh-gaya-36235761/",
+      "image": "https://images.pexels.com/photos/36235761/pexels-photo-36235761.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "Ethan Sarkar",
+      "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+      "recommended_use": "Preferred Bodh Gaya temple detail; never represent Gaya/Vishnupad",
+      "source_caption": "A striking photograph of the renowned Mahabodhi Temple in Bodh Gaya, showcasing its intricate architecture.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        3688,
+        5628
+      ],
+      "dimensions": [
+        1200,
+        1831
+      ],
+      "bytes": 220088,
+      "sha256": "d8b96336958ca57fba260de41ae92f18131574ec303c09af1c4f61f73e98e647"
+    },
+    {
+      "file": "/images/vrindavan-prem-mandir.webp",
+      "source": "https://www.pexels.com/photo/beautiful-architecture-of-prem-mandir-vrindavan-35960312/",
+      "image": "https://images.pexels.com/photos/35960312/pexels-photo-35960312.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "license_name": "Pexels License",
+      "attribution_required": false,
+      "author": "Lakshmi Raj",
+      "alt": "The white marble facade and carved towers of Prem Mandir in Vrindavan",
+      "recommended_use": "Preferred Vrindavan architecture; distinct from Madan Mohan",
+      "source_caption": "Explore the intricate architectural beauty of Prem Mandir in Vrindavan at twilight.",
+      "individual_page_license_verified": true,
+      "original_dimensions": [
+        4624,
+        2608
+      ],
+      "dimensions": [
+        1800,
+        1015
+      ],
+      "bytes": 283486,
+      "sha256": "d487b5caca2f9d1019060f9f068e8c5a17c73bb3d2921f70386414f2c7acf015"
+    },
+    {
+      "file": "/images/ayodhya-riverfront.webp",
+      "source": "https://unsplash.com/photos/a-large-courtyard-with-a-body-of-water-and-buildings-in-the-background-yRzcLVJTxUw",
+      "image": "https://images.unsplash.com/photo-1652059468417-3b44ff25afdf?w=1600&q=90&fit=max",
+      "license": "https://unsplash.com/license",
+      "license_name": "Unsplash License",
+      "attribution_required": false,
+      "author": "Shivam Tiwari",
+      "alt": "Stepped ghats and historic buildings beside the water channel at Ram Ki Paidi in Ayodhya",
+      "recommended_use": "Ayodhya destination and sacred-river journey; this is not the Ram Mandir",
+      "individual_page_license_verified": true,
+      "identity_confirmation": {
+        "method": "Photographer page identifies Ayodhya; visible architecture compared with the district government Ram Ki Paidi reference photographs",
+        "url": "https://ayodhya.nic.in/tourist-place/ram-ki-paidi/",
+        "reference_photo": "https://cdn.s3waas.gov.in/s3b2eb7349035754953b57a32e2841bda5/uploads/2018/04/2018041775-3.jpg"
+      },
+      "dimensions": [
+        1600,
+        1197
+      ],
+      "bytes": 242958,
+      "sha256": "b6fb16665b36b69f17a988f0f9843bd834a8703f3fd2d053832f3b94c0ea50a2"
+    }
+  ],
+  "gaya": {
+    "decision": "Use an intentional typographic destination panel. Do not substitute Bodh Gaya or an unrelated Bihar photograph.",
+    "reason": "No authentic no-attribution-required Gaya / Vishnupad photo was confirmed in this search."
+  },
+  "rejected_candidates": [
+    {
+      "id": 18564993,
+      "provider": "Pexels",
+      "reason": "Location description said Vrindavan but visible riverfront resembled Varanasi; rejected due to unresolved identity."
+    },
+    {
+      "id": 36478003,
+      "provider": "Pexels",
+      "reason": "Ayodhya facade had inconsistent temple tags; preferred Ram Ki Paidi with independent architectural comparison."
+    }
+  ],
+  "archive_status": "Completed. Exact originals and source/license metadata are retained in research/media-archive. Public copies removed after zero active references and SHA256/size verification.",
+  "archive": [
+    {
+      "removed_path": "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\images\\ayodhya-ram-mandir.webp",
+      "reason": "Attribution-required asset retired from public website; no active app/components/content reference; exact licensed recovery copy retained",
+      "bytes": 195936,
+      "retained_copy": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media-archive\\ayodhya-ram-mandir.webp",
+      "sha256": "3af325145920c38c67bc31cc11e672cf8d2be218cf48ed8581a5ab6eea0fa076"
+    },
+    {
+      "removed_path": "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\images\\gaya-vishnupad.webp",
+      "reason": "Attribution-required asset retired from public website; no active app/components/content reference; exact licensed recovery copy retained",
+      "bytes": 105636,
+      "retained_copy": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\media-archive\\gaya-vishnupad.webp",
+      "sha256": "dc8b149f84ea0eca82001d162f9104511131be6306c77001e65f334d9d069871"
+    }
+  ],
+  "cleanup": {
+    "before_free_bytes": {
+      "C:/": 75987148800,
+      "D:/": 36721496064
+    },
+    "after_free_bytes": {
+      "C:/": 75987148800,
+      "D:/": 36721491968
+    },
+    "note": "Archiving preserves bytes and is not a space-reclamation claim. No source JPEG duplicates were written.",
+    "selection_scratch_removed": [
+      {
+        "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-ayodhya.jpg",
+        "bytes": 220571,
+        "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-ayodhya-reference.jpg",
+        "bytes": 139669,
+        "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-source-captions.json",
+        "bytes": 2553,
+        "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+      },
+      {
+        "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\media-upgrade-candidates.jpg",
+        "bytes": 414134,
+        "reason": "Task-owned temporary candidate or reference preview; final chosen contact sheet and source/caption/license metadata are consolidated in media-upgrade.json"
+      }
+    ],
+    "selection_scratch_removed_bytes": 776927,
+    "selection_cleanup_before_free_bytes": {
+      "C:/": 75970039808,
+      "D:/": 36696633344
+    },
+    "selection_cleanup_after_free_bytes": {
+      "C:/": 75970039808,
+      "D:/": 36697419776
+    }
+  },
+  "verification": {
+    "new_assets_decoded_and_visually_inspected": true,
+    "new_asset_count": 10,
+    "new_asset_total_bytes": 2972748,
+    "sha256_rechecked_after_cleanup": true,
+    "contact_sheet": "evidence/media-upgrade-contact-sheet.jpg",
+    "notes": "All newly selected assets carry Unsplash or Pexels licenses without mandatory attribution; two prior attribution-required public files retired with exact recovery copies. No active destination is represented with a known unrelated photograph."
+  }
+}

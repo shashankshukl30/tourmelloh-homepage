@@ -1,0 +1,390 @@
+{
+  "at": "2026-10-24T15:59:40.000056+00:00",
+  "server": "http://127.0.0.1:3108",
+  "build_id": "lRZwYi-Mii1bLpFmzUkFf",
+  "hero": [
+    {
+      "time": 0,
+      "text_color_srgb": [
+        249,
+        245,
+        236,
+        255
+      ],
+      "font": "16px",
+      "measured_text_box": {
+        "x": 82.171875,
+        "y": 475.546875,
+        "width": 250.265625,
+        "height": 20
+      },
+      "brightest_background": [
+        97,
+        85,
+        83
+      ],
+      "minimum_contrast_over_text_box": 6.581
+    },
+    {
+      "time": 3,
+      "text_color_srgb": [
+        249,
+        245,
+        236,
+        255
+      ],
+      "font": "16px",
+      "measured_text_box": {
+        "x": 82.171875,
+        "y": 475.546875,
+        "width": 250.265625,
+        "height": 20
+      },
+      "brightest_background": [
+        95,
+        85,
+        81
+      ],
+      "minimum_contrast_over_text_box": 6.644
+    },
+    {
+      "time": 6,
+      "text_color_srgb": [
+        249,
+        245,
+        236,
+        255
+      ],
+      "font": "16px",
+      "measured_text_box": {
+        "x": 82.171875,
+        "y": 475.546875,
+        "width": 250.265625,
+        "height": 20
+      },
+      "brightest_background": [
+        94,
+        83,
+        81
+      ],
+      "minimum_contrast_over_text_box": 6.815
+    },
+    {
+      "time": 10,
+      "text_color_srgb": [
+        249,
+        245,
+        236,
+        255
+      ],
+      "font": "16px",
+      "measured_text_box": {
+        "x": 82.171875,
+        "y": 475.546875,
+        "width": 250.265625,
+        "height": 20
+      },
+      "brightest_background": [
+        96,
+        86,
+        84
+      ],
+      "minimum_contrast_over_text_box": 6.528
+    },
+    {
+      "time": 13.8,
+      "text_color_srgb": [
+        249,
+        245,
+        236,
+        255
+      ],
+      "font": "16px",
+      "measured_text_box": {
+        "x": 82.171875,
+        "y": 475.546875,
+        "width": 250.265625,
+        "height": 20
+      },
+      "brightest_background": [
+        94,
+        85,
+        82
+      ],
+      "minimum_contrast_over_text_box": 6.662
+    }
+  ],
+  "mobile": [
+    {
+      "width": 390,
+      "video": {
+        "time": 0.571502,
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "paused": false,
+        "ready": 4,
+        "width": 720,
+        "height": 1280
+      },
+      "pause_control_works": true,
+      "play_control_works": true,
+      "loop_observed": true,
+      "body_width": 390,
+      "page_errors": []
+    },
+    {
+      "width": 320,
+      "video": {
+        "time": 0.582436,
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "paused": false,
+        "ready": 4,
+        "width": 720,
+        "height": 1280
+      },
+      "pause_control_works": true,
+      "play_control_works": true,
+      "loop_observed": true,
+      "body_width": 320,
+      "page_errors": []
+    }
+  ],
+  "search_links": [
+    {
+      "href": "/journeys/kashi-before-the-world-wakes",
+      "expected": "Kashi, before the world wakes",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/journeys/kashi-before-the-world-wakes",
+      "h1": [
+        "Kashi, before the world wakes"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/journeys/along-the-sacred-rivers",
+      "expected": "Along the sacred rivers",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/journeys/along-the-sacred-rivers",
+      "h1": [
+        "Along the sacred rivers"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/journeys/the-road-to-bodh-gaya",
+      "expected": "The road to Bodh Gaya",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/journeys/the-road-to-bodh-gaya",
+      "h1": [
+        "The road to Bodh Gaya"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/journeys/awadh-agra-and-braj",
+      "expected": "Awadh, Agra & the lanes of Braj",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/journeys/awadh-agra-and-braj",
+      "h1": [
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/journeys/ayodhya-at-your-own-pace",
+      "expected": "Ayodhya, at your own pace",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/journeys/ayodhya-at-your-own-pace",
+      "h1": [
+        "Ayodhya, at your own pace"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/journeys/a-weekend-in-lucknow",
+      "expected": "A long weekend in Lucknow",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/journeys/a-weekend-in-lucknow",
+      "h1": [
+        "A weekend in Lucknow"
+      ],
+      "heading_matches_search_label": false,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true,
+      "copy_note": "Title wording differs, but the destination, route slug and itinerary correspond to this search result."
+    },
+    {
+      "href": "/journeys/taj-mahal-and-the-lanes-of-braj",
+      "expected": "The Taj & the lanes of Braj",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/journeys/taj-mahal-and-the-lanes-of-braj",
+      "h1": [
+        "The Taj Mahal & the lanes of Braj"
+      ],
+      "heading_matches_search_label": false,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true,
+      "copy_note": "Title wording differs, but the destination, route slug and itinerary correspond to this search result."
+    },
+    {
+      "href": "/destinations/varanasi",
+      "expected": "Varanasi",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/destinations/varanasi",
+      "h1": [
+        "Varanasi.A city tofeel."
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/destinations/ayodhya",
+      "expected": "Ayodhya",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/destinations/ayodhya",
+      "h1": [
+        "Ayodhya"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/destinations/agra",
+      "expected": "Agra",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/destinations/agra",
+      "h1": [
+        "Agra"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/destinations/bodh-gaya",
+      "expected": "Bodhgaya",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/destinations/bodh-gaya",
+      "h1": [
+        "Bodh Gaya"
+      ],
+      "heading_matches_search_label": true,
+      "main_exists": true,
+      "page_errors": [],
+      "target_corresponds": true
+    },
+    {
+      "href": "/?place=Prayagraj#destinations",
+      "expected": "Prayagraj",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/?place=Prayagraj#destinations",
+      "h1": [
+        "Begin in Kashi.Go a little further."
+      ],
+      "target_type": "Homepage destination atlas",
+      "destination_heading": [
+        "Prayagraj"
+      ],
+      "heading_matches_search_label": null,
+      "target_corresponds": true,
+      "main_exists": true,
+      "page_errors": []
+    },
+    {
+      "href": "/?place=Lucknow#destinations",
+      "expected": "Lucknow",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/?place=Lucknow#destinations",
+      "h1": [
+        "Begin in Kashi.Go a little further."
+      ],
+      "target_type": "Homepage destination atlas",
+      "destination_heading": [
+        "Lucknow"
+      ],
+      "heading_matches_search_label": null,
+      "target_corresponds": true,
+      "main_exists": true,
+      "page_errors": []
+    },
+    {
+      "href": "/?place=Vrindavan#destinations",
+      "expected": "Vrindavan",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/?place=Vrindavan#destinations",
+      "h1": [
+        "Begin in Kashi.Go a little further."
+      ],
+      "target_type": "Homepage destination atlas",
+      "destination_heading": [
+        "Vrindavan"
+      ],
+      "heading_matches_search_label": null,
+      "target_corresponds": true,
+      "main_exists": true,
+      "page_errors": []
+    },
+    {
+      "href": "/?place=Gaya#destinations",
+      "expected": "Gaya",
+      "status": 200,
+      "actual_url": "http://127.0.0.1:3108/?place=Gaya#destinations",
+      "h1": [
+        "Begin in Kashi.Go a little further."
+      ],
+      "target_type": "Homepage destination atlas",
+      "destination_heading": [
+        "Gaya"
+      ],
+      "heading_matches_search_label": null,
+      "target_corresponds": true,
+      "main_exists": true,
+      "page_errors": []
+    }
+  ],
+  "scope": "Affected hero contrast/playback and all search-result link targets; no implementation edits or external contacts.",
+  "reduced_motion": {
+    "paused": true,
+    "time": 0,
+    "play_control_visible": true
+  },
+  "completed_at": "2026-10-24T16:00:49.052531+00:00",
+  "summary": {
+    "minimum_eyebrow_contrast": 6.528,
+    "mobile_pass": true,
+    "reduced_motion_pass": true,
+    "search_target_count": 15,
+    "search_targets_pass": true,
+    "minor_title_wording_differences": 2
+  },
+  "status": "pass_with_minor_copy_notes",
+  "cleanup": {
+    "retained": "Requested visual evidence and JSON only; all browser contexts closed. No disposable task scratch files created.",
+    "free_bytes": {
+      "C": 75931906048,
+      "D": 36615012352
+    }
+  },
+  "scope_note": "Four destination results intentionally open the matching homepage atlas entry. Their atlas h3 was verified; generic homepage h1 is expected. All eleven dedicated pages returned200 and appropriate itinerary/destination H1s; two minor wording differences are preserved."
+}

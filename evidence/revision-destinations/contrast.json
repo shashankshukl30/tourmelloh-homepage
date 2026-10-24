@@ -1,0 +1,57 @@
+{
+  "page": "bodh-gaya",
+  "width": 1440,
+  "text": "Bihar",
+  "font_px": 16,
+  "text_rgba": [
+    249,
+    245,
+    236,
+    255
+  ],
+  "bounds": {
+    "x": 116,
+    "y": 458.953125,
+    "width": 38.265625,
+    "height": 20
+  },
+  "samples": [
+    {
+      "xy": [
+        121,
+        468
+      ],
+      "background_rgb": [
+        205,
+        202,
+        200
+      ],
+      "contrast_ratio": 1.5
+    },
+    {
+      "xy": [
+        135,
+        468
+      ],
+      "background_rgb": [
+        205,
+        202,
+        200
+      ],
+      "contrast_ratio": 1.5
+    },
+    {
+      "xy": [
+        148,
+        468
+      ],
+      "background_rgb": [
+        204,
+        202,
+        200
+      ],
+      "contrast_ratio": 1.5
+    }
+  ],
+  "method": "Chromium screenshot background sampled at three points across actual label box, with only text made invisible in this QA browser. No source files changed."
+}

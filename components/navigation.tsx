@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { ArrowUpRight, Menu, X } from "lucide-react";
+import { ArrowUpRight, Menu, Search, X } from "lucide-react";
 import { brand } from "@/content/travel";
 
 if (typeof window !== "undefined") window.history.scrollRestoration = "manual";
@@ -83,7 +83,7 @@ export function Navigation({
     { name: "Destinations", href: "/#destinations" },
     { name: "Our journeys", href: "/journeys" },
     { name: "The Varanasi edit", href: "/destinations/varanasi" },
-    { name: "Our approach", href: "/#approach" },
+    { name: "Travel with us", href: "/#plan" },
   ];
   const solid = tone === "paper" || scrolled || open;
   return (
@@ -137,7 +137,8 @@ export function Navigation({
               </Link>
             ))}
           </nav>
-          <Link href="/#plan" className="header-cta">
+          <Link href="/search" className="nav-search" aria-label="Search tours and destinations"><Search size={20} /></Link>
+          <Link href="/#plan" className="header-cta" style={{ color: solid ? "var(--paper)" : "var(--ink)" }}>
             Plan your journey <ArrowUpRight size={16} />
           </Link>
           <button

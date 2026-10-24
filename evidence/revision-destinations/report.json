@@ -1,0 +1,1472 @@
+[
+  {
+    "title": "Ayodhya Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 1440,
+    "bodyWidth": 1440,
+    "documentWidth": 1440,
+    "h1": "Ayodhya",
+    "h1Bounds": {
+      "x": 116,
+      "y": 470.34375,
+      "width": 1208,
+      "height": 149.75
+    },
+    "heroBounds": {
+      "x": 72,
+      "y": 178.09375,
+      "width": 1296,
+      "height": 600
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=1920&q=90",
+        "alt": "Stepped ghats and historic buildings beside the water channel at Ram Ki Paidi in Ayodhya",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 897,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Let darshan set the order",
+        "client": [
+          373,
+          64
+        ],
+        "scroll": [
+          377,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Ayodhya",
+        "bounds": {
+          "x": 72,
+          "y": 130,
+          "width": 1296,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "Ram Ki Paidi · Ayodhya",
+        "bounds": {
+          "x": 72,
+          "y": 794.09375,
+          "width": 652.671875,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 72,
+          "y": 892.1875,
+          "width": 437.390625,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 72,
+          "y": 1399.1875,
+          "width": 729,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 962.59375,
+          "y": 1431.1875,
+          "width": 373.40625,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 72,
+          "y": 3015.46875,
+          "width": 1296,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 1078.046875,
+          "y": 3534.078125,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Ayodhya",
+        "href": "/?destination=Ayodhya#plan"
+      },
+      {
+        "text": "6 days / 5 nightsAlong the sacred riversVaranasi · Prayagraj · Ayodhya",
+        "href": "/journeys/along-the-sacred-rivers"
+      }
+    ],
+    "slug": "ayodhya",
+    "width": 1440,
+    "height": 1000,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Let darshan set the order",
+        "toggled": true
+      },
+      {
+        "title": "Talk through the stairs",
+        "toggled": true
+      },
+      {
+        "title": "Give festivals their own plan",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Agra Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 1440,
+    "bodyWidth": 1440,
+    "documentWidth": 1440,
+    "h1": "Agra",
+    "h1Bounds": {
+      "x": 116,
+      "y": 502.34375,
+      "width": 1208,
+      "height": 149.75
+    },
+    "heroBounds": {
+      "x": 72,
+      "y": 178.09375,
+      "width": 1296,
+      "height": 600
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1920&q=90",
+        "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+        "complete": true,
+        "naturalWidth": 1050,
+        "naturalHeight": 1575,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Plan around Friday",
+        "client": [
+          373,
+          64
+        ],
+        "scroll": [
+          377,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Agra",
+        "bounds": {
+          "x": 72,
+          "y": 130,
+          "width": 1296,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "A first view of the Taj · Agra",
+        "bounds": {
+          "x": 72,
+          "y": 794.09375,
+          "width": 652.671875,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 72,
+          "y": 892.1875,
+          "width": 437.390625,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 72,
+          "y": 1399.1875,
+          "width": 729,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 962.59375,
+          "y": 1431.1875,
+          "width": 373.40625,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 72,
+          "y": 2984.03125,
+          "width": 1296,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 1078.046875,
+          "y": 3502.640625,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Agra",
+        "href": "/?destination=Agra#plan"
+      },
+      {
+        "text": "7 days / 6 nightsAwadh, Agra & the lanes of BrajLucknow · Agra · Vrindavan",
+        "href": "/journeys/awadh-agra-and-braj"
+      }
+    ],
+    "slug": "agra",
+    "width": 1440,
+    "height": 1000,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Plan around Friday",
+        "toggled": true
+      },
+      {
+        "title": "Give each bank enough time",
+        "toggled": true
+      },
+      {
+        "title": "Check the monument details",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Bodh Gaya Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 1440,
+    "bodyWidth": 1440,
+    "documentWidth": 1440,
+    "h1": "Bodh Gaya",
+    "h1Bounds": {
+      "x": 116,
+      "y": 502.34375,
+      "width": 1208,
+      "height": 149.75
+    },
+    "heroBounds": {
+      "x": 72,
+      "y": 178.09375,
+      "width": 1296,
+      "height": 600
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1920&q=90",
+        "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+        "complete": true,
+        "naturalWidth": 900,
+        "naturalHeight": 1373,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Check the temple’s current rules",
+        "client": [
+          373,
+          64
+        ],
+        "scroll": [
+          377,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Bodh Gaya",
+        "bounds": {
+          "x": 72,
+          "y": 130,
+          "width": 1296,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "Mahabodhi Temple · Bodh Gaya",
+        "bounds": {
+          "x": 72,
+          "y": 794.09375,
+          "width": 652.671875,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 72,
+          "y": 892.1875,
+          "width": 437.390625,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 72,
+          "y": 1447.1875,
+          "width": 729,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 962.59375,
+          "y": 1479.1875,
+          "width": 373.40625,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 72,
+          "y": 2755.59375,
+          "width": 1296,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 1078.046875,
+          "y": 3274.203125,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Bodh Gaya",
+        "href": "/?destination=Bodhgaya#plan"
+      },
+      {
+        "text": "5 days / 4 nightsThe road to Bodh GayaVaranasi · Sarnath · Bodhgaya",
+        "href": "/journeys/the-road-to-bodh-gaya"
+      }
+    ],
+    "slug": "bodh-gaya",
+    "width": 1440,
+    "height": 1000,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Check the temple’s current rules",
+        "toggled": true
+      },
+      {
+        "title": "Choose a few monasteries",
+        "toggled": true
+      },
+      {
+        "title": "Keep Gaya a separate choice",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Ayodhya Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 390,
+    "bodyWidth": 390,
+    "documentWidth": 390,
+    "h1": "Ayodhya",
+    "h1Bounds": {
+      "x": 46,
+      "y": 504.359375,
+      "width": 298,
+      "height": 66.546875
+    },
+    "heroBounds": {
+      "x": 22,
+      "y": 154.09375,
+      "width": 346,
+      "height": 580
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=90",
+        "alt": "Stepped ghats and historic buildings beside the water channel at Ram Ki Paidi in Ayodhya",
+        "complete": true,
+        "naturalWidth": 468,
+        "naturalHeight": 350,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Let darshan set the order",
+        "client": [
+          298,
+          64
+        ],
+        "scroll": [
+          302,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Ayodhya",
+        "bounds": {
+          "x": 22,
+          "y": 106,
+          "width": 346,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "Ram Ki Paidi · Ayodhya",
+        "bounds": {
+          "x": 22,
+          "y": 750.09375,
+          "width": 346,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 22,
+          "y": 821.1875,
+          "width": 346,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 22,
+          "y": 1618.1875,
+          "width": 346,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 46,
+          "y": 4019.25,
+          "width": 298,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 22,
+          "y": 5053.765625,
+          "width": 346,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 22,
+          "y": 5903.1875,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Ayodhya",
+        "href": "/?destination=Ayodhya#plan"
+      },
+      {
+        "text": "6 days / 5 nightsAlong the sacred riversVaranasi · Prayagraj · Ayodhya",
+        "href": "/journeys/along-the-sacred-rivers"
+      }
+    ],
+    "slug": "ayodhya",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Let darshan set the order",
+        "toggled": true
+      },
+      {
+        "title": "Talk through the stairs",
+        "toggled": true
+      },
+      {
+        "title": "Give festivals their own plan",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Agra Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 390,
+    "bodyWidth": 390,
+    "documentWidth": 390,
+    "h1": "Agra",
+    "h1Bounds": {
+      "x": 46,
+      "y": 533.15625,
+      "width": 298,
+      "height": 66.546875
+    },
+    "heroBounds": {
+      "x": 22,
+      "y": 154.09375,
+      "width": 346,
+      "height": 580
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=90",
+        "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+        "complete": true,
+        "naturalWidth": 468,
+        "naturalHeight": 702,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Plan around Friday",
+        "client": [
+          298,
+          64
+        ],
+        "scroll": [
+          302,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Agra",
+        "bounds": {
+          "x": 22,
+          "y": 106,
+          "width": 346,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "A first view of the Taj · Agra",
+        "bounds": {
+          "x": 22,
+          "y": 750.09375,
+          "width": 346,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 22,
+          "y": 821.1875,
+          "width": 346,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 22,
+          "y": 1661.6875,
+          "width": 346,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 46,
+          "y": 3973.96875,
+          "width": 298,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 22,
+          "y": 5010.890625,
+          "width": 346,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 22,
+          "y": 5897.109375,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Agra",
+        "href": "/?destination=Agra#plan"
+      },
+      {
+        "text": "7 days / 6 nightsAwadh, Agra & the lanes of BrajLucknow · Agra · Vrindavan",
+        "href": "/journeys/awadh-agra-and-braj"
+      }
+    ],
+    "slug": "agra",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Plan around Friday",
+        "toggled": true
+      },
+      {
+        "title": "Give each bank enough time",
+        "toggled": true
+      },
+      {
+        "title": "Check the monument details",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Bodh Gaya Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 390,
+    "bodyWidth": 390,
+    "documentWidth": 390,
+    "h1": "Bodh Gaya",
+    "h1Bounds": {
+      "x": 46,
+      "y": 504.359375,
+      "width": 298,
+      "height": 66.546875
+    },
+    "heroBounds": {
+      "x": 22,
+      "y": 154.09375,
+      "width": 346,
+      "height": 580
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=640&q=90",
+        "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+        "complete": true,
+        "naturalWidth": 468,
+        "naturalHeight": 714,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Check the temple’s current rules",
+        "client": [
+          298,
+          64
+        ],
+        "scroll": [
+          302,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Bodh Gaya",
+        "bounds": {
+          "x": 22,
+          "y": 106,
+          "width": 346,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "Mahabodhi Temple · Bodh Gaya",
+        "bounds": {
+          "x": 22,
+          "y": 750.09375,
+          "width": 346,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 22,
+          "y": 821.1875,
+          "width": 346,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 22,
+          "y": 1748.6875,
+          "width": 346,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 46,
+          "y": 3632.25,
+          "width": 298,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 22,
+          "y": 4669.171875,
+          "width": 346,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 22,
+          "y": 5518.59375,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Bodh Gaya",
+        "href": "/?destination=Bodhgaya#plan"
+      },
+      {
+        "text": "5 days / 4 nightsThe road to Bodh GayaVaranasi · Sarnath · Bodhgaya",
+        "href": "/journeys/the-road-to-bodh-gaya"
+      }
+    ],
+    "slug": "bodh-gaya",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Check the temple’s current rules",
+        "toggled": true
+      },
+      {
+        "title": "Choose a few monasteries",
+        "toggled": true
+      },
+      {
+        "title": "Keep Gaya a separate choice",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Ayodhya Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 320,
+    "bodyWidth": 320,
+    "documentWidth": 320,
+    "h1": "Ayodhya",
+    "h1Bounds": {
+      "x": 46,
+      "y": 475.5625,
+      "width": 228,
+      "height": 66.546875
+    },
+    "heroBounds": {
+      "x": 22,
+      "y": 154.09375,
+      "width": 276,
+      "height": 580
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=90",
+        "alt": "Stepped ghats and historic buildings beside the water channel at Ram Ki Paidi in Ayodhya",
+        "complete": true,
+        "naturalWidth": 384,
+        "naturalHeight": 287,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "H1",
+        "cls": "",
+        "text": "Ayodhya",
+        "client": [
+          228,
+          67
+        ],
+        "scroll": [
+          230,
+          67
+        ]
+      },
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Let darshan set the order",
+        "client": [
+          228,
+          64
+        ],
+        "scroll": [
+          232,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Ayodhya",
+        "bounds": {
+          "x": 22,
+          "y": 106,
+          "width": 276,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "Ram Ki Paidi · Ayodhya",
+        "bounds": {
+          "x": 22,
+          "y": 750.09375,
+          "width": 276,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 22,
+          "y": 821.1875,
+          "width": 276,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 22,
+          "y": 1879.1875,
+          "width": 276,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 46,
+          "y": 4694.5625,
+          "width": 228,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 22,
+          "y": 5865.84375,
+          "width": 276,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 22,
+          "y": 6950.140625,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Ayodhya",
+        "href": "/?destination=Ayodhya#plan"
+      },
+      {
+        "text": "6 days / 5 nightsAlong the sacred riversVaranasi · Prayagraj · Ayodhya",
+        "href": "/journeys/along-the-sacred-rivers"
+      },
+      {
+        "text": "3 days / 2 nightsAyodhya, at your own paceAyodhya · Sarayu riverfront",
+        "href": "/journeys/ayodhya-at-your-own-pace"
+      }
+    ],
+    "slug": "ayodhya",
+    "width": 320,
+    "height": 740,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Let darshan set the order",
+        "toggled": true
+      },
+      {
+        "title": "Talk through the stairs",
+        "toggled": true
+      },
+      {
+        "title": "Give festivals their own plan",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Agra Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 320,
+    "bodyWidth": 320,
+    "documentWidth": 320,
+    "h1": "Agra",
+    "h1Bounds": {
+      "x": 46,
+      "y": 504.359375,
+      "width": 228,
+      "height": 66.546875
+    },
+    "heroBounds": {
+      "x": 22,
+      "y": 154.09375,
+      "width": 276,
+      "height": 580
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=90",
+        "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+        "complete": true,
+        "naturalWidth": 384,
+        "naturalHeight": 576,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Plan around Friday",
+        "client": [
+          228,
+          64
+        ],
+        "scroll": [
+          232,
+          64
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Agra",
+        "bounds": {
+          "x": 22,
+          "y": 106,
+          "width": 276,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "A first view of the Taj · Agra",
+        "bounds": {
+          "x": 22,
+          "y": 750.09375,
+          "width": 276,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 22,
+          "y": 821.1875,
+          "width": 276,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 22,
+          "y": 1879.1875,
+          "width": 276,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 46,
+          "y": 4605.78125,
+          "width": 228,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 22,
+          "y": 5779.46875,
+          "width": 276,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 22,
+          "y": 6863.765625,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Agra",
+        "href": "/?destination=Agra#plan"
+      },
+      {
+        "text": "7 days / 6 nightsAwadh, Agra & the lanes of BrajLucknow · Agra · Vrindavan",
+        "href": "/journeys/awadh-agra-and-braj"
+      },
+      {
+        "text": "4 days / 3 nightsThe Taj & the lanes of BrajAgra · Vrindavan",
+        "href": "/journeys/taj-mahal-and-the-lanes-of-braj"
+      }
+    ],
+    "slug": "agra",
+    "width": 320,
+    "height": 740,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Plan around Friday",
+        "toggled": true
+      },
+      {
+        "title": "Give each bank enough time",
+        "toggled": true
+      },
+      {
+        "title": "Check the monument details",
+        "toggled": true
+      }
+    ]
+  },
+  {
+    "title": "Bodh Gaya Travel Guide & Personal Journeys | Tourmelloh",
+    "viewport": 320,
+    "bodyWidth": 320,
+    "documentWidth": 320,
+    "h1": "Bodh Gaya",
+    "h1Bounds": {
+      "x": 46,
+      "y": 409.015625,
+      "width": 228,
+      "height": 133.09375
+    },
+    "heroBounds": {
+      "x": 22,
+      "y": 154.09375,
+      "width": 276,
+      "height": 580
+    },
+    "heroImage": [
+      {
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=640&q=90",
+        "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+        "complete": true,
+        "naturalWidth": 384,
+        "naturalHeight": 586,
+        "objectPosition": "50% 48%"
+      }
+    ],
+    "overflow": [],
+    "textClipping": [
+      {
+        "tag": "SUMMARY",
+        "cls": "",
+        "text": "Check the temple’s current rules",
+        "client": [
+          228,
+          91
+        ],
+        "scroll": [
+          232,
+          91
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "text": "Home/Destinations/Bodh Gaya",
+        "bounds": {
+          "x": 22,
+          "y": 106,
+          "width": 276,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "Mahabodhi Temple · Bodh Gaya",
+        "bounds": {
+          "x": 22,
+          "y": 750.09375,
+          "width": 276,
+          "height": 23.09375
+        },
+        "font": "14px",
+        "lineHeight": "23.1px"
+      },
+      {
+        "text": "GET TO KNOW THE PLACE",
+        "bounds": {
+          "x": 22,
+          "y": 821.1875,
+          "width": 276,
+          "height": 30
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "WORTH YOUR TIME",
+        "bounds": {
+          "x": 22,
+          "y": 2009.6875,
+          "width": 276,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "BEFORE YOU GO",
+        "bounds": {
+          "x": 46,
+          "y": 4260.46875,
+          "width": 228,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "PUT IT ON YOUR ROUTE",
+        "bounds": {
+          "x": 22,
+          "y": 5515.734375,
+          "width": 276,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      },
+      {
+        "text": "LET’S TALK ABOUT YOUR INDIA",
+        "bounds": {
+          "x": 22,
+          "y": 6401.953125,
+          "width": 233.46875,
+          "height": 21
+        },
+        "font": "14px",
+        "lineHeight": "21px"
+      }
+    ],
+    "links": [
+      {
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "text": "Destinations",
+        "href": "/#destinations"
+      },
+      {
+        "text": "Plan for Bodh Gaya",
+        "href": "/?destination=Bodhgaya#plan"
+      },
+      {
+        "text": "5 days / 4 nightsThe road to Bodh GayaVaranasi · Sarnath · Bodhgaya",
+        "href": "/journeys/the-road-to-bodh-gaya"
+      }
+    ],
+    "slug": "bodh-gaya",
+    "width": 320,
+    "height": 740,
+    "status": 200,
+    "errors": [],
+    "accordions": [
+      {
+        "title": "Check the temple’s current rules",
+        "toggled": true
+      },
+      {
+        "title": "Choose a few monasteries",
+        "toggled": true
+      },
+      {
+        "title": "Keep Gaya a separate choice",
+        "toggled": true
+      }
+    ]
+  }
+]

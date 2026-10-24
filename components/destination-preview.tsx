@@ -8,34 +8,34 @@ const moments = [
     number: "01",
     label: "BEGIN AT THE RIVER",
     title: "A morning with no hurry.",
-    text: "Make an early start for the Ganga. Watch the riverfront come into view, then leave room for breakfast and a slower morning. A boat ride can bring a different perspective, when conditions allow.",
-    image: "/images/varanasi-riverfront.webp",
-    alt: "Boats and historic Varanasi ghats seen across the Ganga in warm daylight",
-    caption: "THE GHATS, SEEN FROM THE WATER",
+    text: "Begin around Assi Ghat or the central riverfront while the morning is still cool. A boat ride, when local conditions permit, reveals the long sequence of ghats from the water; agree the boarding point, duration and safety arrangements first. A walk is an equally worthwhile way to see the river. Leave time for breakfast afterwards, and remember that the return from the ghats involves steps. During high water or operating restrictions, keep the morning on land.",
+    image: "/images/varanasi-dawn.webp",
+    alt: "Boats beside the Varanasi ghats in warm dawn light",
+    caption: "FIRST LIGHT ON THE GANGA",
   },
   {
     number: "02",
-    label: "THE CITY BETWEEN THE SIGHTS",
+    label: "INSIDE THE OLD CITY",
     title: "Follow a lane. Find your own Kashi.",
-    text: "Walk between the old-city lanes and the ghats. Pause for chai, take in the river, and resist filling every hour. The small spaces between your plans are part of the visit.",
-    image: "/images/varanasi-aerial.webp",
-    alt: "An aerial view of Varanasi's dense old city beside the curving Ganga riverfront",
+    text: "The lanes around Kashi Vishwanath call for a different rhythm from a drive between monuments. Allow for walking, security checks and the current belongings rules if darshan is part of your visit; electronics are restricted inside the temple. Keep a temple visit separate from a long sightseeing checklist. Beyond the shrine, narrow streets connect shops, courtyards and the river. Discuss step-free alternatives and the last stretch of hotel access before choosing an old-city stay.",
+    image: "/images/varanasi-ghats-morning.webp",
+    alt: "Temple architecture beside the stepped ghats in Varanasi",
     caption: "THE OLD CITY & ITS RIVER",
   },
   {
     number: "03",
-    label: "WHEN DAY BECOMES EVENING",
+    label: "THE EVENING RITUAL",
     title: "Stay for the aarti.",
-    text: "Evening Ganga aarti at Dashashwamedh Ghat is one of the city's defining rituals. Allow time to arrive and settle in, with the day's arrangements checked around the current schedule and river conditions.",
-    image: "/images/varanasi-boats.webp",
-    alt: "Wooden boats along the Ganga as the sun reaches the horizon in Varanasi",
-    caption: "EVENING LIGHT ON THE GANGA",
+    text: "Dashashwamedh Ghat is a focal point for evening Ganga aarti, with lamps, bells and worship beside the river. Arrive with a comfortable buffer rather than treating it as a timed appointment between other stops. Crowds, access routes and the ceremony schedule should be checked for your date. Tell the planner if standing for a long time is difficult. A riverside viewing position and a boat-based arrangement are different experiences; neither a reserved seat nor a boat is assumed to be included.",
+    image: "/images/varanasi-aarti.webp",
+    alt: "Priests holding ceremonial lamps during Ganga aarti in Varanasi",
+    caption: "GANGA AARTI, VARANASI",
   },
   {
     number: "04",
-    label: "A LITTLE FURTHER, A DIFFERENT PACE",
+    label: "THE ROAD TO SARNATH",
     title: "Leave an afternoon for Sarnath.",
-    text: "Make room for nearby Sarnath and its Buddhist heritage. It gives the journey another perspective, and a reason to spend more than a single night in Varanasi.",
+    text: "Sarnath is associated with the Buddha’s first sermon after enlightenment. The Dhamek Stupa and excavated remains give the visit its outdoor focus; the Archaeological Museum is a separate stop, with the Lion Capital of Ashoka among its important objects. The museum closes on Fridays, so move this part of the itinerary if necessary. Allow for the drive from Varanasi, time on foot and the return journey. Combining it with a very early river morning is optional, rather than essential.",
   },
 ];
 
@@ -69,7 +69,7 @@ export function DestinationPreview() {
             <span aria-current="page">Varanasi</span>
           </nav>
           <span className="eyebrow place-region">
-            UTTAR PRADESH · THE GANGA PLAIN
+            VARANASI · UTTAR PRADESH
           </span>
           <h1 id="place-title">
             Varanasi.
@@ -78,9 +78,7 @@ export function DestinationPreview() {
             <em>feel.</em>
           </h1>
           <p className="place-hero-intro">
-            Some journeys begin with a place.
-            <br />
-            This one begins with a feeling.
+            The Ganga, Kashi Vishwanath, the old city and Sarnath. Give each its own time.
           </p>
           <p>
             River mornings. Old-city lanes. An evening by the ghats. Take your
@@ -94,8 +92,8 @@ export function DestinationPreview() {
           <figure>
             <div className="place-hero-image">
               <Image
-                src="/images/varanasi-evening.webp"
-                alt="Varanasi's historic riverfront buildings and ghats seen from the Ganga"
+                src="/images/varanasi-mist.webp"
+                alt="Wooden boats on the Ganga in the morning mist at Varanasi"
                 fill
                 preload
                 sizes="(max-width: 760px) 90vw, 48vw"
@@ -179,7 +177,7 @@ export function DestinationPreview() {
       <section className="place-pacing" aria-labelledby="place-pacing-title">
         <div className="place-pacing-inner page-width">
           <Reveal className="place-pacing-lead">
-            <span className="eyebrow">A LITTLE THOUGHT BEFORE YOU GO</span>
+            <span className="eyebrow">BEFORE YOU GO</span>
             <h2 id="place-pacing-title">
               Give the city
               <br />

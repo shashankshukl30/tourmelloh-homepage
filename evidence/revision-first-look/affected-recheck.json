@@ -1,0 +1,174 @@
+{
+  "at": "2026-10-24T15:56:09.373698+00:00",
+  "checks": [
+    {
+      "width": 390,
+      "result": {
+        "columns": "346px",
+        "width": 346,
+        "height": 643.09375,
+        "children": [
+          {
+            "tag": "DIV",
+            "class": "journey-photo",
+            "width": 346,
+            "column": "1"
+          },
+          {
+            "tag": "DIV",
+            "class": "journey-meta",
+            "width": 346,
+            "column": "1"
+          },
+          {
+            "tag": "H3",
+            "class": "",
+            "width": 346,
+            "column": "1"
+          },
+          {
+            "tag": "P",
+            "class": "journey-route",
+            "width": 346,
+            "column": "1"
+          },
+          {
+            "tag": "P",
+            "class": "journey-description",
+            "width": 346,
+            "column": "1"
+          },
+          {
+            "tag": "BUTTON",
+            "class": "text-link journey-detail-link",
+            "width": 158.328125,
+            "column": "1"
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "result": {
+        "columns": "276px",
+        "width": 276,
+        "height": 643.09375,
+        "children": [
+          {
+            "tag": "DIV",
+            "class": "journey-photo",
+            "width": 276,
+            "column": "1"
+          },
+          {
+            "tag": "DIV",
+            "class": "journey-meta",
+            "width": 276,
+            "column": "1"
+          },
+          {
+            "tag": "H3",
+            "class": "",
+            "width": 276,
+            "column": "1"
+          },
+          {
+            "tag": "P",
+            "class": "journey-route",
+            "width": 276,
+            "column": "1"
+          },
+          {
+            "tag": "P",
+            "class": "journey-description",
+            "width": 276,
+            "column": "1"
+          },
+          {
+            "tag": "BUTTON",
+            "class": "text-link journey-detail-link",
+            "width": 158.328125,
+            "column": "1"
+          }
+        ]
+      }
+    }
+  ],
+  "mobile_result": "pass",
+  "desktop_eyebrow_contrast_3s": [
+    {
+      "point": [
+        82,
+        478
+      ],
+      "background": [
+        126,
+        115,
+        112
+      ],
+      "contrast": 4.11
+    },
+    {
+      "point": [
+        90,
+        475
+      ],
+      "background": [
+        128,
+        117,
+        115
+      ],
+      "contrast": 3.99
+    },
+    {
+      "point": [
+        82,
+        492
+      ],
+      "background": [
+        121,
+        109,
+        107
+      ],
+      "contrast": 4.46
+    },
+    {
+      "point": [
+        150,
+        475
+      ],
+      "background": [
+        129,
+        117,
+        115
+      ],
+      "contrast": 3.98
+    },
+    {
+      "point": [
+        200,
+        475
+      ],
+      "background": [
+        129,
+        117,
+        115
+      ],
+      "contrast": 3.98
+    },
+    {
+      "point": [
+        330,
+        480
+      ],
+      "background": [
+        125,
+        115,
+        113
+      ],
+      "contrast": 4.12
+    }
+  ],
+  "desktop_capture": "1440-hero-recheck.png",
+  "mobile_visual_review": "Read actual viewport captures with instant scroll: photos, headings, route, paragraph and overview action are full width and readable at 390 and 320."
+}

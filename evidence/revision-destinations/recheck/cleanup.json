@@ -1,0 +1,14 @@
+{
+  "scope": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\revision-destinations\\recheck",
+  "before_free_bytes": {
+    "C:/": 75930841088,
+    "D:/": 36615012352
+  },
+  "removed": [],
+  "reason": "Current production screenshots replaced intermediate captures at the same explicit paths. Retained evidence and QA source are necessary verification artifacts; no disposable scratch remains.",
+  "retained_bytes": 802742,
+  "after_free_bytes": {
+    "C:/": 75930841088,
+    "D:/": 36615012352
+  }
+}

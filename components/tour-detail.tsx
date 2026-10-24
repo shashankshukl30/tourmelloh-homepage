@@ -12,33 +12,40 @@ import { useShortlist } from "@/hooks/use-shortlist";
 const art = {
   kashi: {
     first: "Kashi,", emphasis: "before the world wakes",
-    hero: "varanasi-evening", alt: "Historic riverfront buildings and ghats beside the Ganga in Varanasi",
+    hero: "varanasi-mist", alt: "Boats on the Ganga in the morning mist at Varanasi",
     location: "The ghats of Varanasi", position: "50% 66%", landscape: false,
-    second: "varanasi-boats", secondAlt: "Wooden boats beside the Ganga at sunset in Varanasi",
-    caption: "Evening on the Ganga, Varanasi",
+    second: "varanasi-dawn", secondAlt: "The Varanasi riverfront in the warm light of dawn",
+    caption: "First light on the Ganga, Varanasi",
   },
   sacred: {
     first: "Along the", emphasis: "sacred rivers",
-    hero: "ayodhya-ram-mandir", alt: "Shri Ram Janambhoomi Mandir and its courtyard in Ayodhya",
-    location: "Shri Ram Janambhoomi Mandir, Ayodhya", position: "50% 46%", landscape: true,
+    hero: "ayodhya-riverfront", alt: "The stepped waterway and historic buildings at Ram Ki Paidi in Ayodhya",
+    location: "Ram Ki Paidi, Ayodhya", position: "50% 46%", landscape: true,
     second: "prayagraj-yamuna", secondAlt: "A boat on the Yamuna in Prayagraj with the Naini bridge beyond",
     caption: "Along the Yamuna, Prayagraj",
   },
   buddhist: {
     first: "The road to", emphasis: "Bodh Gaya",
-    hero: "bodhgaya-mahabodhi", alt: "The spire and carved stonework of the Mahabodhi Temple in Bodh Gaya",
+    hero: "bodhgaya-spire", alt: "The spire and carved stonework of the Mahabodhi Temple in Bodh Gaya",
     location: "Mahabodhi Temple, Bodh Gaya", position: "50% 27%", landscape: false,
     second: "varanasi-riverfront", secondAlt: "A boat passing the historic ghats of Varanasi",
     caption: "The riverfront in Varanasi, where this route begins",
   },
   heritage: {
     first: "Awadh, Agra &", emphasis: "the lanes of Braj",
-    hero: "agra-taj-mahal", alt: "The Taj Mahal seen across its reflecting pool in Agra",
+    hero: "agra-doorway", alt: "The Taj Mahal framed through a monumental archway in Agra",
     location: "The Taj Mahal, Agra", position: "50% 50%", landscape: true,
-    second: "lucknow-rumi-darwaza", secondAlt: "The Rumi Darwaza gateway in Lucknow",
-    caption: "Rumi Darwaza, Lucknow",
+    second: "lucknow-imambara", secondAlt: "The architecture of the Bara Imambara complex in Lucknow",
+    caption: "Bara Imambara, Lucknow",
   },
 } as const;
+
+function journeyArt(id: string) {
+  if (id === "ayodhya") return { ...art.sacred, first: "Ayodhya,", emphasis: "at your own pace", second: "ayodhya-riverfront", secondAlt: art.sacred.alt, caption: "Ram Ki Paidi, Ayodhya" };
+  if (id === "lucknow") return { ...art.heritage, first: "A weekend", emphasis: "in Lucknow", hero: "lucknow-imambara", alt: art.heritage.secondAlt, location: "Bara Imambara, Lucknow", landscape: false };
+  if (id === "braj") return { ...art.heritage, first: "The Taj Mahal &", emphasis: "the lanes of Braj", second: "vrindavan-prem-mandir", secondAlt: "Prem Mandir in Vrindavan", caption: "Prem Mandir, Vrindavan" };
+  return art[id as keyof typeof art] ?? art.kashi;
+}
 
 export function TourDetail({ detail }: { detail: JourneyDetail }) {
   return <TourDetailContent key={detail.id} detail={detail} />;
@@ -49,13 +56,13 @@ function TourDetailContent({ detail }: { detail: JourneyDetail }) {
   const { saved, notice, toggleSave } = useShortlist();
   const journey = journeys.find((item) => item.id === detail.id);
   if (!journey) return null;
-  const visual = art[journey.id];
+  const visual = journeyArt(journey.id);
   const destination = journey.places[0];
   const planHref = `/?destination=${encodeURIComponent(destination)}&journey=${journey.slug}#plan`;
   const stops = journey.route.split("·").map((place) => place.trim());
   const related = journeys.find((item) => item.id !== journey.id && item.category === journey.category)
     ?? journeys.find((item) => item.id !== journey.id)!;
-  const relatedArt = art[related.id];
+  const relatedArt = journeyArt(related.id);
   const isSaved = saved.includes(journey.id);
 
   return (
@@ -111,7 +118,7 @@ function TourDetailContent({ detail }: { detail: JourneyDetail }) {
           <Reveal className="tour-section-intro">
             <span className="tour-kicker">A SUGGESTED ITINERARY</span>
             <h2 id="tour-itinerary-title">The days, <em>unfolding.</em></h2>
-            <p>A route to begin with. Space to make it your own.</p>
+            <p>{detail.bestFor}</p>
           </Reveal>
           <div className="tour-days">
             {detail.dayPlans.map((day) => {
@@ -130,7 +137,12 @@ function TourDetailContent({ detail }: { detail: JourneyDetail }) {
                   </h3>
                   <div id={panelId} className="tour-day-content" role="region" aria-labelledby={`${panelId}-trigger`} hidden={!expanded}>
                     <p>{day.description}</p>
-                    <ul>{day.moments.map((moment) => <li key={moment}>{moment}</li>)}</ul>
+                    <div className="tour-day-schedule">{day.schedule.map((part) => <div key={part.part}><span>{part.part}</span><h4>{part.title}</h4><p>{part.text}</p></div>)}</div>
+                    <dl className="tour-day-practical">
+                      <div><dt>Overnight</dt><dd>{day.overnight}</dd></div>
+                      {day.travel && <div><dt>On the road</dt><dd>{day.travel}</dd></div>}
+                      {day.walking && <div><dt>On your feet</dt><dd>{day.walking}</dd></div>}
+                    </dl>
                   </div>
                 </article>
               );
@@ -141,13 +153,14 @@ function TourDetailContent({ detail }: { detail: JourneyDetail }) {
 
         <aside className="tour-planning" aria-labelledby="tour-planning-title">
           <div className="tour-plan-panel">
-            <span className="tour-kicker">YOUR JOURNEY, AT A GLANCE</span>
+            <span className="tour-kicker">THE JOURNEY AT A GLANCE</span>
             <h2 id="tour-planning-title">A starting point.<br /><em>Your own story.</em></h2>
             <dl className="tour-facts">
               <div><dt>Time to explore</dt><dd>{journey.duration}</dd></div>
               <div><dt>The rhythm</dt><dd>{detail.pace}</dd></div>
               <div><dt>Begin in</dt><dd>{detail.arrival}</dd></div>
               <div><dt>Finish in</dt><dd>{detail.departure}</dd></div>
+              <div><dt>When to go</dt><dd>{detail.season}</dd></div>
             </dl>
             <Link href={planHref} className="tour-primary tour-plan-cta" style={{ color: "var(--paper)" }}>
               Let’s plan your journey <ArrowUpRight size={18} aria-hidden="true" />
@@ -155,7 +168,7 @@ function TourDetailContent({ detail }: { detail: JourneyDetail }) {
             <p className="tour-plan-note">Share your dates, travel companions and what matters to you. The details follow from there.</p>
           </div>
           <div className="tour-highlights">
-            <span className="tour-kicker">MOMENTS TO LOOK FORWARD TO</span>
+            <span className="tour-kicker">ALONG THE WAY</span>
             <ul>{detail.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul>
           </div>
         </aside>
@@ -184,6 +197,10 @@ function TourDetailContent({ detail }: { detail: JourneyDetail }) {
             ))}
           </div>
           <p className="tour-final-note">This is a suggested journey. Confirm your final itinerary, arrangements and price with Tourmelloh before booking.</p>
+          <div className="tour-arrangements">
+            <div><h3>To specify in your quote</h3><p>These arrangements can form part of a personalised proposal. Confirm the final inclusions before booking.</p><ul>{detail.arrangements.included.map((item) => <li key={item}>{item}</li>)}</ul></div>
+            <div><h3>Not assumed to be included</h3><p>Agree these separately where needed.</p><ul>{detail.arrangements.excluded.map((item) => <li key={item}>{item}</li>)}</ul></div>
+          </div>
         </section>
       </div>
 

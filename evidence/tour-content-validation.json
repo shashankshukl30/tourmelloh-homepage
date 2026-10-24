@@ -1,0 +1,223 @@
+{
+  "checkedAt": "2026-10-24T15:58:28.346Z",
+  "routes": [
+    {
+      "id": "kashi",
+      "slug": "kashi-before-the-world-wakes",
+      "days": 4,
+      "nights": 3,
+      "wordCounts": [
+        {
+          "day": 1,
+          "words": 162
+        },
+        {
+          "day": 2,
+          "words": 187
+        },
+        {
+          "day": 3,
+          "words": 188
+        },
+        {
+          "day": 4,
+          "words": 174
+        }
+      ]
+    },
+    {
+      "id": "sacred",
+      "slug": "along-the-sacred-rivers",
+      "days": 6,
+      "nights": 5,
+      "wordCounts": [
+        {
+          "day": 1,
+          "words": 168
+        },
+        {
+          "day": 2,
+          "words": 171
+        },
+        {
+          "day": 3,
+          "words": 160
+        },
+        {
+          "day": 4,
+          "words": 176
+        },
+        {
+          "day": 5,
+          "words": 175
+        },
+        {
+          "day": 6,
+          "words": 175
+        }
+      ]
+    },
+    {
+      "id": "buddhist",
+      "slug": "the-road-to-bodh-gaya",
+      "days": 5,
+      "nights": 4,
+      "wordCounts": [
+        {
+          "day": 1,
+          "words": 166
+        },
+        {
+          "day": 2,
+          "words": 181
+        },
+        {
+          "day": 3,
+          "words": 170
+        },
+        {
+          "day": 4,
+          "words": 180
+        },
+        {
+          "day": 5,
+          "words": 176
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "slug": "awadh-agra-and-braj",
+      "days": 7,
+      "nights": 6,
+      "wordCounts": [
+        {
+          "day": 1,
+          "words": 173
+        },
+        {
+          "day": 2,
+          "words": 172
+        },
+        {
+          "day": 3,
+          "words": 170
+        },
+        {
+          "day": 4,
+          "words": 175
+        },
+        {
+          "day": 5,
+          "words": 165
+        },
+        {
+          "day": 6,
+          "words": 175
+        },
+        {
+          "day": 7,
+          "words": 162
+        }
+      ]
+    },
+    {
+      "id": "ayodhya",
+      "slug": "ayodhya-at-your-own-pace",
+      "days": 3,
+      "nights": 2,
+      "wordCounts": [
+        {
+          "day": 1,
+          "words": 179
+        },
+        {
+          "day": 2,
+          "words": 179
+        },
+        {
+          "day": 3,
+          "words": 172
+        }
+      ]
+    },
+    {
+      "id": "lucknow",
+      "slug": "a-weekend-in-lucknow",
+      "days": 3,
+      "nights": 2,
+      "wordCounts": [
+        {
+          "day": 1,
+          "words": 179
+        },
+        {
+          "day": 2,
+          "words": 176
+        },
+        {
+          "day": 3,
+          "words": 180
+        }
+      ]
+    },
+    {
+      "id": "braj",
+      "slug": "taj-mahal-and-the-lanes-of-braj",
+      "days": 4,
+      "nights": 3,
+      "wordCounts": [
+        {
+          "day": 1,
+          "words": 180
+        },
+        {
+          "day": 2,
+          "words": 175
+        },
+        {
+          "day": 3,
+          "words": 167
+        },
+        {
+          "day": 4,
+          "words": 180
+        }
+      ]
+    }
+  ],
+  "totalRoutes": 7,
+  "totalDays": 32,
+  "sources": 33,
+  "modules": [
+    {
+      "file": "content/journeys/ayodhya.ts",
+      "lines": 72
+    },
+    {
+      "file": "content/journeys/braj.ts",
+      "lines": 65
+    },
+    {
+      "file": "content/journeys/buddhist.ts",
+      "lines": 102
+    },
+    {
+      "file": "content/journeys/heritage.ts",
+      "lines": 133
+    },
+    {
+      "file": "content/journeys/kashi.ts",
+      "lines": 87
+    },
+    {
+      "file": "content/journeys/lucknow.ts",
+      "lines": 60
+    },
+    {
+      "file": "content/journeys/sacred.ts",
+      "lines": 118
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,2025 @@
+{
+  "researchedOn": "2026-10-24",
+  "scope": "Seven original proposed Tourmelloh journeys; existing four expanded and three short standalone routes added.",
+  "method": "Research preceded writing. Agent Reach Exa discovered official pages; one Exa query hit a free-tier HTTP 429, so built-in web search continued discovery. Jina Reader recovered the supplied Satvik reference. Official district, state tourism, monument, temple and UNESCO sources govern factual visit notes. No competitor prose or unverified service claims were transferred.",
+  "contentFiles": [
+    "content/journey-types.ts",
+    "content/journey-details.ts",
+    "content/journeys/kashi.ts",
+    "content/journeys/sacred.ts",
+    "content/journeys/buddhist.ts",
+    "content/journeys/heritage.ts",
+    "content/journeys/ayodhya.ts",
+    "content/journeys/lucknow.ts",
+    "content/journeys/braj.ts",
+    "content/travel.ts"
+  ],
+  "status": "Proposed itinerary sequence. No inventory, hotel, service, fare or booking is confirmed by these files.",
+  "sources": [
+    {
+      "id": "varanasi-ghats",
+      "url": "https://varanasi.nic.in/tourist-place/ganga-ghat/",
+      "publisher": "Varanasi district government",
+      "facts": [
+        "Ghats are riverfront steps.",
+        "A morning boat outing is an established visitor experience."
+      ],
+      "usedBy": [
+        "kashi",
+        "sacred",
+        "buddhist"
+      ]
+    },
+    {
+      "id": "varanasi-culture",
+      "url": "https://varanasi.nic.in/tourism/",
+      "publisher": "Varanasi district government",
+      "facts": [
+        "Varanasi has established textile and craft traditions.",
+        "Sarnath is near Varanasi and associated with the Buddha's first teaching."
+      ],
+      "usedBy": [
+        "kashi",
+        "sacred",
+        "buddhist"
+      ]
+    },
+    {
+      "id": "varanasi-season",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "October to March is identified as the pleasant general visiting season.",
+        "Winter fog can affect the riverfront atmosphere."
+      ],
+      "usedBy": [
+        "kashi",
+        "sacred",
+        "buddhist"
+      ]
+    },
+    {
+      "id": "sarnath-context",
+      "url": "https://varanasi.nic.in/tourist-place/sarnath/",
+      "publisher": "Varanasi district government",
+      "facts": [
+        "Sarnath is approximately 10 km northeast of Varanasi.",
+        "The site is associated with the Buddha's first teaching."
+      ],
+      "usedBy": [
+        "kashi",
+        "sacred",
+        "buddhist"
+      ]
+    },
+    {
+      "id": "sarnath-museum",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/sarnath-museum",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "Sarnath Museum is closed on Fridays.",
+        "Its collections include the Lion Capital of Ashoka."
+      ],
+      "excluded": [
+        "Exact opening hour omitted because historical sources disagree."
+      ],
+      "usedBy": [
+        "kashi",
+        "sacred",
+        "buddhist"
+      ]
+    },
+    {
+      "id": "kashi-current-notices",
+      "url": "https://www.shrikashivishwanath.org/notification",
+      "publisher": "Shri Kashi Vishwanath Temple official portal",
+      "facts": [
+        "Electronic devices, including phones and smart watches, are prohibited inside the temple premises.",
+        "Official notices advise checking changes around special dates."
+      ],
+      "access": "Current indexed extraction verified; direct fetch returned 403.",
+      "usedBy": [
+        "kashi",
+        "sacred"
+      ]
+    },
+    {
+      "id": "sangam",
+      "url": "https://prayagraj.nic.in/tourist-place/sangam/",
+      "publisher": "Prayagraj district government",
+      "facts": [
+        "The Ganga and Yamuna meet at the Sangam; Saraswati is part of sacred tradition.",
+        "Boats are a visitor option at the riverfront."
+      ],
+      "excluded": [
+        "The page's outdated Kumbh chronology was not used.",
+        "No bathing safety claim or boat availability promise."
+      ],
+      "usedBy": [
+        "sacred"
+      ]
+    },
+    {
+      "id": "anand-bhawan",
+      "url": "https://prayagraj.nic.in/tourist-place/anand-bhawan/",
+      "publisher": "Prayagraj district government",
+      "facts": [
+        "Anand Bhawan is a house museum associated with the Nehru family."
+      ],
+      "usedBy": [
+        "sacred"
+      ]
+    },
+    {
+      "id": "ram-ki-paidi",
+      "url": "https://ayodhya.nic.in/tourist-place/ram-ki-paidi/",
+      "publisher": "Ayodhya district government",
+      "facts": [
+        "Ram Ki Paidi is a series of ghats on the Sarayu riverfront."
+      ],
+      "usedBy": [
+        "sacred",
+        "ayodhya"
+      ]
+    },
+    {
+      "id": "kanak-bhawan",
+      "url": "https://ayodhya.nic.in/tourist-place/kanak-bhawan/",
+      "publisher": "Ayodhya district government",
+      "facts": [
+        "Kanak Bhawan is an Ayodhya temple associated with Rama and Sita."
+      ],
+      "usedBy": [
+        "sacred",
+        "ayodhya"
+      ]
+    },
+    {
+      "id": "hanuman-access",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/ayodhya/hanuman-garhi",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "Hanuman Garhi has a steep stepped approach."
+      ],
+      "excluded": [
+        "Conflicting origin stories and unneeded construction dates.",
+        "Exact step count and clock hours omitted."
+      ],
+      "usedBy": [
+        "sacred",
+        "ayodhya"
+      ]
+    },
+    {
+      "id": "ayodhya-temples",
+      "url": "https://ayodhya.nic.in/ayodhya-tourism/",
+      "publisher": "Ayodhya district government",
+      "facts": [
+        "The district identifies Ram Janmabhoomi Mandir, Hanuman Garhi, Kanak Bhawan and Ram Ki Paidi as visitor places."
+      ],
+      "excluded": [
+        "Unverified Ram Mandir pass procedures, fixed darshan times and priority-access promises."
+      ],
+      "usedBy": [
+        "sacred",
+        "ayodhya"
+      ]
+    },
+    {
+      "id": "nageshwarnath",
+      "url": "https://ayodhya.nic.in/tourist-place-category/religious/",
+      "publisher": "Ayodhya district government",
+      "facts": [
+        "Nageshwarnath Temple is at Ram Ki Paidi."
+      ],
+      "usedBy": [
+        "ayodhya"
+      ]
+    },
+    {
+      "id": "ayodhya-festivals",
+      "url": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/ram-navmi-ayodhya",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "Ram Navami brings religious gatherings in Ayodhya."
+      ],
+      "usedBy": [
+        "ayodhya"
+      ]
+    },
+    {
+      "id": "ayodhya-deepotsav",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/ayodhya/ram-ki-paidi",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "Deepotsav is associated with the Ram Ki Paidi riverfront."
+      ],
+      "excluded": [
+        "Attendance numbers, records and exact future event dates."
+      ],
+      "usedBy": [
+        "ayodhya"
+      ]
+    },
+    {
+      "id": "mahabodhi-unesco",
+      "url": "https://whc.unesco.org/en/list/1056/",
+      "publisher": "UNESCO World Heritage Centre",
+      "facts": [
+        "Mahabodhi Temple Complex at Bodh Gaya is a World Heritage property.",
+        "The site is associated with the Buddha's enlightenment."
+      ],
+      "usedBy": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "mahabodhi-etiquette",
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mahabodhi-temple",
+      "publisher": "Bihar Tourism",
+      "facts": [
+        "The published general visiting season is September to April.",
+        "Visitor etiquette includes modest dress, footwear removal and quiet conduct."
+      ],
+      "access": "Exa extracted the official page; direct native fetch timed out.",
+      "excluded": [
+        "A broad camera/electronics ban was not repeated as a guaranteed current rule; visitors are directed to reconfirm specific restrictions."
+      ],
+      "usedBy": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "vishnupad",
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya/vishnupad-temple",
+      "publisher": "Bihar Tourism",
+      "facts": [
+        "Vishnupad is a Hindu shrine in Gaya beside the Phalgu river.",
+        "The shrine is associated with pind-daan and ancestral rites."
+      ],
+      "excluded": [
+        "No claim that temple entry or a ritual service is available to every visitor."
+      ],
+      "usedBy": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "bodh-gaya-monasteries",
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya",
+      "publisher": "Bihar Tourism",
+      "facts": [
+        "Bodh Gaya has Buddhist temples and monasteries including a Bhutanese monastery."
+      ],
+      "excluded": [
+        "Inconsistent templated distances and opening-hour listings."
+      ],
+      "usedBy": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "bodh-gaya-thai",
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya/metta-buddharam-temple",
+      "publisher": "Bihar Tourism",
+      "facts": [
+        "Metta Buddharam is a Thai Buddhist temple in Bodh Gaya."
+      ],
+      "usedBy": [
+        "buddhist"
+      ]
+    },
+    {
+      "id": "bara-imambara",
+      "url": "https://lucknow.nic.in/tourist-place/bada-imambara/",
+      "publisher": "Lucknow district government",
+      "facts": [
+        "Bara / Asafi Imambara is a principal Lucknow monument."
+      ],
+      "excluded": [
+        "Unneeded superlatives and construction-date claims."
+      ],
+      "usedBy": [
+        "heritage",
+        "lucknow"
+      ]
+    },
+    {
+      "id": "bhool-bhulaiya",
+      "url": "https://lucknow.nic.in/hi/tourist-place/%e0%a4%ad%e0%a5%82%e0%a4%b2-%e0%a4%ad%e0%a5%81%e0%a4%b2%e0%a4%af%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%81/",
+      "publisher": "Lucknow district government",
+      "facts": [
+        "The maze is reached by stairs.",
+        "The district recommends an authorised guide."
+      ],
+      "excluded": [
+        "Older ticket prices."
+      ],
+      "usedBy": [
+        "heritage",
+        "lucknow"
+      ]
+    },
+    {
+      "id": "rumi-cluster",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow/rumi-darwaza",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "Rumi Darwaza is situated between Bara Imambara and Chota Imambara."
+      ],
+      "excluded": [
+        "Conflicting construction dates and architectural superlatives."
+      ],
+      "usedBy": [
+        "heritage",
+        "lucknow"
+      ]
+    },
+    {
+      "id": "lucknow-food-craft",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "Awadhi food includes kebabs, biryani and sweets.",
+        "Chikankari is associated with Lucknow."
+      ],
+      "usedBy": [
+        "heritage",
+        "lucknow"
+      ]
+    },
+    {
+      "id": "lucknow-shopping",
+      "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/lucknow/listicle/things-to-do/shopping.html",
+      "publisher": "Ministry of Tourism / Incredible India",
+      "facts": [
+        "Hazratganj is a Lucknow shopping area with chikankari textiles."
+      ],
+      "usedBy": [
+        "lucknow"
+      ]
+    },
+    {
+      "id": "residency",
+      "url": "https://lucknow.nic.in/tourist-place/residency/",
+      "publisher": "Lucknow district government",
+      "facts": [
+        "The Residency contains historic ruins associated with 1857.",
+        "The 1857 Memorial Museum is within the complex."
+      ],
+      "excluded": [
+        "Museum hours and closure day were not established and are explicitly to be reconfirmed."
+      ],
+      "usedBy": [
+        "lucknow"
+      ]
+    },
+    {
+      "id": "agra-expressway",
+      "url": "https://upeida.up.gov.in/en/article/agra-to-lucknow-access-controlled-expressway-greenfield-project",
+      "publisher": "Uttar Pradesh Expressways Industrial Development Authority",
+      "facts": [
+        "The Agra–Lucknow Expressway connects the two cities.",
+        "The expressway is approximately 302 km; published expressway-only times do not include all city access and breaks."
+      ],
+      "usedBy": [
+        "heritage"
+      ]
+    },
+    {
+      "id": "taj-visit",
+      "url": "https://www.tajmahal.gov.in/faqs.aspx",
+      "publisher": "Official Taj Mahal / Uttar Pradesh Tourism website",
+      "facts": [
+        "The Taj Mahal is closed for general sightseeing on Fridays.",
+        "October to March is identified as the best general season.",
+        "Early visits are suggested to organise the day around heat and crowds."
+      ],
+      "excluded": [
+        "Conflicting night-viewing booking instructions and dated ticket prices."
+      ],
+      "usedBy": [
+        "heritage",
+        "braj"
+      ]
+    },
+    {
+      "id": "taj-rules",
+      "url": "https://tajmahal.gov.in/dos-and-donts.aspx",
+      "publisher": "Official Taj Mahal / Uttar Pradesh Tourism website",
+      "facts": [
+        "Photography is prohibited inside the main mausoleum.",
+        "Polluting vehicles are restricted within 500 metres.",
+        "Visitors are advised to avoid large bags."
+      ],
+      "usedBy": [
+        "heritage",
+        "braj"
+      ]
+    },
+    {
+      "id": "agra-fort",
+      "url": "https://agra.nic.in/tourist-place/agra-fort/",
+      "publisher": "Agra district government",
+      "facts": [
+        "Agra Fort is a principal Mughal-era visitor monument in Agra."
+      ],
+      "usedBy": [
+        "heritage",
+        "braj"
+      ]
+    },
+    {
+      "id": "itimad",
+      "url": "https://agra.nic.in/tourist-place/tomb-of-itimad-ud-daulah-baby-taj/",
+      "publisher": "Agra district government",
+      "facts": [
+        "The Tomb of Itimad-ud-Daulah is a marble riverside mausoleum across the Yamuna from Agra Fort."
+      ],
+      "excluded": [
+        "Ticket prices and universal crowd-level claims."
+      ],
+      "usedBy": [
+        "braj"
+      ]
+    },
+    {
+      "id": "braj-sites",
+      "url": "https://mathura.nic.in/tourism/",
+      "publisher": "Mathura district government",
+      "facts": [
+        "The tourism list identifies Prem Mandir, Shri Krishna Janmabhoomi and Vishram Ghat.",
+        "Vishram Ghat is on the Yamuna."
+      ],
+      "usedBy": [
+        "heritage",
+        "braj"
+      ]
+    },
+    {
+      "id": "banke-bihari",
+      "url": "https://mathura.nic.in/tourist-place/shri-banke-bihari/",
+      "publisher": "Mathura district government",
+      "facts": [
+        "Banke Bihari is a Krishna temple in Vrindavan."
+      ],
+      "excluded": [
+        "No current queue length, fixed darshan window or priority service is asserted."
+      ],
+      "usedBy": [
+        "heritage",
+        "braj"
+      ]
+    }
+  ],
+  "competitorReferences": [
+    {
+      "url": "https://www.balajitravels.org/package/spiritual-triangle",
+      "used": "Regional pairing of Varanasi, Prayagraj and Ayodhya; retained more nights and separated road legs to improve pacing.",
+      "notTransferred": "Prices, hotel/meal/vehicle inclusions, exact service promises and source prose."
+    },
+    {
+      "url": "https://www.balajitravels.org/package/kashi-tour-7n-8d",
+      "used": "Sarnath and Buddhist heritage as a separate regional chapter."
+    },
+    {
+      "url": "https://jataktravel.com/",
+      "used": "Culture, crafts, ghats and wider Buddhist interests beyond a temple-only checklist."
+    },
+    {
+      "url": "https://www.satviktourandtravels.com/",
+      "used": "Local Varanasi, Ayodhya and Braj groupings. Read through Jina after native access failed."
+    },
+    {
+      "url": "https://apnatourtravel.com/",
+      "used": "Separate regional and local travel requests; no fleet or operational claims reused."
+    },
+    {
+      "url": "https://kashiwale.com/",
+      "used": "Destination-led route navigation, especially Bodh Gaya and Ayodhya."
+    },
+    {
+      "url": "https://ziffyholidays.com/",
+      "used": "Enquiry-led planning and clarity of proposed accommodation/experience scope; no international package content reused."
+    }
+  ],
+  "editorialEstimates": [
+    {
+      "route": "Central Varanasi–Sarnath",
+      "allowance": "45–75 minutes each way",
+      "basis": "Editorial allowance beyond the district's approximately 10 km geographical relationship; includes urban access, not a live route calculation."
+    },
+    {
+      "route": "Varanasi–Prayagraj",
+      "allowance": "3–4 hours with a short break",
+      "basis": "Conservative planning allowance for the established regional road leg, not a verified timetable or live map."
+    },
+    {
+      "route": "Prayagraj–Ayodhya",
+      "allowance": "4–5 hours with a short stop",
+      "basis": "Editorial road-day allowance; district road-distance context supports a substantial transfer but no exact duration is claimed."
+    },
+    {
+      "route": "Varanasi–Bodh Gaya",
+      "allowance": "6–8 hours with breaks",
+      "basis": "Conservative full-day planning allowance; actual route/mode must be confirmed. No live map or transport timetable used."
+    },
+    {
+      "route": "Bodh Gaya–Gaya",
+      "allowance": "30–60 minutes for a local leg",
+      "basis": "Editorial local-transfer estimate depending on endpoints, plus independent visit and onward-transfer time."
+    },
+    {
+      "route": "Lucknow–Agra",
+      "allowance": "5–6 hours door to door",
+      "basis": "UPEIDA documents the expressway and faster expressway-only times; this editorial range adds city access and a break."
+    },
+    {
+      "route": "Agra–Vrindavan",
+      "allowance": "2–3 hours",
+      "basis": "Editorial planning estimate including city and temple-town access; festivals can extend it."
+    },
+    {
+      "route": "Vrindavan–Mathura",
+      "allowance": "45–75 minutes each way",
+      "basis": "Editorial allowance for exact city destinations and local controls, not distance divided by an assumed speed."
+    }
+  ],
+  "researchCautions": [
+    "Some official pages contain stale or conflicting facts; their official domain alone was not treated as proof for every sentence.",
+    "The supplied historical Sarnath museum domain now returns a generic services/portfolio template; it is not used as current museum authority.",
+    "An Incredible India Varanasi food article incorrectly describes a Ganga/Yamuna/Brahmaputra confluence; rejected.",
+    "An older Ayodhya itinerary says Ram Mandir will open later in the year; rejected as stale.",
+    "Conflicting temple and museum hours were omitted. The verified Friday closures remain.",
+    "Electronic-device rules for Kashi are supported by the temple's current notice extraction. Mahabodhi-specific device rules are to be reconfirmed rather than repeated from a broad template.",
+    "Festival dates, rates, drive guarantees, named hotels, VIP darshan, private viewing, fixed queue times and guaranteed religious programmes are not invented.",
+    "The arrangements.included key is a UI contract: its public heading must say To specify in your quote, not Confirmed inclusions."
+  ],
+  "routes": [
+    {
+      "id": "kashi",
+      "days": 4,
+      "nights": 3,
+      "bases": [
+        {
+          "place": "Varanasi",
+          "nights": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred",
+      "days": 6,
+      "nights": 5,
+      "bases": [
+        {
+          "place": "Varanasi",
+          "nights": 3
+        },
+        {
+          "place": "Prayagraj",
+          "nights": 1
+        },
+        {
+          "place": "Ayodhya",
+          "nights": 1
+        }
+      ]
+    },
+    {
+      "id": "buddhist",
+      "days": 5,
+      "nights": 4,
+      "bases": [
+        {
+          "place": "Varanasi",
+          "nights": 2
+        },
+        {
+          "place": "Bodh Gaya",
+          "nights": 2
+        }
+      ]
+    },
+    {
+      "id": "heritage",
+      "days": 7,
+      "nights": 6,
+      "bases": [
+        {
+          "place": "Lucknow",
+          "nights": 2
+        },
+        {
+          "place": "Agra",
+          "nights": 2
+        },
+        {
+          "place": "Vrindavan",
+          "nights": 2
+        }
+      ]
+    },
+    {
+      "id": "ayodhya",
+      "days": 3,
+      "nights": 2,
+      "bases": [
+        {
+          "place": "Ayodhya",
+          "nights": 2
+        }
+      ]
+    },
+    {
+      "id": "lucknow",
+      "days": 3,
+      "nights": 2,
+      "bases": [
+        {
+          "place": "Lucknow",
+          "nights": 2
+        }
+      ]
+    },
+    {
+      "id": "braj",
+      "days": 4,
+      "nights": 3,
+      "bases": [
+        {
+          "place": "Agra",
+          "nights": 2
+        },
+        {
+          "place": "Vrindavan",
+          "nights": 1
+        }
+      ]
+    }
+  ],
+  "routeContent": [
+    {
+      "id": "kashi",
+      "slug": "kashi-before-the-world-wakes",
+      "kicker": "Four days, one Varanasi base",
+      "lead": "A suggested four-day introduction to Kashi, with three nights in Varanasi. Spend a morning on the Ganga, give the old city and Kashi Vishwanath their own time, and set aside a separate day for Sarnath. The route leaves space for breakfast, rest and the practical work of moving through a busy pilgrimage city.",
+      "pace": "One base; early starts balanced with afternoon breaks",
+      "arrival": "Varanasi",
+      "departure": "Varanasi",
+      "bestFor": "A first visit to Varanasi, a family pilgrimage, or travellers who want the river and the old city without changing hotels.",
+      "season": "October to March is the most comfortable general window for outdoor exploring. Winter fog can affect river views; festival dates call for a different crowd and transport plan.",
+      "highlights": [
+        "A Ganga morning, by boat or on foot",
+        "Kashi Vishwanath and the old-city lanes",
+        "Sarnath, Dhamek Stupa and the museum",
+        "Three nights in the same Varanasi base"
+      ],
+      "dayPlans": [
+        {
+          "day": 1,
+          "title": "Arrive, settle in, meet the river",
+          "location": "Varanasi",
+          "description": "Keep your first day centred on arrival and one riverfront experience. Dashashwamedh Ghat is the proposed evening focus; the timing depends on your connection and the final approach to your accommodation. A late arrival simply moves aarti to another evening.",
+          "moments": [
+            "Settle into your Varanasi base",
+            "An introduction to the ghats",
+            "Evening Ganga aarti, if arrival allows"
+          ],
+          "schedule": [
+            {
+              "part": "Arrival",
+              "title": "Leave room to arrive properly",
+              "text": "Allow time to reach your chosen accommodation, eat and rest. If you stay in the old city, establish the vehicle drop-off point and the last stretch on foot before travelling. Keep any long temple circuit off this first afternoon."
+            },
+            {
+              "part": "Late afternoon",
+              "title": "Find your way to Dashashwamedh",
+              "text": "Approach the river before the evening ceremony rather than arriving at its busiest moment. Use a short walk to understand the steps, meeting point and return route. A ground-level viewing plan should suit the group before considering a boat."
+            },
+            {
+              "part": "Evening",
+              "title": "Watch aarti, then call it a day",
+              "text": "Stay for Ganga aarti when the arrival schedule permits, then return for dinner. Choose a position from which the group can watch comfortably, with a clear route back through the lanes afterwards. Leave time for dinner and an easy return before tomorrow's early start."
+            }
+          ],
+          "overnight": "Varanasi · first of three nights",
+          "travel": "Arrival transfer to be matched to your actual airport or station and accommodation address.",
+          "walking": "Ghat approaches involve steps. Choose a short first walk and discuss a suitable viewing position if standing or stairs are difficult."
+        },
+        {
+          "day": 2,
+          "title": "The Ganga at first light, then Kashi Vishwanath",
+          "location": "Varanasi riverfront & old city",
+          "description": "Use the cooler part of the day for the river, then give the temple and surrounding lanes a separate block of time. The boat and darshan sequence can change with conditions; breakfast and a proper rest are part of the proposed day, not gaps to fill with extra stops.",
+          "moments": [
+            "First light along the river",
+            "Kashi Vishwanath, with time for security",
+            "A short old-city walk and an afternoon break"
+          ],
+          "schedule": [
+            {
+              "part": "Early morning",
+              "title": "See the ghats from the water or shore",
+              "text": "Consider a short Ganga boat ride when conditions and local permissions allow. Confirm the boarding ghat, life jackets and duration before agreeing to it. A riverfront walk is the alternative, with the turnaround point chosen for your comfort rather than a target number of ghats."
+            },
+            {
+              "part": "Late morning",
+              "title": "Make time for the temple",
+              "text": "After breakfast, visit Kashi Vishwanath if darshan is part of your journey. Its current rules prohibit phones and other electronic devices, so settle storage before joining the entry queue. Give the visit its own block of time, including security, darshan and the return through the surrounding lanes."
+            },
+            {
+              "part": "Afternoon & evening",
+              "title": "Explore a little, then pause",
+              "text": "Choose a manageable stretch of the old-city lanes and a stop for tea before returning to rest. Later, revisit a ghat you liked or use this evening for aarti if you missed it on arrival. An interest in Banarasi textiles can shape the afternoon's shopping stop."
+            }
+          ],
+          "overnight": "Varanasi · second of three nights",
+          "travel": "Local journeys only. Vehicle access, walking approaches and any boat departure point need confirming for the day.",
+          "walking": "Steps, uneven riverfront surfaces and standing in temple queues. Shorten the ghat walk independently of the temple visit."
+        },
+        {
+          "day": 3,
+          "title": "Sarnath: the stupa, the museum, the wider story",
+          "location": "Varanasi & Sarnath",
+          "description": "Give Sarnath a substantial part of the day rather than treating it as a brief photo stop. Its archaeological remains and museum tell different parts of the story of the Buddha's first teaching. If today is Friday, exchange this day with the Varanasi day when the museum is a priority.",
+          "moments": [
+            "Dhamek Stupa and the archaeological remains",
+            "The museum's Lion Capital of Ashoka",
+            "A relaxed final evening in Varanasi"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Start with the archaeological site",
+              "text": "Travel out after breakfast and focus first on Dhamek Stupa and the excavated remains around it. Allow time to understand what you are looking at rather than moving rapidly between monuments. A guided visit can connect the surviving stupa and ruins with the history of the Buddha's first teaching."
+            },
+            {
+              "part": "Afternoon",
+              "title": "See the objects behind the history",
+              "text": "Visit Sarnath Museum on an open day, with the Lion Capital of Ashoka as a key object to look for. Museum entry and the outdoor site are separate visits. Check the current opening hours before setting the order, and leave a break for lunch between them."
+            },
+            {
+              "part": "Evening",
+              "title": "Return without another long excursion",
+              "text": "Head back to Varanasi with time to rest and pack. If you still want a final riverfront visit, choose one familiar ghat and keep the evening local. An additional monastery in Sarnath can replace some free time, subject to its own visitor arrangements."
+            }
+          ],
+          "overnight": "Varanasi · third of three nights",
+          "travel": "Planning allowance: about 45–75 minutes each way to Sarnath from a central Varanasi base; traffic and the exact address can change this.",
+          "walking": "Outdoor paths at the archaeological site and time on your feet in museum galleries; plan shade and breaks around the weather."
+        },
+        {
+          "day": 4,
+          "title": "A final morning, shaped around your departure",
+          "location": "Varanasi",
+          "description": "The final day protects your onward connection. A later departure may leave time for breakfast and one nearby stop; an early departure is simply a transfer day. Keep luggage collection and the route out of the old city in mind before agreeing to any last visit.",
+          "moments": [
+            "Breakfast or a familiar ghat, if time allows",
+            "Check out and collect your belongings",
+            "Continue from your confirmed departure point"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Repeat something you enjoyed",
+              "text": "If your departure leaves enough room, return to a nearby stretch of river or linger over breakfast. Choose somewhere close to your accommodation. This is a chance to revisit a favourite place, rather than start a new cross-city sightseeing circuit."
+            },
+            {
+              "part": "Before departure",
+              "title": "Leave time for the last stretch",
+              "text": "Check the accommodation's checkout arrangements and where your onward vehicle can meet you. Collect any belongings held in storage and build the transfer around the exact station or airport on your ticket. Different Varanasi railway stations should never be treated as interchangeable."
+            },
+            {
+              "part": "Onward journey",
+              "title": "Continue with a clear departure plan",
+              "text": "Your flight or train determines the remaining time. Collect your luggage and set the transfer around the reporting time, with a comfortable margin for the journey out of the city. If you want a further destination, extend the route instead of squeezing it into this morning."
+            }
+          ],
+          "overnight": "No overnight stay proposed · depart Varanasi",
+          "travel": "Departure transfer allowance to be set from your actual ticket, hotel address and local traffic advice.",
+          "walking": "Optional short walk only; the day can be planned entirely around breakfast and departure."
+        }
+      ],
+      "planningNotes": [
+        {
+          "title": "Choose your base for access, not just the view",
+          "text": "Three nights are proposed in Varanasi. Before choosing a riverfront or old-city stay, ask about vehicle access, steps, lifts and the distance from the drop-off point. This itinerary does not certify any property as accessible."
+        },
+        {
+          "title": "Protect the Sarnath museum visit",
+          "text": "The museum closes on Fridays. Keep days two and three interchangeable until the travel dates are known, and reconfirm the museum's current hours rather than relying on a fixed clock time in a sample itinerary."
+        },
+        {
+          "title": "Keep temple and river arrangements separate",
+          "text": "Kashi Vishwanath currently prohibits electronic devices inside. Check the official instructions close to your visit. Boat operations depend on river conditions and local restrictions; boating, darshan passes and aarti viewing arrangements need their own confirmation."
+        },
+        {
+          "title": "Read the travel times as planning allowances",
+          "text": "The local transfer range is an editorial estimate for organising the day, not a live traffic prediction. The final address, crowd controls, weather and your chosen transport can change it. Dates and needs come before a fixed timetable."
+        }
+      ],
+      "arrangements": {
+        "included": [
+          "Three Varanasi nights: named property, room type and meal plan",
+          "Arrival, departure and Sarnath transport: vehicle and pickup points",
+          "Guiding, admission tickets and the exact sightseeing scope",
+          "Any river outing or temple service, priced and confirmed separately"
+        ],
+        "excluded": [
+          "Flights or rail tickets unless specifically added",
+          "Meals and drinks outside the agreed meal plan",
+          "Ritual offerings, personal shopping and gratuities",
+          "Any activity or access arrangement absent from the written quote"
+        ]
+      }
+    },
+    {
+      "id": "sacred",
+      "slug": "along-the-sacred-rivers",
+      "kicker": "Kashi, the Sangam & Ayodhya",
+      "lead": "A suggested six-day pilgrimage route with three nights in Varanasi, one in Prayagraj and one in Ayodhya. Give Kashi Vishwanath and Sarnath separate days, pause at the Sangam, then continue to Ram Mandir and the Sarayu. Overnight stops keep the two intercity journeys from becoming a single exhausting sightseeing day.",
+      "pace": "Three bases; two intercity journeys; temple queues and rest time",
+      "arrival": "Varanasi",
+      "departure": "Ayodhya",
+      "bestFor": "Families combining Kashi, Prayagraj and Ayodhya, especially when the purpose of the trip is more important than the number of temples visited.",
+      "season": "October to March is a useful starting window for this northern-plains route. Plan major religious dates separately, with more allowance for crowds, altered access and transport delays.",
+      "highlights": [
+        "Three nights for Varanasi and Sarnath",
+        "A dedicated overnight stop in Prayagraj",
+        "The Sangam and the Sarayu riverfront",
+        "An Ayodhya morning centred on your chosen darshan"
+      ],
+      "dayPlans": [
+        {
+          "day": 1,
+          "title": "Arrive in Kashi, without a temple marathon",
+          "location": "Varanasi",
+          "description": "Your arrival time sets the first day's programme. Settle into Varanasi before approaching the river, with evening aarti as the main possible outing. There are two further evenings here, so a delayed connection does not mean you have missed the experience.",
+          "moments": [
+            "Arrive at your Varanasi base",
+            "Locate the riverfront approach",
+            "Aarti if the arrival leaves enough time"
+          ],
+          "schedule": [
+            {
+              "part": "Arrival",
+              "title": "Check the last part of the journey",
+              "text": "Reach your selected accommodation and leave time for a meal and rest. Establish where a vehicle can stop and whether luggage has to travel the final stretch separately. This matters particularly when a riverside location is chosen for a group with older travellers."
+            },
+            {
+              "part": "Late afternoon",
+              "title": "A manageable introduction to the ghats",
+              "text": "Choose a short approach towards Dashashwamedh Ghat. Identify the meeting place and a comfortable viewing position before the evening becomes busy. Discuss steps and standing time now rather than assuming everyone in the group will use the same vantage point."
+            },
+            {
+              "part": "Evening",
+              "title": "Let aarti be the day's focus",
+              "text": "Watch the Ganga ceremony if your arrival permits, then return for dinner. If the journey has been tiring, move it to another evening. Choose a viewing position and return route around the group's comfort, with a little time by the water before heading back."
+            }
+          ],
+          "overnight": "Varanasi · first of three nights",
+          "travel": "Arrival transfer planned from your actual airport or station to the selected accommodation.",
+          "walking": "A short riverfront approach with ghat steps; shorten or omit it according to the group's needs."
+        },
+        {
+          "day": 2,
+          "title": "A proper day for Kashi Vishwanath",
+          "location": "Varanasi",
+          "description": "Put the visit that matters most at the centre of the day. For many families that is Kashi Vishwanath. Keep its entry process separate from an optional river outing, and leave space for breakfast, waiting and a return to the accommodation between excursions.",
+          "moments": [
+            "Kashi Vishwanath darshan planning",
+            "An optional Ganga morning",
+            "Old-city lanes at a comfortable pace"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Build the morning around darshan",
+              "text": "Choose the temple visit around the current official arrangements. Phones and electronic devices are prohibited inside, so decide where belongings will be stored before joining a queue. Give security, darshan and the return through the surrounding lanes a generous share of the morning."
+            },
+            {
+              "part": "Late morning & afternoon",
+              "title": "Breakfast, a short walk, then rest",
+              "text": "After the temple visit, take a meal break and explore a small section of the old city if the group wishes. Keep the return route straightforward. Avoid adding several distant temples merely because a vehicle is available; another full Varanasi day follows tomorrow."
+            },
+            {
+              "part": "Evening",
+              "title": "Choose the river experience you want",
+              "text": "Use the evening for aarti if it was missed on arrival, or take a shorter riverfront walk. A boat trip can instead be discussed for an early-morning slot when conditions permit. Decide its timing and boarding arrangements independently of the temple queue."
+            }
+          ],
+          "overnight": "Varanasi · second of three nights",
+          "travel": "Local travel with the final temple approach set by current access controls.",
+          "walking": "Standing in queues and walking through busy lanes; plan a rest after the main temple visit."
+        },
+        {
+          "day": 3,
+          "title": "Sarnath before the route moves on",
+          "location": "Varanasi & Sarnath",
+          "description": "Sarnath introduces the Buddhist history of this region before the journey turns towards Prayagraj. Keep the visit concentrated on the archaeological site and museum, with time to return, rest and prepare for tomorrow's change of city.",
+          "moments": [
+            "Dhamek Stupa and excavated remains",
+            "Sarnath Museum on an open day",
+            "A final night in the Varanasi base"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Go beyond the riverfront",
+              "text": "Leave after breakfast for Sarnath, associated with the Buddha's first teaching. Spend time around Dhamek Stupa and the archaeological remains. This is a different kind of visit from a temple queue, so allow time for explanation, looking and pauses outdoors."
+            },
+            {
+              "part": "Afternoon",
+              "title": "See the museum's collection",
+              "text": "On an open day, explore the museum and look for the Lion Capital of Ashoka. Friday is its weekly closure, so the second and third days may need exchanging. Choose a lunch break before returning rather than filling the remaining time with every nearby monastery."
+            },
+            {
+              "part": "Evening",
+              "title": "Prepare for the first intercity leg",
+              "text": "Return to Varanasi, check tomorrow's departure arrangements and have an easy evening. Confirm any essential medicines, luggage handling and meal-stop preferences with your travelling companions. If a final ghat visit matters, keep it nearby and preserve time to rest."
+            }
+          ],
+          "overnight": "Varanasi · third of three nights",
+          "travel": "Planning allowance: 45–75 minutes each way between central Varanasi and Sarnath, subject to your address and traffic.",
+          "walking": "Outdoor archaeological paths and museum galleries; the number of stops can be reduced without changing the overnight plan."
+        },
+        {
+          "day": 4,
+          "title": "To Prayagraj, with time at the Sangam",
+          "location": "Varanasi → Prayagraj",
+          "description": "Travel after breakfast and make Prayagraj an overnight stop. The Sangam, where the Ganga and Yamuna meet and the Saraswati belongs to sacred tradition, is the principal visit. This day deliberately avoids continuing to Ayodhya after sightseeing.",
+          "moments": [
+            "Travel to your Prayagraj base",
+            "Visit the Sangam riverfront",
+            "A possible boat outing, subject to conditions"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "A transfer with a break",
+              "text": "Check out and travel towards Prayagraj, allowing time for a comfort stop and the final approach into the city. The estimated road allowance is for planning only. Set the departure around the group's breakfast and rest needs rather than treating it as a race to the next monument."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Give the Sangam your attention",
+              "text": "After settling in and eating, head towards the confluence. Boats can take visitors towards the meeting of the rivers when local conditions permit; confirm the operator, boarding arrangements and safety equipment before deciding. A riverbank visit remains a valid alternative."
+            },
+            {
+              "part": "Evening",
+              "title": "Leave personal rituals their own time",
+              "text": "If a ceremony is the purpose of your visit, plan it explicitly with time and costs agreed separately. Otherwise, return for a quiet evening. For an interest in modern Indian history, discuss Anand Bhawan, the Nehru family house museum, as an alternative visit when opening hours and the arrival time fit."
+            }
+          ],
+          "overnight": "Prayagraj · one night",
+          "travel": "Planning allowance: roughly 3–4 hours by road from Varanasi, including a short break; traffic, stopping points and festival controls can add time.",
+          "walking": "Riverbank surfaces and boat boarding can be uneven. Discuss access before choosing a boat or a ritual location."
+        },
+        {
+          "day": 5,
+          "title": "Continue to Ayodhya and the Sarayu",
+          "location": "Prayagraj → Ayodhya",
+          "description": "Make the move to Ayodhya the main task of the morning. After checking in, use the evening for Ram Ki Paidi and the Sarayu riverfront. Keep the main temple programme for tomorrow, unless your confirmed departure requires a different sequence.",
+          "moments": [
+            "Travel to Ayodhya",
+            "Settle in before further sightseeing",
+            "Ram Ki Paidi and the Sarayu"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Travel with a realistic arrival window",
+              "text": "Leave Prayagraj after breakfast, with a rest stop built into the road journey. Confirm the approach to your Ayodhya accommodation before setting an exact arrival time. Lunch and a break come first, leaving the riverfront outing for the more comfortable part of the afternoon or evening."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Settle in and prepare for darshan",
+              "text": "Eat, rest and confirm the next day's temple entry arrangements. Agree which visit takes priority and how the group wants to handle walking and queues. If tomorrow's onward connection is early, rearrange the programme or add a night instead of promising several visits before departure."
+            },
+            {
+              "part": "Evening",
+              "title": "Spend time at Ram Ki Paidi",
+              "text": "Visit the series of ghats beside the Sarayu for a riverfront introduction to Ayodhya. The length of the walk should follow the group's energy after travelling. If a ceremony is part of the current evening programme, choose whether to stay before returning for dinner."
+            }
+          ],
+          "overnight": "Ayodhya · one night",
+          "travel": "Planning allowance: around 4–5 hours by road from Prayagraj with a short stop. The actual route and city access need checking for your date.",
+          "walking": "Keep this to a short riverfront walk after the transfer; steps and the distance from the drop-off point should be discussed."
+        },
+        {
+          "day": 6,
+          "title": "Ayodhya's temples, then your onward journey",
+          "location": "Ayodhya",
+          "description": "Choose an onward connection that leaves a meaningful window for your principal temple visit. Ram Mandir, Hanuman Garhi and Kanak Bhawan should not become a compulsory checklist. The order follows current access arrangements, the group's religious priorities and its ability to manage stairs and waiting.",
+          "moments": [
+            "Ram Mandir as the main proposed visit",
+            "Hanuman Garhi or Kanak Bhawan if suitable",
+            "Depart from your confirmed Ayodhya connection"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Put the main darshan first in the plan",
+              "text": "Set the morning around the Ram Mandir visit if that is the reason for travelling. Check official entry instructions and allow a generous queue window. A later onward connection leaves room for the visit, a meal and a comfortable return for luggage."
+            },
+            {
+              "part": "If time permits",
+              "title": "Choose a second temple deliberately",
+              "text": "Hanuman Garhi involves a steep stepped approach; decide whether it suits the group before adding it. Kanak Bhawan is another possible visit in the temple area. Choose according to your interests and available time rather than trying to fit both into a short departure morning."
+            },
+            {
+              "part": "Departure",
+              "title": "Finish without a rushed transfer",
+              "text": "Return for luggage and travel to the airport or railway station on your ticket. Choose a later connection or an additional Ayodhya night when the main darshan needs more time. Any further journey to Lucknow is a separate transfer to plan and quote."
+            }
+          ],
+          "overnight": "No overnight stay proposed · depart Ayodhya",
+          "travel": "Final transfer depends on the specific Ayodhya airport or station; a Lucknow departure requires a separate road allowance.",
+          "walking": "Temple approaches, queues and substantial stairs at Hanuman Garhi. Share stair limits before choosing the final temple sequence."
+        }
+      ],
+      "planningNotes": [
+        {
+          "title": "Keep the five-night split clear",
+          "text": "The proposal is three nights in Varanasi, one in Prayagraj and one in Ayodhya. Arrival is in Varanasi and departure in Ayodhya. A return to Varanasi or onward transfer to Lucknow is additional, not hidden inside the final day."
+        },
+        {
+          "title": "A pilgrimage should follow your priorities",
+          "text": "Name any essential darshan or family ceremony before the route is finalised. Rituals, priests, offerings and passes require an explicit arrangement; this sample promises none of them. Keep an extra night available if the religious purpose needs more time."
+        },
+        {
+          "title": "Friday changes the Sarnath order",
+          "text": "The museum is closed on Fridays. Exchange the two full Varanasi days when needed. Check current Kashi Vishwanath electronics and security instructions close to departure, and reconfirm Ayodhya access separately."
+        },
+        {
+          "title": "Check steps and the final approach",
+          "text": "Hanuman Garhi has a steep stepped approach. Ghats and boat boarding also require a suitable mobility plan. A vehicle booking does not itself establish access to the final temple entrance or riverbank."
+        },
+        {
+          "title": "Treat transfer ranges as estimates",
+          "text": "Road allowances include ordinary city access and a short stop, but are not live traffic forecasts. Festivals, fog, weather and local restrictions can make them longer. Do not use a sample road estimate to book a tight onward connection."
+        }
+      ],
+      "arrangements": {
+        "included": [
+          "Five nights across the three named bases, with properties and meal plans specified",
+          "Two intercity transfers plus agreed arrival, departure and local transport",
+          "Sightseeing scope, guide arrangements and admissions stated individually",
+          "Any boat outing, darshan service or ritual only when explicitly priced and accepted"
+        ],
+        "excluded": [
+          "Flights, trains or return-to-origin transport unless added",
+          "Unlisted meals, donations, offerings and personal expenses",
+          "Assumed priority entry, reserved aarti views or guaranteed ceremony access",
+          "Extra nights and detours outside the final agreed route"
+        ]
+      }
+    },
+    {
+      "id": "buddhist",
+      "slug": "the-road-to-bodh-gaya",
+      "kicker": "Sarnath to Bodh Gaya",
+      "lead": "A suggested five-day route connecting the place of the Buddha's first teaching with the Mahabodhi Temple complex at Bodh Gaya. Spend two nights in Varanasi and two in Bodh Gaya, with a dedicated transfer day between them. Gaya's Hindu pilgrimage traditions remain a separate, optional interest rather than being folded into the Buddhist visits.",
+      "pace": "Two bases; one substantial road day; time at the principal sites",
+      "arrival": "Varanasi",
+      "departure": "Gaya / Bodh Gaya",
+      "bestFor": "Travellers exploring Buddhist history, pilgrims who want time at Sarnath and Mahabodhi, and visitors who prefer a focused route to an extensive temple circuit.",
+      "season": "October to March is a practical shared window for Varanasi and Bodh Gaya. Bihar Tourism gives September to April for Mahabodhi; plan outdoor visits around the actual weather and religious calendar.",
+      "highlights": [
+        "A substantial Sarnath visit",
+        "Dhamek Stupa and the museum collection",
+        "Mahabodhi Temple, a UNESCO World Heritage site",
+        "Two nights in Bodh Gaya, with selected monasteries"
+      ],
+      "dayPlans": [
+        {
+          "day": 1,
+          "title": "Arrive in Varanasi and find the river",
+          "location": "Varanasi",
+          "description": "Begin with an uncomplicated arrival. Varanasi provides the base for tomorrow's Sarnath visit, and a short riverfront outing introduces the living city around it. The first evening can include aarti, but the route does not depend on reaching a ceremony straight from a flight or train.",
+          "moments": [
+            "Settle into the Varanasi base",
+            "A short ghat walk",
+            "An optional evening by the Ganga"
+          ],
+          "schedule": [
+            {
+              "part": "Arrival",
+              "title": "Keep the first hours open",
+              "text": "Travel to your selected accommodation, eat and rest. If you choose an old-city address, confirm its final approach and luggage arrangements. A quiet start will make tomorrow's archaeological visit easier than adding several temples immediately after arrival."
+            },
+            {
+              "part": "Late afternoon",
+              "title": "Meet Varanasi at walking pace",
+              "text": "Choose a short stretch of the ghats rather than trying to cover the entire riverfront. Watch everyday activity from a respectful distance and decide where to turn back according to the steps and the group's energy. Any boat outing remains a separate choice."
+            },
+            {
+              "part": "Evening",
+              "title": "Aarti, or simply dinner",
+              "text": "If the arrival leaves enough time, consider Ganga aarti at Dashashwamedh. Otherwise, have an early meal and discuss tomorrow's Sarnath sequence. Aarti is part of Varanasi's Hindu religious life; it complements the visit without being presented as a Buddhist ceremony."
+            }
+          ],
+          "overnight": "Varanasi · first of two nights",
+          "travel": "Arrival transfer depends on the specific station or airport and accommodation address.",
+          "walking": "Optional ghat walk with steps; it can be shortened or left out after a tiring journey."
+        },
+        {
+          "day": 2,
+          "title": "Sarnath, with time to understand what remains",
+          "location": "Varanasi & Sarnath",
+          "description": "Give the day to Sarnath rather than combining it with a long Varanasi temple circuit. Start with Dhamek Stupa and the excavated site, then use the museum to put the surviving sculpture and objects into context. The museum's Friday closure must be checked against the route before booking.",
+          "moments": [
+            "Dhamek Stupa and the archaeological site",
+            "The Lion Capital of Ashoka in the museum",
+            "A selected monastery, only if time and access permit"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Walk the archaeological landscape",
+              "text": "Travel from Varanasi after breakfast. At Sarnath, focus on the remains associated with the place where the Buddha first taught after enlightenment. Take time at Dhamek Stupa and the excavated site; an agreed guide can help connect surviving structures with the wider history."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Make the museum part of the visit",
+              "text": "On an open day, continue to the museum and the Lion Capital of Ashoka. Do not assume the museum follows the same hours as the outdoor site. Take a meal break, then consider a single nearby Buddhist temple or monastery if its visitor arrangements allow."
+            },
+            {
+              "part": "Evening",
+              "title": "Return and prepare for the road",
+              "text": "Head back to Varanasi before adding another major excursion. Check the next day's departure time, meal-stop preferences and luggage plan. If Sarnath falls on a Friday, revise the arrival pattern or route dates; a late museum stop on transfer day is not a dependable substitute."
+            }
+          ],
+          "overnight": "Varanasi · second of two nights",
+          "travel": "Planning allowance: 45–75 minutes each way between central Varanasi and Sarnath; the final base and traffic may change this.",
+          "walking": "Outdoor paths and museum galleries. Include breaks and carry only what the current site rules allow."
+        },
+        {
+          "day": 3,
+          "title": "A travel day to Bodh Gaya",
+          "location": "Varanasi → Bodh Gaya",
+          "description": "Reserve this day for the move between bases. A road journey allows planned rest stops but should not be followed by a compulsory circuit of monasteries. The main Mahabodhi visit has its own day tomorrow, so an arrival delay does not consume the centre of the journey.",
+          "moments": [
+            "One main intercity journey",
+            "Planned food and comfort stops",
+            "Settle into Bodh Gaya"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Leave after breakfast",
+              "text": "Check out and begin the journey with water, a meal-stop plan and any personal needs discussed in advance. Build the day around comfortable breaks and a meal stop that suits the group. Rail may be an alternative only after its actual timetable and onward transfer are checked."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Arrive without another timetable to chase",
+              "text": "Reach Bodh Gaya and settle into the chosen accommodation. Keep lunch flexible around the journey. After a later arrival, enjoy a straightforward check-in and an easy evening; tomorrow is reserved for the main temple visit."
+            },
+            {
+              "part": "Evening",
+              "title": "Get your bearings locally",
+              "text": "If you arrive with energy to spare, take a short orientation walk near your base and establish the next morning's approach to Mahabodhi. Otherwise, rest. Any entry on this evening is optional and follows the temple's current security and visitor arrangements."
+            }
+          ],
+          "overnight": "Bodh Gaya · first of two nights",
+          "travel": "Planning allowance: roughly 6–8 hours by road from Varanasi with breaks. Confirm the route and timing locally; weather, roadworks and city access can extend the day.",
+          "walking": "Minimal planned walking; an evening orientation is optional."
+        },
+        {
+          "day": 4,
+          "title": "Mahabodhi first, then a few places chosen well",
+          "location": "Bodh Gaya",
+          "description": "The Mahabodhi Temple complex is the day's main experience. Allow time to observe, understand the setting and sit quietly where visitors are permitted. In the afternoon, choose a small number of Buddhist temples or monasteries instead of turning a focused visit into a rapid collection of photographs.",
+          "moments": [
+            "Mahabodhi Temple and the Bodhi Tree setting",
+            "Unscheduled time within the permitted visitor areas",
+            "A small selection of Bodh Gaya's monasteries"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Give Mahabodhi a generous visit",
+              "text": "Approach the UNESCO-listed complex with time for security and the current belongings arrangements. The site marks the place associated with the Buddha's enlightenment. Follow the permitted route around the temple and Bodhi Tree area, allowing quiet observation rather than a fixed photo-stop duration."
+            },
+            {
+              "part": "Afternoon",
+              "title": "See another Buddhist tradition",
+              "text": "After lunch and a break, select one or two local monasteries or temples that are open to visitors. The Thai or Bhutanese traditions may provide a useful contrast, depending on current access. Treat worship spaces respectfully and ask before photographing interiors or people."
+            },
+            {
+              "part": "Evening",
+              "title": "Leave room for your own response",
+              "text": "Keep the evening free for rest or a return to a place you valued, if access permits. Modest clothing, footwear removal where required and quiet conduct belong to the visit. Sitting for a while in a permitted public area can be as worthwhile as adding another stop."
+            }
+          ],
+          "overnight": "Bodh Gaya · second of two nights",
+          "travel": "Local journeys within Bodh Gaya; agree transport according to the selected monasteries and accommodation.",
+          "walking": "Time on foot in the temple complex, with footwear removed where required. Share mobility concerns before fixing the route."
+        },
+        {
+          "day": 5,
+          "title": "A quiet departure, or a separately planned Gaya visit",
+          "location": "Bodh Gaya / Gaya",
+          "description": "Let the onward connection determine this day. A final Bodh Gaya visit may suit a late departure. Gaya's Vishnupad Temple and ancestral rites belong to a different pilgrimage tradition, so add them only when they are part of your purpose and there is enough time.",
+          "moments": [
+            "A flexible final Bodh Gaya morning",
+            "Optional Gaya visit with its own arrangements",
+            "Departure from the confirmed airport or station"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Choose the priority before setting out",
+              "text": "If the connection permits, return to a nearby temple or simply have breakfast before checking out. Keep luggage collection and the transfer in view. For an early flight or train, keep breakfast, checkout and the transfer as the morning's simple sequence."
+            },
+            {
+              "part": "Optional visit",
+              "title": "Keep Vishnupad separate",
+              "text": "For travellers with a personal reason to visit Gaya, discuss the Vishnupad area and the Phalgu river setting in advance. Verify current temple access and any ritual requirements. A pind-daan ceremony needs a dedicated window, with the officiant, location and arrangements discussed beforehand."
+            },
+            {
+              "part": "Departure",
+              "title": "Use the exact departure point",
+              "text": "Confirm whether you leave from Gaya airport, Gaya Junction or another point and plan the transfer accordingly. If a substantial ceremony or a further Bihar destination matters, extend the stay. Patna or a return to Varanasi can be planned as the next leg of a longer journey."
+            }
+          ],
+          "overnight": "No overnight stay proposed · depart the Gaya / Bodh Gaya area",
+          "travel": "Allow roughly 30–60 minutes for a local Bodh Gaya–Gaya road leg as a planning estimate, plus visit and onward-transfer time. Reconfirm for the exact addresses.",
+          "walking": "Optional temple approaches; access, footwear and steps vary by the chosen visit."
+        }
+      ],
+      "planningNotes": [
+        {
+          "title": "Check Friday before fixing the short Varanasi stay",
+          "text": "This route has only one full Sarnath day. If it falls on Friday, the museum is closed: change the dates or add time if its collection is important. The archaeological site and the museum are separate visits."
+        },
+        {
+          "title": "Mahabodhi is a living religious site",
+          "text": "Bihar Tourism advises modest dress, footwear removal and quiet conduct. Check current security, photography and electronic-device rules before leaving your accommodation. Access to a religious programme or meditation session requires a separate arrangement."
+        },
+        {
+          "title": "Keep Gaya and Bodh Gaya distinct",
+          "text": "Bodh Gaya centres on Buddhist pilgrimage and Mahabodhi. Vishnupad in Gaya is a Hindu shrine associated with ancestral rites. A ritual-focused visit may need a longer stay and should be planned explicitly rather than implied by the route's destination list."
+        },
+        {
+          "title": "Plan the road day conservatively",
+          "text": "The transfer ranges are editorial planning estimates, not a live map or transport timetable. Stops, weather, road conditions and the actual accommodation addresses affect the journey. Confirm the mode before booking the onward connection."
+        }
+      ],
+      "arrangements": {
+        "included": [
+          "Two Varanasi nights and two Bodh Gaya nights, with properties and meal plans named",
+          "The agreed intercity travel mode and arrival / departure transfers",
+          "Sarnath and Bodh Gaya guiding and admission scope",
+          "Any additional Gaya visit or religious programme as a separate quoted item"
+        ],
+        "excluded": [
+          "Flights and rail tickets unless specifically listed",
+          "Monastery donations, offerings and personal expenses",
+          "Unconfirmed meditation, retreat, teaching or ritual participation",
+          "Patna transfers, return to Varanasi and additional destinations unless added"
+        ]
+      }
+    },
+    {
+      "id": "heritage",
+      "slug": "awadh-agra-and-braj",
+      "kicker": "A week across three different cities",
+      "lead": "A suggested seven-day route with two nights each in Lucknow, Agra and Vrindavan. Start with the Imambaras and food traditions of Awadh, continue to the Taj Mahal and Agra Fort, then finish among the temples of Braj. Two nights at each base give the main visits a full day of their own.",
+      "pace": "Three bases; two road journeys; full sightseeing days between moves",
+      "arrival": "Lucknow",
+      "departure": "Vrindavan / Mathura",
+      "bestFor": "Travellers combining architecture and food with the devotional traditions of Braj, with time to explore beyond a single Taj Mahal stop.",
+      "season": "October to March is the preferred general sightseeing window for Agra and a practical starting point for the wider route. Check the actual weather and festival calendar before deciding daily start times.",
+      "highlights": [
+        "Bara Imambara, Rumi Darwaza and old Lucknow",
+        "Taj Mahal and Agra Fort on a full Agra day",
+        "Two nights in Vrindavan",
+        "An optional Mathura visit without an extra hotel move"
+      ],
+      "dayPlans": [
+        {
+          "day": 1,
+          "title": "Arrive in Lucknow, with dinner as the first destination",
+          "location": "Lucknow",
+          "description": "Begin the week with one city and an easy evening. Lucknow's monuments have a full day tomorrow; today is for settling in and choosing a first meal. The food plan should follow your preferences rather than assume everyone wants the same tasting tour.",
+          "moments": [
+            "Settle into your Lucknow base",
+            "A first Awadhi meal",
+            "A short local evening if arrival allows"
+          ],
+          "schedule": [
+            {
+              "part": "Arrival",
+              "title": "Leave the main sights for tomorrow",
+              "text": "Reach the chosen accommodation and allow time to unpack and rest. Confirm the next day's starting point and whether anyone wants to avoid stairs or a long market walk. An early arrival leaves time for a short local outing before dinner."
+            },
+            {
+              "part": "Late afternoon",
+              "title": "Take a short introduction to the city",
+              "text": "If you arrive comfortably before evening, choose a local walk or a café stop near your base. Save the old-city monument cluster for a planned visit. This helps keep the first day flexible when flights, trains or city traffic alter the arrival."
+            },
+            {
+              "part": "Evening",
+              "title": "Choose your first taste of Awadh",
+              "text": "Consider an Awadhi dinner, with vegetarian preferences and any dietary requirements discussed in advance. Lucknow's food traditions include kebabs, biryani and sweets; choose a meal or tasting experience that reflects your preferences. Leave the rest of the evening easy before a full day in the old city."
+            }
+          ],
+          "overnight": "Lucknow · first of two nights",
+          "travel": "Arrival transfer set around your actual Lucknow airport or railway station and accommodation.",
+          "walking": "An optional short walk only; the arrival evening can remain entirely at leisure."
+        },
+        {
+          "day": 2,
+          "title": "Imambaras, Rumi Darwaza and the old city",
+          "location": "Lucknow",
+          "description": "Build the day around the architectural cluster of Bara Imambara, Rumi Darwaza and Chota Imambara. Grouping these visits makes more sense than repeatedly crossing the city. The maze, market walk and shopping time are choices to fit around the principal monuments.",
+          "moments": [
+            "Bara Imambara",
+            "Rumi Darwaza and Chota Imambara",
+            "Time for food or chikankari shopping"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Give Bara Imambara time",
+              "text": "Begin with the main Imambara complex and its architectural spaces. If you want to explore the Bhool Bhulaiya, discuss the stairs and use an authorised guide, as the district visitor information recommends. Travellers who prefer to avoid the climb can keep their focus on the main Imambara visit."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Follow the neighbouring landmarks",
+              "text": "Continue to Rumi Darwaza and, when the pace suits, Chota Imambara. Pause for lunch rather than treating three nearby landmarks as one uninterrupted walk. Rumi Darwaza sits between the two Imambaras, giving the visits a connected route through this part of the city."
+            },
+            {
+              "part": "Evening",
+              "title": "Choose between the market and a relaxed meal",
+              "text": "Use the remaining time for a manageable old-city walk, food or browsing chikankari textiles. Chikankari, the city's distinctive embroidery tradition, gives a textile stop a useful local focus. Return with enough time to prepare for tomorrow's road journey to Agra."
+            }
+          ],
+          "overnight": "Lucknow · second of two nights",
+          "travel": "Local city travel between the agreed monuments, market area and accommodation.",
+          "walking": "Monument grounds and market lanes; the Bhool Bhulaiya adds stairs and should be selected separately."
+        },
+        {
+          "day": 3,
+          "title": "Across to Agra, with an afternoon to settle",
+          "location": "Lucknow → Agra",
+          "description": "Use the Agra–Lucknow Expressway for the main road leg, with a planned meal or comfort stop. Keep the Agra arrival relaxed. Before confirming dates, check whether tomorrow is Friday: the Taj Mahal's weekly closure can change the whole order of this stay.",
+          "moments": [
+            "Travel from Lucknow to Agra",
+            "A planned break on the journey",
+            "Prepare for the Taj visit"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Make the transfer the main plan",
+              "text": "Leave after breakfast and travel towards Agra. The expressway improves the connection, but door-to-door travel also includes city approaches and stops. Set a comfortable departure time and avoid attaching a tightly timed monument admission to the expected arrival."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Check in before choosing an extra visit",
+              "text": "Settle into the Agra accommodation and take a break. An early arrival may allow a small additional outing or time to become familiar with the neighbourhood around your stay. The next day already includes two major monuments, so rest is a sensible use of the remaining afternoon."
+            },
+            {
+              "part": "Evening",
+              "title": "Prepare for an early start",
+              "text": "Confirm the Taj entry plan, approved belongings and the route from vehicle drop-off to the gate. Pack lightly and check breakfast arrangements if an early visit is chosen. If tomorrow is Friday, adjust the sequence or length of the stay before making bookings."
+            }
+          ],
+          "overnight": "Agra · first of two nights",
+          "travel": "Planning allowance: approximately 5–6 hours door to door from Lucknow, including city access and a break; this is longer than the expressway-only journey.",
+          "walking": "Minimal planned walking on the transfer day; any additional visit is optional."
+        },
+        {
+          "day": 4,
+          "title": "The Taj Mahal, then Agra Fort",
+          "location": "Agra",
+          "description": "Give the Taj Mahal the first part of the day on an open date, then pause before Agra Fort. Seeing both provides a fuller introduction to Mughal Agra than a single photograph of the Taj. Keep the evening free rather than adding a distant excursion by default.",
+          "moments": [
+            "Taj Mahal on an open day",
+            "A proper break between monuments",
+            "Agra Fort and its imperial setting"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Arrive prepared for the Taj",
+              "text": "An early visit can help organise the day around the heat and later crowds. Allow time for the last approach and security, and carry only permitted belongings. Photography is prohibited inside the main mausoleum; current ticket conditions should be checked before entry."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Change scale at Agra Fort",
+              "text": "Return for breakfast or take a longer meal and rest break, depending on the start time. Continue to Agra Fort with enough energy to explore its courtyards and visitor areas. A guide and the extent of the visit can be agreed according to your interest in history."
+            },
+            {
+              "part": "Evening",
+              "title": "Keep a little space in Agra",
+              "text": "Have an unhurried evening and prepare for the next base. If another monument matters, discuss replacing part of the day rather than automatically adding Fatehpur Sikri or a long excursion. This route protects time at the two principal sites."
+            }
+          ],
+          "overnight": "Agra · second of two nights",
+          "travel": "Local Agra travel. The Taj's official guidance restricts polluting vehicles near the monument, so allow for the final approach from parking.",
+          "walking": "Substantial time on foot at two monuments. Discuss the route and assistance needs; do not assume that every visitor area is equally accessible."
+        },
+        {
+          "day": 5,
+          "title": "From Agra to Vrindavan",
+          "location": "Agra → Vrindavan",
+          "description": "Move to Braj after breakfast and settle into Vrindavan before beginning temple visits. This shorter road day leaves room for rest and an introductory evening. Prem Mandir is one possible focus, with the visit arranged around its current opening and worship schedule.",
+          "moments": [
+            "Travel into the Braj region",
+            "Settle into the Vrindavan base",
+            "Prem Mandir as an optional first visit"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Make the move without a long detour",
+              "text": "Leave Agra after breakfast and travel towards Vrindavan. Keep check-in and lunch as the first priorities on arrival. A detour to another destination changes the transfer day, so specify it before the route and vehicle hours are agreed."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Take a break and plan temple access",
+              "text": "Rest at the accommodation and confirm the evening's visiting window. Discuss where a vehicle can drop the group and any final walk or local transport. The temple visits should follow current access arrangements rather than a fixed sequence copied from a standard package."
+            },
+            {
+              "part": "Evening",
+              "title": "An introduction to Vrindavan",
+              "text": "Consider Prem Mandir for the first temple visit, or choose another place that matters personally to you. Keep the outing modest after changing bases. Use the visit to become familiar with the temple grounds and the devotional atmosphere before returning for dinner."
+            }
+          ],
+          "overnight": "Vrindavan · first of two nights",
+          "travel": "Planning allowance: around 2–3 hours from Agra, including normal city access; festival diversions and the final approach can extend it.",
+          "walking": "Temple grounds and the final approach from the agreed drop-off point; keep the first outing short."
+        },
+        {
+          "day": 6,
+          "title": "Vrindavan first, with Mathura as a considered choice",
+          "location": "Vrindavan & optional Mathura",
+          "description": "Plan Banke Bihari around the current darshan arrangements, then take a break before deciding whether to continue to Mathura. The two places belong to the same wider Braj region, but a meaningful visit should leave time for temple queues, meals and the return journey.",
+          "moments": [
+            "Banke Bihari, subject to current access",
+            "A break between temple visits",
+            "Optional Mathura and Vishram Ghat"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Choose the darshan window carefully",
+              "text": "Visit Banke Bihari when the current temple arrangements allow. Agree the approach and meeting point before entering busy lanes, and leave time for waiting. Keep the next part of the day flexible so the temple visit can take the time it needs."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Keep Mathura optional",
+              "text": "After a meal and rest, decide whether to visit Mathura. Shri Krishna Janmabhoomi or the Yamuna-side Vishram Ghat may be considered according to interests and current access. Choose one principal Mathura stop, with time to pause beside the Yamuna if that is part of your interest."
+            },
+            {
+              "part": "Evening",
+              "title": "Return to the same base",
+              "text": "Come back to Vrindavan for the second night, allowing time for the road journey and any local restrictions. If you prefer to remain in Vrindavan throughout, use the afternoon for another chosen temple and a shorter evening. The overnight plan stays the same."
+            }
+          ],
+          "overnight": "Vrindavan · second of two nights",
+          "travel": "If Mathura is chosen, use roughly 45–75 minutes each way as a planning allowance; exact destinations and crowd controls matter.",
+          "walking": "Busy temple lanes, queues and possible riverfront steps. Keep the optional Mathura programme separate from the morning's physical demands."
+        },
+        {
+          "day": 7,
+          "title": "Leave Braj at a comfortable pace",
+          "location": "Vrindavan / Mathura",
+          "description": "Finish with breakfast and a departure plan based on the actual onward ticket. A nearby visit may fit a late departure, but this final morning is not a substitute for another full day in Braj. Decide the end point before confirming transport.",
+          "moments": [
+            "A flexible final morning",
+            "Check out without another major excursion",
+            "Depart from the agreed connection"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Keep one local possibility",
+              "text": "If time allows, return to a temple close to your accommodation or take an easy breakfast. Keep the outing short enough to collect luggage and check out comfortably. The day can equally remain free of sightseeing after a week on the road."
+            },
+            {
+              "part": "Before departure",
+              "title": "Confirm where the next journey begins",
+              "text": "Check the precise railway station or airport on your onward ticket. Mathura, Agra and Delhi are different transfer plans with different time requirements. Set the transfer according to the exact endpoint before confirming the final day's pickup."
+            },
+            {
+              "part": "Onward journey",
+              "title": "Travel with the right allowance",
+              "text": "Set the pickup and final approach with current local advice, particularly around religious dates. Any extra transfer should appear in the written quote. If another Braj destination remains important, extend the route rather than relying on spare time before a connection."
+            }
+          ],
+          "overnight": "No overnight stay proposed · depart the Vrindavan / Mathura area",
+          "travel": "Departure transfer to be quoted from the exact accommodation to the confirmed connection; no Delhi transfer is assumed.",
+          "walking": "An optional short local visit only; no major walk is required on departure day."
+        }
+      ],
+      "planningNotes": [
+        {
+          "title": "Work around the Taj's Friday closure",
+          "text": "The Taj Mahal is closed to general sightseeing on Fridays. If the full Agra day is Friday, move the Taj visit only when the actual arrival or departure allows it; otherwise change the nights or dates. Agra Fort is not a substitute for a promised Taj visit."
+        },
+        {
+          "title": "Know the Taj approach and belongings rules",
+          "text": "The official visitor guidance restricts polluting vehicles near the monument, prohibits photography inside the main mausoleum and advises travelling without large bags. Confirm the current rules and ticket conditions before your visit."
+        },
+        {
+          "title": "Choose the maze rather than assume it",
+          "text": "Lucknow's district guidance describes stairs into the Bhool Bhulaiya and recommends an authorised guide. It can be left out while retaining the Imambara visit. Tell the planner about stair concerns before the sightseeing scope is fixed."
+        },
+        {
+          "title": "Braj follows the temples' own routines",
+          "text": "Darshan windows, queues and local vehicle access can change, especially around festivals. Check the current arrangements for each temple and keep Mathura optional. No special access, ceremony or event is guaranteed."
+        },
+        {
+          "title": "Three bases and realistic road allowances",
+          "text": "The proposed split is two nights in each city. Road ranges are editorial estimates including ordinary access and short breaks, not live forecasts. Exact properties, local controls and weather can change them."
+        }
+      ],
+      "arrangements": {
+        "included": [
+          "Six nights: two each in Lucknow, Agra and Vrindavan, with properties specified",
+          "The two intercity legs and agreed local / arrival / departure transport",
+          "Guide arrangements, monument admissions and temple visit scope",
+          "Any food experience, extra excursion or onward Delhi transfer as an explicit item"
+        ],
+        "excluded": [
+          "Flights or rail tickets unless the quote adds them",
+          "Unlisted meals, shopping, donations and personal expenses",
+          "Priority temple access or special Taj viewing not explicitly confirmed",
+          "Additional destinations, nights or transfers outside the agreed programme"
+        ]
+      }
+    },
+    {
+      "id": "ayodhya",
+      "slug": "ayodhya-at-your-own-pace",
+      "kicker": "Two nights in Ayodhya",
+      "lead": "A suggested three-day stay that gives Ayodhya a full day between arrival and departure. Plan Ram Mandir, Hanuman Garhi and Kanak Bhawan around your priorities, with an evening beside the Sarayu. Staying in one base leaves room for queues and rest without adding a long intercity transfer.",
+      "pace": "One base; one full temple day; flexible arrival and departure",
+      "arrival": "Ayodhya",
+      "departure": "Ayodhya",
+      "bestFor": "A focused Ayodhya pilgrimage, families who want two nights in one place, and travellers whose main priority is darshan rather than a multi-city circuit.",
+      "season": "Suggested planning window: October to March. Ram Navami and Deepotsav visits need a separate crowd, access and accommodation plan rather than the ordinary-day schedule below.",
+      "highlights": [
+        "A full day for your chosen Ayodhya temples",
+        "Ram Mandir and Kanak Bhawan",
+        "Hanuman Garhi when the steps suit your group",
+        "Ram Ki Paidi and the Sarayu riverfront"
+      ],
+      "dayPlans": [
+        {
+          "day": 1,
+          "title": "Arrive in Ayodhya and settle by the Sarayu",
+          "location": "Ayodhya",
+          "description": "Keep arrival day light and use the riverfront as an introduction to the city. Two nights allow the principal temple programme to wait until tomorrow. An evening at Ram Ki Paidi is a possibility, not a reason to rush directly from a flight or train.",
+          "moments": [
+            "Settle into the Ayodhya base",
+            "Confirm the next day's temple priorities",
+            "An evening around Ram Ki Paidi"
+          ],
+          "schedule": [
+            {
+              "part": "Arrival",
+              "title": "Confirm the approach to your stay",
+              "text": "Reach the selected accommodation and allow time for a meal and rest. Discuss the final vehicle drop-off and luggage arrangements if access is restricted near the property. If you arrive via Lucknow rather than Ayodhya, that road transfer needs its own allowance and quote."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Plan tomorrow around what matters",
+              "text": "Choose the main darshan and whether Hanuman Garhi's stairs suit the group. Confirm the current entry and belongings instructions before setting departure times. This is also the moment to explain any family tradition or particular temple that should take priority over the sample route."
+            },
+            {
+              "part": "Evening",
+              "title": "Begin at the riverfront",
+              "text": "If the arrival permits, visit Ram Ki Paidi, the series of ghats beside the Sarayu. Keep the first walk short and identify the return meeting point. Follow the length of the riverfront walk according to the group's energy, then return for dinner and a relaxed evening."
+            }
+          ],
+          "overnight": "Ayodhya · first of two nights",
+          "travel": "Local arrival transfer from your confirmed Ayodhya airport or railway station; travel from Lucknow is a separate arrangement.",
+          "walking": "A short ghat approach with steps; the evening can be omitted if the arrival is tiring."
+        },
+        {
+          "day": 2,
+          "title": "A full day for Ram Mandir and the temple town",
+          "location": "Ayodhya",
+          "description": "Give the main darshan a generous window and fit the remaining temples around it. Hanuman Garhi and Kanak Bhawan add different experiences, but the order should follow current access and the group's own religious priorities. Keep a meal and rest break between outings.",
+          "moments": [
+            "Ram Mandir, subject to current entry arrangements",
+            "Hanuman Garhi if the stepped approach suits",
+            "Kanak Bhawan and a proper afternoon break"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Make the principal darshan the priority",
+              "text": "Set the morning around Ram Mandir, allowing time for security, the approach and waiting. Some travellers prefer to visit Hanuman Garhi first; discuss that preference before fixing the order. Keep the meal and afternoon visit flexible so the main darshan can take the time it needs."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Pause, then visit Kanak Bhawan",
+              "text": "Take a meal and return for a break before another temple visit. Kanak Bhawan is dedicated to Rama and Sita and offers a further focus within the temple town. Match the visit to its current open window rather than assuming continuous access throughout the afternoon."
+            },
+            {
+              "part": "Evening",
+              "title": "Keep the last outing optional",
+              "text": "If Hanuman Garhi remains a priority and the group can manage the steep steps, place it where the day's arrangements allow. Otherwise, revisit the riverfront or enjoy a quiet evening. The full day leaves room to return to the place that matters most to you."
+            }
+          ],
+          "overnight": "Ayodhya · second of two nights",
+          "travel": "Local transport and final walking approaches depend on current city access controls and the selected accommodation.",
+          "walking": "Queues and temple lanes; Hanuman Garhi adds substantial steep steps. Choose it separately according to the group's comfort."
+        },
+        {
+          "day": 3,
+          "title": "One final local visit, then depart",
+          "location": "Ayodhya",
+          "description": "Use the final morning according to your actual connection. A nearby riverfront or temple visit may fit a late departure, while an early train or flight calls for a straightforward checkout. Keep the flexible time for something personally meaningful instead of another long list of stops.",
+          "moments": [
+            "A flexible last morning",
+            "Optional Nageshwarnath near Ram Ki Paidi",
+            "Departure from the confirmed station or airport"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Return to the river, if time allows",
+              "text": "After breakfast, consider a short return to Ram Ki Paidi or Nageshwarnath Temple in that area. Choose one nearby outing and check its current visiting arrangements. Do not commit to a cross-city excursion before collecting luggage and leaving for a connection."
+            },
+            {
+              "part": "Before departure",
+              "title": "Leave time for checkout and access",
+              "text": "Return to the accommodation, collect belongings and confirm the pickup point. The same street may have different vehicle access at different times, so use current local advice. If you prefer another darshan, discuss whether a later departure or an extra night is the better plan."
+            },
+            {
+              "part": "Onward journey",
+              "title": "Finish at the agreed endpoint",
+              "text": "Travel to the exact Ayodhya airport or railway station on your ticket. An onward road journey to Lucknow, Prayagraj or Varanasi is an extension to specify separately. Leave a comfortable margin for the final approach to your station or airport."
+            }
+          ],
+          "overnight": "No overnight stay proposed · depart Ayodhya",
+          "travel": "Departure transfer to the exact booked connection; no intercity return is assumed.",
+          "walking": "Optional short local visit; otherwise only the approach required for departure."
+        }
+      ],
+      "planningNotes": [
+        {
+          "title": "Two nights protect the main temple day",
+          "text": "The suggested stay is two nights in Ayodhya. Keep the full day between arrival and departure for the principal visits; an early arrival or late departure is useful flexibility, not guaranteed sightseeing time."
+        },
+        {
+          "title": "Check the current temple arrangements",
+          "text": "Check current Ram Mandir and other temple instructions for your dates. Passes, religious services, queues and belongings rules are separate operational details. No VIP access, fixed waiting time or special ceremony is promised here."
+        },
+        {
+          "title": "Discuss Hanuman Garhi's stairs",
+          "text": "Official tourism information describes a steep stepped approach. Let walking and stair preferences shape the visit rather than assuming that every member of the group will follow the same temple sequence."
+        },
+        {
+          "title": "Festival visits are a different plan",
+          "text": "Ram Navami and Deepotsav bring a different pattern of gatherings and arrangements. Confirm dates and current local guidance before choosing accommodation and transport. Ordinary-day timings should not be reused automatically."
+        }
+      ],
+      "arrangements": {
+        "included": [
+          "Two Ayodhya nights with property, room type and meals specified",
+          "Agreed arrival, departure and local transport",
+          "The temple visit sequence and any guiding support",
+          "Any religious service or intercity transfer as a separate confirmed item"
+        ],
+        "excluded": [
+          "Flights or trains unless added to the quote",
+          "Donations, offerings and personal purchases",
+          "Unconfirmed priority access or reserved ceremony viewing",
+          "Lucknow transfers or additional destinations unless expressly listed"
+        ]
+      }
+    },
+    {
+      "id": "lucknow",
+      "slug": "a-weekend-in-lucknow",
+      "kicker": "Three days in the city of Awadh",
+      "lead": "A suggested three-day Lucknow stay with two nights in one base. Give Bara Imambara, Rumi Darwaza and Chota Imambara a full day, with time for Awadhi food and chikankari. A later departure can add the Residency and its account of 1857 without turning the city break into a rushed monument circuit.",
+      "pace": "One base; a full old-city day; an optional history visit before departure",
+      "arrival": "Lucknow",
+      "departure": "Lucknow",
+      "bestFor": "A short break built around architecture, food and textiles, or travellers who want to explore Lucknow properly before continuing elsewhere.",
+      "season": "Suggested planning window: October to March for a walking-led city break. Set outdoor visits around the day's weather and check monument arrangements before fixing the sequence.",
+      "highlights": [
+        "Bara Imambara and the optional Bhool Bhulaiya",
+        "Rumi Darwaza and Chota Imambara",
+        "Awadhi food and time for chikankari",
+        "The Residency if your departure allows"
+      ],
+      "dayPlans": [
+        {
+          "day": 1,
+          "title": "Arrive, settle in and choose an Awadhi dinner",
+          "location": "Lucknow",
+          "description": "Start your Lucknow break with an easy arrival and a first meal. The principal monuments have a full day tomorrow, so a delayed connection does not spoil the route. An early arrival leaves room for a short local outing rather than another compulsory circuit.",
+          "moments": [
+            "Settle into your Lucknow base",
+            "A first Awadhi meal",
+            "A short local evening if arrival allows"
+          ],
+          "schedule": [
+            {
+              "part": "Arrival",
+              "title": "Settle into one base for two nights",
+              "text": "Reach the chosen accommodation, unpack and rest. Confirm the next day's starting point and tell the planner about any concerns with stairs or a longer market walk. The stay is designed around one base, so there is no need to repack before exploring the city."
+            },
+            {
+              "part": "Late afternoon",
+              "title": "Consider a short Hazratganj outing",
+              "text": "If the arrival gives you time, explore a manageable stretch of Hazratganj or stop for tea nearby. Shopping can be as brief as a look at the textiles. Keep a longer old-city walk for tomorrow, when it can be combined with the monument visits."
+            },
+            {
+              "part": "Evening",
+              "title": "Make food a personal choice",
+              "text": "Choose an Awadhi meal according to your interests and dietary preferences. A restaurant reservation or guided tasting can be discussed separately. Kebabs, biryani and sweets are part of the city's food traditions; vegetarian choices and personal favourites can shape the meal. Keep the remaining evening easy."
+            }
+          ],
+          "overnight": "Lucknow · first of two nights",
+          "travel": "Arrival transfer set around your actual Lucknow airport or railway station and accommodation.",
+          "walking": "An optional short walk only; the arrival evening can remain entirely at leisure."
+        },
+        {
+          "day": 2,
+          "title": "Imambaras, Rumi Darwaza and the old city",
+          "location": "Lucknow",
+          "description": "Build the day around the architectural cluster of Bara Imambara, Rumi Darwaza and Chota Imambara. Grouping these visits makes more sense than repeatedly crossing the city. The maze, market walk and shopping time are choices to fit around the principal monuments.",
+          "moments": [
+            "Bara Imambara",
+            "Rumi Darwaza and Chota Imambara",
+            "Time for food or chikankari shopping"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Give Bara Imambara time",
+              "text": "Begin with the main Imambara complex and its architectural spaces. If you want to explore the Bhool Bhulaiya, discuss the stairs and use an authorised guide, as the district visitor information recommends. Travellers who prefer to avoid the climb can keep their focus on the main Imambara visit."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Follow the neighbouring landmarks",
+              "text": "Continue to Rumi Darwaza and, when the pace suits, Chota Imambara. Pause for lunch rather than treating three nearby landmarks as one uninterrupted walk. Rumi Darwaza sits between the two Imambaras, giving the visits a connected route through this part of the city."
+            },
+            {
+              "part": "Evening",
+              "title": "Food, textiles or simply an easy evening",
+              "text": "Choose a short old-city market visit for chikankari, a meal, or time back at the accommodation. Shopping is optional and should suit your interest rather than a seller's itinerary. If a textile workshop visit is requested, its availability and any fee need separate confirmation."
+            }
+          ],
+          "overnight": "Lucknow · second of two nights",
+          "travel": "Local city travel between the agreed monuments, market area and accommodation.",
+          "walking": "Monument grounds and market lanes; the Bhool Bhulaiya adds stairs and should be selected separately."
+        },
+        {
+          "day": 3,
+          "title": "The Residency, if the departure leaves room",
+          "location": "Lucknow",
+          "description": "A later departure makes space for the Residency, a different historical chapter from the previous day's Nawabi architecture. Its remains and the 1857 Memorial Museum should be visited with time to read and understand the site. An early connection means leaving this visit for a longer stay.",
+          "moments": [
+            "Optional Residency visit",
+            "The 1857 Memorial Museum when open",
+            "Depart from your confirmed Lucknow connection"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Choose the Residency over several quick stops",
+              "text": "After breakfast, consider the Residency's grounds and ruined buildings if the departure schedule permits. The site is associated with the events of 1857. Give the visit a clear time window and avoid fitting several other monuments into the same morning."
+            },
+            {
+              "part": "At the site",
+              "title": "Check the museum separately",
+              "text": "The 1857 Memorial Museum sits within the complex and provides further historical context. Confirm its current open day and hours before relying on it. If it is closed or time is short, decide whether the grounds alone suit your interest rather than implying access to both."
+            },
+            {
+              "part": "Departure",
+              "title": "Return for luggage and leave comfortably",
+              "text": "Allow time to return, check out and reach the exact station or airport on your ticket. If the transfer window is tight, keep the entire morning free. A food walk or shopping session that needs longer is a reason to extend the visit, not compress the departure."
+            }
+          ],
+          "overnight": "No overnight stay proposed · depart Lucknow",
+          "travel": "Local sightseeing and departure transfer, planned around the precise accommodation and booked connection.",
+          "walking": "The optional Residency visit involves time outdoors across the grounds; choose the extent according to the group and weather."
+        }
+      ],
+      "planningNotes": [
+        {
+          "title": "One base, with time for food and textiles",
+          "text": "Two nights are proposed in Lucknow. Food and textile stops should follow your preferences. A workshop, tasting, named restaurant or particular guide requires an explicit arrangement and cannot be assumed from the destination description."
+        },
+        {
+          "title": "Choose the Bhool Bhulaiya separately",
+          "text": "The district's visitor information describes stairs into the maze and recommends an authorised guide. Keep it optional when steps are a concern; the rest of the Imambara programme can still be planned around your interests."
+        },
+        {
+          "title": "Match the Residency to the departure",
+          "text": "The grounds and the 1857 Memorial Museum are related but distinct parts of the visit. Verify current access and museum hours, and only include the outing when there is a sensible margin before your onward connection."
+        },
+        {
+          "title": "Set the food plan before the walk",
+          "text": "Share vegetarian preferences, food interests and dietary requirements before any tasting is arranged. No meal or restaurant is included until the written proposal states it, and shopping remains entirely optional."
+        }
+      ],
+      "arrangements": {
+        "included": [
+          "Two Lucknow nights with named accommodation and meal plan",
+          "Agreed arrival, departure and city transport",
+          "Monument admissions and guiding scope, including any maze visit",
+          "A food experience, workshop or restaurant reservation only if specifically arranged"
+        ],
+        "excluded": [
+          "Flights or rail tickets unless listed",
+          "Meals and tastings outside the confirmed plan",
+          "Textiles, shopping, gratuities and personal expenses",
+          "Unlisted excursions or access to closed visitor areas"
+        ]
+      }
+    },
+    {
+      "id": "braj",
+      "slug": "taj-mahal-and-the-lanes-of-braj",
+      "kicker": "Agra & Vrindavan in four days",
+      "lead": "A suggested four-day route with two nights in Agra and one in Vrindavan. Give the Taj Mahal and Agra Fort a full day, then move into Braj for a temple-focused evening and morning. The short route concentrates on these two bases; Mathura or further Braj destinations can be added when your onward plans allow.",
+      "pace": "Two bases; one short intercity leg; a full day in Agra",
+      "arrival": "Agra",
+      "departure": "Vrindavan / Mathura",
+      "bestFor": "Travellers combining a first Taj Mahal visit with Vrindavan, or a short northern India trip that balances architecture and pilgrimage.",
+      "season": "October to March is the preferred general sightseeing season for Agra. Match Vrindavan visits to the current temple and festival calendar, and plan the route around the Taj Mahal's Friday closure.",
+      "highlights": [
+        "Taj Mahal and Agra Fort",
+        "Two nights in Agra before changing base",
+        "A Vrindavan evening and temple morning",
+        "One direct move from Agra into Braj"
+      ],
+      "dayPlans": [
+        {
+          "day": 1,
+          "title": "Arrive in Agra and prepare for tomorrow's monuments",
+          "location": "Agra",
+          "description": "Begin with an easy Agra arrival and leave the Taj Mahal for a full visiting day. If you arrive early and want a smaller first outing, the Tomb of Itimad-ud-Daulah is an option across the Yamuna. Keep the visit flexible around the actual arrival and time to settle in.",
+          "moments": [
+            "Settle into the Agra base",
+            "Optional Itimad-ud-Daulah visit",
+            "Prepare for the Taj's entry arrangements"
+          ],
+          "schedule": [
+            {
+              "part": "Arrival",
+              "title": "Start with check-in and a meal",
+              "text": "Reach the chosen accommodation and rest before deciding whether to go out. Confirm the actual airport or railway station for the arrival transfer. A road arrival from Delhi is a separate journey with its own allowance; it is not automatically included in an itinerary starting in Agra."
+            },
+            {
+              "part": "Afternoon",
+              "title": "An optional smaller monument",
+              "text": "If the schedule permits, consider the Tomb of Itimad-ud-Daulah for its marble work and riverside setting. The Agra district identifies it as a separate monument across the Yamuna. Leave it out after a late arrival rather than rushing there immediately before closing."
+            },
+            {
+              "part": "Evening",
+              "title": "Prepare for the full Agra day",
+              "text": "Check the next morning's entry plan, permitted belongings and final approach to the Taj gate. Keep the evening relaxed. If tomorrow is Friday, the Taj visit must move to a workable open day or the stay must change before reservations are made."
+            }
+          ],
+          "overnight": "Agra · first of two nights",
+          "travel": "Arrival transfer within Agra as agreed; Delhi road transfers require a separate plan.",
+          "walking": "Optional monument grounds only; the arrival day can remain free of sightseeing."
+        },
+        {
+          "day": 2,
+          "title": "The Taj Mahal, then Agra Fort",
+          "location": "Agra",
+          "description": "Give the Taj Mahal the first part of the day on an open date, then pause before Agra Fort. Seeing both provides a fuller introduction to Mughal Agra than a single photograph of the Taj. Keep the evening free rather than adding a distant excursion by default.",
+          "moments": [
+            "Taj Mahal on an open day",
+            "A proper break between monuments",
+            "Agra Fort and its imperial setting"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Arrive prepared for the Taj",
+              "text": "An early visit can help organise the day around the heat and later crowds. Allow time for the last approach and security, and carry only permitted belongings. Photography is prohibited inside the main mausoleum; current ticket conditions should be checked before entry."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Change scale at Agra Fort",
+              "text": "Return for breakfast or take a longer meal and rest break, depending on the start time. Continue to Agra Fort with enough energy to explore its courtyards and visitor areas. A guide and the extent of the visit can be agreed according to your interest in history."
+            },
+            {
+              "part": "Evening",
+              "title": "Keep a little space in Agra",
+              "text": "Have an unhurried evening and prepare for the next base. If another monument matters, discuss replacing part of the day rather than automatically adding Fatehpur Sikri or a long excursion. This route protects time at the two principal sites."
+            }
+          ],
+          "overnight": "Agra · second of two nights",
+          "travel": "Local Agra travel. The Taj's official guidance restricts polluting vehicles near the monument, so allow for the final approach from parking.",
+          "walking": "Substantial time on foot at two monuments. Discuss the route and assistance needs; do not assume that every visitor area is equally accessible."
+        },
+        {
+          "day": 3,
+          "title": "From Agra to Vrindavan",
+          "location": "Agra → Vrindavan",
+          "description": "After two nights in Agra, move to Vrindavan and take time to settle in. Use the evening for one chosen temple, such as Prem Mandir, with the timing checked locally. The following morning remains available for Banke Bihari if it fits your onward connection.",
+          "moments": [
+            "Travel into the Braj region",
+            "Settle into the Vrindavan base",
+            "Prem Mandir as an optional first visit"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Make the move without a long detour",
+              "text": "Leave Agra after breakfast and travel towards Vrindavan. Keep check-in and lunch as the first priorities on arrival. A detour to another destination changes the transfer day, so specify it before the route and vehicle hours are agreed."
+            },
+            {
+              "part": "Afternoon",
+              "title": "Take a break and plan temple access",
+              "text": "Rest at the accommodation and confirm the evening's visiting window. Discuss where a vehicle can drop the group and any final walk or local transport. The temple visits should follow current access arrangements rather than a fixed sequence copied from a standard package."
+            },
+            {
+              "part": "Evening",
+              "title": "An introduction to Vrindavan",
+              "text": "Consider Prem Mandir for the first temple visit, or choose another place that matters personally to you. Keep the outing modest after changing bases. Use the visit to become familiar with the temple grounds and the devotional atmosphere before returning for dinner."
+            }
+          ],
+          "overnight": "Vrindavan · one night",
+          "travel": "Planning allowance: around 2–3 hours from Agra, including normal city access; festival diversions and the final approach can extend it.",
+          "walking": "Temple grounds and the final approach from the agreed drop-off point; keep the first outing short."
+        },
+        {
+          "day": 4,
+          "title": "A Vrindavan morning before travelling onward",
+          "location": "Vrindavan / Mathura",
+          "description": "Use the final morning for your principal Vrindavan temple visit, with Banke Bihari as the proposed focus. A later departure is preferable when darshan matters. Mathura is an optional extension to discuss, not another full programme automatically squeezed in before a train or flight.",
+          "moments": [
+            "Banke Bihari if current access and departure allow",
+            "A meal and time to collect luggage",
+            "Depart from the agreed Braj connection"
+          ],
+          "schedule": [
+            {
+              "part": "Morning",
+              "title": "Put darshan ahead of extra stops",
+              "text": "Plan Banke Bihari around the temple's current visiting arrangements, allowing for the approach and queue. Agree a meeting point before entering busy lanes. Leave a generous window for darshan, with a later onward connection or another night if the visit needs more time."
+            },
+            {
+              "part": "After the visit",
+              "title": "Keep the rest of the morning useful",
+              "text": "Take breakfast or an early meal, collect belongings and check out. If you want to visit Mathura's Shri Krishna Janmabhoomi or Vishram Ghat, discuss the additional visit and travel time before fixing transport. Choose an additional stop only when there is time for the visit as well as the journey to the station."
+            },
+            {
+              "part": "Departure",
+              "title": "Leave from the exact booked endpoint",
+              "text": "Travel to the station or airport named on your onward ticket. Mathura, Agra and Delhi require different allowances and costs. The four-day route ends in the Braj area; any further road transfer needs to be written into the final proposal."
+            }
+          ],
+          "overnight": "No overnight stay proposed · depart the Vrindavan / Mathura area",
+          "travel": "Final transfer is set from the confirmed accommodation to the booked connection; Delhi is not an assumed endpoint.",
+          "walking": "Temple lanes and standing in queues. Keep additional visits conditional on energy and time."
+        }
+      ],
+      "planningNotes": [
+        {
+          "title": "Friday determines the Agra order",
+          "text": "The Taj Mahal is closed to general sightseeing on Fridays. This route needs a workable open-day visit: change the order only when arrival and transfer times permit, otherwise adjust the dates or add a night."
+        },
+        {
+          "title": "Three nights, two bases",
+          "text": "The proposed split is two nights in Agra and one in Vrindavan. A Delhi arrival or departure is extra travel to plan explicitly. More time in Mathura, Barsana or other Braj places calls for an extension rather than a longer checklist."
+        },
+        {
+          "title": "Read the monument rules before leaving",
+          "text": "The Taj's official visitor guidance covers the final approach, prohibited belongings and the photography restriction inside the main mausoleum. Check the current rules and carry only what is permitted; ticket and guide arrangements must be stated separately."
+        },
+        {
+          "title": "Protect the final temple morning",
+          "text": "Banke Bihari's current darshan arrangements and local access determine the final morning. Choose a suitable onward connection, and allow for queues. The Agra–Vrindavan road allowance is a planning estimate, not a live traffic promise."
+        }
+      ],
+      "arrangements": {
+        "included": [
+          "Two Agra nights and one Vrindavan night, with named properties and meal plans",
+          "Agra–Vrindavan transfer and the agreed arrival / departure transport",
+          "Monument admissions, guiding and temple visit scope",
+          "Optional Itimad-ud-Daulah, Mathura or Delhi transfers only when listed"
+        ],
+        "excluded": [
+          "Flights and rail tickets unless specifically included in the quote",
+          "Unlisted meals, shopping, offerings and gratuities",
+          "Special Taj viewing or priority temple access not expressly confirmed",
+          "Extra Braj destinations and onward Delhi travel unless added"
+        ]
+      }
+    }
+  ],
+  "validation": {
+    "totalRoutes": 7,
+    "totalDays": 32,
+    "errors": []
+  }
+}

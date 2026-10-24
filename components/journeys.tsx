@@ -48,6 +48,7 @@ export function Journeys({
       (!destination || journey.places.some((place) => place === destination)),
   );
   const detail = filtered.find((journey) => journey.id === open);
+  const visible = category === "All journeys" && !destination ? filtered.slice(0, 4) : filtered;
   return (
     <section
       className="journeys-section section-space"
@@ -56,15 +57,14 @@ export function Journeys({
     >
       <Reveal className="section-heading page-width">
         <div>
-          <span className="eyebrow">GOOD JOURNEYS BEGIN WITH AN IDEA</span>
+          <span className="eyebrow">THE ROUTE COLLECTION</span>
           <h2 id="journeys-heading">
-            Find a journey.
-            <br className="mobile-break" /> <em>Make it yours.</em>
+            A few ways to go.
           </h2>
         </div>
         <p>
-          Thoughtful starting points, with room
-          <br className="desktop-break" /> for your own detours.
+          Start with a city. Or connect a few places.
+          <br className="desktop-break" /> Explore the days, then make them your own.
         </p>
       </Reveal>
       <div className="journey-tools page-width">
@@ -98,7 +98,7 @@ export function Journeys({
         {notice}
       </div>
       <div className="journey-grid page-width" aria-live="polite">
-        {filtered.map((journey) => (
+        {visible.map((journey) => (
           <article className="journey-card" key={journey.id}>
             <div className="journey-photo">
               <Link
@@ -110,7 +110,7 @@ export function Journeys({
                   src={`/images/${imageNames[journey.image]}.webp`}
                   alt={`${journey.route} suggested journey`}
                   fill
-                  sizes="(max-width: 600px) 90vw, (max-width: 1000px) 45vw, 25vw"
+                  sizes="(max-width: 700px) 90vw, 35vw"
                 />
               </Link>
               <span className="journey-tag">{journey.tag}</span>

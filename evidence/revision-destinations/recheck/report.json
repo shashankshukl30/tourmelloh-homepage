@@ -1,0 +1,461 @@
+[
+  {
+    "body": 1440,
+    "document": 1440,
+    "viewport": 1440,
+    "hero": "guide-hero ",
+    "h1": "Ayodhya",
+    "imgComplete": true,
+    "imagePosition": "50% 48%",
+    "slug": "ayodhya",
+    "width": 1440,
+    "status": 200,
+    "regionLabel": "Uttar Pradesh",
+    "contrastSamples": [
+      {
+        "xy": [
+          135,
+          432
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          181,
+          432
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          226,
+          432
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 1440,
+    "document": 1440,
+    "viewport": 1440,
+    "hero": "guide-hero guide-hero-portrait",
+    "h1": "Agra",
+    "imgComplete": true,
+    "imagePosition": "50% 10%",
+    "slug": "agra",
+    "width": 1440,
+    "status": 200,
+    "regionLabel": "Uttar Pradesh",
+    "contrastSamples": [
+      {
+        "xy": [
+          135,
+          603
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          181,
+          603
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          226,
+          603
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 1440,
+    "document": 1440,
+    "viewport": 1440,
+    "hero": "guide-hero guide-hero-portrait",
+    "h1": "Bodh Gaya",
+    "imgComplete": true,
+    "imagePosition": "50% 10%",
+    "slug": "bodh-gaya",
+    "width": 1440,
+    "status": 200,
+    "regionLabel": "Bihar",
+    "contrastSamples": [
+      {
+        "xy": [
+          125,
+          603
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          149,
+          603
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          172,
+          603
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 390,
+    "document": 390,
+    "viewport": 390,
+    "hero": "guide-hero ",
+    "h1": "Ayodhya",
+    "imgComplete": true,
+    "imagePosition": "50% 48%",
+    "slug": "ayodhya",
+    "width": 390,
+    "status": 200,
+    "regionLabel": "Uttar Pradesh",
+    "contrastSamples": [
+      {
+        "xy": [
+          65,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          111,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          156,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 390,
+    "document": 390,
+    "viewport": 390,
+    "hero": "guide-hero guide-hero-portrait",
+    "h1": "Agra",
+    "imgComplete": true,
+    "imagePosition": "50% 30%",
+    "slug": "agra",
+    "width": 390,
+    "status": 200,
+    "regionLabel": "Uttar Pradesh",
+    "contrastSamples": [
+      {
+        "xy": [
+          65,
+          494
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          111,
+          494
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          156,
+          494
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 390,
+    "document": 390,
+    "viewport": 390,
+    "hero": "guide-hero guide-hero-portrait",
+    "h1": "Bodh Gaya",
+    "imgComplete": true,
+    "imagePosition": "50% 30%",
+    "slug": "bodh-gaya",
+    "width": 390,
+    "status": 200,
+    "regionLabel": "Bihar",
+    "contrastSamples": [
+      {
+        "xy": [
+          55,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          79,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          102,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 320,
+    "document": 320,
+    "viewport": 320,
+    "hero": "guide-hero ",
+    "h1": "Ayodhya",
+    "imgComplete": true,
+    "imagePosition": "50% 48%",
+    "slug": "ayodhya",
+    "width": 320,
+    "status": 200,
+    "regionLabel": "Uttar Pradesh",
+    "contrastSamples": [
+      {
+        "xy": [
+          65,
+          437
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          111,
+          437
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          156,
+          437
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 320,
+    "document": 320,
+    "viewport": 320,
+    "hero": "guide-hero guide-hero-portrait",
+    "h1": "Agra",
+    "imgComplete": true,
+    "imagePosition": "50% 30%",
+    "slug": "agra",
+    "width": 320,
+    "status": 200,
+    "regionLabel": "Uttar Pradesh",
+    "contrastSamples": [
+      {
+        "xy": [
+          65,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          111,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          156,
+          466
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  },
+  {
+    "body": 320,
+    "document": 320,
+    "viewport": 320,
+    "hero": "guide-hero guide-hero-portrait",
+    "h1": "Bodh Gaya",
+    "imgComplete": true,
+    "imagePosition": "50% 30%",
+    "slug": "bodh-gaya",
+    "width": 320,
+    "status": 200,
+    "regionLabel": "Bihar",
+    "contrastSamples": [
+      {
+        "xy": [
+          55,
+          370
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          79,
+          370
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      },
+      {
+        "xy": [
+          102,
+          370
+        ],
+        "background": [
+          21,
+          44,
+          32
+        ],
+        "ratio": 13.66
+      }
+    ]
+  }
+]
