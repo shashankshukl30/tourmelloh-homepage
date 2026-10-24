@@ -1,0 +1,130 @@
+[
+  {
+    "name": "desktop1440",
+    "innerWidth": 1440,
+    "clientWidth": 1440,
+    "bodyWidth": 1440,
+    "height": 6723,
+    "dpr": 1,
+    "missingImages": [
+      {
+        "alt": "Bara Imambara in Lucknow",
+        "src": ""
+      },
+      {
+        "alt": "Mahabodhi Temple in Bodhgaya",
+        "src": ""
+      },
+      {
+        "alt": "Banke Bihari in Vrindavan",
+        "src": ""
+      },
+      {
+        "alt": "Vishnupad Temple in Gaya",
+        "src": ""
+      }
+    ],
+    "sections": [
+      {
+        "id": "",
+        "height": 860
+      },
+      {
+        "id": "varanasi",
+        "height": 932
+      },
+      {
+        "id": "destinations",
+        "height": 913
+      },
+      {
+        "id": "journeys",
+        "height": 1062
+      },
+      {
+        "id": "approach",
+        "height": 673
+      },
+      {
+        "id": "",
+        "height": 500
+      },
+      {
+        "id": "plan",
+        "height": 823
+      },
+      {
+        "id": "",
+        "height": 499
+      }
+    ]
+  },
+  {
+    "name": "mobile390",
+    "innerWidth": 390,
+    "clientWidth": 390,
+    "bodyWidth": 390,
+    "height": 10339,
+    "dpr": 1,
+    "missingImages": [
+      {
+        "alt": "Taj Mahal in Agra",
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fagra-taj-mahal.webp&w=384&q=75"
+      },
+      {
+        "alt": "A boat on the Yamuna at Prayagraj, with the Naini bridge beyond",
+        "src": ""
+      },
+      {
+        "alt": "Bara Imambara in Lucknow",
+        "src": ""
+      },
+      {
+        "alt": "Mahabodhi Temple in Bodhgaya",
+        "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fbodhgaya-mahabodhi.webp&w=384&q=75"
+      },
+      {
+        "alt": "Banke Bihari in Vrindavan",
+        "src": ""
+      },
+      {
+        "alt": "Vishnupad Temple in Gaya",
+        "src": ""
+      }
+    ],
+    "sections": [
+      {
+        "id": "",
+        "height": 743
+      },
+      {
+        "id": "varanasi",
+        "height": 1306
+      },
+      {
+        "id": "destinations",
+        "height": 866
+      },
+      {
+        "id": "journeys",
+        "height": 3242
+      },
+      {
+        "id": "approach",
+        "height": 1200
+      },
+      {
+        "id": "",
+        "height": 430
+      },
+      {
+        "id": "plan",
+        "height": 1155
+      },
+      {
+        "id": "",
+        "height": 599
+      }
+    ]
+  }
+]

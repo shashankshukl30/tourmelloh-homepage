@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "wordmark": "tourmelloh",
+  "glyph_count": 10,
+  "double_l_verified": true,
+  "svg": [
+    {
+      "file": "tourmelloh-favicon.svg",
+      "paths": 4,
+      "no_raster_or_live_text": true,
+      "sha256": "14b18e85f2cb1dd5d34d30be0d0a8738e1e9286decfb854fc384fb16d439cdcc"
+    },
+    {
+      "file": "tourmelloh-logo-ivory.svg",
+      "paths": 13,
+      "no_raster_or_live_text": true,
+      "sha256": "99173d1586aa69f6bc0f2be37590e0c4a02f5bdc3ae7c164106302305847d0d9"
+    },
+    {
+      "file": "tourmelloh-logo.svg",
+      "paths": 13,
+      "no_raster_or_live_text": true,
+      "sha256": "24a1e8e6e1c9f33d93c94a95aa2f9999908f2cca610867628614a005ae826a6b"
+    },
+    {
+      "file": "tourmelloh-symbol-copper.svg",
+      "paths": 3,
+      "no_raster_or_live_text": true,
+      "sha256": "c7330003ee40343e83307d460a0f4d5e5db85235b8cd367db7fdfa9c416ef9f0"
+    },
+    {
+      "file": "tourmelloh-symbol-ivory.svg",
+      "paths": 3,
+      "no_raster_or_live_text": true,
+      "sha256": "9302c50fe7a8ee4e6a9baae4feaff3e859cf657da7d257a35eb58de9d6a7586c"
+    },
+    {
+      "file": "tourmelloh-symbol.svg",
+      "paths": 3,
+      "no_raster_or_live_text": true,
+      "sha256": "a534c5758c0ad067bf46711c36f7e3419fbb92b75ce12581bb19254d405a3270"
+    }
+  ],
+  "png": [
+    {
+      "file": "logo-preview.png",
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "tourmelloh-favicon.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "tourmelloh-logo-ivory.png",
+      "dimensions": [
+        2400,
+        416
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "tourmelloh-logo.png",
+      "dimensions": [
+        2400,
+        416
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "tourmelloh-symbol-ivory.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "tourmelloh-symbol.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "visual_review": "logo-preview.png opened and inspected; primary, reversed, 16/24/32/48px favicon treatments visible; transparent symbol inspected separately."
+}

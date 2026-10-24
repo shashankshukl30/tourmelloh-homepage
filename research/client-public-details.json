@@ -1,0 +1,33 @@
+{
+  "verified_on": "2026-10-24",
+  "source": {
+    "filename": "Print _ Udyam Registration Certificate TOURMELLOH.pdf",
+    "handling": "Read locally only. Original certificate unchanged; not a public website asset.",
+    "sha256": "bf75cd7ef9dd4edf6b39053ec65cdcb7a2c5c5d17923339759676bb762aa8ac4",
+    "verification": "Matched the enterprise name, Mobile, Email, City or District, and State labels in the locally extracted PDF text. Full certificate text was not written or printed."
+  },
+  "public_website_fields": {
+    "business_name": "TOURMELLOH",
+    "phone_display": "+91 7706997271",
+    "phone_e164": "+917706997271",
+    "email": "tourmelloh@gmail.com",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India"
+  },
+  "matches_supplied_screenshot": {
+    "business_name": true,
+    "phone": true,
+    "email": true,
+    "city": true,
+    "state": true
+  },
+  "excluded_from_website": [
+    "Proprietor or other personal identity details",
+    "Street or home address and precise location details",
+    "Registration identifiers, QR codes and certificate image or PDF",
+    "Enterprise classification and registration or commencement years",
+    "Any inference of tourism accreditation, service capability, trading history or customer trust from this registration document"
+  ],
+  "exclusion_rationale": "The homepage only needs the supplied public brand, contact channels and broad city/state. Other certificate information is unnecessary for this design scope and may disclose personal data or imply unverified business claims."
+}

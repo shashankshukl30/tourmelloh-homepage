@@ -1,0 +1,237 @@
+{
+  "researched_on": "2026-10-24",
+  "scope": "Content research for a premium India travel homepage, with Varanasi as the principal focus. Client brand and operational capabilities remain unconfirmed.",
+  "research_method": "All six supplied content-reference homepages read live through Agent Reach using Jina Reader. Web browsing supplied additional source-linked verification against government tourism and district websites. No competitor prose, imagery, prices, testimonials or business claims are licensed or approved for reuse by this research.",
+  "reference_sites": [
+    {
+      "name": "Balaji Travels",
+      "url": "https://www.balajitravels.org/",
+      "access": "Successfully read through Jina Reader; native web extraction was limited.",
+      "useful_patterns": [
+        "Varanasi as principal destination with short stays and longer regional circuits.",
+        "Separate pilgrimage interests and linked routes connecting Prayagraj, Ayodhya, Varanasi and Bodh Gaya.",
+        "Detailed itinerary, inclusions, exclusions and practical route information."
+      ],
+      "additional_page_read": "https://www.balajitravels.org/package/prayagraj-ayodhya-varanasi-bodhgaya-tour",
+      "do_not_transfer": ["Customer claims", "Guarantees", "Prices", "Payment and cancellation terms", "Testimonials", "Package prose"]
+    },
+    {
+      "name": "Jatak Travels",
+      "url": "https://jataktravel.com/",
+      "access": "Successfully read through Jina Reader and native web browsing.",
+      "useful_patterns": [
+        "Destination depth beyond temples: ghats, music, heritage, handicrafts, cuisine and walking tours.",
+        "Buddhist circuits and combinations of cultural, wildlife and wider India travel interests."
+      ],
+      "cautions": [
+        "Homepage still contains 2018 and 2019 festival promotions; dates cannot be treated as current.",
+        "Keyword-heavy SEO copy and No. 1 claims should not be reproduced."
+      ]
+    },
+    {
+      "name": "Ziffy Holidays",
+      "url": "https://ziffyholidays.com/",
+      "access": "Successfully read through Jina Reader and native web browsing.",
+      "useful_patterns": [
+        "Personal trip-planning conversation and enquiry-led conversion.",
+        "Clear trip duration and specific combinations of accommodation and experiences."
+      ],
+      "cautions": [
+        "International emphasis is less relevant than the planning pattern.",
+        "Do not transfer deposit terms, comparative price claims or package rates."
+      ]
+    },
+    {
+      "name": "Satvik Tour and Travels",
+      "url": "https://www.satviktourandtravels.com/",
+      "access": "Successfully read through Jina Reader; native web tool could not access homepage.",
+      "useful_patterns": [
+        "Local itinerary groupings for Varanasi, Ayodhya and Braj.",
+        "Group-size-dependent quotes and transport choices.",
+        "Reference durations include Varanasi 2 nights / 3 days, Ayodhya 1 night / 2 days and Braj 3 nights / 4 days; these are competitor offerings, not client inventory."
+      ],
+      "do_not_transfer": ["Traveller counts", "Experience years", "Satisfaction percentage", "Review ratings", "Staff identities", "Fleet claims", "Rates"]
+    },
+    {
+      "name": "Apna Tour Travel",
+      "url": "https://apnatourtravel.com/",
+      "access": "Successfully read through Jina Reader and native web browsing.",
+      "useful_patterns": [
+        "Local and outstation transport combined with hotel arrangements and sightseeing.",
+        "Custom pilgrimage routes linked to a Varanasi base."
+      ],
+      "cautions": [
+        "Its Gaya description conflates Gaya with Bodh Gaya; keep the destinations and pilgrimage traditions distinct.",
+        "Do not import VIP darshan promises, verified-driver claims or vehicle rates."
+      ]
+    },
+    {
+      "name": "Kashiwale",
+      "url": "https://kashiwale.com/",
+      "access": "Successfully read through Jina Reader and native web browsing.",
+      "useful_patterns": [
+        "Varanasi and Sarnath pairing.",
+        "Separate destination browsing, boat and aarti experiences, city and airport transfer enquiries.",
+        "Custom trip requests rather than a single fixed itinerary."
+      ],
+      "cautions": [
+        "Do not import prices, rates, testimonials, approvals, sustainability claims or guide-language promises.",
+        "Some image asset names explicitly reference Shutterstock; appearance on a source website does not establish reuse rights."
+      ]
+    }
+  ],
+  "content_direction": {
+    "status": "Proposed editorial direction; not an assertion of client services.",
+    "hierarchy": [
+      "Lead with Varanasi and its cultural depth.",
+      "Give all eight requested destinations clear visibility and distinct identities.",
+      "Use suggested journeys to explain how destinations connect.",
+      "Invite broader India enquiries as a secondary direction.",
+      "Prioritize trip-planning clarity over a long vehicle catalogue or many repetitive package cards."
+    ],
+    "proposed_route_section_titles": ["Suggested journeys", "Journeys to make your own"],
+    "proposed_experience_interests": ["Sacred journeys", "Heritage and architecture", "Food and craft", "Buddhist heritage", "River experiences"],
+    "experience_interest_note": "Interests are editorial categories only. Specific arranged activities require confirmation of client capabilities and availability."
+  },
+  "destinations": [
+    {
+      "name": "Varanasi",
+      "proposed_one_line": "River mornings, evening aarti and old lanes that reward a slower walk.",
+      "verified_subjects": ["Ghats", "Evening Ganga Aarti at Dashashwamedh Ghat", "Sarnath near Varanasi", "Cultural and musical heritage"],
+      "sources": ["https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi", "https://www.darshan.kashi.gov.in/listing-details/ganga-aarti"],
+      "qualification": "Do not promise exact aarti times, boating availability, exclusive access or arranged performances without current operational confirmation."
+    },
+    {
+      "name": "Prayagraj",
+      "proposed_one_line": "A pause at the Sangam, where the Ganga and Yamuna meet.",
+      "verified_subjects": ["Triveni Sangam", "Ganga and Yamuna confluence", "Saraswati as part of religious tradition"],
+      "sources": ["https://prayagraj.nic.in/tourist-place/sangam/", "https://www.incredibleindia.gov.in/en/uttar-pradesh/prayagraj/triveni-sangam"],
+      "qualification": "Describe the Saraswati as mythical, believed or part of religious tradition, rather than a third visible river. Do not reuse stale Kumbh dates from district pages."
+    },
+    {
+      "name": "Ayodhya",
+      "proposed_one_line": "Temple courtyards and evenings along the Sarayu.",
+      "verified_subjects": ["Ram Mandir", "Hanuman Garhi", "Kanak Bhawan", "Ram Ki Paidi", "Sarayu riverfront"],
+      "sources": ["https://www.incredibleindia.gov.in/en/uttar-pradesh/ayodhya", "https://ayodhya.nic.in/tourist-places/"],
+      "qualification": "Avoid exact temple dimensions, pillar counts and airport statements from these sources; conflicting or dated details were observed. Temple access remains subject to current rules."
+    },
+    {
+      "name": "Lucknow",
+      "proposed_one_line": "Awadhi flavours, grand gateways and the gracious pace of the old city.",
+      "verified_subjects": ["Bara Imambara", "Chota Imambara", "Rumi Darwaza", "Awadhi culinary heritage"],
+      "sources": ["https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow", "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow/food-guide-what-and-where-to-eat-in-lucknow"],
+      "qualification": "Avoid superlatives and exact construction dates from these pages. A food interest does not imply a confirmed guided food tour service."
+    },
+    {
+      "name": "Gaya",
+      "proposed_one_line": "Vishnupad Temple and a city deeply connected with remembrance.",
+      "verified_subjects": ["Vishnupad Temple", "Phalgu River", "Ancestral rites"],
+      "sources": ["https://www.incredibleindia.gov.in/en/bihar/gaya", "https://bstdc.bihar.gov.in/Tour_packages/TourPackage2024PatnaPawapuriRajgirBodhgaya.pdf"],
+      "qualification": "Keep ancestral rites individually requested and distinct from sightseeing. Do not imply the client arranges ritual services. Verify temple entry restrictions for each traveller."
+    },
+    {
+      "name": "Bodh Gaya",
+      "proposed_one_line": "Time for stillness around the Mahabodhi Temple and Buddhist monasteries.",
+      "verified_subjects": ["Mahabodhi Temple", "UNESCO World Heritage status", "Association with Buddha's enlightenment", "Buddhist monasteries"],
+      "sources": ["https://tourism.bihar.gov.in/en/destinations/gaya/mahabodhi-temple", "https://bstdc.bihar.gov.in/Tour_packages/SpecialTour2022.pdf"],
+      "qualification": "Use distinct naming from Gaya. Do not assert access to meditation sessions or monastery programmes without confirmation."
+    },
+    {
+      "name": "Vrindavan",
+      "proposed_one_line": "Temple lanes, devotional music and the living traditions of Braj.",
+      "verified_subjects": ["Banke Bihari Temple", "Prem Mandir", "ISKCON Temple", "Relationship to nearby Mathura and the Braj region"],
+      "sources": ["https://mathura.nic.in/tourism/", "https://mathura.nic.in/tourist-place/shri-banke-bihari/"],
+      "qualification": "Specific darshan times, access and festival arrangements require current verification."
+    },
+    {
+      "name": "Agra",
+      "proposed_one_line": "The Taj Mahal, red-sandstone ramparts and another chapter of Mughal India.",
+      "verified_subjects": ["Taj Mahal", "Agra Fort", "Mughal architecture", "Taj Mahal closed to general sightseeing on Fridays"],
+      "sources": ["https://agra.nic.in/tourism/", "https://agra.nic.in/tourist-place/agra-fort/", "https://www.incredibleindia.gov.in/en/uttar-pradesh/agra/taj-mahal"],
+      "qualification": "Plan around the Taj's Friday closure and recheck ticket rules before selling an itinerary. Do not import dated airfare, train or airport claims."
+    }
+  ],
+  "suggested_routes": [
+    {
+      "title": "Kashi, before the world wakes",
+      "days": 4,
+      "nights": 3,
+      "destinations": ["Varanasi", "Sarnath"],
+      "overnights": [{"destination": "Varanasi", "nights": 3}],
+      "proposed_description": "River mornings, old-city lanes and an unhurried afternoon in Sarnath.",
+      "status": "Original proposed planning structure; not a confirmed package or availability promise."
+    },
+    {
+      "title": "The sacred cities of the Ganga plain",
+      "days": 6,
+      "nights": 5,
+      "destinations": ["Varanasi", "Prayagraj", "Ayodhya"],
+      "overnights": [{"destination": "Varanasi", "nights": 3}, {"destination": "Prayagraj", "nights": 1}, {"destination": "Ayodhya", "nights": 1}],
+      "proposed_description": "From the ghats of Kashi to the Sangam and the temples along the Sarayu.",
+      "status": "Original proposed planning structure; route and transfer practicality must be confirmed for actual travel dates."
+    },
+    {
+      "title": "The road to Bodh Gaya",
+      "days": 5,
+      "nights": 4,
+      "destinations": ["Varanasi", "Sarnath", "Bodh Gaya"],
+      "optional_separate_visit": "Gaya, according to traveller interest and available time.",
+      "overnights": [{"destination": "Varanasi", "nights": 2}, {"destination": "Bodh Gaya", "nights": 2}],
+      "proposed_description": "Trace Buddhist heritage, then leave room for quiet around the Mahabodhi Temple.",
+      "status": "Original proposed planning structure; distinct from a confirmed guided Buddhist pilgrimage."
+    },
+    {
+      "title": "Awadh, Agra & the lanes of Braj",
+      "days": 7,
+      "nights": 6,
+      "destinations": ["Lucknow", "Agra", "Vrindavan", "Mathura"],
+      "overnights": [{"destination": "Lucknow", "nights": 2}, {"destination": "Agra", "nights": 2}, {"destination": "Vrindavan", "nights": 2}],
+      "proposed_description": "Awadhi flavours, Mughal architecture and the devotional rhythm of Braj.",
+      "planning_note": "Allow a dedicated intercity transfer day and schedule Taj Mahal sightseeing around its Friday closure.",
+      "status": "Original proposed planning structure; not confirmed client inventory."
+    }
+  ],
+  "proposed_homepage_faqs": [
+    {
+      "topic": "Custom routes",
+      "question": "How do I choose a route across several cities?",
+      "answer": "Start with the places that matter most to you, then allow time for travel between them. Your dates, arrival city and preferred pace help turn a destination list into a practical route.",
+      "status": "Original proposed editorial guidance. Makes no claim that the client provides a particular custom-planning service."
+    },
+    {
+      "topic": "Older travellers",
+      "question": "What should older travellers consider when planning?",
+      "answer": "Temple lanes and river ghats can involve steps, uneven surfaces and walking. Note any walking limits, stair concerns and rest preferences early, and check access at each stop before confirming a route.",
+      "status": "Original proposed practical guidance. Does not promise accessibility, assistance, step-free routes or a client service."
+    }
+  ],
+  "unconfirmed_client_information": [
+    "Trading name, logo and brand identity",
+    "Business address, contact number, email and social accounts",
+    "Actual destinations and services operated",
+    "Private or group trip model, vehicle ownership and guide arrangements",
+    "Hotel partners and accommodation standards",
+    "Custom-planning capabilities, accessibility assistance and support hours",
+    "Prices, inclusions, exclusions, availability and booking process",
+    "Payment, cancellation and refund terms",
+    "Verifiable credentials, customer reviews, experience years and performance claims",
+    "Rights to supplied or selected photographs"
+  ],
+  "content_warnings": [
+    "Never import competitor No. 1 claims, customer counts, satisfaction percentages, experience years, star ratings or testimonials.",
+    "Do not publish invented starting prices or imply that proposed route durations are verified client products.",
+    "Do not promise VIP darshan, queue bypass, guaranteed temple access, exclusive boats or special permissions without verified arrangements.",
+    "Do not conflate Gaya with Bodh Gaya.",
+    "Treat religious traditions and mythological associations as beliefs where appropriate.",
+    "Do not copy photography from reference sites without checking rights and provenance.",
+    "Avoid stale festival promotions and unverified dates.",
+    "Even official tourism pages contain contradictions and dated details. Restrained landmark-level descriptions were selected; exact timings, prices, transport details and numerical trivia need fresh operational checks.",
+    "The homepage concept should use client-approved contact details before connecting any live enquiry or reservation flow."
+  ],
+  "workspace_hygiene": {
+    "owned_file": "research/content-research.json",
+    "temporary_downloads_created": false,
+    "disposable_files_identified": false,
+    "note": "Research was read in memory. No competitor image downloads, temporary reports or scratch files were created by this research task."
+  }
+}

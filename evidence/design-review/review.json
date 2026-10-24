@@ -1,0 +1,86 @@
+{
+  "reviewDate": "2026-10-24",
+  "url": "http://127.0.0.1:3108",
+  "scope": "Independent rendered design review, no application source edits",
+  "method": "Fresh isolated local Chromium process; 1440x1000 desktop and 390x844 mobile at DPR 1; actual scrolling before full captures; images opened with view_image. Earlier shared-browser captures had inherited 90% zoom and are superseded.",
+  "verdict": "The desktop composition is cohesive and specific to the brief. Warm paper, umber, clay, Newsreader and Instrument Sans form a strong editorial system. Varanasi photography and asymmetry distinguish it from a generic travel catalog. No horizontal body overflow at either final tested viewport.",
+  "findings": [
+    {
+      "priority": "high",
+      "category": "image responsiveness",
+      "status": "reported to root",
+      "location": "components/hero.tsx",
+      "finding": "Mobile hero is visibly soft because sizes=100vw selects a 640px landscape image while object-fit:cover in a 390x743 box renders it roughly 1320px wide.",
+      "recommendation": "Provide a dedicated portrait crop or cover-aware mobile sizes (approximately 160vh for the existing 88svh hero). Source asset is 2400x1348 and contains more usable detail."
+    },
+    {
+      "priority": "medium",
+      "category": "typography",
+      "status": "reported to root",
+      "location": "app/responsive.css .planner-copy h2",
+      "finding": "At 390px the planning heading leaves 'a' alone on a line before 'conversation.'.",
+      "recommendation": "Reduce mobile planning heading from 68px to approximately 60–61px or adjust responsive width/size so 'a conversation.' remains together."
+    },
+    {
+      "priority": "medium",
+      "category": "content accuracy",
+      "status": "reported to root",
+      "location": "components/destinations.tsx",
+      "finding": "Generated photo alt text inherits the first destination highlight. This incorrectly labels Rumi Darwaza as Bara Imambara and Madan Mohan Temple as Banke Bihari.",
+      "recommendation": "Store explicit alt text by photo rather than deriving it from destination highlights."
+    },
+    {
+      "priority": "low",
+      "category": "mobile pacing",
+      "status": "optional suggestion reported",
+      "location": "app/responsive.css .journey-photo",
+      "finding": "Four full-width journey cards make this section approximately 3242px tall on mobile.",
+      "recommendation": "Consider reducing mobile journey-photo height from 365px to 285–300px while preserving complete route and duration information."
+    },
+    {
+      "priority": "resolved during review",
+      "category": "typography",
+      "location": "components/home.tsx FAQ heading",
+      "finding": "Initial mobile DOM joined Beforeyou after the desktop line break was hidden. Root added separating whitespace during the review; the corrected phrase was visually confirmed."
+    },
+    {
+      "priority": "resolved during review",
+      "category": "photo caption accuracy",
+      "location": "components/home.tsx slow-moment caption",
+      "finding": "Root replaced the first-light wording with EVENING ON THE GANGA, VARANASI, consistent with the sunset photo provenance."
+    }
+  ],
+  "positiveChecks": [
+    "Desktop hero keeps genuine location detail visible behind the headline.",
+    "Trip finder has clear field hierarchy and a strong single action.",
+    "The Varanasi feature is well balanced, with a deliberate inset photo and generous whitespace.",
+    "Destination rail correctly reveals a next-card edge on mobile.",
+    "Journey metadata and calls to action align across the desktop grid.",
+    "Mobile planner form labels and side-by-side fields remain aligned.",
+    "Fonts load, and the two-family hierarchy is consistent throughout.",
+    "All vertically encountered image assets loaded; off-screen horizontal rail images remain lazily deferred, which is expected."
+  ],
+  "limitations": [
+    "Root was actively editing during the review, so report findings describe the captured state and may already be fixed.",
+    "This review evaluated visual design and geometry. Parent is responsible for the full interaction regression pass.",
+    "Some screenshot anchors center long sections, so viewport captures begin partway through those sections; full-page final screenshots preserve the complete layout."
+  ],
+  "evidence": [
+    "desktop1440-full-final.png",
+    "desktop1440-hero-final.png",
+    "desktop1440-varanasi-final.png",
+    "desktop1440-destinations-final.png",
+    "desktop1440-journeys-final.png",
+    "desktop1440-approach-final.png",
+    "desktop1440-plan-final.png",
+    "mobile390-full-final.png",
+    "mobile390-hero-final.png",
+    "mobile390-varanasi-final.png",
+    "mobile390-destinations-final.png",
+    "mobile390-journeys-final.png",
+    "mobile390-approach-final.png",
+    "mobile390-plan-final.png",
+    "metrics.json",
+    "capture.cjs"
+  ]
+}

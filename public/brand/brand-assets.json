@@ -1,0 +1,175 @@
+{
+  "brand": "Tourmelloh",
+  "wordmark": "tourmelloh",
+  "wordmark_character_count": 10,
+  "font": {
+    "family": "Instrument Sans",
+    "weight": 580,
+    "width_axis": 100,
+    "source": "node_modules\\@fontsource-variable\\instrument-sans\\files\\instrument-sans-latin-standard-normal.woff2",
+    "license": "SIL Open Font License 1.1",
+    "outline_note": "Every glyph is a standalone vector path. No external font is needed to render the SVG."
+  },
+  "geometry": {
+    "horizontal_viewbox": [
+      0,
+      0,
+      646.466,
+      112
+    ],
+    "aspect_ratio": 5.77202,
+    "symbol_viewbox": [
+      0,
+      0,
+      112,
+      112
+    ],
+    "favicon_viewbox": [
+      0,
+      0,
+      128,
+      128
+    ],
+    "symbol_path_count": 3
+  },
+  "palette": {
+    "forest": "#123F32",
+    "ivory": "#F8F4EB",
+    "copper": "#B87648"
+  },
+  "glyphs": [
+    {
+      "index": 0,
+      "character": "t",
+      "glyph": "t",
+      "x": 124.0,
+      "bounds": [
+        15.2000732421875,
+        -10.199951171875,
+        376.1990966796875,
+        671.5994873046875
+      ]
+    },
+    {
+      "index": 1,
+      "character": "o",
+      "glyph": "o",
+      "x": 162.658,
+      "bounds": [
+        28.00048828125,
+        -10,
+        567.9990234375,
+        520
+      ]
+    },
+    {
+      "index": 2,
+      "character": "u",
+      "glyph": "u",
+      "x": 222.226,
+      "bounds": [
+        62.00048828125,
+        -10,
+        534.198974609375,
+        510
+      ]
+    },
+    {
+      "index": 3,
+      "character": "r",
+      "glyph": "r",
+      "x": 281.896,
+      "bounds": [
+        68.00048828125,
+        0,
+        371.9991455078125,
+        520
+      ]
+    },
+    {
+      "index": 4,
+      "character": "m",
+      "glyph": "m",
+      "x": 319.126,
+      "bounds": [
+        68.00048828125,
+        0,
+        876.798828125,
+        520
+      ]
+    },
+    {
+      "index": 5,
+      "character": "e",
+      "glyph": "e",
+      "x": 413.17,
+      "bounds": [
+        28.00048828125,
+        -10,
+        541.999267578125,
+        520
+      ]
+    },
+    {
+      "index": 6,
+      "character": "l",
+      "glyph": "l",
+      "x": 470.086,
+      "bounds": [
+        68.00048828125,
+        0,
+        189.998779296875,
+        720
+      ]
+    },
+    {
+      "index": 7,
+      "character": "l",
+      "glyph": "l",
+      "x": 497.218,
+      "bounds": [
+        68.00048828125,
+        0,
+        189.998779296875,
+        720
+      ]
+    },
+    {
+      "index": 8,
+      "character": "o",
+      "glyph": "o",
+      "x": 521.8,
+      "bounds": [
+        28.00048828125,
+        -10,
+        567.9990234375,
+        520
+      ]
+    },
+    {
+      "index": 9,
+      "character": "h",
+      "glyph": "h",
+      "x": 581.368,
+      "bounds": [
+        68.00048828125,
+        0,
+        548.9990234375,
+        720
+      ]
+    }
+  ],
+  "provenance": "Original code-authored vector interpretation of the approved T / river concept. No pixel tracing or raster embedding.",
+  "exports": [
+    "tourmelloh-symbol.svg",
+    "tourmelloh-symbol-ivory.svg",
+    "tourmelloh-symbol-copper.svg",
+    "tourmelloh-logo.svg",
+    "tourmelloh-logo-ivory.svg",
+    "tourmelloh-favicon.svg",
+    "tourmelloh-logo.png",
+    "tourmelloh-logo-ivory.png",
+    "tourmelloh-symbol.png",
+    "logo-preview.png"
+  ]
+}

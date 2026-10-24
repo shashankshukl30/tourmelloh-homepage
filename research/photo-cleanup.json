@@ -1,0 +1,119 @@
+{
+  "task": "Licensed destination photographs",
+  "scope": "D:\\Digiocular\\Websites\\india-travel-homepage",
+  "free_bytes_before": {
+    "C": 76407717888,
+    "D": 37228605440
+  },
+  "free_bytes_after": {
+    "C": 76407717888,
+    "D": 37228945408
+  },
+  "removed": [
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\images\\varanasi-night.webp",
+      "reason": "Optional night photograph excluded by project art direction; unused in build.",
+      "bytes": 211700,
+      "sha256": "7c59a0f8bb3415ec3ad8449a322daf5e9ad6ca16768e8b07e73e334402eb88e8"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\photo-hero-review.jpg",
+      "reason": "Intermediate hero candidate sheet superseded by final photo-contact-sheet.jpg.",
+      "bytes": 124769,
+      "sha256": "e120ae55293462f851d9c4467e0d77fc8ca17ca37935097f61cb78168ce0a543"
+    }
+  ],
+  "removed_bytes": 336469,
+  "retained_asset_checks": [
+    {
+      "file": "agra-taj-mahal.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 118612
+    },
+    {
+      "file": "ayodhya-ram-mandir.webp",
+      "dimensions": [
+        1000,
+        688
+      ],
+      "bytes": 195936
+    },
+    {
+      "file": "bodhgaya-mahabodhi.webp",
+      "dimensions": [
+        900,
+        1600
+      ],
+      "bytes": 474190
+    },
+    {
+      "file": "gaya-vishnupad.webp",
+      "dimensions": [
+        1000,
+        628
+      ],
+      "bytes": 105636
+    },
+    {
+      "file": "lucknow-rumi-darwaza.webp",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "bytes": 122876
+    },
+    {
+      "file": "prayagraj-yamuna.webp",
+      "dimensions": [
+        1000,
+        876
+      ],
+      "bytes": 65878
+    },
+    {
+      "file": "varanasi-aerial.webp",
+      "dimensions": [
+        2400,
+        1348
+      ],
+      "bytes": 658606
+    },
+    {
+      "file": "varanasi-boats.webp",
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "bytes": 223202
+    },
+    {
+      "file": "varanasi-evening.webp",
+      "dimensions": [
+        2200,
+        2933
+      ],
+      "bytes": 761024
+    },
+    {
+      "file": "varanasi-riverfront.webp",
+      "dimensions": [
+        2200,
+        1467
+      ],
+      "bytes": 536356
+    },
+    {
+      "file": "vrindavan-madan-mohan.webp",
+      "dimensions": [
+        1000,
+        667
+      ],
+      "bytes": 120284
+    }
+  ],
+  "original_downloads": "Decoded in memory, never stored as duplicate files. Download source URLs retained in photo-sources.json.",
+  "required_attributions": "Ayodhya: PMO / GODL-India. Gaya: Surajkumar12111 / CC BY-SA 4.0. Full credits and source links in photo-sources.json."
+}

@@ -1,0 +1,242 @@
+{
+  "researched_on": "2026-10-24",
+  "sources": [
+    {
+      "file": "varanasi-riverfront.webp",
+      "subject": "Varanasi ghats and boats on the Ganges in warm daylight",
+      "author": "Martijn Vonk",
+      "source": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-river-wloNuC7qKf8",
+      "image": "https://images.unsplash.com/photo-1706186839147-0d708602587b?w=2200&q=90&fit=max",
+      "license": "https://unsplash.com/license",
+      "width": 2200,
+      "download_dimensions": [
+        2200,
+        1467
+      ],
+      "download_bytes": 743314,
+      "dimensions": [
+        2200,
+        1467
+      ],
+      "bytes": 536356,
+      "sha256": "7bac7857b311b3053c58b8d118e5b90c80876abcb0150add55386e624dd3179d",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "varanasi-evening.webp",
+      "subject": "Varanasi riverfront ghats in the evening",
+      "author": "Yash Choudhary",
+      "source": "https://www.pexels.com/photo/scenic-view-of-varanasi-ghats-at-sunset-30854162/",
+      "image": "https://images.pexels.com/photos/30854162/pexels-photo-30854162.jpeg?auto=compress&cs=tinysrgb&w=2200",
+      "license": "https://www.pexels.com/license/",
+      "width": 2200,
+      "download_dimensions": [
+        2200,
+        2933
+      ],
+      "download_bytes": 895358,
+      "dimensions": [
+        2200,
+        2933
+      ],
+      "bytes": 761024,
+      "sha256": "41daeb5cf4306fa2182d7a6b95bd5aff1b4cb9d1b0019f14966fc7617c552dcd",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "varanasi-boats.webp",
+      "subject": "Boats along the Ganges in Varanasi at sunset",
+      "author": "Arto Suraj",
+      "source": "https://www.pexels.com/photo/sunset-over-ganges-river-with-boats-in-varanasi-34741292/",
+      "image": "https://images.pexels.com/photos/34741292/pexels-photo-34741292.jpeg?auto=compress&cs=tinysrgb&w=1800",
+      "license": "https://www.pexels.com/license/",
+      "width": 1800,
+      "download_dimensions": [
+        1800,
+        1200
+      ],
+      "download_bytes": 265710,
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "bytes": 223202,
+      "sha256": "ec3795ca6430aa0824100bcda8a3ecf55ccf6f13073296b8b6683a4bd9bb2beb",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "agra-taj-mahal.webp",
+      "subject": "Taj Mahal, Agra",
+      "author": "Jovyn Chamb",
+      "source": "https://unsplash.com/photos/taj-mahal-india-iWMfiInivp4",
+      "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=90&fit=max",
+      "license": "https://unsplash.com/license",
+      "width": 1200,
+      "download_dimensions": [
+        1200,
+        800
+      ],
+      "download_bytes": 186356,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 118612,
+      "sha256": "a8c3daaa21bb8a78aa095520b091778c59a46c9ec4db1f658a5fc428c8c8a54b",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "lucknow-rumi-darwaza.webp",
+      "subject": "Rumi Darwaza, Lucknow",
+      "author": "Sourabh Pandey",
+      "source": "https://unsplash.com/photos/a-very-large-building-with-a-massive-entrance-EOm5YV73zns",
+      "image": "https://images.unsplash.com/photo-1688287580970-70fe8e0f4bef?w=1000&q=90&fit=max",
+      "license": "https://unsplash.com/license",
+      "width": 1000,
+      "download_dimensions": [
+        1000,
+        750
+      ],
+      "download_bytes": 167904,
+      "dimensions": [
+        1000,
+        750
+      ],
+      "bytes": 122876,
+      "sha256": "3d3bb68d7d060b158a3f09adae5987b4f8bf4f4a856b1715c6c555effd3c4ada",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "prayagraj-yamuna.webp",
+      "subject": "Boats on the Yamuna near New Yamuna Bridge, Prayagraj",
+      "author": "Faisal Qureshi",
+      "source": "https://unsplash.com/photos/a-group-of-boats-floating-on-top-of-a-lake-next-to-a-bridge-gCAqJBnmeRo",
+      "image": "https://images.unsplash.com/photo-1645344273898-7fd1e33803c2?w=1000&q=90&fit=max",
+      "license": "https://unsplash.com/license",
+      "width": 1000,
+      "download_dimensions": [
+        1000,
+        876
+      ],
+      "download_bytes": 117699,
+      "dimensions": [
+        1000,
+        876
+      ],
+      "bytes": 65878,
+      "sha256": "f7d5bf8309bf22db7b4383fa8786a428c98f2b9c5ccefd406f4841aa726a1fd7",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "bodhgaya-mahabodhi.webp",
+      "subject": "Mahabodhi Temple, Bodhgaya",
+      "author": "Vishwjeet Kumar",
+      "source": "https://unsplash.com/photos/a-very-tall-building-with-a-very-tall-tower-_RstDhmP2dU",
+      "image": "https://images.unsplash.com/photo-1679806893392-29f024308936?w=1000&q=90&fit=max",
+      "license": "https://unsplash.com/license",
+      "width": 900,
+      "download_dimensions": [
+        1000,
+        1778
+      ],
+      "download_bytes": 671201,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "bytes": 474190,
+      "sha256": "24e0fcbf3738c99969dd17bfdf15909c8ac3a5342a9feff263fab1e0519c5642",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "vrindavan-madan-mohan.webp",
+      "subject": "Madan Mohan Temple, Vrindavan",
+      "author": "Vikas Kumar",
+      "source": "https://unsplash.com/photos/an-old-building-with-a-bird-flying-over-it-NNdS6CSIqgE",
+      "image": "https://images.unsplash.com/photo-1697528556914-5b2e767bbb5f?w=1000&q=90&fit=max",
+      "license": "https://unsplash.com/license",
+      "width": 1000,
+      "download_dimensions": [
+        1000,
+        667
+      ],
+      "download_bytes": 158912,
+      "dimensions": [
+        1000,
+        667
+      ],
+      "bytes": 120284,
+      "sha256": "dff95e6bad980c575a29e5d0fe3239aa739fab60fd7b719150dab9d726f88757",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "ayodhya-ram-mandir.webp",
+      "subject": "Shri Ram Janambhoomi Mandir, Ayodhya, November 2025",
+      "author": "Prime Minister's Office, Government of India",
+      "source": "https://commons.wikimedia.org/wiki/File:Shri_Ram_Janambhoomi_Mandir.jpg",
+      "image": "https://static.pib.gov.in/WriteReadData/Gallery/PhotoGallery/2025/Nov/H20251125197420.JPG",
+      "license": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+      "license_name": "Government Open Data License - India (GODL)",
+      "attribution_required": true,
+      "attribution": "Photo: Prime Minister's Office / Press Information Bureau, Government of India, GODL-India. Source: https://commons.wikimedia.org/wiki/File:Shri_Ram_Janambhoomi_Mandir.jpg. Resized and converted to WebP.",
+      "width": 1000,
+      "download_dimensions": [
+        2200,
+        1513
+      ],
+      "download_bytes": 2892866,
+      "dimensions": [
+        1000,
+        688
+      ],
+      "bytes": 195936,
+      "sha256": "3af325145920c38c67bc31cc11e672cf8d2be218cf48ed8581a5ab6eea0fa076",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "varanasi-aerial.webp",
+      "subject": "Aerial view of Varanasi ghats along the Ganges",
+      "author": "Raghu Manda's",
+      "source": "https://www.pexels.com/photo/aerial-view-of-varanasi-ghats-along-the-ganges-39256046/",
+      "image": "https://images.pexels.com/photos/39256046/pexels-photo-39256046.jpeg?auto=compress&cs=tinysrgb&w=2400",
+      "license": "https://www.pexels.com/license/",
+      "width": 2400,
+      "download_dimensions": [
+        2400,
+        1348
+      ],
+      "download_bytes": 666773,
+      "dimensions": [
+        2400,
+        1348
+      ],
+      "bytes": 658606,
+      "sha256": "0aa497a4ab57661662bf821f65604013c1f0a479ddfb5bffad5bd019f5ccc01d",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    },
+    {
+      "file": "gaya-vishnupad.webp",
+      "subject": "Vishnupad Temple, Gaya, Bihar",
+      "author": "Surajkumar12111",
+      "source": "https://commons.wikimedia.org/wiki/File:Vishnupad_temple_gaya_bihar.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Vishnupad_temple_gaya_bihar.jpg",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_name": "CC BY-SA 4.0",
+      "attribution_required": true,
+      "attribution": "Photo: Surajkumar12111 / Wikimedia Commons, CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Vishnupad_temple_gaya_bihar.jpg. Resized and converted to WebP; derivative remains CC BY-SA 4.0.",
+      "width": 1000,
+      "download_dimensions": [
+        4992,
+        3136
+      ],
+      "download_bytes": 3251035,
+      "dimensions": [
+        1000,
+        628
+      ],
+      "bytes": 105636,
+      "sha256": "dc8b149f84ea0eca82001d162f9104511131be6306c77001e65f334d9d069871",
+      "processing": "EXIF orientation, proportional resize, WebP conversion. No generative manipulation. Download buffer not written to disk."
+    }
+  ]
+}

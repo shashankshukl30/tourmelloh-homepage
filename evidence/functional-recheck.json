@@ -1,0 +1,67 @@
+{
+  "reviewed_at": "2026-10-24T15:19:28.443932+00:00",
+  "url": "http://127.0.0.1:3108",
+  "scope": "Affected checks only: repeated destination requests, mobile itinerary reveal/close/focus, corrected photograph descriptions, hero accessible name, public contact anchors.",
+  "checks": [
+    {
+      "name": "Repeated destination selection and preview reset",
+      "status": "pass",
+      "detail": "Repeating Ayodhya CTA overrides manual Agra choice and reopens the form from an existing Ayodhya brief."
+    },
+    {
+      "name": "Corrected photo-specific alternative text",
+      "status": "pass",
+      "detail": {
+        "Lucknow": "Rumi Darwaza in Lucknow",
+        "Vrindavan": "Madan Mohan Temple in Vrindavan"
+      }
+    },
+    {
+      "name": "Verified client phone and email anchors",
+      "status": "pass",
+      "detail": {
+        "phone_display": "+91 77069 97271",
+        "phone_href": "tel:+917706997271",
+        "email_display": "tourmelloh@gmail.com",
+        "email_href": "mailto:tourmelloh@gmail.com",
+        "verification": "Matches locally verified client-public-details.json. Links inspected, not activated."
+      }
+    },
+    {
+      "name": "390px itinerary reveal, focus and close return",
+      "status": "pass",
+      "detail": {
+        "opened_panel_position": {
+          "x": 22,
+          "y": 92.375,
+          "width": 346,
+          "height": 492.5625
+        },
+        "returned_trigger_position": {
+          "x": 22,
+          "y": 443.96875,
+          "width": 346,
+          "height": 48.796875
+        },
+        "repeat_keyboard_open_close": "pass",
+        "overflow": {
+          "body": 390,
+          "viewport": 390
+        }
+      }
+    },
+    {
+      "name": "Mobile hero arrow accessible label",
+      "status": "pass",
+      "detail": {
+        "aria_label": "Explore the Varanasi edit",
+        "href": "#varanasi"
+      }
+    }
+  ],
+  "page_title": "Tourmelloh | Varanasi & Thoughtful Journeys Across India",
+  "summary": {
+    "passed": 5,
+    "failed": 0
+  }
+}

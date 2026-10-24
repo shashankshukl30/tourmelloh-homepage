@@ -1,0 +1,255 @@
+{
+  "inspectedAt": "2026-10-24",
+  "scope": "Homepage visual and typography reference research for an India travel agency concept",
+  "method": {
+    "tools": [
+      "agent-reach web routing (Jina Reader)",
+      "web browser source fetch",
+      "isolated Playwright browser contexts"
+    ],
+    "visualEvidence": "Screenshots opened with view_image; desktop 1440x1000, selected mobile 390x844",
+    "fontEvidence": "getComputedStyle(element).fontFamily and loaded document.fonts entries on live rendered pages",
+    "note": "Computed site font-family names are observed implementation identifiers; no reference font binaries were copied."
+  },
+  "references": [
+    {
+      "name": "Pelorus",
+      "url": "https://pelorustravel.com/",
+      "fonts": [
+        {
+          "family": "MFred",
+          "use": "Tall condensed uppercase hero/display"
+        },
+        {
+          "family": "Berlingske Serif Text",
+          "use": "Serif supporting line and editorial paragraphs"
+        },
+        {
+          "family": "Montserrat / montserrat",
+          "use": "Navigation, labels and utility headings"
+        }
+      ],
+      "observations": [
+        "Two-level ivory header: centered wordmark with utilities, then spaced uppercase category navigation.",
+        "Large genuine moving landscape hero, left-aligned condensed statement and restrained ochre enquiry action.",
+        "Typographic contrast comes from three clear jobs: condensed display, literary serif prose, practical sans navigation.",
+        "Editorial whitespace and a few large images establish luxury before exhaustive product browsing."
+      ],
+      "adapt": [
+        "Give genuine Varanasi photography the largest visual area.",
+        "Distinguish evocative headline typography from practical itinerary and planning UI.",
+        "Use a single visible planning action with generous breathing room."
+      ],
+      "avoid": [
+        "Do not duplicate its condensed all-caps hero, dual-row masthead, ochre button composition or reference prose.",
+        "Cookie overlay remained in early captures; the final desktop capture is unobstructed. The overlay is an inspection artifact, not a proposed UX pattern."
+      ]
+    },
+    {
+      "name": "Wander",
+      "url": "https://www.wander.com/",
+      "fonts": [
+        {
+          "family": "instrumentSans",
+          "normalizedName": "Instrument Sans",
+          "use": "Body and headings; hero observed 52px weight 550"
+        }
+      ],
+      "observations": [
+        "Small persistent Where / When / Who search capsule dominates navigation, while the introductory hero is compact.",
+        "Browse rows prioritize large almost-square photographs, then concise name, rating and price metadata.",
+        "On mobile the segmented search becomes one 'Start your search' control and horizontal cards reveal the next item.",
+        "Photography and a restrained type system carry the quality without ornamental UI."
+      ],
+      "adapt": [
+        "Use Instrument Sans for legible navigation, filters and journey metadata.",
+        "Preserve obvious planning entry points and consistent image/caption rhythm.",
+        "Mobile cards should show a portion of the next item; provide actual touch and keyboard scroll support."
+      ],
+      "avoid": [
+        "Initial desktop media appeared black while loading; the final desktop capture confirmed the fully loaded photographic hero. Do not use the transient black state as inspiration.",
+        "Do not reproduce its five-column property catalog for a small specialist travel brand."
+      ]
+    },
+    {
+      "name": "Airbnb",
+      "url": "https://www.airbnb.com/",
+      "fonts": [
+        {
+          "family": "Airbnb Cereal VF",
+          "use": "Live body and headings; custom variable sans"
+        }
+      ],
+      "observations": [
+        "Search is structured around Where, When, Who with generous individual hit areas.",
+        "Browse is organized into clearly named, locally meaningful rows with compact consistent metadata.",
+        "Photography, white space, small ratings and a single pink primary search action make a dense page scannable.",
+        "Desktop screenshot rendered regional Varanasi listings; mobile inspection remained in a loading state."
+      ],
+      "adapt": [
+        "Make the planner's field hierarchy and selected state immediately understandable.",
+        "Keep card facts predictable and remove labels that do not help a traveler choose."
+      ],
+      "avoid": [
+        "Do not copy the pink search capsule, brand font or property-catalog styling.",
+        "Mobile screenshot was a transient loading state with overflow; it is insufficient evidence of completed mobile UX."
+      ]
+    },
+    {
+      "name": "Polarsteps",
+      "url": "https://www.polarsteps.com/",
+      "fonts": [
+        {
+          "family": "Polarsteps Fellix ExtraBold",
+          "use": "Main hero; observed 64px weight 750"
+        },
+        {
+          "family": "Polarsteps Fellix Regular / Bold",
+          "use": "Body and supporting interface"
+        },
+        {
+          "family": "LORE Alternates Bold / LORE Bold",
+          "use": "Handwritten uppercase small labels"
+        }
+      ],
+      "observations": [
+        "A full-bleed vivid landscape leads into a warm cream canvas.",
+        "The actual trip map/route appears in a large phone prototype and explains the product before paragraphs do.",
+        "Scroll progression separates planning, tracking and reliving into discrete visual chapters.",
+        "Only a few large narrative elements compete for attention at each point."
+      ],
+      "adapt": [
+        "Explain connected North India circuits with a simple route sequence rather than a pile of destination adjectives.",
+        "Let each homepage section answer one traveler question.",
+        "Use warmth in the paper color and genuine imagery, with disciplined spacing."
+      ],
+      "avoid": [
+        "Do not copy the tilted phone, branded handwritten labels, tropical scene or centered app-marketing hero."
+      ]
+    },
+    {
+      "name": "Armenia Travel",
+      "url": "https://armenia.travel/",
+      "fonts": [
+        {
+          "family": "soundscape",
+          "normalizedName": "Soundscape",
+          "use": "Distinctive geometric display headings"
+        },
+        {
+          "family": "ping",
+          "normalizedName": "Ping",
+          "use": "Navigation and secondary headings"
+        },
+        {
+          "family": "helvetica",
+          "normalizedName": "Helvetica",
+          "use": "Editorial body descriptions"
+        }
+      ],
+      "observations": [
+        "Cinematic destination video has strongly rounded lower corners, followed by a separate title/caption band.",
+        "Navigation distinguishes learning about the place, finding places, things to do, and planning logistics.",
+        "Strong contrast between navy chapters and light sections, with a single yellow accent and distinctive locally expressive typography.",
+        "Mobile reorders into a compact logo/menu, short cropped image, large wrapped title, then explanatory paragraph; it is visibly recomposed."
+      ],
+      "adapt": [
+        "Build cultural specificity into content hierarchy, imagery, captions and editorial typography.",
+        "Give Varanasi its own substantial story section and use the other cities as linked ways to extend the journey.",
+        "Recompose the hero and planner for mobile instead of scaling the desktop overlap."
+      ],
+      "avoid": [
+        "Do not reuse its proprietary geometric letterforms, rounded video frame or dark collage section."
+      ]
+    },
+    {
+      "name": "Exoticca",
+      "url": "https://www.exoticca.com/us",
+      "fonts": [
+        {
+          "family": "oakesGrotesk",
+          "normalizedName": "Oakes Grotesk",
+          "use": "Body and display; headings observed 48px weight 500"
+        }
+      ],
+      "observations": [
+        "The live captured homepage is a promotion campaign with prominent sale banner, photographic carousel and a segmented trip finder.",
+        "Tall tour cards clearly show destination route, number of days and commercial terms.",
+        "Fixed top navigation keeps destinations, trip style and help reachable while browsing.",
+        "Large simple typography keeps a dense commercial offer understandable."
+      ],
+      "adapt": [
+        "Always place route and duration visibly on itinerary previews.",
+        "Keep the journey-planning action accessible after long editorial sections.",
+        "Use transparent proposed itineraries and request-a-quote language until client prices are confirmed."
+      ],
+      "avoid": [
+        "Discount tags, urgency, countdowns and savings claims do not belong in this concept without client evidence.",
+        "Do not copy the campaign art direction, pricing or tour descriptions."
+      ]
+    }
+  ],
+  "proposedDirection": {
+    "name": "The river and the road",
+    "positioning": "A personal, well-informed journey through North India, beginning with Varanasi and extending to the user's eight focus cities.",
+    "palette": "Warm limestone/paper, deep umber text, one restrained clay or vermilion action color; implement in OKLCH.",
+    "typography": {
+      "display": "Newsreader roman and selectively italic; large but readable, editorial rather than ornate",
+      "body": "Instrument Sans for navigation, metadata and forms",
+      "rationale": "Newsreader introduces a distinctive literary voice while Instrument Sans directly follows the usability quality verified on Wander. DM Sans is acceptable if already implemented, but Instrument Sans makes the researched reference relationship concrete.",
+      "licenses": [
+        {
+          "font": "Newsreader",
+          "license": "SIL OFL 1.1",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt"
+        },
+        {
+          "font": "Instrument Sans",
+          "license": "SIL OFL 1.1",
+          "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentsans/OFL.txt"
+        }
+      ]
+    },
+    "hero": "Genuine recognizable riverfront photography, restrained left headline, location caption and one planning action. Preserve image detail rather than relying on an opaque dark wash.",
+    "structure": [
+      "Compact editorial navigation and hero",
+      "In-page journey finder",
+      "Eight-city destination photo rail",
+      "Asymmetric Varanasi editorial feature",
+      "A few clearly labeled proposed itinerary previews with route and duration",
+      "Useful travel-planning details and browser-local brief"
+    ],
+    "planner": "Destination + journey interest + party type, with a clear 'Shape my journey' action. Dates can be optional; no simulated live inventory.",
+    "mobile": "Planner in normal flow, simplified header, independently composed image crop and typography, visible next-card edge on destination rail, touch/keyboard controls and no body overflow.",
+    "guardrails": [
+      "No invented business brand, years of experience, testimonials, ratings, prices, availability, client counts or guarantees.",
+      "Do not use reference image assets or proprietary font binaries.",
+      "No decorative spiritual symbols or generic palace/temple mashups.",
+      "Keep ordinary visitors focused on travel; communicate concept status unobtrusively, not in a developer-oriented flow."
+    ]
+  },
+  "evidence": {
+    "directory": "research/reference-screenshots",
+    "files": [
+      "pelorus-desktop.png",
+      "pelorus-clear.png",
+      "pelorus-scrolled.png",
+      "pelorus-dismissed.png",
+      "pelorus-desktop-final.png",
+      "wander-desktop.png",
+      "wander-scrolled.png",
+      "wander-mobile.png",
+      "wander-desktop-final.png",
+      "airbnb-desktop.png",
+      "airbnb-scrolled.png",
+      "airbnb-mobile.png",
+      "polarsteps-desktop.png",
+      "polarsteps-scrolled.png",
+      "armenia-desktop.png",
+      "armenia-scrolled.png",
+      "armenia-mobile.png",
+      "exoticca-desktop.png",
+      "exoticca-scrolled.png"
+    ]
+  }
+}

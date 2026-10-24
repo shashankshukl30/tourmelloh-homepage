@@ -1,0 +1,142 @@
+{
+  "recorded_at": "2026-10-24T15:23:15.079391+00:00",
+  "scope": "D:\\Digiocular\\Websites\\india-travel-homepage",
+  "before_free_bytes": {
+    "C": 76838711296,
+    "D": 37740826624
+  },
+  "after_free_bytes": {
+    "C": 76076888064,
+    "D": 37034061824
+  },
+  "removed": [
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\images\\varanasi-night.webp",
+      "reason": "Optional night photograph excluded by project art direction; unused in build.",
+      "bytes": 211700,
+      "sha256": "7c59a0f8bb3415ec3ad8449a322daf5e9ad6ca16768e8b07e73e334402eb88e8"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\research\\photo-hero-review.jpg",
+      "reason": "Intermediate hero candidate sheet superseded by final photo-contact-sheet.jpg.",
+      "bytes": 124769,
+      "sha256": "e120ae55293462f851d9c4467e0d77fc8ca17ca37935097f61cb78168ce0a543"
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\desktop-full.png",
+      "bytes": 4260425,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\desktop-hero.png",
+      "bytes": 1596220,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-full.png",
+      "bytes": 1202267,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-hero.png",
+      "bytes": 368871,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-finder.png",
+      "bytes": 57114,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-varanasi.png",
+      "bytes": 71750,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-varanasi-photo.png",
+      "bytes": 215206,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-destinations.png",
+      "bytes": 213423,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-journeys.png",
+      "bytes": 218456,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-journeys-second.png",
+      "bytes": 224196,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-approach.png",
+      "bytes": 51599,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-plan.png",
+      "bytes": 379282,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-faq.png",
+      "bytes": 47453,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\mobile-full-loaded.png",
+      "bytes": 2131356,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\desktop-varanasi.png",
+      "bytes": 517771,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\desktop-destinations.png",
+      "bytes": 618603,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\desktop-journeys.png",
+      "bytes": 562512,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\desktop-approach.png",
+      "bytes": 239801,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    },
+    {
+      "path": "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\design-review\\desktop-plan.png",
+      "bytes": 54445,
+      "reason": "Task-generated intermediate screenshot superseded by fresh Chromium captures at verified viewport dimensions after lazy images were loaded."
+    }
+  ],
+  "total_bytes_removed": 13367219,
+  "retained": "All source, source generators, selected licensed images, image credits, font licenses, final evidence, active dependencies and build output.",
+  "archived": {
+    "from": "public/icon.svg",
+    "to": ".skill-archive/logo-creator/2026-10-24-tourmelloh/initial-unbranded-icon.svg",
+    "reason": "Preserve the initial editable symbol while the public app uses the confirmed Tourmelloh identity."
+  },
+  "certificate_unchanged": true,
+  "certificate_publication": "Excluded by .gitignore and .vercelignore; outside public assets; only verified public business fields used.",
+  "further_safe_disposables": "None identified. Active build and dependencies remain required.",
+  "delivery_dependencies_verified": [
+    "public/brand/tourmelloh-logo.svg",
+    "public/brand/tourmelloh-logo.png",
+    "public/brand/tourmelloh-logo-ivory.svg",
+    "public/brand/logo-preview.png",
+    "public/images/varanasi-aerial.webp",
+    "public/og.jpg",
+    "app/page.tsx",
+    "package-lock.json"
+  ],
+  "note": "Drive free-space changes include dependency/build growth and concurrent machine activity; reclaimed bytes are the explicit manifest sum."
+}

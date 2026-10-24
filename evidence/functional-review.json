@@ -1,0 +1,164 @@
+{
+  "reviewed_at": "2026-10-24T15:14:31.060303+00:00",
+  "url": "http://127.0.0.1:3108",
+  "engine": "Python Playwright isolated headless Chromium",
+  "checks": [
+    {
+      "name": "Initial four journey cards and eight destinations",
+      "status": "pass",
+      "detail": "journeys=4, destinations=8"
+    },
+    {
+      "name": "Trip finder combines destination and interest",
+      "status": "pass",
+      "detail": "Ayodhya + Sacred journeys returns exactly Along the sacred rivers."
+    },
+    {
+      "name": "No-results state and reset",
+      "status": "pass",
+      "detail": "Empty combination offers recovery, reset restores four cards and removes destination filter."
+    },
+    {
+      "name": "Interest filters",
+      "status": "pass",
+      "detail": "Counts 1/2/1/4 and pressed state verified."
+    },
+    {
+      "name": "Save and unsave survive reload",
+      "status": "pass",
+      "detail": {
+        "saved_value": "[\"kashi\"]",
+        "unsaved_value": "[]"
+      }
+    },
+    {
+      "name": "All journey details",
+      "status": "pass",
+      "detail": "All four inline itineraries open and close with correct title and stages."
+    },
+    {
+      "name": "All destination details",
+      "status": "pass",
+      "detail": "All eight destination details open with matching name and close."
+    },
+    {
+      "name": "Destination CTA prefills planner",
+      "status": "pass",
+      "detail": "Destination CTA prefills Ayodhya."
+    },
+    {
+      "name": "Repeated destination CTA after editing selection",
+      "status": "fail",
+      "detail": "Locator expected to have Value 'Ayodhya'\nActual value: Agra \nCall log:\n  - Expect \"to_have_value\" with timeout 1500ms\n  - waiting for locator(\"#plan select\").first\n    5 × locator resolved to <select>…</select>\n      - unexpected value \"Agra\"\n"
+    },
+    {
+      "name": "Planner preview and safe text rendering",
+      "status": "pass",
+      "detail": "All chosen fields appear; text is escaped; result receives focus; preview clarifies no enquiry/booking."
+    },
+    {
+      "name": "Planner actual download content",
+      "status": "pass",
+      "detail": {
+        "filename": "my-india-journey.txt",
+        "content": "MY INDIA JOURNEY — PLANNING BRIEF\n\nDestination: More than one destination\nWhen: November\nTravelling: With family\nIdeas and preferences: Varanasi and Ayodhya; gentle walking pace, time for rest. <script>window.qaInjected=true</script>\n\nPersonal planning draft. This is not a booking or confirmed quote. No enquiry has been sent.",
+        "retention": "Read from Playwright-owned temporary download path; browser context disposes download."
+      }
+    },
+    {
+      "name": "Planner copy",
+      "status": "pass",
+      "detail": "Clipboard content matches chosen brief data in isolated browser."
+    },
+    {
+      "name": "Planner adjust preserves data",
+      "status": "pass",
+      "detail": {
+        "values_preserved": true,
+        "focused_element_after_edit": "BODY"
+      }
+    },
+    {
+      "name": "FAQs keyboard and repeated toggle",
+      "status": "pass",
+      "detail": "All four FAQs toggle with keyboard Enter and expose their answer."
+    },
+    {
+      "name": "Mobile menu keyboard trap, Escape and navigation",
+      "status": "pass",
+      "detail": "390px: focus enters menu, stays trapped through 18 forward and 18 backward Tabs, Escape restores toggle and scrolling, navigation closes menu."
+    },
+    {
+      "name": "Mobile first itinerary is revealed in viewport",
+      "status": "fail",
+      "detail": "Opened first mobile itinerary is outside viewport: y=2583.375, height=492.5625, viewportHeight=844. No scrolling or focus movement reveals it."
+    },
+    {
+      "name": "Mobile viewport has no document overflow",
+      "status": "pass",
+      "detail": "{\"body\":390,\"viewport\":390}"
+    }
+  ],
+  "content_observations": [
+    {
+      "severity": "pass",
+      "finding": "No imported business metrics, testimonials, prices, client identities, VIP guarantees or booking claims observed. Working brand and proposed routes are explicitly disclosed; planner is explicitly local preview."
+    },
+    {
+      "severity": "pass",
+      "finding": "Destination factual descriptions align with research/content-research.json: Gaya/Bodh Gaya distinct; Saraswati qualified as mythical; Taj Friday closure noted."
+    },
+    {
+      "severity": "review",
+      "finding": "Destination photo alt text is derived from first destination highlight, not the actual photographed subject. Lucknow image filename is lucknow-rumi-darwaza.webp but alt starts Bara Imambara. Vrindavan image filename is vrindavan-madan-mohan.webp but alt starts Banke Bihari. Replace with accurate subject-specific alt text.",
+      "observed_alt_text": [
+        {
+          "alt": "Ghats in Varanasi",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-riverfront.webp&w=3840&q=75"
+        },
+        {
+          "alt": "Ram Mandir in Ayodhya",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-ram-mandir.webp&w=3840&q=75"
+        },
+        {
+          "alt": "Taj Mahal in Agra",
+          "src": "/_next/image?url=%2Fimages%2Fagra-taj-mahal.webp&w=3840&q=75"
+        },
+        {
+          "alt": "A boat on the Yamuna at Prayagraj, with the Naini bridge beyond",
+          "src": "/_next/image?url=%2Fimages%2Fprayagraj-yamuna.webp&w=3840&q=75"
+        },
+        {
+          "alt": "Bara Imambara in Lucknow",
+          "src": "/_next/image?url=%2Fimages%2Flucknow-rumi-darwaza.webp&w=3840&q=75"
+        },
+        {
+          "alt": "Mahabodhi Temple in Bodhgaya",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-mahabodhi.webp&w=3840&q=75"
+        },
+        {
+          "alt": "Banke Bihari in Vrindavan",
+          "src": "/_next/image?url=%2Fimages%2Fvrindavan-madan-mohan.webp&w=3840&q=75"
+        },
+        {
+          "alt": "Vishnupad Temple in Gaya",
+          "src": "/_next/image?url=%2Fimages%2Fgaya-vishnupad.webp&w=3840&q=75"
+        }
+      ]
+    },
+    {
+      "severity": "known_fix_in_progress",
+      "finding": "Root is correcting the wide river photograph caption from first light to evening. Latest source already says EVENING ON THE GANGA; no independent image-time verification performed in this functional pass."
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "mutation_requests": [],
+  "page_title": "India, Personally | Varanasi & Thoughtful India Journeys",
+  "initial_text": "Skip to content\nIndia, personally.\nTAILOR-MADE JOURNEYS\nDestinations\nOur journeys\nThe Varanasi edit\nOur approach\nPlan your journey\n\nVARANASI AT HEART. INDIA WITHIN REACH.\n\nSome journeys\nstay with you.\n\nFrom the first light on the Ganga to the places\nyou’ve always wanted to see. Go a little deeper.\n\nTake a closer look\nVARANASI, UTTAR PRADESH\n01 — 08\nEVERY JOURNEY STARTS\nwith a little curiosity.\nWhere would you like to go?\nAnywhere in our collection\nVaranasi\nAyodhya\nAgra\nPrayagraj\nLucknow\nBodhgaya\nVrindavan\nGaya\nWhat draws you here?\nA little of everything\nSacred journeys\nCulture & heritage\nBuddhist trails\nFind my journey\nA place for faith. A taste for culture. A journey that feels like you.\nHave something else in mind?\n✳\nTHE VARANASI EDIT\nThere is India.\nAnd then,\nthere is Kashi.\n\nA boat on the Ganga before the city wakes. Chai in a lane you almost walked past. An evening that glows long after the lamps go out.\n\nBegin with Varanasi. Take your time with its ghats and old-city lanes, then follow the stories further — to Sarnath, the Sangam, and beyond.\n\nFind your way into Kashi\nTHE GANGA · VARANASI\nOLD CITY. NEW PERSPECTIVES.\nA CITY BEST DISCOVERED SLOWLY\nA little slower. A little quieter.\n01 / A CLOSER LOOK\nEIGHT PLACES. ENDLESS WAYS TO CONNECT.\nWhere will India take you?\n01\nTHE RIVER & THE RITUAL\nVaranasi\n\nSome places are seen. Kashi is felt.\n\n02\nA JOURNEY OF FAITH\nAyodhya\n\nTemple courtyards. Sarayu evenings.\n\n03\nBEYOND THE POSTCARD\nAgra\n\nA wonder, and the world around it.\n\n04\nWHERE RIVERS MEET\nPrayagraj\n\nA pause at the sacred confluence.\n\n05\nTHE ART OF AWADH\nLucknow\n\nGrand gateways. Gracious traditions.\n\n06\nROOM FOR STILLNESS\nBodhgaya\n\nA quieter kind of discovery.\n\n07\nIN THE LANES OF BRAJ\nVrindavan\n\nA place that moves to devotion.\n\n08\nA JOURNEY OF REMEMBRANCE\nGaya\n\nPersonal journeys. Sacred traditions.\n\nA closer look at North India. A starting point for the rest.\nDreaming of somewhere else?\nGOOD JOURNEYS BEGIN WITH AN IDEA\nFind a journey. Make it yours.\n\nThoughtful starting points, with room\nfor your own detours.\n\nAll journeys\nSacred journeys\nCulture & heritage\nBuddhist trails\nTHE VARANASI EDIT\n4 days / 3 nights\nTAILOR TO YOU\nKashi, before the world wakes\n\nVaranasi · Sarnath\n\nRiver mornings, old-city lanes and an unhurried afternoon in Sarnath.\n\nExplore the journey\nFAITH & CONNECTION\n6 days / 5 nights\nTAILOR TO YOU\nAlong the sacred rivers\n\nVaranasi · Prayagraj · Ayodhya\n\nFrom the ghats of Kashi to the Sangam and the temples beside the Sarayu.\n\nExplore the journey\nPATHS TO STILLNESS\n5 days / 4 nights\nTAILOR TO YOU\nThe road to Bodh Gaya\n\nVaranasi · Sarnath · Bodhgaya\n\nTrace Buddhist heritage, with time for stillness around the Mahabodhi Temple.\n\nExplore the journey\nCULTURE, IN COLOUR\n7 days / 6 nights\nTAILOR TO YOU\nAwadh, Agra & the lanes of Braj\n\nLucknow · Agra · Vrindavan\n\nAwadhi flavours, Mughal architecture and the devotional rhythm of Braj.\n\nExplore the journey\n\nSuggested routes, shaped around your dates, interests and pace. Final details follow a planning conversation.\n\nTHE WAY WE LOOK AT TRAVEL\nA good itinerary\nleaves room\nfor you.\n\nThere’s no single way to experience India.\nThat’s the point.\n\nLet’s find your way\n01\nStart with what matters to you.\n\nA family pilgrimage, a love of architecture, or simply time away. The reason for your trip comes before the route.\n\n02\nLeave a little room in the day.\n\nTemple visits, long drives and early starts need a thoughtful rhythm. Rest and unplanned pauses belong in the picture, too.\n\n03\nPut the details on the table.\n\nHotels, transfers, walking requirements and inclusions are part of the planning conversation. Clarity makes the journey easier.\n\nTHE MOMENTS BETWEEN THE MILESTONES\n\nSometimes, the best part\nis just being there.\n\nEVENING ON THE GANGA, VARANASI\nA LITTLE IDEA CAN GO A LONG WAY\nYour India\nbegins with\na conversation.\n\nTell us the places on your mind.\nThe people coming with you.\nThe things you don’t want to miss.\n\n✳\nSomewhere between a plan\nand a possibility.\nLET’S SKETCH OUT A JOURNEY\nWhat’s calling you?\nI’d like to explore\nVaranasi\nAyodhya\nAgra\nPrayagraj\nLucknow\nBodhgaya\nVrindavan\nGaya\nMore than one destination\nSomewhere else in India\nWhen are you thinking?\nI’m flexible\nJanuary\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember\nWho’s coming along?\nAs a couple\nWith family\nWith friends\nOn my own\nWith a group\nAnything you’d love to include?\nOptional\nCreate my travel brief\n\nHomepage preview · Create a personal brief to keep. No enquiry is sent.\n\nA FEW THINGS YOU MIGHT BE WONDERING\nBefore\nyou set off.\nCan I combine more than one destination?\nHow much time should I allow for Varanasi?\nWhat should I consider when travelling with older family members?\nAre Gaya and Bodhgaya the same destination?\nIndia, personally.\n\nJourneys with a sense of place.\nVaranasi at heart. India within reach.\n\nThe destinations\nSuggested journeys\nThe Varanasi edit\nStart your travel brief\nTHE NEXT CHAPTER\n\nA river morning.\nA new city.\nA story of your own.\n\nHomepage concept · Working brand name\nMade with ♥ by Digiocular\nBack to the beginning ↑\nPhotography & concept notes",
+  "summary": {
+    "passed": 15,
+    "failed": 2,
+    "no_live_enquiry_requests": true
+  }
+}
