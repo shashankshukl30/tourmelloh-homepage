@@ -22,4 +22,3 @@ const root = 'D:/Digiocular/Websites/india-travel-homepage/evidence/design-revie
  fs.writeFileSync(root+'/metrics.json',JSON.stringify(result,null,2));
  console.log(JSON.stringify(result,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});
-
