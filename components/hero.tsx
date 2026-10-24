@@ -38,7 +38,6 @@ export function Hero({ onExplore }: {
             </a>
           </div>
         </div>
-        <div className="hero-location">On the Ganga <span>Varanasi, India</span></div>
       </section>
       <div className="finder-wrap page-width">
         <form className="trip-finder" aria-label="Find a suggested journey"

@@ -24,6 +24,8 @@ function check(name, passed, detail) {
   const browser = await chromium.launch({ headless: true, channel: 'chrome' });
   const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'reduce' });
   const page = await context.newPage();
+  const filmRequests = [];
+  page.on('request', request => { if (request.url().includes('.mp4')) filmRequests.push(request.url()); });
   page.on('pageerror', error => report.pageErrors.push(String(error)));
   page.on('console', message => { if (message.type() === 'error') report.consoleErrors.push(message.text()); });
   await page.goto(base, { waitUntil: 'networkidle' });
@@ -130,11 +132,15 @@ function check(name, passed, detail) {
     await page.locator('.atlas-places').getByRole('button', {name: new RegExp('\\b' + place + '$', 'i')}).click();
     check('Destination index selects ' + place, await page.locator('.atlas-photo-label h3').textContent() === place);
   }
-  await page.getByRole('button', { name: 'Play Varanasi film' }).click();
-  await page.waitForTimeout(1500);
-  check('Hero film plays on explicit request with reduced motion', await page.locator('.hero-film').evaluate(v => !v.paused && v.currentTime > 0 && v.videoWidth > 0));
-  await page.getByRole('button', { name: 'Pause Varanasi film' }).click();
-  check('Hero film pause control works', await page.locator('.hero-film').evaluate(v => v.paused));
+  check('Reduced motion downloads no hero film', filmRequests.length === 0, filmRequests.slice());
+  check('Reduced motion keeps the hero poster still', await page.locator('.hero-film').evaluate(v => v.paused && !v.currentSrc));
+  check('Hero film has no play or pause controls', await page.locator('.hero-film').evaluate(v => !v.controls) && await page.locator('.film-control').count() === 0 && await page.getByRole('button', { name: /^(play|pause).*film/i }).count() === 0);
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.waitForFunction(() => { const v = document.querySelector('.hero-film'); return v && !v.paused && v.currentTime > .1 && v.videoWidth > 0; });
+  check('Enabling motion autoplays the mobile India film', await page.locator('.hero-film').evaluate(v => v.currentSrc.endsWith('/videos/india-mobile.mp4') && v.muted && v.loop));
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.waitForFunction(() => document.querySelector('.hero-film')?.paused);
+  check('Changing to reduced motion pauses the hero film', await page.locator('.hero-film').evaluate(v => v.paused));
   const missing = await page.goto(new URL('/journeys/not-a-real-journey', baseUrl.origin).href, { waitUntil: 'networkidle' });
   check('Unknown route shows branded 404', missing.status() === 404 && await page.getByRole('heading', { name: /find your.*way back/ }).isVisible());
   await browser.close();

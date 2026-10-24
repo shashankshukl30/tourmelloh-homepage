@@ -154,31 +154,33 @@ export function Navigation({
               ))}
             </nav>
           </LayoutGroup>
-          <MotionLink href="/search" className="nav-search" aria-label="Search tours and destinations"
-            whileHover={reduced ? undefined : { scale: 1.07 }} whileTap={reduced ? undefined : { scale: .94 }} transition={travel}>
-            <Search size={20} />
-          </MotionLink>
-          <WhatsAppLink placement="header" />
-          <MotionLink href="/#plan" className="header-cta" style={{ color: solid ? "var(--paper)" : "var(--ink)" }}
-            initial="rest" whileHover="hover" whileFocus="hover" whileTap={reduced ? undefined : { scale: .98 }}>
-            <motion.span className="nav-cta-fill" aria-hidden="true"
-              variants={{ rest: { y: "105%" }, hover: { y: 0 } }} transition={reduced ? { duration: 0 } : { duration: .28, ease: [.2, .7, .2, 1] }} />
-            <span className="nav-cta-label"><span className="nav-plan-full">Plan your journey</span><span className="nav-plan-short">Plan a trip</span></span>
-            <motion.span className="nav-cta-arrow" variants={{ rest: { x: 0, y: 0 }, hover: { x: reduced ? 0 : 2, y: reduced ? 0 : -2 } }} transition={travel}>
-              <ArrowUpRight size={17} />
-            </motion.span>
-          </MotionLink>
-          <motion.button
-            className="menu-toggle"
-            ref={toggle}
-            aria-label={open ? "Close menu" : "Open menu"}
-            aria-expanded={open}
-            aria-controls="mobile-navigation"
-            onClick={() => setOpen((value) => !value)}
-            whileTap={reduced ? undefined : { scale: .92 }}
-          >
-            {open ? <X /> : <Menu />}
-          </motion.button>
+          <div className="header-actions">
+            <MotionLink href="/search" className="nav-search" aria-label="Search tours and destinations"
+              whileHover={reduced ? undefined : { scale: 1.07 }} whileTap={reduced ? undefined : { scale: .94 }} transition={travel}>
+              <Search size={20} />
+            </MotionLink>
+            <WhatsAppLink placement="header" />
+            <MotionLink href="/#plan" className="header-cta" style={{ color: solid ? "var(--paper)" : "var(--ink)" }}
+              initial="rest" whileHover="hover" whileFocus="hover" whileTap={reduced ? undefined : { scale: .98 }}>
+              <motion.span className="nav-cta-fill" aria-hidden="true"
+                variants={{ rest: { y: "105%" }, hover: { y: 0 } }} transition={reduced ? { duration: 0 } : { duration: .28, ease: [.2, .7, .2, 1] }} />
+              <span className="nav-cta-label"><span className="nav-plan-full">Plan your journey</span><span className="nav-plan-short">Plan a trip</span></span>
+              <motion.span className="nav-cta-arrow" variants={{ rest: { x: 0, y: 0 }, hover: { x: reduced ? 0 : 2, y: reduced ? 0 : -2 } }} transition={travel}>
+                <ArrowUpRight size={17} />
+              </motion.span>
+            </MotionLink>
+            <motion.button
+              className="menu-toggle"
+              ref={toggle}
+              aria-label={open ? "Close menu" : "Open menu"}
+              aria-expanded={open}
+              aria-controls="mobile-navigation"
+              onClick={() => setOpen((value) => !value)}
+              whileTap={reduced ? undefined : { scale: .92 }}
+            >
+              {open ? <X /> : <Menu />}
+            </motion.button>
+          </div>
         </div>
       </header>
       {open && (

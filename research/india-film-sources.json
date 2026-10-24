@@ -1,0 +1,308 @@
+﻿{
+    "checkedAt":  "2026-10-24T17:03:02.167455+00:00",
+    "scope":  "Real footage sourcing for Tourmelloh homepage hero. Root owns montage rendering; this record does not claim final output QA.",
+    "licenseSummary":  {
+                           "license":  "Pexels License",
+                           "licenseUrl":  "https://www.pexels.com/license/",
+                           "commercialUseUrl":  "https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project",
+                           "summary":  "Pexels permits free commercial use and editing of photos and videos without attribution. Do not imply endorsement, resell unchanged stock, redistribute as stock, or use as a trademark. Other rights in people, marks or depicted works may still apply.",
+                           "visibleCreditNeeded":  false,
+                           "licenseReceipt":  "research/media/india-montage/pexels-license.md",
+                           "commercialUseReceipt":  "research/media/india-montage/pexels-commercial-use.md"
+                       },
+    "existingVaranasi":  {
+                             "path":  "research/media/hero-film/36631860-original.mp4",
+                             "sha256":  "aac7f97f1dffcf0bfb092e3076632b0c402939f229f22e43609ff666460a2a20",
+                             "bytes":  69135619,
+                             "source":  "https://www.pexels.com/video/serene-sunrise-at-varanasi-ghats-36631860/",
+                             "creator":  "Arto Suraj",
+                             "license":  "Pexels License",
+                             "attributionRequired":  false,
+                             "priorVerifiedRecord":  "evidence/video-sources.json",
+                             "note":  "Existing file not redownloaded or edited by this sourcing task."
+                         },
+    "clips":  [
+                  {
+                      "file":  "research\\media\\india-montage\\agra-taj-mahal-19705899-4k.mp4",
+                      "url":  "https://videos.pexels.com/video-files/19705899/19705899-uhd_3840_2160_30fps.mp4",
+                      "bytes":  15101876,
+                      "sha256":  "f131ecf581f820515b73f8aa9d5598ccc41392315c467fb4090ba6382451ee5c",
+                      "probe":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  3840,
+                                                        "height":  2160,
+                                                        "r_frame_rate":  "30000/1001"
+                                                    },
+                                                    {
+                                                        "codec_name":  "aac",
+                                                        "codec_type":  "audio",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "7.253333",
+                                                   "size":  "15101876"
+                                               }
+                                },
+                      "selected":  true,
+                      "destination":  "Agra, Uttar Pradesh, India",
+                      "landmark":  "Taj Mahal",
+                      "pexelsId":  19705899,
+                      "creator":  "Rapstar Nsp",
+                      "source":  "https://www.pexels.com/video/taj-mahal-video-19705899/",
+                      "creatorProfile":  "https://www.pexels.com/@rapstar-nsp-70592884/",
+                      "visualVerification":  "Marble mausoleum, principal bulbous dome, calligraphic arch and flanking minaret match Taj Mahal. Source location tags identify Agra. Actual framing is a close view upward, not a wide aerial.",
+                      "motionVerification":  "Flying birds change position independently across sky; gentle camera movement changes architecture framing over samples.",
+                      "suggestedSegmentSeconds":  [
+                                                      0.1,
+                                                      7.1
+                                                  ],
+                      "portraitFocusX":  0.5,
+                      "audioInstruction":  "AAC audio is present. Strip all audio for muted hero.",
+                      "qualityNote":  "Native3840x2160. 9:16 crop has1215x2160 pixels before downscale to720x1280.",
+                      "motionEvidence":  {
+                                             "file":  "agra-taj-mahal-19705899-4k.mp4",
+                                             "sampleTimesSeconds":  [
+                                                                        0.5,
+                                                                        3.5,
+                                                                        6.5
+                                                                    ],
+                                             "meanAbsolutePixelDifferences0To255":  [
+                                                                                        6.922813946759259,
+                                                                                        8.01833767361111
+                                                                                    ],
+                                             "contactSheet":  "agra-taj-mahal-19705899-4k-motion-sheet.jpg"
+                                         },
+                      "license":  "Pexels License",
+                      "licenseUrl":  "https://www.pexels.com/license/",
+                      "commercialUsePermitted":  true,
+                      "attributionRequired":  false
+                  },
+                  {
+                      "file":  "research\\media\\india-montage\\jaipur-amber-fort-18983875-4k.mp4",
+                      "url":  "https://videos.pexels.com/video-files/18983875/18983875-uhd_3840_2160_25fps.mp4",
+                      "bytes":  115726327,
+                      "sha256":  "48d51daff8c1224a342651bd1934ebad5cd1dda08e595e6d604100c2c7d343ab",
+                      "probe":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  3840,
+                                                        "height":  2160,
+                                                        "r_frame_rate":  "25/1"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "40.040000",
+                                                   "size":  "115726327"
+                                               }
+                                },
+                      "selected":  true,
+                      "destination":  "Amber, Jaipur, Rajasthan, India",
+                      "landmark":  "Amber Fort and Maota Lake",
+                      "pexelsId":  18983875,
+                      "creator":  "Nitin Khajotia",
+                      "source":  "https://www.pexels.com/video/an-aerial-view-of-the-city-of-jaipur-18983875/",
+                      "creatorProfile":  "https://www.pexels.com/@nitin-khajotia-55235902/",
+                      "visualVerification":  "Distinct terraced fort courtyard, ochre ramparts, Maota Lake and rectangular lakeside garden visible. Page explicitly identifies Amber Fort in Jaipur.",
+                      "motionVerification":  "Drone movement produces different shifts in near fort courtyard, roads and distant green hills; actual aerial parallax.",
+                      "suggestedSegmentSeconds":  [
+                                                      1.0,
+                                                      8.0
+                                                  ],
+                      "portraitFocusX":  0.7,
+                      "audioInstruction":  "No audio stream found.",
+                      "qualityNote":  "Native3840x2160. Fort sits right of center; portrait focus0.70 keeps landmark prominent.",
+                      "motionEvidence":  {
+                                             "file":  "jaipur-amber-fort-18983875-4k.mp4",
+                                             "sampleTimesSeconds":  [
+                                                                        0.5,
+                                                                        3.5,
+                                                                        6.5
+                                                                    ],
+                                             "meanAbsolutePixelDifferences0To255":  [
+                                                                                        36.50427517361111,
+                                                                                        37.321569733796295
+                                                                                    ],
+                                             "contactSheet":  "jaipur-amber-fort-18983875-4k-motion-sheet.jpg"
+                                         },
+                      "license":  "Pexels License",
+                      "licenseUrl":  "https://www.pexels.com/license/",
+                      "commercialUsePermitted":  true,
+                      "attributionRequired":  false
+                  },
+                  {
+                      "file":  "research\\media\\india-montage\\lucknow-rumi-gate-36942483-1440p.mp4",
+                      "url":  "https://videos.pexels.com/video-files/36942483/15650143_2560_1440_60fps.mp4",
+                      "bytes":  3141727,
+                      "sha256":  "bf05d7f13985dba1c56d0c5f992125fa0060a3f084a2f93de77f962042ba07bb",
+                      "probe":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  2560,
+                                                        "height":  1440,
+                                                        "r_frame_rate":  "60000/1001"
+                                                    },
+                                                    {
+                                                        "codec_type":  "data",
+                                                        "r_frame_rate":  "0/0"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "6.806800",
+                                                   "size":  "3141727"
+                                               }
+                                },
+                      "selected":  true,
+                      "destination":  "Lucknow, Uttar Pradesh, India",
+                      "landmark":  "Rumi Darwaza",
+                      "pexelsId":  36942483,
+                      "creator":  "Gaurav Vishwakarma",
+                      "source":  "https://www.pexels.com/video/majestic-rumi-gate-in-lucknow-at-twilight-36942483/",
+                      "creatorProfile":  "https://www.pexels.com/@framesbygaurav/",
+                      "visualVerification":  "Rumi Darwaza distinctive cusped arch, tiered ornament and central chhatri visible. Source explicitly names Rumi Gate, Lucknow.",
+                      "motionVerification":  "Foreground leaves and lamp silhouettes sweep at different rates from the architecture; visible parallax proves moving footage rather than a still zoom.",
+                      "suggestedSegmentSeconds":  [
+                                                      0.05,
+                                                      6.7167
+                                                  ],
+                      "portraitFocusX":  0.54,
+                      "audioInstruction":  "No audio stream found. Data stream present; map only video for hero.",
+                      "qualityNote":  "Verified published2560x1440 variant.9:16 crop810x1440 exceeds720x1280 delivery, so no upsample required. Native gentle gray palette; page reports4K original but inferred4K URL404, so not obtained. Root selected1440 version. Stretch6.6667s segment to7s with setpts=1.05*PTS, motion resampled, no freeze tail.",
+                      "motionEvidence":  {
+                                             "file":  "lucknow-rumi-gate-36942483-1440p.mp4",
+                                             "sampleTimesSeconds":  [
+                                                                        0.5,
+                                                                        3.5,
+                                                                        6.5
+                                                                    ],
+                                             "meanAbsolutePixelDifferences0To255":  [
+                                                                                        24.810873842592592,
+                                                                                        18.277024016203704
+                                                                                    ],
+                                             "contactSheet":  "lucknow-rumi-gate-36942483-1440p-motion-sheet.jpg"
+                                         },
+                      "license":  "Pexels License",
+                      "licenseUrl":  "https://www.pexels.com/license/",
+                      "commercialUsePermitted":  true,
+                      "attributionRequired":  false
+                  },
+                  {
+                      "file":  "research\\media\\india-montage\\lucknow-bara-imambara-20571992-1080p.mp4",
+                      "url":  "https://videos.pexels.com/video-files/20571992/20571992-hd_1920_1080_30fps.mp4",
+                      "bytes":  15439791,
+                      "sha256":  "5086fea307f1b8b324910ae83925fd462f00d3e313feffedc684679cecdb06a0",
+                      "probe":  {
+                                    "programs":  [
+
+                                                 ],
+                                    "stream_groups":  [
+
+                                                      ],
+                                    "streams":  [
+                                                    {
+                                                        "codec_name":  "h264",
+                                                        "codec_type":  "video",
+                                                        "width":  1920,
+                                                        "height":  1080,
+                                                        "r_frame_rate":  "30000/1001"
+                                                    }
+                                                ],
+                                    "format":  {
+                                                   "duration":  "21.988333",
+                                                   "size":  "15439791"
+                                               }
+                                },
+                      "selected":  false,
+                      "status":  "Candidate retained at parent request until montage final cleanup",
+                      "destination":  "Lucknow, Uttar Pradesh, India",
+                      "landmark":  "Bara Imambara complex with Rumi Darwaza in foreground",
+                      "pexelsId":  20571992,
+                      "creator":  "Hindustani Lens",
+                      "source":  "https://www.pexels.com/video/bada-imambara-lucknow-20571992/",
+                      "visualVerification":  "Aerial shows Rumi Darwaza foreground and Bara Imambara complex courtyard and Asfi Mosque behind. Source title names Bada Imambara Lucknow.",
+                      "motionVerification":  "Real aerial movement and traffic progression.",
+                      "qualityNote":  "Native1920x1080. Rejected for primary montage in favor of1440p Rumi source because9:16 crop would require modest upscale.",
+                      "motionEvidence":  {
+                                             "file":  "lucknow-bara-imambara-20571992-1080p.mp4",
+                                             "sampleTimesSeconds":  [
+                                                                        0.5,
+                                                                        3.5,
+                                                                        6.5
+                                                                    ],
+                                             "meanAbsolutePixelDifferences0To255":  [
+                                                                                        29.794444444444444,
+                                                                                        29.65552662037037
+                                                                                    ],
+                                             "contactSheet":  "lucknow-bara-imambara-20571992-1080p-motion-sheet.jpg"
+                                         },
+                      "license":  "Pexels License",
+                      "licenseUrl":  "https://www.pexels.com/license/",
+                      "commercialUsePermitted":  true,
+                      "attributionRequired":  false
+                  }
+              ],
+    "receipts":  [
+                     {
+                         "name":  "pexels-license",
+                         "url":  "https://www.pexels.com/license/",
+                         "receipt":  "pexels-license.md",
+                         "bytes":  9227
+                     },
+                     {
+                         "name":  "pexels-commercial-use",
+                         "url":  "https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project",
+                         "receipt":  "pexels-commercial-use.md",
+                         "bytes":  2960
+                     },
+                     {
+                         "name":  "taj-source",
+                         "url":  "https://www.pexels.com/video/taj-mahal-video-19705899/",
+                         "receipt":  "taj-source.md",
+                         "bytes":  4386
+                     },
+                     {
+                         "name":  "amber-source",
+                         "url":  "https://www.pexels.com/video/an-aerial-view-of-the-city-of-jaipur-18983875/",
+                         "receipt":  "amber-source.md",
+                         "bytes":  4914
+                     },
+                     {
+                         "name":  "rumi-source",
+                         "url":  "https://www.pexels.com/video/majestic-rumi-gate-in-lucknow-at-twilight-36942483/",
+                         "receipt":  "rumi-source.md",
+                         "bytes":  4408
+                     },
+                     {
+                         "name":  "bara-source",
+                         "url":  "https://www.pexels.com/video/bada-imambara-lucknow-20571992/",
+                         "receipt":  "bara-source.md",
+                         "bytes":  4488
+                     }
+                 ],
+    "verificationLimits":  "Frames sampled at0.5,3.5,6.5seconds. Contact sheets visually inspected for identity, real movement and composition. Full montage playback and final crop/loop QA are root responsibilities."
+}

@@ -2,7 +2,7 @@
 .hero-explore { background: var(--paper); border-radius: var(--radius-pill); padding: 8px 9px 8px 18px; }
 .hero-explore .round-arrow { width: 44px; height: 44px; background: var(--ink); color: var(--paper); border-color: var(--ink); flex-shrink: 0; }
 .hero-explore:hover .round-arrow, .hero-explore:focus-visible .round-arrow { background: var(--clay); color: var(--paper); border-color: var(--clay); }
-.button, .tour-primary, .save-button, .film-control, .filter-chip, .category-tabs button, .text-link, .journey-detail-link, .hero-explore { transition: background-color .2s, box-shadow .2s, color .2s, border-color .2s; }
+.button, .tour-primary, .save-button, .filter-chip, .category-tabs button, .text-link, .journey-detail-link, .hero-explore { transition: background-color .2s, box-shadow .2s, color .2s, border-color .2s; }
 .button[data-ui-active], .tour-primary[data-ui-active] { box-shadow: 0 8px 20px oklch(24% .04 155 / .16); }
 .button-clay[data-ui-active] { background: var(--clay-hover); }
 .text-link, .journey-detail-link { border-radius: var(--radius-pill); padding-inline: 12px; max-width: 100%; }
@@ -10,7 +10,6 @@
 .journeys-section .journey-detail-link[data-ui-active] { background: var(--paper); }
 .category-tabs button[data-ui-active]:not(.active) { background: var(--paper-deep); box-shadow: inset 0 0 0 1px var(--line); }
 .save-button[data-ui-active] { background: var(--ink); color: var(--paper); }
-.film-control[data-ui-active] { background: var(--paper); color: var(--ink); }
 .hero-explore[data-ui-active] { background: var(--paper-deep); box-shadow: 0 8px 24px oklch(14% .03 155 / .25); }
 .chapter-photo-note a[data-ui-active] { background: var(--ink); color: var(--paper); }
 #contact { scroll-margin-top: 110px; }
@@ -25,5 +24,5 @@
   .hero-explore .round-arrow { width: 30px; height: 30px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .button, .tour-primary, .save-button, .film-control, .filter-chip, .category-tabs button, .text-link, .journey-detail-link, .hero-explore { transition: none; }
+  .button, .tour-primary, .save-button, .filter-chip, .category-tabs button, .text-link, .journey-detail-link, .hero-explore { transition: none; }
 }

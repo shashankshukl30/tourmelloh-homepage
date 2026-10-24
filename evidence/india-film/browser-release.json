@@ -1,0 +1,1811 @@
+{
+  "base": "http://127.0.0.1:3108",
+  "started": "2026-10-24T17:04:21.929344+00:00",
+  "checks": [
+    {
+      "name": "/ at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Follow yoursense of wonder."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys/kashi-before-the-world-wakes at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Kashi, before the world wakes"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys/along-the-sacred-rivers at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Along the sacred rivers"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys/the-road-to-bodh-gaya at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "The road to Bodh Gaya"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys/awadh-agra-and-braj at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Awadh, Agra & the lanes of Braj"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/destinations/varanasi at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Varanasi.A city tofeel."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys/ayodhya-at-your-own-pace at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Ayodhya, at your own pace"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys/a-weekend-in-lucknow at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "A weekend in Lucknow"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/journeys/taj-mahal-and-the-lanes-of-braj at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "The Taj Mahal & the lanes of Braj"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/destinations/ayodhya at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Ayodhya"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/destinations/agra at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Agra"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/destinations/bodh-gaya at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Bodh Gaya"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/search at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "What draws you here?"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/blog at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "India, in the details."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/blog/first-time-in-varanasi at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "A first visit to Varanasi, at a human pace"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/blog/varanasi-prayagraj-ayodhya-route at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Varanasi, Prayagraj and Ayodhya: give each city its own time"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/blog/planning-an-ayodhya-visit at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Ayodhya, planned around the visit that matters to you"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/blog/sarnath-to-bodh-gaya at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Sarnath to Bodh Gaya: two places, different chapters"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/blog/agra-and-vrindavan at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Agra and Vrindavan, with time for both"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/blog/a-slower-visit-to-lucknow at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "A slower visit to Lucknow: architecture, craft and a proper meal"
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "/ at 320: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "body": 320,
+        "client": 320,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 320: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 22,
+              "right": 182,
+              "top": 16.5,
+              "bottom": 58.5,
+              "width": 160,
+              "height": 42
+            },
+            {
+              "name": "header-actions",
+              "left": 202,
+              "right": 298,
+              "top": 15.5,
+              "bottom": 59.5,
+              "width": 96,
+              "height": 44
+            }
+          ],
+          "actions": [
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 202,
+              "right": 246,
+              "top": 15.5,
+              "bottom": 59.5,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "menu-toggle",
+              "left": 254,
+              "right": 298,
+              "top": 15.5,
+              "bottom": 59.5,
+              "width": 44,
+              "height": 44
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "/ at 390: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "body": 390,
+        "client": 390,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 390: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 22,
+              "right": 202,
+              "top": 16.5,
+              "bottom": 58.5,
+              "width": 180,
+              "height": 42
+            },
+            {
+              "name": "header-actions",
+              "left": 272,
+              "right": 368,
+              "top": 15.5,
+              "bottom": 59.5,
+              "width": 96,
+              "height": 44
+            }
+          ],
+          "actions": [
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 272,
+              "right": 316,
+              "top": 15.5,
+              "bottom": 59.5,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "menu-toggle",
+              "left": 324,
+              "right": 368,
+              "top": 15.5,
+              "bottom": 59.5,
+              "width": 44,
+              "height": 44
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "/ at 700: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 700,
+        "body": 700,
+        "client": 700,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 700: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 35,
+              "right": 215,
+              "top": 13.5,
+              "bottom": 61.5,
+              "width": 180,
+              "height": 48
+            },
+            {
+              "name": "header-actions",
+              "left": 349.875,
+              "right": 665,
+              "top": 14.296875,
+              "bottom": 60.6875,
+              "width": 315.125,
+              "height": 46.390625
+            }
+          ],
+          "actions": [
+            {
+              "name": "nav-search",
+              "left": 349.875,
+              "right": 393.875,
+              "top": 15.484375,
+              "bottom": 59.484375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 405.875,
+              "right": 449.875,
+              "top": 15.484375,
+              "bottom": 59.484375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "header-cta",
+              "left": 461.875,
+              "right": 609,
+              "top": 14.296875,
+              "bottom": 60.6875,
+              "width": 147.125,
+              "height": 46.390625
+            },
+            {
+              "name": "menu-toggle",
+              "left": 621,
+              "right": 665,
+              "top": 15.484375,
+              "bottom": 59.484375,
+              "width": 44,
+              "height": 44
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "/ at 701: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 701,
+        "body": 701,
+        "client": 701,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 701: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 35.046875,
+              "right": 215.046875,
+              "top": 13.5,
+              "bottom": 61.5,
+              "width": 180,
+              "height": 48
+            },
+            {
+              "name": "header-actions",
+              "left": 296.140625,
+              "right": 665.9375,
+              "top": 14.296875,
+              "bottom": 60.6875,
+              "width": 369.796875,
+              "height": 46.390625
+            }
+          ],
+          "actions": [
+            {
+              "name": "nav-search",
+              "left": 296.140625,
+              "right": 340.140625,
+              "top": 15.484375,
+              "bottom": 59.484375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 352.140625,
+              "right": 396.140625,
+              "top": 15.484375,
+              "bottom": 59.484375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "header-cta",
+              "left": 408.140625,
+              "right": 609.9375,
+              "top": 14.296875,
+              "bottom": 60.6875,
+              "width": 201.796875,
+              "height": 46.390625
+            },
+            {
+              "name": "menu-toggle",
+              "left": 621.9375,
+              "right": 665.9375,
+              "top": 15.484375,
+              "bottom": 59.484375,
+              "width": 44,
+              "height": 44
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "/ at 1240: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 1240,
+        "body": 1240,
+        "client": 1240,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 1240: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 62,
+              "right": 227,
+              "top": 24,
+              "bottom": 72,
+              "width": 165,
+              "height": 48
+            },
+            {
+              "name": "desktop-nav",
+              "left": 347.015625,
+              "right": 825.859375,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 478.84375,
+              "height": 46.390625
+            },
+            {
+              "name": "header-actions",
+              "left": 945.875,
+              "right": 1178,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 232.125,
+              "height": 46.390625
+            }
+          ],
+          "actions": [
+            {
+              "name": "nav-search",
+              "left": 945.875,
+              "right": 989.875,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 997.875,
+              "right": 1041.875,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "header-cta",
+              "left": 1049.875,
+              "right": 1178,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 128.125,
+              "height": 46.390625
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "/ at 1280: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 1280,
+        "body": 1280,
+        "client": 1280,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 1280: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 64,
+              "right": 229,
+              "top": 24,
+              "bottom": 72,
+              "width": 165,
+              "height": 48
+            },
+            {
+              "name": "desktop-nav",
+              "left": 367.015625,
+              "right": 845.859375,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 478.84375,
+              "height": 46.390625
+            },
+            {
+              "name": "header-actions",
+              "left": 983.875,
+              "right": 1216,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 232.125,
+              "height": 46.390625
+            }
+          ],
+          "actions": [
+            {
+              "name": "nav-search",
+              "left": 983.875,
+              "right": 1027.875,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 1035.875,
+              "right": 1079.875,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "header-cta",
+              "left": 1087.875,
+              "right": 1216,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 128.125,
+              "height": 46.390625
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "/ at 1440: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "body": 1440,
+        "client": 1440,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 1440: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 72,
+              "right": 277,
+              "top": 24,
+              "bottom": 72,
+              "width": 205,
+              "height": 48
+            },
+            {
+              "name": "desktop-nav",
+              "left": 407.1875,
+              "right": 924.03125,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 516.84375,
+              "height": 46.390625
+            },
+            {
+              "name": "header-actions",
+              "left": 1054.203125,
+              "right": 1368,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 313.796875,
+              "height": 46.390625
+            }
+          ],
+          "actions": [
+            {
+              "name": "nav-search",
+              "left": 1054.203125,
+              "right": 1098.203125,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 1110.203125,
+              "right": 1154.203125,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "header-cta",
+              "left": 1166.203125,
+              "right": 1368,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 201.796875,
+              "height": 46.390625
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "/ at 1920: 200, one h1, no overflow",
+      "passed": true,
+      "detail": {
+        "width": 1920,
+        "body": 1920,
+        "client": 1920,
+        "h1": [
+          "Begin in Kashi. Go a little further."
+        ],
+        "main": true,
+        "controls": []
+      }
+    },
+    {
+      "name": "Header 1920: grouped controls do not overlap",
+      "passed": true,
+      "detail": {
+        "boxes": {
+          "groups": [
+            {
+              "name": "brand",
+              "left": 230,
+              "right": 435,
+              "top": 24,
+              "bottom": 72,
+              "width": 205,
+              "height": 48
+            },
+            {
+              "name": "desktop-nav",
+              "left": 647.1875,
+              "right": 1164.03125,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 516.84375,
+              "height": 46.390625
+            },
+            {
+              "name": "header-actions",
+              "left": 1376.203125,
+              "right": 1690,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 313.796875,
+              "height": 46.390625
+            }
+          ],
+          "actions": [
+            {
+              "name": "nav-search",
+              "left": 1376.203125,
+              "right": 1420.203125,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "button whatsapp-link whatsapp-header",
+              "left": 1432.203125,
+              "right": 1476.203125,
+              "top": 25.984375,
+              "bottom": 69.984375,
+              "width": 44,
+              "height": 44
+            },
+            {
+              "name": "header-cta",
+              "left": 1488.203125,
+              "right": 1690,
+              "top": 24.796875,
+              "bottom": 71.1875,
+              "width": 201.796875,
+              "height": 46.390625
+            }
+          ]
+        },
+        "failures": []
+      }
+    },
+    {
+      "name": "Chrome 390: reduced motion requests no film and keeps poster still",
+      "passed": true,
+      "detail": {
+        "requests": [],
+        "state": {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "width": 0,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        }
+      }
+    },
+    {
+      "name": "Chrome 390: play/pause controls absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Chrome 390: enabling motion autoplays correct film",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": false,
+        "time": 0.117,
+        "width": 720,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 390: correct derivative is the only requested film",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:3108/videos/india-mobile.mp4"
+      ]
+    },
+    {
+      "name": "Chrome 390: changing preference pauses video",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": true,
+        "time": 0.4186,
+        "width": 720,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 390: fresh normal-motion visit autoplays",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": false,
+        "time": 4.8151,
+        "width": 720,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 390: frame 0s has Varanasi label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": true,
+          "time": 0,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "On the Ganga\nVaranasi, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 390: frame 8s has Agra label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": true,
+          "time": 8,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "The Taj Mahal\nAgra, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 390: Agra frame is decoded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Chrome 390: frame 14s has Lucknow label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": true,
+          "time": 14,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "Rumi Darwaza\nLucknow, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 390: frame 20s has Jaipur label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": true,
+          "time": 20,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "Amber Fort\nJaipur, Rajasthan"
+      }
+    },
+    {
+      "name": "Chrome 390: Jaipur frame is decoded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Chrome 390: frame 23.8s has Varanasi label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": true,
+          "time": 23.8,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "On the Ganga\nVaranasi, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 390: real playback loops back to Varanasi",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": false,
+          "time": 0.1319,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "On the Ganga\nVaranasi, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 1440: reduced motion requests no film and keeps poster still",
+      "passed": true,
+      "detail": {
+        "requests": [],
+        "state": {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "width": 0,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        }
+      }
+    },
+    {
+      "name": "Chrome 1440: play/pause controls absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Chrome 1440: enabling motion autoplays correct film",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": false,
+        "time": 0.1199,
+        "width": 1920,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 1440: correct derivative is the only requested film",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:3108/videos/india-desktop.mp4"
+      ]
+    },
+    {
+      "name": "Chrome 1440: changing preference pauses video",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": true,
+        "time": 0.5591,
+        "width": 1920,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 1440: fresh normal-motion visit autoplays",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": false,
+        "time": 15.3476,
+        "width": 1920,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 1440: frame 0s has Varanasi label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": true,
+          "time": 0,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "On the Ganga\nVaranasi, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 1440: frame 8s has Agra label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": true,
+          "time": 8,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "The Taj Mahal\nAgra, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 1440: Agra frame is decoded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Chrome 1440: frame 14s has Lucknow label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": true,
+          "time": 14,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "Rumi Darwaza\nLucknow, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 1440: frame 20s has Jaipur label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": true,
+          "time": 20,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "Amber Fort\nJaipur, Rajasthan"
+      }
+    },
+    {
+      "name": "Chrome 1440: Jaipur frame is decoded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Chrome 1440: frame 23.8s has Varanasi label",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": true,
+          "time": 23.8,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "On the Ganga\nVaranasi, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "Chrome 1440: real playback loops back to Varanasi",
+      "passed": true,
+      "detail": {
+        "frame": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": false,
+          "time": 0.1291,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "label": "On the Ganga\nVaranasi, Uttar Pradesh"
+      }
+    },
+    {
+      "name": "WebKit 390: reduced motion selects no film and keeps poster still",
+      "passed": true,
+      "detail": {
+        "requests": [],
+        "state": {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "width": 0,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "networkTelemetry": "Native request events unavailable in Windows WebKit; no selected source and paused state are directly verified."
+      }
+    },
+    {
+      "name": "WebKit 390: play/pause controls absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WebKit 390: enabling motion autoplays correct film",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": false,
+        "time": 0.1333986,
+        "width": 458,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "WebKit 390: correct derivative plays with no observed wrong film requests",
+      "passed": true,
+      "detail": {
+        "requests": [],
+        "state": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": false,
+          "time": 0.1333986,
+          "width": 458,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "networkTelemetry": "Windows WebKit emitted no native media request events. Actual selected source, advancing playback, and nonzero browser-reported video dimensions were verified. Browser-reported width is not assumed to equal encoded pixel width."
+      }
+    },
+    {
+      "name": "WebKit 390: changing preference pauses video",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": true,
+        "time": 0.1333986,
+        "width": 458,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "WebKit 390: fresh normal-motion visit autoplays",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": false,
+        "time": 0.2725884,
+        "width": 458,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "WebKit 1440: reduced motion selects no film and keeps poster still",
+      "passed": true,
+      "detail": {
+        "requests": [],
+        "state": {
+          "source": "",
+          "paused": true,
+          "time": 0,
+          "width": 0,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "networkTelemetry": "Native request events unavailable in Windows WebKit; no selected source and paused state are directly verified."
+      }
+    },
+    {
+      "name": "WebKit 1440: play/pause controls absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WebKit 1440: enabling motion autoplays correct film",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": false,
+        "time": 0.1206014,
+        "width": 1408,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "WebKit 1440: correct derivative plays with no observed wrong film requests",
+      "passed": true,
+      "detail": {
+        "requests": [],
+        "state": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": false,
+          "time": 0.1206014,
+          "width": 1408,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "networkTelemetry": "Windows WebKit emitted no native media request events. Actual selected source, advancing playback, and nonzero browser-reported video dimensions were verified. Browser-reported width is not assumed to equal encoded pixel width."
+      }
+    },
+    {
+      "name": "WebKit 1440: changing preference pauses video",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": true,
+        "time": 0.1206014,
+        "width": 1408,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "WebKit 1440: fresh normal-motion visit autoplays",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": false,
+        "time": 0.4201425,
+        "width": 1408,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    }
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Follow yoursense of wonder."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Kashi, before the world wakes"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Along the sacred rivers"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "The road to Bodh Gaya"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/destinations/varanasi",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Varanasi.A city tofeel."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys/ayodhya-at-your-own-pace",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Ayodhya, at your own pace"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys/a-weekend-in-lucknow",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "A weekend in Lucknow"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/journeys/taj-mahal-and-the-lanes-of-braj",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "The Taj Mahal & the lanes of Braj"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/destinations/ayodhya",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Ayodhya"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/destinations/agra",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Agra"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/destinations/bodh-gaya",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Bodh Gaya"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/search",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "What draws you here?"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/blog",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "India, in the details."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/blog/first-time-in-varanasi",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "A first visit to Varanasi, at a human pace"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/blog/varanasi-prayagraj-ayodhya-route",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Varanasi, Prayagraj and Ayodhya: give each city its own time"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/blog/planning-an-ayodhya-visit",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Ayodhya, planned around the visit that matters to you"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/blog/sarnath-to-bodh-gaya",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Sarnath to Bodh Gaya: two places, different chapters"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/blog/agra-and-vrindavan",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Agra and Vrindavan, with time for both"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/blog/a-slower-visit-to-lucknow",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "A slower visit to Lucknow: architecture, craft and a proper meal"
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 320,
+      "body": 320,
+      "client": 320,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 700,
+      "body": 700,
+      "client": 700,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 701,
+      "body": 701,
+      "client": 701,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 1240,
+      "body": 1240,
+      "client": 1240,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 1280,
+      "body": 1280,
+      "client": 1280,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 1920,
+      "body": 1920,
+      "client": 1920,
+      "h1": [
+        "Begin in Kashi. Go a little further."
+      ],
+      "main": true,
+      "controls": []
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "summary": {
+    "passed": 77,
+    "failed": 0,
+    "pages": 29,
+    "runtimeErrors": 0,
+    "consoleErrors": 0
+  },
+  "harnessCorrection": {
+    "at": "2026-10-24T17:06:09.614288+00:00",
+    "originalReport": ".vercel\\india-film-release-initial.json",
+    "corrections": [
+      {
+        "check": "WebKit 390: correct derivative decodes with no observed wrong film requests",
+        "reason": "Removed the unsupported assumption that Windows WebKit emits Playwright request events for native video. Re-evaluated the existing actual source/dimension samples, not a new browser run. Original failed report preserved."
+      },
+      {
+        "check": "WebKit 1440: correct derivative decodes with no observed wrong film requests",
+        "reason": "Removed the unsupported assumption that Windows WebKit emits Playwright request events for native video. Re-evaluated the existing actual source/dimension samples, not a new browser run. Original failed report preserved."
+      }
+    ],
+    "additionalNote": "The source/dimension criterion uses nonzero browser-reported video width, not hardcoded encoded width: Windows WebKit reported 458 mobile and 1408 desktop while Chrome reported 720 and 1920. No application behavior was changed; existing runtime samples were re-evaluated. Chrome independently verified exact derivative requests and decoded dimensions."
+  },
+  "buildId": "vucVTjBdUmEXIHAqXwYCC",
+  "visualReview": {
+    "reviewed": true,
+    "files": [
+      ".vercel/india-film-390-agra-8s.png",
+      ".vercel/india-film-390-jaipur-20s.png",
+      ".vercel/india-film-1440-agra-8s.png",
+      ".vercel/india-film-1440-jaipur-20s.png"
+    ],
+    "finding": "All four actual Chrome viewport captures reviewed. Correct location/frame pairs, readable hero copy, grouped header controls, no visible clipping or overlap."
+  },
+  "cleanup": {
+    "freeBytesBefore": {
+      "C": 75368345600,
+      "D": 36424019968
+    },
+    "freeBytesAfter": {
+      "C": 75022184448,
+      "D": 36243746816
+    },
+    "removed": [],
+    "reason": "No disposable task-owned scratch files identified. Scripts, initial diagnostic report, final evidence and requested screenshots retained. Browser contexts closed."
+  }
+}

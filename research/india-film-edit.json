@@ -1,0 +1,52 @@
+{
+  "project": "Tourmelloh multi-destination homepage film",
+  "engine": "Existing FFmpeg CPU edit pipeline, one encode at a time through shared renderlock.py",
+  "promptStudy": [
+    { "slug": "jake11moran-414633", "applied": "Calm continuous motion and gentle transitions; no copied composition or text." },
+    { "slug": "thismacapital-dfba20", "applied": "Reviewed travel promo reference; retained real destinations instead of graphic showreel treatments." }
+  ],
+  "durationSeconds": 24,
+  "dissolveSeconds": 1,
+  "fps": 24,
+  "audio": "Silent decorative website background",
+  "loop": "The opening scene starts one second into its source. The final second dissolves into its preceding source second; replay advances continuously into the opening frame.",
+  "scenes": [
+    {
+      "place": "Varanasi",
+      "landmark": "Ganga riverfront",
+      "source": "research/media/hero-film/36631860-original.mp4",
+      "start": 0,
+      "duration": 7,
+      "desktopFocus": [0.5, 0.5],
+      "mobileFocus": [0.77, 0.5]
+    },
+    {
+      "place": "Agra",
+      "landmark": "Taj Mahal",
+      "source": "research/media/india-montage/agra-taj-mahal-19705899-4k.mp4",
+      "start": 0,
+      "duration": 7,
+      "desktopFocus": [0.5, 0.5],
+      "mobileFocus": [0.5, 0.5]
+    },
+    {
+      "place": "Lucknow",
+      "landmark": "Rumi Darwaza",
+      "source": "research/media/india-montage/lucknow-rumi-gate-36942483-1440p.mp4",
+      "start": 0.05,
+      "sourceDuration": 6.666667,
+      "duration": 7,
+      "desktopFocus": [0.5, 0.5],
+      "mobileFocus": [0.57, 0.5]
+    },
+    {
+      "place": "Jaipur",
+      "landmark": "Amber Fort",
+      "source": "research/media/india-montage/jaipur-amber-fort-18983875-4k.mp4",
+      "start": 2,
+      "duration": 7,
+      "desktopFocus": [0.5, 0.5],
+      "mobileFocus": [0.7, 0.5]
+    }
+  ]
+}

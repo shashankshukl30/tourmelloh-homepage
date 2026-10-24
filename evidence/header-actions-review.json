@@ -1,0 +1,6943 @@
+{
+  "base": "http://127.0.0.1:3108",
+  "startedAt": "2026-10-24T16:59:34.532190+00:00",
+  "scope": "Header actions, responsive navigation and WhatsApp only. Film controls excluded.",
+  "browsers": {
+    "Chrome": "156.0.8078.47",
+    "WebKit": "26.0"
+  },
+  "layouts": [
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "height": 844,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 320,
+        "clientWidth": 320,
+        "documentWidth": 320,
+        "inner": {
+          "name": "header-inner",
+          "x": 22,
+          "y": 0,
+          "width": 276,
+          "height": 75,
+          "right": 298,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 202,
+          "y": 15.5,
+          "width": 96,
+          "height": 44,
+          "right": 298,
+          "bottom": 59.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 22,
+            "y": 16.5,
+            "width": 160,
+            "height": 42,
+            "right": 182,
+            "bottom": 58.5
+          },
+          {
+            "name": "header-actions",
+            "x": 202,
+            "y": 15.5,
+            "width": 96,
+            "height": 44,
+            "right": 298,
+            "bottom": 59.5
+          }
+        ],
+        "children": [
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 202,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 246,
+            "bottom": 59.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 254,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 298,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 248,
+            "y": 772,
+            "width": 56,
+            "height": 56,
+            "right": 304,
+            "bottom": 828
+          },
+          "icon": {
+            "name": {},
+            "x": 262,
+            "y": 786,
+            "width": 28,
+            "height": 28,
+            "right": 290,
+            "bottom": 814
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "height": 844,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 390,
+        "clientWidth": 390,
+        "documentWidth": 390,
+        "inner": {
+          "name": "header-inner",
+          "x": 22,
+          "y": 0,
+          "width": 346,
+          "height": 75,
+          "right": 368,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 272,
+          "y": 15.5,
+          "width": 96,
+          "height": 44,
+          "right": 368,
+          "bottom": 59.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 22,
+            "y": 16.5,
+            "width": 180,
+            "height": 42,
+            "right": 202,
+            "bottom": 58.5
+          },
+          {
+            "name": "header-actions",
+            "x": 272,
+            "y": 15.5,
+            "width": 96,
+            "height": 44,
+            "right": 368,
+            "bottom": 59.5
+          }
+        ],
+        "children": [
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 272,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 316,
+            "bottom": 59.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 324,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 368,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 318,
+            "y": 772,
+            "width": 56,
+            "height": 56,
+            "right": 374,
+            "bottom": 828
+          },
+          "icon": {
+            "name": {},
+            "x": 332,
+            "y": 786,
+            "width": 28,
+            "height": 28,
+            "right": 360,
+            "bottom": 814
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "height": 844,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 600,
+        "clientWidth": 600,
+        "documentWidth": 600,
+        "inner": {
+          "name": "header-inner",
+          "x": 22,
+          "y": 0,
+          "width": 556,
+          "height": 75,
+          "right": 578,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 482,
+          "y": 15.5,
+          "width": 96,
+          "height": 44,
+          "right": 578,
+          "bottom": 59.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 22,
+            "y": 16.5,
+            "width": 180,
+            "height": 42,
+            "right": 202,
+            "bottom": 58.5
+          },
+          {
+            "name": "header-actions",
+            "x": 482,
+            "y": 15.5,
+            "width": 96,
+            "height": 44,
+            "right": 578,
+            "bottom": 59.5
+          }
+        ],
+        "children": [
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 482,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 526,
+            "bottom": 59.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 534,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 578,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 528,
+            "y": 772,
+            "width": 56,
+            "height": 56,
+            "right": 584,
+            "bottom": 828
+          },
+          "icon": {
+            "name": {},
+            "x": 542,
+            "y": 786,
+            "width": 28,
+            "height": 28,
+            "right": 570,
+            "bottom": 814
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 601,
+        "clientWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "name": "header-inner",
+          "x": 30.046875,
+          "y": 0,
+          "width": 540.890625,
+          "height": 75,
+          "right": 570.9375,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 222.046875,
+          "y": 14.296875,
+          "width": 369.796875,
+          "height": 46.390625,
+          "right": 591.84375,
+          "bottom": 60.6875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 30.046875,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 210.046875,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 222.046875,
+            "y": 14.296875,
+            "width": 369.796875,
+            "height": 46.390625,
+            "right": 591.84375,
+            "bottom": 60.6875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 222.046875,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 266.046875,
+            "bottom": 59.484375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 278.046875,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 322.046875,
+            "bottom": 59.484375
+          },
+          {
+            "name": "header-cta",
+            "x": 334.046875,
+            "y": 14.296875,
+            "width": 201.796875,
+            "height": 46.390625,
+            "right": 535.84375,
+            "bottom": 60.6875
+          },
+          {
+            "name": "menu-toggle",
+            "x": 547.84375,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 591.84375,
+            "bottom": 59.484375
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 529,
+            "y": 828,
+            "width": 56,
+            "height": 56,
+            "right": 585,
+            "bottom": 884
+          },
+          "icon": {
+            "name": {},
+            "x": 543,
+            "y": 842,
+            "width": 28,
+            "height": 28,
+            "right": 571,
+            "bottom": 870
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "priorBuildGeometry": {
+        "bodyWidth": 601,
+        "clientWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "name": "header-inner",
+          "x": 30.046875,
+          "y": 0,
+          "width": 540.890625,
+          "height": 75,
+          "right": 570.9375,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 222.046875,
+          "y": 14.296875,
+          "width": 369.796875,
+          "height": 46.390625,
+          "right": 591.84375,
+          "bottom": 60.6875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 30.046875,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 210.046875,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 222.046875,
+            "y": 14.296875,
+            "width": 369.796875,
+            "height": 46.390625,
+            "right": 591.84375,
+            "bottom": 60.6875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 222.046875,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 266.046875,
+            "bottom": 59.484375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 278.046875,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 322.046875,
+            "bottom": 59.484375
+          },
+          {
+            "name": "header-cta",
+            "x": 334.046875,
+            "y": 14.296875,
+            "width": 201.796875,
+            "height": 46.390625,
+            "right": 535.84375,
+            "bottom": 60.6875
+          },
+          {
+            "name": "menu-toggle",
+            "x": 547.84375,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 591.84375,
+            "bottom": 59.484375
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 529,
+            "y": 828,
+            "width": 56,
+            "height": 56,
+            "right": 585,
+            "bottom": 884
+          },
+          "icon": {
+            "name": {},
+            "x": 543,
+            "y": 842,
+            "width": 28,
+            "height": 28,
+            "right": 571,
+            "bottom": 870
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "finalBuildGeometry": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      },
+      "finalBuildRecheck": {
+        "browser": "Chrome",
+        "width": 601,
+        "geometry": {
+          "bodyWidth": 601,
+          "documentWidth": 601,
+          "inner": {
+            "x": 30.046875,
+            "right": 570.9375,
+            "width": 540.890625,
+            "height": 75
+          },
+          "actions": {
+            "x": 255.8125,
+            "right": 570.9375,
+            "width": 315.125,
+            "height": 46.390625
+          },
+          "brand": {
+            "x": 30.046875,
+            "right": 210.046875,
+            "width": 180,
+            "height": 48
+          },
+          "gaps": [
+            12,
+            12,
+            12
+          ],
+          "fullLabel": "none",
+          "shortLabel": "inline",
+          "cta": {
+            "x": 367.8125,
+            "right": 514.9375,
+            "width": 147.125,
+            "height": 46.390625
+          }
+        },
+        "checks": {
+          "rightAlignment": true,
+          "gap12": true,
+          "noOverflowOrOverlap": true
+        },
+        "pageErrors": [],
+        "passed": true
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 768,
+        "clientWidth": 768,
+        "documentWidth": 768,
+        "inner": {
+          "name": "header-inner",
+          "x": 38.40625,
+          "y": 0,
+          "width": 691.1875,
+          "height": 75,
+          "right": 729.59375,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 359.796875,
+          "y": 14.296875,
+          "width": 369.796875,
+          "height": 46.390625,
+          "right": 729.59375,
+          "bottom": 60.6875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 38.40625,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 218.40625,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 359.796875,
+            "y": 14.296875,
+            "width": 369.796875,
+            "height": 46.390625,
+            "right": 729.59375,
+            "bottom": 60.6875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 359.796875,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 403.796875,
+            "bottom": 59.484375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 415.796875,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 459.796875,
+            "bottom": 59.484375
+          },
+          {
+            "name": "header-cta",
+            "x": 471.796875,
+            "y": 14.296875,
+            "width": 201.796875,
+            "height": 46.390625,
+            "right": 673.59375,
+            "bottom": 60.6875
+          },
+          {
+            "name": "menu-toggle",
+            "x": 685.59375,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 729.59375,
+            "bottom": 59.484375
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 688,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 744,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 702,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 730,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1000,
+        "clientWidth": 1000,
+        "documentWidth": 1000,
+        "inner": {
+          "name": "header-inner",
+          "x": 50,
+          "y": 0,
+          "width": 900,
+          "height": 75,
+          "right": 950,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 580.203125,
+          "y": 14.296875,
+          "width": 369.796875,
+          "height": 46.390625,
+          "right": 950,
+          "bottom": 60.6875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 50,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 230,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 580.203125,
+            "y": 14.296875,
+            "width": 369.796875,
+            "height": 46.390625,
+            "right": 950,
+            "bottom": 60.6875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 580.203125,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 624.203125,
+            "bottom": 59.484375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 636.203125,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 680.203125,
+            "bottom": 59.484375
+          },
+          {
+            "name": "header-cta",
+            "x": 692.203125,
+            "y": 14.296875,
+            "width": 201.796875,
+            "height": 46.390625,
+            "right": 894,
+            "bottom": 60.6875
+          },
+          {
+            "name": "menu-toggle",
+            "x": 906,
+            "y": 15.484375,
+            "width": 44,
+            "height": 44,
+            "right": 950,
+            "bottom": 59.484375
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 920,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 976,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 934,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 962,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1001,
+        "clientWidth": 1001,
+        "documentWidth": 1001,
+        "inner": {
+          "name": "header-inner",
+          "x": 50.046875,
+          "y": 0,
+          "width": 900.890625,
+          "height": 96,
+          "right": 950.9375,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 718.8125,
+          "y": 24.796875,
+          "width": 232.125,
+          "height": 46.390625,
+          "right": 950.9375,
+          "bottom": 71.1875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 50.046875,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 215.046875,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 227.515625,
+            "y": 24.796875,
+            "width": 478.84375,
+            "height": 46.390625,
+            "right": 706.359375,
+            "bottom": 71.1875
+          },
+          {
+            "name": "header-actions",
+            "x": 718.8125,
+            "y": 24.796875,
+            "width": 232.125,
+            "height": 46.390625,
+            "right": 950.9375,
+            "bottom": 71.1875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 718.8125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 762.8125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 770.8125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 814.8125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "header-cta",
+            "x": 822.8125,
+            "y": 24.796875,
+            "width": 128.125,
+            "height": 46.390625,
+            "right": 950.9375,
+            "bottom": 71.1875
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 921,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 977,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 935,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 963,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1151,
+        "clientWidth": 1151,
+        "documentWidth": 1151,
+        "inner": {
+          "name": "header-inner",
+          "x": 57.546875,
+          "y": 0,
+          "width": 1035.890625,
+          "height": 96,
+          "right": 1093.4375,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 861.3125,
+          "y": 24.796875,
+          "width": 232.125,
+          "height": 46.390625,
+          "right": 1093.4375,
+          "bottom": 71.1875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 57.546875,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 222.546875,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 302.515625,
+            "y": 24.796875,
+            "width": 478.84375,
+            "height": 46.390625,
+            "right": 781.359375,
+            "bottom": 71.1875
+          },
+          {
+            "name": "header-actions",
+            "x": 861.3125,
+            "y": 24.796875,
+            "width": 232.125,
+            "height": 46.390625,
+            "right": 1093.4375,
+            "bottom": 71.1875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 861.3125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 905.3125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 913.3125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 957.3125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "header-cta",
+            "x": 965.3125,
+            "y": 24.796875,
+            "width": 128.125,
+            "height": 46.390625,
+            "right": 1093.4375,
+            "bottom": 71.1875
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1071,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1127,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1085,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1113,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1240,
+        "clientWidth": 1240,
+        "documentWidth": 1240,
+        "inner": {
+          "name": "header-inner",
+          "x": 62,
+          "y": 0,
+          "width": 1116,
+          "height": 96,
+          "right": 1178,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 945.875,
+          "y": 24.796875,
+          "width": 232.125,
+          "height": 46.390625,
+          "right": 1178,
+          "bottom": 71.1875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 62,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 227,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 347.015625,
+            "y": 24.796875,
+            "width": 478.84375,
+            "height": 46.390625,
+            "right": 825.859375,
+            "bottom": 71.1875
+          },
+          {
+            "name": "header-actions",
+            "x": 945.875,
+            "y": 24.796875,
+            "width": 232.125,
+            "height": 46.390625,
+            "right": 1178,
+            "bottom": 71.1875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 945.875,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 989.875,
+            "bottom": 69.984375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 997.875,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1041.875,
+            "bottom": 69.984375
+          },
+          {
+            "name": "header-cta",
+            "x": 1049.875,
+            "y": 24.796875,
+            "width": 128.125,
+            "height": 46.390625,
+            "right": 1178,
+            "bottom": 71.1875
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1160,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1216,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1174,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1202,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1280,
+        "clientWidth": 1280,
+        "documentWidth": 1280,
+        "inner": {
+          "name": "header-inner",
+          "x": 64,
+          "y": 0,
+          "width": 1152,
+          "height": 96,
+          "right": 1216,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 983.875,
+          "y": 24.796875,
+          "width": 232.125,
+          "height": 46.390625,
+          "right": 1216,
+          "bottom": 71.1875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 64,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 229,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 367.015625,
+            "y": 24.796875,
+            "width": 478.84375,
+            "height": 46.390625,
+            "right": 845.859375,
+            "bottom": 71.1875
+          },
+          {
+            "name": "header-actions",
+            "x": 983.875,
+            "y": 24.796875,
+            "width": 232.125,
+            "height": 46.390625,
+            "right": 1216,
+            "bottom": 71.1875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 983.875,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1027.875,
+            "bottom": 69.984375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 1035.875,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1079.875,
+            "bottom": 69.984375
+          },
+          {
+            "name": "header-cta",
+            "x": 1087.875,
+            "y": 24.796875,
+            "width": 128.125,
+            "height": 46.390625,
+            "right": 1216,
+            "bottom": 71.1875
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1200,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1256,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1214,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1242,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1281,
+        "clientWidth": 1281,
+        "documentWidth": 1281,
+        "inner": {
+          "name": "header-inner",
+          "x": 64.046875,
+          "y": 0,
+          "width": 1152.890625,
+          "height": 96,
+          "right": 1216.9375,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 903.140625,
+          "y": 24.796875,
+          "width": 313.796875,
+          "height": 46.390625,
+          "right": 1216.9375,
+          "bottom": 71.1875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 64.046875,
+            "y": 24,
+            "width": 205,
+            "height": 48,
+            "right": 269.046875,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 327.671875,
+            "y": 24.796875,
+            "width": 516.84375,
+            "height": 46.390625,
+            "right": 844.515625,
+            "bottom": 71.1875
+          },
+          {
+            "name": "header-actions",
+            "x": 903.140625,
+            "y": 24.796875,
+            "width": 313.796875,
+            "height": 46.390625,
+            "right": 1216.9375,
+            "bottom": 71.1875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 903.140625,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 947.140625,
+            "bottom": 69.984375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 959.140625,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1003.140625,
+            "bottom": 69.984375
+          },
+          {
+            "name": "header-cta",
+            "x": 1015.140625,
+            "y": 24.796875,
+            "width": 201.796875,
+            "height": 46.390625,
+            "right": 1216.9375,
+            "bottom": 71.1875
+          }
+        ],
+        "gaps": [
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1201,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1257,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1215,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1243,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1440,
+        "clientWidth": 1440,
+        "documentWidth": 1440,
+        "inner": {
+          "name": "header-inner",
+          "x": 72,
+          "y": 0,
+          "width": 1296,
+          "height": 96,
+          "right": 1368,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 1054.203125,
+          "y": 24.796875,
+          "width": 313.796875,
+          "height": 46.390625,
+          "right": 1368,
+          "bottom": 71.1875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 72,
+            "y": 24,
+            "width": 205,
+            "height": 48,
+            "right": 277,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 407.1875,
+            "y": 24.796875,
+            "width": 516.84375,
+            "height": 46.390625,
+            "right": 924.03125,
+            "bottom": 71.1875
+          },
+          {
+            "name": "header-actions",
+            "x": 1054.203125,
+            "y": 24.796875,
+            "width": 313.796875,
+            "height": 46.390625,
+            "right": 1368,
+            "bottom": 71.1875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 1054.203125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1098.203125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 1110.203125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1154.203125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "header-cta",
+            "x": 1166.203125,
+            "y": 24.796875,
+            "width": 201.796875,
+            "height": 46.390625,
+            "right": 1368,
+            "bottom": 71.1875
+          }
+        ],
+        "gaps": [
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1360,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1416,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1374,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1402,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1920,
+        "clientWidth": 1920,
+        "documentWidth": 1920,
+        "inner": {
+          "name": "header-inner",
+          "x": 230,
+          "y": 0,
+          "width": 1460,
+          "height": 96,
+          "right": 1690,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 1376.203125,
+          "y": 24.796875,
+          "width": 313.796875,
+          "height": 46.390625,
+          "right": 1690,
+          "bottom": 71.1875
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 230,
+            "y": 24,
+            "width": 205,
+            "height": 48,
+            "right": 435,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 647.1875,
+            "y": 24.796875,
+            "width": 516.84375,
+            "height": 46.390625,
+            "right": 1164.03125,
+            "bottom": 71.1875
+          },
+          {
+            "name": "header-actions",
+            "x": 1376.203125,
+            "y": 24.796875,
+            "width": 313.796875,
+            "height": 46.390625,
+            "right": 1690,
+            "bottom": 71.1875
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 1376.203125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1420.203125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 1432.203125,
+            "y": 25.984375,
+            "width": 44,
+            "height": 44,
+            "right": 1476.203125,
+            "bottom": 69.984375
+          },
+          {
+            "name": "header-cta",
+            "x": 1488.203125,
+            "y": 24.796875,
+            "width": 201.796875,
+            "height": 46.390625,
+            "right": 1690,
+            "bottom": 71.1875
+          }
+        ],
+        "gaps": [
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1840,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1896,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1854,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1882,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.5714 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "height": 844,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 320,
+        "clientWidth": 320,
+        "documentWidth": 320,
+        "inner": {
+          "name": "header-inner",
+          "x": 22,
+          "y": 0,
+          "width": 276,
+          "height": 75,
+          "right": 298,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 202,
+          "y": 15.5,
+          "width": 96,
+          "height": 44,
+          "right": 298,
+          "bottom": 59.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 22,
+            "y": 16.5,
+            "width": 160,
+            "height": 42,
+            "right": 182,
+            "bottom": 58.5
+          },
+          {
+            "name": "header-actions",
+            "x": 202,
+            "y": 15.5,
+            "width": 96,
+            "height": 44,
+            "right": 298,
+            "bottom": 59.5
+          }
+        ],
+        "children": [
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 202,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 246,
+            "bottom": 59.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 254,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 298,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 248,
+            "y": 772,
+            "width": 56,
+            "height": 56,
+            "right": 304,
+            "bottom": 828
+          },
+          "icon": {
+            "name": {},
+            "x": 262,
+            "y": 786,
+            "width": 28,
+            "height": 28,
+            "right": 290,
+            "bottom": 814
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "height": 844,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 390,
+        "clientWidth": 390,
+        "documentWidth": 390,
+        "inner": {
+          "name": "header-inner",
+          "x": 22,
+          "y": 0,
+          "width": 346,
+          "height": 75,
+          "right": 368,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 272,
+          "y": 15.5,
+          "width": 96,
+          "height": 44,
+          "right": 368,
+          "bottom": 59.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 22,
+            "y": 16.5,
+            "width": 180,
+            "height": 42,
+            "right": 202,
+            "bottom": 58.5
+          },
+          {
+            "name": "header-actions",
+            "x": 272,
+            "y": 15.5,
+            "width": 96,
+            "height": 44,
+            "right": 368,
+            "bottom": 59.5
+          }
+        ],
+        "children": [
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 272,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 316,
+            "bottom": 59.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 324,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 368,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 318,
+            "y": 772,
+            "width": 56,
+            "height": 56,
+            "right": 374,
+            "bottom": 828
+          },
+          "icon": {
+            "name": {},
+            "x": 332,
+            "y": 786,
+            "width": 28,
+            "height": 28,
+            "right": 360,
+            "bottom": 814
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "originalPageErrors": [
+        "/127.0.0.1:3108/journeys/along-the-sacred-rivers?_rsc=Uu84MQoiNJnWRjMD due to access control checks."
+      ],
+      "isolatedRecheck": {
+        "browser": "WebKit",
+        "width": 390,
+        "errors": [],
+        "searchResults": 7,
+        "menuClosed": true,
+        "passed": true
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "height": 844,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 600,
+        "clientWidth": 600,
+        "documentWidth": 600,
+        "inner": {
+          "name": "header-inner",
+          "x": 22,
+          "y": 0,
+          "width": 556,
+          "height": 75,
+          "right": 578,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 482,
+          "y": 15.5,
+          "width": 96,
+          "height": 44,
+          "right": 578,
+          "bottom": 59.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 22,
+            "y": 16.5,
+            "width": 180,
+            "height": 42,
+            "right": 202,
+            "bottom": 58.5
+          },
+          {
+            "name": "header-actions",
+            "x": 482,
+            "y": 15.5,
+            "width": 96,
+            "height": 44,
+            "right": 578,
+            "bottom": 59.5
+          }
+        ],
+        "children": [
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 482,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 526,
+            "bottom": 59.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 534,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 578,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 528,
+            "y": 772,
+            "width": 56,
+            "height": 56,
+            "right": 584,
+            "bottom": 828
+          },
+          "icon": {
+            "name": {},
+            "x": 542,
+            "y": 786,
+            "width": 28,
+            "height": 28,
+            "right": 570,
+            "bottom": 814
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 601,
+        "clientWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "name": "header-inner",
+          "x": 30.046875,
+          "y": 0,
+          "width": 540.890625,
+          "height": 75,
+          "right": 570.9375,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 222.046875,
+          "y": 14.5,
+          "width": 369.796875,
+          "height": 46,
+          "right": 591.84375,
+          "bottom": 60.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 30.046875,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 210.046875,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 222.046875,
+            "y": 14.5,
+            "width": 369.796875,
+            "height": 46,
+            "right": 591.84375,
+            "bottom": 60.5
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 222.046875,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 266.046875,
+            "bottom": 59.5
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 278.046875,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 322.046875,
+            "bottom": 59.5
+          },
+          {
+            "name": "header-cta",
+            "x": 334.046875,
+            "y": 14.5,
+            "width": 201.796875,
+            "height": 46,
+            "right": 535.84375,
+            "bottom": 60.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 547.84375,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 591.84375,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 529,
+            "y": 828,
+            "width": 56,
+            "height": 56,
+            "right": 585,
+            "bottom": 884
+          },
+          "icon": {
+            "name": {},
+            "x": 543,
+            "y": 842,
+            "width": 28,
+            "height": 28,
+            "right": 571,
+            "bottom": 870
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "priorBuildGeometry": {
+        "bodyWidth": 601,
+        "clientWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "name": "header-inner",
+          "x": 30.046875,
+          "y": 0,
+          "width": 540.890625,
+          "height": 75,
+          "right": 570.9375,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 222.046875,
+          "y": 14.5,
+          "width": 369.796875,
+          "height": 46,
+          "right": 591.84375,
+          "bottom": 60.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 30.046875,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 210.046875,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 222.046875,
+            "y": 14.5,
+            "width": 369.796875,
+            "height": 46,
+            "right": 591.84375,
+            "bottom": 60.5
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 222.046875,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 266.046875,
+            "bottom": 59.5
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 278.046875,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 322.046875,
+            "bottom": 59.5
+          },
+          {
+            "name": "header-cta",
+            "x": 334.046875,
+            "y": 14.5,
+            "width": 201.796875,
+            "height": 46,
+            "right": 535.84375,
+            "bottom": 60.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 547.84375,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 591.84375,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 529,
+            "y": 828,
+            "width": 56,
+            "height": 56,
+            "right": 585,
+            "bottom": 884
+          },
+          "icon": {
+            "name": {},
+            "x": 543,
+            "y": 842,
+            "width": 28,
+            "height": 28,
+            "right": 571,
+            "bottom": 870
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "finalBuildGeometry": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46
+        }
+      },
+      "finalBuildRecheck": {
+        "browser": "WebKit",
+        "width": 601,
+        "geometry": {
+          "bodyWidth": 601,
+          "documentWidth": 601,
+          "inner": {
+            "x": 30.046875,
+            "right": 570.9375,
+            "width": 540.890625,
+            "height": 75
+          },
+          "actions": {
+            "x": 255.8125,
+            "right": 570.9375,
+            "width": 315.125,
+            "height": 46
+          },
+          "brand": {
+            "x": 30.046875,
+            "right": 210.046875,
+            "width": 180,
+            "height": 48
+          },
+          "gaps": [
+            12,
+            12,
+            12
+          ],
+          "fullLabel": "none",
+          "shortLabel": "inline",
+          "cta": {
+            "x": 367.8125,
+            "right": 514.9375,
+            "width": 147.125,
+            "height": 46
+          }
+        },
+        "checks": {
+          "rightAlignment": true,
+          "gap12": true,
+          "noOverflowOrOverlap": true
+        },
+        "pageErrors": [],
+        "passed": true
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 768,
+        "clientWidth": 768,
+        "documentWidth": 768,
+        "inner": {
+          "name": "header-inner",
+          "x": 38.40625,
+          "y": 0,
+          "width": 691.1875,
+          "height": 75,
+          "right": 729.59375,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 359.796875,
+          "y": 14.5,
+          "width": 369.796875,
+          "height": 46,
+          "right": 729.59375,
+          "bottom": 60.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 38.40625,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 218.40625,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 359.796875,
+            "y": 14.5,
+            "width": 369.796875,
+            "height": 46,
+            "right": 729.59375,
+            "bottom": 60.5
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 359.796875,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 403.796875,
+            "bottom": 59.5
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 415.796875,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 459.796875,
+            "bottom": 59.5
+          },
+          {
+            "name": "header-cta",
+            "x": 471.796875,
+            "y": 14.5,
+            "width": 201.796875,
+            "height": 46,
+            "right": 673.59375,
+            "bottom": 60.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 685.59375,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 729.59375,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 688,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 744,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 702,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 730,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "originalPageErrors": [
+        "/127.0.0.1:3108/journeys/kashi-before-the-world-wakes?_rsc=Uu84MQoiNJnWRjMD due to access control checks.",
+        "/127.0.0.1:3108/journeys/along-the-sacred-rivers?_rsc=Uu84MQoiNJnWRjMD due to access control checks.",
+        "/127.0.0.1:3108/journeys/the-road-to-bodh-gaya?_rsc=Uu84MQoiNJnWRjMD due to access control checks."
+      ],
+      "isolatedRecheck": {
+        "browser": "WebKit",
+        "width": 768,
+        "errors": [],
+        "searchResults": 7,
+        "menuClosed": true,
+        "passed": true
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1000,
+        "clientWidth": 1000,
+        "documentWidth": 1000,
+        "inner": {
+          "name": "header-inner",
+          "x": 50,
+          "y": 0,
+          "width": 900,
+          "height": 75,
+          "right": 950,
+          "bottom": 75
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 580.203125,
+          "y": 14.5,
+          "width": 369.796875,
+          "height": 46,
+          "right": 950,
+          "bottom": 60.5
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 50,
+            "y": 13.5,
+            "width": 180,
+            "height": 48,
+            "right": 230,
+            "bottom": 61.5
+          },
+          {
+            "name": "header-actions",
+            "x": 580.203125,
+            "y": 14.5,
+            "width": 369.796875,
+            "height": 46,
+            "right": 950,
+            "bottom": 60.5
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 580.203125,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 624.203125,
+            "bottom": 59.5
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 636.203125,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 680.203125,
+            "bottom": 59.5
+          },
+          {
+            "name": "header-cta",
+            "x": 692.203125,
+            "y": 14.5,
+            "width": 201.796875,
+            "height": 46,
+            "right": 894,
+            "bottom": 60.5
+          },
+          {
+            "name": "menu-toggle",
+            "x": 906,
+            "y": 15.5,
+            "width": 44,
+            "height": 44,
+            "right": 950,
+            "bottom": 59.5
+          }
+        ],
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 920,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 976,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 934,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 962,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "originalPageErrors": [
+        "/127.0.0.1:3108/journeys/kashi-before-the-world-wakes?_rsc=Uu84MQoiNJnWRjMD due to access control checks."
+      ],
+      "isolatedRecheck": {
+        "browser": "WebKit",
+        "width": 1000,
+        "errors": [],
+        "searchResults": 7,
+        "menuClosed": true,
+        "passed": true
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1001,
+        "clientWidth": 1001,
+        "documentWidth": 1001,
+        "inner": {
+          "name": "header-inner",
+          "x": 50.046875,
+          "y": 0,
+          "width": 900.890625,
+          "height": 96,
+          "right": 950.9375,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 718.796875,
+          "y": 25,
+          "width": 232.125,
+          "height": 46,
+          "right": 950.921875,
+          "bottom": 71
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 50.046875,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 215.046875,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 227.5,
+            "y": 25,
+            "width": 478.84375,
+            "height": 46,
+            "right": 706.34375,
+            "bottom": 71
+          },
+          {
+            "name": "header-actions",
+            "x": 718.796875,
+            "y": 25,
+            "width": 232.125,
+            "height": 46,
+            "right": 950.921875,
+            "bottom": 71
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 718.796875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 762.796875,
+            "bottom": 70
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 770.796875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 814.796875,
+            "bottom": 70
+          },
+          {
+            "name": "header-cta",
+            "x": 822.796875,
+            "y": 25,
+            "width": 128.125,
+            "height": 46,
+            "right": 950.921875,
+            "bottom": 71
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 921,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 977,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 935,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 963,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1151,
+        "clientWidth": 1151,
+        "documentWidth": 1151,
+        "inner": {
+          "name": "header-inner",
+          "x": 57.546875,
+          "y": 0,
+          "width": 1035.890625,
+          "height": 96,
+          "right": 1093.4375,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 861.296875,
+          "y": 25,
+          "width": 232.125,
+          "height": 46,
+          "right": 1093.421875,
+          "bottom": 71
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 57.546875,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 222.546875,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 302.5,
+            "y": 25,
+            "width": 478.84375,
+            "height": 46,
+            "right": 781.34375,
+            "bottom": 71
+          },
+          {
+            "name": "header-actions",
+            "x": 861.296875,
+            "y": 25,
+            "width": 232.125,
+            "height": 46,
+            "right": 1093.421875,
+            "bottom": 71
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 861.296875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 905.296875,
+            "bottom": 70
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 913.296875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 957.296875,
+            "bottom": 70
+          },
+          {
+            "name": "header-cta",
+            "x": 965.296875,
+            "y": 25,
+            "width": 128.125,
+            "height": 46,
+            "right": 1093.421875,
+            "bottom": 71
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1071,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1127,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1085,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1113,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1240,
+        "clientWidth": 1240,
+        "documentWidth": 1240,
+        "inner": {
+          "name": "header-inner",
+          "x": 62,
+          "y": 0,
+          "width": 1116,
+          "height": 96,
+          "right": 1178,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 945.875,
+          "y": 25,
+          "width": 232.125,
+          "height": 46,
+          "right": 1178,
+          "bottom": 71
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 62,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 227,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 347.015625,
+            "y": 25,
+            "width": 478.84375,
+            "height": 46,
+            "right": 825.859375,
+            "bottom": 71
+          },
+          {
+            "name": "header-actions",
+            "x": 945.875,
+            "y": 25,
+            "width": 232.125,
+            "height": 46,
+            "right": 1178,
+            "bottom": 71
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 945.875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 989.875,
+            "bottom": 70
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 997.875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1041.875,
+            "bottom": 70
+          },
+          {
+            "name": "header-cta",
+            "x": 1049.875,
+            "y": 25,
+            "width": 128.125,
+            "height": 46,
+            "right": 1178,
+            "bottom": 71
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1160,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1216,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1174,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1202,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1280,
+        "clientWidth": 1280,
+        "documentWidth": 1280,
+        "inner": {
+          "name": "header-inner",
+          "x": 64,
+          "y": 0,
+          "width": 1152,
+          "height": 96,
+          "right": 1216,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 983.875,
+          "y": 25,
+          "width": 232.125,
+          "height": 46,
+          "right": 1216,
+          "bottom": 71
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 64,
+            "y": 24,
+            "width": 165,
+            "height": 48,
+            "right": 229,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 367.015625,
+            "y": 25,
+            "width": 478.84375,
+            "height": 46,
+            "right": 845.859375,
+            "bottom": 71
+          },
+          {
+            "name": "header-actions",
+            "x": 983.875,
+            "y": 25,
+            "width": 232.125,
+            "height": 46,
+            "right": 1216,
+            "bottom": 71
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 983.875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1027.875,
+            "bottom": 70
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 1035.875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1079.875,
+            "bottom": 70
+          },
+          {
+            "name": "header-cta",
+            "x": 1087.875,
+            "y": 25,
+            "width": 128.125,
+            "height": 46,
+            "right": 1216,
+            "bottom": 71
+          }
+        ],
+        "gaps": [
+          8,
+          8
+        ],
+        "gapStyle": "8px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1200,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1256,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1214,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1242,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1281,
+        "clientWidth": 1281,
+        "documentWidth": 1281,
+        "inner": {
+          "name": "header-inner",
+          "x": 64.046875,
+          "y": 0,
+          "width": 1152.890625,
+          "height": 96,
+          "right": 1216.9375,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 903.140625,
+          "y": 25,
+          "width": 313.796875,
+          "height": 46,
+          "right": 1216.9375,
+          "bottom": 71
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 64.046875,
+            "y": 24,
+            "width": 205,
+            "height": 48,
+            "right": 269.046875,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 327.671875,
+            "y": 25,
+            "width": 516.84375,
+            "height": 46,
+            "right": 844.515625,
+            "bottom": 71
+          },
+          {
+            "name": "header-actions",
+            "x": 903.140625,
+            "y": 25,
+            "width": 313.796875,
+            "height": 46,
+            "right": 1216.9375,
+            "bottom": 71
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 903.140625,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 947.140625,
+            "bottom": 70
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 959.140625,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1003.140625,
+            "bottom": 70
+          },
+          {
+            "name": "header-cta",
+            "x": 1015.140625,
+            "y": 25,
+            "width": 201.796875,
+            "height": 46,
+            "right": 1216.9375,
+            "bottom": 71
+          }
+        ],
+        "gaps": [
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1201,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1257,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1215,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1243,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1440,
+        "clientWidth": 1440,
+        "documentWidth": 1440,
+        "inner": {
+          "name": "header-inner",
+          "x": 72,
+          "y": 0,
+          "width": 1296,
+          "height": 96,
+          "right": 1368,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 1054.1875,
+          "y": 25,
+          "width": 313.796875,
+          "height": 46,
+          "right": 1367.984375,
+          "bottom": 71
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 72,
+            "y": 24,
+            "width": 205,
+            "height": 48,
+            "right": 277,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 407.171875,
+            "y": 25,
+            "width": 516.84375,
+            "height": 46,
+            "right": 924.015625,
+            "bottom": 71
+          },
+          {
+            "name": "header-actions",
+            "x": 1054.1875,
+            "y": 25,
+            "width": 313.796875,
+            "height": 46,
+            "right": 1367.984375,
+            "bottom": 71
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 1054.1875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1098.1875,
+            "bottom": 70
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 1110.1875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1154.1875,
+            "bottom": 70
+          },
+          {
+            "name": "header-cta",
+            "x": 1166.1875,
+            "y": 25,
+            "width": 201.796875,
+            "height": 46,
+            "right": 1367.984375,
+            "bottom": 71
+          }
+        ],
+        "gaps": [
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1360,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1416,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1374,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1402,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 1920,
+        "clientWidth": 1920,
+        "documentWidth": 1920,
+        "inner": {
+          "name": "header-inner",
+          "x": 230,
+          "y": 0,
+          "width": 1460,
+          "height": 96,
+          "right": 1690,
+          "bottom": 96
+        },
+        "actions": {
+          "name": "header-actions",
+          "x": 1376.1875,
+          "y": 25,
+          "width": 313.796875,
+          "height": 46,
+          "right": 1689.984375,
+          "bottom": 71
+        },
+        "groups": [
+          {
+            "name": "brand",
+            "x": 230,
+            "y": 24,
+            "width": 205,
+            "height": 48,
+            "right": 435,
+            "bottom": 72
+          },
+          {
+            "name": "desktop-nav",
+            "x": 647.171875,
+            "y": 25,
+            "width": 516.84375,
+            "height": 46,
+            "right": 1164.015625,
+            "bottom": 71
+          },
+          {
+            "name": "header-actions",
+            "x": 1376.1875,
+            "y": 25,
+            "width": 313.796875,
+            "height": 46,
+            "right": 1689.984375,
+            "bottom": 71
+          }
+        ],
+        "children": [
+          {
+            "name": "nav-search",
+            "x": 1376.1875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1420.1875,
+            "bottom": 70
+          },
+          {
+            "name": "button whatsapp-link whatsapp-header",
+            "x": 1432.1875,
+            "y": 26,
+            "width": 44,
+            "height": 44,
+            "right": 1476.1875,
+            "bottom": 70
+          },
+          {
+            "name": "header-cta",
+            "x": 1488.1875,
+            "y": 25,
+            "width": 201.796875,
+            "height": 46,
+            "right": 1689.984375,
+            "bottom": 71
+          }
+        ],
+        "gaps": [
+          12,
+          12
+        ],
+        "gapStyle": "12px",
+        "overlaps": [],
+        "actionOverlaps": [],
+        "headerOverflow": [],
+        "floating": {
+          "rect": {
+            "name": "button whatsapp-link whatsapp-floating",
+            "x": 1840,
+            "y": 820,
+            "width": 56,
+            "height": 56,
+            "right": 1896,
+            "bottom": 876
+          },
+          "icon": {
+            "name": {},
+            "x": 1854,
+            "y": 834,
+            "width": 28,
+            "height": 28,
+            "right": 1882,
+            "bottom": 862
+          },
+          "viewBox": "0 0 16 16",
+          "fill": "lab(96.571404 0.384659 4.96522)",
+          "stroke": "none",
+          "border": "0px",
+          "outline": "none",
+          "fits": true,
+          "centerX": 0,
+          "centerY": 0
+        },
+        "missingImages": []
+      },
+      "originalPageErrors": [],
+      "isolatedRecheck": {
+        "browser": "WebKit",
+        "width": 1920,
+        "errors": [],
+        "hover": true,
+        "passed": true
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 700,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 700,
+      "height": 900,
+      "failures": [],
+      "pageErrors": [],
+      "geometry": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 248,
+          "y": 772,
+          "width": 56,
+          "height": 56,
+          "right": 304,
+          "bottom": 828
+        },
+        "icon": {
+          "name": {},
+          "x": 262,
+          "y": 786,
+          "width": 28,
+          "height": 28,
+          "right": 290,
+          "bottom": 814
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 320,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 318,
+          "y": 772,
+          "width": 56,
+          "height": 56,
+          "right": 374,
+          "bottom": 828
+        },
+        "icon": {
+          "name": {},
+          "x": 332,
+          "y": 786,
+          "width": 28,
+          "height": 28,
+          "right": 360,
+          "bottom": 814
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 390,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 528,
+          "y": 772,
+          "width": 56,
+          "height": 56,
+          "right": 584,
+          "bottom": 828
+        },
+        "icon": {
+          "name": {},
+          "x": 542,
+          "y": 786,
+          "width": 28,
+          "height": 28,
+          "right": 570,
+          "bottom": 814
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 600,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": {
+        "priorBuildOverrun": 20.90625,
+        "finalBuild": {
+          "bodyWidth": 601,
+          "documentWidth": 601,
+          "inner": {
+            "x": 30.046875,
+            "right": 570.9375,
+            "width": 540.890625,
+            "height": 75
+          },
+          "actions": {
+            "x": 255.8125,
+            "right": 570.9375,
+            "width": 315.125,
+            "height": 46.390625
+          },
+          "brand": {
+            "x": 30.046875,
+            "right": 210.046875,
+            "width": 180,
+            "height": 48
+          },
+          "gaps": [
+            12,
+            12,
+            12
+          ],
+          "fullLabel": "none",
+          "shortLabel": "inline",
+          "cta": {
+            "x": 367.8125,
+            "right": 514.9375,
+            "width": 147.125,
+            "height": 46.390625
+          }
+        }
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 529,
+          "y": 828,
+          "width": 56,
+          "height": 56,
+          "right": 585,
+          "bottom": 884
+        },
+        "icon": {
+          "name": {},
+          "x": 543,
+          "y": 842,
+          "width": 28,
+          "height": 28,
+          "right": 571,
+          "bottom": 870
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 688,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 744,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 702,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 730,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 768,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 920,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 976,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 934,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 962,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1000,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 921,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 977,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 935,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 963,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1001,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1071,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1127,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1085,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1113,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1151,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1160,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1216,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1174,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1202,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1240,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1200,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1256,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1214,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1242,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1280,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1201,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1257,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1215,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1243,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1281,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1360,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1416,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1374,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1402,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1440,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1840,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1896,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1854,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1882,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.5714 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 1920,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 248,
+          "y": 772,
+          "width": 56,
+          "height": 56,
+          "right": 304,
+          "bottom": 828
+        },
+        "icon": {
+          "name": {},
+          "x": 262,
+          "y": 786,
+          "width": 28,
+          "height": 28,
+          "right": 290,
+          "bottom": 814
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 320,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 318,
+          "y": 772,
+          "width": 56,
+          "height": 56,
+          "right": 374,
+          "bottom": 828
+        },
+        "icon": {
+          "name": {},
+          "x": 332,
+          "y": 786,
+          "width": 28,
+          "height": 28,
+          "right": 360,
+          "bottom": 814
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 528,
+          "y": 772,
+          "width": 56,
+          "height": 56,
+          "right": 584,
+          "bottom": 828
+        },
+        "icon": {
+          "name": {},
+          "x": 542,
+          "y": 786,
+          "width": 28,
+          "height": 28,
+          "right": 570,
+          "bottom": 814
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 600,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": {
+        "priorBuildOverrun": 20.90625,
+        "finalBuild": {
+          "bodyWidth": 601,
+          "documentWidth": 601,
+          "inner": {
+            "x": 30.046875,
+            "right": 570.9375,
+            "width": 540.890625,
+            "height": 75
+          },
+          "actions": {
+            "x": 255.8125,
+            "right": 570.9375,
+            "width": 315.125,
+            "height": 46
+          },
+          "brand": {
+            "x": 30.046875,
+            "right": 210.046875,
+            "width": 180,
+            "height": 48
+          },
+          "gaps": [
+            12,
+            12,
+            12
+          ],
+          "fullLabel": "none",
+          "shortLabel": "inline",
+          "cta": {
+            "x": 367.8125,
+            "right": 514.9375,
+            "width": 147.125,
+            "height": 46
+          }
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 529,
+          "y": 828,
+          "width": 56,
+          "height": 56,
+          "right": 585,
+          "bottom": 884
+        },
+        "icon": {
+          "name": {},
+          "x": 543,
+          "y": 842,
+          "width": 28,
+          "height": 28,
+          "right": 571,
+          "bottom": 870
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 688,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 744,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 702,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 730,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 920,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 976,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 934,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 962,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Mobile menu shows search and Travel journal; floating contact hides",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Open menu does not overflow viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Escape closes menu, restores focus and unlocks page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "name": "Mobile search link navigates, closes menu and returns Banaras results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 921,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 977,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 935,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 963,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1001,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1071,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1127,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1085,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1113,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1151,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1160,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1216,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1174,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1202,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1240,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1200,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1256,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1214,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1242,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1280,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1201,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1257,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1215,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1243,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1281,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1360,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1416,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1374,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1402,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1440,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Visible action gaps match responsive8/12px rule",
+      "passed": true,
+      "detail": [
+        12,
+        12
+      ]
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Action group aligns with right edge of header content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Every visible action has at least44px touch target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Standard filled WhatsApp SVG is centered and unclipped",
+      "passed": true,
+      "detail": {
+        "rect": {
+          "name": "button whatsapp-link whatsapp-floating",
+          "x": 1840,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1896,
+          "bottom": 876
+        },
+        "icon": {
+          "name": {},
+          "x": 1854,
+          "y": 834,
+          "width": 28,
+          "height": 28,
+          "right": 1882,
+          "bottom": 862
+        },
+        "viewBox": "0 0 16 16",
+        "fill": "lab(96.571404 0.384659 4.96522)",
+        "stroke": "none",
+        "border": "0px",
+        "outline": "none",
+        "fits": true,
+        "centerX": 0,
+        "centerY": 0
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Floating WhatsApp has no resting border or outline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Header WhatsApp link is accessible and preserves direct chat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Desktop nav hover selects its rounded backplate",
+      "passed": true,
+      "detail": "Passed after waiting for React hover state to settle."
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "name": "Desktop nav keyboard focus selects its backplate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Final build601-700CTA: rightAlignment",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Final build601-700CTA: gap12",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "name": "Final build601-700CTA: noOverflowOrOverlap",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 700,
+      "name": "Final build601-700CTA: rightAlignment",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 700,
+      "name": "Final build601-700CTA: gap12",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      }
+    },
+    {
+      "browser": "Chrome",
+      "width": 700,
+      "name": "Final build601-700CTA: noOverflowOrOverlap",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Final build601-700CTA: rightAlignment",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Final build601-700CTA: gap12",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "name": "Final build601-700CTA: noOverflowOrOverlap",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 700,
+      "name": "Final build601-700CTA: rightAlignment",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 700,
+      "name": "Final build601-700CTA: gap12",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "browser": "WebKit",
+      "width": 700,
+      "name": "Final build601-700CTA: noOverflowOrOverlap",
+      "passed": true,
+      "detail": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46
+        }
+      }
+    }
+  ],
+  "visualReview": {
+    "status": "passed",
+    "screenshots": [
+      "evidence/header-actions-390.png",
+      "evidence/header-actions-1440.png"
+    ],
+    "notes": "Header action grouping and standard filled WhatsApp glyph visually inspected at390 and1440. Floating icon is centered, recognisable and unclipped; no decorative outer ring. Narrow-tablet CTA correction at601/700 now verified in both browser engines."
+  },
+  "summary": {
+    "layouts": 28,
+    "layoutFailures": 0,
+    "checks": 244,
+    "checkFailures": 0
+  },
+  "finishedAt": "2026-10-24T17:05:09.650320+00:00",
+  "initialFindings": {
+    "summary": {
+      "layouts": 26,
+      "layoutFailures": 3,
+      "checks": 232,
+      "checkFailures": 3
+    },
+    "pageErrors": [
+      {
+        "browser": "WebKit",
+        "width": 390,
+        "errors": [
+          "/127.0.0.1:3108/journeys/along-the-sacred-rivers?_rsc=Uu84MQoiNJnWRjMD due to access control checks."
+        ]
+      },
+      {
+        "browser": "WebKit",
+        "width": 768,
+        "errors": [
+          "/127.0.0.1:3108/journeys/kashi-before-the-world-wakes?_rsc=Uu84MQoiNJnWRjMD due to access control checks.",
+          "/127.0.0.1:3108/journeys/along-the-sacred-rivers?_rsc=Uu84MQoiNJnWRjMD due to access control checks.",
+          "/127.0.0.1:3108/journeys/the-road-to-bodh-gaya?_rsc=Uu84MQoiNJnWRjMD due to access control checks."
+        ]
+      },
+      {
+        "browser": "WebKit",
+        "width": 1000,
+        "errors": [
+          "/127.0.0.1:3108/journeys/kashi-before-the-world-wakes?_rsc=Uu84MQoiNJnWRjMD due to access control checks."
+        ]
+      }
+    ],
+    "failedChecks": [
+      {
+        "browser": "Chrome",
+        "width": 601,
+        "name": "Action group aligns with right edge of header content",
+        "passed": false,
+        "detail": null
+      },
+      {
+        "browser": "WebKit",
+        "width": 601,
+        "name": "Action group aligns with right edge of header content",
+        "passed": false,
+        "detail": null
+      },
+      {
+        "browser": "WebKit",
+        "width": 1920,
+        "name": "Desktop nav hover selects its rounded backplate",
+        "passed": false,
+        "detail": null
+      }
+    ]
+  },
+  "rechecks": [
+    {
+      "browser": "WebKit",
+      "width": 390,
+      "errors": [],
+      "searchResults": 7,
+      "menuClosed": true,
+      "passed": true
+    },
+    {
+      "browser": "WebKit",
+      "width": 768,
+      "errors": [],
+      "searchResults": 7,
+      "menuClosed": true,
+      "passed": true
+    },
+    {
+      "browser": "WebKit",
+      "width": 1000,
+      "errors": [],
+      "searchResults": 7,
+      "menuClosed": true,
+      "passed": true
+    },
+    {
+      "browser": "WebKit",
+      "width": 1920,
+      "errors": [],
+      "hover": true,
+      "passed": true
+    }
+  ],
+  "recheckNote": "Isolated WebKit navigation checks passed after allowing in-flight prefetch requests to settle; original cancelled-prefetch errors are preserved. No runtime or application source changes made. One hover assertion required waiting for state settlement.",
+  "finalBuildRechecks": [
+    {
+      "browser": "Chrome",
+      "width": 601,
+      "geometry": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      },
+      "checks": {
+        "rightAlignment": true,
+        "gap12": true,
+        "noOverflowOrOverlap": true
+      },
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "browser": "Chrome",
+      "width": 700,
+      "geometry": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46.390625
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46.390625
+        }
+      },
+      "checks": {
+        "rightAlignment": true,
+        "gap12": true,
+        "noOverflowOrOverlap": true
+      },
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "browser": "WebKit",
+      "width": 601,
+      "geometry": {
+        "bodyWidth": 601,
+        "documentWidth": 601,
+        "inner": {
+          "x": 30.046875,
+          "right": 570.9375,
+          "width": 540.890625,
+          "height": 75
+        },
+        "actions": {
+          "x": 255.8125,
+          "right": 570.9375,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 30.046875,
+          "right": 210.046875,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 367.8125,
+          "right": 514.9375,
+          "width": 147.125,
+          "height": 46
+        }
+      },
+      "checks": {
+        "rightAlignment": true,
+        "gap12": true,
+        "noOverflowOrOverlap": true
+      },
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "browser": "WebKit",
+      "width": 700,
+      "geometry": {
+        "bodyWidth": 700,
+        "documentWidth": 700,
+        "inner": {
+          "x": 35,
+          "right": 665,
+          "width": 630,
+          "height": 75
+        },
+        "actions": {
+          "x": 349.875,
+          "right": 665,
+          "width": 315.125,
+          "height": 46
+        },
+        "brand": {
+          "x": 35,
+          "right": 215,
+          "width": 180,
+          "height": 48
+        },
+        "gaps": [
+          12,
+          12,
+          12
+        ],
+        "fullLabel": "none",
+        "shortLabel": "inline",
+        "cta": {
+          "x": 461.875,
+          "right": 609,
+          "width": 147.125,
+          "height": 46
+        }
+      },
+      "checks": {
+        "rightAlignment": true,
+        "gap12": true,
+        "noOverflowOrOverlap": true
+      },
+      "pageErrors": [],
+      "passed": true
+    }
+  ]
+}

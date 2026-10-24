@@ -2,46 +2,182 @@
   "base": "http://127.0.0.1:3108",
   "checks": [
     {
-      "name": "390: reduced motion downloads no video",
+      "name": "Chrome 390: reduced motion downloads no video",
       "passed": true,
       "detail": []
     },
     {
-      "name": "390: removed hero label is absent",
-      "passed": true
-    },
-    {
-      "name": "390: explicit play selects the right film",
+      "name": "Chrome 390: reduced motion retains the still poster",
       "passed": true,
-      "detail": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4"
+      "detail": {
+        "source": "",
+        "paused": true,
+        "time": 0,
+        "width": 0,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
     },
     {
-      "name": "390: pause remains usable",
+      "name": "Chrome 390: removed hero label is absent",
       "passed": true
     },
     {
-      "name": "1440: reduced motion downloads no video",
+      "name": "Chrome 390: film has no play or pause controls",
+      "passed": true
+    },
+    {
+      "name": "Chrome 390: enabling motion autoplays the selected India film",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": false,
+        "time": 0.11,
+        "width": 720,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 390: only the matching film is requested",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:3108/videos/india-mobile.mp4"
+      ]
+    },
+    {
+      "name": "Chrome 390: changing to reduced motion pauses playback",
+      "passed": true,
+      "detail": {
+        "paused": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": true,
+          "time": 0.1255,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "settled": {
+          "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+          "paused": true,
+          "time": 0.1255,
+          "width": 720,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        }
+      }
+    },
+    {
+      "name": "Chrome 390: fresh normal-motion visit autoplays without controls",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "paused": false,
+        "time": 7.4204,
+        "width": 720,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 1440: reduced motion downloads no video",
       "passed": true,
       "detail": []
     },
     {
-      "name": "1440: removed hero label is absent",
-      "passed": true
-    },
-    {
-      "name": "1440: explicit play selects the right film",
+      "name": "Chrome 1440: reduced motion retains the still poster",
       "passed": true,
-      "detail": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4"
+      "detail": {
+        "source": "",
+        "paused": true,
+        "time": 0,
+        "width": 0,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
     },
     {
-      "name": "1440: pause remains usable",
+      "name": "Chrome 1440: removed hero label is absent",
       "passed": true
     },
     {
-      "name": "Browser discovers the selected film without waiting for JavaScript",
+      "name": "Chrome 1440: film has no play or pause controls",
+      "passed": true
+    },
+    {
+      "name": "Chrome 1440: enabling motion autoplays the selected India film",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": false,
+        "time": 0.1068,
+        "width": 1920,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome 1440: only the matching film is requested",
+      "passed": true,
+      "detail": [
+        "http://127.0.0.1:3108/videos/india-desktop.mp4"
+      ]
+    },
+    {
+      "name": "Chrome 1440: changing to reduced motion pauses playback",
+      "passed": true,
+      "detail": {
+        "paused": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": true,
+          "time": 0.1224,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        },
+        "settled": {
+          "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+          "paused": true,
+          "time": 0.1224,
+          "width": 1920,
+          "controls": false,
+          "muted": true,
+          "loop": true
+        }
+      }
+    },
+    {
+      "name": "Chrome 1440: fresh normal-motion visit autoplays without controls",
+      "passed": true,
+      "detail": {
+        "source": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "paused": false,
+        "time": 13.6709,
+        "width": 1920,
+        "controls": false,
+        "muted": true,
+        "loop": true
+      }
+    },
+    {
+      "name": "Chrome: browser discovers the selected film without waiting for JavaScript",
       "passed": true
     }
   ],
   "errors": [],
+  "skipped": [
+    {
+      "engine": "WebKit",
+      "reason": "No matching Node Playwright WebKit binary is installed."
+    }
+  ],
   "passed": true
 }

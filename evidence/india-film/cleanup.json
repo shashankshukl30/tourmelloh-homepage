@@ -1,0 +1,47 @@
+﻿{
+    "preparedAt":  "2026-10-24T17:04:54.609694+00:00",
+    "scope":  "D:\\Digiocular\\Websites\\india-travel-homepage",
+    "beforeFreeBytes":  {
+                            "C":  75026239488,
+                            "D":  36248580096
+                        },
+    "files":  [
+                  {
+                      "path":  "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\videos\\varanasi-desktop.mp4",
+                      "bytes":  11987952,
+                      "sha256":  "a3fa83886df6f655890f7c9392ea5c5f95c49a2422db22f62c27726157c4a48a",
+                      "reason":  "Superseded generated single-place web export; new four-place film is integrated and verified.",
+                      "retainedCopy":  "git:b0da8bcdbec7932203738582c746413d7d49e5bd:public/videos/varanasi-desktop.mp4",
+                      "recoveryBytesAndSHA256Verified":  true
+                  },
+                  {
+                      "path":  "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\videos\\varanasi-mobile.mp4",
+                      "bytes":  4984126,
+                      "sha256":  "c4eed4a37f15ab8752543ebf1dd55c7f9902f8071bf7de7f59a10f7bd13f7efd",
+                      "reason":  "Superseded generated single-place web export; new four-place film is integrated and verified.",
+                      "retainedCopy":  "git:b0da8bcdbec7932203738582c746413d7d49e5bd:public/videos/varanasi-mobile.mp4",
+                      "recoveryBytesAndSHA256Verified":  true
+                  },
+                  {
+                      "path":  "D:\\Digiocular\\Websites\\india-travel-homepage\\public\\images\\varanasi-film-poster.webp",
+                      "bytes":  144748,
+                      "sha256":  "44d27265383ce90d5e24a71ec90d22d9969a8a6594b26b9d69788af92e7a5999",
+                      "reason":  "Superseded generated single-place web export; new four-place film is integrated and verified.",
+                      "retainedCopy":  "git:b0da8bcdbec7932203738582c746413d7d49e5bd:public/images/varanasi-film-poster.webp",
+                      "recoveryBytesAndSHA256Verified":  true
+                  }
+              ],
+    "sourceAndRebuildScriptRetained":  true,
+    "removedBytes":  17116826,
+    "afterFreeBytes":  [
+                           {
+                               "Name":  "C",
+                               "Free":  75017363456
+                           },
+                           {
+                               "Name":  "D",
+                               "Free":  36265697280
+                           }
+                       ],
+    "completedAt":  "2026-10-24T22:35:08.3591276+05:30"
+}

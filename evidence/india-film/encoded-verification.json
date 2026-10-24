@@ -1,0 +1,212 @@
+{
+  "startedAt": "2026-10-24T17:03:59.064401+00:00",
+  "manifest": "research/india-film-edit.json",
+  "sampleTimes": [
+    0,
+    3,
+    5.5,
+    8,
+    11.5,
+    14,
+    17.5,
+    20,
+    23.5,
+    23.958
+  ],
+  "files": [
+    {
+      "path": "public/videos/india-desktop.mp4",
+      "sha256": "968836a01e4f04adb0f2dbf601807230a3d3570ea397ebb0de3711dbef8da101",
+      "bytes": 11771631,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "profile": "High",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "level": 41,
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "duration": "24.000000",
+            "nb_frames": "576"
+          }
+        ],
+        "format": {
+          "duration": "24.000000",
+          "size": "11771631"
+        }
+      },
+      "decodedFrames": 576,
+      "analysisResolution": [
+        320,
+        180
+      ],
+      "luma": {
+        "minimumMean": 108.44406127929688,
+        "blackFrames": []
+      },
+      "motion": {
+        "minimumAdjacentChange": 0.12567707896232605,
+        "medianAdjacentChange": 3.0239410400390625,
+        "maximumAdjacentChange": 11.802048683166504,
+        "lowMotionPairsBelow0_05": 0,
+        "exactRepeatedFrameRuns": [],
+        "frozenRunsOfOneSecond": [],
+        "note": "Low-motion differences do not fail. Repetition is measured with full-resolution decoded frame MD5; runs under1second remain informational."
+      },
+      "loop": {
+        "lastToFirstMeanDifference": 7.881840229034424,
+        "edgeAdjacentMedian": 5.781345367431641,
+        "edgeAdjacentP95": 6.523952007293701,
+        "edgeAdjacentMaximum": 7.099392414093018,
+        "comparisonLimit": 16.309880018234253,
+        "seamToEdgeP95Ratio": 1.2081389041830197
+      },
+      "mp4Atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "size": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "size": 7793
+        },
+        {
+          "type": "free",
+          "offset": 7825,
+          "size": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 7833,
+          "size": 11763798
+        }
+      ],
+      "contactSheet": "evidence/india-film/encoded-desktop-contact-sheet.jpg",
+      "checks": {
+        "duration24Seconds": true,
+        "decoded576Frames": true,
+        "declared576Frames": true,
+        "h264": true,
+        "yuv420p": true,
+        "fps24": true,
+        "correctDimensions": true,
+        "silent": true,
+        "noBlackFrames": true,
+        "noFrozenRunsOfOneSecond": true,
+        "loopSeamComparableToAdjacentFrames": true,
+        "fastStartMoovBeforeMdat": true
+      },
+      "passed": true
+    },
+    {
+      "path": "public/videos/india-mobile.mp4",
+      "sha256": "abc677278ee4feb003d151bd2400fa40e671852f7657e92884beb71e32eea3e8",
+      "bytes": 5171106,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "profile": "High",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1280,
+            "pix_fmt": "yuv420p",
+            "level": 41,
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "duration": "24.000000",
+            "nb_frames": "576"
+          }
+        ],
+        "format": {
+          "duration": "24.000000",
+          "size": "5171106"
+        }
+      },
+      "decodedFrames": 576,
+      "analysisResolution": [
+        180,
+        320
+      ],
+      "luma": {
+        "minimumMean": 124.76873016357422,
+        "blackFrames": []
+      },
+      "motion": {
+        "minimumAdjacentChange": 0.04366319626569748,
+        "medianAdjacentChange": 3.6389236450195312,
+        "maximumAdjacentChange": 17.866615295410156,
+        "lowMotionPairsBelow0_05": 1,
+        "exactRepeatedFrameRuns": [],
+        "frozenRunsOfOneSecond": [],
+        "note": "Low-motion differences do not fail. Repetition is measured with full-resolution decoded frame MD5; runs under1second remain informational."
+      },
+      "loop": {
+        "lastToFirstMeanDifference": 6.077361106872559,
+        "edgeAdjacentMedian": 5.50493049621582,
+        "edgeAdjacentP95": 7.616861820220947,
+        "edgeAdjacentMaximum": 9.355208396911621,
+        "comparisonLimit": 19.042154550552368,
+        "seamToEdgeP95Ratio": 0.7978825466859091
+      },
+      "mp4Atoms": [
+        {
+          "type": "ftyp",
+          "offset": 0,
+          "size": 32
+        },
+        {
+          "type": "moov",
+          "offset": 32,
+          "size": 7728
+        },
+        {
+          "type": "free",
+          "offset": 7760,
+          "size": 8
+        },
+        {
+          "type": "mdat",
+          "offset": 7768,
+          "size": 5163338
+        }
+      ],
+      "contactSheet": "evidence/india-film/encoded-mobile-contact-sheet.jpg",
+      "checks": {
+        "duration24Seconds": true,
+        "decoded576Frames": true,
+        "declared576Frames": true,
+        "h264": true,
+        "yuv420p": true,
+        "fps24": true,
+        "correctDimensions": true,
+        "silent": true,
+        "noBlackFrames": true,
+        "noFrozenRunsOfOneSecond": true,
+        "loopSeamComparableToAdjacentFrames": true,
+        "fastStartMoovBeforeMdat": true
+      },
+      "passed": true
+    }
+  ],
+  "visualReview": {
+    "status": "passed",
+    "contactSheets": [
+      "evidence/india-film/encoded-desktop-contact-sheet.jpg",
+      "evidence/india-film/encoded-mobile-contact-sheet.jpg"
+    ],
+    "notes": "Inspected all10 requested moments in desktop and portrait derivatives: Varanasi riverfront, Taj Mahal, Rumi Darwaza in Lucknow, Amber Fort in Jaipur; one-second dissolves visible at5.5,11.5,17.5 and23.5seconds. Key landmark crowns remain within portrait framing; no black or frozen tails. Browser playback verification is owned by the separate site QA agent."
+  },
+  "finishedAt": "2026-10-24T17:04:06.824629+00:00",
+  "passed": true
+}

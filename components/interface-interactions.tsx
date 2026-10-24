@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { animate, useReducedMotion } from "framer-motion";
 
-const controls = ".button, .tour-primary, .save-button, .film-control, .filter-chip, .category-tabs button, .hero-explore, .text-link, .journey-detail-link, .chapter-photo-note a";
+const controls = ".button, .tour-primary, .save-button, .filter-chip, .category-tabs button, .hero-explore, .text-link, .journey-detail-link, .chapter-photo-note a";
 
 export function InterfaceInteractions() {
   const pathname = usePathname();

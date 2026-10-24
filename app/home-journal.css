@@ -9,10 +9,8 @@
 .hero-bottom p { font-size: 18px; line-height: 1.6; max-width: 52ch; }
 .hero-explore { font-size: 16px; gap: 20px; white-space: nowrap; margin: 0; }
 .hero-explore > .round-arrow { display: flex; }
-.hero-location { position: absolute; bottom: 30px; left: 4.7%; font-size: 14px; display: flex; gap: 18px; align-items: center; }
+.hero-location { position: absolute; z-index: 1; bottom: 30px; left: 4.7%; font-size: 14px; display: flex; gap: 18px; align-items: center; }
 .hero-location span { color: oklch(91% .013 85); border-left: 1px solid var(--light-line); padding-left: 18px; }
-.film-control { position: absolute; right: 4.7%; bottom: 22px; z-index: 3; display: inline-flex; gap: 10px; align-items: center; min-height: 44px; padding: 10px 16px; font-size: 14px; border: 1px solid oklch(97% .013 85 / .55); border-radius: var(--radius-pill); color: var(--paper); background: oklch(20% .02 60 / .3); }
-.film-control:hover { background: var(--paper); color: var(--ink); }
 .finder-wrap { margin-top: 28px; }
 .trip-finder { grid-template-columns: 1.05fr 1fr 1fr auto; padding: 25px 28px; gap: 25px; background: var(--paper-deep); box-shadow: none; }
 .finder-intro .eyebrow { font-size: 14px; letter-spacing: .04em; }
@@ -120,9 +118,6 @@
   .hero-explore { max-width: none; font-size: 16px; gap: 18px; margin: 0; }
   .hero-location { left: 22px; bottom: 26px; display: block; font-size: 14px; line-height: 1.4; }
   .hero-location span { display: block; border: 0; padding: 4px 0 0; }
-  .film-control { right: 22px; bottom: 25px; }
-  .film-control span { display: none; }
-  .film-control { width: 46px; height: 46px; justify-content: center; padding: 0; }
   .finder-wrap { width: calc(100% - var(--page-gutter) * 2); margin-top: 24px; }
   .trip-finder { grid-template-columns: 1fr; padding: 24px; gap: 19px; border: 0; }
   .finder-intro { display: block; }
@@ -196,7 +191,6 @@
   .hero-bottom p { line-height: 1.5; }
   .hero-explore .round-arrow { width: 42px; height: 42px; }
   .hero-location { bottom: 18px; }
-  .film-control { bottom: 18px; }
 }
 @media (max-height: 540px) and (min-width: 701px) {
   .hero-content { bottom: 74px; }
@@ -213,5 +207,4 @@
   .hero-explore { font-size: 16px; max-width: none; gap: 12px; }
   .hero-explore .round-arrow { width: 32px; height: 32px; }
   .hero-location { bottom: 16px; }
-  .film-control { bottom: 15px; }
 }
