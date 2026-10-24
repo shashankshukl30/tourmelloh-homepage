@@ -157,6 +157,10 @@
 .footer-note p { font-family: var(--font-editorial); font-size: 27px; line-height: 1.15; margin-top: 18px; letter-spacing: -.02em; }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 25px; border-top: 1px solid var(--line); padding: 25px 0; font-size: 14px; color: var(--muted); }
 .footer-bottom a { text-decoration: underline; text-underline-offset: 3px; }
+.footer-credit { display: inline-flex; align-items: center; gap: 6px; font-size: 16px; white-space: nowrap; }
+.footer-credit .credit-heart { color: oklch(54% .21 25); font-size: 20px; line-height: 1; }
+.footer-credit a { color: var(--ink); font-weight: 500; }
+.footer-credit a:hover { color: var(--clay); }
 .credit-heart { color: oklch(53% .2 28); }
 .photo-credits { border-top: 1px solid var(--line); padding-block: 16px; color: var(--muted); font-size: 14px; }
 .photo-credits summary { width: fit-content; padding-block: 5px; }

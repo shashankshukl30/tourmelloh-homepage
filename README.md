@@ -5,6 +5,9 @@ Tailwind v4, Framer Motion, locally hosted Newsreader and Instrument Sans.
 
 ## Preview
 
+Public client link: https://tourmelloh-preview.vercel.app/ — no Vercel login or share token.
+After each reviewed preview deployment, assign this alias to the verified deployment with `vercel alias set <deployment-url> tourmelloh-preview.vercel.app --scope omvitys-projects`. The GitHub repository remains private.
+
 ```powershell
 npm install
 npm run dev

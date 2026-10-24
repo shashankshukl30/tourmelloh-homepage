@@ -51,7 +51,10 @@ export function Footer() {
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Tourmelloh · Design preview</span>
-
+          <span className="footer-credit">
+            Made with <span className="credit-heart" role="img" aria-label="love">♥</span> by{" "}
+            <a href="https://digiocular.com" target="_blank" rel="noopener noreferrer">Digiocular</a>
+          </span>
           <a href="#main">Back to the beginning ↑</a>
         </div>
 

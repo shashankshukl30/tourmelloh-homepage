@@ -119,4 +119,7 @@ select { border-radius: var(--radius-field); }
   .tour-related-photo { height: 250px; }
   .footer-main nav a { font-size: 16px; }
   .footer-bottom { font-size: 14px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .footer-bottom > span:first-child { flex-basis: auto; }
+  .footer-bottom > a { margin-left: 0; }
 }

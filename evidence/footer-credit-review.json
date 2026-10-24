@@ -1,0 +1,329 @@
+{
+  "browser": "WebKit",
+  "base": "http://127.0.0.1:3108",
+  "startedAt": "2026-10-24T16:29:29.737798+00:00",
+  "routes": [
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys/along-the-sacred-rivers",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys/awadh-agra-and-braj",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/destinations/varanasi",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys/ayodhya-at-your-own-pace",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys/a-weekend-in-lucknow",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/journeys/taj-mahal-and-the-lanes-of-braj",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/destinations/ayodhya",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/destinations/agra",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/destinations/bodh-gaya",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    },
+    {
+      "bodyWidth": 390,
+      "clientWidth": 390,
+      "creditCount": 1,
+      "text": "Made with \u2665 by Digiocular",
+      "href": "https://digiocular.com/",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "heartColor": "lab(44.4874 66.663498 43.516701)",
+      "route": "/search",
+      "status": 200,
+      "pageErrors": [],
+      "passed": true
+    }
+  ],
+  "footerLayouts": [
+    {
+      "width": 320,
+      "bodyWidth": 320,
+      "footer": {
+        "x": 22,
+        "y": 693.15625,
+        "width": 276,
+        "height": 151,
+        "right": 298,
+        "bottom": 844.15625
+      },
+      "items": [
+        {
+          "x": 22,
+          "y": 719.15625,
+          "width": 229.546875,
+          "height": 23,
+          "right": 251.546875,
+          "bottom": 742.15625
+        },
+        {
+          "x": 22,
+          "y": 756.15625,
+          "width": 200.828125,
+          "height": 26,
+          "right": 222.828125,
+          "bottom": 782.15625
+        },
+        {
+          "x": 22,
+          "y": 796.15625,
+          "width": 153.515625,
+          "height": 23,
+          "right": 175.515625,
+          "bottom": 819.15625
+        }
+      ],
+      "overlaps": [],
+      "credit": {
+        "x": 22,
+        "y": 756.15625,
+        "width": 200.828125,
+        "height": 26,
+        "right": 222.828125,
+        "bottom": 782.15625
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "bodyWidth": 1440,
+      "footer": {
+        "x": 72,
+        "y": 922.78125,
+        "width": 1296,
+        "height": 77,
+        "right": 1368,
+        "bottom": 999.78125
+      },
+      "items": [
+        {
+          "x": 72,
+          "y": 950.28125,
+          "width": 229.546875,
+          "height": 23,
+          "right": 301.546875,
+          "bottom": 973.28125
+        },
+        {
+          "x": 657.59375,
+          "y": 948.78125,
+          "width": 200.828125,
+          "height": 26,
+          "right": 858.421875,
+          "bottom": 974.78125
+        },
+        {
+          "x": 1214.46875,
+          "y": 950.28125,
+          "width": 153.515625,
+          "height": 23,
+          "right": 1367.984375,
+          "bottom": 973.28125
+        }
+      ],
+      "overlaps": [],
+      "credit": {
+        "x": 657.59375,
+        "y": 948.78125,
+        "width": 200.828125,
+        "height": 26,
+        "right": 858.421875,
+        "bottom": 974.78125
+      },
+      "passed": true
+    }
+  ],
+  "externalLink": {
+    "newTab": true,
+    "url": "https://www.digiocular.com/",
+    "h1": [
+      "A website thatwins customers."
+    ],
+    "loadError": null,
+    "openerProtected": true,
+    "passed": true,
+    "requestedURL": "https://digiocular.com",
+    "redirectNote": "The requested Digiocular URL redirects successfully to its www hostname."
+  },
+  "visualReview": {
+    "status": "passed",
+    "screenshots": [
+      "footer-credit-320.png",
+      "footer-credit-1440.png"
+    ],
+    "findings": "At 320px the copyright, credit and back-to-top link form three left-aligned rows without clipping. At 1440px the three items align on one balanced row. The heart is visibly red and Digiocular remains an underlined, readable link."
+  },
+  "summary": {
+    "routes": 14,
+    "routeFailures": 0,
+    "footerLayouts": 2,
+    "layoutFailures": 0,
+    "externalLinkPassed": true
+  },
+  "finishedAt": "2026-10-24T16:30:12.867323+00:00"
+}
