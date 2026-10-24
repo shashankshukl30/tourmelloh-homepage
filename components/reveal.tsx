@@ -18,9 +18,9 @@ export function Reveal({
     <motion.div
       className={className}
       initial={false}
-      whileInView={reduced ? undefined : { y: [14, 0], opacity: [0.7, 1] }}
+      whileInView={reduced ? undefined : { y: [30, 0], opacity: [0.3, 1] }}
       viewport={{ once: true, amount: 0.12 }}
-      transition={{ duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] }}
+      transition={{ duration: 0.8, delay, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}
     </motion.div>

@@ -1,0 +1,58 @@
+﻿{
+    "scope":  "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\photo-motion",
+    "removed":  [
+
+                ],
+    "removedBytes":  0,
+    "reason":  "No disposable temporary assets were created. Retained browser screenshots, QA script and report as verification evidence.",
+    "preservedFiles":  [
+                           {
+                               "Name":  "atlas-hover.jpg",
+                               "Length":  81747
+                           },
+                           {
+                               "Name":  "collection-hover.jpg",
+                               "Length":  70081
+                           },
+                           {
+                               "Name":  "journey-hover.jpg",
+                               "Length":  78716
+                           },
+                           {
+                               "Name":  "journey-keyboard.jpg",
+                               "Length":  78716
+                           },
+                           {
+                               "Name":  "qa.py",
+                               "Length":  4581
+                           },
+                           {
+                               "Name":  "report.json",
+                               "Length":  2897
+                           },
+                           {
+                               "Name":  "touch-atlas.jpg",
+                               "Length":  28078
+                           }
+                       ],
+    "freeSpaceBefore":  [
+                            {
+                                "Name":  "C",
+                                "Free":  75750752256
+                            },
+                            {
+                                "Name":  "D",
+                                "Free":  36500574208
+                            }
+                        ],
+    "freeSpaceAfter":  [
+                           {
+                               "Name":  "C",
+                               "Free":  75762343936
+                           },
+                           {
+                               "Name":  "D",
+                               "Free":  36497641472
+                           }
+                       ]
+}

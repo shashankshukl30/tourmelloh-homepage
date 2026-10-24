@@ -1,0 +1,682 @@
+{
+  "browser": "WebKit",
+  "url": "http://127.0.0.1:3108",
+  "startedAt": "2026-10-24T16:14:18.930954+00:00",
+  "layouts": [
+    {
+      "viewport": {
+        "width": 1897,
+        "height": 866
+      },
+      "hero": {
+        "x": 16,
+        "y": 96,
+        "width": 1865,
+        "height": 754,
+        "right": 1881,
+        "bottom": 850
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1897,
+        "height": 96,
+        "right": 1897,
+        "bottom": 96
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 103.640625,
+          "y": 386,
+          "width": 280.265625,
+          "height": 39,
+          "right": 383.90625,
+          "bottom": 425
+        },
+        "title": {
+          "x": 103.640625,
+          "y": 447,
+          "width": 1689.71875,
+          "height": 220,
+          "right": 1793.359375,
+          "bottom": 667
+        },
+        "copy": {
+          "x": 103.640625,
+          "y": 699,
+          "width": 422.171875,
+          "height": 56,
+          "right": 525.8125,
+          "bottom": 755
+        },
+        "cta": {
+          "x": 1567.96875,
+          "y": 695,
+          "width": 225.390625,
+          "height": 60,
+          "right": 1793.359375,
+          "bottom": 755
+        },
+        "location": {
+          "x": 103.640625,
+          "y": 797,
+          "width": 218.578125,
+          "height": 23,
+          "right": 322.21875,
+          "bottom": 820
+        },
+        "control": {
+          "x": 1665.71875,
+          "y": 783,
+          "width": 127.640625,
+          "height": 45,
+          "right": 1793.359375,
+          "bottom": 828
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 1897,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 1536,
+        "height": 690
+      },
+      "hero": {
+        "x": 16,
+        "y": 96,
+        "width": 1504,
+        "height": 578,
+        "right": 1520,
+        "bottom": 674
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1536,
+        "height": 96,
+        "right": 1536,
+        "bottom": 96
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 86.6875,
+          "y": 256,
+          "width": 280.265625,
+          "height": 39,
+          "right": 366.953125,
+          "bottom": 295
+        },
+        "title": {
+          "x": 86.6875,
+          "y": 317,
+          "width": 1362.625,
+          "height": 174,
+          "right": 1449.3125,
+          "bottom": 491
+        },
+        "copy": {
+          "x": 86.6875,
+          "y": 523,
+          "width": 422.171875,
+          "height": 56,
+          "right": 508.859375,
+          "bottom": 579
+        },
+        "cta": {
+          "x": 1223.921875,
+          "y": 519,
+          "width": 225.390625,
+          "height": 60,
+          "right": 1449.3125,
+          "bottom": 579
+        },
+        "location": {
+          "x": 86.6875,
+          "y": 621,
+          "width": 218.578125,
+          "height": 23,
+          "right": 305.265625,
+          "bottom": 644
+        },
+        "control": {
+          "x": 1321.671875,
+          "y": 607,
+          "width": 127.640625,
+          "height": 45,
+          "right": 1449.3125,
+          "bottom": 652
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 1536,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": [],
+      "screenshot": "hero-viewport-webkit-1536x690.png"
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 650
+      },
+      "hero": {
+        "x": 16,
+        "y": 96,
+        "width": 1334,
+        "height": 538,
+        "right": 1350,
+        "bottom": 634
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1366,
+        "height": 96,
+        "right": 1366,
+        "bottom": 96
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 78.6875,
+          "y": 226,
+          "width": 280.265625,
+          "height": 39,
+          "right": 358.953125,
+          "bottom": 265
+        },
+        "title": {
+          "x": 78.6875,
+          "y": 287,
+          "width": 1208.625,
+          "height": 164,
+          "right": 1287.3125,
+          "bottom": 451
+        },
+        "copy": {
+          "x": 78.6875,
+          "y": 483,
+          "width": 422.171875,
+          "height": 56,
+          "right": 500.859375,
+          "bottom": 539
+        },
+        "cta": {
+          "x": 1061.921875,
+          "y": 479,
+          "width": 225.390625,
+          "height": 60,
+          "right": 1287.3125,
+          "bottom": 539
+        },
+        "location": {
+          "x": 78.6875,
+          "y": 581,
+          "width": 218.578125,
+          "height": 23,
+          "right": 297.265625,
+          "bottom": 604
+        },
+        "control": {
+          "x": 1159.671875,
+          "y": 567,
+          "width": 127.640625,
+          "height": 45,
+          "right": 1287.3125,
+          "bottom": 612
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 1366,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "hero": {
+        "x": 10,
+        "y": 75,
+        "width": 370,
+        "height": 758.984375,
+        "right": 380,
+        "bottom": 833.984375
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 75,
+        "right": 390,
+        "bottom": 75
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 32,
+          "y": 415.984375,
+          "width": 240.21875,
+          "height": 36,
+          "right": 272.21875,
+          "bottom": 451.984375
+        },
+        "title": {
+          "x": 32,
+          "y": 469.984375,
+          "width": 326,
+          "height": 98,
+          "right": 358,
+          "bottom": 567.984375
+        },
+        "copy": {
+          "x": 32,
+          "y": 590.984375,
+          "width": 326,
+          "height": 84,
+          "right": 358,
+          "bottom": 674.984375
+        },
+        "cta": {
+          "x": 32,
+          "y": 696.984375,
+          "width": 161.390625,
+          "height": 42,
+          "right": 193.390625,
+          "bottom": 738.984375
+        },
+        "location": {
+          "x": 32,
+          "y": 765.984375,
+          "width": 92.609375,
+          "height": 42,
+          "right": 124.609375,
+          "bottom": 807.984375
+        },
+        "control": {
+          "x": 312,
+          "y": 762.984375,
+          "width": 46,
+          "height": 46,
+          "right": 358,
+          "bottom": 808.984375
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 390,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "hero": {
+        "x": 10,
+        "y": 75,
+        "width": 300,
+        "height": 482.984375,
+        "right": 310,
+        "bottom": 557.984375
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 75,
+        "right": 320,
+        "bottom": 75
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 28,
+          "y": 198.984375,
+          "width": 240.21875,
+          "height": 36,
+          "right": 268.21875,
+          "bottom": 234.984375
+        },
+        "title": {
+          "x": 28,
+          "y": 246.984375,
+          "width": 264,
+          "height": 86,
+          "right": 292,
+          "bottom": 332.984375
+        },
+        "copy": {
+          "x": 28,
+          "y": 348.984375,
+          "width": 264,
+          "height": 75,
+          "right": 292,
+          "bottom": 423.984375
+        },
+        "cta": {
+          "x": 28,
+          "y": 435.984375,
+          "width": 161.390625,
+          "height": 42,
+          "right": 189.390625,
+          "bottom": 477.984375
+        },
+        "location": {
+          "x": 32,
+          "y": 497.984375,
+          "width": 92.609375,
+          "height": 42,
+          "right": 124.609375,
+          "bottom": 539.984375
+        },
+        "control": {
+          "x": 242,
+          "y": 493.984375,
+          "width": 46,
+          "height": 46,
+          "right": 288,
+          "bottom": 539.984375
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 320,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": []
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 480
+      },
+      "hero": {
+        "x": 10,
+        "y": 75,
+        "width": 300,
+        "height": 395,
+        "right": 310,
+        "bottom": 470
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 75,
+        "right": 320,
+        "bottom": 75
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 28,
+          "y": 111,
+          "width": 240.21875,
+          "height": 36,
+          "right": 268.21875,
+          "bottom": 147
+        },
+        "title": {
+          "x": 28,
+          "y": 159,
+          "width": 264,
+          "height": 86,
+          "right": 292,
+          "bottom": 245
+        },
+        "copy": {
+          "x": 28,
+          "y": 261,
+          "width": 264,
+          "height": 75,
+          "right": 292,
+          "bottom": 336
+        },
+        "cta": {
+          "x": 28,
+          "y": 348,
+          "width": 161.390625,
+          "height": 42,
+          "right": 189.390625,
+          "bottom": 390
+        },
+        "location": {
+          "x": 32,
+          "y": 410,
+          "width": 92.609375,
+          "height": 42,
+          "right": 124.609375,
+          "bottom": 452
+        },
+        "control": {
+          "x": 242,
+          "y": 406,
+          "width": 46,
+          "height": 46,
+          "right": 288,
+          "bottom": 452
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 320,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": [],
+      "screenshot": "hero-viewport-webkit-320x480.png"
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "hero": {
+        "x": 16,
+        "y": 75,
+        "width": 812,
+        "height": 299,
+        "right": 828,
+        "bottom": 374
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 844,
+        "height": 75,
+        "right": 844,
+        "bottom": 75
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 54.15625,
+          "y": 166,
+          "width": 248.984375,
+          "height": 36,
+          "right": 303.140625,
+          "bottom": 202
+        },
+        "title": {
+          "x": 54.15625,
+          "y": 214,
+          "width": 372.78125,
+          "height": 96,
+          "right": 426.9375,
+          "bottom": 310
+        },
+        "copy": {
+          "x": 450.9375,
+          "y": 166,
+          "width": 338.90625,
+          "height": 69,
+          "right": 789.84375,
+          "bottom": 235
+        },
+        "cta": {
+          "x": 450.9375,
+          "y": 276,
+          "width": 144,
+          "height": 34,
+          "right": 594.9375,
+          "bottom": 310
+        },
+        "location": {
+          "x": 54.15625,
+          "y": 335,
+          "width": 218.578125,
+          "height": 23,
+          "right": 272.734375,
+          "bottom": 358
+        },
+        "control": {
+          "x": 662.203125,
+          "y": 314,
+          "width": 127.640625,
+          "height": 45,
+          "right": 789.84375,
+          "bottom": 359
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 844,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": [],
+      "screenshot": "hero-viewport-webkit-844x390.png"
+    },
+    {
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "hero": {
+        "x": 10,
+        "y": 75,
+        "width": 548,
+        "height": 235,
+        "right": 558,
+        "bottom": 310
+      },
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 568,
+        "height": 75,
+        "right": 568,
+        "bottom": 75
+      },
+      "boxes": {
+        "eyebrow": {
+          "x": 32,
+          "y": 131,
+          "width": 240.21875,
+          "height": 37.5,
+          "right": 272.21875,
+          "bottom": 168.5
+        },
+        "title": {
+          "x": 32,
+          "y": 181.25,
+          "width": 251.421875,
+          "height": 64,
+          "right": 283.421875,
+          "bottom": 245.25
+        },
+        "copy": {
+          "x": 307.421875,
+          "y": 131,
+          "width": 228.578125,
+          "height": 69,
+          "right": 536,
+          "bottom": 200
+        },
+        "cta": {
+          "x": 307.421875,
+          "y": 212,
+          "width": 144,
+          "height": 34,
+          "right": 451.421875,
+          "bottom": 246
+        },
+        "location": {
+          "x": 32,
+          "y": 252,
+          "width": 92.609375,
+          "height": 42,
+          "right": 124.609375,
+          "bottom": 294
+        },
+        "control": {
+          "x": 490,
+          "y": 249,
+          "width": 46,
+          "height": 46,
+          "right": 536,
+          "bottom": 295
+        }
+      },
+      "failures": [],
+      "textOverflow": [],
+      "bodyWidth": 568,
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "error": null
+      },
+      "status": 200,
+      "pageErrors": [],
+      "screenshot": "hero-viewport-webkit-568x320.png"
+    }
+  ],
+  "browserVersion": "26.0",
+  "summary": {
+    "layouts": 8,
+    "failures": 0
+  },
+  "visualReview": {
+    "status": "passed",
+    "screenshotsInspected": [
+      "hero-viewport-webkit-1536x690.png",
+      "hero-viewport-webkit-320x480.png",
+      "hero-viewport-webkit-568x320.png"
+    ],
+    "findings": "Complete hero remains within first viewport at all eight sizes. Inspected desktop, small portrait and compact landscape renderings: title, body, CTA, location and film control remain legible and separated. Rounded eyebrow backplate maintains contrast."
+  },
+  "finishedAt": "2026-10-24T16:14:32.478133+00:00"
+}

@@ -1,0 +1,128 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "name": "desktop baseline",
+      "result": {
+        "active": "false",
+        "frame": "0",
+        "image": "none",
+        "cursor": "auto",
+        "tabindex": null
+      }
+    },
+    {
+      "name": "desktop photo hover",
+      "result": {
+        "active": "true",
+        "frame": "1",
+        "image": "matrix(1.055, 0, 0, 1.055, 3, -3)",
+        "cursor": "auto",
+        "tabindex": null
+      }
+    },
+    {
+      "name": "desktop pointer leave",
+      "result": {
+        "active": "false",
+        "frame": "0",
+        "image": "none",
+        "cursor": "auto",
+        "tabindex": null
+      }
+    },
+    {
+      "name": "keyboard link focus",
+      "result": {
+        "photo": {
+          "active": "true",
+          "frame": "1",
+          "image": "matrix(1.055, 0, 0, 1.055, 3, -3)",
+          "cursor": "auto",
+          "tabindex": null
+        },
+        "focused": true,
+        "focusVisible": true
+      }
+    },
+    {
+      "name": "save-button focus does not pretend to open photo",
+      "result": {
+        "active": "false",
+        "frame": "0",
+        "image": "none",
+        "cursor": "auto",
+        "tabindex": null
+      }
+    },
+    {
+      "name": "dynamic atlas photo",
+      "result": {
+        "state": {
+          "active": "true",
+          "frame": "1",
+          "image": "matrix(1.055, 0, 0, 1.055, 3, -3)",
+          "cursor": "auto",
+          "tabindex": null
+        },
+        "source": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=3840&q=90"
+      }
+    },
+    {
+      "name": "typographic Gaya excluded",
+      "result": null
+    },
+    {
+      "name": "collection photo hover",
+      "result": {
+        "active": "true",
+        "frame": "1",
+        "image": "matrix(1.055, 0, 0, 1.055, 3, -3)",
+        "cursor": "auto",
+        "tabindex": null
+      }
+    },
+    {
+      "name": "client navigation registers new gallery",
+      "result": {
+        "url": "http://127.0.0.1:3108/journeys/kashi-before-the-world-wakes",
+        "gallery": 1,
+        "heroExcluded": 0
+      }
+    },
+    {
+      "name": "desktop overflow",
+      "result": {
+        "body": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "reduced motion static hover",
+      "result": {
+        "active": "true",
+        "frame": "1",
+        "image": "none",
+        "cursor": "auto",
+        "tabindex": null
+      }
+    },
+    {
+      "name": "touch nonlinked image has no sticky hover",
+      "result": {
+        "active": "false",
+        "frame": "0",
+        "image": "none",
+        "cursor": "auto",
+        "tabindex": null
+      }
+    },
+    {
+      "name": "mobile overflow",
+      "result": {
+        "body": 390,
+        "viewport": 390
+      }
+    }
+  ]
+}

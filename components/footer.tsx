@@ -5,7 +5,7 @@ import { brand } from "@/content/travel";
 
 export function Footer() {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" id="contact">
       <div className="page-width">
         <div className="footer-main">
           <div>

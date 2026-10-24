@@ -1,0 +1,59 @@
+/* The inset line belongs to the photograph; controls keep their own hit areas. */
+[data-photo-motion="ready"] {
+  --photo-frame-opacity: 0;
+  --photo-frame-inset: 13px;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background-color: var(--paper-deep);
+}
+
+[data-photo-motion="ready"]::before {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  inset: var(--photo-frame-inset);
+  border: 1px solid oklch(96% .018 86 / .82);
+  border-radius: calc(var(--radius-photo) - var(--photo-frame-inset));
+  box-shadow: 0 0 0 5px oklch(23% .035 155 / .09);
+  opacity: var(--photo-frame-opacity);
+  pointer-events: none;
+}
+
+html body [data-photo-motion="ready"] img[data-photo-image] {
+  /* Framer owns this transform, including interruption and keyboard focus. */
+  transform: none;
+  transition: none;
+}
+
+.chapter-photo[data-photo-motion]::before {
+  border-radius: 147px 147px 19px 19px;
+}
+
+[data-photo-motion] :is(.journey-tag, .collection-image-tag) {
+  z-index: 4;
+  border-radius: var(--radius-pill);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+[data-photo-active="true"] :is(.journey-tag, .collection-image-tag) {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+[data-photo-motion] :is(.save-button, .collection-save) {
+  z-index: 5;
+}
+
+@media (max-width: 700px) {
+  [data-photo-motion="ready"] { --photo-frame-inset: 10px; }
+  .chapter-photo[data-photo-motion]::before { border-radius: 110px 110px 18px 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html body [data-photo-motion="ready"] img[data-photo-image],
+  [data-photo-motion] :is(.journey-tag, .collection-image-tag) {
+    transform: none !important;
+  }
+}

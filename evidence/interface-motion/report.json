@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "name": "no-preference 1440x900: hero entrance",
+      "passed": true,
+      "detail": {
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "name": "no-preference 1440x900: entrance stays inside the hero without control overlap",
+      "passed": true
+    },
+    {
+      "name": "no-preference 1440x900: button feedback",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "transform": "matrix(1, 0, 0, 1, 0, -3)",
+        "shadow": "lab(12.3642 -12.6606 6.51577 / 0.16) 0px 8px 20px 0px",
+        "y": -3
+      }
+    },
+    {
+      "name": "no-preference 1440x900: hover resets",
+      "passed": true
+    },
+    {
+      "name": "no-preference 1440x900: keyboard feedback",
+      "passed": true
+    },
+    {
+      "name": "reduce 1440x900: hero entrance",
+      "passed": true,
+      "detail": {
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "name": "reduce 1440x900: entrance stays inside the hero without control overlap",
+      "passed": true
+    },
+    {
+      "name": "reduce 1440x900: button feedback",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "transform": "none",
+        "shadow": "lab(12.3642 -12.6606 6.51577 / 0.16) 0px 8px 20px 0px",
+        "y": 0
+      }
+    },
+    {
+      "name": "reduce 1440x900: hover resets",
+      "passed": true
+    },
+    {
+      "name": "reduce 1440x900: keyboard feedback",
+      "passed": true
+    },
+    {
+      "name": "no-preference 320x480: hero entrance",
+      "passed": true,
+      "detail": {
+        "opacity": "1",
+        "transform": "none"
+      }
+    },
+    {
+      "name": "no-preference 320x480: entrance stays inside the hero without control overlap",
+      "passed": true
+    },
+    {
+      "name": "no-preference 320x480: button feedback",
+      "passed": true,
+      "detail": {
+        "active": true,
+        "transform": "matrix(1, 0, 0, 1, 0, -3)",
+        "shadow": "lab(12.3642 -12.6606 6.51577 / 0.16) 0px 8px 20px 0px",
+        "y": -3
+      }
+    },
+    {
+      "name": "no-preference 320x480: hover resets",
+      "passed": true
+    },
+    {
+      "name": "no-preference 320x480: keyboard feedback",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

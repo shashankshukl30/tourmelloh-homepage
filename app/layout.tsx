@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { brand } from "@/content/travel";
+import { InterfaceInteractions } from "@/components/interface-interactions";
+import { PhotoInteractions } from "@/components/photo-interactions";
 import "./globals.css";
 
 const newsreader = localFont({
@@ -71,7 +73,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body>{children}</body>
+      <body>{children}<InterfaceInteractions /><PhotoInteractions /></body>
     </html>
   );
 }

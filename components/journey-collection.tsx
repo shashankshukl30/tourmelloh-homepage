@@ -14,6 +14,14 @@ import { imageNames } from "@/components/destinations";
 import { Reveal } from "@/components/reveal";
 import { useShortlist } from "@/hooks/use-shortlist";
 
+const photoDescriptions: Record<string, string> = {
+  varanasi: "The riverfront ghats of Varanasi",
+  ayodhya: "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+  bodhgaya: "The Mahabodhi Temple spire in Bodh Gaya",
+  agra: "The Taj Mahal seen through an arched doorway in Agra",
+  lucknow: "The Bara Imambara complex in Lucknow",
+};
+
 export function JourneyCollection() {
   const [category, setCategory] = useState<JourneyCategory>("All journeys");
   const [destination, setDestination] = useState("");
@@ -125,7 +133,7 @@ export function JourneyCollection() {
                 >
                   <Image
                     src={`/images/${imageNames[journey.image]}.webp`}
-                    alt={`${journey.image === "varanasi" ? "The riverfront ghats of Varanasi" : journey.image === "ayodhya" ? "Ram Mandir in Ayodhya" : journey.image === "bodhgaya" ? "Mahabodhi Temple in Bodh Gaya" : "The Taj Mahal in Agra"}`}
+                    alt={photoDescriptions[journey.image]}
                     fill
                     sizes="(max-width: 700px) 90vw, 44vw"
                   />

@@ -1,13 +1,21 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { ArrowUpRight, Menu, Search, X } from "lucide-react";
+import { LayoutGroup, motion, useReducedMotion } from "framer-motion";
 import { brand } from "@/content/travel";
 
 if (typeof window !== "undefined") window.history.scrollRestoration = "manual";
+const MotionLink = motion.create(Link);
+const links = [
+  { name: "Explore India", href: "/#destinations" },
+  { name: "Tours & routes", href: "/journeys" },
+  { name: "Varanasi guide", href: "/destinations/varanasi" },
+  { name: "Get in touch", href: "/#contact" },
+];
 
 export function Emblem({ className = "" }: { className?: string }) {
   return (
@@ -33,8 +41,12 @@ export function Navigation({
   tone?: "overlay" | "paper";
 }) {
   const pathname = usePathname();
+  const reduced = useReducedMotion();
+  const groupId = useId();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [hovered, setHovered] = useState<string | null>(null);
+  const [focused, setFocused] = useState<string | null>(null);
   const toggle = useRef<HTMLButtonElement>(null);
   const menu = useRef<HTMLElement>(null);
   useEffect(() => {
@@ -79,12 +91,10 @@ export function Navigation({
       document.removeEventListener("keydown", onKey);
     };
   }, [open]);
-  const links = [
-    { name: "Destinations", href: "/#destinations" },
-    { name: "Our journeys", href: "/journeys" },
-    { name: "The Varanasi edit", href: "/destinations/varanasi" },
-    { name: "Travel with us", href: "/#plan" },
-  ];
+  const currentLink = links.find((link) => !link.href.includes("#") &&
+    (pathname === link.href || pathname.startsWith(`${link.href}/`)))?.href;
+  const highlighted = hovered ?? focused ?? currentLink;
+  const travel = reduced ? { duration: 0 } : { type: "spring" as const, stiffness: 420, damping: 34 };
   const solid = tone === "paper" || scrolled || open;
   return (
     <>
@@ -126,53 +136,77 @@ export function Navigation({
               unoptimized
             />
           </Link>
-          <nav className="desktop-nav" aria-label="Main navigation">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                aria-current={pathname === link.href ? "page" : undefined}
-              >
-                {link.name}
-              </Link>
-            ))}
-          </nav>
-          <Link href="/search" className="nav-search" aria-label="Search tours and destinations"><Search size={20} /></Link>
-          <Link href="/#plan" className="header-cta" style={{ color: solid ? "var(--paper)" : "var(--ink)" }}>
-            Plan your journey <ArrowUpRight size={16} />
-          </Link>
-          <button
+          <LayoutGroup id={groupId}>
+            <nav className="desktop-nav" aria-label="Main navigation" onPointerLeave={() => setHovered(null)}>
+              {links.map((link) => (
+                <MotionLink key={link.href} href={link.href} className="nav-text-link"
+                  aria-current={pathname === link.href ? "page" : undefined}
+                  data-highlighted={highlighted === link.href}
+                  onPointerEnter={(event) => { if (event.pointerType !== "touch") setHovered(link.href); }}
+                  onFocus={() => { setHovered(null); setFocused(link.href); }}
+                  onBlur={() => setFocused(null)}
+                  whileTap={reduced ? undefined : { scale: .97 }}>
+                  {highlighted === link.href && <motion.span className="nav-backplate" layoutId="navigation-backplate"
+                    aria-hidden="true" transition={travel} style={{ borderRadius: 999 }} />}
+                  <span className="nav-link-label">{link.name}</span>
+                </MotionLink>
+              ))}
+            </nav>
+          </LayoutGroup>
+          <MotionLink href="/search" className="nav-search" aria-label="Search tours and destinations"
+            whileHover={reduced ? undefined : { scale: 1.07 }} whileTap={reduced ? undefined : { scale: .94 }} transition={travel}>
+            <Search size={20} />
+          </MotionLink>
+          <MotionLink href="/#plan" className="header-cta" style={{ color: solid ? "var(--paper)" : "var(--ink)" }}
+            initial="rest" whileHover="hover" whileFocus="hover" whileTap={reduced ? undefined : { scale: .98 }}>
+            <motion.span className="nav-cta-fill" aria-hidden="true"
+              variants={{ rest: { y: "105%" }, hover: { y: 0 } }} transition={reduced ? { duration: 0 } : { duration: .28, ease: [.2, .7, .2, 1] }} />
+            <span className="nav-cta-label">Plan your journey</span>
+            <motion.span className="nav-cta-arrow" variants={{ rest: { x: 0, y: 0 }, hover: { x: reduced ? 0 : 2, y: reduced ? 0 : -2 } }} transition={travel}>
+              <ArrowUpRight size={17} />
+            </motion.span>
+          </MotionLink>
+          <motion.button
             className="menu-toggle"
             ref={toggle}
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             aria-controls="mobile-navigation"
             onClick={() => setOpen((value) => !value)}
+            whileTap={reduced ? undefined : { scale: .92 }}
           >
             {open ? <X /> : <Menu />}
-          </button>
+          </motion.button>
         </div>
       </header>
       {open && (
-        <nav
+        <motion.nav
           ref={menu}
           id="mobile-navigation"
           className="mobile-nav"
           aria-label="Mobile navigation"
+          initial={reduced ? false : { opacity: 0, y: -8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: reduced ? 0 : .22 }}
         >
           {" "}
           <span className="eyebrow">YOUR JOURNEY STARTS HERE</span>
           {links.map((link, i) => (
-            <Link
+            <MotionLink
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
               aria-current={pathname === link.href ? "page" : undefined}
+              initial={reduced ? false : { opacity: 0, x: -12 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: reduced ? 0 : .32, delay: reduced ? 0 : .04 * i }}
+              whileHover={reduced ? undefined : { x: 5 }}
+              whileTap={reduced ? undefined : { scale: .98 }}
             >
               <span>0{i + 1}</span>
               {link.name}
               <ArrowUpRight />
-            </Link>
+            </MotionLink>
           ))}
           <Link
             href="/#plan"
@@ -182,7 +216,7 @@ export function Navigation({
             Plan your journey <ArrowUpRight />
           </Link>
           <p>India, with time to feel it.</p>
-        </nav>
+        </motion.nav>
       )}
     </>
   );

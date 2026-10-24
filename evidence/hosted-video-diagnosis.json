@@ -1,0 +1,157 @@
+{
+  "at": "2026-10-24T16:08:13.748771+00:00",
+  "deployment_commit": "f76a50b",
+  "browser": "installed Chrome via Playwright, isolated contexts",
+  "target": "Hosted client-share deployment; authorization URL omitted",
+  "checks": [
+    {
+      "name": "Fresh no-preference autoplay 1440",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-desktop.mp4",
+        "paused": false,
+        "time": 2.6872,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 68
+      }
+    },
+    {
+      "name": "Fresh no-preference autoplay 390",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": false,
+        "time": 11.9516,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 292
+      }
+    },
+    {
+      "name": "Fresh reduced-motion stays paused",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": true,
+        "time": 0,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 0
+      }
+    },
+    {
+      "name": "Explicit play works while reduced motion is enabled",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": false,
+        "time": 0.2202,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 10
+      }
+    },
+    {
+      "name": "Preference opt-out preserves paused state",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": true,
+        "time": 0.2429,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 10
+      }
+    },
+    {
+      "name": "Reload with no-preference autoplays",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": false,
+        "time": 0.8381,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 25
+      }
+    },
+    {
+      "name": "Enabling reduced motion pauses playing film",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": true,
+        "time": 0.8926,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 26
+      }
+    },
+    {
+      "name": "Disabling reduced motion does not silently restart film",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": true,
+        "time": 0.8926,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 26
+      }
+    },
+    {
+      "name": "Manual play after preference toggle works",
+      "passed": true,
+      "detail": {
+        "sourceFile": "varanasi-mobile.mp4",
+        "paused": false,
+        "time": 0.9199,
+        "muted": true,
+        "loop": true,
+        "readyState": 4,
+        "error": null,
+        "decodedFrames": 26
+      }
+    }
+  ],
+  "status": "pass",
+  "diagnosis": "Hosted timeout is a harness assumption error. The listener intentionally pauses on reduced-motion activation and does not auto-resume when the preference is disabled. Fresh no-preference load and explicit user play both succeed; no autoplay policy rejection or component defect was observed.",
+  "component_modified": false,
+  "completed_at": "2026-10-24T16:09:13.970914+00:00",
+  "harness_changes": {
+    "file": ".vercel/check-hosted-cinematic.cjs",
+    "changes": [
+      "Reload after changing reduced motion to no-preference before checking autoplay.",
+      "Use the third waitForFunction argument for timeout options.",
+      "Close the launched browser in a finally block on both success and failure."
+    ],
+    "syntax_check": "node --check passed",
+    "failure_cleanup_probe": "Injected newContext failure in an isolated VM with stubbed dependencies: browser.close called, incomplete report written, error caught, exit code1."
+  },
+  "cleanup": {
+    "scratch_created": false,
+    "browser_contexts_closed": true,
+    "retained": "Sanitized diagnosis JSON and requested harness modification. No disposable files created.",
+    "free_bytes": {
+      "C": 75866411008,
+      "D": 36536262656
+    }
+  }
+}

@@ -33,6 +33,7 @@ All six content references and six design references are documented under `resea
 Current photography and film permissions are recorded privately in `evidence/media-upgrade.json` and `evidence/video-sources.json`. All displayed media permits use without visible attribution; retired attribution-required images are archived locally outside the public app and Git uploads. Licensed font packages carry their OFL files.
 
 The hero uses separate desktop/portrait H.264 films with a one-second loop dissolve, a real poster, a pause/play control and reduced-motion support. The source original and rebuild recipe remain local under ignored `research/media/`.
+The complete hero fits the viewport below the navigation, including short laptop and phone landscape layouts. Navigation has an animated rounded backplate; buttons, photo frames and caption surfaces respond to pointer and keyboard use. The hero entrance and section reveals use Framer Motion. Reduced-motion mode keeps the same content and controls without displacement or automatic film playback.
 Tour research, transfer-estimate assumptions and source references are in `research/tour-upgrade.json`. The routes are proposals, not confirmed product inventory.
 
 ## Checks
@@ -45,6 +46,7 @@ python scripts/check-responsive-matrix.py
 ```
 
 Browser evidence and review reports are retained under `evidence`.
+The final interaction revision is in `evidence/interaction-final`, with dedicated viewport, navigation, button and photo-motion checks alongside it.
 The full preview check covers all fourteen routes at four widths, accessible controls,
 shortlist persistence, route-aware planning, downloadable briefs, search, destination selection, video controls and a branded 404. The wider layout matrix covers fifteen widths from 320px to 1920px.
 Development filesystem caching is disabled because this Next.js version retained

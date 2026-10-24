@@ -1,0 +1,506 @@
+{
+  "browser": "WebKit",
+  "startedAt": "2026-10-24T16:14:18.931202+00:00",
+  "layouts": [
+    {
+      "width": 1024,
+      "bodyWidth": 1024,
+      "boxes": [
+        {
+          "className": "brand",
+          "x": 51.203125,
+          "y": 24,
+          "width": 165,
+          "height": 48,
+          "right": 216.203125,
+          "bottom": 72
+        },
+        {
+          "className": "desktop-nav",
+          "x": 235.671875,
+          "y": 25,
+          "width": 471.359375,
+          "height": 46,
+          "right": 707.03125,
+          "bottom": 71
+        },
+        {
+          "className": "nav-search",
+          "x": 726.5,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 770.5,
+          "bottom": 70
+        },
+        {
+          "className": "header-cta",
+          "x": 789.96875,
+          "y": 25,
+          "width": 182.796875,
+          "height": 46,
+          "right": 972.765625,
+          "bottom": 71
+        }
+      ],
+      "overlaps": [],
+      "outside": [],
+      "labels": [
+        {
+          "text": "Explore India",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Tours & routes",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Varanasi guide",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Get in touch",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "width": 1150,
+      "bodyWidth": 1150,
+      "boxes": [
+        {
+          "className": "brand",
+          "x": 57.5,
+          "y": 24,
+          "width": 165,
+          "height": 48,
+          "right": 222.5,
+          "bottom": 72
+        },
+        {
+          "className": "desktop-nav",
+          "x": 279.78125,
+          "y": 25,
+          "width": 471.359375,
+          "height": 46,
+          "right": 751.140625,
+          "bottom": 71
+        },
+        {
+          "className": "nav-search",
+          "x": 808.421875,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 852.421875,
+          "bottom": 70
+        },
+        {
+          "className": "header-cta",
+          "x": 909.703125,
+          "y": 25,
+          "width": 182.796875,
+          "height": 46,
+          "right": 1092.5,
+          "bottom": 71
+        }
+      ],
+      "overlaps": [],
+      "outside": [],
+      "labels": [
+        {
+          "text": "Explore India",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Tours & routes",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Varanasi guide",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Get in touch",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "width": 1440,
+      "bodyWidth": 1440,
+      "boxes": [
+        {
+          "className": "brand",
+          "x": 72,
+          "y": 24,
+          "width": 205,
+          "height": 48,
+          "right": 277,
+          "bottom": 72
+        },
+        {
+          "className": "desktop-nav",
+          "x": 388.9375,
+          "y": 25,
+          "width": 509.359375,
+          "height": 46,
+          "right": 898.296875,
+          "bottom": 71
+        },
+        {
+          "className": "nav-search",
+          "x": 1010.234375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 1054.234375,
+          "bottom": 70
+        },
+        {
+          "className": "header-cta",
+          "x": 1166.171875,
+          "y": 25,
+          "width": 201.796875,
+          "height": 46,
+          "right": 1367.96875,
+          "bottom": 71
+        }
+      ],
+      "overlaps": [],
+      "outside": [],
+      "labels": [
+        {
+          "text": "Explore India",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Tours & routes",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Varanasi guide",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Get in touch",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "bodyWidth": 390,
+      "boxes": [
+        {
+          "className": "brand",
+          "x": 22,
+          "y": 16.5,
+          "width": 180,
+          "height": 42,
+          "right": 202,
+          "bottom": 58.5
+        },
+        {
+          "className": "nav-search",
+          "x": 280,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 324,
+          "bottom": 59.5
+        },
+        {
+          "className": "menu-toggle",
+          "x": 332,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 376,
+          "bottom": 59.5
+        }
+      ],
+      "overlaps": [],
+      "outside": [],
+      "labels": [
+        {
+          "text": "Explore India",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Tours & routes",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Varanasi guide",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Get in touch",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        }
+      ],
+      "pageErrors": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "Header has no overlaps or horizontal overflow",
+      "width": 1024,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Contact destination exists",
+      "width": 1024,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All four navigation labels visible at 16px",
+      "width": 1024,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rounded backplate visibly travels between labels",
+      "width": 1024,
+      "passed": true,
+      "detail": {
+        "start": {
+          "x": 235.671875,
+          "y": 25,
+          "width": 113.3125,
+          "height": 46
+        },
+        "middle": {
+          "x": 463.26708984375,
+          "y": 25,
+          "width": 109.95599365234375,
+          "height": 46
+        },
+        "end": {
+          "x": 599.078125,
+          "y": 25,
+          "width": 107.953125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "name": "Hover backplate settles on hovered label",
+      "width": 1024,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard focus receives navigation highlight",
+      "width": 1024,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CTA hover fill reaches button frame",
+      "width": 1024,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Header has no overlaps or horizontal overflow",
+      "width": 1150,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Contact destination exists",
+      "width": 1150,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All four navigation labels visible at 16px",
+      "width": 1150,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rounded backplate visibly travels between labels",
+      "width": 1150,
+      "passed": true,
+      "detail": {
+        "start": {
+          "x": 279.78125,
+          "y": 25,
+          "width": 113.3125,
+          "height": 46
+        },
+        "middle": {
+          "x": 465.4707336425781,
+          "y": 25,
+          "width": 110.57394409179688,
+          "height": 46
+        },
+        "end": {
+          "x": 643.1875,
+          "y": 25,
+          "width": 107.953125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "name": "Hover backplate settles on hovered label",
+      "width": 1150,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard focus receives navigation highlight",
+      "width": 1150,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CTA hover fill reaches button frame",
+      "width": 1150,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Header has no overlaps or horizontal overflow",
+      "width": 1440,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Contact destination exists",
+      "width": 1440,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All four navigation labels visible at 16px",
+      "width": 1440,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Rounded backplate visibly travels between labels",
+      "width": 1440,
+      "passed": true,
+      "detail": {
+        "start": {
+          "x": 388.9375,
+          "y": 25,
+          "width": 121.3125,
+          "height": 46
+        },
+        "middle": {
+          "x": 482.486572265625,
+          "y": 25,
+          "width": 120.03790283203125,
+          "height": 46
+        },
+        "end": {
+          "x": 782.34375,
+          "y": 25,
+          "width": 115.953125,
+          "height": 46
+        }
+      }
+    },
+    {
+      "name": "Hover backplate settles on hovered label",
+      "width": 1440,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Keyboard focus receives navigation highlight",
+      "width": 1440,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CTA hover fill reaches button frame",
+      "width": 1440,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Header has no overlaps or horizontal overflow",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Contact destination exists",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu shows new labels",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu locks page scrolling",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape closes mobile menu and restores focus",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Renamed tour link opens collection and closes menu",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced-motion menu opens without translated entrance",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "summary": {
+    "layouts": 4,
+    "interactions": 28,
+    "failures": 0,
+    "pageErrors": 0
+  },
+  "visualReview": {
+    "status": "passed",
+    "screenshotsInspected": [
+      "navigation-motion-webkit-1150.png",
+      "navigation-motion-webkit-390.png"
+    ],
+    "findings": "Desktop labels and moving rounded backplate fit without collisions at 1024, 1150 and 1440. Mobile menu has clear labels, visible focus/hover surfaces and comfortable touch targets. Escape, collection link and reduced-motion behavior verified."
+  }
+}

@@ -78,7 +78,7 @@ function check(name, passed, detail) {
   await page.keyboard.press('Escape');
   check('Mobile menu Escape restores trigger focus', await page.getByRole('button', { name: 'Open menu', exact: true }).evaluate(element => document.activeElement === element));
   await page.getByRole('button', { name: 'Open menu', exact: true }).click();
-  await page.locator('#mobile-navigation').getByRole('link', { name: 'Our journeys' }).click();
+  await page.locator('#mobile-navigation').getByRole('link', { name: 'Tours & routes' }).click();
   await page.waitForURL('**/journeys');
   check('Mobile menu navigates to collection', !await page.locator('#mobile-navigation').count() && await page.locator('.collection-page').isVisible());
   await page.getByRole('link', { name: 'Explore Kashi, before the world wakes', exact: true }).click();

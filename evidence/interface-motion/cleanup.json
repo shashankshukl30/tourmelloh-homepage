@@ -1,0 +1,32 @@
+﻿{
+    "scope":  "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\interface-motion",
+    "before":  [
+                   {
+                       "Name":  "C",
+                       "Free":  75779223552
+                   },
+                   {
+                       "Name":  "D",
+                       "Free":  36497235968
+                   }
+               ],
+    "removed":  [
+                    {
+                        "path":  "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\interface-motion\\reduce-button.png",
+                        "bytes":  473380,
+                        "sha256":  "DD07DC09073AE61CE9B38499485427539C496E775773C855C8CD1536DB0C187D",
+                        "retained":  "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\interface-motion\\reduce-1440-button.png",
+                        "reason":  "Duplicate test screenshot, exact size and SHA256 match to current named evidence."
+                    }
+                ],
+    "after":  [
+                  {
+                      "Name":  "C",
+                      "Free":  75779223552
+                  },
+                  {
+                      "Name":  "D",
+                      "Free":  36497711104
+                  }
+              ]
+}

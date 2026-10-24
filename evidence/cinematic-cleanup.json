@@ -1,13 +1,13 @@
 {
-  "recorded_at": "2026-10-24T16:04:17.955766+00:00",
+  "recorded_at": "2026-10-24T16:18:16.921720+00:00",
   "scope": "D:\\Digiocular\\Websites\\india-travel-homepage",
   "revision_start_free_bytes": {
     "C": 76012974080,
     "D": 36805107712
   },
   "after_free_bytes": {
-    "C": 75905998848,
-    "D": 36614111232
+    "C": 75770880000,
+    "D": 36497268736
   },
   "removed": [
     {
