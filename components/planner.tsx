@@ -8,22 +8,26 @@ import {
   ChevronDown,
   Copy,
   RotateCcw,
+  X,
 } from "lucide-react";
-import { brand, destinations } from "@/content/travel";
+import { brand, destinations, journeys } from "@/content/travel";
 
 type Brief = {
   destination: string;
   month: string;
   party: string;
   interests: string;
+  journey?: { title: string; route: string; duration: string };
 };
 
 export function Planner({
   selectedDestination,
   requestId,
+  selectedJourney,
 }: {
   selectedDestination: string;
   requestId: number;
+  selectedJourney?: (typeof journeys)[number];
 }) {
   const [destination, setDestination] = useState(
     selectedDestination || "Varanasi",
@@ -33,19 +37,21 @@ export function Planner({
   const [interests, setInterests] = useState("");
   const [brief, setBrief] = useState<Brief | null>(null);
   const [status, setStatus] = useState("");
+  const [chosenJourney, setChosenJourney] = useState(selectedJourney);
   const result = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (selectedDestination) {
       setDestination(selectedDestination);
       setBrief(null);
+      setChosenJourney(selectedJourney);
     }
-  }, [selectedDestination, requestId]);
+  }, [selectedDestination, requestId, selectedJourney]);
   useEffect(() => {
     if (brief) result.current?.focus();
   }, [brief]);
   function briefText() {
     return brief
-      ? `MY TOURMELLOH JOURNEY — PLANNING BRIEF\n\nDestination: ${brief.destination}\nWhen: ${brief.month}\nTravelling: ${brief.party}\nIdeas and preferences: ${brief.interests || "Open to suggestions"}\n\nPersonal planning draft. This is not a booking or confirmed quote. No enquiry has been sent.`
+      ? `MY TOURMELLOH JOURNEY — PLANNING BRIEF\n\n${brief.journey ? `Suggested journey: ${brief.journey.title}\nRoute: ${brief.journey.route}\nDuration: ${brief.journey.duration}\n\n` : ""}Destination: ${brief.destination}\nWhen: ${brief.month}\nTravelling: ${brief.party}\nIdeas and preferences: ${brief.interests || "Open to suggestions"}\n\nPersonal planning draft. This is not a booking or confirmed quote. No enquiry has been sent.`
       : "";
   }
   async function copy() {
@@ -91,7 +97,8 @@ export function Planner({
             The things you don’t want to miss.
           </p>
           <a className="planner-phone" href={brand.phoneHref}>
-            <span>Prefer to talk?</span> {brand.phone} <ArrowUpRight size={16} />
+            <span>Prefer to talk?</span> {brand.phone}{" "}
+            <ArrowUpRight size={16} />
           </a>
           <div className="planner-signoff">
             <span className="small-sun">✳</span>
@@ -115,6 +122,17 @@ export function Planner({
                 taking shape.
               </h3>
               <dl>
+                {brief.journey && (
+                  <div>
+                    <dt>Your route idea</dt>
+                    <dd>
+                      {brief.journey.title}
+                      <small className="brief-journey-route">
+                        {brief.journey.route} · {brief.journey.duration}
+                      </small>
+                    </dd>
+                  </div>
+                )}
                 <div>
                   <dt>Start with</dt>
                   <dd>{brief.destination}</dd>
@@ -135,8 +153,8 @@ export function Planner({
                 )}
               </dl>
               <p className="preview-note">
-                This is your personal planning draft. In this homepage preview,
-                no enquiry is sent and no booking is made.
+                This is your personal planning draft. In this design preview, no
+                enquiry is sent and no booking is made.
               </p>
               <div className="brief-actions">
                 <button
@@ -176,17 +194,45 @@ export function Planner({
                   month,
                   party,
                   interests: interests.trim(),
+                  journey: chosenJourney
+                    ? {
+                        title: chosenJourney.title,
+                        route: chosenJourney.route,
+                        duration: chosenJourney.duration,
+                      }
+                    : undefined,
                 });
               }}
             >
               <span className="eyebrow">LET’S SKETCH OUT A JOURNEY</span>
               <h3>What’s calling you?</h3>
+              {chosenJourney && (
+                <div className="planner-chosen-journey">
+                  <div>
+                    <span className="eyebrow">YOUR CHOSEN JOURNEY</span>
+                    <strong>{chosenJourney.title}</strong>
+                    <small>
+                      {chosenJourney.route} · {chosenJourney.duration}
+                    </small>
+                  </div>
+                  <button
+                    type="button"
+                    aria-label="Remove chosen itinerary"
+                    onClick={() => setChosenJourney(undefined)}
+                  >
+                    <X size={17} />
+                  </button>
+                </div>
+              )}
               <label className="planner-field">
                 <span>I’d like to explore</span>
                 <div className="select-wrap">
                   <select
                     value={destination}
-                    onChange={(event) => setDestination(event.target.value)}
+                    onChange={(event) => {
+                      setDestination(event.target.value);
+                      setChosenJourney(undefined);
+                    }}
                   >
                     {destinations.map((place) => (
                       <option key={place.name}>{place.name}</option>
@@ -263,8 +309,8 @@ export function Planner({
                 Create my travel brief <ArrowUpRight size={19} />
               </button>
               <p className="preview-note">
-                Homepage preview · Create a personal brief to keep. No enquiry
-                is sent.
+                Design preview · Create a personal brief to keep. No enquiry is
+                sent.
               </p>
             </form>
           )}

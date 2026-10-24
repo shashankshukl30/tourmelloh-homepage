@@ -52,7 +52,7 @@ export function Destinations({
       <Reveal className="section-heading page-width">
         <div>
           <span className="eyebrow">
-            EIGHT PLACES. ENDLESS WAYS TO CONNECT.
+            EIGHT PLACES TO BEGIN.
           </span>
           <h2 id="destinations-heading">
             Where will India <em>take you?</em>

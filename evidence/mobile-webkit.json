@@ -1,0 +1,385 @@
+{
+  "browser": "WebKit",
+  "base": "http://127.0.0.1:3108",
+  "startedAt": "2026-10-24T15:38:04.601406+00:00",
+  "layouts": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "scrollSamples": 15,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "initialOffscreenLazyImages": [
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fagra-taj-mahal.webp&w=384&q=75",
+          "alt": "The Taj Mahal and its reflecting pool in Agra"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fprayagraj-yamuna.webp&w=384&q=75",
+          "alt": "A boat on the Yamuna at Prayagraj, with Naini bridge beyond"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Flucknow-rumi-darwaza.webp&w=384&q=75",
+          "alt": "Rumi Darwaza in Lucknow"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fbodhgaya-mahabodhi.webp&w=384&q=75",
+          "alt": "The Mahabodhi Temple in Bodh Gaya"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvrindavan-madan-mohan.webp&w=384&q=75",
+          "alt": "Madan Mohan Temple in Vrindavan"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fgaya-vishnupad.webp&w=384&q=75",
+          "alt": "Vishnupad Temple in Gaya"
+        }
+      ],
+      "railRevealCheck": {
+        "images": 17,
+        "allRevealed": true,
+        "overflowSamples": []
+      }
+    },
+    {
+      "route": "/journeys",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "scrollSamples": 7,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/destinations/varanasi",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "scrollSamples": 11,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "scrollSamples": 8,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "scrollSamples": 9,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "scrollSamples": 8,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "scrollSamples": 9,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "scrollSamples": 9,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": [],
+      "initialOffscreenLazyImages": [
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fprayagraj-yamuna.webp&w=384&q=75",
+          "alt": "A boat on the Yamuna at Prayagraj, with Naini bridge beyond"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Flucknow-rumi-darwaza.webp&w=384&q=75",
+          "alt": "Rumi Darwaza in Lucknow"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fbodhgaya-mahabodhi.webp&w=384&q=75",
+          "alt": "The Mahabodhi Temple in Bodh Gaya"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvrindavan-madan-mohan.webp&w=384&q=75",
+          "alt": "Madan Mohan Temple in Vrindavan"
+        },
+        {
+          "src": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fgaya-vishnupad.webp&w=384&q=75",
+          "alt": "Vishnupad Temple in Gaya"
+        }
+      ],
+      "railRevealCheck": {
+        "images": 17,
+        "allRevealed": true,
+        "overflowSamples": []
+      }
+    },
+    {
+      "route": "/journeys",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "scrollSamples": 4,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/destinations/varanasi",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "scrollSamples": 7,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "scrollSamples": 5,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "scrollSamples": 6,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "scrollSamples": 6,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "status": 200,
+      "scrollSamples": 6,
+      "overflow": [],
+      "missingImages": [],
+      "pageErrors": [],
+      "consoleErrors": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "menu Escape closes, unlocks and restores focus",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "menu link navigates and closes with scroll unlocked",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/kashi-before-the-world-wakes",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/kashi-before-the-world-wakes",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/along-the-sacred-rivers",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/along-the-sacred-rivers",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/the-road-to-bodh-gaya",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/the-road-to-bodh-gaya",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/awadh-agra-and-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/awadh-agra-and-braj",
+      "width": 390,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "menu Escape closes, unlocks and restores focus",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "menu link navigates and closes with scroll unlocked",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/kashi-before-the-world-wakes",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/kashi-before-the-world-wakes",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/along-the-sacred-rivers",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/along-the-sacred-rivers",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/the-road-to-bodh-gaya",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/the-road-to-bodh-gaya",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion changes active day: /journeys/awadh-agra-and-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tour accordion collapses active day: /journeys/awadh-agra-and-braj",
+      "width": 768,
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "visualInspection": {
+    "screenshots": [
+      "mobile-webkit-kashi.png",
+      "mobile-webkit-collection.png"
+    ],
+    "result": "Visually inspected both 390x844 screenshots. Typography, wrapping, spacing, buttons and collection filters are aligned and unclipped. No layout defect observed."
+  },
+  "browserVersion": "26.0",
+  "executable": "C:\\Users\\Shashank Shukla\\AppData\\Local\\ms-playwright\\webkit-2248\\Playwright.exe",
+  "summary": {
+    "layouts": 14,
+    "layoutFailures": 0,
+    "interactions": 20,
+    "interactionFailures": 0
+  },
+  "finishedAt": "2026-10-24T15:38:46.068784+00:00"
+}

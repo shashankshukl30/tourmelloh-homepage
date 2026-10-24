@@ -74,6 +74,18 @@ option { color: var(--ink); background: var(--paper); }
 .desktop-nav a { position: relative; padding-block: 15px; }
 .desktop-nav a::after { position: absolute; content: ""; height: 1px; background: currentColor; bottom: 10px; left: 0; right: 100%; transition: right .2s; }
 .desktop-nav a:hover::after { right: 0; }
+.desktop-nav a[aria-current="page"]::after { right: 0; background: var(--clay); }
+.journey-card h3 a:hover { color: var(--clay); }
+.journey-image-link { position: absolute; inset: 0; }
+.journey-image-link:focus-visible { outline-offset: -5px; outline-color: var(--paper); z-index: 2; }
+.journey-collection-link { margin-top: 27px; }
+.planner-chosen-journey { display: flex; justify-content: space-between; gap: 15px; padding: 18px 0; margin-top: 12px; border-bottom: 1px solid var(--line); }
+.planner-chosen-journey .eyebrow { font-size: 8px; color: var(--muted); }
+.planner-chosen-journey strong { font-family: var(--font-editorial); font-size: 24px; font-weight: 400; line-height: 1.1; display: block; margin-top: 8px; }
+.planner-chosen-journey small, .brief-journey-route { display: block; font-size: 10px; color: var(--muted); line-height: 1.7; margin-top: 8px; }
+.planner-chosen-journey button { width: 36px; height: 36px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.planner-chosen-journey button:hover { color: var(--clay); background: var(--paper-deep); }
+.planner-section .planner-chosen-journey button:focus-visible { outline-color: var(--clay); }
 .header-cta { display: flex; align-items: center; gap: 22px; font-size: 12px; font-weight: 500; padding: 13px 20px; background: var(--paper); color: var(--ink); border-radius: 2px; }
 .header-cta:hover { background: var(--paper-deep); }
 .is-solid .header-cta { background: var(--clay); color: var(--paper); }

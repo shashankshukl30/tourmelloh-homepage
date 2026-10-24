@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { brand } from "@/content/travel";
@@ -26,7 +27,12 @@ export function Emblem({ className = "" }: { className?: string }) {
   );
 }
 
-export function Navigation() {
+export function Navigation({
+  tone = "overlay",
+}: {
+  tone?: "overlay" | "paper";
+}) {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
@@ -37,7 +43,7 @@ export function Navigation() {
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [pathname]);
   useEffect(() => {
     if (!open) return;
     const prior = document.body.style.overflow;
@@ -74,23 +80,25 @@ export function Navigation() {
     };
   }, [open]);
   const links = [
-    { name: "Destinations", href: "#destinations" },
-    { name: "Our journeys", href: "#journeys" },
-    { name: "The Varanasi edit", href: "#varanasi" },
-    { name: "Our approach", href: "#approach" },
+    { name: "Destinations", href: "/#destinations" },
+    { name: "Our journeys", href: "/journeys" },
+    { name: "The Varanasi edit", href: "/destinations/varanasi" },
+    { name: "Our approach", href: "/#approach" },
   ];
+  const solid = tone === "paper" || scrolled || open;
   return (
     <>
       <a className="skip-link" href="#main">
         Skip to content
       </a>
-      <header className={`site-header ${scrolled || open ? "is-solid" : ""}`}>
+      <header className={`site-header ${solid ? "is-solid" : ""}`}>
         <div className="header-inner">
           <Link
             href="/"
             className="brand"
             aria-label={`${brand.name} Home`}
             onClick={(event) => {
+              setOpen(false);
               if (location.pathname === "/") {
                 event.preventDefault();
                 setOpen(false);
@@ -108,7 +116,7 @@ export function Navigation() {
             <Image
               className="brand-logo"
               src={
-                scrolled || open
+                solid
                   ? "/brand/tourmelloh-logo.svg"
                   : "/brand/tourmelloh-logo-ivory.svg"
               }
@@ -120,14 +128,18 @@ export function Navigation() {
           </Link>
           <nav className="desktop-nav" aria-label="Main navigation">
             {links.map((link) => (
-              <a key={link.href} href={link.href}>
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current={pathname === link.href ? "page" : undefined}
+              >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </nav>
-          <a href="#plan" className="header-cta">
+          <Link href="/#plan" className="header-cta">
             Plan your journey <ArrowUpRight size={16} />
-          </a>
+          </Link>
           <button
             className="menu-toggle"
             ref={toggle}
@@ -150,19 +162,24 @@ export function Navigation() {
           {" "}
           <span className="eyebrow">YOUR JOURNEY STARTS HERE</span>
           {links.map((link, i) => (
-            <a key={link.href} href={link.href} onClick={() => setOpen(false)}>
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setOpen(false)}
+              aria-current={pathname === link.href ? "page" : undefined}
+            >
               <span>0{i + 1}</span>
               {link.name}
               <ArrowUpRight />
-            </a>
+            </Link>
           ))}
-          <a
-            href="#plan"
+          <Link
+            href="/#plan"
             onClick={() => setOpen(false)}
             className="mobile-plan"
           >
             Plan your journey <ArrowUpRight />
-          </a>
+          </Link>
           <p>India, with time to feel it.</p>
         </nav>
       )}

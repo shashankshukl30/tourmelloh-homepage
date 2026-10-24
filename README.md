@@ -1,6 +1,6 @@
-# Tourmelloh — homepage concept
+# Tourmelloh — client design preview
 
-An isolated, single-page client review build. Next.js 16 App Router, strict TypeScript,
+An isolated client review build. Next.js 16 App Router, strict TypeScript,
 Tailwind v4, Framer Motion, locally hosted Newsreader and Instrument Sans.
 
 ## Preview
@@ -14,9 +14,9 @@ Open http://localhost:3108. For the production build: `npm run build`, then `npm
 
 ## Scope
 
-- Homepage only. Destinations, suggested journeys, Varanasi editorial, planning brief and FAQs stay on the same page.
+- A focused seven-page preview: homepage, journey collection, four sample itinerary pages, and the Varanasi destination edit.
 - Real Tourmelloh name, city, phone and email verified against the user-supplied certificate.
-- Trip finder, category filtering, destination details, itinerary expansion, device-local shortlist and downloadable planning brief.
+- Trip finder, category/destination/shortlist filtering, destination details, day-by-day itineraries, device-local shortlist and downloadable planning brief.
 - The planner is a labelled preview: no booking, payment or enquiry request is sent. The phone and email links use the visitor's own apps.
 - No invented rates, reviews, awards, fleet claims, guide credentials or guarantees.
 - Noindex remains enabled until the client approves the site and operational content.
@@ -39,9 +39,15 @@ npm run typecheck
 npm run build
 python scripts/check-layout.py
 node scripts/check-accessibility.cjs
+npm run check:preview
 ```
 
 Browser evidence and review reports are retained under `evidence`.
+The full preview check covers all seven routes at four widths, accessible controls,
+shortlist persistence, route-aware planning, downloadable briefs and a branded 404.
+Development filesystem caching is disabled because this Next.js version retained
+a stale missing-import result while new page stylesheets were being added.
+The production build and its caching remain unchanged.
 
 ## Client document handling
 
@@ -51,6 +57,6 @@ phone, email and city/state; personal address and registration details are not p
 
 ## Next phase
 
-Client approval of the homepage look and feel precedes internal pages. Actual tour
+Client approval of this selected page set precedes the full multipage build. Actual tour
 inventory, pricing, inclusions, service commitments, cancellation terms and enquiry
 delivery need the client's operational information before launch.

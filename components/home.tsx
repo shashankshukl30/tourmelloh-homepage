@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Navigation } from "@/components/navigation";
 import { Hero } from "@/components/hero";
 import { VaranasiEdit, Approach } from "@/components/editorial";
@@ -8,17 +8,20 @@ import { Destinations } from "@/components/destinations";
 import { Journeys } from "@/components/journeys";
 import { Planner } from "@/components/planner";
 import { Footer } from "@/components/footer";
-import { faqs, type JourneyCategory } from "@/content/travel";
+import {
+  destinations,
+  faqs,
+  journeys,
+  type JourneyCategory,
+} from "@/content/travel";
 import { Plus } from "lucide-react";
 
 function goTo(id: string) {
-  document
-    .getElementById(id)
-    ?.scrollIntoView({
-      behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-        ? "instant"
-        : "smooth",
-    });
+  document.getElementById(id)?.scrollIntoView({
+    behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? "instant"
+      : "smooth",
+  });
 }
 
 export function Home() {
@@ -26,7 +29,23 @@ export function Home() {
   const [filterDestination, setFilterDestination] = useState("");
   const [planDestination, setPlanDestination] = useState("");
   const [planRequest, setPlanRequest] = useState(0);
+  const [planJourney, setPlanJourney] = useState<
+    (typeof journeys)[number] | undefined
+  >();
+  useEffect(() => {
+    const query = new URLSearchParams(window.location.search);
+    const requested = query.get("destination");
+    const selected = journeys.find(
+      (journey) => journey.slug === query.get("journey"),
+    );
+    setPlanJourney(selected);
+    if (requested && destinations.some((place) => place.name === requested)) {
+      setPlanDestination(requested);
+      setPlanRequest((count) => count + 1);
+    }
+  }, []);
   function onPlan(value: string) {
+    setPlanJourney(undefined);
     setPlanDestination(value);
     setPlanRequest((count) => count + 1);
     goTo("plan");
@@ -69,6 +88,7 @@ export function Home() {
         <Planner
           selectedDestination={planDestination}
           requestId={planRequest}
+          selectedJourney={planJourney}
         />
         <section
           className="faq-section page-width section-space"

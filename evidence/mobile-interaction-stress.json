@@ -1,0 +1,1184 @@
+{
+  "reviewed_at": "2026-10-24T15:38:32.126781+00:00",
+  "url": "http://127.0.0.1:3108",
+  "environment": {
+    "browser": "isolated headless Chromium",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "has_touch": true,
+    "reduced_motion": "reduce",
+    "server": "production"
+  },
+  "scope": "Bounded repeated interaction and overflow checks; no implementation edits or external contact activation.",
+  "checks": [
+    {
+      "name": "Mobile menu repeated 10 times with keyboard trap and close",
+      "status": "pass",
+      "seconds": 2.02,
+      "detail": [
+        {
+          "cycle": 1,
+          "close": "Escape",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 2,
+          "close": "close button",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 3,
+          "close": "Escape",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 4,
+          "close": "close button",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 5,
+          "close": "Escape",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 6,
+          "close": "close button",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 7,
+          "close": "Escape",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 8,
+          "close": "close button",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 9,
+          "close": "Escape",
+          "focus_trap_keys": 16
+        },
+        {
+          "cycle": 10,
+          "close": "close button",
+          "focus_trap_keys": 16
+        }
+      ]
+    },
+    {
+      "name": "Category and destination filtering with empty reset repeated 10 times",
+      "status": "pass",
+      "seconds": 2.75,
+      "detail": [
+        {
+          "cycle": 1,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 2,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 3,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 4,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 5,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 6,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 7,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 8,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 9,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "cycle": 10,
+          "counts": [
+            1,
+            0,
+            4,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shortlist persists across pages and reload",
+      "status": "pass",
+      "seconds": 3.66,
+      "detail": {
+        "save": "Homepage -> collection -> detail -> reload",
+        "unsave": "Detail -> collection empty shortlist -> homepage",
+        "final_storage": "[]"
+      }
+    },
+    {
+      "name": "Invalid localStorage JSON recovery",
+      "status": "pass",
+      "seconds": 1.16,
+      "detail": "Malformed JSON was ignored safely; saving replaced it with valid data and remained functional after reload."
+    },
+    {
+      "name": "Unknown journey slug gives usable 404",
+      "status": "pass",
+      "seconds": 0.67,
+      "detail": {
+        "http_status": 404,
+        "main_target_count": 1,
+        "recovery_href": "/journeys"
+      }
+    },
+    {
+      "name": "Selected route, edit and clear repeated 10 times",
+      "status": "pass",
+      "detail": {
+        "completed_cycles": [
+          {
+            "cycle": 1,
+            "slug": "kashi-before-the-world-wakes",
+            "clear_method": "explicit itinerary remove",
+            "exact_600_characters_retained": true,
+            "clipboard_check": "Windows newline normalization accounted for"
+          },
+          {
+            "cycle": 2,
+            "slug": "along-the-sacred-rivers",
+            "clear_method": "destination change clears itinerary",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 3,
+            "slug": "the-road-to-bodh-gaya",
+            "clear_method": "explicit itinerary remove",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 4,
+            "slug": "awadh-agra-and-braj",
+            "clear_method": "destination change clears itinerary",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 5,
+            "slug": "kashi-before-the-world-wakes",
+            "clear_method": "explicit itinerary remove",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 6,
+            "slug": "along-the-sacred-rivers",
+            "clear_method": "destination change clears itinerary",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 7,
+            "slug": "the-road-to-bodh-gaya",
+            "clear_method": "explicit itinerary remove",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 8,
+            "slug": "awadh-agra-and-braj",
+            "clear_method": "destination change clears itinerary",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 9,
+            "slug": "kashi-before-the-world-wakes",
+            "clear_method": "explicit itinerary remove",
+            "exact_600_characters_retained": true
+          },
+          {
+            "cycle": 10,
+            "slug": "along-the-sacred-rivers",
+            "clear_method": "destination change clears itinerary",
+            "exact_600_characters_retained": true,
+            "clipboard_check": "Windows newline normalization accounted for",
+            "server_phase": "final production restart"
+          }
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "Exactly 600 unbroken characters and browser input limit",
+      "status": "pass",
+      "detail": {
+        "input": "P repeated 600 times",
+        "attempted_input_characters": 609,
+        "retained_characters": 600,
+        "cycles_verified": 10
+      }
+    },
+    {
+      "name": "Exact download and clipboard with full 600-character input",
+      "status": "pass",
+      "detail": {
+        "downloads": [
+          {
+            "cycle": 1,
+            "filename": "my-tourmelloh-journey.txt",
+            "characters": 600,
+            "exact_match": true,
+            "sha256": "948a56ab44f907f94bcaa766056bebc691414e7809373f97329ba38bc17f7f7a",
+            "route_metadata_exact": true
+          },
+          {
+            "cycle": 10,
+            "filename": "my-tourmelloh-journey.txt",
+            "characters": 600,
+            "exact_match": true,
+            "sha256": "948a56ab44f907f94bcaa766056bebc691414e7809373f97329ba38bc17f7f7a",
+            "route_metadata_exact": true
+          }
+        ],
+        "copies": [
+          {
+            "cycle": 1,
+            "full_content_matches_download_after_Windows_CRLF_normalization": true,
+            "preference_characters": 600,
+            "preference_exact_match": true,
+            "clipboard_CRLF_count": 11
+          },
+          {
+            "cycle": 10,
+            "full_content_matches_download_after_Windows_CRLF_normalization": true,
+            "preference_characters": 600,
+            "preference_exact_match": true,
+            "clipboard_CRLF_count": 11
+          }
+        ],
+        "platform_note": "Windows clipboard converts LF line endings to CRLF. After normalizing only line endings, complete copied brief equals downloaded brief. All 600 preference characters match exactly without normalization.",
+        "temporary_files": "Playwright context closed; temporary downloads disposed."
+      }
+    },
+    {
+      "name": "Unbroken maximum-length text does not overflow form or preview",
+      "status": "pass",
+      "detail": {
+        "affected_samples": []
+      }
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [
+    {
+      "case": "Unknown journey slug gives usable 404",
+      "url": "http://127.0.0.1:3108/journeys/this-journey-does-not-exist",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "console_warnings": [],
+  "failed_requests": [],
+  "mutation_requests": [],
+  "overflow_samples": [
+    {
+      "label": "menu-open-1",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-2",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-3",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-4",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-5",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-6",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-7",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-8",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-9",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "menu-open-10",
+      "url": "http://127.0.0.1:3108/",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-1",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-2",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-3",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-4",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-5",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-6",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-7",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-8",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-9",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "empty-filter-10",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "collection-after-10-filter-cycles",
+      "url": "http://127.0.0.1:3108/journeys",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "unknown-journey-404",
+      "url": "http://127.0.0.1:3108/journeys/this-journey-does-not-exist",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "planner-form-600-characters-1",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "innerWidth": 390,
+      "offenders": []
+    },
+    {
+      "label": "fully-unbroken-form-1",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-1",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 23.140625,
+        "width": 300,
+        "height": 1110.171875,
+        "top": 23.140625,
+        "right": 345,
+        "bottom": 1133.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-2",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-2",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 50.140625,
+        "width": 300,
+        "height": 1127.171875,
+        "top": 50.140625,
+        "right": 345,
+        "bottom": 1177.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-2",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 25.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 25.140625,
+        "right": 345,
+        "bottom": 1067.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-3",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=the-road-to-bodh-gaya#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-3",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=the-road-to-bodh-gaya#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 50.140625,
+        "width": 300,
+        "height": 1127.171875,
+        "top": 50.140625,
+        "right": 345,
+        "bottom": 1177.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-3",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=the-road-to-bodh-gaya#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 92.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 92.140625,
+        "right": 345,
+        "bottom": 1134.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-4",
+      "url": "http://127.0.0.1:3108/?destination=Lucknow&journey=awadh-agra-and-braj#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-4",
+      "url": "http://127.0.0.1:3108/?destination=Lucknow&journey=awadh-agra-and-braj#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 23.140625,
+        "width": 300,
+        "height": 1127.171875,
+        "top": 23.140625,
+        "right": 345,
+        "bottom": 1150.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-4",
+      "url": "http://127.0.0.1:3108/?destination=Lucknow&journey=awadh-agra-and-braj#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 25.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 25.140625,
+        "right": 345,
+        "bottom": 1067.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-5",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-5",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 23.140625,
+        "width": 300,
+        "height": 1110.171875,
+        "top": 23.140625,
+        "right": 345,
+        "bottom": 1133.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-5",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 92.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 92.140625,
+        "right": 345,
+        "bottom": 1134.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-6",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-6",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 50.140625,
+        "width": 300,
+        "height": 1127.171875,
+        "top": 50.140625,
+        "right": 345,
+        "bottom": 1177.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-6",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 25.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 25.140625,
+        "right": 345,
+        "bottom": 1067.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-7",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=the-road-to-bodh-gaya#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-7",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=the-road-to-bodh-gaya#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 50.140625,
+        "width": 300,
+        "height": 1127.171875,
+        "top": 50.140625,
+        "right": 345,
+        "bottom": 1177.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-7",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=the-road-to-bodh-gaya#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 92.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 92.140625,
+        "right": 345,
+        "bottom": 1134.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-8",
+      "url": "http://127.0.0.1:3108/?destination=Lucknow&journey=awadh-agra-and-braj#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-8",
+      "url": "http://127.0.0.1:3108/?destination=Lucknow&journey=awadh-agra-and-braj#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 23.140625,
+        "width": 300,
+        "height": 1127.171875,
+        "top": 23.140625,
+        "right": 345,
+        "bottom": 1150.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-8",
+      "url": "http://127.0.0.1:3108/?destination=Lucknow&journey=awadh-agra-and-braj#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 25.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 25.140625,
+        "right": 345,
+        "bottom": 1067.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-9",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-9",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 23.140625,
+        "width": 300,
+        "height": 1110.171875,
+        "top": 23.140625,
+        "right": 345,
+        "bottom": 1133.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-cleared-result-9",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 92.140625,
+        "width": 300,
+        "height": 1042.375,
+        "top": 92.140625,
+        "right": 345,
+        "bottom": 1134.515625,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "fully-unbroken-form-10",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": null,
+      "preferences": []
+    },
+    {
+      "label": "fully-unbroken-result-10",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390,
+      "result": {
+        "x": 45,
+        "y": 50.140625,
+        "width": 300,
+        "height": 1127.171875,
+        "top": 50.140625,
+        "right": 345,
+        "bottom": 1177.3125,
+        "left": 45
+      },
+      "preferences": [
+        {
+          "ddClientWidth": 195,
+          "ddScrollWidth": 195,
+          "ddRight": 345,
+          "wrap": "anywhere",
+          "wordBreak": "normal"
+        }
+      ]
+    },
+    {
+      "label": "unbroken-form-completion-1",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390
+    },
+    {
+      "label": "unbroken-preview-completion-1",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390
+    },
+    {
+      "label": "unbroken-clear-completion-1",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=kashi-before-the-world-wakes#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390
+    },
+    {
+      "label": "final-unbroken-form-10",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390
+    },
+    {
+      "label": "final-unbroken-preview-10",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390
+    },
+    {
+      "label": "final-unbroken-cleared-preview-10",
+      "url": "http://127.0.0.1:3108/?destination=Varanasi&journey=along-the-sacred-rivers#plan",
+      "body": 390,
+      "html": 390,
+      "viewport": 390
+    }
+  ],
+  "expected_404_console_messages": [
+    {
+      "case": "Unknown journey slug gives usable 404",
+      "url": "http://127.0.0.1:3108/journeys/this-journey-does-not-exist",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "unexpected_console_errors": [],
+  "react_or_stack_errors": [],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "page_error_count": 0,
+    "unexpected_console_error_count": 0,
+    "expected_404_console_error_count": 1,
+    "react_or_stack_error_count": 0,
+    "overflow_sample_count": 57,
+    "document_overflow_count": 0,
+    "long_text_overflow_samples": 0,
+    "mutation_request_count": 0,
+    "external_contact_activated": false
+  },
+  "test_harness_note": "Initial planner assertion used rendered inner_text on multiline input, which normalizes display whitespace. Replaced with exact text_content checking and the requested fully unbroken 600-character input; the initial harness assertion was not an application failure. Copy comparison initially expected identical OS line endings; an explicit probe verified 11 Windows CRLF conversions and otherwise identical content. Rechecked affected cycles with line-ending normalization; no application change was needed.",
+  "completed_at": "2026-10-24T15:41:23.178808+00:00",
+  "server_restart_note": "Root restarted production during the last outstanding planner cycle for a mobile-label and form-font adjustment. The interrupted navigation was retried successfully against the final production build. All ten requested planner cycles completed; no application code changed during the individual checks.",
+  "final_build_id": "kFfqjJTYUQD3pFn4lyn21"
+}

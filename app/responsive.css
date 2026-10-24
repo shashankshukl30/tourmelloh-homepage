@@ -98,7 +98,7 @@
   .finder-intro strong { font-size: 21px; margin-top: 0; }
   .finder-field, .finder-field:first-of-type { border: 0; border-bottom: 1px solid var(--line); padding: 0 0 12px; }
   .finder-field > span { font-size: 10px; margin-bottom: 6px; }
-  .finder-field select { font-size: 13px; height: 29px; }
+  .finder-field select { font-size: 16px; min-height: 44px; }
   .trip-finder .button { justify-content: space-between; margin-top: 3px; }
   .finder-foot { padding: 17px var(--page-gutter) 0; }
   .finder-foot > span { display: none; }
@@ -180,7 +180,8 @@
   .planner-panel h3 { font-size: 37px; }
   .planner-row { grid-template-columns: 1fr 1fr; gap: 16px; }
   .planner-field > span { font-size: 9px; }
-  .planner-field select { font-size: 11px; }
+  .planner-field select { font-size: 16px; min-height: 44px; }
+  .planner-field textarea { font-size: 16px; }
   .planner-submit { font-size: 12px; padding-inline: 18px; gap: 15px; }
   .brief-actions .button { font-size: 11px; gap: 12px; padding-inline: 13px; }
   .faq-section { grid-template-columns: 1fr; gap: 32px; }

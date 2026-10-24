@@ -84,10 +84,7 @@ export const destinations = [
 ] as const;
 
 export type JourneyCategory =
-  | "All journeys"
-  | "Sacred journeys"
-  | "Culture & heritage"
-  | "Buddhist trails";
+  "All journeys" | "Sacred journeys" | "Culture & heritage" | "Buddhist trails";
 export const categories: JourneyCategory[] = [
   "All journeys",
   "Sacred journeys",
@@ -98,6 +95,7 @@ export const categories: JourneyCategory[] = [
 export const journeys = [
   {
     id: "kashi",
+    slug: "kashi-before-the-world-wakes",
     title: "Kashi, before the world wakes",
     category: "Culture & heritage",
     image: "varanasi",
@@ -116,6 +114,7 @@ export const journeys = [
   },
   {
     id: "sacred",
+    slug: "along-the-sacred-rivers",
     title: "Along the sacred rivers",
     category: "Sacred journeys",
     image: "ayodhya",
@@ -133,6 +132,7 @@ export const journeys = [
   },
   {
     id: "buddhist",
+    slug: "the-road-to-bodh-gaya",
     title: "The road to Bodh Gaya",
     category: "Buddhist trails",
     image: "bodhgaya",
@@ -150,6 +150,7 @@ export const journeys = [
   },
   {
     id: "heritage",
+    slug: "awadh-agra-and-braj",
     title: "Awadh, Agra & the lanes of Braj",
     category: "Culture & heritage",
     image: "agra",

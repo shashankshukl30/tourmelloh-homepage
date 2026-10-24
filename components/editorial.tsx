@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowUpRight, MoveUpRight } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 
@@ -28,9 +29,12 @@ export function VaranasiEdit() {
           Begin with Varanasi. Take your time with its ghats and old-city lanes,
           then follow the stories further — to Sarnath, the Sangam, and beyond.
         </p>
-        <a className="text-link underlined-link" href="#journeys">
+        <Link
+          className="text-link underlined-link"
+          href="/destinations/varanasi"
+        >
           Find your way into Kashi <ArrowUpRight size={18} />
-        </a>
+        </Link>
         <div className="editorial-footnote">
           <span>THE GANGA · VARANASI</span>
           <span>OLD CITY. NEW PERSPECTIVES.</span>

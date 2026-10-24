@@ -5,6 +5,9 @@ const config: NextConfig = {
   devIndicators: false,
   images: { qualities: [75, 90] },
   turbopack: { root: process.cwd() },
+  // File creation during preview work exposed a persistent negative import cache.
+  // Keep development rebuilds fresh; production caching is unchanged.
+  experimental: { turbopackFileSystemCacheForDev: false },
   async headers() {
     return [
       {

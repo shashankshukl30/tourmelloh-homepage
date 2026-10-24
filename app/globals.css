@@ -2,3 +2,6 @@
 @import "./base.css";
 @import "./sections.css";
 @import "./responsive.css";
+@import "./collection.css";
+@import "./tour-detail.css";
+@import "./destination-preview.css";

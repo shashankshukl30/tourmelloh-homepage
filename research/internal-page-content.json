@@ -1,0 +1,150 @@
+{
+  "researched_on": "2026-10-24",
+  "scope": "Original content for four limited client-preview journey pages, expanding the existing homepage routes. This is proposed itinerary content, not verified bookable inventory.",
+  "content_file": "content/journey-details.ts",
+  "export_contract": {
+    "types": ["DayPlan", "JourneyDetail"],
+    "data_export": "journeyDetails"
+  },
+  "editorial_rules": [
+    "Every lead explicitly identifies the route as suggested.",
+    "Day counts and overnight locations match the existing homepage duration and stage distribution.",
+    "Arrival and departure fields identify itinerary endpoints, not guaranteed transport connections.",
+    "Travel days do not contain unsourced drive times, supplied vehicles or transfer promises.",
+    "Meals, boats, temple visits, guides, admissions and accommodation are not presented as confirmed inclusions.",
+    "No rates, discounts, availability, priority-access guarantees, invented service standards or customer claims are used.",
+    "Optional Gaya is separate from Bodh Gaya and its Buddhist focus.",
+    "Walking and rest notes support planning without promising accessibility or assistance.",
+    "Prose is original. Source websites supply factual destination context and visit constraints only."
+  ],
+  "route_validation": [
+    {
+      "id": "kashi",
+      "slug": "kashi-before-the-world-wakes",
+      "days": 4,
+      "nights": 3,
+      "overnights": [{ "city": "Varanasi", "nights": 3, "days": [1, 2, 3] }],
+      "departure_day": 4,
+      "structure": "Arrival day, Varanasi day, Sarnath day, departure day.",
+      "planning_constraint": "Sarnath museum afternoon may need swapping around Friday. A boat ride is optional and conditional on local conditions."
+    },
+    {
+      "id": "sacred",
+      "slug": "along-the-sacred-rivers",
+      "days": 6,
+      "nights": 5,
+      "overnights": [
+        { "city": "Varanasi", "nights": 3, "days": [1, 2, 3] },
+        { "city": "Prayagraj", "nights": 1, "days": [4] },
+        { "city": "Ayodhya", "nights": 1, "days": [5] }
+      ],
+      "departure_day": 6,
+      "structure": "Three nights in Varanasi with Sarnath, a transfer and Sangam day in Prayagraj, a transfer to Ayodhya, temple-focused departure day.",
+      "planning_constraint": "Final departure must leave sufficient time for chosen temple visits and queues. No darshan pass type, exact duration or access privilege is promised."
+    },
+    {
+      "id": "buddhist",
+      "slug": "the-road-to-bodh-gaya",
+      "days": 5,
+      "nights": 4,
+      "overnights": [
+        { "city": "Varanasi", "nights": 2, "days": [1, 2] },
+        { "city": "Bodh Gaya", "nights": 2, "days": [3, 4] }
+      ],
+      "departure_day": 5,
+      "structure": "Varanasi arrival, Sarnath day, dedicated intercity travel day, Mahabodhi and selected monasteries, flexible departure.",
+      "planning_constraint": "A separate Gaya visit is optional and depends on the onward schedule. A ritual-focused visit may require additional time; no ritual service or meditation programme is implied."
+    },
+    {
+      "id": "heritage",
+      "slug": "awadh-agra-and-braj",
+      "days": 7,
+      "nights": 6,
+      "overnights": [
+        { "city": "Lucknow", "nights": 2, "days": [1, 2] },
+        { "city": "Agra", "nights": 2, "days": [3, 4] },
+        { "city": "Vrindavan", "nights": 2, "days": [5, 6] }
+      ],
+      "departure_day": 7,
+      "structure": "Lucknow arrival and city day, transfer to Agra and monument day, transfer to Vrindavan and a Braj day, flexible departure.",
+      "planning_constraint": "If the full Agra day is Friday, move the Taj visit only when arrival or departure logistics allow, otherwise adjust the stay. Mathura is optional rather than an obligatory extra stop."
+    }
+  ],
+  "freshly_checked_sources": [
+    {
+      "name": "Taj Mahal official website, Uttar Pradesh Tourism",
+      "url": "https://www.tajmahal.gov.in/",
+      "access": "Read through Jina Reader after native web fetch timed out; also corroborated by current search extraction of the official site.",
+      "used_fact": "Taj Mahal is closed to general sightseeing on Fridays.",
+      "application": "Agra planning note and conditional day ordering.",
+      "not_used": "Ticket prices, exact clock times, blanket claims about every other Agra attraction, older COVID notices and booking availability."
+    },
+    {
+      "name": "Sarnath Museum visitor information",
+      "url": "https://www.sarnathmuseumasi.org/planning-a-visit.html-1",
+      "access": "Read through native web browsing.",
+      "used_fact": "Sarnath Archaeological Museum closes on Friday; museum and excavation site have separate visitor information.",
+      "corroboration": "https://kashi.gov.in/listing-details/sarnath-museum",
+      "application": "Sarnath planning notes in the three routes that visit it.",
+      "not_used": "Exact museum opening hour and admission rates, which differ across sources."
+    },
+    {
+      "name": "Kashi official portal, Sarnath Museum",
+      "url": "https://kashi.gov.in/listing-details/sarnath-museum",
+      "access": "Current search extraction from the official government portal.",
+      "used_facts": ["Friday museum closure", "Archaeological museum and collection at Sarnath"],
+      "not_used": "Approximate hours, prices and detailed numerical history."
+    },
+    {
+      "name": "Bihar Tourism, Mahabodhi Temple",
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya/mahabodhi-temple",
+      "current_corresponding_page": "https://tourism.bihar.gov.in/hi/destinations/gaya/mahabodhi-temple",
+      "access": "English page verified during homepage research; current Hindi official result checked in this expansion.",
+      "used_facts": ["Mahabodhi Temple is in Bodh Gaya", "UNESCO World Heritage status", "Association with Buddha's enlightenment", "Respectful clothing and photography etiquette"],
+      "not_used": "Blanket electronics restrictions or exact hours; current rules should be checked with the managing authority."
+    },
+    {
+      "name": "Bodhgaya Temple Management Committee website",
+      "url": "https://bodhgayatemple.com/",
+      "access": "Read through Jina Reader after native web fetch timed out.",
+      "finding": "The managing website publishes a daily opening and closing schedule, illustrating why operational details should be checked there near the travel date.",
+      "application": "No exact hours published in journey copy; current temple visitor rules remain a planning check."
+    }
+  ],
+  "existing_verified_destination_sources": [
+    { "destination": "Varanasi", "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi", "used_for": "Ghats, Ganga aarti, old city and nearby Sarnath." },
+    { "destination": "Prayagraj", "url": "https://prayagraj.nic.in/tourist-place/sangam/", "used_for": "Sangam as the Ganga-Yamuna confluence and its pilgrimage context; stale dates and transport information excluded." },
+    { "destination": "Ayodhya", "url": "https://ayodhya.nic.in/tourist-places/", "used_for": "Ram Ki Paidi, Hanuman Garhi and Kanak Bhawan as distinct visits." },
+    { "destination": "Ayodhya", "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/ayodhya", "used_for": "Ram Mandir and Sarayu setting; conflicting dimensions excluded." },
+    { "destination": "Lucknow", "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow", "used_for": "Bara Imambara, Rumi Darwaza, Chota Imambara and Awadhi culture; numerical superlatives excluded." },
+    { "destination": "Gaya", "url": "https://www.incredibleindia.gov.in/en/bihar/gaya", "used_for": "Vishnupad and ancestral traditions, kept distinct from Bodh Gaya." },
+    { "destination": "Vrindavan and Mathura", "url": "https://mathura.nic.in/tourism/", "used_for": "Banke Bihari, Prem Mandir and the relationship between Vrindavan and Mathura." },
+    { "destination": "Agra", "url": "https://agra.nic.in/tourism/", "used_for": "Taj Mahal and Agra Fort as the main monument pairing." }
+  ],
+  "unresolved_operational_details": [
+    {
+      "item": "Ram Mandir current pass types, access arrangements and belongings rules",
+      "attempted_primary_source": "https://online.srjbtkshetra.org/",
+      "result": "Native fetch returned 403; Jina extraction supplied no usable rule text.",
+      "response": "No detailed pass rules, prices, entry promises, exact timings or device restrictions were added. Copy asks for current arrangements to be confirmed."
+    },
+    {
+      "item": "Kashi Vishwanath current entry arrangements",
+      "attempted_primary_source": "https://www.shrikashivishwanath.org/",
+      "result": "Native fetch returned 403.",
+      "response": "Temple remains an optional interest-based visit. Current entry and belongings rules must be checked; no priority access is claimed."
+    },
+    {
+      "item": "Tourmelloh operational product details",
+      "result": "The client has supplied public brand/contact details, not confirmed itinerary inclusions or travel inventory.",
+      "response": "All four routes remain suggested. Hotels, transport, local guides, admissions, rituals, meals, boats, prices and availability require separate confirmation."
+    }
+  ],
+  "local_work": {
+    "owned_files": ["content/journey-details.ts", "research/internal-page-content.json"],
+    "temporary_downloads_created": false,
+    "competitor_assets_downloaded": false,
+    "other_files_edited": false,
+    "validation": "Imported the TypeScript data with Node, confirmed four records and requested slugs, sequential days, exact 4/6/5/7 day counts, matching overnight distributions and suggested-route leads. Research JSON parsed successfully. No generated validation files were written."
+  }
+}

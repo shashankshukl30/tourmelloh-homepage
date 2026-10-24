@@ -1,0 +1,577 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "title": "Tourmelloh | Varanasi & Thoughtful Journeys Across India",
+      "h1": [
+        "Some journeysstay with you."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "title": "Journeys Through India | The Tourmelloh Travel Collection",
+      "h1": [
+        "Follow yoursense of wonder."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "title": "Kashi & Sarnath | A Four-Day Journey with Tourmelloh",
+      "h1": [
+        "Kashi, before the world wakes"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "title": "Along the Sacred Rivers | Six Days with Tourmelloh",
+      "h1": [
+        "Along the sacred rivers"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "title": "The Road to Bodh Gaya | Buddhist Trails by Tourmelloh",
+      "h1": [
+        "The road to Bodh Gaya"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "title": "Awadh, Agra & Braj | Seven Days Across India with Tourmelloh",
+      "h1": [
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/destinations/varanasi",
+      "status": 200,
+      "width": 1440,
+      "body": 1440,
+      "client": 1440,
+      "title": "The Varanasi Edit | Discover Kashi Slowly with Tourmelloh",
+      "h1": [
+        "Varanasi.A city tofeel."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "title": "Tourmelloh | Varanasi & Thoughtful Journeys Across India",
+      "h1": [
+        "Some journeysstay with you."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "title": "Journeys Through India | The Tourmelloh Travel Collection",
+      "h1": [
+        "Follow yoursense of wonder."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "title": "Kashi & Sarnath | A Four-Day Journey with Tourmelloh",
+      "h1": [
+        "Kashi, before the world wakes"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "title": "Along the Sacred Rivers | Six Days with Tourmelloh",
+      "h1": [
+        "Along the sacred rivers"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "title": "The Road to Bodh Gaya | Buddhist Trails by Tourmelloh",
+      "h1": [
+        "The road to Bodh Gaya"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "title": "Awadh, Agra & Braj | Seven Days Across India with Tourmelloh",
+      "h1": [
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/destinations/varanasi",
+      "status": 200,
+      "width": 390,
+      "body": 390,
+      "client": 390,
+      "title": "The Varanasi Edit | Discover Kashi Slowly with Tourmelloh",
+      "h1": [
+        "Varanasi.A city tofeel."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 768,
+      "body": 768,
+      "client": 768,
+      "title": "Tourmelloh | Varanasi & Thoughtful Journeys Across India",
+      "h1": [
+        "Some journeysstay with you."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys",
+      "status": 200,
+      "width": 768,
+      "body": 768,
+      "client": 768,
+      "title": "Journeys Through India | The Tourmelloh Travel Collection",
+      "h1": [
+        "Follow yoursense of wonder."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "status": 200,
+      "width": 768,
+      "body": 768,
+      "client": 768,
+      "title": "Kashi & Sarnath | A Four-Day Journey with Tourmelloh",
+      "h1": [
+        "Kashi, before the world wakes"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "status": 200,
+      "width": 768,
+      "body": 768,
+      "client": 768,
+      "title": "Along the Sacred Rivers | Six Days with Tourmelloh",
+      "h1": [
+        "Along the sacred rivers"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "status": 200,
+      "width": 768,
+      "body": 768,
+      "client": 768,
+      "title": "The Road to Bodh Gaya | Buddhist Trails by Tourmelloh",
+      "h1": [
+        "The road to Bodh Gaya"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "status": 200,
+      "width": 768,
+      "body": 768,
+      "client": 768,
+      "title": "Awadh, Agra & Braj | Seven Days Across India with Tourmelloh",
+      "h1": [
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/destinations/varanasi",
+      "status": 200,
+      "width": 768,
+      "body": 768,
+      "client": 768,
+      "title": "The Varanasi Edit | Discover Kashi Slowly with Tourmelloh",
+      "h1": [
+        "Varanasi.A city tofeel."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "width": 360,
+      "body": 360,
+      "client": 360,
+      "title": "Tourmelloh | Varanasi & Thoughtful Journeys Across India",
+      "h1": [
+        "Some journeysstay with you."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys",
+      "status": 200,
+      "width": 360,
+      "body": 360,
+      "client": 360,
+      "title": "Journeys Through India | The Tourmelloh Travel Collection",
+      "h1": [
+        "Follow yoursense of wonder."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "status": 200,
+      "width": 360,
+      "body": 360,
+      "client": 360,
+      "title": "Kashi & Sarnath | A Four-Day Journey with Tourmelloh",
+      "h1": [
+        "Kashi, before the world wakes"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "status": 200,
+      "width": 360,
+      "body": 360,
+      "client": 360,
+      "title": "Along the Sacred Rivers | Six Days with Tourmelloh",
+      "h1": [
+        "Along the sacred rivers"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "status": 200,
+      "width": 360,
+      "body": 360,
+      "client": 360,
+      "title": "The Road to Bodh Gaya | Buddhist Trails by Tourmelloh",
+      "h1": [
+        "The road to Bodh Gaya"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "status": 200,
+      "width": 360,
+      "body": 360,
+      "client": 360,
+      "title": "Awadh, Agra & Braj | Seven Days Across India with Tourmelloh",
+      "h1": [
+        "Awadh, Agra & the lanes of Braj"
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    },
+    {
+      "route": "/destinations/varanasi",
+      "status": 200,
+      "width": 360,
+      "body": 360,
+      "client": 360,
+      "title": "The Varanasi Edit | Discover Kashi Slowly with Tourmelloh",
+      "h1": [
+        "Varanasi.A city tofeel."
+      ],
+      "missingImages": [],
+      "invalidHashLinks": [],
+      "hasMain": true
+    }
+  ],
+  "accessibility": [
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys",
+      "width": 1440,
+      "violations": [],
+      "passes": 25
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "width": 1440,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "width": 1440,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "width": 1440,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "width": 1440,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/destinations/varanasi",
+      "width": 1440,
+      "violations": [],
+      "passes": 23
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys",
+      "width": 390,
+      "violations": [],
+      "passes": 25
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "width": 390,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys/along-the-sacred-rivers",
+      "width": 390,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys/the-road-to-bodh-gaya",
+      "width": 390,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/journeys/awadh-agra-and-braj",
+      "width": 390,
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/destinations/varanasi",
+      "width": 390,
+      "violations": [],
+      "passes": 24
+    }
+  ],
+  "functional": [
+    {
+      "name": "Interest filter narrows collection",
+      "passed": true
+    },
+    {
+      "name": "Combined filters provide clear empty state",
+      "passed": true
+    },
+    {
+      "name": "Reset restores all four routes",
+      "passed": true
+    },
+    {
+      "name": "Empty shortlist provides guidance",
+      "passed": true
+    },
+    {
+      "name": "Saved filter displays selected journey",
+      "passed": true
+    },
+    {
+      "name": "Shortlist survives reload",
+      "passed": true
+    },
+    {
+      "name": "Shortlist carries to homepage",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu Escape restores trigger focus",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu navigates to collection",
+      "passed": true
+    },
+    {
+      "name": "Tour card opens full itinerary",
+      "passed": true
+    },
+    {
+      "name": "Day-by-day accordion opens day two",
+      "passed": true
+    },
+    {
+      "name": "Day-by-day accordion closes on repeat",
+      "passed": true
+    },
+    {
+      "name": "Planning link opens prefilled homepage brief",
+      "passed": true
+    },
+    {
+      "name": "Selected itinerary retained in planning form",
+      "passed": true
+    },
+    {
+      "name": "Planning hash scrolls to form",
+      "passed": true
+    },
+    {
+      "name": "Travel brief retains route and duration",
+      "passed": true
+    },
+    {
+      "name": "Downloaded brief preserves selected itinerary",
+      "passed": true
+    },
+    {
+      "name": "Reload returns to top without a hash",
+      "passed": true
+    },
+    {
+      "name": "Destination CTA opens prefilled brief",
+      "passed": true
+    },
+    {
+      "name": "Unknown route shows branded 404",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pageErrors": [],
+  "summary": {
+    "layouts": 28,
+    "layoutFailures": 0,
+    "accessibilityViolations": 0,
+    "functionalPassed": 20,
+    "functionalFailed": 0,
+    "pageErrors": 0,
+    "consoleErrors": 0
+  }
+}

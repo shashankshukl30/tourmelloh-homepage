@@ -1,11 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowUpRight, Check, Clock3, Heart, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { categories, journeys, type JourneyCategory } from "@/content/travel";
 import { imageNames } from "@/components/destinations";
 import { Reveal } from "@/components/reveal";
+import { useShortlist } from "@/hooks/use-shortlist";
 
 export function Journeys({
   category,
@@ -32,8 +34,7 @@ export function Journeys({
         : "smooth",
     });
   }, [open]);
-  const [saved, setSaved] = useState<string[]>([]);
-  const [notice, setNotice] = useState("");
+  const { saved, notice, toggleSave } = useShortlist();
   function closeDetails() {
     const trigger = document.querySelector<HTMLButtonElement>(
       `[data-journey-open="${open}"]`,
@@ -41,42 +42,6 @@ export function Journeys({
     setOpen(null);
     trigger?.focus();
   }
-  useEffect(() => {
-    try {
-      const value: unknown = JSON.parse(
-        localStorage.getItem("tourmelloh-journey-shortlist") || "[]",
-      );
-      if (Array.isArray(value))
-        setSaved(
-          value.filter(
-            (item) =>
-              typeof item === "string" &&
-              journeys.some((journey) => journey.id === item),
-          ),
-        );
-    } catch {
-      /* A shortlist remains optional when storage is unavailable. */
-    }
-  }, []);
-  const toggleSave = (id: string) => {
-    const next = saved.includes(id)
-      ? saved.filter((value) => value !== id)
-      : [...saved, id];
-    setSaved(next);
-    try {
-      localStorage.setItem(
-        "tourmelloh-journey-shortlist",
-        JSON.stringify(next),
-      );
-      setNotice(
-        next.includes(id)
-          ? "Journey saved on this device."
-          : "Journey removed from your shortlist.",
-      );
-    } catch {
-      setNotice("Journey saved for this visit. Device storage is unavailable.");
-    }
-  };
   const filtered = journeys.filter(
     (journey) =>
       (category === "All journeys" || journey.category === category) &&
@@ -136,12 +101,18 @@ export function Journeys({
         {filtered.map((journey) => (
           <article className="journey-card" key={journey.id}>
             <div className="journey-photo">
-              <Image
-                src={`/images/${imageNames[journey.image]}.webp`}
-                alt={`${journey.route} suggested journey`}
-                fill
-                sizes="(max-width: 600px) 90vw, (max-width: 1000px) 45vw, 25vw"
-              />
+              <Link
+                className="journey-image-link"
+                href={`/journeys/${journey.slug}`}
+                aria-label={`Explore ${journey.title}`}
+              >
+                <Image
+                  src={`/images/${imageNames[journey.image]}.webp`}
+                  alt={`${journey.route} suggested journey`}
+                  fill
+                  sizes="(max-width: 600px) 90vw, (max-width: 1000px) 45vw, 25vw"
+                />
+              </Link>
               <span className="journey-tag">{journey.tag}</span>
               <button
                 className={`save-button ${saved.includes(journey.id) ? "saved" : ""}`}
@@ -163,15 +134,7 @@ export function Journeys({
               <span>TAILOR TO YOU</span>
             </div>
             <h3>
-              <button
-                onClick={() =>
-                  setOpen((value) => (value === journey.id ? null : journey.id))
-                }
-                aria-expanded={open === journey.id}
-                aria-controls="journey-detail"
-              >
-                {journey.title}
-              </button>
+              <Link href={`/journeys/${journey.slug}`}>{journey.title}</Link>
             </h3>
             <p className="journey-route">{journey.route}</p>
             <p className="journey-description">{journey.intro}</p>
@@ -184,7 +147,7 @@ export function Journeys({
               aria-expanded={open === journey.id}
               aria-controls="journey-detail"
             >
-              {open === journey.id ? "Close itinerary" : "Explore the journey"}
+              {open === journey.id ? "Close overview" : "Quick overview"}
               <ArrowUpRight size={17} />
             </button>
           </article>
@@ -242,19 +205,24 @@ export function Journeys({
               </li>
             ))}
           </ol>
-          <button
+          <Link
             className="button button-clay"
             style={{ color: "var(--paper)" }}
-            onClick={() => onPlan(detail.places[0])}
+            href={`/journeys/${detail.slug}`}
           >
-            Make this journey mine <ArrowUpRight size={18} />
-          </button>
+            See the full itinerary <ArrowUpRight size={18} />
+          </Link>
         </div>
       )}
       <p className="journey-disclaimer page-width">
         <Check size={14} /> Suggested routes, shaped around your dates,
         interests and pace. Final details follow a planning conversation.
       </p>
+      <div className="page-width journey-collection-link">
+        <Link className="text-link underlined-link" href="/journeys">
+          Explore the full collection <ArrowUpRight size={18} />
+        </Link>
+      </div>
     </section>
   );
 }

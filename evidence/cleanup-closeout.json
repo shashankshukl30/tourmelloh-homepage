@@ -1,13 +1,13 @@
 {
-  "recorded_at": "2026-10-24T15:23:15.079391+00:00",
+  "recorded_at": "2026-10-24T15:41:37.773846+00:00",
   "scope": "D:\\Digiocular\\Websites\\india-travel-homepage",
   "before_free_bytes": {
     "C": 76838711296,
     "D": 37740826624
   },
   "after_free_bytes": {
-    "C": 76076888064,
-    "D": 37034061824
+    "C": 76018532352,
+    "D": 36833251328
   },
   "removed": [
     {
@@ -136,6 +136,10 @@
     "public/images/varanasi-aerial.webp",
     "public/og.jpg",
     "app/page.tsx",
+    "app/journeys/page.tsx",
+    "app/journeys/[slug]/page.tsx",
+    "app/destinations/varanasi/page.tsx",
+    "content/journey-details.ts",
     "package-lock.json"
   ],
   "note": "Drive free-space changes include dependency/build growth and concurrent machine activity; reclaimed bytes are the explicit manifest sum."

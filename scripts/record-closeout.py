@@ -14,7 +14,7 @@ cert = root/'Print _ Udyam Registration Certificate TOURMELLOH.pdf'
 client = json.loads((root/'research/client-public-details.json').read_text(encoding='utf-8'))
 certificate_unchanged = hashlib.sha256(cert.read_bytes()).hexdigest() == client['source']['sha256']
 assert certificate_unchanged
-required = ['public/brand/tourmelloh-logo.svg','public/brand/tourmelloh-logo.png','public/brand/tourmelloh-logo-ivory.svg','public/brand/logo-preview.png','public/images/varanasi-aerial.webp','public/og.jpg','app/page.tsx','package-lock.json']
+required = ['public/brand/tourmelloh-logo.svg','public/brand/tourmelloh-logo.png','public/brand/tourmelloh-logo-ivory.svg','public/brand/logo-preview.png','public/images/varanasi-aerial.webp','public/og.jpg','app/page.tsx','app/journeys/page.tsx','app/journeys/[slug]/page.tsx','app/destinations/varanasi/page.tsx','content/journey-details.ts','package-lock.json']
 assert all((root/p).is_file() for p in required)
 record = {
     'recorded_at': datetime.now(timezone.utc).isoformat(),
