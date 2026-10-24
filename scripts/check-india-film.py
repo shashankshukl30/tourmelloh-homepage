@@ -18,8 +18,15 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "evidence/india-film"
-TIMES = [0, 3, 5.5, 8, 11.5, 14, 17.5, 20, 23.5, 23.958]
 MANIFEST = ROOT / "research/india-film-edit.json"
+
+
+def sample_times(edit):
+    duration = edit["durationSeconds"]
+    section = duration / len(edit["scenes"])
+    return [0, section / 2, section - .5, section * 1.5,
+            section * 2 - .5, section * 2.5, section * 3 - .5,
+            section * 3.5, duration - .5, round(duration - 1 / edit["fps"], 3)]
 
 
 def ffmpeg(path, *options):
@@ -62,33 +69,28 @@ def repeated_runs(hashes, fps):
     return result
 
 
-def label(second):
-    if 5 <= second < 6:
-        return "Varanasi > Agra / dissolve"
-    if 11 <= second < 12:
-        return "Agra > Lucknow / dissolve"
-    if 17 <= second < 18:
-        return "Lucknow > Jaipur / dissolve"
-    if 23 <= second < 24:
-        return "Jaipur > Varanasi / loop dissolve"
-    if second < 6:
-        return "Varanasi / Ganga riverfront"
-    if second < 12:
-        return "Agra / Taj Mahal"
-    if second < 18:
-        return "Lucknow / Rumi Darwaza"
-    return "Jaipur / Amber Fort"
+def label(second, edit):
+    scenes = edit["scenes"]
+    section = edit["durationSeconds"] / len(scenes)
+    index = min(len(scenes) - 1, int(second // section))
+    scene = scenes[index]
+    if second % section >= section - edit["dissolveSeconds"]:
+        next_scene = scenes[(index + 1) % len(scenes)]
+        suffix = "loop dissolve" if index == len(scenes) - 1 else "dissolve"
+        return f"{scene['place']} > {next_scene['place']} / {suffix}"
+    return f"{scene['place']} / {scene['landmark']}"
 
 
-def sheet(path, portrait, fps, total_frames):
+def sheet(path, portrait, fps, total_frames, edit):
+    times = sample_times(edit)
     width, height = (216, 384) if portrait else (480, 270)
-    indices = [min(total_frames - 1, round(t * fps)) for t in TIMES]
+    indices = [min(total_frames - 1, round(t * fps)) for t in times]
     selector = "+".join(f"eq(n,{n})" for n in indices)
     raw = ffmpeg(path, "-vf", f"select='{selector}',scale={width}:{height}",
                  "-fps_mode", "vfr", "-pix_fmt", "rgb24", "-f", "rawvideo")
     frames = np.frombuffer(raw, dtype=np.uint8).reshape(-1, height, width, 3)
-    if len(frames) != len(TIMES):
-        raise AssertionError(f"Expected {len(TIMES)} contact frames, got {len(frames)}")
+    if len(frames) != len(times):
+        raise AssertionError(f"Expected {len(times)} contact frames, got {len(frames)}")
     label_height = 49
     output = Image.new("RGB", (width * 5, (height + label_height) * 2), "#f6f2e9")
     draw = ImageDraw.Draw(output)
@@ -99,8 +101,8 @@ def sheet(path, portrait, fps, total_frames):
     for index, frame in enumerate(frames):
         x = (index % 5) * width
         y = (index // 5) * (height + label_height)
-        draw.text((x + 7, y + 4), f"{TIMES[index]:.3f}s / frame {indices[index]}", font=font, fill="#183f32")
-        draw.text((x + 7, y + 25), label(TIMES[index]), font=font, fill="#183f32")
+        draw.text((x + 7, y + 4), f"{times[index]:.3f}s / frame {indices[index]}", font=font, fill="#183f32")
+        draw.text((x + 7, y + 25), label(times[index], edit), font=font, fill="#183f32")
         output.paste(Image.fromarray(frame), (x, y + label_height))
     target = OUTPUT / f"encoded-{'mobile' if portrait else 'desktop'}-contact-sheet.jpg"
     output.save(target, quality=94)
@@ -138,12 +140,14 @@ def inspect(path, portrait, edit):
     positions = {item["type"]: item["offset"] for item in boxes}
     dimensions = [720, 1280] if portrait else [1920, 1080]
     checks = {
-        "duration24Seconds": abs(float(probe["format"]["duration"]) - edit["durationSeconds"]) < .001,
-        "decoded576Frames": len(frames) == expected_frames == len(hashes),
-        "declared576Frames": int(video.get("nb_frames", 0)) == expected_frames,
+        "matchesManifestDuration": abs(float(probe["format"]["duration"]) - edit["durationSeconds"]) < .001,
+        "decodedFrameCountMatchesManifest": len(frames) == expected_frames == len(hashes),
+        "declaredFrameCountMatchesManifest": int(video.get("nb_frames", 0)) == expected_frames,
         "h264": video["codec_name"] == "h264",
+        "mainProfile": video["profile"] == "Main",
+        "compatibleLevel": video["level"] == (31 if portrait else 40),
         "yuv420p": video["pix_fmt"] == "yuv420p",
-        "fps24": float(Fraction(video["r_frame_rate"])) == fps,
+        "matchesManifestFps": float(Fraction(video["r_frame_rate"])) == fps,
         "correctDimensions": [video["width"], video["height"]] == dimensions,
         "silent": not any(s["codec_type"] == "audio" for s in probe["streams"]),
         "noBlackFrames": not black,
@@ -155,6 +159,8 @@ def inspect(path, portrait, edit):
         "path": str(path.relative_to(ROOT)).replace("\\", "/"),
         "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
         "bytes": path.stat().st_size, "probe": probe, "decodedFrames": len(frames),
+        "expected": {"durationSeconds": edit["durationSeconds"], "fps": fps,
+                     "frames": expected_frames, "profile": "Main", "level": 31 if portrait else 40},
         "analysisResolution": [width, height],
         "luma": {"minimumMean": float(means.min()), "blackFrames": black},
         "motion": {"minimumAdjacentChange": float(changes.min()),
@@ -167,18 +173,18 @@ def inspect(path, portrait, edit):
                  "edgeAdjacentMedian": float(np.median(edge_changes)),
                  "edgeAdjacentP95": edge_p95, "edgeAdjacentMaximum": float(edge_changes.max()),
                  "comparisonLimit": seam_limit, "seamToEdgeP95Ratio": seam / max(edge_p95, 1e-6)},
-        "mp4Atoms": boxes, "contactSheet": sheet(path, portrait, fps, len(frames)),
+        "mp4Atoms": boxes, "contactSheet": sheet(path, portrait, fps, len(frames), edit),
         "checks": checks, "passed": all(checks.values()),
     }
 
 
 def main():
     edit = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    assert edit["durationSeconds"] == 24 and edit["fps"] == 24
+    assert edit["durationSeconds"] > 0 and edit["fps"] > 0 and len(edit["scenes"]) == 4
     OUTPUT.mkdir(parents=True, exist_ok=True)
     report = {"startedAt": datetime.now(timezone.utc).isoformat(),
               "manifest": str(MANIFEST.relative_to(ROOT)).replace("\\", "/"),
-              "sampleTimes": TIMES, "files": [], "visualReview": "pending"}
+              "sampleTimes": sample_times(edit), "files": [], "visualReview": "pending"}
     for portrait in [False, True]:
         path = ROOT / f"public/videos/india-{'mobile' if portrait else 'desktop'}.mp4"
         result = inspect(path, portrait, edit)

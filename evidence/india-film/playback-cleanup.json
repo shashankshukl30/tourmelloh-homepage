@@ -1,0 +1,25 @@
+﻿{
+    "checkedAt":  "2026-10-24T17:19:04.9286503Z",
+    "scope":  "D:\\Digiocular\\Websites\\india-travel-homepage",
+    "beforeFreeBytes":  {
+                            "D":  36071550976,
+                            "C":  75004915712
+                        },
+    "afterFreeBytes":  {
+                           "D":  36078436352,
+                           "C":  74963304448
+                       },
+    "removed":  [
+
+                ],
+    "removedBytes":  0,
+    "sourceSHA256":  "bfb5db2bea4289972c03099f8d1d912fbc377b0b551b8518686f361fb838ab53",
+    "certificateSHA256":  "bf75cd7ef9dd4edf6b39053ec65cdcb7a2c5c5d17923339759676bb762aa8ac4",
+    "certificateUnchanged":  true,
+    "reason":  "No further files positively verified as disposable. Retained original licensed sources, receipts, rebuild scripts, current public deliverables, active dependencies, and browser failure/recovery evidence.",
+    "outputPayloadBytes":  {
+                               "previous":  16942737,
+                               "current":  9051228
+                           },
+    "note":  "Payload reduction is measured separately from cleanup. Prior24s generated exports remain recoverable from pushed commit64e81705bff94a294f3428cd33d330287bb75160. No caches or sibling projects were removed."
+}

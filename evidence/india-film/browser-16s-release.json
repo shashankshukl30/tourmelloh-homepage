@@ -1,0 +1,1030 @@
+{
+  "checkedAt": "2026-10-24T17:22:27.644723+00:00",
+  "url": "http://127.0.0.1:3108",
+  "finalBuildId": "Jt5-BvSdQn_raM5EbNnvz",
+  "heroFilmSourceSha256": "784590dd6544843b495f861ff1848dbf356f9cc07e3fa533e9b7f4a47acb2d27",
+  "summary": {
+    "passed": 122,
+    "failed": 0,
+    "runtimeErrors": 0,
+    "consoleErrors": 0,
+    "pageLayouts": 21,
+    "fallbackLayouts": 5,
+    "separateChromeMediaScriptPassed": 37
+  },
+  "phases": [
+    {
+      "name": "baseline",
+      "buildId": "rc7qInltyxWyVkezI1-aV",
+      "passed": 82,
+      "scope": "21 page layouts at390, five fallback layouts, Chrome/WebKit responsive playback, explicit reduced-motion play, preference changes,16s sequence and labels. Layout evidence retained from prior page-identical build.",
+      "retainedLayoutEvidence": {
+        "buildId": "fqfU0LWltAFbHMCXw4OeH",
+        "scope": "All21pages390px; no page implementation changed in the subsequent hero-only fix."
+      }
+    },
+    {
+      "name": "loop-recovery",
+      "buildId": "cJKDgouGSGao1T1_WOVpP",
+      "passed": 32,
+      "scope": "Chrome/WebKit390/1440, normal and explicit reduced-motion loops, ordinary pauses and preference pauses."
+    },
+    {
+      "name": "final-loop-guard",
+      "buildId": "Jt5-BvSdQn_raM5EbNnvz",
+      "passed": 8,
+      "scope": "Final guarded loop recovery and manual near-end pause then seek-zero in Chrome/WebKit, normal and explicit reduced motion."
+    }
+  ],
+  "checks": [
+    {
+      "name": "/ at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys/kashi-before-the-world-wakes at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys/along-the-sacred-rivers at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys/the-road-to-bodh-gaya at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys/awadh-agra-and-braj at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys/ayodhya-at-your-own-pace at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys/a-weekend-in-lucknow at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/journeys/taj-mahal-and-the-lanes-of-braj at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/destinations/varanasi at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/destinations/ayodhya at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/destinations/agra at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/destinations/bodh-gaya at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/search at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/blog at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/blog/first-time-in-varanasi at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/blog/varanasi-prayagraj-ayodhya-route at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/blog/planning-an-ayodhya-visit at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/blog/sarnath-to-bodh-gaya at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/blog/agra-and-vrindavan at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "/blog/a-slower-visit-to-lucknow at390: no overflow, one h1",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 320x568: fallback visible without text or WhatsApp overlap",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 568x320: fallback visible without text or WhatsApp overlap",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 844x390: fallback visible without text or WhatsApp overlap",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390x844: fallback visible without text or WhatsApp overlap",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440x900: fallback visible without text or WhatsApp overlap",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: reduced motion has no source and offers play",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: reduced motion downloads no video",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: explicit play works without changing reduced motion",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: playing removes prompt and never exposes pause",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: final sequence is 16 seconds",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: 0s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: 6s label is Agra",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: 10s label is Lucknow",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: 14s label is Jaipur",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: 15.8s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: actual loop returns to Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: reduced-motion reload resets to a still source-free poster",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: enabling motion selects the correct film and starts playback",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: switching back to reduced motion pauses and offers play",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390: fresh normal-motion visit autoplays correct source",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: reduced motion has no source and offers play",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: reduced motion downloads no video",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: explicit play works without changing reduced motion",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: playing removes prompt and never exposes pause",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: final sequence is 16 seconds",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: 0s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: 6s label is Agra",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: 10s label is Lucknow",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: 14s label is Jaipur",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: 15.8s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: actual loop returns to Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: reduced-motion reload resets to a still source-free poster",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: enabling motion selects the correct film and starts playback",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: switching back to reduced motion pauses and offers play",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 1440: fresh normal-motion visit autoplays correct source",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: reduced motion selects no source and offers play",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: explicit play works while global reduced motion stays enabled",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: playing removes prompt and never adds pause",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: sequence is 16 seconds",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: 0s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: 6s label is Agra",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: 10s label is Lucknow",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: 14s label is Jaipur",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: 15.8s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: reduced-motion reload returns to a still source-free poster",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: enabling motion starts the correct responsive source",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: reducing motion pauses and restores play prompt",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 390: fresh normal-motion visit autoplays correct source",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: reduced motion selects no source and offers play",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: explicit play works while global reduced motion stays enabled",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: playing removes prompt and never adds pause",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: sequence is 16 seconds",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: 0s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: 6s label is Agra",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: 10s label is Lucknow",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: 14s label is Jaipur",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: 15.8s label is Varanasi",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: reduced-motion reload returns to a still source-free poster",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: enabling motion starts the correct responsive source",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: reducing motion pauses and restores play prompt",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "WebKit 1440: fresh normal-motion visit autoplays correct source",
+      "passed": true,
+      "phase": "baseline"
+    },
+    {
+      "name": "Chrome 390 normal: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 390 normal: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 390 normal: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 390 normal: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 390 explicit-reduced: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 390 explicit-reduced: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 390 explicit-reduced: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 390 explicit-reduced: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 normal: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 normal: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 normal: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 normal: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 explicit-reduced: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 explicit-reduced: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 explicit-reduced: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome 1440 explicit-reduced: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 normal: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 normal: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 normal: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 normal: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 explicit-reduced: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 explicit-reduced: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 explicit-reduced: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 390 explicit-reduced: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 normal: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 normal: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 normal: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 normal: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 explicit-reduced: correct responsive film starts",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 explicit-reduced: loop continues playing without changing motion preference",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 explicit-reduced: ordinary mid-film pause remains paused",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "WebKit 1440 explicit-reduced: reduced-motion change pauses and clears automatic recovery",
+      "passed": true,
+      "phase": "loop-recovery"
+    },
+    {
+      "name": "Chrome normal: native loop continues after guarded recovery",
+      "passed": true,
+      "phase": "final-loop-guard"
+    },
+    {
+      "name": "Chrome normal: manual near-end pause then seek-zero stays paused",
+      "passed": true,
+      "phase": "final-loop-guard"
+    },
+    {
+      "name": "Chrome explicit-reduced: native loop continues after guarded recovery",
+      "passed": true,
+      "phase": "final-loop-guard"
+    },
+    {
+      "name": "Chrome explicit-reduced: manual near-end pause then seek-zero stays paused",
+      "passed": true,
+      "phase": "final-loop-guard"
+    },
+    {
+      "name": "WebKit normal: native loop continues after guarded recovery",
+      "passed": true,
+      "phase": "final-loop-guard"
+    },
+    {
+      "name": "WebKit normal: manual near-end pause then seek-zero stays paused",
+      "passed": true,
+      "phase": "final-loop-guard"
+    },
+    {
+      "name": "WebKit explicit-reduced: native loop continues after guarded recovery",
+      "passed": true,
+      "phase": "final-loop-guard"
+    },
+    {
+      "name": "WebKit explicit-reduced: manual near-end pause then seek-zero stays paused",
+      "passed": true,
+      "phase": "final-loop-guard"
+    }
+  ],
+  "resolvedIssues": [
+    "Turning reduced motion off now selects the responsive source and starts playback.",
+    "Compact landscape play prompt clears body text, Explore CTA and floating WhatsApp.",
+    "Windows WebKit native looping pauses at rewind even with a bare video; guarded application recovery now resumes actual loops without resuming deliberate pauses."
+  ],
+  "limitations": [
+    "Windows Playwright WebKit may omit native video request events. Chrome verified zero reduced-motion video requests; WebKit source and playback states were observed directly.",
+    "This is desktop Chrome and Windows Playwright WebKit browser verification, not a physical-device test."
+  ],
+  "nativeWrapEvidence": {
+    "initialDiagnostic": ".vercel/film-16s-review/webkit-loop-diagnostic.json",
+    "finalGuardChecks": [
+      {
+        "name": "Chrome normal: native loop continues after guarded recovery",
+        "passed": true,
+        "detail": {
+          "state": {
+            "time": 0.2135,
+            "paused": false,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "events": [
+            {
+              "event": "seeking",
+              "time": 15.65,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.6502,
+              "paused": false
+            },
+            {
+              "event": "seeked",
+              "time": 15.6503,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 15.6503,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.9164,
+              "paused": false
+            },
+            {
+              "event": "seeking",
+              "time": 0,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 0.0001,
+              "paused": false
+            },
+            {
+              "event": "seeked",
+              "time": 0.0001,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 0.0002,
+              "paused": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "Chrome normal: manual near-end pause then seek-zero stays paused",
+        "passed": true,
+        "detail": {
+          "before": {
+            "time": 15.6003,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "after": {
+            "time": 0,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          }
+        }
+      },
+      {
+        "name": "Chrome explicit-reduced: native loop continues after guarded recovery",
+        "passed": true,
+        "detail": {
+          "state": {
+            "time": 0.2128,
+            "paused": false,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "events": [
+            {
+              "event": "seeking",
+              "time": 15.65,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.6505,
+              "paused": false
+            },
+            {
+              "event": "seeked",
+              "time": 15.6506,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 15.6506,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.9074,
+              "paused": false
+            },
+            {
+              "event": "seeking",
+              "time": 0,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 0.0005,
+              "paused": false
+            },
+            {
+              "event": "seeked",
+              "time": 0.0005,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 0.0006,
+              "paused": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "Chrome explicit-reduced: manual near-end pause then seek-zero stays paused",
+        "passed": true,
+        "detail": {
+          "before": {
+            "time": 15.6003,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "after": {
+            "time": 0,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          }
+        }
+      },
+      {
+        "name": "WebKit normal: native loop continues after guarded recovery",
+        "passed": true,
+        "detail": {
+          "state": {
+            "time": 0.2313883,
+            "paused": false,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "events": [
+            {
+              "event": "seeking",
+              "time": 15.65,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 15.65,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.6619589,
+              "paused": false
+            },
+            {
+              "event": "seeked",
+              "time": 15.662173,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.7553459,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 16.0192034,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 0,
+              "paused": true
+            },
+            {
+              "event": "pause",
+              "time": 0,
+              "paused": true
+            },
+            {
+              "event": "seeking",
+              "time": 0,
+              "paused": true
+            },
+            {
+              "event": "timeupdate",
+              "time": 0.0079446,
+              "paused": true
+            },
+            {
+              "event": "seeked",
+              "time": 0.0080046,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 0.0224172,
+              "paused": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "WebKit normal: manual near-end pause then seek-zero stays paused",
+        "passed": true,
+        "detail": {
+          "before": {
+            "time": 15.627092,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "after": {
+            "time": 0.0082968,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          }
+        }
+      },
+      {
+        "name": "WebKit explicit-reduced: native loop continues after guarded recovery",
+        "passed": true,
+        "detail": {
+          "state": {
+            "time": 0.2230868,
+            "paused": false,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "events": [
+            {
+              "event": "seeking",
+              "time": 15.65,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 15.65,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.65,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.677003,
+              "paused": false
+            },
+            {
+              "event": "seeked",
+              "time": 15.677282,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 15.9097198,
+              "paused": false
+            },
+            {
+              "event": "timeupdate",
+              "time": 0,
+              "paused": true
+            },
+            {
+              "event": "pause",
+              "time": 0,
+              "paused": true
+            },
+            {
+              "event": "seeking",
+              "time": 0,
+              "paused": true
+            },
+            {
+              "event": "timeupdate",
+              "time": 0.0051991,
+              "paused": true
+            },
+            {
+              "event": "seeked",
+              "time": 0.0052332,
+              "paused": false
+            },
+            {
+              "event": "playing",
+              "time": 0.0104271,
+              "paused": false
+            }
+          ]
+        }
+      },
+      {
+        "name": "WebKit explicit-reduced: manual near-end pause then seek-zero stays paused",
+        "passed": true,
+        "detail": {
+          "before": {
+            "time": 15.6091276,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          },
+          "after": {
+            "time": 0.0072777,
+            "paused": true,
+            "source": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+            "loop": true
+          }
+        }
+      }
+    ]
+  },
+  "visualReview": {
+    "reviewed": true,
+    "directory": ".vercel/film-16s-review",
+    "samples": [
+      "final-fallback-320x568.png",
+      "final-fallback-568x320.png",
+      "final-fallback-844x390.png",
+      "final-Chrome-390-varanasi-0s.png",
+      "final-Chrome-1440-varanasi-0s.png",
+      "final-Chrome-390-lucknow-10s.png"
+    ],
+    "finding": "Fallbacks clear text and WhatsApp; dusk opening and destination labels are readable. Screenshots retained outside tracked release."
+  },
+  "reusablePublicMediaCheck": {
+    "environmentVariable": "MEDIA_CHECK_URL",
+    "exampleUrl": "https://tourmelloh-preview.vercel.app",
+    "powershellCommand": "$env:MEDIA_CHECK_URL = 'https://tourmelloh-preview.vercel.app'; node scripts/check-media-loading.cjs",
+    "scope": "37 Chrome media assertions on this environment, including reduced-motion tap, preference changes,16s labels and loop; Node WebKit runs only if matching binary is installed."
+  },
+  "cleanup": {
+    "removed": [],
+    "reason": "All generated files are requested QA, recovery diagnostics or screenshots; no positively disposable scratch files identified. Browser contexts closed.",
+    "freeBytes": {
+      "C": 74955276288,
+      "D": 36065820672
+    }
+  }
+}

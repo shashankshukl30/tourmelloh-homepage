@@ -28,7 +28,9 @@ def run(command):
 def framing(scene, portrait):
     width, height = (720, 1280) if portrait else (1920, 1080)
     x, y = scene.get("mobileFocus" if portrait else "desktopFocus", [0.5, 0.5])
-    return (f"scale={width}:{height}:force_original_aspect_ratio=increase:flags=lanczos,"
+    source_crop = scene.get("sourceCrop")
+    crop = f"crop={source_crop[2]}:{source_crop[3]}:{source_crop[0]}:{source_crop[1]}," if source_crop else ""
+    return (crop + f"scale={width}:{height}:force_original_aspect_ratio=increase:flags=lanczos,"
             f"crop={width}:{height}:(iw-ow)*{x}:(ih-oh)*{y},setsar=1")
 
 
@@ -84,7 +86,7 @@ def render(edit, portrait):
         "-map", "[out]", "-an", "-sn", "-dn", "-c:v", "libx264", "-threads", "3",
         "-preset", "slow", "-crf", "27" if portrait else "26",
         "-maxrate", "2800k" if portrait else "6500k", "-bufsize", "5600k" if portrait else "13000k",
-        "-profile:v", "high", "-level:v", "4.1", "-pix_fmt", "yuv420p",
+        "-profile:v", "main", "-level:v", "3.1" if portrait else "4.0", "-pix_fmt", "yuv420p",
         "-movflags", "+faststart", "-g", "48", "-frames:v", str(round(length * FPS)),
         "-map_metadata", "-1", str(output),
     ])

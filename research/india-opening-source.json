@@ -1,0 +1,96 @@
+﻿{
+    "file":  "research\\media\\india-opening\\varanasi-riverfront-dusk-31033220-4k.mp4",
+    "downloadEndpoint":  "https://www.pexels.com/download/video/31033220/",
+    "resolvedUrl":  "https://videos.pexels.com/video-files/31033220/13263912_3840_2160_60fps.mp4",
+    "bytes":  179632394,
+    "sha256":  "bfb5db2bea4289972c03099f8d1d912fbc377b0b551b8518686f361fb838ab53",
+    "probe":  {
+                  "programs":  [
+
+                               ],
+                  "stream_groups":  [
+
+                                    ],
+                  "streams":  [
+                                  {
+                                      "codec_name":  "h264",
+                                      "codec_type":  "video",
+                                      "width":  3840,
+                                      "height":  2160,
+                                      "r_frame_rate":  "60000/1001"
+                                  }
+                              ],
+                  "format":  {
+                                 "duration":  "37.170467",
+                                 "size":  "179632394"
+                             }
+              },
+    "checkedAt":  "2026-10-24T17:11:55.564344+00:00",
+    "status":  "Selected for the 16-second hero revision. Render settings and final framing are defined in research/india-film-edit.json.",
+    "destination":  "Varanasi, Uttar Pradesh, India",
+    "description":  "Real aerial footage of the illuminated Varanasi riverfront at dusk; Kashi Vishwanath corridor in the central composition, boats on Ganges below.",
+    "placeVerification":  "Pexels source explicitly identifies Varanasi Ghats. Visual architecture matches the broad corridor and Lalita Ghat waterfront. The neighboring cremation area and flames are visible lower right in the full landscape image. No claim of a sunrise capture is made.",
+    "sourcePage":  "https://www.pexels.com/video/aerial-view-of-varanasi-ghats-at-dusk-31033220/",
+    "sourcePageReceipt":  "research/media/india-opening/31033220-page.md",
+    "creator":  "Amit gupta",
+    "creatorProfile":  "https://www.pexels.com/@amit-gupta-1100384299/",
+    "license":  {
+                    "name":  "Pexels License",
+                    "url":  "https://www.pexels.com/license/",
+                    "commercialUseProof":  "https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project",
+                    "attributionRequired":  false,
+                    "commercialUseAllowed":  true,
+                    "editingAllowed":  true,
+                    "checkedDate":  "2026-10-24",
+                    "licenseReceipt":  "research/media/india-montage/pexels-license.md",
+                    "commercialUseReceipt":  "research/media/india-montage/pexels-commercial-use.md",
+                    "summary":  "Free commercial website use and editing without attribution. No implied endorsement, stock redistribution, standalone unaltered resale or trademark use. Other applicable depicted rights remain separate."
+                },
+    "segment":  {
+                    "startSeconds":  0,
+                    "endSeconds":  5,
+                    "durationSeconds":  5,
+                    "continuous":  true,
+                    "sourceFrameRate":  "60000/1001",
+                    "recommendation":  "Use first five seconds for the scene. Parent handles dissolve and loop schedule. Source has more than enough additional head or tail footage if transition handles are required."
+                },
+    "crop":  {
+                 "sourceWidth":  3840,
+                 "sourceHeight":  2160,
+                 "suggestedPortrait":  {
+                                           "x":  1080,
+                                           "y":  0,
+                                           "width":  1216,
+                                           "height":  2160
+                                       },
+                 "renderWidth":  720,
+                 "renderHeight":  1280,
+                 "focusCenterFractionX":  0.4396,
+                 "objectPositionFractionX":  0.4116,
+                 "note":  "The exact proposed crop covers central corridor, ghat steps and boats. Full landscape includes neighboring cremation fires lower right; this must be considered when deciding hero suitability. Crop evidence is from source-frame JPEGs for composition only, not a quality master."
+             },
+    "motionVerification":  {
+                               "samplesSeconds":  [
+                                                      0,
+                                                      2.5,
+                                                      4.96
+                                                  ],
+                               "meanAbsolutePixelDifferences0To255":  [
+                                                                          9.558004195601852,
+                                                                          10.937879774305555
+                                                                      ],
+                               "visualObservation":  "Continuous aerial movement produces depth/parallax between water and riverfront architecture. Water, boats, small figures and flames change independently. No synthetic image, slide zoom, frozen hold or title/brand overlay observed in inspected first five seconds.",
+                               "contactSheet":  "research/media/india-opening/opening-motion-sheet.jpg",
+                               "portraitContactSheet":  "research/media/india-opening/portrait-crop-check.jpg"
+                           },
+    "reviewCaveat":  "Original is naturally low-light dusk; do not claim dawn. Parent explicitly notified of cremation fires in full landscape framing before render.",
+    "promptLibrary":  {
+                          "searched":  "cinematic travel drone river landscape slow",
+                          "readSlugs":  [
+                                            "demitiyageekzen-7770ad",
+                                            "thismacapital-dfba20"
+                                        ],
+                          "application":  "Continuous river reveal pacing considered; no prompt art, code or sequence copied. Footage is independently licensed stock."
+                      },
+    "finalFraming":  "Use source rectangle x0 y0 width2304 height1296, then responsive framing from the edit manifest. First and last selected frames visually reviewed in evidence/india-film/storyboard-desktop.jpg and storyboard-mobile.jpg. The crop excludes the neighboring cremation area."
+}

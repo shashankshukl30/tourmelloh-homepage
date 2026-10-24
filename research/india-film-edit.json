@@ -5,7 +5,7 @@
     { "slug": "jake11moran-414633", "applied": "Calm continuous motion and gentle transitions; no copied composition or text." },
     { "slug": "thismacapital-dfba20", "applied": "Reviewed travel promo reference; retained real destinations instead of graphic showreel treatments." }
   ],
-  "durationSeconds": 24,
+  "durationSeconds": 16,
   "dissolveSeconds": 1,
   "fps": 24,
   "audio": "Silent decorative website background",
@@ -13,19 +13,20 @@
   "scenes": [
     {
       "place": "Varanasi",
-      "landmark": "Ganga riverfront",
-      "source": "research/media/hero-film/36631860-original.mp4",
+      "landmark": "Varanasi riverfront at dusk",
+      "source": "research/media/india-opening/varanasi-riverfront-dusk-31033220-4k.mp4",
       "start": 0,
-      "duration": 7,
+      "duration": 5,
+      "sourceCrop": [0, 0, 2304, 1296],
       "desktopFocus": [0.5, 0.5],
-      "mobileFocus": [0.77, 0.5]
+      "mobileFocus": [0.81, 0.5]
     },
     {
       "place": "Agra",
       "landmark": "Taj Mahal",
       "source": "research/media/india-montage/agra-taj-mahal-19705899-4k.mp4",
       "start": 0,
-      "duration": 7,
+      "duration": 5,
       "desktopFocus": [0.5, 0.5],
       "mobileFocus": [0.5, 0.5]
     },
@@ -34,8 +35,7 @@
       "landmark": "Rumi Darwaza",
       "source": "research/media/india-montage/lucknow-rumi-gate-36942483-1440p.mp4",
       "start": 0.05,
-      "sourceDuration": 6.666667,
-      "duration": 7,
+      "duration": 5,
       "desktopFocus": [0.5, 0.5],
       "mobileFocus": [0.57, 0.5]
     },
@@ -44,7 +44,7 @@
       "landmark": "Amber Fort",
       "source": "research/media/india-montage/jaipur-amber-fort-18983875-4k.mp4",
       "start": 2,
-      "duration": 7,
+      "duration": 5,
       "desktopFocus": [0.5, 0.5],
       "mobileFocus": [0.7, 0.5]
     }

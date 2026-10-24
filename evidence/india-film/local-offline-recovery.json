@@ -1,0 +1,260 @@
+{
+  "base": "http://127.0.0.1:3108",
+  "startedAt": "2026-10-24T17:17:54.833494+00:00",
+  "method": "Native context offline/online state; no response interception or media-prototype changes.",
+  "cases": [
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.47",
+      "viewport": [
+        390,
+        844
+      ],
+      "passed": true,
+      "checks": {
+        "reducedMotionWaitsForUser": true,
+        "noInitialMp4Fetch": true,
+        "offlineFailureOffersRetry": true,
+        "retryLoadsCorrectFilm": true,
+        "retryStartsRealPlayback": true,
+        "promptClearsOnlyOncePlaying": true,
+        "mutedInline16SecondFilm": true
+      },
+      "qualification": "Desktop browser engine; physical device autoplay policy remains unverified.",
+      "initial": {
+        "src": "",
+        "time": 0,
+        "paused": true,
+        "ready": 0,
+        "network": 3,
+        "error": null,
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": null,
+        "online": true
+      },
+      "initialMediaRequests": [],
+      "offline": {
+        "src": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "time": 0,
+        "paused": true,
+        "ready": 0,
+        "network": 3,
+        "error": {
+          "code": 4,
+          "message": "MEDIA_ELEMENT_ERROR: Format error"
+        },
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": null,
+        "online": false
+      },
+      "recovered": {
+        "src": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "time": 0.3136,
+        "paused": false,
+        "ready": 4,
+        "network": 1,
+        "error": null,
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": 16,
+        "online": true
+      }
+    },
+    {
+      "browser": "Chrome",
+      "version": "156.0.8078.47",
+      "viewport": [
+        1440,
+        900
+      ],
+      "passed": true,
+      "checks": {
+        "reducedMotionWaitsForUser": true,
+        "noInitialMp4Fetch": true,
+        "offlineFailureOffersRetry": true,
+        "retryLoadsCorrectFilm": true,
+        "retryStartsRealPlayback": true,
+        "promptClearsOnlyOncePlaying": true,
+        "mutedInline16SecondFilm": true
+      },
+      "qualification": "Desktop browser engine; physical device autoplay policy remains unverified.",
+      "initial": {
+        "src": "",
+        "time": 0,
+        "paused": true,
+        "ready": 0,
+        "network": 3,
+        "error": null,
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": null,
+        "online": true
+      },
+      "initialMediaRequests": [],
+      "offline": {
+        "src": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "time": 0,
+        "paused": true,
+        "ready": 0,
+        "network": 3,
+        "error": {
+          "code": 4,
+          "message": "MEDIA_ELEMENT_ERROR: Format error"
+        },
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": null,
+        "online": false
+      },
+      "recovered": {
+        "src": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "time": 0.3275,
+        "paused": false,
+        "ready": 4,
+        "network": 1,
+        "error": null,
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": 16,
+        "online": true
+      }
+    },
+    {
+      "browser": "WebKit",
+      "version": "26.0",
+      "viewport": [
+        390,
+        844
+      ],
+      "passed": null,
+      "checks": {
+        "reducedMotionWaitsForUser": true
+      },
+      "qualification": "Desktop browser engine; physical device autoplay policy remains unverified.",
+      "initial": {
+        "src": "",
+        "time": 0,
+        "paused": true,
+        "ready": 0,
+        "network": 3,
+        "error": null,
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": null,
+        "online": true
+      },
+      "initialMediaRequests": [],
+      "exception": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Retry destination video\", exact=True) to be visible\n",
+      "nativeOfflineRecheck": {
+        "online": false,
+        "src": "http://127.0.0.1:3108/videos/india-mobile.mp4",
+        "time": 1.6985863,
+        "paused": false,
+        "ready": 4,
+        "network": 2,
+        "error": null,
+        "prompt": null
+      },
+      "status": "unsupported-native-offline-emulation",
+      "unsupportedReason": "This Windows WebKit media loader bypasses Playwright offline emulation: actual video plays while navigator.onLine is false. Retry cannot be triggered by this native test method."
+    },
+    {
+      "browser": "WebKit",
+      "version": "26.0",
+      "viewport": [
+        1440,
+        900
+      ],
+      "passed": null,
+      "checks": {
+        "reducedMotionWaitsForUser": true
+      },
+      "qualification": "Desktop browser engine; physical device autoplay policy remains unverified.",
+      "initial": {
+        "src": "",
+        "time": 0,
+        "paused": true,
+        "ready": 0,
+        "network": 3,
+        "error": null,
+        "muted": true,
+        "defaultMuted": true,
+        "playsInline": true,
+        "duration": null,
+        "online": true
+      },
+      "initialMediaRequests": [],
+      "exception": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Retry destination video\", exact=True) to be visible\n",
+      "nativeOfflineRecheck": {
+        "online": false,
+        "src": "http://127.0.0.1:3108/videos/india-desktop.mp4",
+        "time": 1.7000684,
+        "paused": false,
+        "ready": 4,
+        "network": 2,
+        "error": null,
+        "prompt": null
+      },
+      "status": "unsupported-native-offline-emulation",
+      "unsupportedReason": "This Windows WebKit media loader bypasses Playwright offline emulation: actual video plays while navigator.onLine is false. Retry cannot be triggered by this native test method."
+    }
+  ],
+  "summary": {
+    "cases": 4,
+    "passed": 2,
+    "failed": 0,
+    "unsupported": 2
+  },
+  "finishedAt": "2026-10-24T17:18:25.604452+00:00",
+  "initialExpectations": [
+    {
+      "browser": "Chrome",
+      "viewport": [
+        390,
+        844
+      ],
+      "passed": true,
+      "exception": null
+    },
+    {
+      "browser": "Chrome",
+      "viewport": [
+        1440,
+        900
+      ],
+      "passed": true,
+      "exception": null
+    },
+    {
+      "browser": "WebKit",
+      "viewport": [
+        390,
+        844
+      ],
+      "passed": false,
+      "exception": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Retry destination video\", exact=True) to be visible\n"
+    },
+    {
+      "browser": "WebKit",
+      "viewport": [
+        1440,
+        900
+      ],
+      "passed": false,
+      "exception": "Locator.wait_for: Timeout 12000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"Retry destination video\", exact=True) to be visible\n"
+    }
+  ],
+  "codeReview": {
+    "status": "no remaining material issue found in reviewed paths",
+    "notes": "Matched-source error handler now checks media query, while the video-level handler ignores bubbled skipped-source errors. NETWORK_NO_SOURCE and explicit Retry force a direct source reload. Play remains synchronous inside the click handler; reduced-motion automatic calls return before source loading."
+  }
+}

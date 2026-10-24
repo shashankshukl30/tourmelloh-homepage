@@ -1,0 +1,331 @@
+{
+  "base": "https://tourmelloh-preview.vercel.app",
+  "checkedAt": "2026-10-24T17:10:11.260002+00:00",
+  "media": [
+    {
+      "url": "https://tourmelloh-preview.vercel.app/videos/india-mobile.mp4",
+      "headStatus": 200,
+      "headHeaders": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "142",
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Content-Disposition": "inline; filename=\"india-mobile.mp4\"",
+        "Content-Length": "5171106",
+        "Content-Type": "video/mp4",
+        "Date": "Sat, 24 Oct 2026 17:10:12 GMT",
+        "Etag": "\"13ec98c74b0920e5a74626d04dbab45a\"",
+        "Last-Modified": "Sat, 24 Oct 2026 17:07:49 GMT",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Server": "Vercel",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Matched-Path": "/videos/india-mobile.mp4",
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Vercel-Cache": "HIT",
+        "X-Vercel-Id": "bom1::klk2q-1792861812166-910178f67f35"
+      },
+      "rangeStatus": 206,
+      "rangeHeaders": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "143",
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Content-Disposition": "inline; filename=\"india-mobile.mp4\"",
+        "Content-Length": "32",
+        "Content-Range": "bytes 0-31/5171106",
+        "Content-Type": "video/mp4",
+        "Date": "Sat, 24 Oct 2026 17:10:12 GMT",
+        "Etag": "\"13ec98c74b0920e5a74626d04dbab45a\"",
+        "Last-Modified": "Sat, 24 Oct 2026 17:07:49 GMT",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Server": "Vercel",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Matched-Path": "/videos/india-mobile.mp4",
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Vercel-Cache": "HIT",
+        "X-Vercel-Id": "bom1::kn2hs-1792861812481-bf1ea0e8ca9e"
+      },
+      "rangeBytes": 32,
+      "startHex": "000000206674797069736f6d0000020069736f6d69736f32617663316d703431",
+      "suffixStatus": 206,
+      "suffixHeaders": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "143",
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Content-Disposition": "inline; filename=\"india-mobile.mp4\"",
+        "Content-Length": "32",
+        "Content-Range": "bytes 5171074-5171105/5171106",
+        "Content-Type": "video/mp4",
+        "Date": "Sat, 24 Oct 2026 17:10:12 GMT",
+        "Etag": "\"13ec98c74b0920e5a74626d04dbab45a\"",
+        "Last-Modified": "Sat, 24 Oct 2026 17:07:49 GMT",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Server": "Vercel",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Matched-Path": "/videos/india-mobile.mp4",
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Vercel-Cache": "HIT",
+        "X-Vercel-Id": "bom1::2j9hx-1792861812799-0f4a678825ca"
+      },
+      "suffixBytes": 32
+    },
+    {
+      "url": "https://tourmelloh-preview.vercel.app/videos/india-desktop.mp4",
+      "headStatus": 200,
+      "headHeaders": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "144",
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Content-Disposition": "inline; filename=\"india-desktop.mp4\"",
+        "Content-Length": "11771631",
+        "Content-Type": "video/mp4",
+        "Date": "Sat, 24 Oct 2026 17:10:13 GMT",
+        "Etag": "\"fe41c53df252211ea9aeaad5fac846fe\"",
+        "Last-Modified": "Sat, 24 Oct 2026 17:07:48 GMT",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Server": "Vercel",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Matched-Path": "/videos/india-desktop.mp4",
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Vercel-Cache": "HIT",
+        "X-Vercel-Id": "bom1::mfwfm-1792861813134-b57d03dee63a"
+      },
+      "rangeStatus": 206,
+      "rangeHeaders": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "145",
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Content-Disposition": "inline; filename=\"india-desktop.mp4\"",
+        "Content-Length": "32",
+        "Content-Range": "bytes 0-31/11771631",
+        "Content-Type": "video/mp4",
+        "Date": "Sat, 24 Oct 2026 17:10:13 GMT",
+        "Etag": "\"fe41c53df252211ea9aeaad5fac846fe\"",
+        "Last-Modified": "Sat, 24 Oct 2026 17:07:48 GMT",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Server": "Vercel",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Matched-Path": "/videos/india-desktop.mp4",
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Vercel-Cache": "HIT",
+        "X-Vercel-Id": "bom1::m7k6b-1792861813474-fa45ca63e277"
+      },
+      "rangeBytes": 32,
+      "startHex": "000000206674797069736f6d0000020069736f6d69736f32617663316d703431",
+      "suffixStatus": 206,
+      "suffixHeaders": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "145",
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Content-Disposition": "inline; filename=\"india-desktop.mp4\"",
+        "Content-Length": "32",
+        "Content-Range": "bytes 11771599-11771630/11771631",
+        "Content-Type": "video/mp4",
+        "Date": "Sat, 24 Oct 2026 17:10:13 GMT",
+        "Etag": "\"fe41c53df252211ea9aeaad5fac846fe\"",
+        "Last-Modified": "Sat, 24 Oct 2026 17:07:48 GMT",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Server": "Vercel",
+        "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Matched-Path": "/videos/india-desktop.mp4",
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Vercel-Cache": "HIT",
+        "X-Vercel-Id": "bom1::68s6s-1792861813798-d3f94c1b9cee"
+      },
+      "suffixBytes": 32
+    }
+  ],
+  "homepage": {
+    "status": 200,
+    "finalUrl": "https://tourmelloh-preview.vercel.app/",
+    "video": [
+      {
+        "class": "hero-film",
+        "autoplay": "",
+        "muted": "",
+        "loop": "",
+        "playsinline": "",
+        "preload": "metadata",
+        "poster": "/images/india-film-poster.webp",
+        "aria-hidden": "true",
+        "tabindex": "-1"
+      }
+    ],
+    "sources": [
+      {
+        "src": "/videos/india-mobile.mp4",
+        "type": "video/mp4",
+        "media": "(max-width: 700px) and (prefers-reduced-motion: no-preference)"
+      },
+      {
+        "src": "/videos/india-desktop.mp4",
+        "type": "video/mp4",
+        "media": "(min-width: 701px) and (prefers-reduced-motion: no-preference)"
+      }
+    ],
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Age": "145",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Disposition": "inline",
+      "Content-Encoding": "br",
+      "Content-Type": "text/html; charset=utf-8",
+      "Date": "Sat, 24 Oct 2026 17:10:11 GMT",
+      "Etag": "W/\"e402ecb173bddba4e3e15f84c460977a\"",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Server": "Vercel",
+      "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+      "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-Matched-Path": "/",
+      "X-Nextjs-Prerender": "1",
+      "X-Nextjs-Stale-Time": "300",
+      "X-Robots-Tag": "noindex, nofollow",
+      "X-Vercel-Cache": "HIT",
+      "X-Vercel-Id": "bom1::m7k6b-1792861811806-9dc2b96e0275",
+      "Transfer-Encoding": "chunked"
+    }
+  },
+  "browserCases": [
+    {
+      "currentSrc": "https://tourmelloh-preview.vercel.app/videos/india-mobile.mp4",
+      "time": 2.545,
+      "paused": false,
+      "ready": 4,
+      "error": null,
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": false,
+      "sourceMatches": [
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-mobile.mp4",
+          "media": "(max-width: 700px) and (prefers-reduced-motion: no-preference)",
+          "matches": true
+        },
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-desktop.mp4",
+          "media": "(min-width: 701px) and (prefers-reduced-motion: no-preference)",
+          "matches": false
+        }
+      ],
+      "high41Support": "probably",
+      "browser": "Chrome",
+      "version": "156.0.8078.47",
+      "motionPreference": "no-preference",
+      "playButtons": 0,
+      "qualification": "Desktop engine with touch viewport emulation; physical iOS/Android devices unverified."
+    },
+    {
+      "currentSrc": "",
+      "time": 0,
+      "paused": true,
+      "ready": 0,
+      "error": null,
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": false,
+      "sourceMatches": [
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-mobile.mp4",
+          "media": "(max-width: 700px) and (prefers-reduced-motion: no-preference)",
+          "matches": false
+        },
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-desktop.mp4",
+          "media": "(min-width: 701px) and (prefers-reduced-motion: no-preference)",
+          "matches": false
+        }
+      ],
+      "high41Support": "probably",
+      "browser": "Chrome",
+      "version": "156.0.8078.47",
+      "motionPreference": "reduce",
+      "playButtons": 0,
+      "qualification": "Desktop engine with touch viewport emulation; physical iOS/Android devices unverified."
+    },
+    {
+      "currentSrc": "https://tourmelloh-preview.vercel.app/videos/india-mobile.mp4",
+      "time": 1.8213592,
+      "paused": false,
+      "ready": 4,
+      "error": null,
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": false,
+      "sourceMatches": [
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-mobile.mp4",
+          "media": "(max-width: 700px) and (prefers-reduced-motion: no-preference)",
+          "matches": true
+        },
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-desktop.mp4",
+          "media": "(min-width: 701px) and (prefers-reduced-motion: no-preference)",
+          "matches": false
+        }
+      ],
+      "high41Support": "probably",
+      "browser": "WebKit",
+      "version": "26.0",
+      "motionPreference": "no-preference",
+      "playButtons": 0,
+      "qualification": "Desktop engine with touch viewport emulation; physical iOS/Android devices unverified."
+    },
+    {
+      "currentSrc": "",
+      "time": 0,
+      "paused": true,
+      "ready": 0,
+      "error": null,
+      "muted": true,
+      "defaultMuted": true,
+      "playsInline": true,
+      "controls": false,
+      "sourceMatches": [
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-mobile.mp4",
+          "media": "(max-width: 700px) and (prefers-reduced-motion: no-preference)",
+          "matches": false
+        },
+        {
+          "src": "https://tourmelloh-preview.vercel.app/videos/india-desktop.mp4",
+          "media": "(min-width: 701px) and (prefers-reduced-motion: no-preference)",
+          "matches": false
+        }
+      ],
+      "high41Support": "probably",
+      "browser": "WebKit",
+      "version": "26.0",
+      "motionPreference": "reduce",
+      "playButtons": 0,
+      "qualification": "Desktop engine with touch viewport emulation; physical iOS/Android devices unverified."
+    }
+  ]
+}

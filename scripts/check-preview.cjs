@@ -134,13 +134,19 @@ function check(name, passed, detail) {
   }
   check('Reduced motion downloads no hero film', filmRequests.length === 0, filmRequests.slice());
   check('Reduced motion keeps the hero poster still', await page.locator('.hero-film').evaluate(v => v.paused && !v.currentSrc));
-  check('Hero film has no play or pause controls', await page.locator('.hero-film').evaluate(v => !v.controls) && await page.locator('.film-control').count() === 0 && await page.getByRole('button', { name: /^(play|pause).*film/i }).count() === 0);
+  check('Reduced motion offers explicit video play without a pause control', await page.locator('.hero-film').evaluate(v => !v.controls) && await page.getByRole('button', { name: 'Play destination video', exact: true }).isVisible() && await page.getByRole('button', { name: /^pause.*(?:film|video)/i }).count() === 0);
+  await page.getByRole('button', { name: 'Play destination video', exact: true }).click();
+  await page.waitForFunction(() => { const v = document.querySelector('.hero-film'); return v && !v.paused && v.currentTime > .1 && v.videoWidth > 0; });
+  check('Explicit video play respects the unchanged global reduced-motion preference', await page.evaluate(() => matchMedia('(prefers-reduced-motion: reduce)').matches) && await page.locator('.hero-film').evaluate(v => v.currentSrc.endsWith('/videos/india-mobile.mp4') && v.muted));
+  await page.waitForFunction(() => !document.querySelector('.hero-play-prompt'));
+  check('Video play prompt disappears after successful playback', await page.locator('.hero-play-prompt').count() === 0);
+  await page.reload({ waitUntil: 'networkidle' });
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.waitForFunction(() => { const v = document.querySelector('.hero-film'); return v && !v.paused && v.currentTime > .1 && v.videoWidth > 0; });
   check('Enabling motion autoplays the mobile India film', await page.locator('.hero-film').evaluate(v => v.currentSrc.endsWith('/videos/india-mobile.mp4') && v.muted && v.loop));
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.waitForFunction(() => document.querySelector('.hero-film')?.paused);
-  check('Changing to reduced motion pauses the hero film', await page.locator('.hero-film').evaluate(v => v.paused));
+  check('Changing to reduced motion pauses the hero film and restores explicit play', await page.locator('.hero-film').evaluate(v => v.paused) && await page.getByRole('button', { name: 'Play destination video', exact: true }).isVisible());
   const missing = await page.goto(new URL('/journeys/not-a-real-journey', baseUrl.origin).href, { waitUntil: 'networkidle' });
   check('Unknown route shows branded 404', missing.status() === 404 && await page.getByRole('heading', { name: /find your.*way back/ }).isVisible());
   await browser.close();
