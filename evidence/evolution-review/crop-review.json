@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "route": "/blog",
+      "width": 390,
+      "position": "50% 0%",
+      "loaded": true,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "route": "/blog/sarnath-to-bodh-gaya",
+      "width": 390,
+      "position": "50% 0%",
+      "loaded": true,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "route": "/blog",
+      "width": 1440,
+      "position": "50% 0%",
+      "loaded": true,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "route": "/blog/sarnath-to-bodh-gaya",
+      "width": 1440,
+      "position": "50% 0%",
+      "loaded": true,
+      "overflow": false,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "browser": "WebKit",
+  "comparisons": [
+    {
+      "style": "normal",
+      "widthBefore": 1156.19189453125,
+      "widthAfter": 1156.19189453125,
+      "differingPixelChannels": 0
+    },
+    {
+      "style": "italic",
+      "widthBefore": 1084.3515625,
+      "widthAfter": 1084.3515625,
+      "differingPixelChannels": 0
+    }
+  ]
+}

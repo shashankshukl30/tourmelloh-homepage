@@ -3,5 +3,17 @@
   "date": "2026-10-24",
   "initialPrompt": "Use case: logo-brand. Create one exceptionally refined logo concept board for TOURMELLOH, a new India travel company rooted in Varanasi. The exact wordmark is 'tourmelloh' (t o u r m e l l o h). The user wants the reduction, precision and memorability of a world-class digital brand, with cultural sensitivity and sophisticated travel character. Design an ORIGINAL identity, not the style or symbol of any existing technology/travel company. Main idea: a bold, elegant geometric T formed by two interlocking rounded ribbon shapes; one continuous negative-space channel suggests a river taking a gentle turn through the letter. The silhouette must remain extremely clear at 16 pixels. Invent a distinctive asymmetric cut or turn that makes this immediately ownable. Use just deep forest green and warm ivory, with muted copper used sparingly only in a small palette swatch. Wordmark should be lowercase, carefully spaced, slightly humanist modern sans serif, custom-looking with beautiful open counters and a quietly distinctive double-l pair. Board layout: large horizontal logo at top, a large standalone icon lower left, tiny favicon tests lower centre, reversed ivory on deep forest lockup lower right. Lots of clean generous whitespace, flat vector-like solid shapes, sharp edges, restrained senior brand designer quality, no mockup or photography. Keep logo restrained and exceptionally simple; no aircraft, no location pin, no temple drawing, no lotus, no compass, no mandala, no globe, no ornamental travel swoosh, no gradients, no glossy effects, no shadows, no textured paper, no generic infinity shape, no thin strokes. Do not add tagline or other words. Render a polished identity design board in landscape proportions.",
   "conceptPath": ".skill-archive/logo-creator/2026-10-24-tourmelloh/ai-refined-concept.png",
-  "finalVectorWorkflow": "Original clean SVG geometry and outlined Instrument Sans wordmark generated with code; asset exports inspected at favicon, mobile and desktop sizes."
+  "finalVectorWorkflow": "Existing approved T/river symbol paths retained unchanged. Ten original lowercase letter shapes recovered from the large wordmark in ai-refined-concept.png with fitted closed Bezier contours, replacing the earlier Instrument Sans substitution. Exports are font-independent SVG paths with transparent counters; no raster embedding.",
+  "wordmarkCorrection": {
+    "reason": "The website export's Instrument Sans letter shapes differed from the originally generated logo, especially the t and double-l pair.",
+    "sourceSha256": "90c373eeda38da6f33c40312abed5774f60f032dfd6da1f4972adc2d956a5e81",
+    "sourceBounds": [409, 242, 1031, 180],
+    "vectorMaster": "scripts/brand/wordmark-source.json",
+    "recoveryScript": "scripts/brand/recover-wordmark.py",
+    "validation": "scripts/brand/validation.json",
+    "symbolChanged": false,
+    "conceptChanged": false,
+    "horizontalViewBox": [0, 0, 561.255, 112],
+    "horizontalAspectRatio": 5.011205357142857
+  }
 }

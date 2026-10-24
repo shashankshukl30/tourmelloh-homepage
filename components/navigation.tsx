@@ -7,6 +7,7 @@ import Image from "next/image";
 import { ArrowUpRight, Menu, Search, X } from "lucide-react";
 import { LayoutGroup, motion, useReducedMotion } from "framer-motion";
 import { brand } from "@/content/travel";
+import { WhatsAppLink } from "@/components/whatsapp-link";
 
 if (typeof window !== "undefined") window.history.scrollRestoration = "manual";
 const MotionLink = motion.create(Link);
@@ -14,7 +15,7 @@ const links = [
   { name: "Explore India", href: "/#destinations" },
   { name: "Tours & routes", href: "/journeys" },
   { name: "Varanasi guide", href: "/destinations/varanasi" },
-  { name: "Get in touch", href: "/#contact" },
+  { name: "Travel journal", href: "/blog" },
 ];
 
 export function Emblem({ className = "" }: { className?: string }) {
@@ -157,11 +158,12 @@ export function Navigation({
             whileHover={reduced ? undefined : { scale: 1.07 }} whileTap={reduced ? undefined : { scale: .94 }} transition={travel}>
             <Search size={20} />
           </MotionLink>
+          <WhatsAppLink placement="header" />
           <MotionLink href="/#plan" className="header-cta" style={{ color: solid ? "var(--paper)" : "var(--ink)" }}
             initial="rest" whileHover="hover" whileFocus="hover" whileTap={reduced ? undefined : { scale: .98 }}>
             <motion.span className="nav-cta-fill" aria-hidden="true"
               variants={{ rest: { y: "105%" }, hover: { y: 0 } }} transition={reduced ? { duration: 0 } : { duration: .28, ease: [.2, .7, .2, 1] }} />
-            <span className="nav-cta-label">Plan your journey</span>
+            <span className="nav-cta-label"><span className="nav-plan-full">Plan your journey</span><span className="nav-plan-short">Plan a trip</span></span>
             <motion.span className="nav-cta-arrow" variants={{ rest: { x: 0, y: 0 }, hover: { x: reduced ? 0 : 2, y: reduced ? 0 : -2 } }} transition={travel}>
               <ArrowUpRight size={17} />
             </motion.span>
@@ -208,6 +210,9 @@ export function Navigation({
               <ArrowUpRight />
             </MotionLink>
           ))}
+          <Link href="/search" className="mobile-search-link" onClick={() => setOpen(false)}>
+            <Search size={21} /><span>Search tours & destinations</span><ArrowUpRight />
+          </Link>
           <Link
             href="/#plan"
             onClick={() => setOpen(false)}

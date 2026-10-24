@@ -2,6 +2,9 @@
   "status": "PASS",
   "wordmark": "tourmelloh",
   "glyph_count": 10,
+  "source_unchanged": true,
+  "source_sha256": "90c373eeda38da6f33c40312abed5774f60f032dfd6da1f4972adc2d956a5e81",
+  "symbols_unchanged": true,
   "double_l_verified": true,
   "svg": [
     {
@@ -14,13 +17,13 @@
       "file": "tourmelloh-logo-ivory.svg",
       "paths": 13,
       "no_raster_or_live_text": true,
-      "sha256": "99173d1586aa69f6bc0f2be37590e0c4a02f5bdc3ae7c164106302305847d0d9"
+      "sha256": "4835f1f0354f9af3940b06b8ce01e798f9be62e8259eddaa991e4be223bdeac1"
     },
     {
       "file": "tourmelloh-logo.svg",
       "paths": 13,
       "no_raster_or_live_text": true,
-      "sha256": "24a1e8e6e1c9f33d93c94a95aa2f9999908f2cca610867628614a005ae826a6b"
+      "sha256": "49e493e314c45ef77d61b083b7d6aaf566dac646c3b69a8f1f395271421f7f2b"
     },
     {
       "file": "tourmelloh-symbol-copper.svg",
@@ -62,7 +65,7 @@
       "file": "tourmelloh-logo-ivory.png",
       "dimensions": [
         2400,
-        416
+        479
       ],
       "mode": "RGBA"
     },
@@ -70,7 +73,7 @@
       "file": "tourmelloh-logo.png",
       "dimensions": [
         2400,
-        416
+        479
       ],
       "mode": "RGBA"
     },
@@ -91,5 +94,31 @@
       "mode": "RGBA"
     }
   ],
-  "visual_review": "logo-preview.png opened and inspected; primary, reversed, 16/24/32/48px favicon treatments visible; transparent symbol inspected separately."
+  "original_lettering_comparison": {
+    "method": "Chromium SVG rasterization at original source pixel dimensions; foreground mask intersection over union.",
+    "source_bounds": [
+      409,
+      242,
+      1031,
+      180
+    ],
+    "intersection_over_union": 0.9903473354902538,
+    "source_foreground_pixels": 74529,
+    "vector_foreground_pixels": 74345,
+    "threshold": 0.99
+  },
+  "visual_review": "Corrected logo-preview.png and transparent logo PNG opened and inspected; original geometric lettering and sculpted double-l retained in primary/reversed signatures.",
+  "cleanup": {
+    "removed": [],
+    "bytes_removed": 0,
+    "reason": "No disposable scratch files created. Original concept, vector master, reproducible source and final exports retained.",
+    "free_bytes_before": {
+      "C": 75566579712,
+      "D": 36465676288
+    },
+    "free_bytes_after": {
+      "C": 75561598976,
+      "D": 36465430528
+    }
+  }
 }

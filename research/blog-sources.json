@@ -1,0 +1,202 @@
+{
+  "researchedOn": "2026-10-24",
+  "contentFile": "content/blog.ts",
+  "method": "Official destination, district-government, monument and UNESCO pages read through Agent Reach / Jina Reader and web browsing. Existing verified destination and journey research was used for continuity. All article prose is original.",
+  "editorialBoundary": "Suggested night counts, pacing, rest breaks, grouping and planning questions are editorial recommendations, not published official itineraries or promises of service. No invented reviews, prices, visitor numbers, fixed entry times, queue guarantees, transport durations or priority access.",
+  "sources": [
+    {
+      "id": "varanasi-culture",
+      "url": "https://varanasi.nic.in/tourism/",
+      "publisher": "Varanasi district government",
+      "verifiedClaims": ["Varanasi's Banarasi silk and craft traditions", "Sarnath near Varanasi and its association with the Buddha's first teaching"],
+      "excluded": ["Unsourced superlatives", "Medical-history assertions", "Exact antiquity claims"]
+    },
+    {
+      "id": "varanasi-ghats",
+      "url": "https://varanasi.nic.in/tourist-place/ganga-ghat/",
+      "publisher": "Varanasi district government",
+      "verifiedClaims": ["Riverfront ghats and established morning boat experience"],
+      "continuitySource": "research/tour-upgrade.json",
+      "qualification": "Boating is conditional on actual conditions, permission and appropriate boarding access."
+    },
+    {
+      "id": "sarnath",
+      "url": "https://varanasi.nic.in/adventures/",
+      "publisher": "Varanasi district government",
+      "verifiedClaims": ["First sermon after enlightenment", "Dhamekh Stupa", "Archaeological remains and Buddhist sculpture at Sarnath"]
+    },
+    {
+      "id": "sarnath-museum",
+      "url": "https://asisarnathcircle.in/sarnath/img/Sarnath.pdf",
+      "publisher": "Archaeological Survey of India, Sarnath Circle",
+      "verifiedClaims": ["Lion Capital of Ashoka displayed in the site museum"],
+      "qualification": "Articles ask readers to check the museum's operating day separately; no fixed clock hours are published."
+    },
+    {
+      "id": "sangam",
+      "url": "https://prayagraj.nic.in/tourist-place/sangam/",
+      "publisher": "Prayagraj district government",
+      "verifiedClaims": ["Ganga and Yamuna confluence", "Saraswati as religious tradition rather than a visible third river"],
+      "excluded": ["Outdated Kumbh chronology", "Water-colour guarantees", "Bathing safety or boat availability claims"]
+    },
+    {
+      "id": "ram-mandir",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1998553&lang=2&reg=3",
+      "publisher": "Press Information Bureau, Government of India",
+      "verifiedClaims": ["Shri Ram Janmabhoomi Mandir's Nagara architecture", "Ram Lalla as the principal deity"],
+      "excluded": ["Political commentary", "Unneeded measurements", "Unverified current visitor procedures"]
+    },
+    {
+      "id": "hanuman-garhi",
+      "url": "https://ayodhya.nic.in/tourist-place/hanuman-garhi/",
+      "publisher": "Ayodhya district government",
+      "verifiedClaims": ["Shrine to Hanuman", "Young Hanuman with his mother Anjani"],
+      "excluded": ["Stale airport information", "Conflicting origin accounts"]
+    },
+    {
+      "id": "hanuman-garhi-access",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/ayodhya/hanuman-garhi",
+      "publisher": "Ministry of Tourism, Incredible India",
+      "verifiedClaims": ["Stepped approach to Hanuman Garhi"],
+      "continuitySource": "research/tour-upgrade.json",
+      "excluded": ["Exact step count", "Operating hours", "Assurance of accessibility"]
+    },
+    {
+      "id": "kanak-bhawan",
+      "url": "https://ayodhya.nic.in/tourist-place/kanak-bhawan/",
+      "publisher": "Ayodhya district government",
+      "verifiedClaims": ["Ram and Sita in the sanctum", "Temple courtyard setting"],
+      "excluded": ["Stale transport details", "Legend stated as documented history"]
+    },
+    {
+      "id": "ram-ki-paidi",
+      "url": "https://ayodhya.nic.in/tourist-place/ram-ki-paidi/",
+      "publisher": "Ayodhya district government",
+      "verifiedClaims": ["Series of ghats along the Sarayu riverfront"],
+      "excluded": ["Stale airport information", "Guaranteed event or lighting schedules"]
+    },
+    {
+      "id": "ayodhya-festivals",
+      "url": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/ram-navmi-ayodhya",
+      "publisher": "Ministry of Tourism, Incredible India",
+      "verifiedClaims": ["Ram Navami's association with Ayodhya"],
+      "continuitySource": "research/tour-upgrade.json",
+      "qualification": "Exact dates and operational access require a current date-specific check."
+    },
+    {
+      "id": "deepotsav",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/ayodhya/ram-ki-paidi",
+      "publisher": "Ministry of Tourism, Incredible India",
+      "verifiedClaims": ["Deepotsav's association with the Ayodhya riverfront"],
+      "continuitySource": "research/tour-upgrade.json",
+      "excluded": ["Attendance estimates", "Lamp counts", "Unverified future dates"]
+    },
+    {
+      "id": "mahabodhi",
+      "url": "https://whc.unesco.org/en/list/1056/",
+      "publisher": "UNESCO World Heritage Centre",
+      "verifiedClaims": ["World Heritage status", "Association with the Buddha's enlightenment", "Temple, sacred Bodhi Tree and associated monuments", "Continuing religious use"]
+    },
+    {
+      "id": "bodh-gaya-monasteries",
+      "url": "https://gaya.nic.in/places-of-interest/",
+      "publisher": "Gaya district government",
+      "verifiedClaims": ["Thai Monastery", "International Buddhist monasteries", "Great Buddha statue"],
+      "excluded": ["Inconsistent clock-hour notation", "Superlatives", "Specific ceremony availability"]
+    },
+    {
+      "id": "vishnupad",
+      "url": "https://tourism.bihar.gov.in/en/destinations/gaya/vishnupad-temple",
+      "publisher": "Bihar Tourism",
+      "verifiedClaims": ["Hindu pilgrimage shrine at Gaya beside the Phalgu", "Association with ancestral rites"],
+      "continuitySource": "research/tour-upgrade.json",
+      "qualification": "Gaya is kept distinct from Bodh Gaya, with requested rites and access discussed separately."
+    },
+    {
+      "id": "taj-visiting",
+      "url": "https://tajmahal.gov.in/faqs.aspx",
+      "publisher": "Official Taj Mahal visitor website",
+      "verifiedClaims": ["Friday closure to general sightseeing", "Sunrise as a suggested visit", "Other Agra monuments"],
+      "excluded": ["Conflicting night-ticket purchase instructions", "Prices", "Fixed clock hours", "Guaranteed visibility"]
+    },
+    {
+      "id": "agra-fort",
+      "url": "https://agra.nic.in/tourist-place/agra-fort/",
+      "publisher": "Agra district government",
+      "verifiedClaims": ["Mughal fort complex, courts, halls and sandstone/marble architecture"],
+      "continuitySource": "content/destination-guides.json"
+    },
+    {
+      "id": "agra-riverbank",
+      "url": "https://agra.nic.in/tourist-place/mehtab-bagh/",
+      "publisher": "Agra district government",
+      "verifiedClaims": ["Mehtab Bagh across the Yamuna facing the Taj"],
+      "continuitySource": "content/destination-guides.json"
+    },
+    {
+      "id": "itimad-ud-daulah",
+      "url": "https://agra.nic.in/tourist-place/tomb-of-itimad-ud-daulah-baby-taj/",
+      "publisher": "Agra district government",
+      "verifiedClaims": ["Marble work and carved screens at Itimad-ud-Daulah's tomb"],
+      "continuitySource": "content/destination-guides.json"
+    },
+    {
+      "id": "banke-bihari",
+      "url": "https://mathura.nic.in/tourist-place/shri-banke-bihari/",
+      "publisher": "Mathura district government",
+      "verifiedClaims": ["Krishna temple in Vrindavan"],
+      "excluded": ["Unverified darshan windows", "Queue durations", "Priority access claims"]
+    },
+    {
+      "id": "prem-mandir",
+      "url": "https://mathura.nic.in/tourist-place/prem-mandir/",
+      "publisher": "Mathura district government",
+      "verifiedClaims": ["Prem Mandir in Vrindavan"],
+      "excluded": ["Dated construction status", "Costs", "Lighting schedules"]
+    },
+    {
+      "id": "asafi-imambara",
+      "url": "https://lucknow.nic.in/tourist-place/bada-imambara/",
+      "publisher": "Lucknow district government",
+      "verifiedClaims": ["Asafi Imambara identity", "Bhul Bhulaiya and visitor complex"],
+      "excluded": ["World-largest claims", "Exact construction costs", "Current-access assumptions"]
+    },
+    {
+      "id": "rumi-darwaza",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow/rumi-darwaza",
+      "publisher": "Ministry of Tourism, Incredible India",
+      "verifiedClaims": ["Rumi Darwaza between Bara and Chota Imambara", "Arch and decorative details"],
+      "excluded": ["Conflicting construction dates", "Superlatives"]
+    },
+    {
+      "id": "lucknow-food",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow/food-guide-what-and-where-to-eat-in-lucknow",
+      "publisher": "Ministry of Tourism, Incredible India",
+      "verifiedClaims": ["Awadhi culinary heritage", "Kebabs, biryani and vegetarian kachori breakfasts"],
+      "excluded": ["Restaurant endorsements", "Vendor age claims", "Prices", "Hygiene guarantees"]
+    },
+    {
+      "id": "lucknow-craft",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow",
+      "publisher": "Ministry of Tourism, Incredible India",
+      "verifiedClaims": ["Lucknow's association with chikankari"],
+      "qualification": "Questions about fabric, workmanship, hand embroidery and care are editorial shopping guidance, not authentication promises."
+    }
+  ],
+  "articles": [
+    { "slug": "first-time-in-varanasi", "bodyWords": 525, "totalWithTakeaways": 556, "sources": ["varanasi-culture", "varanasi-ghats", "sarnath", "sarnath-museum"] },
+    { "slug": "varanasi-prayagraj-ayodhya-route", "bodyWords": 526, "totalWithTakeaways": 557, "sources": ["varanasi-culture", "sangam", "ram-mandir", "hanuman-garhi-access", "kanak-bhawan", "ram-ki-paidi"] },
+    { "slug": "planning-an-ayodhya-visit", "bodyWords": 543, "totalWithTakeaways": 572, "sources": ["ram-mandir", "hanuman-garhi", "hanuman-garhi-access", "kanak-bhawan", "ram-ki-paidi", "ayodhya-festivals", "deepotsav"] },
+    { "slug": "sarnath-to-bodh-gaya", "bodyWords": 537, "totalWithTakeaways": 568, "sources": ["sarnath", "sarnath-museum", "mahabodhi", "bodh-gaya-monasteries", "vishnupad"] },
+    { "slug": "agra-and-vrindavan", "bodyWords": 531, "totalWithTakeaways": 566, "sources": ["taj-visiting", "agra-fort", "agra-riverbank", "itimad-ud-daulah", "banke-bihari", "prem-mandir"] },
+    { "slug": "a-slower-visit-to-lucknow", "bodyWords": 540, "totalWithTakeaways": 573, "sources": ["asafi-imambara", "rumi-darwaza", "lucknow-food", "lucknow-craft"] }
+  ],
+  "validation": {
+    "articles": 6,
+    "sectionsPerArticle": 6,
+    "takeawaysPerArticle": 3,
+    "allImagesResolve": true,
+    "wordCountBasis": "Whitespace-separated section paragraph words; title, excerpt and section headings excluded. Takeaway counts reported separately.",
+    "imageProvenance": "Existing approved, verified photography; see evidence/media-upgrade.json. No new media downloads or visible photo credits added."
+  }
+}

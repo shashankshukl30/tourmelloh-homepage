@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { brand } from "@/content/travel";
+import { WhatsAppLink } from "@/components/whatsapp-link";
 
 export function Footer() {
   return (
@@ -41,11 +42,15 @@ export function Footer() {
             <Link href="/#plan">
               Start your travel brief <ArrowUpRight size={15} />
             </Link>
+            <Link href="/blog">
+              Travel journal <ArrowUpRight size={15} />
+            </Link>
           </nav>
           <div className="footer-contact">
             <span className="eyebrow">LET’S TALK TRAVEL</span>
             <a href={brand.phoneHref}>{brand.phone}</a>
             <a href={`mailto:${brand.email}`}>{brand.email}</a>
+            <WhatsAppLink placement="footer" />
             <span>Based in Varanasi. Looking beyond.</span>
           </div>
         </div>

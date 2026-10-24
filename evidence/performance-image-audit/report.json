@@ -1,0 +1,1730 @@
+{
+  "recorded": "2026-10-24T16:39:26.906Z",
+  "results": [
+    {
+      "route": "/",
+      "view": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "initialRequests": [
+        {
+          "url": "/images/varanasi-film-poster.webp",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        },
+        {
+          "url": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats and historic ghats on the Ganga at Varanasi",
+          "classes": "atlas-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "sizes": "(max-width: 700px) 90vw, 53vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 674,
+          "height": 600,
+          "top": 1412,
+          "complete": true,
+          "bytes": 100774
+        },
+        {
+          "alt": "Varanasi\u2019s historic riverfront seen from the Ganga",
+          "classes": "chapter-photo",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 43vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 553,
+          "height": 660,
+          "top": 2437,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 3824,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Varanasi \u00b7 Prayagraj \u00b7 Ayodhya suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 4203,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath \u00b7 Bodhgaya suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 4582,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Lucknow \u00b7 Agra \u00b7 Vrindavan suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 4961,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 7141,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 4295,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats and historic ghats on the Ganga at Varanasi",
+          "classes": "atlas-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "sizes": "(max-width: 700px) 90vw, 53vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 674,
+          "height": 600,
+          "top": 1412,
+          "complete": true,
+          "bytes": 100774
+        },
+        {
+          "alt": "Varanasi\u2019s historic riverfront seen from the Ganga",
+          "classes": "chapter-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-ghats-morning.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 43vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 553,
+          "height": 660,
+          "top": 2609,
+          "complete": true,
+          "bytes": 101614
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 3824,
+          "complete": true,
+          "bytes": 34798
+        },
+        {
+          "alt": "Varanasi \u00b7 Prayagraj \u00b7 Ayodhya suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 4203,
+          "complete": true,
+          "bytes": 27036
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath \u00b7 Bodhgaya suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 4582,
+          "complete": true,
+          "bytes": 49742
+        },
+        {
+          "alt": "Lucknow \u00b7 Agra \u00b7 Vrindavan suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 554,
+          "height": 310,
+          "top": 4961,
+          "complete": true,
+          "bytes": 57584
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 7141,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 102891,
+      "afterScrollUniqueImageElementBytes": 373665
+    },
+    {
+      "route": "/journeys",
+      "view": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "initialRequests": [
+        {
+          "url": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=640&q=75",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        },
+        {
+          "url": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=75",
+          "status": 200
+        },
+        {
+          "url": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=75",
+          "status": 200
+        },
+        {
+          "url": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=640&q=75",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The riverfront ghats of Varanasi",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 721,
+          "complete": true,
+          "bytes": 34798
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 809,
+          "complete": true,
+          "bytes": 27036
+        },
+        {
+          "alt": "The Mahabodhi Temple spire in Bodh Gaya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 1675,
+          "complete": true,
+          "bytes": 49742
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 1763,
+          "complete": true,
+          "bytes": 57584
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 2680,
+          "complete": false,
+          "bytes": 27036
+        },
+        {
+          "alt": "The Bara Imambara complex in Lucknow",
+          "classes": "",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 2768,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 3634,
+          "complete": false,
+          "bytes": 57584
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5121,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 3358,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The riverfront ghats of Varanasi",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 721,
+          "complete": true,
+          "bytes": 34798
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 809,
+          "complete": true,
+          "bytes": 27036
+        },
+        {
+          "alt": "The Mahabodhi Temple spire in Bodh Gaya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 1675,
+          "complete": true,
+          "bytes": 49742
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 1763,
+          "complete": true,
+          "bytes": 57584
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 2680,
+          "complete": true,
+          "bytes": 27036
+        },
+        {
+          "alt": "The Bara Imambara complex in Lucknow",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Flucknow-imambara.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 2768,
+          "complete": true,
+          "bytes": 54428
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=640&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 609,
+          "height": 504,
+          "top": 3634,
+          "complete": true,
+          "bytes": 57584
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5121,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 171277,
+      "afterScrollUniqueImageElementBytes": 225705
+    },
+    {
+      "route": "/destinations/agra",
+      "view": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "initialRequests": [
+        {
+          "url": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1920&q=90",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 661,
+          "height": 672,
+          "top": 192,
+          "complete": true,
+          "bytes": 413104
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 3745,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 661,
+          "height": 672,
+          "top": 192,
+          "complete": true,
+          "bytes": 413104
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 3745,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 415221,
+      "afterScrollUniqueImageElementBytes": 415221
+    },
+    {
+      "route": "/destinations/bodh-gaya",
+      "view": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "initialRequests": [
+        {
+          "url": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1920&q=90",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 661,
+          "height": 672,
+          "top": 192,
+          "complete": true,
+          "bytes": 235220
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 3374,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 661,
+          "height": 672,
+          "top": 192,
+          "complete": true,
+          "bytes": 235220
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 3374,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 237337,
+      "afterScrollUniqueImageElementBytes": 237337
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "view": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "initialRequests": [
+        {
+          "url": "/_next/image?url=%2Fimages%2Fvaranasi-mist.webp&w=828&q=90",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats on the Ganga in the morning mist at Varanasi",
+          "classes": "tour-hero-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-mist.webp&w=828&q=90",
+          "sizes": "(max-width: 700px) 92vw, 55vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 631,
+          "height": 742,
+          "top": 195,
+          "complete": true,
+          "bytes": 90384
+        },
+        {
+          "alt": "The Varanasi riverfront in the warm light of dawn",
+          "classes": "tour-gallery-photo",
+          "src": "",
+          "sizes": "(max-width: 900px) 100vw, 62vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 819,
+          "height": 390,
+          "top": 2980,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The Taj Mahal framed through a monumental archway in Agra",
+          "classes": "tour-related-photo",
+          "src": "",
+          "sizes": "(max-width: 600px) 45vw, 24vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 354,
+          "height": 300,
+          "top": 5309,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5753,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 205,
+          "height": 48,
+          "top": 24,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats on the Ganga in the morning mist at Varanasi",
+          "classes": "tour-hero-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-mist.webp&w=828&q=90",
+          "sizes": "(max-width: 700px) 92vw, 55vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 631,
+          "height": 742,
+          "top": 195,
+          "complete": true,
+          "bytes": 90384
+        },
+        {
+          "alt": "The Varanasi riverfront in the warm light of dawn",
+          "classes": "tour-gallery-photo",
+          "src": "",
+          "sizes": "(max-width: 900px) 100vw, 62vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 819,
+          "height": 390,
+          "top": 2980,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The Taj Mahal framed through a monumental archway in Agra",
+          "classes": "tour-related-photo",
+          "src": "",
+          "sizes": "(max-width: 600px) 45vw, 24vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 354,
+          "height": 300,
+          "top": 5309,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5753,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 92501,
+      "afterScrollUniqueImageElementBytes": 92501
+    },
+    {
+      "route": "/",
+      "view": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      },
+      "initialRequests": [
+        {
+          "url": "/images/varanasi-film-poster.webp",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        },
+        {
+          "url": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=1080&q=90",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats and historic ghats on the Ganga at Varanasi",
+          "classes": "atlas-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=1080&q=90",
+          "sizes": "(max-width: 700px) 90vw, 53vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 430,
+          "top": 1910,
+          "complete": true,
+          "bytes": 151050
+        },
+        {
+          "alt": "Varanasi\u2019s historic riverfront seen from the Ganga",
+          "classes": "chapter-photo",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 43vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 440,
+          "top": 2805,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 4892,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Varanasi \u00b7 Prayagraj \u00b7 Ayodhya suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 5535,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath \u00b7 Bodhgaya suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 6138,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Lucknow \u00b7 Agra \u00b7 Vrindavan suggested journey",
+          "classes": "journey-image-link",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 6740,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 9824,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 6429,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats and historic ghats on the Ganga at Varanasi",
+          "classes": "atlas-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=1080&q=90",
+          "sizes": "(max-width: 700px) 90vw, 53vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 430,
+          "top": 1910,
+          "complete": true,
+          "bytes": 151050
+        },
+        {
+          "alt": "Varanasi\u2019s historic riverfront seen from the Ganga",
+          "classes": "chapter-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-ghats-morning.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 43vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 440,
+          "top": 2805,
+          "complete": true,
+          "bytes": 212092
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 4892,
+          "complete": true,
+          "bytes": 78180
+        },
+        {
+          "alt": "Varanasi \u00b7 Prayagraj \u00b7 Ayodhya suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 5535,
+          "complete": true,
+          "bytes": 61366
+        },
+        {
+          "alt": "Varanasi \u00b7 Sarnath \u00b7 Bodhgaya suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 6138,
+          "complete": true,
+          "bytes": 102748
+        },
+        {
+          "alt": "Lucknow \u00b7 Agra \u00b7 Vrindavan suggested journey",
+          "classes": "journey-image-link",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 35vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 280,
+          "top": 6740,
+          "complete": true,
+          "bytes": 130076
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 9824,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 153167,
+      "afterScrollUniqueImageElementBytes": 737629
+    },
+    {
+      "route": "/journeys",
+      "view": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      },
+      "initialRequests": [
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        },
+        {
+          "url": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=1080&q=75",
+          "status": 200
+        },
+        {
+          "url": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=1080&q=75",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The riverfront ghats of Varanasi",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 746,
+          "complete": true,
+          "bytes": 78180
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 1452,
+          "complete": true,
+          "bytes": 61366
+        },
+        {
+          "alt": "The Mahabodhi Temple spire in Bodh Gaya",
+          "classes": "",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 2157,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 2863,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 3569,
+          "complete": false,
+          "bytes": 61366
+        },
+        {
+          "alt": "The Bara Imambara complex in Lucknow",
+          "classes": "",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 4275,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 4980,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 6389,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 4704,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The riverfront ghats of Varanasi",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 746,
+          "complete": true,
+          "bytes": 78180
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 1452,
+          "complete": true,
+          "bytes": 61366
+        },
+        {
+          "alt": "The Mahabodhi Temple spire in Bodh Gaya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 2157,
+          "complete": true,
+          "bytes": 102748
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 2863,
+          "complete": true,
+          "bytes": 130076
+        },
+        {
+          "alt": "The stepped riverfront at Ram Ki Paidi in Ayodhya",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fayodhya-riverfront.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 3569,
+          "complete": true,
+          "bytes": 61366
+        },
+        {
+          "alt": "The Bara Imambara complex in Lucknow",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Flucknow-imambara.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 4275,
+          "complete": true,
+          "bytes": 118098
+        },
+        {
+          "alt": "The Taj Mahal seen through an arched doorway in Agra",
+          "classes": "",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1080&q=75",
+          "sizes": "(max-width: 700px) 90vw, 44vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 350,
+          "top": 4980,
+          "complete": true,
+          "bytes": 130076
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 6389,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 141663,
+      "afterScrollUniqueImageElementBytes": 492585
+    },
+    {
+      "route": "/destinations/agra",
+      "view": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      },
+      "initialRequests": [
+        {
+          "url": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1920&q=90",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 580,
+          "top": 154,
+          "complete": true,
+          "bytes": 413104
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5763,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The Taj Mahal seen through a dark arched doorway at sunrise",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fagra-doorway.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 580,
+          "top": 154,
+          "complete": true,
+          "bytes": 413104
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5763,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 415221,
+      "afterScrollUniqueImageElementBytes": 415221
+    },
+    {
+      "route": "/destinations/bodh-gaya",
+      "view": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      },
+      "initialRequests": [
+        {
+          "url": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1920&q=90",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 580,
+          "top": 154,
+          "complete": true,
+          "bytes": 235220
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5186,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "The carved tower of the Mahabodhi Temple in Bodh Gaya against a pale sky",
+          "classes": "guide-hero guide-hero-portrait",
+          "src": "/_next/image?url=%2Fimages%2Fbodhgaya-spire.webp&w=1920&q=90",
+          "sizes": "(max-width: 700px) 120vw, 100vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 580,
+          "top": 154,
+          "complete": true,
+          "bytes": 235220
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 5186,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 237337,
+      "afterScrollUniqueImageElementBytes": 237337
+    },
+    {
+      "route": "/journeys/kashi-before-the-world-wakes",
+      "view": {
+        "width": 390,
+        "height": 844,
+        "dpr": 3
+      },
+      "initialRequests": [
+        {
+          "url": "/_next/image?url=%2Fimages%2Fvaranasi-mist.webp&w=1080&q=90",
+          "status": 200
+        },
+        {
+          "url": "/brand/tourmelloh-logo.svg",
+          "status": 200
+        }
+      ],
+      "initial": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats on the Ganga in the morning mist at Varanasi",
+          "classes": "tour-hero-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-mist.webp&w=1080&q=90",
+          "sizes": "(max-width: 700px) 92vw, 55vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 420,
+          "top": 879,
+          "complete": true,
+          "bytes": 127700
+        },
+        {
+          "alt": "The Varanasi riverfront in the warm light of dawn",
+          "classes": "tour-gallery-photo",
+          "src": "",
+          "sizes": "(max-width: 900px) 100vw, 62vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 330,
+          "top": 5290,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The Taj Mahal framed through a monumental archway in Agra",
+          "classes": "tour-related-photo",
+          "src": "",
+          "sizes": "(max-width: 600px) 45vw, 24vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 250,
+          "top": 8428,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 8973,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "afterScroll": [
+        {
+          "alt": "Tourmelloh",
+          "classes": "brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 180,
+          "height": 42,
+          "top": 17,
+          "complete": true,
+          "bytes": 2117
+        },
+        {
+          "alt": "Boats on the Ganga in the morning mist at Varanasi",
+          "classes": "tour-hero-photo",
+          "src": "/_next/image?url=%2Fimages%2Fvaranasi-mist.webp&w=1080&q=90",
+          "sizes": "(max-width: 700px) 92vw, 55vw",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 420,
+          "top": 879,
+          "complete": true,
+          "bytes": 127700
+        },
+        {
+          "alt": "The Varanasi riverfront in the warm light of dawn",
+          "classes": "tour-gallery-photo",
+          "src": "",
+          "sizes": "(max-width: 900px) 100vw, 62vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 330,
+          "top": 5290,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "The Taj Mahal framed through a monumental archway in Agra",
+          "classes": "tour-related-photo",
+          "src": "",
+          "sizes": "(max-width: 600px) 45vw, 24vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 346,
+          "height": 250,
+          "top": 8428,
+          "complete": false,
+          "bytes": 0
+        },
+        {
+          "alt": "Tourmelloh",
+          "classes": "footer-brand",
+          "src": "/brand/tourmelloh-logo.svg",
+          "sizes": "",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "width": 265,
+          "height": 64,
+          "top": 8973,
+          "complete": false,
+          "bytes": 2117
+        }
+      ],
+      "initialUniqueImageElementBytes": 129817,
+      "afterScrollUniqueImageElementBytes": 129817
+    }
+  ],
+  "measurementNotes": [
+    "Fresh browser contexts; localhost production server;1440x1000 DPR1 and390x844 DPR3; reduced motion. Bytes measure actual optimized response bodies, not network-speed timing.",
+    "Image-element summaries exclude video poster/video. Deduplicated sums avoid counting repeated collection photos twice.",
+    "The original source assets and quality settings were never modified. Alternative optimizer URLs were read to compare equal-quality responsive sizes."
+  ]
+}

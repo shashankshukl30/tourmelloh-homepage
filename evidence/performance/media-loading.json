@@ -1,0 +1,47 @@
+{
+  "base": "http://127.0.0.1:3108",
+  "checks": [
+    {
+      "name": "390: reduced motion downloads no video",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "390: removed hero label is absent",
+      "passed": true
+    },
+    {
+      "name": "390: explicit play selects the right film",
+      "passed": true,
+      "detail": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4"
+    },
+    {
+      "name": "390: pause remains usable",
+      "passed": true
+    },
+    {
+      "name": "1440: reduced motion downloads no video",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1440: removed hero label is absent",
+      "passed": true
+    },
+    {
+      "name": "1440: explicit play selects the right film",
+      "passed": true,
+      "detail": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4"
+    },
+    {
+      "name": "1440: pause remains usable",
+      "passed": true
+    },
+    {
+      "name": "Browser discovers the selected film without waiting for JavaScript",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

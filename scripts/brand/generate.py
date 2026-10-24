@@ -1,35 +1,27 @@
-"""Rebuild Tourmelloh's original vector master and presentation assets.
+"""Export Tourmelloh's approved symbol and recovered original lettering.
 
 Run from the project root:
   python scripts/brand/generate.py
   node scripts/brand/render.cjs
 
-The symbol is authored geometry. Wordmark outlines are instantiated from the
-installed SIL-OFL Instrument Sans variable font. No image tracing or raster
-embedding is used. Font size, tracking, weight and colours are explicit below.
+The approved symbol geometry stays unchanged. The wordmark comes from the
+original concept's recovered Bezier paths, not replacement font outlines.
+No raster embedding, live text, or font dependency is used in the exports.
 """
 from __future__ import annotations
 
 import json
-import shutil
 from pathlib import Path
-from fontTools.ttLib import TTFont
-from fontTools.varLib.instancer import instantiateVariableFont
-from fontTools.pens.svgPathPen import SVGPathPen
-from fontTools.pens.transformPen import TransformPen
-from fontTools.pens.boundsPen import BoundsPen
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "public" / "brand"
 OUT.mkdir(parents=True, exist_ok=True)
-FONT = ROOT / "node_modules/@fontsource-variable/instrument-sans/files/instrument-sans-latin-standard-normal.woff2"
+WORDMARK_SOURCE = Path(__file__).with_name("wordmark-source.json")
 PALETTE = {"forest": "#123F32", "ivory": "#F8F4EB", "copper": "#B87648"}
 WORD = "tourmelloh"
-WEIGHT = 580
-FONT_SIZE = 102
-BASELINE = 91
-TRACKING = -12  # font units; optical pair corrections below
-PAIR = {"to": -12, "ur": -5, "rm": -12, "me": -5, "ll": 20, "lo": -5}
+WORDMARK_X = 125.55
+WORDMARK_Y = 17.56
+WORDMARK_HEIGHT = 74.48
 
 # Three solid visual masses define a T, with an open, winding channel.
 # Each mass is a closed path; transparency is real negative space.
@@ -54,31 +46,19 @@ def svg(width: float, height: float, content: str, desc: str) -> str:
         f'<title id="title">Tourmelloh</title><desc id="desc">{desc}</desc>{content}</svg>\n'
     )
 
-font = instantiateVariableFont(TTFont(FONT), {"wght": WEIGHT, "wdth": 100}, inplace=False)
-glyphs = font.getGlyphSet()
-cmap = font.getBestCmap()
-upem = font["head"].unitsPerEm
-scale = FONT_SIZE / upem
-x = 124.0
-word_paths = []
-glyph_evidence = []
-for i, char in enumerate(WORD):
-    name = cmap[ord(char)]
-    glyph = glyphs[name]
-    pen = SVGPathPen(glyphs, ntos=number)
-    glyph.draw(TransformPen(pen, (scale, 0, 0, -scale, x, BASELINE)))
-    word_paths.append(pen.getCommands())
-    bounds = BoundsPen(glyphs)
-    glyph.draw(bounds)
-    glyph_evidence.append({"index": i, "character": char, "glyph": name, "x": round(x, 3), "bounds": bounds.bounds})
-    x += (glyph.width + TRACKING + PAIR.get(WORD[i:i+2], 0)) * scale
-
-LOGO_W = round(x + 4, 3)
+wordmark = json.loads(WORDMARK_SOURCE.read_text(encoding="utf-8"))
+assert wordmark["wordmark"] == WORD and len(wordmark["glyphs"]) == len(WORD)
+scale = WORDMARK_HEIGHT / wordmark["viewbox"][3]
+word_paths = [glyph["path"] for glyph in wordmark["glyphs"]]
+LOGO_W = round(WORDMARK_X + wordmark["viewbox"][2] * scale + 9.1, 3)
 LOGO_H = 112
 for name, colour in [("tourmelloh-logo", PALETTE["forest"]), ("tourmelloh-logo-ivory", PALETTE["ivory"])]:
     content = symbol_paths(colour)
-    content += f'<g fill="{colour}">' + "".join(f'<path d="{p}"/>' for p in word_paths) + "</g>"
-    (OUT / f"{name}.svg").write_text(svg(LOGO_W, LOGO_H, content, "Original T and river symbol with outlined lowercase tourmelloh wordmark."), encoding="utf-8")
+    content += (
+        f'<g fill="{colour}" fill-rule="evenodd" transform="translate({number(WORDMARK_X)} {number(WORDMARK_Y)}) scale({scale:.9f})">'
+        + "".join(f'<path d="{path}"/>' for path in word_paths) + "</g>"
+    )
+    (OUT / f"{name}.svg").write_text(svg(LOGO_W, LOGO_H, content, "Approved T and river symbol with original lowercase tourmelloh lettering recovered as vector outlines."), encoding="utf-8")
 
 for name, colour in [("tourmelloh-symbol", PALETTE["forest"]), ("tourmelloh-symbol-ivory", PALETTE["ivory"]), ("tourmelloh-symbol-copper", PALETTE["copper"])]:
     (OUT / f"{name}.svg").write_text(svg(112, 112, symbol_paths(colour), "An original T shaped symbol with a generous river channel."), encoding="utf-8")
@@ -89,14 +69,13 @@ favicon += symbol_paths(PALETTE["ivory"], "translate(8 8)")
 
 manifest = {
     "brand": "Tourmelloh", "wordmark": WORD, "wordmark_character_count": len(WORD),
-    "font": {"family": "Instrument Sans", "weight": WEIGHT, "width_axis": 100, "source": str(FONT.relative_to(ROOT)), "license": "SIL Open Font License 1.1", "outline_note": "Every glyph is a standalone vector path. No external font is needed to render the SVG."},
+    "lettering": {"source": wordmark["source"], "source_sha256": wordmark["source_sha256"], "vector_master": "scripts/brand/wordmark-source.json", "method": wordmark["method"], "font_substitution": False, "outline_note": "Ten original glyphs, each a standalone vector path. No external font is needed to render the SVG."},
     "geometry": {"horizontal_viewbox": [0, 0, LOGO_W, LOGO_H], "aspect_ratio": round(LOGO_W / LOGO_H, 5), "symbol_viewbox": [0, 0, 112, 112], "favicon_viewbox": [0, 0, 128, 128], "symbol_path_count": len(SYMBOL_PATHS)},
-    "palette": PALETTE, "glyphs": glyph_evidence,
-    "provenance": "Original code-authored vector interpretation of the approved T / river concept. No pixel tracing or raster embedding.",
+    "palette": PALETTE, "glyphs": [{"index": index, "character": glyph["character"], "source_bounds": glyph["source_bounds"], "contours": glyph["contours"]} for index, glyph in enumerate(wordmark["glyphs"])],
+    "provenance": "Existing approved three-path symbol retained unchanged. Original generated concept lettering recovered as fitted vector contours. No font substitution, live text, or raster embedding.",
     "exports": ["tourmelloh-symbol.svg", "tourmelloh-symbol-ivory.svg", "tourmelloh-symbol-copper.svg", "tourmelloh-logo.svg", "tourmelloh-logo-ivory.svg", "tourmelloh-favicon.svg", "tourmelloh-logo.png", "tourmelloh-logo-ivory.png", "tourmelloh-symbol.png", "logo-preview.png"]
 }
 (OUT / "brand-assets.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
-shutil.copyfile(FONT.parent.parent / "LICENSE", Path(__file__).with_name("INSTRUMENT-SANS-OFL.txt"))
 
 # The presentation uses the exact SVG exports, not lookalike live type.
 html = """<!doctype html><html lang="en"><meta charset="utf-8"><title>Tourmelloh — vector identity</title>

@@ -1,0 +1,134 @@
+{
+  "method": "Fresh context and disabled cache for every run; no interaction or scrolling; 12 seconds after DOMContentLoaded.",
+  "scope": "Controlled local production builds; 3 fresh browser runs per profile. Not real-user or CrUX data.",
+  "profiles": [
+    {
+      "profile": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 2,
+        "latency": 150,
+        "download": 375000,
+        "cpu": 4
+      },
+      "metrics": {
+        "largestContentfulPaint": {
+          "beforeMedianMs": 2300,
+          "afterMedianMs": 2088,
+          "improvementPercent": 9.2,
+          "beforeRangeMs": [
+            2296,
+            2304
+          ],
+          "afterRangeMs": [
+            2072,
+            2128
+          ]
+        },
+        "firstVideoFrame": {
+          "beforeMedianMs": 3200,
+          "afterMedianMs": 2559,
+          "improvementPercent": 20.0,
+          "beforeRangeMs": [
+            3194,
+            3240
+          ],
+          "afterRangeMs": [
+            2550,
+            2568
+          ]
+        },
+        "firstContentfulPaint": {
+          "beforeMedianMs": 1172,
+          "afterMedianMs": 1228,
+          "improvementPercent": -4.8,
+          "beforeRangeMs": [
+            1140,
+            1336
+          ],
+          "afterRangeMs": [
+            1160,
+            1232
+          ]
+        }
+      },
+      "maximumCLSAfter": 0
+    },
+    {
+      "profile": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "latency": 60,
+        "download": 1250000,
+        "cpu": 1
+      },
+      "metrics": {
+        "largestContentfulPaint": {
+          "beforeMedianMs": 776,
+          "afterMedianMs": 696,
+          "improvementPercent": 10.3,
+          "beforeRangeMs": [
+            760,
+            784
+          ],
+          "afterRangeMs": [
+            684,
+            700
+          ]
+        },
+        "firstVideoFrame": {
+          "beforeMedianMs": 1186,
+          "afterMedianMs": 1018,
+          "improvementPercent": 14.2,
+          "beforeRangeMs": [
+            1184,
+            1198
+          ],
+          "afterRangeMs": [
+            1010,
+            1037
+          ]
+        },
+        "firstContentfulPaint": {
+          "beforeMedianMs": 424,
+          "afterMedianMs": 436,
+          "improvementPercent": -2.8,
+          "beforeRangeMs": [
+            416,
+            428
+          ],
+          "afterRangeMs": [
+            436,
+            440
+          ]
+        }
+      },
+      "maximumCLSAfter": 3.771219135802469e-05
+    }
+  ],
+  "decisions": [
+    {
+      "change": "Weight-pinned Newsreader fonts with original optical-size variation",
+      "decision": "kept",
+      "proof": "157688 fewer font bytes; every glyph outline, advance and sampled browser pixels match. See evidence/display-font-build.json and display-font-proof.json."
+    },
+    {
+      "change": "Early high-priority poster and native responsive film source discovery",
+      "decision": "kept",
+      "proof": "LCP and first video frame improved beyond measured spread. Media files are byte-for-byte unchanged. No first-paint improvement is claimed: mobile FCP remains inside the measured spread; desktop FCP changed by12ms."
+    },
+    {
+      "change": "Accurate portrait-guide responsive image sizes",
+      "decision": "kept",
+      "proof": "Same photos and quality90, adequate crop pixel coverage in48 cases; desktop image bytes reduced59% for Agra and47% for Bodh Gaya."
+    },
+    {
+      "change": "Broad homepage JavaScript rewrite",
+      "decision": "not attempted",
+      "proof": "Audit found homepage-specific bundle only8.9KB gzip. Heavy framework shared code was not a demonstrated bottleneck."
+    }
+  ]
+}

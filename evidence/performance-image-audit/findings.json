@@ -1,0 +1,40 @@
+{
+  "actionable": [
+    {
+      "component": "components/destination-guide.tsx:16",
+      "issue": "Agra and Bodh Gaya desktop portrait images declare100vw but occupy51% of the page-width panel.",
+      "recommendation": "Use portrait-specific sizes=\"(max-width:760px)100vw,48vw\"; retain Ayodhya landscape sizing and quality90. Match the760px CSS breakpoint.",
+      "desktop1440Dpr1": {
+        "frameWidth": 661,
+        "currentRequestedWidth": 1920,
+        "recommendedRequestedWidth": 750,
+        "agraBytesBefore": 413104,
+        "agraBytesAfter": 168448,
+        "bodhGayaBytesBefore": 235220,
+        "bodhGayaBytesAfter": 124054
+      },
+      "mobile390Dpr3": {
+        "frameWidth": 346,
+        "effectiveCoverWidthForAgra": 387,
+        "currentRequestedWidth": 1920,
+        "recommendedRequestedWidth": 1200,
+        "agraBytesBefore": 413104,
+        "agraBytesAfter": 319682,
+        "bodhGayaBytesBefore": 235220,
+        "bodhGayaBytesAfter": 235220
+      }
+    }
+  ],
+  "preserve": [
+    "Keep Next/Image lazy loading on all editorial/cards; browser requests only nearby content before scroll.",
+    "Keep original high-resolution source files. Large older imagery is not fetched on initial homepage merely because it exists in public.",
+    "Keep crop-aware landscape hero sizes. A tall object-fit:cover image can require more bitmap width than its narrow frame.",
+    "No blanket quality reduction, source recompression, new image dependency or layout changes needed."
+  ],
+  "observations": [
+    "Homepage above-fold image requests:144748B poster, smallSVGlogo, nearest lazy atlas image100774B desktop/151050B mobile.",
+    "All responsive content images audited use Next/Image; unoptimized logos areSVG.",
+    "Portrait tour hero inspected at1440 uses828px/q90/90384B; mobile1080px/q90/127700B. No comparable large overfetch found there."
+  ],
+  "scope": "Read-only source/assets audit. Evidence scripts and JSON only."
+}

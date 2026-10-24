@@ -17,10 +17,11 @@ Open http://localhost:3108. For the production build: `npm run build`, then `npm
 
 ## Scope
 
-- A fourteen-page preview: a film-led homepage, journey collection, seven detailed itinerary pages, four destination guides and working site search.
+- A twenty-one-page preview: a film-led homepage, journey collection, seven detailed itinerary pages, four destination guides, a travel journal with six articles, and working site search.
 - Real Tourmelloh name, city, phone and email verified against the user-supplied certificate.
 - Trip finder, an eight-place destination index, category/destination/shortlist filters, 32 daily plans, device-local shortlist and downloadable planning brief.
-- Search indexes all seven journeys and eight destinations, including familiar names such as Kashi, Banaras, Bodh Gaya and Taj Mahal. Results link to real guides, itineraries or the selected destination in the homepage index.
+- Search indexes seven journeys, eight destinations and six articles, including familiar names such as Kashi, Banaras, Bodh Gaya and Taj Mahal. Only the compact search index reaches the browser; complete article bodies remain server rendered.
+- Navbar, floating and footer WhatsApp links open a prepared message to Tourmelloh's verified number. Visitors choose whether to send it.
 - The planner is a labelled preview: no booking, payment or enquiry request is sent. The phone and email links use the visitor's own apps.
 - No invented rates, reviews, awards, fleet claims, guide credentials or guarantees.
 - Noindex remains enabled until the client approves the site and operational content.
@@ -50,11 +51,13 @@ python scripts/check-responsive-matrix.py
 
 Browser evidence and review reports are retained under `evidence`.
 The final interaction revision is in `evidence/interaction-final`, with dedicated viewport, navigation, button and photo-motion checks alongside it.
-The full preview check covers all fourteen routes at four widths, accessible controls,
+The full preview check covers all twenty-one routes at four widths, accessible controls,
 shortlist persistence, route-aware planning, downloadable briefs, search, destination selection, video controls and a branded 404. The wider layout matrix covers fifteen widths from 320px to 1920px.
 Development filesystem caching is disabled because this Next.js version retained
 a stale missing-import result while new page stylesheets were being added.
 The production build and its caching remain unchanged.
+
+The current loading revision retains the exact film files and photography. It prioritizes the hero poster, lets the browser discover the appropriate film before hydration, and serves lossless weight-pinned Newsreader files with the full optical-size axis. `scripts/build-display-fonts.py` reproduces and verifies those fonts. Fresh-context network/CPU measurements are recorded under `evidence/performance`; blog sources are in `research/blog-sources.json`.
 
 ## Client document handling
 

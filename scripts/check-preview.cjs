@@ -3,7 +3,7 @@ const AxeBuilder = require('@axe-core/playwright').default;
 const fs = require('node:fs');
 const path = require('node:path');
 
-const routes = ['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/journeys/along-the-sacred-rivers', '/journeys/the-road-to-bodh-gaya', '/journeys/awadh-agra-and-braj', '/destinations/varanasi', '/journeys/ayodhya-at-your-own-pace', '/journeys/a-weekend-in-lucknow', '/journeys/taj-mahal-and-the-lanes-of-braj', '/destinations/ayodhya', '/destinations/agra', '/destinations/bodh-gaya', '/search'];
+const routes = ['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/journeys/along-the-sacred-rivers', '/journeys/the-road-to-bodh-gaya', '/journeys/awadh-agra-and-braj', '/destinations/varanasi', '/journeys/ayodhya-at-your-own-pace', '/journeys/a-weekend-in-lucknow', '/journeys/taj-mahal-and-the-lanes-of-braj', '/destinations/ayodhya', '/destinations/agra', '/destinations/bodh-gaya', '/search', '/blog', '/blog/first-time-in-varanasi', '/blog/varanasi-prayagraj-ayodhya-route', '/blog/planning-an-ayodhya-visit', '/blog/sarnath-to-bodh-gaya', '/blog/agra-and-vrindavan', '/blog/a-slower-visit-to-lucknow'];
 const output = path.join('evidence', process.env.REVIEW_STAGE || 'multipage');
 const base = process.env.REVIEW_URL_FILE ? fs.readFileSync(process.env.REVIEW_URL_FILE, 'utf8').trim().replace(/^\uFEFF/, '') : 'http://127.0.0.1:3108';
 const baseUrl = new URL(base);
@@ -48,8 +48,8 @@ function check(name, passed, detail) {
         const scan = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
         report.accessibility.push({ route, width, violations: scan.violations.map(({ id, impact, nodes }) => ({ id, impact, nodes: nodes.map(node => ({ target: node.target, summary: node.failureSummary })) })), passes: scan.passes.length });
         const filename = route === '/' ? 'home' : route.slice(1).replaceAll('/', '-');
-        await page.screenshot({ path: path.join(output, `${width}-${filename}.png`) });
-        if (['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/destinations/varanasi', '/destinations/agra', '/search'].includes(route)) {
+        if (process.env.REVIEW_SCREENSHOTS !== '0') await page.screenshot({ path: path.join(output, `${width}-${filename}.png`) });
+        if (process.env.REVIEW_SCREENSHOTS !== '0' && ['/', '/journeys', '/journeys/kashi-before-the-world-wakes', '/destinations/varanasi', '/destinations/agra', '/search'].includes(route)) {
           await page.screenshot({ path: path.join(output, `${width}-${filename}-full.png`), fullPage: true });
         }
       }
@@ -113,9 +113,9 @@ function check(name, passed, detail) {
   await page.waitForURL('**/?destination=Varanasi#plan');
   check('Destination CTA opens prefilled brief', await page.getByLabel('I’d like to explore').inputValue() === 'Varanasi');
   await page.goto(new URL('/search?q=Banaras', baseUrl.origin).href, { waitUntil: 'networkidle' });
-  check('Search index resolves Banaras to Varanasi and relevant journeys', await page.locator('.search-result').count() === 4 && await page.locator('.search-results').textContent().then(text => text.includes('Varanasi')));
+  check('Search index resolves Banaras to Varanasi, journeys and articles', await page.locator('.search-result').count() >= 4 && await page.locator('.search-results').textContent().then(text => text.includes('Varanasi') && text.includes('Article')));
   await page.getByRole('searchbox', { name: 'Search tours and destinations' }).fill('Taj Mahal');
-  check('Search resolves landmark aliases across tours and destinations', await page.locator('.search-result').count() === 3);
+  check('Search resolves landmark aliases across tours, destinations and articles', await page.locator('.search-result').count() === 4);
   await page.getByRole('button', { name: 'Destinations', exact: true }).click();
   check('Search type filter keeps the relevant destination', await page.locator('.search-result').count() === 1 && await page.locator('.search-result h2').textContent() === 'Agra');
   await page.locator('.search-result').click();
@@ -124,7 +124,7 @@ function check(name, passed, detail) {
   await page.goto(new URL('/search?q=no-such-place-xyz', baseUrl.origin).href, { waitUntil: 'networkidle' });
   check('Unmatched search has a useful empty state', await page.locator('.search-empty').isVisible() && await page.locator('.search-result').count() === 0);
   await page.getByRole('button', { name: 'Clear the search', exact: true }).click();
-  check('Search reset restores all fifteen index entries', await page.locator('.search-result').count() === 15);
+  check('Search reset restores all twenty-one index entries', await page.locator('.search-result').count() === 21);
   await page.goto(baseUrl.origin + '/', { waitUntil: 'networkidle' });
   for (const place of ['Ayodhya','Agra','Prayagraj','Lucknow','Bodhgaya','Vrindavan','Gaya','Varanasi']) {
     await page.locator('.atlas-places').getByRole('button', {name: new RegExp('\\b' + place + '$', 'i')}).click();

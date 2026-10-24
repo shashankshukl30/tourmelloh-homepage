@@ -1,0 +1,62 @@
+{
+  "build_id": "zteX-mEh3n4fOBfxQqJo-",
+  "checks": [
+    {
+      "name": "Unknown blog 404 hydrates cleanly in fresh context 1",
+      "passed": true,
+      "detail": {
+        "status": 404,
+        "h1": [
+          "Let\u2019s find yourway back."
+        ],
+        "page_errors": []
+      }
+    },
+    {
+      "name": "Unknown blog 404 hydrates cleanly in fresh context 2",
+      "passed": true,
+      "detail": {
+        "status": 404,
+        "h1": [
+          "Let\u2019s find yourway back."
+        ],
+        "page_errors": []
+      }
+    },
+    {
+      "name": "Known article still loads directly",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "h1": "A first visit to Varanasi, at a human pace"
+      }
+    },
+    {
+      "name": "Blog client navigation opens article",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:3108/blog/first-time-in-varanasi",
+        "h1": "A first visit to Varanasi, at a human pace"
+      }
+    },
+    {
+      "name": "Article client navigation returns to Blog",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:3108/blog",
+        "h1": "India, in the details."
+      }
+    },
+    {
+      "name": "Targeted recheck has no runtime or console errors",
+      "passed": true,
+      "detail": {
+        "page_errors": [],
+        "console_errors": []
+      }
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "passed": true
+}

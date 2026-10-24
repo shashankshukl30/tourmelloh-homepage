@@ -18,7 +18,7 @@ fs.mkdirSync(out,{recursive:true});
     const rect = selector => { const r = document.querySelector(selector).getBoundingClientRect(); return {top:r.top,bottom:r.bottom,left:r.left,right:r.right,width:r.width,height:r.height}; };
     const hero = rect('.hero');
     const header = rect('.site-header');
-    const content = ['.hero-eyebrow','.hero h1','.hero-bottom','.hero-location','.film-control'].map(selector=>({selector,...rect(selector)}));
+    const content = ['.hero h1','.hero-bottom','.hero-location','.film-control'].map(selector=>({selector,...rect(selector)}));
     const contained = content.every(r=>r.top>=hero.top-1 && r.bottom<=hero.bottom+1 && r.left>=hero.left && r.right<=hero.right);
     const main = rect('.hero-content');
     const footer = rect('.hero-location');

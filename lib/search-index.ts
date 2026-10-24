@@ -1,14 +1,6 @@
 import { destinations, journeys } from "@/content/travel";
-
-export type SearchEntry = {
-  id: string;
-  title: string;
-  description: string;
-  href: string;
-  kind: "Journey" | "Destination";
-  detail: string;
-  keywords: string;
-};
+import { blogPosts } from "@/content/blog";
+import type { SearchEntry } from "@/lib/search";
 
 const destinationPages: Record<string, string> = {
   Varanasi: "varanasi", Ayodhya: "ayodhya", Agra: "agra", Bodhgaya: "bodh-gaya",
@@ -45,25 +37,13 @@ export const searchIndex: SearchEntry[] = [
     detail: destination.highlights,
     keywords: aliases[destination.name] ?? "",
   })),
+  ...blogPosts.map(post => ({
+    id: post.slug,
+    title: post.title,
+    description: post.excerpt,
+    href: `/blog/${post.slug}`,
+    kind: "Article" as const,
+    detail: post.category,
+    keywords: `${post.destinations.map(place => aliases[place] ?? place).join(" ")} ${post.sections.map(section => section.heading).join(" ")}`,
+  })),
 ];
-
-function normalize(value: string) {
-  return value.toLocaleLowerCase("en-IN").normalize("NFKD").replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
-}
-
-export function searchTravel(query: string, kind: "All" | SearchEntry["kind"] = "All") {
-  const terms = normalize(query).split(" ").filter(Boolean);
-  return searchIndex
-    .filter((entry) => kind === "All" || entry.kind === kind)
-    .map((entry) => {
-      const title = normalize(entry.title);
-      const keywords = normalize(entry.keywords);
-      const all = normalize(`${entry.title} ${entry.description} ${entry.detail} ${entry.keywords}`);
-      const matches = terms.every((term) => all.includes(term));
-      const score = terms.reduce((sum, term) => sum + (title.includes(term) ? 8 : keywords.includes(term) ? 4 : 1), 0);
-      return { entry, score, matches };
-    })
-    .filter((result) => result.matches)
-    .sort((a, b) => b.score - a.score)
-    .map((result) => result.entry);
-}

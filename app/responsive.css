@@ -81,7 +81,6 @@
   .hero-image { object-position: 58% 50%; }
   .hero-shade { background: linear-gradient(180deg, oklch(15% .02 60 / .35), oklch(15% .02 60 / .18) 27%, oklch(15% .02 60 / .5)); }
   .hero-content { padding-top: clamp(185px, 27svh, 250px); }
-  .hero-eyebrow { font-size: 14px; gap: 9px; letter-spacing: .06em; }
   .little-line { width: 20px; }
   .hero h1 { font-size: clamp(57px, 15.2vw, 88px); line-height: 1; margin-top: 24px; letter-spacing: -.05em; }
   .hero-bottom { padding-top: 26px; align-items: flex-start; }

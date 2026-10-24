@@ -1,0 +1,44 @@
+[
+  {
+    "name": "agra-doorway",
+    "width": 750,
+    "bytes": 168448,
+    "contentType": "image/webp",
+    "cacheControl": "public, max-age=14400, must-revalidate"
+  },
+  {
+    "name": "agra-doorway",
+    "width": 1200,
+    "bytes": 319682,
+    "contentType": "image/webp",
+    "cacheControl": "public, max-age=14400, must-revalidate"
+  },
+  {
+    "name": "agra-doorway",
+    "width": 1920,
+    "bytes": 413104,
+    "contentType": "image/webp",
+    "cacheControl": "public, max-age=14400, must-revalidate"
+  },
+  {
+    "name": "bodhgaya-spire",
+    "width": 750,
+    "bytes": 124054,
+    "contentType": "image/webp",
+    "cacheControl": "public, max-age=14400, must-revalidate"
+  },
+  {
+    "name": "bodhgaya-spire",
+    "width": 1200,
+    "bytes": 235220,
+    "contentType": "image/webp",
+    "cacheControl": "public, max-age=14400, must-revalidate"
+  },
+  {
+    "name": "bodhgaya-spire",
+    "width": 1920,
+    "bytes": 235220,
+    "contentType": "image/webp",
+    "cacheControl": "public, max-age=14400, must-revalidate"
+  }
+]

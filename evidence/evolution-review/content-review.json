@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "scope": "Single read-only content pass across all six new articles, related route outlines, source ledger and relevant photo provenance.",
+  "file": "content/blog.ts",
+  "sha256": "50cca8d8834409e54237ebc2b19071840ccc839f9f9c24f385fd6df46c71bdd0",
+  "articles_reviewed": [
+    "first-time-in-varanasi",
+    "varanasi-prayagraj-ayodhya-route",
+    "planning-an-ayodhya-visit",
+    "sarnath-to-bodh-gaya",
+    "agra-and-vrindavan",
+    "a-slower-visit-to-lucknow"
+  ],
+  "live_official_checks": [
+    {
+      "url": "https://tajmahal.gov.in/faqs.aspx",
+      "claim": "Taj Mahal Friday closure to general sightseeing",
+      "result": "supported"
+    },
+    {
+      "url": "https://ayodhya.nic.in/tourist-place/hanuman-garhi/",
+      "claim": "Young Hanuman with his mother Anjani; stepped entrance",
+      "result": "supported"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1056/",
+      "claim": "Mahabodhi World Heritage status, enlightenment association and sacred Bodhi Tree",
+      "result": "supported"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1998553&lang=2&reg=3",
+      "claim": "Nagara architecture and Ram Lalla at Shri Ram Janmabhoomi Mandir",
+      "result": "supported"
+    },
+    {
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/lucknow/rumi-darwaza",
+      "claim": "Rumi Darwaza location between Bara and Chota Imambara",
+      "result": "supported"
+    }
+  ],
+  "continuity_records": [
+    "research/blog-sources.json",
+    "research/content-research.json",
+    "evidence/media-upgrade.json"
+  ],
+  "findings": [],
+  "assessment": [
+    "No invented client-specific service, pricing, access, queue or availability promises identified.",
+    "Night-count examples are clearly planning suggestions and agree with related journey outlines.",
+    "Gaya Hindu pilgrimage purpose remains separate from Bodh Gaya Buddhist heritage.",
+    "Saraswati is described as sacred tradition, not a visible third river.",
+    "Temple, boat, monastery and festival logistics require current arrangements rather than guaranteeing access.",
+    "Varanasi dawn image wording agrees with its recorded source caption."
+  ],
+  "source_edits": false
+}

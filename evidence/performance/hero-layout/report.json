@@ -1,0 +1,1104 @@
+{
+  "checks": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "hero": {
+        "top": 96,
+        "bottom": 1064,
+        "left": 16,
+        "right": 1904,
+        "width": 1888,
+        "height": 968
+      },
+      "header": {
+        "top": 0,
+        "bottom": 96,
+        "left": 0,
+        "right": 1920,
+        "width": 1920,
+        "height": 96
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 645.8125,
+          "bottom": 881,
+          "left": 104.734375,
+          "right": 1815.265625,
+          "width": 1710.53125,
+          "height": 235.1875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 881,
+          "bottom": 969,
+          "left": 104.734375,
+          "right": 1815.265625,
+          "width": 1710.53125,
+          "height": 88
+        },
+        {
+          "selector": ".hero-location",
+          "top": 1010.90625,
+          "bottom": 1034,
+          "left": 104.734375,
+          "right": 323.3125,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 996.90625,
+          "bottom": 1042,
+          "left": 1688.578125,
+          "right": 1804,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1897,
+        "height": 866
+      },
+      "hero": {
+        "top": 96,
+        "bottom": 850,
+        "left": 16,
+        "right": 1881,
+        "width": 1865,
+        "height": 754
+      },
+      "header": {
+        "top": 0,
+        "bottom": 96,
+        "left": 0,
+        "right": 1897,
+        "width": 1897,
+        "height": 96
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 446.375,
+          "bottom": 667,
+          "left": 103.640625,
+          "right": 1793.359375,
+          "width": 1689.71875,
+          "height": 220.625
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 667,
+          "bottom": 755,
+          "left": 103.640625,
+          "right": 1793.359375,
+          "width": 1689.71875,
+          "height": 88
+        },
+        {
+          "selector": ".hero-location",
+          "top": 796.90625,
+          "bottom": 820,
+          "left": 103.640625,
+          "right": 322.21875,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 782.90625,
+          "bottom": 828,
+          "left": 1665.578125,
+          "right": 1781,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1536,
+        "height": 690
+      },
+      "hero": {
+        "top": 96,
+        "bottom": 674,
+        "left": 16,
+        "right": 1520,
+        "width": 1504,
+        "height": 578
+      },
+      "header": {
+        "top": 0,
+        "bottom": 96,
+        "left": 0,
+        "right": 1536,
+        "width": 1536,
+        "height": 96
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 315.1875,
+          "bottom": 491,
+          "left": 86.6875,
+          "right": 1449.3125,
+          "width": 1362.625,
+          "height": 175.8125
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 491,
+          "bottom": 579,
+          "left": 86.6875,
+          "right": 1449.3125,
+          "width": 1362.625,
+          "height": 88
+        },
+        {
+          "selector": ".hero-location",
+          "top": 620.90625,
+          "bottom": 644,
+          "left": 86.6875,
+          "right": 305.265625,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 606.90625,
+          "bottom": 652,
+          "left": 1304.578125,
+          "right": 1420,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "hero": {
+        "top": 96,
+        "bottom": 884,
+        "left": 16,
+        "right": 1424,
+        "width": 1408,
+        "height": 788
+      },
+      "header": {
+        "top": 0,
+        "bottom": 96,
+        "left": 0,
+        "right": 1440,
+        "width": 1440,
+        "height": 96
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 486.53125,
+          "bottom": 701,
+          "left": 82.171875,
+          "right": 1357.828125,
+          "width": 1275.65625,
+          "height": 214.46875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 701,
+          "bottom": 789,
+          "left": 82.171875,
+          "right": 1357.828125,
+          "width": 1275.65625,
+          "height": 88
+        },
+        {
+          "selector": ".hero-location",
+          "top": 830.90625,
+          "bottom": 854,
+          "left": 82.171875,
+          "right": 300.75,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 816.90625,
+          "bottom": 862,
+          "left": 1208.578125,
+          "right": 1324,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1366,
+        "height": 650
+      },
+      "hero": {
+        "top": 96,
+        "bottom": 634,
+        "left": 16,
+        "right": 1350,
+        "width": 1334,
+        "height": 538
+      },
+      "header": {
+        "top": 0,
+        "bottom": 96,
+        "left": 0,
+        "right": 1366,
+        "width": 1366,
+        "height": 96
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 285.40625,
+          "bottom": 451,
+          "left": 78.6875,
+          "right": 1287.3125,
+          "width": 1208.625,
+          "height": 165.59375
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 451,
+          "bottom": 539,
+          "left": 78.6875,
+          "right": 1287.3125,
+          "width": 1208.625,
+          "height": 88
+        },
+        {
+          "selector": ".hero-location",
+          "top": 580.90625,
+          "bottom": 604,
+          "left": 78.6875,
+          "right": 297.265625,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 566.90625,
+          "bottom": 612,
+          "left": 1134.578125,
+          "right": 1250,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 600
+      },
+      "hero": {
+        "top": 96,
+        "bottom": 584,
+        "left": 16,
+        "right": 1264,
+        "width": 1248,
+        "height": 488
+      },
+      "header": {
+        "top": 0,
+        "bottom": 96,
+        "left": 0,
+        "right": 1280,
+        "width": 1280,
+        "height": 96
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 248.125,
+          "bottom": 401,
+          "left": 74.640625,
+          "right": 1205.359375,
+          "width": 1130.71875,
+          "height": 152.875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 401,
+          "bottom": 489,
+          "left": 74.640625,
+          "right": 1205.359375,
+          "width": 1130.71875,
+          "height": 88
+        },
+        {
+          "selector": ".hero-location",
+          "top": 530.90625,
+          "bottom": 554,
+          "left": 74.640625,
+          "right": 293.21875,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 516.90625,
+          "bottom": 562,
+          "left": 1048.578125,
+          "right": 1164,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "hero": {
+        "top": 96,
+        "bottom": 752,
+        "left": 16,
+        "right": 1008,
+        "width": 992,
+        "height": 656
+      },
+      "header": {
+        "top": 0,
+        "bottom": 96,
+        "left": 0,
+        "right": 1024,
+        "width": 1024,
+        "height": 96
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 396.53125,
+          "bottom": 569,
+          "left": 62.609375,
+          "right": 961.390625,
+          "width": 898.78125,
+          "height": 172.46875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 569,
+          "bottom": 657,
+          "left": 62.609375,
+          "right": 961.390625,
+          "width": 898.78125,
+          "height": 88
+        },
+        {
+          "selector": ".hero-location",
+          "top": 698.90625,
+          "bottom": 722,
+          "left": 62.609375,
+          "right": 281.1875,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 684.90625,
+          "bottom": 730,
+          "left": 792.578125,
+          "right": 908,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 1164,
+        "left": 16,
+        "right": 804,
+        "width": 788,
+        "height": 1089
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 820,
+        "width": 820,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 823.75,
+          "bottom": 976.625,
+          "left": 53.03125,
+          "right": 766.96875,
+          "width": 713.9375,
+          "height": 152.875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 976.625,
+          "bottom": 1059,
+          "left": 53.03125,
+          "right": 766.96875,
+          "width": 713.9375,
+          "height": 82.375
+        },
+        {
+          "selector": ".hero-location",
+          "top": 1110.90625,
+          "bottom": 1134,
+          "left": 53.03125,
+          "right": 271.609375,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 1096.90625,
+          "bottom": 1142,
+          "left": 588.578125,
+          "right": 704,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 1008,
+        "left": 16,
+        "right": 752,
+        "width": 736,
+        "height": 933
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 768,
+        "width": 768,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 667.75,
+          "bottom": 820.625,
+          "left": 50.578125,
+          "right": 717.421875,
+          "width": 666.84375,
+          "height": 152.875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 820.625,
+          "bottom": 903,
+          "left": 50.578125,
+          "right": 717.421875,
+          "width": 666.84375,
+          "height": 82.375
+        },
+        {
+          "selector": ".hero-location",
+          "top": 954.90625,
+          "bottom": 978,
+          "left": 50.578125,
+          "right": 269.15625,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 940.90625,
+          "bottom": 986,
+          "left": 536.578125,
+          "right": 652,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 922,
+        "left": 10,
+        "right": 420,
+        "width": 410,
+        "height": 847
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 430,
+        "width": 430,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 584.640625,
+          "bottom": 683.515625,
+          "left": 32,
+          "right": 398,
+          "width": 366,
+          "height": 98.875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 683.515625,
+          "bottom": 827,
+          "left": 32,
+          "right": 398,
+          "width": 366,
+          "height": 143.484375
+        },
+        {
+          "selector": ".hero-location",
+          "top": 852.8125,
+          "bottom": 896,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 851,
+          "bottom": 897,
+          "left": 288,
+          "right": 334,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 834,
+        "left": 10,
+        "right": 380,
+        "width": 370,
+        "height": 759
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 390,
+        "width": 390,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 468.59375,
+          "bottom": 567.46875,
+          "left": 32,
+          "right": 358,
+          "width": 326,
+          "height": 98.875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 567.46875,
+          "bottom": 739,
+          "left": 32,
+          "right": 358,
+          "width": 326,
+          "height": 171.53125
+        },
+        {
+          "selector": ".hero-location",
+          "top": 764.8125,
+          "bottom": 808,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 763,
+          "bottom": 809,
+          "left": 248,
+          "right": 294,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 657,
+        "left": 10,
+        "right": 365,
+        "width": 355,
+        "height": 582
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 375,
+        "width": 375,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 291.59375,
+          "bottom": 390.46875,
+          "left": 32,
+          "right": 343,
+          "width": 311,
+          "height": 98.875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 390.46875,
+          "bottom": 562,
+          "left": 32,
+          "right": 343,
+          "width": 311,
+          "height": 171.53125
+        },
+        {
+          "selector": ".hero-location",
+          "top": 587.8125,
+          "bottom": 631,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 586,
+          "bottom": 632,
+          "left": 233,
+          "right": 279,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 630,
+        "left": 10,
+        "right": 350,
+        "width": 340,
+        "height": 555
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 360,
+        "width": 360,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 316.609375,
+          "bottom": 403.109375,
+          "left": 28,
+          "right": 332,
+          "width": 304,
+          "height": 86.5
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 403.109375,
+          "bottom": 550,
+          "left": 28,
+          "right": 332,
+          "width": 304,
+          "height": 146.890625
+        },
+        {
+          "selector": ".hero-location",
+          "top": 568.8125,
+          "bottom": 612,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 566,
+          "bottom": 612,
+          "left": 218,
+          "right": 264,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 558,
+        "left": 10,
+        "right": 310,
+        "width": 300,
+        "height": 483
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 244.609375,
+          "bottom": 331.109375,
+          "left": 28,
+          "right": 292,
+          "width": 264,
+          "height": 86.5
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 331.109375,
+          "bottom": 478,
+          "left": 28,
+          "right": 292,
+          "width": 264,
+          "height": 146.890625
+        },
+        {
+          "selector": ".hero-location",
+          "top": 496.8125,
+          "bottom": 540,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 494,
+          "bottom": 540,
+          "left": 178,
+          "right": 224,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 480
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 470,
+        "left": 10,
+        "right": 310,
+        "width": 300,
+        "height": 395
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 320,
+        "width": 320,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 156.609375,
+          "bottom": 243.109375,
+          "left": 28,
+          "right": 292,
+          "width": 264,
+          "height": 86.5
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 243.109375,
+          "bottom": 390,
+          "left": 28,
+          "right": 292,
+          "width": 264,
+          "height": 146.890625
+        },
+        {
+          "selector": ".hero-location",
+          "top": 408.8125,
+          "bottom": 452,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 406,
+          "bottom": 452,
+          "left": 178,
+          "right": 224,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 374,
+        "left": 16,
+        "right": 828,
+        "width": 812,
+        "height": 299
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 844,
+        "width": 844,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 202.890625,
+          "bottom": 300.796875,
+          "left": 54.15625,
+          "right": 426.9375,
+          "width": 372.78125,
+          "height": 97.90625
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 193.6875,
+          "bottom": 310,
+          "left": 450.9375,
+          "right": 789.84375,
+          "width": 338.90625,
+          "height": 116.3125
+        },
+        {
+          "selector": ".hero-location",
+          "top": 334.90625,
+          "bottom": 358,
+          "left": 54.15625,
+          "right": 272.734375,
+          "width": 218.578125,
+          "height": 23.09375
+        },
+        {
+          "selector": ".film-control",
+          "top": 313.90625,
+          "bottom": 359,
+          "left": 612.578125,
+          "right": 728,
+          "width": 115.421875,
+          "height": 45.09375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 365,
+        "left": 10,
+        "right": 657,
+        "width": 647,
+        "height": 290
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 667,
+        "width": 667,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 204.15625,
+          "bottom": 281.53125,
+          "left": 32,
+          "right": 335.28125,
+          "width": 303.28125,
+          "height": 77.375
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 184.6875,
+          "bottom": 301,
+          "left": 359.28125,
+          "right": 635,
+          "width": 275.71875,
+          "height": 116.3125
+        },
+        {
+          "selector": ".hero-location",
+          "top": 305.8125,
+          "bottom": 349,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 304,
+          "bottom": 350,
+          "left": 525,
+          "right": 571,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    },
+    {
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "hero": {
+        "top": 75,
+        "bottom": 310,
+        "left": 10,
+        "right": 558,
+        "width": 548,
+        "height": 235
+      },
+      "header": {
+        "top": 0,
+        "bottom": 75,
+        "left": 0,
+        "right": 568,
+        "width": 568,
+        "height": 75
+      },
+      "content": [
+        {
+          "selector": ".hero h1",
+          "top": 154.90625,
+          "bottom": 220.78125,
+          "left": 32,
+          "right": 283.421875,
+          "width": 251.421875,
+          "height": 65.875
+        },
+        {
+          "selector": ".hero-bottom",
+          "top": 129.6875,
+          "bottom": 246,
+          "left": 307.421875,
+          "right": 536,
+          "width": 228.578125,
+          "height": 116.3125
+        },
+        {
+          "selector": ".hero-location",
+          "top": 250.8125,
+          "bottom": 294,
+          "left": 32,
+          "right": 124.609375,
+          "width": 92.609375,
+          "height": 43.1875
+        },
+        {
+          "selector": ".film-control",
+          "top": 249,
+          "bottom": 295,
+          "left": 426,
+          "right": 472,
+          "width": 46,
+          "height": 46
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

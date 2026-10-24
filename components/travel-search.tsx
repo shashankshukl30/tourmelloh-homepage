@@ -3,12 +3,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight, Search, X } from "lucide-react";
-import { searchTravel, type SearchEntry } from "@/lib/search-index";
+import { searchTravel, type SearchEntry } from "@/lib/search";
 
-export function TravelSearch({ initialQuery }: { initialQuery: string }) {
+export function TravelSearch({ initialQuery, entries }: { initialQuery: string; entries: SearchEntry[] }) {
   const [query, setQuery] = useState(initialQuery);
   const [kind, setKind] = useState<"All" | SearchEntry["kind"]>("All");
-  const results = searchTravel(query, kind);
+  const results = searchTravel(entries, query, kind);
   function updateQuery(value: string) {
     setQuery(value);
     const url = new URL(window.location.href);
@@ -30,7 +30,7 @@ export function TravelSearch({ initialQuery }: { initialQuery: string }) {
       </form>
       <div className="search-tools">
         <div className="category-tabs" role="group" aria-label="Search result type">
-          {(["All", "Journey", "Destination"] as const).map((value) => <button key={value} type="button" className={kind === value ? "active" : ""} aria-pressed={kind === value} onClick={() => setKind(value)}>{value === "All" ? "Everything" : value === "Journey" ? "Journeys" : "Destinations"}</button>)}
+          {(["All", "Journey", "Destination", "Article"] as const).map((value) => <button key={value} type="button" className={kind === value ? "active" : ""} aria-pressed={kind === value} onClick={() => setKind(value)}>{value === "All" ? "Everything" : value === "Journey" ? "Journeys" : value === "Article" ? "Articles" : "Destinations"}</button>)}
         </div>
         <p role="status" aria-live="polite">{results.length} {results.length === 1 ? "result" : "results"}{query.trim() ? ` for “${query.trim()}”` : " to explore"}</p>
       </div>

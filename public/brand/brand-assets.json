@@ -2,22 +2,22 @@
   "brand": "Tourmelloh",
   "wordmark": "tourmelloh",
   "wordmark_character_count": 10,
-  "font": {
-    "family": "Instrument Sans",
-    "weight": 580,
-    "width_axis": 100,
-    "source": "node_modules\\@fontsource-variable\\instrument-sans\\files\\instrument-sans-latin-standard-normal.woff2",
-    "license": "SIL Open Font License 1.1",
-    "outline_note": "Every glyph is a standalone vector path. No external font is needed to render the SVG."
+  "lettering": {
+    "source": ".skill-archive/logo-creator/2026-10-24-tourmelloh/ai-refined-concept.png",
+    "source_sha256": "90c373eeda38da6f33c40312abed5774f60f032dfd6da1f4972adc2d956a5e81",
+    "vector_master": "scripts/brand/wordmark-source.json",
+    "method": "Original concept foreground contours fitted to closed cubic Bezier paths; no font substitution.",
+    "font_substitution": false,
+    "outline_note": "Ten original glyphs, each a standalone vector path. No external font is needed to render the SVG."
   },
   "geometry": {
     "horizontal_viewbox": [
       0,
       0,
-      646.466,
+      561.255,
       112
     ],
-    "aspect_ratio": 5.77202,
+    "aspect_ratio": 5.01121,
     "symbol_viewbox": [
       0,
       0,
@@ -41,125 +41,115 @@
     {
       "index": 0,
       "character": "t",
-      "glyph": "t",
-      "x": 124.0,
-      "bounds": [
-        15.2000732421875,
-        -10.199951171875,
-        376.1990966796875,
-        671.5994873046875
-      ]
+      "source_bounds": [
+        409,
+        266,
+        84,
+        155
+      ],
+      "contours": 1
     },
     {
       "index": 1,
       "character": "o",
-      "glyph": "o",
-      "x": 162.658,
-      "bounds": [
-        28.00048828125,
-        -10,
-        567.9990234375,
-        520
-      ]
+      "source_bounds": [
+        494,
+        302,
+        123,
+        120
+      ],
+      "contours": 2
     },
     {
       "index": 2,
       "character": "u",
-      "glyph": "u",
-      "x": 222.226,
-      "bounds": [
-        62.00048828125,
-        -10,
-        534.198974609375,
-        510
-      ]
+      "source_bounds": [
+        623,
+        305,
+        106,
+        117
+      ],
+      "contours": 1
     },
     {
       "index": 3,
       "character": "r",
-      "glyph": "r",
-      "x": 281.896,
-      "bounds": [
-        68.00048828125,
-        0,
-        371.9991455078125,
-        520
-      ]
+      "source_bounds": [
+        739,
+        303,
+        73,
+        116
+      ],
+      "contours": 1
     },
     {
       "index": 4,
       "character": "m",
-      "glyph": "m",
-      "x": 319.126,
-      "bounds": [
-        68.00048828125,
-        0,
-        876.798828125,
-        520
-      ]
+      "source_bounds": [
+        819,
+        302,
+        171,
+        118
+      ],
+      "contours": 1
     },
     {
       "index": 5,
       "character": "e",
-      "glyph": "e",
-      "x": 413.17,
-      "bounds": [
-        28.00048828125,
-        -10,
-        541.999267578125,
-        520
-      ]
+      "source_bounds": [
+        996,
+        302,
+        121,
+        120
+      ],
+      "contours": 2
     },
     {
       "index": 6,
       "character": "l",
-      "glyph": "l",
-      "x": 470.086,
-      "bounds": [
-        68.00048828125,
-        0,
-        189.998779296875,
-        720
-      ]
+      "source_bounds": [
+        1125,
+        242,
+        29,
+        178
+      ],
+      "contours": 1
     },
     {
       "index": 7,
       "character": "l",
-      "glyph": "l",
-      "x": 497.218,
-      "bounds": [
-        68.00048828125,
-        0,
-        189.998779296875,
-        720
-      ]
+      "source_bounds": [
+        1166,
+        242,
+        29,
+        178
+      ],
+      "contours": 1
     },
     {
       "index": 8,
       "character": "o",
-      "glyph": "o",
-      "x": 521.8,
-      "bounds": [
-        28.00048828125,
-        -10,
-        567.9990234375,
-        520
-      ]
+      "source_bounds": [
+        1203,
+        302,
+        125,
+        120
+      ],
+      "contours": 2
     },
     {
       "index": 9,
       "character": "h",
-      "glyph": "h",
-      "x": 581.368,
-      "bounds": [
-        68.00048828125,
-        0,
-        548.9990234375,
-        720
-      ]
+      "source_bounds": [
+        1335,
+        248,
+        105,
+        172
+      ],
+      "contours": 1
     }
   ],
-  "provenance": "Original code-authored vector interpretation of the approved T / river concept. No pixel tracing or raster embedding.",
+  "provenance": "Existing approved three-path symbol retained unchanged. Original generated concept lettering recovered as fitted vector contours. No font substitution, live text, or raster embedding.",
   "exports": [
     "tourmelloh-symbol.svg",
     "tourmelloh-symbol-ivory.svg",

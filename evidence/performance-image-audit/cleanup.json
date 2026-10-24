@@ -1,0 +1,50 @@
+﻿{
+    "scope":  "D:\\Digiocular\\Websites\\india-travel-homepage\\evidence\\performance-image-audit",
+    "removed":  [
+
+                ],
+    "removedBytes":  0,
+    "reason":  "Read-only browser/source audit created no source media copies or disposable downloads. Retained small scripts and measured JSON as evidence.",
+    "freeSpace":  [
+                      {
+                          "Name":  "C",
+                          "Free":  75568730112
+                      },
+                      {
+                          "Name":  "D",
+                          "Free":  36467273728
+                      }
+                  ],
+    "files":  [
+                  {
+                      "Name":  "audit.cjs",
+                      "Length":  2657
+                  },
+                  {
+                      "Name":  "candidates.json",
+                      "Length":  1075
+                  },
+                  {
+                      "Name":  "findings.json",
+                      "Length":  1990
+                  },
+                  {
+                      "Name":  "report.json",
+                      "Length":  53193
+                  }
+              ],
+    "preservedBlogSources":  [
+                                 "content/blog.ts",
+                                 "research/blog-sources.json"
+                             ],
+    "freeSpaceAfter":  [
+                           {
+                               "Name":  "C",
+                               "Free":  75529572352
+                           },
+                           {
+                               "Name":  "D",
+                               "Free":  36441804800
+                           }
+                       ]
+}

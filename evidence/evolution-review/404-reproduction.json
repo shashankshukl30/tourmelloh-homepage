@@ -1,0 +1,46 @@
+[
+  {
+    "path": "/blog/this-article-does-not-exist",
+    "status": 404,
+    "errors": [
+      "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "h1": [
+      "Let\u2019s find yourway back."
+    ],
+    "htmlClass": "mgvW6W_variable _6KitrG_variable",
+    "whatsapp": 3
+  },
+  {
+    "path": "/blog/this-article-does-not-exist",
+    "status": 404,
+    "errors": [
+      "Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "h1": [
+      "Let\u2019s find yourway back."
+    ],
+    "htmlClass": "mgvW6W_variable _6KitrG_variable",
+    "whatsapp": 3
+  },
+  {
+    "path": "/journeys/this-journey-does-not-exist",
+    "status": 404,
+    "errors": [],
+    "h1": [
+      "Let\u2019s find yourway back."
+    ],
+    "htmlClass": "mgvW6W_variable _6KitrG_variable",
+    "whatsapp": 3
+  },
+  {
+    "path": "/this-page-does-not-exist",
+    "status": 404,
+    "errors": [],
+    "h1": [
+      "Let\u2019s find yourway back."
+    ],
+    "htmlClass": "mgvW6W_variable _6KitrG_variable",
+    "whatsapp": 3
+  }
+]

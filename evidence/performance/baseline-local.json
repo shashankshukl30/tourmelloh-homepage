@@ -1,0 +1,2937 @@
+{
+  "base": "http://127.0.0.1:3108",
+  "measuredAt": "2026-10-24T16:44:20.943Z",
+  "conditions": "Fresh context and disabled cache for every run; no interaction or scrolling; 12 seconds after DOMContentLoaded.",
+  "runs": [
+    {
+      "profile": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 2,
+        "latency": 150,
+        "download": 375000,
+        "cpu": 4
+      },
+      "run": 1,
+      "lcp": [
+        {
+          "time": 1336,
+          "element": "P",
+          "url": ""
+        },
+        {
+          "time": 2296,
+          "element": "VIDEO",
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp"
+        }
+      ],
+      "cls": 0,
+      "longTasks": [
+        482,
+        129,
+        52
+      ],
+      "firstVideoFrame": 3239.9000000059605,
+      "playing": 3205.9000000059605,
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 1336
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 1336
+        }
+      ],
+      "navigation": {
+        "ttfb": 4.4000000059604645,
+        "domContentLoaded": 730,
+        "loaded": 3206.9000000059605
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "start": 181.6000000089407,
+          "end": 1152.300000011921,
+          "transfer": 57632,
+          "size": 57332,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "start": 183.70000000298023,
+          "end": 2292.9000000059605,
+          "transfer": 147172,
+          "size": 146872,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "start": 184.1000000089407,
+          "end": 2142.4000000059605,
+          "transfer": 132300,
+          "size": 132000,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "start": 184.30000001192093,
+          "end": 710.6000000089407,
+          "transfer": 23367,
+          "size": 23067,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "start": 184.70000000298023,
+          "end": 411.90000000596046,
+          "transfer": 2335,
+          "size": 2035,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "start": 185.40000000596046,
+          "end": 737.7000000029802,
+          "transfer": 8951,
+          "size": 8651,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "start": 185.5,
+          "end": 1901.2000000029802,
+          "transfer": 72200,
+          "size": 71900,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "start": 186.20000000298023,
+          "end": 1576.2000000029802,
+          "transfer": 45459,
+          "size": 45159,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "start": 186.6000000089407,
+          "end": 1404.4000000059605,
+          "transfer": 4240,
+          "size": 3940,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "start": 186.70000000298023,
+          "end": 1906.300000011921,
+          "transfer": 10292,
+          "size": 9992,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "start": 187.1000000089407,
+          "end": 2088.9000000059605,
+          "transfer": 23078,
+          "size": 22778,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "start": 187.40000000596046,
+          "end": 2402.2000000029802,
+          "transfer": 40833,
+          "size": 40533,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "start": 187.6000000089407,
+          "end": 2199.4000000059605,
+          "transfer": 9188,
+          "size": 8888,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "start": 187.80000001192093,
+          "end": 2261.300000011921,
+          "transfer": 145048,
+          "size": 144748,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "start": 1247,
+          "end": 1623.6000000089407,
+          "transfer": 3819,
+          "size": 3519,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=750&q=90",
+          "start": 1247.6000000089407,
+          "end": 2572.7000000029802,
+          "transfer": 85884,
+          "size": 85584,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "start": 2645.9000000059605,
+          "end": 2824,
+          "transfer": 597,
+          "size": 297,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "start": 2646.800000011921,
+          "end": 2824.1000000089407,
+          "transfer": 479,
+          "size": 179,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "start": 2835.9000000059605,
+          "end": 3025.2000000029802,
+          "transfer": 2819,
+          "size": 2519,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "start": 2845.7000000029802,
+          "end": 3025.4000000059605,
+          "transfer": 1300,
+          "size": 1000,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "start": 3216.2000000029802,
+          "end": 3389.6000000089407,
+          "transfer": 1099,
+          "size": 799,
+          "type": "other"
+        }
+      ],
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "time": 9.5492,
+        "width": 720,
+        "height": 1280,
+        "paused": false,
+        "ready": 4
+      },
+      "overflow": false,
+      "requests": [
+        {
+          "url": "http://127.0.0.1:3108/",
+          "type": "Document",
+          "priority": "VeryHigh",
+          "bytes": 10708,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 57839,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 147381,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 132509,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "type": "Stylesheet",
+          "priority": "VeryHigh",
+          "bytes": 23666,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 2638,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9255,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 72553,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 45788,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4543,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 10596,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 23392,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 41162,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9492,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "type": "Image",
+          "priority": "Medium",
+          "bytes": 145239,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 4080,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=750&q=90",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 86220,
+          "status": 200,
+          "cache": "public, max-age=14400, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 913,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 765,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+          "type": "Media",
+          "priority": "Low",
+          "bytes": 3691016,
+          "status": 206,
+          "cache": "public, max-age=0"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3135,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 0,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "type": "Other",
+          "priority": "High",
+          "bytes": 1311,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 2,
+        "latency": 150,
+        "download": 375000,
+        "cpu": 4
+      },
+      "run": 2,
+      "lcp": [
+        {
+          "time": 1172,
+          "element": "P",
+          "url": ""
+        },
+        {
+          "time": 2300,
+          "element": "VIDEO",
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp"
+        }
+      ],
+      "cls": 0,
+      "longTasks": [
+        388,
+        124
+      ],
+      "firstVideoFrame": 3200.5,
+      "playing": 3169.8999999910593,
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 1172
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 1172
+        }
+      ],
+      "navigation": {
+        "ttfb": 5,
+        "domContentLoaded": 727.1999999880791,
+        "loaded": 3170.699999988079
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "start": 193.8999999910593,
+          "end": 1147.199999988079,
+          "transfer": 57632,
+          "size": 57332,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "start": 195.09999999403954,
+          "end": 2286.8999999910593,
+          "transfer": 147172,
+          "size": 146872,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "start": 195.5,
+          "end": 2142.5999999940395,
+          "transfer": 132300,
+          "size": 132000,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "start": 195.8999999910593,
+          "end": 709.7999999970198,
+          "transfer": 23367,
+          "size": 23067,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "start": 196.8999999910593,
+          "end": 427,
+          "transfer": 2335,
+          "size": 2035,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "start": 197.29999999701977,
+          "end": 741.7999999970198,
+          "transfer": 8951,
+          "size": 8651,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "start": 197.59999999403954,
+          "end": 1890.5999999940395,
+          "transfer": 72200,
+          "size": 71900,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "start": 198.3999999910593,
+          "end": 1576.2999999970198,
+          "transfer": 45459,
+          "size": 45159,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "start": 198.79999999701977,
+          "end": 1401.5999999940395,
+          "transfer": 4240,
+          "size": 3940,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "start": 199.19999998807907,
+          "end": 1906.0999999940395,
+          "transfer": 10292,
+          "size": 9992,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "start": 199.8999999910593,
+          "end": 2079.699999988079,
+          "transfer": 23078,
+          "size": 22778,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "start": 200.09999999403954,
+          "end": 2395.7999999970198,
+          "transfer": 40833,
+          "size": 40533,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "start": 200.29999999701977,
+          "end": 2190.699999988079,
+          "transfer": 9188,
+          "size": 8888,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "start": 200.69999998807907,
+          "end": 2269.2999999970198,
+          "transfer": 145048,
+          "size": 144748,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "start": 1146.8999999910593,
+          "end": 1623.199999988079,
+          "transfer": 3819,
+          "size": 3519,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=750&q=90",
+          "start": 1147.2999999970198,
+          "end": 2569.5999999940395,
+          "transfer": 85884,
+          "size": 85584,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "start": 2586.5999999940395,
+          "end": 2758.8999999910593,
+          "transfer": 597,
+          "size": 297,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "start": 2588.5,
+          "end": 2758.8999999910593,
+          "transfer": 479,
+          "size": 179,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "start": 2771.2999999970198,
+          "end": 2962.199999988079,
+          "transfer": 2819,
+          "size": 2519,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "start": 2779.8999999910593,
+          "end": 2951.199999988079,
+          "transfer": 1299,
+          "size": 999,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "start": 3185.199999988079,
+          "end": 3344,
+          "transfer": 1099,
+          "size": 799,
+          "type": "other"
+        }
+      ],
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "time": 9.5704,
+        "width": 720,
+        "height": 1280,
+        "paused": false,
+        "ready": 4
+      },
+      "overflow": false,
+      "requests": [
+        {
+          "url": "http://127.0.0.1:3108/",
+          "type": "Document",
+          "priority": "VeryHigh",
+          "bytes": 10708,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 57839,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 147381,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 132509,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "type": "Stylesheet",
+          "priority": "VeryHigh",
+          "bytes": 23666,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 2638,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9255,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 72553,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 45788,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4543,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 10596,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 23392,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 41162,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9492,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "type": "Image",
+          "priority": "Medium",
+          "bytes": 145239,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 4080,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=750&q=90",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 86220,
+          "status": 200,
+          "cache": "public, max-age=14400, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 913,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 765,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+          "type": "Media",
+          "priority": "Low",
+          "bytes": 3692516,
+          "status": 206,
+          "cache": "public, max-age=0"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3135,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 1029,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "type": "Other",
+          "priority": "High",
+          "bytes": 1311,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 2,
+        "latency": 150,
+        "download": 375000,
+        "cpu": 4
+      },
+      "run": 3,
+      "lcp": [
+        {
+          "time": 1140,
+          "element": "P",
+          "url": ""
+        },
+        {
+          "time": 2304,
+          "element": "VIDEO",
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp"
+        }
+      ],
+      "cls": 0,
+      "longTasks": [
+        357,
+        113
+      ],
+      "firstVideoFrame": 3194.5,
+      "playing": 3163.8999999910593,
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 1140
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 1140
+        }
+      ],
+      "navigation": {
+        "ttfb": 3.2999999970197678,
+        "domContentLoaded": 717.5999999940395,
+        "loaded": 3164.8999999910593
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "start": 189.8999999910593,
+          "end": 1159.2999999970198,
+          "transfer": 57632,
+          "size": 57332,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "start": 190.8999999910593,
+          "end": 2293.2000000029802,
+          "transfer": 147172,
+          "size": 146872,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "start": 191.29999999701977,
+          "end": 2135.2000000029802,
+          "transfer": 132300,
+          "size": 132000,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "start": 191.5,
+          "end": 703.5,
+          "transfer": 23367,
+          "size": 23067,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "start": 192,
+          "end": 421.20000000298023,
+          "transfer": 2335,
+          "size": 2035,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "start": 192.3999999910593,
+          "end": 734.8999999910593,
+          "transfer": 8951,
+          "size": 8651,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "start": 192.79999999701977,
+          "end": 1883,
+          "transfer": 72200,
+          "size": 71900,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "start": 193.5,
+          "end": 1568,
+          "transfer": 45459,
+          "size": 45159,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "start": 194,
+          "end": 1411.0999999940395,
+          "transfer": 4240,
+          "size": 3940,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "start": 194.3999999910593,
+          "end": 1915,
+          "transfer": 10292,
+          "size": 9992,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "start": 194.79999999701977,
+          "end": 2087.3999999910593,
+          "transfer": 23078,
+          "size": 22778,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "start": 195.20000000298023,
+          "end": 2404.7000000029802,
+          "transfer": 40833,
+          "size": 40533,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "start": 195.3999999910593,
+          "end": 2198.3999999910593,
+          "transfer": 9188,
+          "size": 8888,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "start": 195.79999999701977,
+          "end": 2261.5999999940395,
+          "transfer": 145048,
+          "size": 144748,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "start": 1110.5,
+          "end": 1630.5,
+          "transfer": 3819,
+          "size": 3519,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=750&q=90",
+          "start": 1111.2000000029802,
+          "end": 2578.0999999940395,
+          "transfer": 85884,
+          "size": 85584,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "start": 2601.5,
+          "end": 2783.0999999940395,
+          "transfer": 597,
+          "size": 297,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "start": 2604.3999999910593,
+          "end": 2783.2000000029802,
+          "transfer": 479,
+          "size": 179,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "start": 2795.8999999910593,
+          "end": 2987.8999999910593,
+          "transfer": 2819,
+          "size": 2519,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "start": 2803.2000000029802,
+          "end": 2977.2000000029802,
+          "transfer": 1300,
+          "size": 1000,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "start": 3175.7000000029802,
+          "end": 3348.8999999910593,
+          "transfer": 1099,
+          "size": 799,
+          "type": "other"
+        }
+      ],
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "time": 9.5631,
+        "width": 720,
+        "height": 1280,
+        "paused": false,
+        "ready": 4
+      },
+      "overflow": false,
+      "requests": [
+        {
+          "url": "http://127.0.0.1:3108/",
+          "type": "Document",
+          "priority": "VeryHigh",
+          "bytes": 10708,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 57839,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 147381,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 132509,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "type": "Stylesheet",
+          "priority": "VeryHigh",
+          "bytes": 23666,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 2638,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9255,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 72553,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 45788,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4543,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 10596,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 23392,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 41162,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9492,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "type": "Image",
+          "priority": "Medium",
+          "bytes": 145239,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 4080,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=750&q=90",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 86220,
+          "status": 200,
+          "cache": "public, max-age=14400, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 913,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 765,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+          "type": "Media",
+          "priority": "Low",
+          "bytes": 3679016,
+          "status": 206,
+          "cache": "public, max-age=0"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3135,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 0,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "type": "Other",
+          "priority": "High",
+          "bytes": 1311,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "latency": 60,
+        "download": 1250000,
+        "cpu": 1
+      },
+      "run": 1,
+      "lcp": [
+        {
+          "time": 428,
+          "element": "SPAN",
+          "url": ""
+        },
+        {
+          "time": 776,
+          "element": "VIDEO",
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp"
+        }
+      ],
+      "cls": 0.00003771219135802469,
+      "longTasks": [
+        75
+      ],
+      "firstVideoFrame": 1198.4000000059605,
+      "playing": 1166.4000000059605,
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 428
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 428
+        }
+      ],
+      "navigation": {
+        "ttfb": 4.9000000059604645,
+        "domContentLoaded": 279.90000000596046,
+        "loaded": 1166.5999999940395
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "start": 97.70000000298023,
+          "end": 413.20000000298023,
+          "transfer": 57632,
+          "size": 57332,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "start": 97.90000000596046,
+          "end": 756.9000000059605,
+          "transfer": 147172,
+          "size": 146872,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "start": 98,
+          "end": 711,
+          "transfer": 132300,
+          "size": 132000,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "start": 98.09999999403954,
+          "end": 185.5,
+          "transfer": 2335,
+          "size": 2035,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "start": 98.09999999403954,
+          "end": 276.5,
+          "transfer": 23367,
+          "size": 23067,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "start": 98.09999999403954,
+          "end": 292.09999999403954,
+          "transfer": 8951,
+          "size": 8651,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "start": 98.09999999403954,
+          "end": 555.7999999970198,
+          "transfer": 45459,
+          "size": 45159,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "start": 98.09999999403954,
+          "end": 648.4000000059605,
+          "transfer": 72200,
+          "size": 71900,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "start": 98.20000000298023,
+          "end": 509.59999999403954,
+          "transfer": 4240,
+          "size": 3940,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "start": 98.20000000298023,
+          "end": 664.5,
+          "transfer": 10292,
+          "size": 9992,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "start": 98.20000000298023,
+          "end": 740.2999999970198,
+          "transfer": 23078,
+          "size": 22778,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "start": 98.29999999701977,
+          "end": 757.2999999970198,
+          "transfer": 9188,
+          "size": 8888,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "start": 98.29999999701977,
+          "end": 788.5999999940395,
+          "transfer": 40833,
+          "size": 40533,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "start": 98.40000000596046,
+          "end": 740.9000000059605,
+          "transfer": 145048,
+          "size": 144748,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "start": 390.20000000298023,
+          "end": 586.0999999940395,
+          "transfer": 3819,
+          "size": 3519,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "start": 390.29999999701977,
+          "end": 861.2000000029802,
+          "transfer": 101074,
+          "size": 100774,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "start": 826.4000000059605,
+          "end": 915.2000000029802,
+          "transfer": 597,
+          "size": 297,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=5CB68i4pnAekjehf",
+          "start": 826.5,
+          "end": 915.2999999970198,
+          "transfer": 616,
+          "size": 316,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=5CB68i4pnAekjehf",
+          "start": 826.5999999940395,
+          "end": 915.4000000059605,
+          "transfer": 629,
+          "size": 329,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "start": 826.5999999940395,
+          "end": 915.0999999940395,
+          "transfer": 479,
+          "size": 179,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+          "start": 831.0999999940395,
+          "end": 10663.20000000298,
+          "transfer": 11988252,
+          "size": 11987952,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "start": 918.2999999970198,
+          "end": 1008,
+          "transfer": 1299,
+          "size": 999,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "start": 919.4000000059605,
+          "end": 1008.7000000029802,
+          "transfer": 2819,
+          "size": 2519,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=Oex09f7te-50KxE1",
+          "start": 920.2999999970198,
+          "end": 1008.7999999970198,
+          "transfer": 3003,
+          "size": 2703,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=hdWTrQlA-ViJiWOD",
+          "start": 920.9000000059605,
+          "end": 1013.9000000059605,
+          "transfer": 6212,
+          "size": 5912,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3hz6oko2yhf8p.js",
+          "start": 1013.2999999970198,
+          "end": 1102.5,
+          "transfer": 4268,
+          "size": 3968,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/0ctec5im8ifa4.js",
+          "start": 1014.7999999970198,
+          "end": 1102.2000000029802,
+          "transfer": 754,
+          "size": 454,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "start": 1168.2000000029802,
+          "end": 1257.7000000029802,
+          "transfer": 1099,
+          "size": 799,
+          "type": "other"
+        }
+      ],
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "time": 11.1192,
+        "width": 1920,
+        "height": 1080,
+        "paused": false,
+        "ready": 4
+      },
+      "overflow": false,
+      "requests": [
+        {
+          "url": "http://127.0.0.1:3108/",
+          "type": "Document",
+          "priority": "VeryHigh",
+          "bytes": 10708,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 57839,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 147381,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 132509,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "type": "Stylesheet",
+          "priority": "VeryHigh",
+          "bytes": 23666,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 2638,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9255,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 72553,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 45788,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4543,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 10596,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 23392,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 41162,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9492,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "type": "Image",
+          "priority": "Medium",
+          "bytes": 145239,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 4080,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 101411,
+          "status": 200,
+          "cache": "public, max-age=14400, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 913,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 932,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 945,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 765,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+          "type": "Media",
+          "priority": "Low",
+          "bytes": 11988500,
+          "status": 206,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 0,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3135,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=Oex09f7te-50KxE1",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3319,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=hdWTrQlA-ViJiWOD",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 6534,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3hz6oko2yhf8p.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4571,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/0ctec5im8ifa4.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 1008,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "type": "Other",
+          "priority": "High",
+          "bytes": 1311,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "latency": 60,
+        "download": 1250000,
+        "cpu": 1
+      },
+      "run": 2,
+      "lcp": [
+        {
+          "time": 416,
+          "element": "SPAN",
+          "url": ""
+        },
+        {
+          "time": 760,
+          "element": "VIDEO",
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp"
+        }
+      ],
+      "cls": 0.00003771219135802469,
+      "longTasks": [
+        78
+      ],
+      "firstVideoFrame": 1184.3999999910593,
+      "playing": 1152.3999999910593,
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 416
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 416
+        }
+      ],
+      "navigation": {
+        "ttfb": 4.399999991059303,
+        "domContentLoaded": 276.19999998807907,
+        "loaded": 1152.5999999940395
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "start": 90.59999999403954,
+          "end": 397.59999999403954,
+          "transfer": 57632,
+          "size": 57332,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "start": 90.69999998807907,
+          "end": 743.1999999880791,
+          "transfer": 147172,
+          "size": 146872,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "start": 90.79999999701977,
+          "end": 271.8999999910593,
+          "transfer": 23367,
+          "size": 23067,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "start": 90.79999999701977,
+          "end": 695.6999999880791,
+          "transfer": 132300,
+          "size": 132000,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "start": 90.8999999910593,
+          "end": 180,
+          "transfer": 2335,
+          "size": 2035,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "start": 91,
+          "end": 287.5,
+          "transfer": 8951,
+          "size": 8651,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "start": 91,
+          "end": 491.19999998807907,
+          "transfer": 4240,
+          "size": 3940,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "start": 91,
+          "end": 553.5,
+          "transfer": 45459,
+          "size": 45159,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "start": 91,
+          "end": 633,
+          "transfer": 72200,
+          "size": 71900,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "start": 91,
+          "end": 663.7999999970198,
+          "transfer": 10292,
+          "size": 9992,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "start": 91.09999999403954,
+          "end": 711.5999999940395,
+          "transfer": 23078,
+          "size": 22778,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "start": 91.09999999403954,
+          "end": 790.1999999880791,
+          "transfer": 40833,
+          "size": 40533,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "start": 91.19999998807907,
+          "end": 727.6999999880791,
+          "transfer": 145048,
+          "size": 144748,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "start": 91.19999998807907,
+          "end": 758.5999999940395,
+          "transfer": 9188,
+          "size": 8888,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "start": 387.5,
+          "end": 569.6999999880791,
+          "transfer": 3819,
+          "size": 3519,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "start": 387.59999999403954,
+          "end": 856.3999999910593,
+          "transfer": 101074,
+          "size": 100774,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "start": 822.5999999940395,
+          "end": 900.7999999970198,
+          "transfer": 597,
+          "size": 297,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=5CB68i4pnAekjehf",
+          "start": 822.7999999970198,
+          "end": 900.5,
+          "transfer": 616,
+          "size": 316,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=5CB68i4pnAekjehf",
+          "start": 822.8999999910593,
+          "end": 900.6999999880791,
+          "transfer": 629,
+          "size": 329,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "start": 822.8999999910593,
+          "end": 900.6999999880791,
+          "transfer": 479,
+          "size": 179,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+          "start": 827.2999999970198,
+          "end": 10679.09999999404,
+          "transfer": 11988252,
+          "size": 11987952,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=Oex09f7te-50KxE1",
+          "start": 904.0999999940395,
+          "end": 995.2999999970198,
+          "transfer": 3003,
+          "size": 2703,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=hdWTrQlA-ViJiWOD",
+          "start": 904.7999999970198,
+          "end": 1011,
+          "transfer": 6212,
+          "size": 5912,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "start": 907.0999999940395,
+          "end": 995.5999999940395,
+          "transfer": 1300,
+          "size": 1000,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "start": 907.8999999910593,
+          "end": 995.7999999970198,
+          "transfer": 2819,
+          "size": 2519,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3hz6oko2yhf8p.js",
+          "start": 997.0999999940395,
+          "end": 1073.699999988079,
+          "transfer": 4268,
+          "size": 3968,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/0ctec5im8ifa4.js",
+          "start": 1012.5,
+          "end": 1074.199999988079,
+          "transfer": 754,
+          "size": 454,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "start": 1154.199999988079,
+          "end": 1230.199999988079,
+          "transfer": 1099,
+          "size": 799,
+          "type": "other"
+        }
+      ],
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "time": 11.1345,
+        "width": 1920,
+        "height": 1080,
+        "paused": false,
+        "ready": 4
+      },
+      "overflow": false,
+      "requests": [
+        {
+          "url": "http://127.0.0.1:3108/",
+          "type": "Document",
+          "priority": "VeryHigh",
+          "bytes": 10708,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 57839,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 147381,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 132509,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "type": "Stylesheet",
+          "priority": "VeryHigh",
+          "bytes": 23666,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 2638,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9255,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 72553,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 45788,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4543,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 10596,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 23392,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 41162,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9492,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "type": "Image",
+          "priority": "Medium",
+          "bytes": 145239,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 4080,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 101411,
+          "status": 200,
+          "cache": "public, max-age=14400, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 913,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 932,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 945,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 765,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+          "type": "Media",
+          "priority": "Low",
+          "bytes": 11988500,
+          "status": 206,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=Oex09f7te-50KxE1",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3319,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=hdWTrQlA-ViJiWOD",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 6534,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 1600,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3135,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3hz6oko2yhf8p.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4571,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/0ctec5im8ifa4.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 1008,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "type": "Other",
+          "priority": "High",
+          "bytes": 1311,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "profile": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "latency": 60,
+        "download": 1250000,
+        "cpu": 1
+      },
+      "run": 3,
+      "lcp": [
+        {
+          "time": 424,
+          "element": "SPAN",
+          "url": ""
+        },
+        {
+          "time": 784,
+          "element": "VIDEO",
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp"
+        }
+      ],
+      "cls": 0.00003771219135802469,
+      "longTasks": [
+        72
+      ],
+      "firstVideoFrame": 1186,
+      "playing": 1156.2000000029802,
+      "paints": [
+        {
+          "name": "first-paint",
+          "time": 424
+        },
+        {
+          "name": "first-contentful-paint",
+          "time": 424
+        }
+      ],
+      "navigation": {
+        "ttfb": 3.5999999940395355,
+        "domContentLoaded": 285.20000000298023,
+        "loaded": 1156.3999999910593
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "start": 99.59999999403954,
+          "end": 406.59999999403954,
+          "transfer": 57632,
+          "size": 57332,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "start": 99.79999999701977,
+          "end": 748.5,
+          "transfer": 147172,
+          "size": 146872,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "start": 99.8999999910593,
+          "end": 282.09999999403954,
+          "transfer": 23367,
+          "size": 23067,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "start": 99.8999999910593,
+          "end": 717.3999999910593,
+          "transfer": 132300,
+          "size": 132000,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "start": 100,
+          "end": 188.29999999701977,
+          "transfer": 2335,
+          "size": 2035,
+          "type": "link"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "start": 100,
+          "end": 297.70000000298023,
+          "transfer": 8951,
+          "size": 8651,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "start": 100.09999999403954,
+          "end": 500.5,
+          "transfer": 4240,
+          "size": 3940,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "start": 100.09999999403954,
+          "end": 563.7000000029802,
+          "transfer": 45459,
+          "size": 45159,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "start": 100.09999999403954,
+          "end": 640,
+          "transfer": 72200,
+          "size": 71900,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "start": 100.09999999403954,
+          "end": 686.3999999910593,
+          "transfer": 10292,
+          "size": 9992,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "start": 100.09999999403954,
+          "end": 732.7999999970198,
+          "transfer": 23078,
+          "size": 22778,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "start": 100.20000000298023,
+          "end": 748.7000000029802,
+          "transfer": 145048,
+          "size": 144748,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "start": 100.20000000298023,
+          "end": 763.7000000029802,
+          "transfer": 9188,
+          "size": 8888,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "start": 100.20000000298023,
+          "end": 778.8999999910593,
+          "transfer": 40833,
+          "size": 40533,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "start": 396.20000000298023,
+          "end": 578.5,
+          "transfer": 3819,
+          "size": 3519,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "start": 396.29999999701977,
+          "end": 872.5999999940395,
+          "transfer": 101074,
+          "size": 100774,
+          "type": "img"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "start": 819.5,
+          "end": 904.0999999940395,
+          "transfer": 597,
+          "size": 297,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=5CB68i4pnAekjehf",
+          "start": 819.5,
+          "end": 904.2000000029802,
+          "transfer": 616,
+          "size": 316,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=5CB68i4pnAekjehf",
+          "start": 819.5999999940395,
+          "end": 904.2999999970198,
+          "transfer": 629,
+          "size": 329,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "start": 819.5999999940395,
+          "end": 904.2000000029802,
+          "transfer": 479,
+          "size": 179,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+          "start": 824.2999999970198,
+          "end": 10696.5,
+          "transfer": 11988252,
+          "size": 11987952,
+          "type": "video"
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "start": 907.7999999970198,
+          "end": 997.5,
+          "transfer": 1300,
+          "size": 1000,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "start": 909,
+          "end": 998,
+          "transfer": 2819,
+          "size": 2519,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=Oex09f7te-50KxE1",
+          "start": 909.7999999970198,
+          "end": 998.0999999940395,
+          "transfer": 3003,
+          "size": 2703,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=hdWTrQlA-ViJiWOD",
+          "start": 910.2999999970198,
+          "end": 1002.7000000029802,
+          "transfer": 6212,
+          "size": 5912,
+          "type": "fetch"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3hz6oko2yhf8p.js",
+          "start": 1002.0999999940395,
+          "end": 1091.8999999910593,
+          "transfer": 4268,
+          "size": 3968,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/0ctec5im8ifa4.js",
+          "start": 1003.5999999940395,
+          "end": 1091.7000000029802,
+          "transfer": 754,
+          "size": 454,
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "start": 1158.7000000029802,
+          "end": 1233,
+          "transfer": 1099,
+          "size": 799,
+          "type": "other"
+        }
+      ],
+      "video": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "time": 11.1364,
+        "width": 1920,
+        "height": 1080,
+        "paused": false,
+        "ready": 4
+      },
+      "overflow": false,
+      "requests": [
+        {
+          "url": "http://127.0.0.1:3108/",
+          "type": "Document",
+          "priority": "VeryHigh",
+          "bytes": 10708,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/instrument_sans_latin_standard_normal-s.p.09r36lua6-1z2.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 57839,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_italic-s.p.11ae33ayisz--.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 147381,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/media/newsreader_latin_standard_normal-s.p.0dc79pquxokce.woff2",
+          "type": "Font",
+          "priority": "High",
+          "bytes": 132509,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/2x0dzqdb-zjnz.css",
+          "type": "Stylesheet",
+          "priority": "VeryHigh",
+          "bytes": 23666,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1ckvzn7sfprko.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 2638,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/1-nqmp1rl8kqt.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9255,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/25z-yhz14twms.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 72553,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34goyxc2anvlg.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 45788,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4543,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32dn1r3d81aa9.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 10596,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/34uyk8w1tsz8r.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 23392,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3wcrijc73-mca.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 41162,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/32c_b2w2hmct7.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 9492,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/images/varanasi-film-poster.webp",
+          "type": "Image",
+          "priority": "Medium",
+          "bytes": 145239,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-logo.svg",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 4080,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/image?url=%2Fimages%2Fvaranasi-dawn.webp&w=828&q=90",
+          "type": "Image",
+          "priority": "Low",
+          "bytes": 101411,
+          "status": 200,
+          "cache": "public, max-age=14400, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 913,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 932,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 945,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 765,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+          "type": "Media",
+          "priority": "Low",
+          "bytes": 11988500,
+          "status": 206,
+          "cache": "public, max-age=0",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/search?_rsc=tXyZJ52UQVBCVsD3",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 0,
+          "status": 200,
+          "cache": "private, no-cache, no-store, max-age=0, must-revalidate"
+        },
+        {
+          "url": "http://127.0.0.1:3108/?_rsc=8nTjltbQWvg6NcbE",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3135,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/journeys?_rsc=Oex09f7te-50KxE1",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 3319,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/destinations/varanasi?_rsc=hdWTrQlA-ViJiWOD",
+          "type": "Fetch",
+          "priority": "Low",
+          "bytes": 6534,
+          "status": 200,
+          "cache": "s-maxage=31536000",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/3hz6oko2yhf8p.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 4571,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/_next/static/chunks/0ctec5im8ifa4.js",
+          "type": "Script",
+          "priority": "Low",
+          "bytes": 1008,
+          "status": 200,
+          "cache": "public, max-age=31536000, immutable",
+          "complete": true
+        },
+        {
+          "url": "http://127.0.0.1:3108/brand/tourmelloh-favicon.svg",
+          "type": "Other",
+          "priority": "High",
+          "bytes": 1311,
+          "status": 200,
+          "cache": "public, max-age=0",
+          "complete": true
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

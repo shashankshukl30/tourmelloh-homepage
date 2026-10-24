@@ -1,0 +1,88 @@
+{
+  "packageVersion": "5.3.0",
+  "fontToolsVersion": "4.63.0",
+  "pinnedWeight": 400,
+  "fonts": [
+    {
+      "style": "normal",
+      "source": "node_modules/@fontsource-variable/newsreader/files/newsreader-latin-standard-normal.woff2",
+      "sourceSHA256": "6e4f2958c3a7c4a80acde4e5a679abe7e01bc1e30b92be3c7a8b696ef401d101",
+      "sourceBytes": 132000,
+      "output": "public/fonts/newsreader-400-opsz-normal.woff2",
+      "outputSHA256": "3c6207289fb612328bed8668c0c56b251f3fabfb41b670d72bd80ba0d8f50ddf",
+      "outputBytes": 57548,
+      "savedBytes": 74452,
+      "verification": {
+        "glyphs": 262,
+        "mappedCharacters": 224,
+        "opticalSizesCompared": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          22,
+          26,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72
+        ],
+        "outlineComparisons": 3930,
+        "maximumCoordinateDifference": 0,
+        "advanceWidthsAndVerticalMetrics": "identical",
+        "remainingAxis": {
+          "tag": "opsz",
+          "minimum": 6.0,
+          "default": 18.0,
+          "maximum": 72.0
+        }
+      }
+    },
+    {
+      "style": "italic",
+      "source": "node_modules/@fontsource-variable/newsreader/files/newsreader-latin-standard-italic.woff2",
+      "sourceSHA256": "5dfcd10d24af8c82927ba57f7983dd997f7b200594c09c35a1b1ed9fc4597506",
+      "sourceBytes": 146872,
+      "output": "public/fonts/newsreader-400-opsz-italic.woff2",
+      "outputSHA256": "247e3c82ad4d64b25a2bd55db4934629413f45c75eb6a05cea5aec96163910a7",
+      "outputBytes": 63636,
+      "savedBytes": 83236,
+      "verification": {
+        "glyphs": 262,
+        "mappedCharacters": 224,
+        "opticalSizesCompared": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          22,
+          26,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72
+        ],
+        "outlineComparisons": 3930,
+        "maximumCoordinateDifference": 0,
+        "advanceWidthsAndVerticalMetrics": "identical",
+        "remainingAxis": {
+          "tag": "opsz",
+          "minimum": 6.0,
+          "default": 18.0,
+          "maximum": 72.0
+        }
+      }
+    }
+  ],
+  "savedBytes": 157688
+}

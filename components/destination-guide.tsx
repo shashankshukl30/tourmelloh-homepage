@@ -8,12 +8,17 @@ import { Reveal } from "@/components/reveal";
 export function DestinationGuide({ guide }: { guide: Guide }) {
   const matchingName = guide.slug === "bodh-gaya" ? "Bodhgaya" : guide.name;
   const routes = journeys.filter((journey) => journey.places.some((place) => place === matchingName));
+  const portrait = guide.slug !== "ayodhya";
+  // Cover crops need at least 390px / 450px of source width on mobile / desktop.
+  const heroSizes = portrait
+    ? "(max-width: 390px) 390px, (max-width: 760px) 100vw, (max-width: 940px) 450px, (max-width: 1550px) 48vw, 750px"
+    : "(max-width: 700px) 120vw, 100vw";
   return (
     <main id="main" className="guide-page">
       <div className="page-width">
         <nav className="place-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/#destinations">Destinations</Link><span>/</span><span aria-current="page">{guide.name}</span></nav>
-        <section className={`guide-hero ${guide.slug !== "ayodhya" ? "guide-hero-portrait" : ""}`} aria-labelledby="guide-title">
-          <Image src={guide.hero} alt={guide.heroAlt} fill preload quality={90} sizes="(max-width: 700px) 120vw, 100vw" />
+        <section className={`guide-hero ${portrait ? "guide-hero-portrait" : ""}`} aria-labelledby="guide-title">
+          <Image src={guide.hero} alt={guide.heroAlt} fill preload quality={90} sizes={heroSizes} />
           <div className="guide-hero-shade" />
           <div><span>{guide.region}</span><h1 id="guide-title">{guide.name}</h1><p>{guide.lead}</p></div>
         </section>

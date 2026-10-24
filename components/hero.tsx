@@ -14,8 +14,8 @@ export function Hero({ onExplore }: {
   const content = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (reduced !== false || !content.current) return;
-    const elements = Array.from(content.current.querySelectorAll<HTMLElement>(".hero-eyebrow, .hero-title-line, .hero-bottom"));
-    const delays = [0.05, 0.14, 0.26, 0.38];
+    const elements = Array.from(content.current.querySelectorAll<HTMLElement>(".hero-title-line, .hero-bottom"));
+    const delays = [0.05, 0.17, 0.29];
     const controls = elements.map((element, index) => animate(element,
       { opacity: [0, 1], y: [element.classList.contains("hero-bottom") ? 12 : 22, 0] },
       { duration: 0.85, delay: delays[index], ease: [0.22, 1, 0.36, 1] }));
@@ -30,7 +30,6 @@ export function Hero({ onExplore }: {
         <HeroFilm />
         <div className="hero-shade" />
         <div className="hero-content" ref={content}>
-          <p className="hero-eyebrow">Rooted in Varanasi. Open to India.</p>
           <h1 id="hero-heading"><span className="hero-title-line">Begin in Kashi.</span>{" "}<span className="hero-title-line"><em>Go a little further.</em></span></h1>
           <div className="hero-bottom">
             <p>The river at first light. Cities with a thousand stories.<br className="desktop-break" /> India, experienced at your own pace.</p>

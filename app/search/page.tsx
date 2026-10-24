@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { TravelSearch } from "@/components/travel-search";
+import { searchIndex } from "@/lib/search-index";
 
 export const metadata: Metadata = {
   title: "Find Your India Journey | Tourmelloh Travel Collection",
@@ -13,5 +14,5 @@ export default async function SearchPage({ searchParams }: {
 }) {
   const params = await searchParams;
   const query = typeof params.q === "string" ? params.q.slice(0,120) : "";
-  return <><Navigation tone="paper" /><TravelSearch initialQuery={query} /><Footer /></>;
+  return <><Navigation tone="paper" /><TravelSearch initialQuery={query} entries={searchIndex} /><Footer /></>;
 }

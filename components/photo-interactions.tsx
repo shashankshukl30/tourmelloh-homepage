@@ -12,8 +12,9 @@ const PHOTO = [
   ".place-journey-photo",
   ".tour-gallery-photo",
   ".tour-related-photo",
+  ".journal-photo",
 ].join(",");
-const CARD = ".journey-card,.collection-card,.place-journey-link,.tour-related-card";
+const CARD = ".journey-card,.collection-card,.place-journey-link,.tour-related-card,.journal-feature,.journal-row";
 const EASE = [0.2, 0.75, 0.25, 1] as const;
 
 type PhotoState = {

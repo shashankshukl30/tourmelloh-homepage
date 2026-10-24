@@ -3,19 +3,20 @@ import localFont from "next/font/local";
 import { brand } from "@/content/travel";
 import { InterfaceInteractions } from "@/components/interface-interactions";
 import { PhotoInteractions } from "@/components/photo-interactions";
+import { WhatsAppLink } from "@/components/whatsapp-link";
 import "./globals.css";
 
 const newsreader = localFont({
   src: [
     {
-      path: "../node_modules/@fontsource-variable/newsreader/files/newsreader-latin-standard-normal.woff2",
+      path: "../public/fonts/newsreader-400-opsz-normal.woff2",
       style: "normal",
-      weight: "200 800",
+      weight: "400",
     },
     {
-      path: "../node_modules/@fontsource-variable/newsreader/files/newsreader-latin-standard-italic.woff2",
+      path: "../public/fonts/newsreader-400-opsz-italic.woff2",
       style: "italic",
-      weight: "200 800",
+      weight: "400",
     },
   ],
   variable: "--font-editorial",
@@ -73,7 +74,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body>{children}<InterfaceInteractions /><PhotoInteractions /></body>
+      <body>{children}<WhatsAppLink /><InterfaceInteractions /><PhotoInteractions /></body>
     </html>
   );
 }

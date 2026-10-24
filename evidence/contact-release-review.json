@@ -1,0 +1,2257 @@
+{
+  "browser": "WebKit",
+  "startedAt": "2026-10-24T16:49:47.150158+00:00",
+  "layouts": [
+    {
+      "size": "320x568",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 320,
+      "header": [
+        {
+          "name": "brand",
+          "x": 22,
+          "y": 16.5,
+          "width": 160,
+          "height": 42,
+          "right": 182,
+          "bottom": 58.5
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 210,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 254,
+          "bottom": 59.5
+        },
+        {
+          "name": "menu-toggle",
+          "x": 262,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 306,
+          "bottom": 59.5
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 28,
+          "y": 246.984375,
+          "width": 264,
+          "height": 86,
+          "right": 292,
+          "bottom": 332.984375
+        },
+        ".hero-bottom p": {
+          "x": 28,
+          "y": 348.984375,
+          "width": 264,
+          "height": 75,
+          "right": 292,
+          "bottom": 423.984375
+        },
+        ".hero-explore": {
+          "x": 28,
+          "y": 435.984375,
+          "width": 161.390625,
+          "height": 42,
+          "right": 189.390625,
+          "bottom": 477.984375
+        },
+        ".hero-location": {
+          "x": 32,
+          "y": 497.984375,
+          "width": 92.609375,
+          "height": 42,
+          "right": 124.609375,
+          "bottom": 539.984375
+        },
+        ".film-control": {
+          "x": 178,
+          "y": 493.984375,
+          "width": 46,
+          "height": 46,
+          "right": 224,
+          "bottom": 539.984375
+        }
+      },
+      "floating": {
+        "x": 248,
+        "y": 496,
+        "width": 56,
+        "height": 56,
+        "right": 304,
+        "bottom": 552
+      }
+    },
+    {
+      "size": "390x844",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 390,
+      "header": [
+        {
+          "name": "brand",
+          "x": 22,
+          "y": 16.5,
+          "width": 180,
+          "height": 42,
+          "right": 202,
+          "bottom": 58.5
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 280,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 324,
+          "bottom": 59.5
+        },
+        {
+          "name": "menu-toggle",
+          "x": 332,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 376,
+          "bottom": 59.5
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 32,
+          "y": 469.984375,
+          "width": 326,
+          "height": 98,
+          "right": 358,
+          "bottom": 567.984375
+        },
+        ".hero-bottom p": {
+          "x": 32,
+          "y": 590.9849243164062,
+          "width": 326,
+          "height": 84,
+          "right": 358,
+          "bottom": 674.9849243164062
+        },
+        ".hero-explore": {
+          "x": 32,
+          "y": 696.9849243164062,
+          "width": 161.390625,
+          "height": 42,
+          "right": 193.390625,
+          "bottom": 738.9849243164062
+        },
+        ".hero-location": {
+          "x": 32,
+          "y": 765.984375,
+          "width": 92.609375,
+          "height": 42,
+          "right": 124.609375,
+          "bottom": 807.984375
+        },
+        ".film-control": {
+          "x": 248.0559844970703,
+          "y": 730.0403442382812,
+          "width": 45.88804626464844,
+          "height": 45.8880615234375,
+          "right": 293.94403076171875,
+          "bottom": 775.9284057617188
+        }
+      },
+      "floating": {
+        "x": 318,
+        "y": 772,
+        "width": 56,
+        "height": 56,
+        "right": 374,
+        "bottom": 828
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "768x1024",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 768,
+      "header": [
+        {
+          "name": "brand",
+          "x": 38.40625,
+          "y": 13.5,
+          "width": 180,
+          "height": 48,
+          "right": 218.40625,
+          "bottom": 61.5
+        },
+        {
+          "name": "nav-search",
+          "x": 359.796875,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 403.796875,
+          "bottom": 59.5
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 415.796875,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 459.796875,
+          "bottom": 59.5
+        },
+        {
+          "name": "header-cta",
+          "x": 471.796875,
+          "y": 14.5,
+          "width": 201.796875,
+          "height": 46,
+          "right": 673.59375,
+          "bottom": 60.5
+        },
+        {
+          "name": "menu-toggle",
+          "x": 685.59375,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 729.59375,
+          "bottom": 59.5
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 50.578125,
+          "y": 669,
+          "width": 666.84375,
+          "height": 152,
+          "right": 717.421875,
+          "bottom": 821
+        },
+        ".hero-bottom p": {
+          "x": 50.578125,
+          "y": 849,
+          "width": 398.71875,
+          "height": 54,
+          "right": 449.296875,
+          "bottom": 903
+        },
+        ".hero-explore": {
+          "x": 564.421875,
+          "y": 849,
+          "width": 153,
+          "height": 40,
+          "right": 717.421875,
+          "bottom": 889
+        },
+        ".hero-location": {
+          "x": 50.578125,
+          "y": 955,
+          "width": 218.578125,
+          "height": 23,
+          "right": 269.15625,
+          "bottom": 978
+        },
+        ".film-control": {
+          "x": 524.4254760742188,
+          "y": 941.0232543945312,
+          "width": 127.5087890625,
+          "height": 44.9534912109375,
+          "right": 651.9342651367188,
+          "bottom": 985.9767456054688
+        }
+      },
+      "floating": {
+        "x": 688,
+        "y": 944,
+        "width": 56,
+        "height": 56,
+        "right": 744,
+        "bottom": 1000
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "1001x900",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 1001,
+      "header": [
+        {
+          "name": "brand",
+          "x": 50.046875,
+          "y": 24,
+          "width": 165,
+          "height": 48,
+          "right": 215.046875,
+          "bottom": 72
+        },
+        {
+          "name": "desktop-nav",
+          "x": 225.265625,
+          "y": 25,
+          "width": 478.84375,
+          "height": 46,
+          "right": 704.109375,
+          "bottom": 71
+        },
+        {
+          "name": "nav-search",
+          "x": 714.328125,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 758.328125,
+          "bottom": 70
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 768.546875,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 812.546875,
+          "bottom": 70
+        },
+        {
+          "name": "header-cta",
+          "x": 822.765625,
+          "y": 25,
+          "width": 128.125,
+          "height": 46,
+          "right": 950.890625,
+          "bottom": 71
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 61.53125,
+          "y": 529,
+          "width": 877.9375,
+          "height": 172,
+          "right": 939.46875,
+          "bottom": 701
+        },
+        ".hero-bottom p": {
+          "x": 61.53125,
+          "y": 733,
+          "width": 422.171875,
+          "height": 56,
+          "right": 483.703125,
+          "bottom": 789
+        },
+        ".hero-explore": {
+          "x": 722.078125,
+          "y": 729,
+          "width": 217.390625,
+          "height": 60,
+          "right": 939.46875,
+          "bottom": 789
+        },
+        ".hero-location": {
+          "x": 61.53125,
+          "y": 831,
+          "width": 218.578125,
+          "height": 23,
+          "right": 280.109375,
+          "bottom": 854
+        },
+        ".film-control": {
+          "x": 757.4285278320312,
+          "y": 814.1323852539062,
+          "width": 127.502685546875,
+          "height": 44.95135498046875,
+          "right": 884.9312133789062,
+          "bottom": 859.083740234375
+        }
+      },
+      "floating": {
+        "x": 921,
+        "y": 820,
+        "width": 56,
+        "height": 56,
+        "right": 977,
+        "bottom": 876
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "1020x900",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 1020,
+      "header": [
+        {
+          "name": "brand",
+          "x": 51,
+          "y": 24,
+          "width": 165,
+          "height": 48,
+          "right": 216,
+          "bottom": 72
+        },
+        {
+          "name": "desktop-nav",
+          "x": 230.5,
+          "y": 25,
+          "width": 478.84375,
+          "height": 46,
+          "right": 709.34375,
+          "bottom": 71
+        },
+        {
+          "name": "nav-search",
+          "x": 723.84375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 767.84375,
+          "bottom": 70
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 782.34375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 826.34375,
+          "bottom": 70
+        },
+        {
+          "name": "header-cta",
+          "x": 840.84375,
+          "y": 25,
+          "width": 128.125,
+          "height": 46,
+          "right": 968.96875,
+          "bottom": 71
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 62.421875,
+          "y": 529,
+          "width": 895.15625,
+          "height": 172,
+          "right": 957.578125,
+          "bottom": 701
+        },
+        ".hero-bottom p": {
+          "x": 62.421875,
+          "y": 733,
+          "width": 422.171875,
+          "height": 56,
+          "right": 484.59375,
+          "bottom": 789
+        },
+        ".hero-explore": {
+          "x": 740.1875,
+          "y": 729,
+          "width": 217.390625,
+          "height": 60,
+          "right": 957.578125,
+          "bottom": 789
+        },
+        ".hero-location": {
+          "x": 62.421875,
+          "y": 831,
+          "width": 218.578125,
+          "height": 23,
+          "right": 281,
+          "bottom": 854
+        },
+        ".film-control": {
+          "x": 776.4331665039062,
+          "y": 800.1412963867188,
+          "width": 127.493408203125,
+          "height": 44.9481201171875,
+          "right": 903.9265747070312,
+          "bottom": 845.0894165039062
+        }
+      },
+      "floating": {
+        "x": 940,
+        "y": 820,
+        "width": 56,
+        "height": 56,
+        "right": 996,
+        "bottom": 876
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "1150x900",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 1150,
+      "header": [
+        {
+          "name": "brand",
+          "x": 57.5,
+          "y": 24,
+          "width": 165,
+          "height": 48,
+          "right": 222.5,
+          "bottom": 72
+        },
+        {
+          "name": "desktop-nav",
+          "x": 266.25,
+          "y": 25,
+          "width": 478.84375,
+          "height": 46,
+          "right": 745.09375,
+          "bottom": 71
+        },
+        {
+          "name": "nav-search",
+          "x": 788.84375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 832.84375,
+          "bottom": 70
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 876.59375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 920.59375,
+          "bottom": 70
+        },
+        {
+          "name": "header-cta",
+          "x": 964.34375,
+          "y": 25,
+          "width": 128.125,
+          "height": 46,
+          "right": 1092.46875,
+          "bottom": 71
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 68.53125,
+          "y": 529,
+          "width": 1012.9375,
+          "height": 172,
+          "right": 1081.46875,
+          "bottom": 701
+        },
+        ".hero-bottom p": {
+          "x": 68.53125,
+          "y": 733,
+          "width": 422.171875,
+          "height": 56,
+          "right": 490.703125,
+          "bottom": 789
+        },
+        ".hero-explore": {
+          "x": 864.078125,
+          "y": 729,
+          "width": 217.390625,
+          "height": 60,
+          "right": 1081.46875,
+          "bottom": 789
+        },
+        ".hero-location": {
+          "x": 68.53125,
+          "y": 831,
+          "width": 218.578125,
+          "height": 23,
+          "right": 287.109375,
+          "bottom": 854
+        },
+        ".film-control": {
+          "x": 906.4285278320312,
+          "y": 798.1323852539062,
+          "width": 127.50274658203125,
+          "height": 44.95135498046875,
+          "right": 1033.9312744140625,
+          "bottom": 843.083740234375
+        }
+      },
+      "floating": {
+        "x": 1070,
+        "y": 820,
+        "width": 56,
+        "height": 56,
+        "right": 1126,
+        "bottom": 876
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "1240x900",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 1240,
+      "header": [
+        {
+          "name": "brand",
+          "x": 62,
+          "y": 24,
+          "width": 165,
+          "height": 48,
+          "right": 227,
+          "bottom": 72
+        },
+        {
+          "name": "desktop-nav",
+          "x": 291,
+          "y": 25,
+          "width": 478.84375,
+          "height": 46,
+          "right": 769.84375,
+          "bottom": 71
+        },
+        {
+          "name": "nav-search",
+          "x": 833.84375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 877.84375,
+          "bottom": 70
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 941.84375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 985.84375,
+          "bottom": 70
+        },
+        {
+          "name": "header-cta",
+          "x": 1049.84375,
+          "y": 25,
+          "width": 128.125,
+          "height": 46,
+          "right": 1177.96875,
+          "bottom": 71
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 72.765625,
+          "y": 517,
+          "width": 1094.46875,
+          "height": 184,
+          "right": 1167.234375,
+          "bottom": 701
+        },
+        ".hero-bottom p": {
+          "x": 72.765625,
+          "y": 733,
+          "width": 422.171875,
+          "height": 56,
+          "right": 494.9375,
+          "bottom": 789
+        },
+        ".hero-explore": {
+          "x": 941.84375,
+          "y": 729,
+          "width": 225.390625,
+          "height": 60,
+          "right": 1167.234375,
+          "bottom": 789
+        },
+        ".hero-location": {
+          "x": 72.765625,
+          "y": 831,
+          "width": 218.578125,
+          "height": 23,
+          "right": 291.34375,
+          "bottom": 854
+        },
+        ".film-control": {
+          "x": 996.3941040039062,
+          "y": 798.0664672851562,
+          "width": 127.57135009765625,
+          "height": 44.9755859375,
+          "right": 1123.9654541015625,
+          "bottom": 843.0420532226562
+        }
+      },
+      "floating": {
+        "x": 1160,
+        "y": 820,
+        "width": 56,
+        "height": 56,
+        "right": 1216,
+        "bottom": 876
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "1280x900",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 1280,
+      "header": [
+        {
+          "name": "brand",
+          "x": 64,
+          "y": 24,
+          "width": 165,
+          "height": 48,
+          "right": 229,
+          "bottom": 72
+        },
+        {
+          "name": "desktop-nav",
+          "x": 302,
+          "y": 25,
+          "width": 478.84375,
+          "height": 46,
+          "right": 780.84375,
+          "bottom": 71
+        },
+        {
+          "name": "nav-search",
+          "x": 853.84375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 897.84375,
+          "bottom": 70
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 970.84375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 1014.84375,
+          "bottom": 70
+        },
+        {
+          "name": "header-cta",
+          "x": 1087.84375,
+          "y": 25,
+          "width": 128.125,
+          "height": 46,
+          "right": 1215.96875,
+          "bottom": 71
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 74.640625,
+          "y": 511,
+          "width": 1130.71875,
+          "height": 190,
+          "right": 1205.359375,
+          "bottom": 701
+        },
+        ".hero-bottom p": {
+          "x": 74.640625,
+          "y": 733,
+          "width": 422.171875,
+          "height": 56,
+          "right": 496.8125,
+          "bottom": 789
+        },
+        ".hero-explore": {
+          "x": 979.96875,
+          "y": 729,
+          "width": 225.390625,
+          "height": 60,
+          "right": 1205.359375,
+          "bottom": 789
+        },
+        ".hero-location": {
+          "x": 74.640625,
+          "y": 831,
+          "width": 218.578125,
+          "height": 23,
+          "right": 293.21875,
+          "bottom": 854
+        },
+        ".film-control": {
+          "x": 1036.43798828125,
+          "y": 798.1505126953125,
+          "width": 127.4837646484375,
+          "height": 44.9447021484375,
+          "right": 1163.9217529296875,
+          "bottom": 843.09521484375
+        }
+      },
+      "floating": {
+        "x": 1200,
+        "y": 820,
+        "width": 56,
+        "height": 56,
+        "right": 1256,
+        "bottom": 876
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "1440x900",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 1440,
+      "header": [
+        {
+          "name": "brand",
+          "x": 72,
+          "y": 24,
+          "width": 205,
+          "height": 48,
+          "right": 277,
+          "bottom": 72
+        },
+        {
+          "name": "desktop-nav",
+          "x": 348.078125,
+          "y": 25,
+          "width": 516.84375,
+          "height": 46,
+          "right": 864.921875,
+          "bottom": 71
+        },
+        {
+          "name": "nav-search",
+          "x": 936,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 980,
+          "bottom": 70
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 1051.078125,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 1095.078125,
+          "bottom": 70
+        },
+        {
+          "name": "header-cta",
+          "x": 1166.15625,
+          "y": 25,
+          "width": 201.796875,
+          "height": 46,
+          "right": 1367.953125,
+          "bottom": 71
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 82.171875,
+          "y": 487,
+          "width": 1275.65625,
+          "height": 214,
+          "right": 1357.828125,
+          "bottom": 701
+        },
+        ".hero-bottom p": {
+          "x": 82.171875,
+          "y": 733,
+          "width": 422.171875,
+          "height": 56,
+          "right": 504.34375,
+          "bottom": 789
+        },
+        ".hero-explore": {
+          "x": 1132.4375,
+          "y": 729,
+          "width": 225.390625,
+          "height": 60,
+          "right": 1357.828125,
+          "bottom": 789
+        },
+        ".hero-location": {
+          "x": 82.171875,
+          "y": 831,
+          "width": 218.578125,
+          "height": 23,
+          "right": 300.75,
+          "bottom": 854
+        },
+        ".film-control": {
+          "x": 1196.43798828125,
+          "y": 801.1505126953125,
+          "width": 127.4837646484375,
+          "height": 44.9447021484375,
+          "right": 1323.9217529296875,
+          "bottom": 846.09521484375
+        }
+      },
+      "floating": {
+        "x": 1360,
+        "y": 820,
+        "width": 56,
+        "height": 56,
+        "right": 1416,
+        "bottom": 876
+      },
+      "videoAfterFix": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "size": "568x320",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 568,
+      "header": [
+        {
+          "name": "brand",
+          "x": 22,
+          "y": 16.5,
+          "width": 180,
+          "height": 42,
+          "right": 202,
+          "bottom": 58.5
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 458,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 502,
+          "bottom": 59.5
+        },
+        {
+          "name": "menu-toggle",
+          "x": 510,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 554,
+          "bottom": 59.5
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 32,
+          "y": 156.5,
+          "width": 251.421875,
+          "height": 64,
+          "right": 283.421875,
+          "bottom": 220.5
+        },
+        ".hero-bottom p": {
+          "x": 307.421875,
+          "y": 131.0004425048828,
+          "width": 228.578125,
+          "height": 69,
+          "right": 536,
+          "bottom": 200.0004425048828
+        },
+        ".hero-explore": {
+          "x": 307.421875,
+          "y": 212.0004425048828,
+          "width": 144,
+          "height": 34,
+          "right": 451.421875,
+          "bottom": 246.0004425048828
+        },
+        ".hero-location": {
+          "x": 32,
+          "y": 252,
+          "width": 92.609375,
+          "height": 42,
+          "right": 124.609375,
+          "bottom": 294
+        },
+        ".film-control": {
+          "x": 426,
+          "y": 249,
+          "width": 46,
+          "height": 46,
+          "right": 472,
+          "bottom": 295
+        }
+      },
+      "floating": {
+        "x": 496,
+        "y": 248,
+        "width": 56,
+        "height": 56,
+        "right": 552,
+        "bottom": 304
+      }
+    },
+    {
+      "size": "844x390",
+      "failures": [],
+      "pageErrors": [],
+      "bodyWidth": 844,
+      "header": [
+        {
+          "name": "brand",
+          "x": 42.203125,
+          "y": 13.5,
+          "width": 180,
+          "height": 48,
+          "right": 222.203125,
+          "bottom": 61.5
+        },
+        {
+          "name": "nav-search",
+          "x": 432,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 476,
+          "bottom": 59.5
+        },
+        {
+          "name": "button whatsapp-link whatsapp-header",
+          "x": 488,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 532,
+          "bottom": 59.5
+        },
+        {
+          "name": "header-cta",
+          "x": 544,
+          "y": 14.5,
+          "width": 201.796875,
+          "height": 46,
+          "right": 745.796875,
+          "bottom": 60.5
+        },
+        {
+          "name": "menu-toggle",
+          "x": 757.796875,
+          "y": 15.5,
+          "width": 44,
+          "height": 44,
+          "right": 801.796875,
+          "bottom": 59.5
+        }
+      ],
+      "heroControls": {
+        ".hero h1": {
+          "x": 54.15625,
+          "y": 204.5,
+          "width": 372.78125,
+          "height": 96,
+          "right": 426.9375,
+          "bottom": 300.5
+        },
+        ".hero-bottom p": {
+          "x": 450.9375,
+          "y": 195,
+          "width": 338.90625,
+          "height": 69,
+          "right": 789.84375,
+          "bottom": 264
+        },
+        ".hero-explore": {
+          "x": 450.9375,
+          "y": 276,
+          "width": 144,
+          "height": 34,
+          "right": 594.9375,
+          "bottom": 310
+        },
+        ".hero-location": {
+          "x": 54.15625,
+          "y": 335,
+          "width": 218.578125,
+          "height": 23,
+          "right": 272.734375,
+          "bottom": 358
+        },
+        ".film-control": {
+          "x": 600.359375,
+          "y": 314,
+          "width": 127.640625,
+          "height": 45,
+          "right": 728,
+          "bottom": 359
+        }
+      },
+      "floating": {
+        "x": 764,
+        "y": 310,
+        "width": 56,
+        "height": 56,
+        "right": 820,
+        "bottom": 366
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "320x568",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu hides floating WhatsApp",
+      "size": "320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu exposes journal and search",
+      "size": "320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu retains viewport width",
+      "size": "320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape restores focus and floating contact",
+      "size": "320x568",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "320x568",
+      "passed": true,
+      "detail": {
+        "width": 320,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "390x844",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu hides floating WhatsApp",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu exposes journal and search",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu retains viewport width",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape restores focus and floating contact",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Native normal-motion film autoplays correct source",
+      "size": "390x844",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "390x844",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "Mobile search link opens working search page",
+      "size": "390x844",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "768x1024",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu hides floating WhatsApp",
+      "size": "768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu exposes journal and search",
+      "size": "768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu retains viewport width",
+      "size": "768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape restores focus and floating contact",
+      "size": "768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "768x1024",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "1001x900",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "1001x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal navigation hover highlight",
+      "size": "1001x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal keyboard focus",
+      "size": "1001x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "1001x900",
+      "passed": true,
+      "detail": {
+        "width": 1001,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "1020x900",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "1020x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal navigation hover highlight",
+      "size": "1020x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal keyboard focus",
+      "size": "1020x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "1020x900",
+      "passed": true,
+      "detail": {
+        "width": 1020,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "1150x900",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "1150x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal navigation hover highlight",
+      "size": "1150x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal keyboard focus",
+      "size": "1150x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "1150x900",
+      "passed": true,
+      "detail": {
+        "width": 1150,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "1240x900",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "1240x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal navigation hover highlight",
+      "size": "1240x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal keyboard focus",
+      "size": "1240x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "1240x900",
+      "passed": true,
+      "detail": {
+        "width": 1240,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "1280x900",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "1280x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal navigation hover highlight",
+      "size": "1280x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal keyboard focus",
+      "size": "1280x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "1280x900",
+      "passed": true,
+      "detail": {
+        "width": 1280,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "1440x900",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal navigation hover highlight",
+      "size": "1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Travel journal keyboard focus",
+      "size": "1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Native normal-motion film autoplays correct source",
+      "size": "1440x900",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "568x320",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu hides floating WhatsApp",
+      "size": "568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu exposes journal and search",
+      "size": "568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu retains viewport width",
+      "size": "568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape restores focus and floating contact",
+      "size": "568x320",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "568x320",
+      "passed": true,
+      "detail": {
+        "width": 568,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "All three WhatsApp links use business number, draft and protected new tab",
+      "size": "844x390",
+      "passed": true,
+      "detail": [
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        },
+        {
+          "href": "https://wa.me/917706997271?text=Hello%20Tourmelloh%2C%20I%27d%20like%20to%20plan%20a%20journey.%20Could%20you%20help%20me%20explore%20the%20options%3F",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "label": "Chat with Tourmelloh on WhatsApp (opens in a new tab)"
+        }
+      ]
+    },
+    {
+      "name": "Navbar WhatsApp is visible with a 44px target",
+      "size": "844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu hides floating WhatsApp",
+      "size": "844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu exposes journal and search",
+      "size": "844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Open menu retains viewport width",
+      "size": "844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Escape restores focus and floating contact",
+      "size": "844x390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "844x390",
+      "passed": true,
+      "detail": {
+        "width": 844,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    },
+    {
+      "name": "Reduced motion has no selected source or decoded media before explicit play",
+      "size": "390",
+      "passed": true,
+      "detail": {
+        "paused": true,
+        "src": "",
+        "ready": 0,
+        "error": null
+      }
+    },
+    {
+      "name": "Reduced-motion manual film play works",
+      "size": "390",
+      "passed": true,
+      "detail": {
+        "paused": false,
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "ready": 4,
+        "error": null
+      }
+    },
+    {
+      "name": "Reduced-motion menu opens without translation",
+      "size": "390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced motion has no selected source or decoded media before explicit play",
+      "size": "1440",
+      "passed": true,
+      "detail": {
+        "paused": true,
+        "src": "",
+        "ready": 0,
+        "error": null
+      }
+    },
+    {
+      "name": "Reduced-motion manual film play works",
+      "size": "1440",
+      "passed": true,
+      "detail": {
+        "paused": false,
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "ready": 4,
+        "error": null
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "390x844",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-mobile.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "390x844",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 318,
+          "y": 772,
+          "width": 56,
+          "height": 56,
+          "right": 374,
+          "bottom": 828
+        },
+        "film": {
+          "x": 248.0559844970703,
+          "y": 730.0403442382812,
+          "width": 45.88804626464844,
+          "height": 45.8880615234375,
+          "right": 293.94403076171875,
+          "bottom": 775.9284057617188
+        },
+        "overlap": false,
+        "bodyWidth": 390
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "768x1024",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "768x1024",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "768x1024",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 688,
+          "y": 944,
+          "width": 56,
+          "height": 56,
+          "right": 744,
+          "bottom": 1000
+        },
+        "film": {
+          "x": 524.4254760742188,
+          "y": 941.0232543945312,
+          "width": 127.5087890625,
+          "height": 44.9534912109375,
+          "right": 651.9342651367188,
+          "bottom": 985.9767456054688
+        },
+        "overlap": false,
+        "bodyWidth": 768
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "1001x900",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "1001x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "1001x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "1001x900",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 921,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 977,
+          "bottom": 876
+        },
+        "film": {
+          "x": 757.4285278320312,
+          "y": 814.1323852539062,
+          "width": 127.502685546875,
+          "height": 44.95135498046875,
+          "right": 884.9312133789062,
+          "bottom": 859.083740234375
+        },
+        "overlap": false,
+        "bodyWidth": 1001
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "1020x900",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "1020x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "1020x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "1020x900",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 940,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 996,
+          "bottom": 876
+        },
+        "film": {
+          "x": 776.4331665039062,
+          "y": 800.1412963867188,
+          "width": 127.493408203125,
+          "height": 44.9481201171875,
+          "right": 903.9265747070312,
+          "bottom": 845.0894165039062
+        },
+        "overlap": false,
+        "bodyWidth": 1020
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "1150x900",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "1150x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "1150x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "1150x900",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 1070,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1126,
+          "bottom": 876
+        },
+        "film": {
+          "x": 906.4285278320312,
+          "y": 798.1323852539062,
+          "width": 127.50274658203125,
+          "height": 44.95135498046875,
+          "right": 1033.9312744140625,
+          "bottom": 843.083740234375
+        },
+        "overlap": false,
+        "bodyWidth": 1150
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "1240x900",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "1240x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "1240x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "1240x900",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 1160,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1216,
+          "bottom": 876
+        },
+        "film": {
+          "x": 996.3941040039062,
+          "y": 798.0664672851562,
+          "width": 127.57135009765625,
+          "height": 44.9755859375,
+          "right": 1123.9654541015625,
+          "bottom": 843.0420532226562
+        },
+        "overlap": false,
+        "bodyWidth": 1240
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "1280x900",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "1280x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "1280x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "1280x900",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 1200,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1256,
+          "bottom": 876
+        },
+        "film": {
+          "x": 1036.43798828125,
+          "y": 798.1505126953125,
+          "width": 127.4837646484375,
+          "height": 44.9447021484375,
+          "right": 1163.9217529296875,
+          "bottom": 843.09521484375
+        },
+        "overlap": false,
+        "bodyWidth": 1280
+      }
+    },
+    {
+      "name": "Selected film keeps its visible pause control after source selection",
+      "size": "1440x900",
+      "passed": true,
+      "detail": {
+        "src": "http://127.0.0.1:3108/videos/varanasi-desktop.mp4",
+        "error": null,
+        "ready": 4,
+        "paused": false
+      }
+    },
+    {
+      "name": "Film pause works",
+      "size": "1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Film resume works",
+      "size": "1440x900",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Recovered film control remains clear of WhatsApp",
+      "size": "1440x900",
+      "passed": true,
+      "detail": {
+        "floating": {
+          "x": 1360,
+          "y": 820,
+          "width": 56,
+          "height": 56,
+          "right": 1416,
+          "bottom": 876
+        },
+        "film": {
+          "x": 1196.43798828125,
+          "y": 801.1505126953125,
+          "width": 127.4837646484375,
+          "height": 44.9447021484375,
+          "right": 1323.9217529296875,
+          "bottom": 846.09521484375
+        },
+        "overlap": false,
+        "bodyWidth": 1440
+      }
+    },
+    {
+      "name": "Floating contact leaves footer credit and links clear",
+      "size": "1440x900",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "credit": "Made with ♥ by Digiocular",
+        "overlaps": []
+      }
+    }
+  ],
+  "summary": {
+    "layouts": 11,
+    "layoutFailures": 0,
+    "checks": 105,
+    "checkFailures": 0
+  },
+  "visualReview": {
+    "status": "passed",
+    "screenshots": [
+      "evidence/contact-release-320.png",
+      "evidence/contact-release-1440.png"
+    ],
+    "notes": "Visually inspected both screenshots: brand and contact/menu controls remain distinct; 320px hero copy, CTA, location, film pause and WhatsApp fit without overlap. Desktop navigation and WhatsApp have clear spacing; pause control is visible after the selected media source plays."
+  },
+  "finishedAt": "2026-10-24T16:52:59.682758+00:00",
+  "networkVerificationNote": "This WebKit build does not expose native media transfers to Playwright request events. Reduced-motion source selection and manual playback were verified here; root Chromium network capture verifies the no-MP4-transfer requirement.",
+  "fixedIssue": "Video error handling now ignores bubbled SOURCE errors and restores controls when canplay succeeds."
+}

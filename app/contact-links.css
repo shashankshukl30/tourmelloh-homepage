@@ -1,0 +1,43 @@
+/* Direct contact is available without covering the film or footer controls. */
+:root { --whatsapp-green: oklch(49% .13 153); }
+.whatsapp-link { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; gap: 10px; }
+.whatsapp-link > svg { flex-shrink: 0; }
+.whatsapp-header, .whatsapp-floating { width: 44px; height: 44px; min-height: 44px; padding: 0; background: var(--whatsapp-green); border: 1px solid transparent; border-radius: 50%; transition: background .2s; }
+.whatsapp-header:hover, .whatsapp-floating:hover { background: var(--ink); }
+.whatsapp-header:focus-visible, .whatsapp-floating:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.whatsapp-floating { position: fixed; z-index: 45; right: 24px; bottom: max(24px, env(safe-area-inset-bottom)); width: 56px; height: 56px; min-height: 56px; border-color: var(--paper); box-shadow: 0 4px 18px oklch(20% .03 150 / .15); }
+body:has(#mobile-navigation) .whatsapp-floating { display: none; }
+.whatsapp-footer { justify-content: flex-start; padding-block: 3px; font-size: 16px; }
+.whatsapp-footer > svg { color: var(--whatsapp-green); }
+.whatsapp-footer:hover > span { text-decoration: underline; text-underline-offset: 4px; }
+.hero .film-control { right: max(4.7%, 100px); }
+.site-footer .footer-bottom { padding-right: 76px; }
+.nav-plan-short { display: none; }
+.mobile-nav > a.mobile-search-link { gap: 12px; min-height: 54px; margin-top: 18px; padding: 14px; background: var(--paper-deep); font-size: 16px; letter-spacing: -.01em; }
+.mobile-nav > a.mobile-search-link > span { width: auto; flex: 1; color: var(--ink); font: inherit; }
+.mobile-nav > a.mobile-search-link > svg { margin-left: 0; width: 21px; }
+@media (min-width: 1001px) and (max-width: 1280px) {
+  .site-header .header-inner { gap: 8px; }
+  .site-header .brand .brand-logo { width: 165px; }
+  .site-header .desktop-nav { gap: 0; }
+  .site-header .desktop-nav .nav-text-link { padding-inline: 10px; }
+  .site-header .header-cta { padding-inline: 14px; gap: 9px; }
+  .nav-plan-full { display: none; }
+  .nav-plan-short { display: inline; }
+}
+@media (max-width: 1000px) {
+  .site-header .header-inner { gap: 12px; }
+}
+@media (max-width: 700px) {
+  .whatsapp-floating { right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); }
+  .hero .film-control { right: 86px; }
+}
+@media (max-width: 600px) {
+  .site-header .nav-search { display: none; }
+  .site-header .header-inner { gap: 8px; }
+  .site-header .whatsapp-header { margin-left: auto; }
+  .site-footer .footer-bottom { padding-right: 0; padding-bottom: 88px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-header, .whatsapp-floating { transition: none; }
+}
