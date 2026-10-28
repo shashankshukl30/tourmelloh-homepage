@@ -12,3 +12,6 @@ Print _ Udyam Registration Certificate TOURMELLOH.pdf
 research/private/
 research/media/
 research/media-archive/
+
+# Client receipts with personal address: never publish.
+namecheap-order-*.pdf
