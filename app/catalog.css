@@ -152,3 +152,34 @@
 .cat-list-numbered li::before { content: counter(step, decimal-leading-zero); width: auto; height: auto; background: none; top: 15px; color: var(--clay); font-size: 14px; }
 .cat-gallery-2 { grid-template-rows: 1fr; }
 .cat-gallery-2 > div:first-child { grid-row: 1; }
+
+/* Company and policy pages */
+.cat-legal-opening { padding-bottom: 20px; }
+.cat-legal-opening h1 { font-size: clamp(56px, 6.4vw, 96px); line-height: .98; margin: 30px 0 26px; }
+.cat-legal-opening h1 em { color: var(--clay); }
+.cat-company-block { display: grid; grid-template-columns: minmax(0, .55fr) minmax(0, 1fr); gap: 8%; padding-block: 44px; border-top: 1px solid var(--line); }
+.cat-legal-heading { font-size: clamp(30px, 2.8vw, 42px); line-height: 1.1; letter-spacing: -.03em; }
+.cat-prose-plain p:first-child::first-letter { float: none; font-size: inherit; padding: 0; color: inherit; font-family: inherit; }
+.cat-legal .cat-prose p { font-size: 16.5px; }
+@media (max-width: 900px) { .cat-company-block { grid-template-columns: 1fr; gap: 20px; } }
+
+/* Journal articles */
+.cat-article-head { max-width: 1100px; padding-bottom: 44px; }
+.cat-article-head h1 { font-size: clamp(50px, 6vw, 92px); line-height: 1; margin: 22px 0 24px; text-wrap: balance; }
+.cat-article-head .tour-lead { font-size: 19px; max-width: 60ch; }
+.cat-article-photo > div { position: relative; aspect-ratio: 16 / 8; border-radius: var(--radius-section); overflow: hidden; background: var(--paper-deep); }
+.cat-article-photo figcaption { margin-top: 12px; font-size: 14px; color: var(--muted); }
+.cat-article-body { display: grid; grid-template-columns: minmax(240px, .38fr) minmax(0, 1fr); gap: 8%; align-items: start; padding-block: 72px 40px; }
+.cat-takeaways { position: sticky; top: 130px; padding: 28px; border-radius: var(--radius-panel); background: var(--paper-deep); }
+.cat-takeaways h2 { font-size: 30px; letter-spacing: -.03em; margin-bottom: 10px; }
+.cat-takeaways .cat-list li { font-size: 15px; }
+.cat-article-text { max-width: 70ch; }
+.cat-article-text section + section { margin-top: 48px; }
+.cat-article-text h2 { font-size: clamp(32px, 3vw, 44px); line-height: 1.08; letter-spacing: -.03em; margin-bottom: 18px; }
+.cat-article-text p { font-size: 18px; line-height: 1.85; }
+.cat-article-text p + p { margin-top: 18px; }
+@media (max-width: 900px) {
+  .cat-article-body { grid-template-columns: 1fr; padding-top: 48px; }
+  .cat-takeaways { position: static; }
+  .cat-article-photo > div { aspect-ratio: 4 / 3; border-radius: var(--radius-photo); }
+}
