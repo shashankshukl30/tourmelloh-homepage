@@ -15,3 +15,6 @@ research/media-archive/
 
 # Client receipts with personal address: never publish.
 namecheap-order-*.pdf
+
+# Agent worktrees
+.claude/
