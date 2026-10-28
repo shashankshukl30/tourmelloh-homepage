@@ -50,6 +50,22 @@ export function Destinations({ places }: { places: AtlasPlace[] }) {
           <p className="atlas-index-note">Somewhere else in mind?<br />{" "}<Link href="/plan">Tell us about it.</Link></p>
         </div>
       </div>
+      {/* Phones: a swipeable row of regions, each with its own photograph. */}
+      <div className="atlas-rail" aria-label="Regions">
+        {places.map((item) => (
+          <Link key={item.slug} href={`/destinations/${item.slug}`} className="atlas-card">
+            <Image src={item.photo.src} alt={item.photo.alt} fill sizes="75vw" placeholder="blur" blurDataURL={item.photo.blur} />
+            <span className="atlas-card-copy">
+              <small>{item.label}</small>
+              <strong>{item.name}</strong>
+            </span>
+          </Link>
+        ))}
+      </div>
+      <div className="atlas-rail-foot">
+        <span>Swipe to see all {places.length}</span>
+        <Link href="/destinations" className="tour-text-link">All regions <ArrowUpRight size={16} aria-hidden="true" /></Link>
+      </div>
     </section>
   );
 }

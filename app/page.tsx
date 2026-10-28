@@ -7,7 +7,7 @@ import { Destinations, type AtlasPlace } from "@/components/destinations";
 import { HomeBeforeYouGo, HomeCollections, HomeMoments, HomeStory } from "@/components/home-sections";
 import { JourneyCard } from "@/components/catalog/cards";
 import { EnquiryBand, SectionIntro } from "@/components/catalog/blocks";
-import { articles, cities, destinations, experiences, journeys, pages } from "@/content/catalog";
+import { articles, cities, collections, destinations, experiences, journeys, pages } from "@/content/catalog";
 import { media } from "@/content/catalog/media";
 import { navDestinations } from "@/content/catalog/nav";
 import { pageMeta } from "@/lib/site";
@@ -35,18 +35,17 @@ const featuredExperiences = [
 ];
 
 export default function HomePage() {
+  const featured = signature.map((slug) => journeys.find((j) => j.slug === slug)).filter((j) => j !== undefined);
+  const moments = featuredExperiences.map((slug) => experiences.find((e) => e.slug === slug)).filter((e) => e !== undefined);
+  // A region shows the first of its photographs not already on this page, so nothing repeats.
+  const onPage = new Set<string>([...collections.map((c) => c.hero), ...featured.map((j) => j.hero), ...moments.map((e) => e.hero), "varanasi-river-mist"]);
   const places: AtlasPlace[] = navDestinations
     .map((nav) => destinations.find((d) => d.slug === nav.slug))
     .filter((d) => d !== undefined)
-    .map((d) => ({
-      slug: d.slug,
-      name: d.name,
-      label: d.label,
-      text: d.intro,
-      photo: { src: media[d.hero].src, alt: media[d.hero].alt, blur: media[d.hero].blur },
-    }));
-  const featured = signature.map((slug) => journeys.find((j) => j.slug === slug)).filter((j) => j !== undefined);
-  const moments = featuredExperiences.map((slug) => experiences.find((e) => e.slug === slug)).filter((e) => e !== undefined);
+    .map((d) => {
+      const key = [d.hero, ...d.gallery].find((k) => !onPage.has(k)) ?? d.hero;
+      return { slug: d.slug, name: d.name, label: d.label, text: d.intro, photo: { src: media[key].src, alt: media[key].alt, blur: media[key].blur } };
+    });
   const faq = pages.find((p) => p.slug === "faq");
   const reading = ["the-golden-triangle-done-properly", "andaman-havelock-or-neil", "char-dham-by-helicopter-what-to-know"]
     .map((slug) => articles.find((a) => a.slug === slug))

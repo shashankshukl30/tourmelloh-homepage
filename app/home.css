@@ -97,3 +97,20 @@
   .atlas-places button { min-height: 56px; padding-block: 10px; font-size: 30px; }
   .atlas-heading > p { padding-bottom: 8px; }
 }
+
+/* Phones: regions as a swipeable row of photographs instead of a numbered list. */
+.atlas-rail, .atlas-rail-foot { display: none; }
+@media (max-width: 700px) {
+  .atlas-layout { display: none; }
+  .atlas-rail { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: calc(var(--page-gutter) * -1); padding-inline: var(--page-gutter); scroll-padding-inline: var(--page-gutter); scrollbar-width: none; overscroll-behavior-x: contain; }
+  .atlas-rail::-webkit-scrollbar { display: none; }
+  .atlas-card { position: relative; flex: 0 0 74%; aspect-ratio: 3 / 4; border-radius: var(--radius-photo); overflow: hidden; isolation: isolate; scroll-snap-align: start; color: var(--paper); background: var(--paper-deep); }
+  .atlas-card img { object-fit: cover; }
+  .atlas-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, oklch(16% .02 60 / .78)); }
+  .atlas-card-copy { position: absolute; z-index: 1; left: 20px; right: 20px; bottom: 20px; display: grid; gap: 6px; }
+  .atlas-card-copy small { font-size: 13px; letter-spacing: .02em; opacity: .88; }
+  .atlas-card-copy strong { font-family: var(--font-editorial), Georgia, serif; font-weight: 400; font-size: 36px; line-height: 1.02; letter-spacing: -.03em; }
+  .atlas-card:focus-visible { outline: 2px solid var(--clay); outline-offset: 3px; }
+  .atlas-rail-foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 18px; font-size: 14px; color: var(--muted); }
+  .atlas-rail-foot .tour-text-link { margin-top: 0; }
+}
