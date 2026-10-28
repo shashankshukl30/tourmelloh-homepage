@@ -1,15 +1,15 @@
 "use client";
 import { ArrowDown, ArrowUpRight, ChevronDown } from "lucide-react";
-import { destinations, type JourneyCategory } from "@/content/travel";
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { HeroFilm } from "@/components/hero-film";
 import { animate, useReducedMotion } from "framer-motion";
+import { navCollections, navDestinations } from "@/content/catalog/nav";
 
-export function Hero({ onExplore }: {
-  onExplore: (destination: string, category: JourneyCategory) => void;
-}) {
-  const [destination, setDestination] = useState("Anywhere in our collection");
-  const [style, setStyle] = useState<JourneyCategory>("All journeys");
+export function Hero() {
+  const router = useRouter();
+  const [region, setRegion] = useState("");
+  const [style, setStyle] = useState("");
   const reduced = useReducedMotion();
   const content = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -32,30 +32,33 @@ export function Hero({ onExplore }: {
         <div className="hero-content" ref={content}>
           <h1 id="hero-heading"><span className="hero-title-line">Begin in Kashi.</span>{" "}<span className="hero-title-line"><em>Go a little further.</em></span></h1>
           <div className="hero-bottom">
-            <p>The river at first light. Cities with a thousand stories.<br className="desktop-break" /> India, experienced at your own pace.</p>
-            <a className="hero-explore" href="#destinations" style={{ color: "var(--ink)" }}>
-              Explore the places <span className="round-arrow"><ArrowDown size={20} /></span>
+            <p>Private journeys across India, designed in Varanasi.<br className="desktop-break" /> Your own car, your own guides, hotels with a sense of place.</p>
+            <a className="hero-explore" href="#collections" style={{ color: "var(--ink)" }}>
+              See the journeys <span className="round-arrow"><ArrowDown size={20} /></span>
             </a>
           </div>
         </div>
       </section>
       <div className="finder-wrap page-width">
-        <form className="trip-finder" aria-label="Find a suggested journey"
-          onSubmit={(event) => { event.preventDefault(); onExplore(destination, style); }}>
+        <form className="trip-finder" aria-label="Find a journey"
+          onSubmit={(event) => {
+            event.preventDefault();
+            router.push(style ? `/collections/${style}` : region ? `/destinations/${region}` : "/journeys");
+          }}>
           <div className="finder-intro"><span className="eyebrow">WHERE TO NEXT?</span><strong>Follow your curiosity.</strong></div>
-          <label className="finder-field"><span>A place on your mind</span>
+          <label className="finder-field"><span>A region on your mind</span>
             <div className="select-wrap">
-              <select value={destination} onChange={(event) => setDestination(event.target.value)}>
-                <option value="Anywhere in our collection">Anywhere in India</option>
-                {destinations.map((place) => <option key={place.name}>{place.name}</option>)}
+              <select value={region} onChange={(event) => setRegion(event.target.value)}>
+                <option value="">Anywhere in India</option>
+                {navDestinations.map((place) => <option key={place.slug} value={place.slug}>{place.name}</option>)}
               </select><ChevronDown size={18} />
             </div>
           </label>
-          <label className="finder-field"><span>What brings you here?</span>
+          <label className="finder-field"><span>The kind of journey</span>
             <div className="select-wrap">
-              <select value={style} onChange={(event) => setStyle(event.target.value as JourneyCategory)}>
-                <option value="All journeys">A bit of everything</option>
-                <option>Sacred journeys</option><option>Culture &amp; heritage</option><option>Buddhist trails</option>
+              <select value={style} onChange={(event) => setStyle(event.target.value)}>
+                <option value="">A bit of everything</option>
+                {navCollections.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
               </select><ChevronDown size={18} />
             </div>
           </label>

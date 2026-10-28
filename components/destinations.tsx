@@ -1,64 +1,53 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
-import { destinations, journeys } from "@/content/travel";
 import { Reveal } from "@/components/reveal";
 
-export const imageNames: Record<string, string> = {
-  varanasi: "varanasi-dawn", ayodhya: "ayodhya-riverfront",
-  agra: "agra-doorway", prayagraj: "prayagraj-river",
-  lucknow: "lucknow-imambara", bodhgaya: "bodhgaya-spire",
-  vrindavan: "vrindavan-prem-mandir",
-};
-const photoDescriptions: Record<string, string> = {
-  varanasi: "Boats and historic ghats on the Ganga at Varanasi",
-  ayodhya: "The riverfront architecture of Ram Ki Paidi in Ayodhya",
-  agra: "The Taj Mahal framed through an archway in Agra", prayagraj: "The Yamuna at Prayagraj",
-  lucknow: "The Bara Imambara complex in Lucknow", bodhgaya: "Mahabodhi Temple in Bodh Gaya",
-  vrindavan: "Prem Mandir in Vrindavan",
+export type AtlasPlace = {
+  slug: string;
+  name: string;
+  label: string;
+  text: string;
+  photo: { src: string; alt: string; blur: string };
 };
 
-export function Destinations({ onPlan }: { onPlan: (destination: string) => void }) {
-  const [selected, setSelected] = useState<string>("Varanasi");
-  useEffect(() => {
-    const place = new URLSearchParams(window.location.search).get("place");
-    if (place && destinations.some((item) => item.name === place)) setSelected(place);
-  }, []);
-  const place = destinations.find((item) => item.name === selected) ?? destinations[0];
-  const journey = journeys.find((item) => item.places.some((name) => name === place.name));
-  const guideSlug = ({ Varanasi: "varanasi", Ayodhya: "ayodhya", Agra: "agra", Bodhgaya: "bodh-gaya" } as Record<string,string>)[place.name];
+/** The homepage index of regions: choose a name, see its photograph and a line about it. */
+export function Destinations({ places }: { places: AtlasPlace[] }) {
+  const [selected, setSelected] = useState(places[0]?.slug);
+  const place = places.find((item) => item.slug === selected) ?? places[0];
   return (
     <section className="atlas-section page-width" id="destinations" aria-labelledby="destinations-heading">
       <Reveal className="atlas-heading">
         <div><span className="eyebrow">PLACES WITH A PULL</span><h2 id="destinations-heading">Find your somewhere.</h2></div>
-        <p>Ancient river cities, quiet courtyards, extraordinary architecture. Eight places we’d put on your map.</p>
+        <p>Sacred rivers, desert palaces, tea hills and turquoise islands. {places.length} regions we know well, and love to show.</p>
       </Reveal>
       <div className="atlas-layout">
         <div className="atlas-visual" id="destination-detail" aria-live="polite" aria-atomic="true">
           <div className="atlas-photo">
-            {place.image !== "gaya" ? <Image key={place.image} src={`/images/${imageNames[place.image]}.webp`} alt={photoDescriptions[place.image]} fill sizes="(max-width: 700px) 90vw, 53vw" quality={90} />
-              : <div className="atlas-gaya"><span className="eyebrow">GAYA · BIHAR</span><p>A journey of<br /><em>remembrance.</em></p><span>Vishnupad. The Falgu. Family traditions.</span></div>}
-            <div className="atlas-photo-label"><span>{place.region}</span><h3>{place.name}</h3></div>
+            <Image key={place.slug} src={place.photo.src} alt={place.photo.alt} fill sizes="(max-width: 700px) 90vw, 53vw"
+              quality={86} placeholder="blur" blurDataURL={place.photo.blur} />
+            <div className="atlas-photo-label"><span>{place.label.toUpperCase()}</span><h3>{place.name}</h3></div>
           </div>
-          <div className="atlas-description"><p>{place.description}</p>
-            {guideSlug && <Link href={`/destinations/${guideSlug}`} className="text-link">Read the destination guide <ArrowUpRight size={19} /></Link>}
-            {journey && !guideSlug && <Link href={`/journeys/${journey.slug}`} className="text-link">Explore a journey here <ArrowUpRight size={19} /></Link>}
+          <div className="atlas-description"><p>{place.text}</p>
+            <Link href={`/destinations/${place.slug}`} className="text-link">Explore {place.name} <ArrowUpRight size={19} /></Link>
           </div>
         </div>
         <div className="atlas-index">
           <p className="atlas-index-title">Where would you like to begin?</p>
-          <div className="atlas-places" role="group" aria-label="Choose a destination">
-            {destinations.map((item,index) => <button key={item.name} type="button"
-              className={selected === item.name ? "is-selected" : ""}
-              onClick={() => setSelected(item.name)} aria-pressed={selected === item.name} aria-controls="destination-detail">
-              <span className="atlas-number">{String(index+1).padStart(2,"0")}</span>
-              <span>{item.name}</span><ArrowUpRight size={21} />
-            </button>)}
+          <div className="atlas-places" role="group" aria-label="Choose a region">
+            {places.map((item, index) => (
+              <button key={item.slug} type="button" className={selected === item.slug ? "is-selected" : ""}
+                onClick={() => setSelected(item.slug)} onPointerEnter={(e) => { if (e.pointerType === "mouse") setSelected(item.slug); }}
+                aria-pressed={selected === item.slug} aria-controls="destination-detail">
+                <span className="atlas-number">{String(index + 1).padStart(2, "0")}</span>
+                <span>{item.name}</span><ArrowUpRight size={21} />
+              </button>
+            ))}
           </div>
-          <button className="button atlas-plan" onClick={() => onPlan(place.name)} style={{ color: "var(--ink)" }}>Plan for {place.name} <ArrowUpRight size={19} /></button>
-          <p className="atlas-index-note">Have somewhere else in mind?<br />{" "}<a href="#plan">Tell us about it.</a></p>
+          <Link className="button atlas-plan" href={`/plan?destination=${place.slug}`} style={{ color: "var(--ink)" }}>Plan for {place.name} <ArrowUpRight size={19} /></Link>
+          <p className="atlas-index-note">Somewhere else in mind?<br />{" "}<Link href="/plan">Tell us about it.</Link></p>
         </div>
       </div>
     </section>

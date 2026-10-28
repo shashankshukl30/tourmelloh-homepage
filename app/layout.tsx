@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
-import { brand } from "@/content/travel";
+import { SITE_URL, agencyLd, brand, isProduction } from "@/lib/site";
+import { JsonLd } from "@/components/json-ld";
 import { InterfaceInteractions } from "@/components/interface-interactions";
 import { PhotoInteractions } from "@/components/photo-interactions";
 import { WhatsAppLink } from "@/components/whatsapp-link";
@@ -30,49 +31,41 @@ const instrument = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ||
-      (process.env.VERCEL_URL
-        ? `https://${process.env.VERCEL_URL}`
-        : "http://localhost:3108"),
-  ),
-  title: "Tourmelloh | Varanasi & Thoughtful Journeys Across India",
-  description:
-    "Discover India with Tourmelloh, based in Varanasi. Explore journeys through Ayodhya, Prayagraj, Lucknow, Gaya, Bodhgaya, Vrindavan and Agra.",
-  robots: { index: false, follow: false },
-  openGraph: {
-    title: "Some journeys stay with you.",
-    description: "Varanasi at heart. India within reach.",
-    type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630 }],
+  metadataBase: new URL(SITE_URL),
+  title: "Tourmelloh | Luxury Private Journeys Across India",
+  description: brand.line,
+  applicationName: brand.name,
+  robots: isProduction ? { index: true, follow: true } : { index: false, follow: false },
+  icons: { icon: "/brand/tourmelloh-favicon.svg", apple: "/brand/tourmelloh-favicon.png" },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION,
+    other: process.env.BING_SITE_VERIFICATION ? { "msvalidate.01": process.env.BING_SITE_VERIFICATION } : undefined,
   },
-  icons: { icon: "/brand/tourmelloh-favicon.svg" },
+};
+
+export const viewport: Viewport = { themeColor: "#f6f1e7" };
+
+const websiteLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
+  name: brand.name,
+  url: SITE_URL,
+  publisher: { "@id": `${SITE_URL}/#agency` },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/search?q={search_term_string}` },
+    "query-input": "required name=search_term_string",
+  },
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "TravelAgency",
-    name: brand.name,
-    telephone: "+917706997271",
-    email: brand.email,
-    areaServed: "India",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Varanasi",
-      addressRegion: "Uttar Pradesh",
-      addressCountry: "IN",
-    },
-  };
   return (
-    <html lang="en" className={`${newsreader.variable} ${instrument.variable}`}>
+    <html lang="en-IN" className={`${newsreader.variable} ${instrument.variable}`}>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        <JsonLd data={[agencyLd, websiteLd]} />
       </head>
       <body>{children}<WhatsAppLink /><InterfaceInteractions /><PhotoInteractions /></body>
     </html>

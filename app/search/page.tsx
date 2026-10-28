@@ -1,18 +1,18 @@
-import type { Metadata } from "next";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { TravelSearch } from "@/components/travel-search";
-import { searchIndex } from "@/lib/search-index";
+import { buildSearchIndex } from "@/lib/search-index";
+import { pageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Find Your India Journey | Tourmelloh Travel Collection",
-  description: "Search Tourmelloh journeys, destinations and landmarks, from Varanasi and Ayodhya to the Taj Mahal and Bodh Gaya.",
+export const metadata = {
+  ...pageMeta({
+    title: "Search Journeys, Places & Experiences | Tourmelloh",
+    description: "Search every Tourmelloh journey, region, city guide, private experience and journal article, from Varanasi and the Taj to Havelock and Ladakh.",
+    path: "/search",
+  }),
+  robots: { index: false, follow: true },
 };
 
-export default async function SearchPage({ searchParams }: {
-  searchParams: Promise<{ q?: string | string[] }>;
-}) {
-  const params = await searchParams;
-  const query = typeof params.q === "string" ? params.q.slice(0,120) : "";
-  return <><Navigation tone="paper" /><TravelSearch initialQuery={query} entries={searchIndex} /><Footer /></>;
+export default function SearchPage() {
+  return <><Navigation tone="paper" /><TravelSearch entries={buildSearchIndex()} /><Footer /></>;
 }

@@ -41,3 +41,20 @@
   .brand .brand-logo { width: 180px; }
 }
 @media (max-width: 360px) { .brand .brand-logo { width: 160px; } }
+.search-popular { margin-top: 36px; }
+.search-popular p { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
+.search-popular div { display: flex; flex-wrap: wrap; gap: 10px; }
+.search-popular button { min-height: 46px; padding: 10px 18px; border: 1px solid var(--line); border-radius: 999px; font-size: 15px; }
+.search-popular button:hover { border-color: var(--ink); }
+.search-count { display: inline-block; min-width: 22px; margin-left: 6px; font-size: 13px; opacity: .7; }
+.search-results .search-result { grid-template-columns: 150px minmax(0, 1fr) 54px; gap: 32px; padding: 22px; align-items: center; }
+.search-result[data-active="true"] { background: var(--paper-deep); }
+.search-thumb { position: relative; aspect-ratio: 4 / 3; border-radius: 18px; overflow: hidden; background: var(--paper-deep); }
+.search-result h2 { font-size: 32px; margin-top: 4px; }
+.search-result p { margin-top: 8px; }
+@media (max-width: 700px) {
+  .search-results .search-result { grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding: 16px 6px; align-items: start; }
+  .search-results .search-result-arrow { display: none; }
+  .search-result h2 { font-size: 24px; }
+  .search-result p:not(.search-detail) { display: none; }
+}

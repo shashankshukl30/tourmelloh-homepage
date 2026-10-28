@@ -43,3 +43,16 @@
   .enquiry-row, .enquiry-row-3 { grid-template-columns: 1fr; }
   .plan-panel { padding: 22px 16px; }
 }
+
+/* Contact */
+.contact-ways { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.contact-way { position: relative; display: grid; align-content: start; gap: 8px; padding: 30px 26px; border: 1px solid var(--line); border-radius: var(--radius-panel); transition: background .2s, border-color .2s; }
+a.contact-way:hover { background: var(--paper-deep); border-color: var(--ink); }
+.contact-icon { display: flex; width: 48px; height: 48px; align-items: center; justify-content: center; border-radius: 50%; background: var(--ink); color: var(--paper); margin-bottom: 12px; }
+.contact-label { font-size: 14px; color: var(--muted); }
+.contact-way strong { font-family: var(--font-editorial), Georgia, serif; font-weight: 400; font-size: 24px; letter-spacing: -.02em; line-height: 1.2; overflow-wrap: anywhere; }
+.contact-way p { font-size: 15px; color: var(--muted); line-height: 1.7; }
+.contact-way p a { text-decoration: underline; text-underline-offset: 3px; }
+.contact-arrow { position: absolute; top: 28px; right: 24px; }
+@media (max-width: 1100px) { .contact-ways { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .contact-ways { grid-template-columns: 1fr; } }
