@@ -11,6 +11,7 @@ import {
   journeys,
   pages,
 } from "../content/catalog";
+import { navCities, navCollections, navDestinations } from "../content/catalog/nav";
 
 const problems: string[] = [];
 const fail = (where: string, what: string) => problems.push(`${where}: ${what}`);
@@ -108,6 +109,10 @@ for (const p of pages) {
   scan(`page ${p.slug}`, p);
   seo(`page ${p.slug}`, p.seo);
 }
+
+navCollections.forEach((c) => collections.some((x) => x.slug === c.slug) || fail("nav", `unknown collection ${c.slug}`));
+navDestinations.forEach((d) => destinationSlugs.has(d.slug) || fail("nav", `unknown destination ${d.slug}`));
+navCities.forEach((c) => citySlugs.has(c.slug) || fail("nav", `unknown city ${c.slug}`));
 
 console.log(
   `${journeys.length} journeys, ${destinations.length} destinations, ${cities.length} cities, ` +
