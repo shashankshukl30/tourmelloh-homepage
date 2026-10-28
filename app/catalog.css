@@ -147,3 +147,8 @@
 .cat-sub { font-size: 28px; letter-spacing: -.03em; margin: 40px 0 8px; }
 .cat-index-opening .collection-heading { margin-top: 30px; margin-bottom: 52px; }
 .cat-filters-stack { flex-direction: column; align-items: flex-start; }
+.cat-list-numbered { counter-reset: step; }
+.cat-list-numbered li { counter-increment: step; padding-left: 40px; }
+.cat-list-numbered li::before { content: counter(step, decimal-leading-zero); width: auto; height: auto; background: none; top: 15px; color: var(--clay); font-size: 14px; }
+.cat-gallery-2 { grid-template-rows: 1fr; }
+.cat-gallery-2 > div:first-child { grid-row: 1; }
