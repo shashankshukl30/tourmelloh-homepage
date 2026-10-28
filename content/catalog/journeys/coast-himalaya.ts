@@ -1,3 +1,1795 @@
 import type { Journey } from "../types";
 
-export const journeys: Journey[] = [];
+export const journeys: Journey[] = [
+  // ─────────────────────────────────────────────── Coast & islands
+  {
+    slug: "andaman-island-escape",
+    collection: "coast",
+    title: "Andaman Island Escape",
+    display: ["Andaman", "island escape"],
+    kicker: "Port Blair, Havelock and Neil, at an island pace",
+    summary:
+      "Six days across three Andaman islands: the Cellular Jail at dusk, Radhanagar at sunset, a reef dive off Havelock and Neil's rock arch at low tide.",
+    lead:
+      "The Andamans reward people who slow down. This journey gives Havelock three nights, so the reef, the mangroves and Radhanagar's long evening light each get a day of their own. It opens in Port Blair with the Cellular Jail, whose history explains the islands better than any guidebook, and closes on Neil, a small island of paddy fields and quiet beaches. Every crossing is booked in the best class sailing that day, and a driver meets you at each jetty.",
+    days: 6,
+    nights: 5,
+    route: ["Port Blair", "Havelock (Swaraj Dweep)", "Neil (Shaheed Dweep)"],
+    cities: ["port-blair", "havelock"],
+    destinations: ["andaman-islands"],
+    experiences: ["diving-at-havelock"],
+    hero: "andaman-aerial",
+    gallery: ["luxury-pool", "luxury-suite", "luxury-dining"],
+    bestFor:
+      "Couples, families with older children and first-time divers who want the islands without the rush",
+    season:
+      "October to May, with the calmest seas and clearest water from December to April. From late May to September the monsoon brings rough crossings and cancelled sailings.",
+    pace: "Gentle. Three short sea crossings, mornings on the water and afternoons left free.",
+    highlights: [
+      "Cellular Jail and the evening light and sound show",
+      "Three nights on Havelock, behind Radhanagar Beach",
+      "A guided reef dive or snorkel off Havelock",
+      "Kayaking the mangrove creeks with a naturalist",
+      "Neil's natural rock arch, reached at low tide",
+      "The best available seats on every crossing",
+    ],
+    signature: [
+      {
+        title: "A dive with your own instructor",
+        text: "On Havelock we book a dive centre instructor for your party alone, whether you are certified or trying the reef for the first time in calm, shallow water.",
+      },
+      {
+        title: "Radhanagar at the last hour",
+        text: "From the hotel it is a short walk through the trees to Radhanagar Beach. We time your first evening so you are on the sand for the last hour of light.",
+      },
+      {
+        title: "The mangroves with a naturalist",
+        text: "A kayak and a naturalist guide on a rising tide, paddling into mangrove creeks where kingfishers hunt and the water is clear enough to see the roots.",
+      },
+      {
+        title: "Neil by the tide table",
+        text: "Your afternoon on Neil is planned around the day's low tide, so you can walk out over the reef flats to the natural bridge while the rock pools are open.",
+      },
+    ],
+    stays: [
+      { place: "Port Blair", nights: 1, stay: "SeaShell Port Blair, or similar" },
+      {
+        place: "Havelock (Swaraj Dweep)",
+        nights: 3,
+        stay: "Taj Exotica Resort & Spa, Andamans, or similar",
+      },
+      { place: "Neil (Shaheed Dweep)", nights: 1, stay: "SeaShell Samssara, Neil, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Port Blair and the Cellular Jail",
+        place: "Port Blair",
+        photo: "andaman-cellular-jail",
+        text: "You are met at Veer Savarkar International Airport and driven the short way to your hotel above the harbour. Port Blair was renamed Sri Vijaya Puram in 2024, though most people on the islands still use the old name. In the late afternoon your guide walks you through the Cellular Jail, built by the British to hold Indian political prisoners in solitary cells, and up to the central tower for the view across the bay. Stay on for the light and sound show in the courtyard after dark, then dinner by the water.",
+        moments: [
+          "Met on arrival at Port Blair",
+          "The jail's tower in the late light",
+          "Light and sound show after dark",
+        ],
+        overnight: "SeaShell Port Blair, or similar",
+      },
+      {
+        day: 2,
+        title: "Across to Havelock",
+        place: "Port Blair → Havelock (Swaraj Dweep)",
+        photo: "andaman-radhanagar",
+        text: "A morning catamaran carries you across to Havelock, now officially Swaraj Dweep, in roughly two hours depending on the boat. Your seats are in the best class sailing that day, and a driver meets you on the jetty for the drive across the island to the hotel. Lunch, a swim, an hour asleep in the shade. As the light drops, walk the few minutes through the trees to Radhanagar Beach, a long curve of pale sand facing west, and stay until the sun has gone into the sea.",
+        moments: [
+          "Morning catamaran to Havelock",
+          "A first swim at the hotel",
+          "Sunset on Radhanagar Beach",
+        ],
+        overnight: "Taj Exotica Resort & Spa, Havelock, or similar",
+      },
+      {
+        day: 3,
+        title: "Under the water",
+        place: "Havelock (Swaraj Dweep)",
+        photo: "andaman-coral",
+        text: "Havelock has some of the most rewarding diving in India. Certified divers go out with a dive centre to reefs chosen for the day's conditions. First-timers start with an instructor in shallow water off the beach, then follow the reef down a few metres once they are comfortable. Non-divers snorkel from the boat over hard coral, parrotfish and shoals of fusiliers. You are back by lunch, and the afternoon is yours: the spa, the pool, or a book on the verandah of your villa.",
+        moments: [
+          "A try dive with your own instructor",
+          "Hard coral a few metres down",
+          "An afternoon at the spa",
+        ],
+        overnight: "Taj Exotica Resort & Spa, Havelock, or similar",
+      },
+      {
+        day: 4,
+        title: "Mangroves and a slow afternoon",
+        place: "Havelock (Swaraj Dweep)",
+        photo: "andaman-kayak",
+        text: "Early, while the water is flat, a naturalist takes you by kayak into the mangrove creeks on the island's edge. On a rising tide you glide between the roots, watching for kingfishers, herons and mudskippers, while your guide explains how these forests hold the coast together. By mid-morning you are back for breakfast. Spend the rest of the day as you like. Elephant Beach is a short boat ride away for more snorkelling, or stay put and swim at Radhanagar before dinner.",
+        moments: [
+          "Kayaking the creeks on a rising tide",
+          "Kingfishers in the mangrove roots",
+          "A last Havelock sunset",
+        ],
+        overnight: "Taj Exotica Resort & Spa, Havelock, or similar",
+      },
+      {
+        day: 5,
+        title: "Neil, at low tide",
+        place: "Havelock → Neil (Shaheed Dweep)",
+        photo: "andaman-natural-bridge",
+        text: "A short crossing brings you to Neil, now Shaheed Dweep, a small, flat island of paddy fields, banana groves and village roads. Your guide plans the afternoon by the tide table. At low tide you walk out across the exposed reef to the natural rock arch, past pools holding small fish, sea cucumbers and living coral. The footing is uneven, and your guide knows the way. Then on to Laxmanpur Beach for the sunset, and a quiet evening at a hotel a few steps from the sand.",
+        moments: [
+          "Crossing to Shaheed Dweep",
+          "The rock arch at low tide",
+          "Sunset at Laxmanpur Beach",
+        ],
+        overnight: "SeaShell Samssara, Neil, or similar",
+      },
+      {
+        day: 6,
+        title: "Back to Port Blair",
+        place: "Neil → Port Blair",
+        photo: "andaman-boat",
+        text: "If the tide and your flight allow, an early swim at Bharatpur Beach, where the water is shallow and clear and the boats rest close to shore. Then the morning catamaran back to Port Blair, about an hour and a half, where your driver meets you at the jetty and takes you to the airport. We book the sailing with a comfortable margin before your flight, and watch the forecast the day before in case the crossing needs to move.",
+        moments: [
+          "A last swim at Bharatpur Beach",
+          "Morning catamaran to Port Blair",
+          "Driven straight to your flight",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked luxury stays as listed, with daily breakfast",
+      "Seats in the best available class on the inter-island catamarans (Makruzz, Nautika or ITT Majestic, as scheduled)",
+      "Private car and driver on each island for all transfers and touring",
+      "Private English-speaking guides on each island (other languages on request)",
+      "Meet-and-assist at Port Blair airport and at every jetty",
+      "Cellular Jail entry and the light and sound show",
+      "One guided dive or snorkelling trip, and the mangrove kayak with a naturalist",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Flights to and from Port Blair",
+      "Travel insurance, including cover for diving",
+      "Meals not mentioned",
+      "Additional dives, water sports and equipment hire",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Ferries and weather",
+        text: "Sailings are run by private operators and can be rescheduled or suspended by the port authorities in rough weather. We hold the best available seats, watch the forecast and rebook if a crossing moves.",
+      },
+      {
+        title: "Diving and flying",
+        text: "Leave at least 24 hours between your last dive and your flight home. The dive day falls early in your stay for this reason, and every dive centre asks for a short medical form.",
+      },
+      {
+        title: "Permits",
+        text: "Indian nationals need no permit for Port Blair, Havelock or Neil. Most foreign nationals no longer need a Restricted Area Permit for these islands, though passports and visas are checked on arrival and a few nationalities still need prior approval. We confirm the rules for your passport when planning.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Do we need to be divers?",
+        a: "No. Non-divers can snorkel from the boat or join an instructor for a first, shallow try dive. Certified divers should bring their certification card and logbook.",
+      },
+      {
+        q: "Can we add more time on the islands?",
+        a: "Yes. An extra night on Neil or Havelock is easy to add, and a night in Port Blair at the end allows a boat trip to Ross Island, now Netaji Subhas Chandra Bose Dweep.",
+      },
+      {
+        q: "Is this a good journey for children?",
+        a: "For children who swim and are happy on boats, yes. The crossings are short and the hotels are relaxed. Dive centres set their own minimum ages, usually around ten for a first dive.",
+      },
+    ],
+    seo: {
+      title: "Andaman Island Escape: Havelock and Neil | Tourmelloh",
+      description:
+        "A six-day private Andaman journey: the Cellular Jail in Port Blair, three nights on Havelock with diving and mangroves, and Neil's rock arch at low tide.",
+    },
+  },
+
+  {
+    slug: "andaman-for-two",
+    collection: "coast",
+    title: "Andaman for Two",
+    display: ["Andaman", "for two"],
+    kicker: "A honeymoon pace across Havelock, Neil and Port Blair",
+    summary:
+      "Seven days for couples: a rainforest villa hotel and a beach resort on Havelock, a boat of your own to Elephant Beach, and Neil at low tide.",
+    lead:
+      "This is the Andamans arranged for two people with nowhere else to be. You begin in the forest at the centre of Havelock, at a small villa hotel with a pool looking out over the trees, then move down to the beach for two nights behind Radhanagar. A boat of your own to Elephant Beach, a first dive together, sunset on Neil, and a last evening in Port Blair, so a delayed ferry never threatens the flight home.",
+    days: 7,
+    nights: 6,
+    route: ["Port Blair", "Havelock (Swaraj Dweep)", "Neil (Shaheed Dweep)", "Port Blair"],
+    cities: ["port-blair", "havelock"],
+    destinations: ["andaman-islands"],
+    experiences: ["diving-at-havelock"],
+    hero: "andaman-radhanagar",
+    gallery: ["andaman-kayak", "luxury-dining", "yoga-sunrise"],
+    bestFor: "Honeymooners and couples marking an anniversary",
+    season:
+      "October to May. December to April brings the calmest seas and the best visibility for diving; from late May the monsoon can disrupt sailings.",
+    pace: "Slow. Two hotels on Havelock, one night on Neil, and long afternoons with nothing planned.",
+    highlights: [
+      "Two nights at a villa hotel in Havelock's forest",
+      "Two nights behind Radhanagar Beach",
+      "A boat of your own to Elephant Beach",
+      "A first dive together with a private instructor",
+      "Bicycles and sunset on Neil",
+      "Cellular Jail and its light and sound show",
+    ],
+    signature: [
+      {
+        title: "Elephant Beach by private boat",
+        text: "A boat and boatman for the two of you, out along the coast to Elephant Beach for snorkelling over the reef, leaving early while the water is at its calmest.",
+      },
+      {
+        title: "A table for two",
+        text: "One evening on Havelock, a dinner laid for the two of you away from the restaurant, arranged with the hotel, with a menu built around the day's catch.",
+      },
+      {
+        title: "A first dive, side by side",
+        text: "An instructor for the two of you alone, starting in shallow water off the beach and moving onto the reef once you are both at ease.",
+      },
+      {
+        title: "Neil by bicycle",
+        text: "Neil is flat and small enough to cycle. Two bicycles and a guide are waiting for the village lanes between the paddy fields and the beaches.",
+      },
+    ],
+    stays: [
+      { place: "Havelock (Swaraj Dweep)", nights: 2, stay: "Jalakara, Havelock, or similar" },
+      {
+        place: "Havelock (Swaraj Dweep)",
+        nights: 2,
+        stay: "Taj Exotica Resort & Spa, Andamans, or similar",
+      },
+      { place: "Neil (Shaheed Dweep)", nights: 1, stay: "SeaShell Samssara, Neil, or similar" },
+      { place: "Port Blair", nights: 1, stay: "SeaShell Port Blair, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Straight to Havelock",
+        place: "Port Blair → Havelock (Swaraj Dweep)",
+        photo: "luxury-suite",
+        text: "You are met at Port Blair airport and taken to the harbour for the afternoon catamaran to Havelock, with seats in the best class sailing. If your flight lands too late for the crossing, we hold a night in Port Blair and you sail in the morning instead. On Havelock a driver takes you inland to Jalakara, a small villa hotel set in rainforest on a former plantation, with views out over the trees. Dinner comes from a kitchen that cooks with what the islands grow and catch.",
+        moments: [
+          "Afternoon catamaran to Havelock",
+          "A suite above the rainforest",
+          "Dinner from island produce",
+        ],
+        overnight: "Jalakara, Havelock, or similar",
+      },
+      {
+        day: 2,
+        title: "A boat of your own",
+        place: "Havelock (Swaraj Dweep)",
+        photo: "andaman-boat",
+        text: "After an early breakfast, your boat leaves the Havelock jetty for Elephant Beach, a short run along the coast. The boatman anchors off the reef and you snorkel over coral in water that is often clear enough to see the bottom from the surface. Back at the hotel by lunch, the afternoon is for the pool, a massage or the hotel's yoga session. In the evening, the table for two: set away from the others, lit by lamps, with a menu built around the day's catch.",
+        moments: [
+          "Private boat to Elephant Beach",
+          "Snorkelling over the reef",
+          "Dinner set for two",
+        ],
+        overnight: "Jalakara, Havelock, or similar",
+      },
+      {
+        day: 3,
+        title: "Down to Radhanagar",
+        place: "Havelock (Swaraj Dweep)",
+        photo: "luxury-pool",
+        text: "A slow morning in the forest, then the short drive across the island to Taj Exotica, set behind Radhanagar Beach with protected forest at its back. Your villa sits among the trees, and the pool looks toward the sea. Spend the afternoon by the water with nothing to do. An hour before sunset, walk through the trees to Radhanagar, a long, wide curve of sand facing west, and watch the light go from gold to rose before you walk back for dinner.",
+        moments: [
+          "Moving down to the beach",
+          "An afternoon by the pool",
+          "Sunset on Radhanagar Beach",
+        ],
+        overnight: "Taj Exotica Resort & Spa, Havelock, or similar",
+      },
+      {
+        day: 4,
+        title: "A first dive together",
+        place: "Havelock (Swaraj Dweep)",
+        photo: "andaman-coral",
+        text: "This morning belongs to the reef. An instructor booked for the two of you begins with a briefing and practice in shallow water, then leads you down a few metres onto the coral when you are both comfortable. Certified divers can go further out to sites chosen for the day's conditions. Look for parrotfish, butterflyfish and, with luck, a turtle. Lunch late, then the rest of the day without plans: a sleep, the spa, or a long walk along the beach.",
+        moments: [
+          "An instructor for the two of you",
+          "Coral gardens a few metres down",
+          "An afternoon without plans",
+        ],
+        overnight: "Taj Exotica Resort & Spa, Havelock, or similar",
+      },
+      {
+        day: 5,
+        title: "Neil at low tide",
+        place: "Havelock → Neil (Shaheed Dweep)",
+        photo: "andaman-natural-bridge",
+        text: "A short crossing to Neil, now Shaheed Dweep, the smallest of the three islands, where life moves at the speed of a bicycle. Your guide has two bikes ready for the lanes between paddy fields and banana groves. In the afternoon, at low tide, walk out over the reef flats to the natural rock arch, stepping between pools of small fish and sea cucumbers. Then to Laxmanpur Beach to watch the sun go down, and a quiet dinner close to the sand.",
+        moments: [
+          "Cycling Neil's village lanes",
+          "The rock arch at low tide",
+          "Sunset at Laxmanpur Beach",
+        ],
+        overnight: "SeaShell Samssara, Neil, or similar",
+      },
+      {
+        day: 6,
+        title: "Port Blair and the jail",
+        place: "Neil → Port Blair",
+        photo: "andaman-cellular-jail",
+        text: "An unhurried morning on Neil, perhaps a swim at Bharatpur Beach, then the catamaran to Port Blair, where your guide meets you at the jetty. In the afternoon you visit the Cellular Jail, where the British held Indian political prisoners in solitary cells, and climb the central tower for the view over the harbour. Stay for the light and sound show after dark, which tells the jail's story in the courtyard where it happened. Dinner at the hotel.",
+        moments: [
+          "Morning catamaran to Port Blair",
+          "The jail's central tower",
+          "Light and sound show after dark",
+        ],
+        overnight: "SeaShell Port Blair, or similar",
+      },
+      {
+        day: 7,
+        title: "Departure",
+        place: "Port Blair",
+        photo: "private-car",
+        text: "A last morning in Port Blair. If your flight leaves after midday, your guide can take you by boat to Ross Island, now Netaji Subhas Chandra Bose Dweep, on days it is open, where the ruins of the old British settlement are wrapped in roots and spotted deer wander between them. Otherwise a slow breakfast, a walk along the seafront and the short drive to the airport, with your driver and guide seeing you through to check-in.",
+        moments: [
+          "Ross Island, if time allows",
+          "A slow breakfast by the harbour",
+          "Seen through to check-in",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked luxury stays as listed, with daily breakfast",
+      "Seats in the best available class on every inter-island catamaran",
+      "Private car and driver on each island, and two bicycles on Neil",
+      "Private English-speaking guides on each island (other languages on request)",
+      "Meet-and-assist at Port Blair airport and at every jetty",
+      "A private boat to Elephant Beach with snorkelling equipment",
+      "A first dive or snorkel with a private instructor",
+      "One private dinner for two on Havelock",
+      "Cellular Jail entry and the light and sound show",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Flights to and from Port Blair",
+      "Travel insurance, including cover for diving",
+      "Meals not mentioned",
+      "Additional dives, water sports and equipment hire",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Why the last night is in Port Blair",
+        text: "Andaman sailings can be suspended in rough weather. Ending in Port Blair means a cancelled ferry costs you an afternoon, not a flight.",
+      },
+      {
+        title: "Diving and flying",
+        text: "Leave at least 24 hours between your last dive and your flight home. The dive day is placed early for this reason, and dive centres ask for a short medical form.",
+      },
+      {
+        title: "Permits",
+        text: "Indian nationals need no permit for these islands. Most foreign nationals no longer need a Restricted Area Permit either, though a few nationalities still do; we check yours when planning.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can the hotels be changed?",
+        a: "Yes. Some couples prefer all four Havelock nights at one hotel, or a beach cottage at Barefoot at Havelock. We suggest what suits the season and your taste.",
+      },
+      {
+        q: "Is this journey suitable in the monsoon?",
+        a: "We do not recommend it. From late May to September the seas are rough, crossings are often cancelled and diving visibility falls. October to May is the time to go.",
+      },
+      {
+        q: "Do we need to be strong swimmers?",
+        a: "No. The snorkelling is in calm water with life jackets on board, and a try dive is taught from shallow water. You should simply be comfortable in the sea.",
+      },
+    ],
+    seo: {
+      title: "Andaman Honeymoon: Havelock and Neil for Two | Tourmelloh",
+      description:
+        "A private seven-day Andaman honeymoon: a forest villa and a beach resort on Havelock, a boat of your own to Elephant Beach, a first dive and Neil at low tide.",
+    },
+  },
+
+  {
+    slug: "kerala-backwaters-and-hills",
+    collection: "coast",
+    title: "Kerala Backwaters and Hills",
+    display: ["Kerala", "backwaters and hills"],
+    kicker: "Fort Kochi, the tea hills, spice forest and Vembanad Lake",
+    summary:
+      "Eight days through Kerala: Fort Kochi's old streets, the tea estates of Munnar, spice gardens at Thekkady, a private houseboat on Vembanad and a beach at Marari.",
+    lead:
+      "Kerala is best seen in the order the land gives it. You start on the coast at Fort Kochi, where Portuguese, Dutch and British traders left churches and warehouses along the harbour, then climb into the Western Ghats for two nights among the tea at Munnar. Thekkady brings cardamom and pepper under the forest canopy. Then down to Vembanad Lake for a day on a kettuvallam of your own, and a last night beside the sea at Marari.",
+    days: 8,
+    nights: 7,
+    route: ["Kochi", "Munnar", "Thekkady", "Kumarakom", "Marari"],
+    cities: ["kochi", "munnar", "alleppey"],
+    destinations: ["kerala"],
+    experiences: ["a-private-houseboat-on-the-backwaters"],
+    hero: "kerala-houseboat",
+    gallery: ["kerala-kathakali", "kerala-ayurveda", "luxury-dining"],
+    bestFor: "A first visit to South India, for couples and families who enjoy variety",
+    season:
+      "October to March is dry and comfortable on the coast and in the hills. The monsoon, June to September, is green and quiet with heavy rain in Munnar, and Eravikulam National Park usually closes in February and March for the Nilgiri tahr calving season.",
+    pace: "Moderate. Five hotels, drives of three to four hours between them, and afternoons kept light.",
+    highlights: [
+      "Fort Kochi's harbour, nets and Mattancherry warehouses",
+      "Kathakali, from the make-up to the final scene",
+      "Two nights on a cardamom estate near Munnar",
+      "A spice garden walk with a planter",
+      "A private kettuvallam across Vembanad Lake",
+      "A last night on the beach at Marari",
+    ],
+    signature: [
+      {
+        title: "Kathakali from the make-up",
+        text: "Seats close to the stage at a Fort Kochi Kathakali theatre, arriving early to watch the actors paint their faces green, red and white before the performance begins.",
+      },
+      {
+        title: "A kettuvallam of your own",
+        text: "A private houseboat with its own crew and cook for a day across Vembanad Lake, with karimeen and Kerala red rice cooked on board for lunch.",
+      },
+      {
+        title: "Dawn on Periyar Lake",
+        text: "The first boat of the morning on Periyar Lake, when sailings run, with mist on the water and deer, gaur and sometimes elephants along the shore.",
+      },
+      {
+        title: "A planter's walk",
+        text: "A walk through a working spice garden with the person who tends it: cardamom flowering at the base of its stems, pepper climbing the shade trees, nutmeg splitting on the branch.",
+      },
+    ],
+    stays: [
+      { place: "Kochi", nights: 2, stay: "Brunton Boatyard, Fort Kochi, or similar" },
+      { place: "Munnar", nights: 2, stay: "Windermere Estate, Munnar, or similar" },
+      { place: "Thekkady", nights: 1, stay: "Spice Village, Thekkady, or similar" },
+      { place: "Kumarakom", nights: 1, stay: "Kumarakom Lake Resort, or similar" },
+      { place: "Marari", nights: 1, stay: "Marari Beach Resort, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Fort Kochi at dusk",
+        place: "Kochi",
+        photo: "kochi-chinese-nets",
+        text: "You are met at Kochi airport and driven to Fort Kochi, an hour or more depending on traffic, to a hotel on the site of an old boatyard at the harbour's edge. Late in the afternoon your guide walks you along the seafront to the Chinese fishing nets, great cantilevered frames of teak and bamboo lowered and raised by teams of fishermen. Ships slide past into the harbour. Dinner at the hotel, with Kerala's coastal cooking and the lights of the port across the water.",
+        moments: [
+          "Met on arrival at Kochi",
+          "The fishing nets at sunset",
+          "Dinner beside the harbour",
+        ],
+        overnight: "Brunton Boatyard, Fort Kochi, or similar",
+      },
+      {
+        day: 2,
+        title: "Mattancherry and Kathakali",
+        place: "Kochi",
+        photo: "kochi-fort-street",
+        text: "A morning on foot through Fort Kochi: St Francis Church, where Vasco da Gama was first buried, the Dutch-era houses and the Santa Cruz Basilica. Then Mattancherry, with spice warehouses still smelling of ginger and pepper, the Mattancherry Palace and its murals, and the Paradesi Synagogue in Jew Town. The palace and the synagogue each close on certain days, and your guide plans around them. In the evening, Kathakali: arrive early to watch the actors paint their faces before the drums begin.",
+        moments: [
+          "Spice warehouses of Mattancherry",
+          "Murals in the Mattancherry Palace",
+          "Kathakali, make-up and all",
+        ],
+        overnight: "Brunton Boatyard, Fort Kochi, or similar",
+      },
+      {
+        day: 3,
+        title: "Up into the Ghats",
+        place: "Kochi → Munnar",
+        photo: "private-car",
+        text: "After breakfast the car leaves the coast and climbs into the Western Ghats, about four hours with stops. The road passes rubber plantations and then the first tea, waterfalls after the rains, and roadside stalls selling bananas and jackfruit chips. Your hotel sits on a cardamom plantation outside Munnar, with views across the valleys. Arrive for a late lunch, rest, and in the late afternoon walk the estate's paths as the mist comes up from the valley floor.",
+        moments: [
+          "Climbing from the coast to the hills",
+          "First sight of the tea",
+          "An evening walk on the estate",
+        ],
+        overnight: "Windermere Estate, Munnar, or similar",
+      },
+      {
+        day: 4,
+        title: "Tea country",
+        place: "Munnar",
+        photo: "munnar-tea-hills",
+        text: "Munnar's hills are clipped tea for as far as you can see, the bushes kept waist-high for plucking. Your guide takes you through the estates on quiet roads and to Munnar's tea museum, which shows the leaf withered, rolled, oxidised and dried on its way to the cup. Outside February and March, when it closes for the calving season, continue to Eravikulam National Park to look for the Nilgiri tahr on the grassy slopes. The afternoon is free.",
+        moments: [
+          "Tea estates on quiet back roads",
+          "From leaf to cup",
+          "Nilgiri tahr at Eravikulam, in season",
+        ],
+        overnight: "Windermere Estate, Munnar, or similar",
+      },
+      {
+        day: 5,
+        title: "Spice country",
+        place: "Munnar → Thekkady",
+        photo: "kerala-spices",
+        text: "A drive of about three hours brings you down through cardamom hills to Thekkady, on the edge of the Periyar Tiger Reserve. Your hotel is laid out like a village of thatched cottages in a garden. In the afternoon, walk a spice garden with a planter: cardamom flowering at the base of its stems, pepper vines climbing the shade trees, cinnamon, clove and nutmeg. You taste as you go. In the evening, a Kalaripayattu display in town if you would like to see Kerala's martial art.",
+        moments: [
+          "A planter's walk through the spices",
+          "Pepper picked from the vine",
+          "Kalaripayattu by lamplight",
+        ],
+        overnight: "Spice Village, Thekkady, or similar",
+      },
+      {
+        day: 6,
+        title: "Periyar, then the lake",
+        place: "Thekkady → Kumarakom",
+        photo: "luxury-pool",
+        text: "Early, before breakfast, the first boat of the morning on Periyar Lake, when sailings run, with mist on the water and deer, gaur and sometimes elephants at the shore. Then a drive of about four hours down to Kumarakom, on the eastern shore of Vembanad Lake. Your hotel is built in the manner of old Kerala houses, with a private jetty and a pool that winds between the villas. Spend the evening by the water, watching the boats come home.",
+        moments: [
+          "Mist on Periyar Lake at dawn",
+          "Down to Vembanad",
+          "Evening by the lake",
+        ],
+        overnight: "Kumarakom Lake Resort, or similar",
+      },
+      {
+        day: 7,
+        title: "A boat of your own",
+        place: "Kumarakom → Marari",
+        photo: "kerala-backwater-canoe",
+        text: "This morning a private kettuvallam, a rice barge rebuilt for travellers, takes you out across Vembanad Lake with its own crew and cook. Lunch is cooked on board: karimeen fried with spices, red rice, a thoran of whatever is fresh. In the afternoon you change to a small canoe for canals too narrow for the houseboat, past homes, churches and paddy fields lying below the water line. On the far shore your car takes you the short way to Marari and the sea.",
+        moments: [
+          "Your own kettuvallam on Vembanad",
+          "Karimeen cooked on board",
+          "A canoe through the narrow canals",
+        ],
+        overnight: "Marari Beach Resort, or similar",
+      },
+      {
+        day: 8,
+        title: "The coast at Marari",
+        place: "Marari → Kochi",
+        photo: "kerala-beach",
+        text: "Wake to the sound of the sea. Marari is a fishing village beach, with long sand and wooden boats pulled up under the palms, and the hotel is built like the village around it. Walk the shore early, when the fishermen bring in the night's catch, then swim and take a slow breakfast. Your driver takes you north to Kochi airport, about an hour and a half, timed to your flight with a comfortable margin.",
+        moments: [
+          "Fishing boats at first light",
+          "A last swim in the Arabian Sea",
+          "Driven to Kochi for your flight",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked luxury stays as listed, with daily breakfast",
+      "Private chauffeur-driven car for all transfers and touring",
+      "Private English-speaking guides in Kochi, Munnar and Thekkady (other languages on request)",
+      "Meet-and-assist at Kochi airport on arrival and departure",
+      "Entrances for the sites named, including Eravikulam National Park when open and the Periyar boat",
+      "Kathakali tickets, the spice garden walk and the canoe ride",
+      "A private houseboat for the day on Vembanad Lake, with lunch on board",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Domestic flights and trains",
+      "Travel insurance",
+      "Meals not mentioned",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Closing days in Kochi",
+        text: "Mattancherry Palace and the Paradesi Synagogue each close on certain days of the week and on some holidays. We arrange the Kochi day around them.",
+      },
+      {
+        title: "Periyar and Eravikulam",
+        text: "The Forest Department sets the boat schedule on Periyar Lake and can suspend it, and Eravikulam closes for the tahr calving season. Wildlife sightings are never certain.",
+      },
+      {
+        title: "Houseboat by day",
+        text: "We book the houseboat for the day and sleep ashore, which keeps the evening quiet and the rooms more comfortable. An overnight on board can be arranged on request.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can we sleep on the houseboat?",
+        a: "Yes. Private houseboats have air-conditioned bedrooms and moor overnight on the lake. Most travellers prefer the day cruise and a room ashore, but we can plan either.",
+      },
+      {
+        q: "Is Munnar cold?",
+        a: "Evenings are cool for much of the year, and from December to February nights can fall below ten degrees. Bring a light jacket and a warm layer.",
+      },
+      {
+        q: "Can we add Ayurveda?",
+        a: "Yes. Several of these hotels have Ayurveda centres where treatments can be booked along the way, or the journey can end with a few nights at an Ayurveda retreat.",
+      },
+    ],
+    seo: {
+      title: "Kerala Backwaters and Hills: Private 8-Day Journey",
+      description:
+        "Eight private days in Kerala: Fort Kochi and Kathakali, tea at Munnar, spice gardens at Thekkady, a houseboat on Vembanad Lake and a beach night at Marari.",
+    },
+  },
+
+  {
+    slug: "kerala-ayurveda-retreat",
+    collection: "coast",
+    title: "Kerala Ayurveda Retreat",
+    display: ["Kerala", "Ayurveda retreat"],
+    kicker: "Fort Kochi, then five unhurried days of Ayurveda by the sea",
+    summary:
+      "A week to rest properly: one night in Fort Kochi, then five nights at a clifftop Ayurveda retreat near Kovalam, with a physician's programme, yoga and quiet.",
+    lead:
+      "This is not a sightseeing journey. After a first evening in Fort Kochi to land and adjust, you travel south to a retreat on the cliffs above the Arabian Sea, where an Ayurvedic physician sees you on arrival and sets a programme for the days that follow: daily treatments, food chosen for your constitution, yoga at dawn and long afternoons with nothing asked of you. A week will not replace a full panchakarma, but it is enough to come home rested.",
+    days: 7,
+    nights: 6,
+    route: ["Kochi", "Kovalam"],
+    cities: ["kochi"],
+    destinations: ["kerala"],
+    experiences: ["ayurveda-in-kerala"],
+    hero: "kerala-ayurveda",
+    gallery: ["luxury-suite", "luxury-dining", "kerala-spices"],
+    bestFor: "Travellers who want rest, routine and good care more than sightseeing",
+    season:
+      "The retreat is open all year. October to March is dry and warm; Kerala's tradition favours the monsoon months of June to August for treatment, when the air is cool and damp and the sea too rough for swimming.",
+    pace: "Very slow. Two short travel days and five days of treatments, yoga and rest.",
+    highlights: [
+      "A first evening at the harbour in Fort Kochi",
+      "Consultation with an Ayurvedic physician on arrival",
+      "Daily treatments set for your constitution",
+      "Yoga at dawn on the clifftop",
+      "An afternoon on the Poovar backwaters",
+      "Meals cooked to the physician's advice",
+    ],
+    signature: [
+      {
+        title: "A programme written for you",
+        text: "The physician reads your pulse, asks about sleep, digestion and medication, and sets the daily treatments that suit you, from abhyanga oil massage to shirodhara.",
+      },
+      {
+        title: "Yoga at first light",
+        text: "A teacher on the clifftop at sunrise, with the sea below, for a practice set to your level and to the programme the physician has given you.",
+      },
+      {
+        title: "Poovar by country boat",
+        text: "An afternoon on the quiet estuary at Poovar, near the retreat, in a small boat through mangroves and coconut groves to the sandbar at the river mouth.",
+      },
+      {
+        title: "One evening in Fort Kochi",
+        text: "A night at the harbour's edge before the retreat begins, with a walk to the Chinese fishing nets as the evening catch comes in.",
+      },
+    ],
+    stays: [
+      { place: "Kochi", nights: 1, stay: "Brunton Boatyard, Fort Kochi, or similar" },
+      { place: "Kovalam", nights: 5, stay: "Niraamaya Retreats Surya Samudra, Kovalam, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Fort Kochi",
+        place: "Kochi",
+        photo: "kochi-chinese-nets",
+        text: "You are met at Kochi airport and driven to Fort Kochi, to a hotel on the harbour's edge. There is nothing to do today but adjust. Late in the afternoon, if you feel like it, your guide walks with you along the seafront to the Chinese fishing nets, where teams of fishermen lower the great teak frames into the water and haul them up again, and the evening catch is sold on the pavement. Dinner by the water, and an early night.",
+        moments: [
+          "Met on arrival at Kochi",
+          "The fishing nets at dusk",
+          "An early night by the harbour",
+        ],
+        overnight: "Brunton Boatyard, Fort Kochi, or similar",
+      },
+      {
+        day: 2,
+        title: "South to the sea",
+        place: "Kochi → Kovalam",
+        photo: "kochi-fort-street",
+        text: "A short walk after breakfast through Fort Kochi's quiet morning streets, past Dutch-era houses and the old church where Vasco da Gama was first buried. Then the drive south along the coast to the retreat near Kovalam, most of the day with a long lunch stop on the way. The car is comfortable and the driver unhurried. You arrive in time to settle into your room above the sea, swim, and meet the physician, who will see you properly in the morning.",
+        moments: [
+          "Fort Kochi's streets in the morning",
+          "The coast road south",
+          "First evening above the sea",
+        ],
+        overnight: "Niraamaya Retreats Surya Samudra, Kovalam, or similar",
+      },
+      {
+        day: 3,
+        title: "The consultation",
+        place: "Kovalam",
+        photo: "luxury-pool",
+        text: "The morning begins with the consultation. The physician takes your pulse, asks about sleep, digestion, medication and what you hope to change, then decides on the treatments that suit your constitution. Your first session follows, often abhyanga, a full-body massage in warm medicated oil, frequently given by two therapists working in rhythm. Lunch is light and chosen with the kitchen. The afternoon is for the pool and for sleep, which the treatments tend to bring on.",
+        moments: [
+          "Pulse and questions with the physician",
+          "A first abhyanga massage",
+          "An afternoon asleep by the pool",
+        ],
+        overnight: "Niraamaya Retreats Surya Samudra, Kovalam, or similar",
+      },
+      {
+        day: 4,
+        title: "Yoga and the routine",
+        place: "Kovalam",
+        photo: "yoga-sunrise",
+        text: "By the second morning the shape of the days is clear. Yoga at sunrise on the clifftop, breakfast, then treatments through the late morning. Shirodhara, a thin stream of warm oil poured steadily across the forehead, is the one most people remember. Afternoons are free: read, walk the path above the rocks, or sit in the shade and watch the fishing boats go out. Evenings end early. There is no itinerary to keep and nowhere you need to be.",
+        moments: [
+          "Sunrise yoga above the sea",
+          "Shirodhara in the late morning",
+          "Fishing boats from the shade",
+        ],
+        overnight: "Niraamaya Retreats Surya Samudra, Kovalam, or similar",
+      },
+      {
+        day: 5,
+        title: "Poovar by boat",
+        place: "Kovalam",
+        photo: "kerala-backwater-canoe",
+        text: "Treatments in the morning as usual. In the afternoon, a gentle outing: the short drive to Poovar, where a small boat takes you through the estuary's channels, between mangroves and coconut groves, out to the sandbar at the river mouth. Herons stand in the shallows and kingfishers work the banks. You are back at the retreat before dark, with time to rest before a light dinner. The physician may adjust your programme today, after seeing how you have responded.",
+        moments: [
+          "A small boat through the mangroves",
+          "The sandbar at Poovar",
+          "Back before dark for a light dinner",
+        ],
+        overnight: "Niraamaya Retreats Surya Samudra, Kovalam, or similar",
+      },
+      {
+        day: 6,
+        title: "The last full day",
+        place: "Kovalam",
+        photo: "kerala-beach",
+        text: "A final day of treatments, perhaps with a herbal compress: warm linen bundles of leaves and powders pressed in rhythm along the body. The physician sees you once more and gives advice on food, sleep and anything to continue at home, written down so you can take it with you. In the evening walk down to the beach below the cliff and along the sand as the sun sets over the Arabian Sea, then a last quiet dinner.",
+        moments: [
+          "A warm herbal compress",
+          "Advice to take home",
+          "Sunset on the beach below",
+        ],
+        overnight: "Niraamaya Retreats Surya Samudra, Kovalam, or similar",
+      },
+      {
+        day: 7,
+        title: "Departure",
+        place: "Kovalam → Thiruvananthapuram",
+        photo: "private-car",
+        text: "A last yoga session at sunrise, if you wish, and an unhurried breakfast on the terrace. Then the short drive to Thiruvananthapuram airport, under an hour, for your onward flight, with your driver seeing you to the door. Many travellers find that the first days home are when the week's rest shows itself. Take the physician's advice seriously, since the routine you keep afterwards matters as much as the oil.",
+        moments: [
+          "A last practice at sunrise",
+          "Breakfast on the terrace",
+          "A short drive to the airport",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "One night at the Fort Kochi hotel with breakfast, and five nights at the retreat with all meals as advised by the physician",
+      "An Ayurvedic consultation and daily treatments as prescribed by the retreat's physician",
+      "Daily yoga at the retreat",
+      "Private chauffeur-driven car for all transfers and the Poovar outing",
+      "Private English-speaking guide in Fort Kochi (other languages on request)",
+      "Meet-and-assist at Kochi airport on arrival and Thiruvananthapuram airport on departure",
+      "The Poovar backwater boat",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Domestic flights and trains",
+      "Travel insurance",
+      "Medicines and treatments beyond the prescribed programme",
+      "Personal expenses and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Ayurveda and your doctor",
+        text: "Ayurveda here complements, and does not replace, the care of your own doctor. Tell the physician about every medication and condition, and bring a summary from home if you can.",
+      },
+      {
+        title: "Longer stays",
+        text: "A full panchakarma usually needs fourteen days or more. If that is what you want, we plan a longer retreat in place of this week.",
+      },
+      {
+        title: "Arriving and leaving",
+        text: "You arrive at Kochi and leave from Thiruvananthapuram, which saves the long drive back north on your last day.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Ayurveda only for people who are unwell?",
+        a: "No. Most guests come for rest and rejuvenation. The physician shapes the programme around you, whether you want better sleep, easier digestion or simply a quieter mind.",
+      },
+      {
+        q: "Can a partner come who does not want treatments?",
+        a: "Yes. The retreat suits a non-participating partner well, with a pool above the sea, the beach below, yoga each morning and spa treatments without a full programme.",
+      },
+      {
+        q: "Can we stay at a different retreat?",
+        a: "Yes. Kerala has several fine Ayurveda resorts, including Somatheeram on the same stretch of coast. We suggest the one that suits your programme and dates.",
+      },
+    ],
+    seo: {
+      title: "Kerala Ayurveda Retreat: Kochi and Kovalam | Tourmelloh",
+      description:
+        "A private week of rest in Kerala: a night in Fort Kochi, then five nights at a clifftop Ayurveda retreat near Kovalam with a physician's programme and yoga.",
+    },
+  },
+
+  {
+    slug: "goa-beyond-the-beaches",
+    collection: "coast",
+    title: "Goa Beyond the Beaches",
+    display: ["Goa", "beyond the beaches"],
+    kicker: "Latin quarters, baroque churches, old houses and a Goan kitchen",
+    summary:
+      "Five days in a quieter Goa: Panjim's Latin quarter, the churches of Old Goa, Divar by river ferry, the mansions of Chandor and a Goan kitchen.",
+    lead:
+      "Most people come to Goa for the sand. This journey comes for everything behind it. Four and a half centuries under Portugal left Panjim's painted Latin quarter, the baroque churches of Old Goa and villages of grand houses still lived in by the families who built them. You cross to Divar by the river ferry, cook with a Goan home cook and walk through the Braganza House at Chandor. The beaches are still there in the evenings.",
+    days: 5,
+    nights: 4,
+    route: ["North Goa", "Panjim", "Old Goa", "Divar", "South Goa"],
+    cities: [],
+    destinations: ["goa"],
+    experiences: [],
+    hero: "goa-fontainhas",
+    gallery: ["luxury-suite", "luxury-dining", "thali-feast"],
+    bestFor: "Return visitors to India, food lovers and families who want Goa's history with its comforts",
+    season:
+      "November to February is dry and pleasantly warm. Because the days are spent in towns, churches and kitchens, this journey also works in the monsoon, June to September, when Goa is green and quiet and the sea too rough to swim.",
+    pace: "Easy. Two hotels, short drives, and every evening by the sea.",
+    highlights: [
+      "Fontainhas, Panjim's painted Latin quarter, on foot",
+      "The Basilica of Bom Jesus and Se Cathedral",
+      "Divar island by the river ferry",
+      "Lunch cooked with a Goan home cook",
+      "The Braganza House at Chandor",
+      "Sundown on the Sal river by boat",
+    ],
+    signature: [
+      {
+        title: "Fontainhas house by house",
+        text: "A guide who knows the old houses walks you through Fontainhas: the balcões, the oyster-shell windows, the painted tiles, and the Chapel of St Sebastian at the top of the lane.",
+      },
+      {
+        title: "A Goan kitchen",
+        text: "A morning with a Goan home cook, grinding a recheado masala and building a xacuti from coconut, poppy seed and roasted spices, then sitting down to eat what you made.",
+      },
+      {
+        title: "The great house at Chandor",
+        text: "The Braganza House, shown by the families who still live in its two wings, with its ballroom, its library and centuries of family portraits.",
+      },
+      {
+        title: "Sundown on the Sal",
+        text: "A boat of your own down the Sal river toward its mouth at Mobor, arranged with a local boatman, as the sun drops into the Arabian Sea.",
+      },
+    ],
+    stays: [
+      { place: "North Goa", nights: 2, stay: "Taj Fort Aguada Resort & Spa, or similar" },
+      { place: "South Goa", nights: 2, stay: "Taj Exotica Resort & Spa, Goa, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival and the fort",
+        place: "North Goa",
+        photo: "goa-sunset",
+        text: "You are met at either of Goa's airports and driven to Sinquerim, where your hotel stands on the slope below Fort Aguada, the seventeenth-century Portuguese fort that guarded the mouth of the Mandovi. Settle in and swim. Late in the afternoon your guide walks you up to the fort's ramparts and its old lighthouse, then back down to the hotel's terraces for a drink as the sun goes down over the Arabian Sea.",
+        moments: [
+          "Met at either Goa airport",
+          "The ramparts of Fort Aguada",
+          "A drink at sundown",
+        ],
+        overnight: "Taj Fort Aguada Resort & Spa, or similar",
+      },
+      {
+        day: 2,
+        title: "Panjim and Old Goa",
+        place: "Panjim and Old Goa",
+        photo: "goa-church",
+        text: "Morning in Panjim's Fontainhas, the Latin quarter, with its ochre, blue and green houses, balconies and oyster-shell windows, and the chapel of St Sebastian. Coffee and bebinca on the way. Then upriver to Old Goa, once one of the great cities of the East and now a cluster of churches in green lawns: the Basilica of Bom Jesus, which holds the remains of St Francis Xavier, the Se Cathedral, and the church of St Francis of Assisi. Lunch of Goan dishes back in Panjim.",
+        moments: [
+          "The lanes of Fontainhas",
+          "Bom Jesus and the Se Cathedral",
+          "A long Goan lunch",
+        ],
+        overnight: "Taj Fort Aguada Resort & Spa, or similar",
+      },
+      {
+        day: 3,
+        title: "Divar and a Goan kitchen",
+        place: "Divar → South Goa",
+        photo: "cooking-class",
+        text: "A short ferry across the Mandovi takes you to Divar, an island of paddy fields, chapels and quiet roads, where the morning is for walking a village with your guide. Then to a Goan home kitchen, where the cook shows you how to grind a recheado masala and build a chicken xacuti from coconut, poppy seed and roasted spices, before you sit down to eat it. In the afternoon, the drive south to Benaulim and a hotel on the beach.",
+        moments: [
+          "The river ferry to Divar",
+          "Grinding masala in a Goan kitchen",
+          "South to Benaulim",
+        ],
+        overnight: "Taj Exotica Resort & Spa, Goa, or similar",
+      },
+      {
+        day: 4,
+        title: "The houses of Salcete",
+        place: "South Goa",
+        photo: "goa-beach",
+        text: "South Goa's villages hold the great houses of families who prospered under Portugal. At Chandor, the Braganza House runs the length of the village square, and its two wings are shown by the families who live in them, with a ballroom hung with chandeliers. Loutolim has more, along lanes of red laterite walls. Back at the hotel by mid-afternoon, swim and walk the long beach at Benaulim, then out on the Sal river by boat for sunset.",
+        moments: [
+          "The Braganza House at Chandor",
+          "Laterite lanes of Loutolim",
+          "Sunset on the Sal river",
+        ],
+        overnight: "Taj Exotica Resort & Spa, Goa, or similar",
+      },
+      {
+        day: 5,
+        title: "Departure",
+        place: "South Goa",
+        photo: "luxury-pool",
+        text: "A slow last morning: a swim in the pool or the sea, breakfast in the shade, and time to pack the cashews, kokum and bebinca you have collected along the way. Your driver takes you to the airport for your flight, around forty minutes to Dabolim or considerably longer to the airport at Mopa in the north, and we time the transfer to suit. Your guide can meet you for a last coffee in Margao on the way if your flight is late in the day.",
+        moments: [
+          "A last swim",
+          "Breakfast in the shade",
+          "Driven to your flight",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked luxury stays as listed, with daily breakfast",
+      "Private chauffeur-driven car for all transfers and touring",
+      "Private English-speaking guide for the Panjim, Old Goa, Divar and Salcete days (other languages on request)",
+      "Meet-and-assist at Goa airport on arrival and departure",
+      "Entrances and donations for the churches and houses named",
+      "The cooking session and lunch, and the sunset boat on the Sal river",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Domestic flights and trains",
+      "Travel insurance",
+      "Meals not mentioned",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Two airports",
+        text: "Goa has two airports: Dabolim in the south and Manohar International at Mopa in the north. Tell us which you fly into, and we plan the transfers and the order of hotels to suit.",
+      },
+      {
+        title: "Churches and family homes",
+        text: "Old Goa's churches are places of worship, so cover shoulders and knees. The great houses are family homes opened by their owners, and visiting hours can change at short notice.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Will we have time on the beach?",
+        a: "Yes. Both hotels are on the sea, and every afternoon or evening leaves time to swim. The days simply begin somewhere other than the sand.",
+      },
+      {
+        q: "Can we stay in a heritage house?",
+        a: "Yes. Goa has a handful of restored Portuguese-era houses run as small hotels. We suggest them when they suit your dates and the rest of your plans.",
+      },
+      {
+        q: "Is Goan food very spicy?",
+        a: "It can be, but cooks adjust. The cooking session is planned around what you like to eat, and there are excellent vegetarian Goan dishes.",
+      },
+    ],
+    seo: {
+      title: "Goa Beyond the Beaches: Old Goa and Chandor | Tourmelloh",
+      description:
+        "A private five-day Goa journey: Panjim's Latin quarter, the churches of Old Goa, Divar by ferry, a Goan kitchen and the great houses of Chandor and Loutolim.",
+    },
+  },
+
+  // ─────────────────────────────────────────────── The Himalaya
+  {
+    slug: "kashmir-gardens-and-meadows",
+    collection: "himalaya",
+    title: "Kashmir Gardens and Meadows",
+    display: ["Kashmir", "gardens and meadows"],
+    kicker: "Dal Lake, Mughal gardens, Gulmarg's gondola and the Lidder valley",
+    summary:
+      "Six days in the Kashmir valley: a palace hotel above Dal Lake, the Mughal gardens, the gondola at Gulmarg, Pahalgam's river meadows and a dawn shikara.",
+    lead:
+      "The Kashmir valley is a place of water and gardens, ringed by mountains that keep their snow into summer. You stay in a former maharaja's palace above Dal Lake and walk the terraces the Mughals built to catch its view. Then up to Gulmarg, where a gondola climbs toward Apharwat, and across to Pahalgam and the Lidder river. The last morning is the one people remember: a shikara through the floating market at first light.",
+    days: 6,
+    nights: 5,
+    route: ["Srinagar", "Gulmarg", "Pahalgam", "Srinagar"],
+    cities: ["srinagar"],
+    destinations: ["kashmir"],
+    experiences: ["a-dawn-shikara-on-dal-lake"],
+    hero: "srinagar-houseboat",
+    gallery: ["kashmir-kahwa", "textiles-colour", "luxury-dining"],
+    bestFor: "Couples, families and travellers with elders who want mountain air without extreme altitude",
+    season:
+      "April to October. Late March and April bring the tulips, May to August the green meadows, and October the chinar trees turning red; Gulmarg lies under snow from December to March.",
+    pace: "Gentle. Two to three hours in the car on most travel days, with one longer drive and long lunches.",
+    highlights: [
+      "Three nights in a former palace above Dal Lake",
+      "Nishat and Shalimar, the Mughal garden terraces",
+      "The Gulmarg gondola toward Apharwat, weather permitting",
+      "Betaab and Aru in the Lidder valley",
+      "Kahwa and Wazwan, Kashmir's tea and feast",
+      "A dawn shikara through the floating market",
+    ],
+    signature: [
+      {
+        title: "The floating market at first light",
+        text: "A private shikara before sunrise, out through the lake's channels to the vegetable market held on boats, then back past the houseboats as the light comes up.",
+      },
+      {
+        title: "A Wazwan at your table",
+        text: "Kashmir's ceremonial feast, prepared for your party by a waza, a Wazwan cook, with rista, rogan josh and gushtaba served in courses. A vegetarian table can be laid too.",
+      },
+      {
+        title: "Papier-mâché and carpets",
+        text: "A visit to a workshop in the old city, where artisans paint papier-mâché in fine brushwork, and to a loom where a single silk carpet can take many months.",
+      },
+      {
+        title: "The gondola, booked ahead",
+        text: "Tickets for both stages of the Gulmarg gondola reserved in advance through the official portal, with the second stage taken when the weather allows.",
+      },
+    ],
+    stays: [
+      { place: "Srinagar", nights: 2, stay: "The LaLiT Grand Palace, Srinagar, or similar" },
+      { place: "Gulmarg", nights: 1, stay: "The Khyber Himalayan Resort & Spa, Gulmarg, or similar" },
+      {
+        place: "Pahalgam",
+        nights: 1,
+        stay: "Welcomhotel by ITC Hotels, Pine N Peak, Pahalgam, or similar",
+      },
+      { place: "Srinagar", nights: 1, stay: "The LaLiT Grand Palace, Srinagar, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Srinagar and the palace",
+        place: "Srinagar",
+        photo: "luxury-palace-courtyard",
+        text: "You are met at Srinagar airport and driven through the city to the old palace above Dal Lake, built for the maharajas of Kashmir and now a hotel set in lawns shaded by chinar trees. The afternoon is for rest; Srinagar sits at around 1,600 metres, enough to notice on the stairs. Late in the day take kahwa on the lawn, green tea with saffron, cardamom and almonds, and watch the lake turn silver as the light goes.",
+        moments: [
+          "Met on arrival at Srinagar",
+          "Kahwa on the palace lawn",
+          "Dal Lake turning silver",
+        ],
+        overnight: "The LaLiT Grand Palace, Srinagar, or similar",
+      },
+      {
+        day: 2,
+        title: "Mughal gardens and the old city",
+        place: "Srinagar",
+        photo: "kashmir-mughal-garden",
+        text: "The Mughal emperors came to Kashmir for the summer and built gardens to frame its lake. With your guide, walk the terraces of Nishat, laid out in the 1630s, and Shalimar, built for Jahangir, with water running down stone channels between the chinars. After lunch, the old city: the Jamia Masjid with its forest of deodar pillars, and the carved wooden shrine of Khanqah-e-Moula on the Jhelum. End the day in a papier-mâché workshop, watching the brushwork.",
+        moments: [
+          "Water channels at Shalimar",
+          "Deodar pillars of the Jamia Masjid",
+          "A papier-mâché workshop",
+        ],
+        overnight: "The LaLiT Grand Palace, Srinagar, or similar",
+      },
+      {
+        day: 3,
+        title: "Up to Gulmarg",
+        place: "Srinagar → Gulmarg",
+        photo: "gulmarg-snow",
+        text: "Leave after an early breakfast for the two-hour drive up through apple orchards and pine forest to Gulmarg, a high meadow ringed by peaks. The gondola is booked for the late morning: the first stage climbs to Kongdori, and the second, when the weather allows, continues toward the ridge of Apharwat, far above the tree line. Lunch back at your resort, a short walk from the gondola station, then an afternoon stroll across the meadow to the small stone church of St Mary's.",
+        moments: [
+          "Gondola to Kongdori and beyond",
+          "Snow peaks from the ridge",
+          "A walk to St Mary's church",
+        ],
+        overnight: "The Khyber Himalayan Resort & Spa, Gulmarg, or similar",
+      },
+      {
+        day: 4,
+        title: "Across the valley to Pahalgam",
+        place: "Gulmarg → Pahalgam",
+        photo: "private-car",
+        text: "A slow morning in Gulmarg, then the drive across the valley to Pahalgam, about five hours with stops. Your guide breaks the journey at Pampore, where saffron grows on the high plateau and the fields turn purple with crocus in late October and early November, and at the ruined ninth-century temple at Awantipora. By late afternoon you reach the Lidder valley, where the river runs fast and white past pine forest, and your hotel above the town.",
+        moments: [
+          "Saffron fields at Pampore",
+          "The ruined temple at Awantipora",
+          "First sight of the Lidder",
+        ],
+        overnight: "Welcomhotel by ITC Hotels, Pine N Peak, Pahalgam, or similar",
+      },
+      {
+        day: 5,
+        title: "The Lidder valley",
+        place: "Pahalgam → Srinagar",
+        photo: "pahalgam-meadow",
+        text: "This morning your car takes you up to Betaab Valley and then along the river to Aru, a village of wooden houses at the edge of wide meadows where shepherds graze their flocks in summer. Walk as far as you like, by the water or up into the pines. Which valleys are open depends on the local authorities, and your guide checks each morning. After lunch, the drive of about three hours back to Srinagar and a last evening at the palace.",
+        moments: [
+          "Morning in Betaab Valley",
+          "The meadows at Aru",
+          "A last evening at the palace",
+        ],
+        overnight: "The LaLiT Grand Palace, Srinagar, or similar",
+      },
+      {
+        day: 6,
+        title: "Dawn on Dal Lake",
+        place: "Srinagar",
+        photo: "srinagar-shikara",
+        text: "Before sunrise a shikara waits at a ghat on the Boulevard, a few minutes from the hotel. Your boatman paddles out through the quiet channels to the floating market, where vegetable growers trade from their boats in the half-light, then back past the carved houseboats as the sun comes over the mountains. Breakfast at the hotel, and the drive to the airport. Allow extra time: Srinagar airport has several security checks before you reach the terminal.",
+        moments: [
+          "A shikara before sunrise",
+          "The floating vegetable market",
+          "Breakfast, then the airport",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked luxury stays as listed, with daily breakfast",
+      "Private chauffeur-driven car for all transfers and touring",
+      "Private English-speaking guides in Srinagar, Gulmarg and Pahalgam (other languages on request)",
+      "Meet-and-assist at Srinagar airport on arrival and departure",
+      "Entrances to the Mughal gardens and the sites named",
+      "Gulmarg gondola tickets for both stages, subject to operation",
+      "The dawn shikara on Dal Lake",
+      "One Wazwan dinner for your party, and the papier-mâché workshop visit",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Domestic flights and trains",
+      "Travel insurance",
+      "Meals not mentioned",
+      "Pony rides and local union taxis in Pahalgam",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Travel advice",
+        text: "Several governments advise their citizens against travel to parts of Jammu and Kashmir. Check your own government's current advice and your insurance cover before booking; we follow local advisories throughout and change the plan if they change.",
+      },
+      {
+        title: "The gondola",
+        text: "The second stage of the Gulmarg gondola stops in high wind or heavy snow, and slots sell out in busy months. We book ahead and keep spare time in the day.",
+      },
+      {
+        title: "Pahalgam's valleys",
+        text: "Access to Betaab, Aru and other meadows is set by the local authorities and can change at short notice. Local rules may also require the town's own taxis for these valleys.",
+      },
+      {
+        title: "Yatra season",
+        text: "During the Amarnath Yatra, usually July and August, Pahalgam is crowded and roads are controlled. We may reverse the order of nights or base you in Srinagar instead.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can we stay on a houseboat?",
+        a: "Yes. We can move one Srinagar night to a private houseboat on Dal or Nigeen Lake, chosen for its comfort and its hosts. Many travellers enjoy one night aboard and the palace for the rest.",
+      },
+      {
+        q: "Is the altitude a concern?",
+        a: "Srinagar is around 1,600 metres, and Gulmarg and Pahalgam around 2,600 to 2,700. Most people feel little more than breathlessness on stairs. The top of the gondola is much higher, so travellers with heart or lung conditions should take advice before going up.",
+      },
+      {
+        q: "Can we see the tulips?",
+        a: "The Indira Gandhi Memorial Tulip Garden usually opens for a few weeks from late March into April. Tell us early, as Srinagar's best rooms fill quickly then.",
+      },
+    ],
+    seo: {
+      title: "Kashmir Journey: Srinagar, Gulmarg, Pahalgam | Tourmelloh",
+      description:
+        "Six private days in Kashmir: a palace hotel above Dal Lake, the Mughal gardens, the Gulmarg gondola, Pahalgam's Lidder valley and a dawn shikara on Dal.",
+    },
+  },
+
+  {
+    slug: "ladakh-the-high-passes",
+    collection: "himalaya",
+    title: "Ladakh: The High Passes",
+    display: ["Ladakh", "the high passes"],
+    kicker: "Monasteries, Khardung La, Nubra's dunes and a night at Pangong",
+    summary:
+      "Eight days in Ladakh, paced for the altitude: three quiet days in Leh, the monasteries of the Indus, Nubra over Khardung La, and a night beside Pangong Tso.",
+    lead:
+      "Ladakh begins at around 3,500 metres, so this journey starts by doing very little. Three nights in Leh let your body adjust while you see the palace, the stupas and the monasteries of the Indus valley, including morning prayers at Thiksey. Only then do you cross Khardung La into Nubra, with its dunes and double-humped camels, and follow the Shyok river to Pangong Tso, a lake that shifts from turquoise to deep blue as the clouds pass. A last night beneath Thiksey, then home.",
+    days: 8,
+    nights: 7,
+    route: ["Leh", "Nubra", "Pangong", "Leh"],
+    cities: ["leh"],
+    destinations: ["ladakh"],
+    experiences: ["morning-prayers-at-thiksey"],
+    hero: "ladakh-landscape",
+    gallery: ["ladakh-monks", "elder-portrait", "yoga-sunrise"],
+    bestFor: "Fit, curious travellers and families with older children, cleared by a doctor for high altitude",
+    season:
+      "Late May to September, when the high passes are open and the camps are running. June to August is warmest; September is clear and quieter.",
+    pace: "Slow at first by design, then three long days on mountain roads.",
+    highlights: [
+      "Three nights in Leh to acclimatise properly",
+      "Morning prayers in the assembly hall at Thiksey",
+      "Over Khardung La into the Nubra valley",
+      "Hunder's dunes and double-humped Bactrian camels",
+      "A night beside Pangong Tso",
+      "A last night in a camp below Thiksey",
+    ],
+    signature: [
+      {
+        title: "Prayers at Thiksey",
+        text: "You arrive at Thiksey before six to sit quietly at the back of the assembly hall as the monks chant the morning prayers, with horns, drums and butter tea passed along the rows.",
+      },
+      {
+        title: "Oxygen in every car",
+        text: "Every vehicle carries oxygen and a pulse oximeter, and your guide checks on you through the high days, with the authority to turn back if anyone is unwell.",
+      },
+      {
+        title: "A Ladakhi table",
+        text: "Lunch in a village home in Nubra, where a family can host you, with skyu, a stew of hand-shaped pasta, and apricots from the trees outside.",
+      },
+      {
+        title: "The lake at dawn",
+        text: "A night at Pangong so you see the lake at first light, when the water is still and the colours are clearest, before the day's visitors arrive from Leh.",
+      },
+    ],
+    stays: [
+      { place: "Leh", nights: 3, stay: "The Grand Dragon Ladakh, Leh, or similar" },
+      { place: "Nubra", nights: 2, stay: "Lchang Nang Retreat, Nubra, or similar" },
+      { place: "Pangong", nights: 1, stay: "Pangong Retreat Camp, Spangmik, or similar" },
+      { place: "Thiksey", nights: 1, stay: "Chamba Camp Thiksey, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Leh",
+        place: "Leh",
+        photo: "luxury-suite",
+        text: "The flight into Leh crosses the Himalaya and lands in a valley of bare brown mountains at around 3,500 metres. You are met at the airport and driven a few minutes to your hotel. Today you do nothing at all: rest, drink plenty of water, climb stairs slowly, and sleep if you can. Your guide checks on you in the afternoon. Hot soup, an early dinner and an early night. This quiet first day matters more than anything else on the journey.",
+        moments: [
+          "Mountains from the aircraft window",
+          "A full day of rest",
+          "Hot soup and an early night",
+        ],
+        overnight: "The Grand Dragon Ladakh, Leh, or similar",
+      },
+      {
+        day: 2,
+        title: "Leh, slowly",
+        place: "Leh",
+        photo: "ladakh-leh-palace",
+        text: "A gentle morning. Your guide drives you up to Leh Palace, nine storeys of stone and timber built in the seventeenth century for the kings of Ladakh, and you walk only as much as feels comfortable. Then the old town's lanes and the bazaar, with dried apricots, turquoise and pashmina. Rest after lunch. Late in the afternoon, drive up to the Shanti Stupa for the view across Leh to the Stok range as the light turns gold.",
+        moments: [
+          "Leh Palace above the old town",
+          "Apricots and turquoise in the bazaar",
+          "Shanti Stupa at golden hour",
+        ],
+        overnight: "The Grand Dragon Ladakh, Leh, or similar",
+      },
+      {
+        day: 3,
+        title: "Thiksey and the Indus valley",
+        place: "Leh",
+        photo: "ladakh-thiksey",
+        text: "Leave before dawn for Thiksey, which climbs its hill in white tiers like a small Potala. You sit at the back of the assembly hall as the morning prayers begin: long horns, drums and the low chant of the monks. Upstairs sits the great seated Maitreya. Breakfast back in the valley, then on to Hemis, the largest monastery in Ladakh, and the old palace at Shey, before a long afternoon of rest at the hotel.",
+        moments: [
+          "Morning prayers at Thiksey",
+          "The Maitreya of Thiksey",
+          "Hemis and the palace at Shey",
+        ],
+        overnight: "The Grand Dragon Ladakh, Leh, or similar",
+      },
+      {
+        day: 4,
+        title: "Over Khardung La",
+        place: "Leh → Nubra",
+        photo: "ladakh-khardung-la",
+        text: "Now that you have adjusted, the road climbs. Khardung La, among the highest motorable passes in the world, sits well above 5,000 metres; you stop only long enough for photographs among the prayer flags before descending. On the far side the Nubra valley opens out, green with willow and barley along the Shyok river. Lunch near Diskit, with its monastery and great statue of Maitreya facing down the valley, then on to your retreat beside the Nubra river.",
+        moments: [
+          "Prayer flags on Khardung La",
+          "The Maitreya statue at Diskit",
+          "Arriving by the Nubra river",
+        ],
+        overnight: "Lchang Nang Retreat, Nubra, or similar",
+      },
+      {
+        day: 5,
+        title: "Nubra's dunes",
+        place: "Nubra",
+        photo: "ladakh-nubra",
+        text: "A slower day in the valley. In the morning, the dunes at Hunder, where double-humped Bactrian camels, descendants of the old Silk Road caravans, wander between the sand and the sea buckthorn. A short ride if you wish. Lunch in a village home, where a family can host you, with skyu and apricots. In the afternoon, the monastery at Samstanling above Sumur, or simply sit by the river. Nubra is lower and warmer than Leh, and a good place to rest.",
+        moments: [
+          "Bactrian camels on Hunder's dunes",
+          "Lunch in a Ladakhi home",
+          "Samstanling above Sumur",
+        ],
+        overnight: "Lchang Nang Retreat, Nubra, or similar",
+      },
+      {
+        day: 6,
+        title: "Along the Shyok to Pangong",
+        place: "Nubra → Pangong",
+        photo: "ladakh-pangong",
+        text: "An early start for the long drive along the Shyok river to Pangong, about six hours on a road that runs through gorges and across river flats. If high water closes the Shyok road, your driver takes the route over Wari La instead. You reach the lake in the afternoon: Pangong Tso, long and narrow, its water shifting from turquoise to deep blue as clouds pass. The camp sits near the shore at Spangmik. At over 4,200 metres, this is the highest night of the journey.",
+        moments: [
+          "The Shyok gorges",
+          "First sight of Pangong Tso",
+          "A cold, clear night by the lake",
+        ],
+        overnight: "Pangong Retreat Camp, Spangmik, or similar",
+      },
+      {
+        day: 7,
+        title: "Chang La and Thiksey",
+        place: "Pangong → Thiksey",
+        photo: "luxury-dining",
+        text: "Wake early for the lake at dawn, still and pale before the wind rises. After breakfast, the drive back over Chang La, another pass above 5,000 metres, and down through Tangtse and the villages of the Indus valley. Your last night is at a luxury tented camp below Thiksey monastery, with proper beds, hot water and a long dinner to close the journey. It is a fitting end: quiet, close to the monastery, and lower down.",
+        moments: [
+          "Pangong at first light",
+          "Back over Chang La",
+          "A farewell dinner below Thiksey",
+        ],
+        overnight: "Chamba Camp Thiksey, or similar",
+      },
+      {
+        day: 8,
+        title: "Departure",
+        place: "Thiksey → Leh",
+        photo: "private-car",
+        text: "Flights out of Leh leave in the morning, when the weather over the mountains is steadiest, so the day starts early. Breakfast at the camp with Thiksey catching the first sun above you, then the drive of about half an hour to the airport, where your guide sees you through check-in. If your flight leaves later, there is time for a last walk along the valley floor and a final look at the monastery on its hill.",
+        moments: [
+          "Thiksey in the first sun",
+          "Breakfast at the camp",
+          "Seen through to check-in",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked stays as listed, with daily breakfast, and all meals in Nubra and at Pangong",
+      "Private chauffeur-driven car with an experienced mountain driver for all transfers and touring",
+      "Private English-speaking guide throughout (other languages on request)",
+      "Meet-and-assist at Leh airport on arrival and departure",
+      "Monastery entrances, and the environment and wildlife fees for Nubra and Pangong",
+      "Protected Area Permits for foreign nationals, arranged through a registered agency",
+      "Oxygen and a pulse oximeter in every vehicle",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Flights to and from Leh",
+      "Travel insurance, which should cover high-altitude travel and evacuation",
+      "Meals not mentioned",
+      "Camel rides and monastery donations",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Altitude",
+        text: "Leh is around 3,500 metres and Pangong over 4,200. Speak to your doctor before booking, especially about heart, lung or blood pressure conditions, and ask whether acetazolamide is right for you. The first day is deliberately empty and the second gentle.",
+      },
+      {
+        title: "Permits",
+        text: "Indian nationals no longer need an Inner Line Permit but pay an environment fee for Nubra and Pangong, which we arrange online. Foreign nationals need a Protected Area Permit for these areas, issued through a registered agency in Leh, so we need passport and visa copies in advance.",
+      },
+      {
+        title: "Roads and weather",
+        text: "Mountain roads close for snow, landslides or high water, and traffic is sometimes held for army convoys. Your driver and guide decide on the day, and the order of nights may change to keep you safe.",
+      },
+      {
+        title: "The Pangong camp",
+        text: "The camp at Pangong is comfortable but simple compared with Leh: warm bedding, attached bathrooms and limited electricity. Nights are cold even in July.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can children come?",
+        a: "Healthy older children usually manage well at this pace, though altitude affects everyone differently. Ask your paediatrician first and tell us about any medical history so the guide is prepared.",
+      },
+      {
+        q: "Why fly in rather than drive?",
+        a: "Flying in is quicker and, with three quiet days in Leh, comfortable for most people. The overland roads from Manali or Srinagar suit a longer journey, which we can also plan.",
+      },
+      {
+        q: "Can we spend more nights at the camp below Thiksey?",
+        a: "Yes, in season. The camp runs through the summer, and some travellers spend their first Leh nights there in place of a hotel.",
+      },
+    ],
+    seo: {
+      title: "Ladakh Journey: Leh, Nubra and Pangong Tso | Tourmelloh",
+      description:
+        "Eight private days in Ladakh paced for altitude: three nights in Leh, prayers at Thiksey, Khardung La to Nubra's dunes and a night beside Pangong Tso.",
+    },
+  },
+
+  {
+    slug: "darjeeling-and-sikkim",
+    collection: "himalaya",
+    title: "Darjeeling and Sikkim",
+    display: ["Darjeeling", "and Sikkim"],
+    kicker: "Kanchenjunga at dawn, a tea estate and the monasteries of Sikkim",
+    summary:
+      "Seven days in the eastern Himalaya: Kanchenjunga from Tiger Hill, the toy train to Ghum, two nights on a working tea estate and the monasteries of Gangtok.",
+    lead:
+      "The eastern Himalaya is gentler than the west, a country of tea gardens, cloud forest and Buddhist monasteries beneath Kanchenjunga, the third-highest mountain on earth. You start in Darjeeling with the sunrise from Tiger Hill and the narrow-gauge toy train, then spend two nights on a working tea estate in the hills below the town, drinking tea grown on the slopes outside your window. Then into Sikkim, its monasteries, and a high lake hung with prayer flags.",
+    days: 7,
+    nights: 6,
+    route: ["Bagdogra", "Darjeeling", "Glenburn", "Gangtok"],
+    cities: ["darjeeling", "gangtok"],
+    destinations: ["sikkim-and-darjeeling"],
+    experiences: [],
+    hero: "kanchenjunga-sunrise",
+    gallery: ["train-journey", "cooking-class", "elder-portrait"],
+    bestFor: "Tea lovers, families with elders and anyone who wants the Himalaya at a comfortable altitude",
+    season:
+      "October to early December for the clearest mountain views, and March to May for rhododendrons and the first flush of tea. The monsoon, June to September, brings cloud and landslides.",
+    pace: "Moderate. Three hotels, one very early start for Tiger Hill, and winding hill roads between them.",
+    highlights: [
+      "Sunrise on Kanchenjunga from Tiger Hill",
+      "The toy train around Batasia Loop to Ghum",
+      "Two nights on a working tea estate",
+      "Tasting the estate's own teas",
+      "Rumtek and the monasteries of Gangtok",
+      "Tsomgo Lake, permits and weather allowing",
+    ],
+    signature: [
+      {
+        title: "Tiger Hill at first light",
+        text: "Your car leaves Darjeeling in the dark so you are in place as the first light touches Kanchenjunga, with hot tea in hand and a guide who knows each peak by name.",
+      },
+      {
+        title: "The toy train to Ghum",
+        text: "Seats on the Darjeeling Himalayan Railway's joy ride, around the Batasia Loop to Ghum and back, hauled by steam when the schedule allows.",
+      },
+      {
+        title: "Two days among the tea",
+        text: "Two nights at Glenburn, with a walk through the gardens, the factory when it is working, and a tasting of the estate's teas on the verandah.",
+      },
+      {
+        title: "Rumtek with a knowing guide",
+        text: "A morning at Rumtek with a guide versed in the Karma Kagyu tradition, explaining the monastery's history, its murals and any ritual you are lucky enough to see.",
+      },
+    ],
+    stays: [
+      { place: "Darjeeling", nights: 1, stay: "Mayfair Hill Resort, Darjeeling, or similar" },
+      { place: "Glenburn", nights: 2, stay: "Glenburn Tea Estate, or similar" },
+      { place: "Gangtok", nights: 3, stay: "Mayfair Spa Resort & Casino, Gangtok, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Up into the hills",
+        place: "Bagdogra → Darjeeling",
+        photo: "private-car",
+        text: "You are met at Bagdogra airport, down on the plains, and driven up into the hills, about three hours by way of Kurseong as the tea gardens close in around the road. Darjeeling sits along a ridge at over 2,000 metres. Your hotel is a short walk from the Mall and Chowrasta, the town's open square. In the evening, stroll up for tea at one of the old tea rooms, then an early night, because tomorrow starts long before dawn.",
+        moments: [
+          "Met on arrival at Bagdogra",
+          "The climb through Kurseong",
+          "Evening tea on the Mall",
+        ],
+        overnight: "Mayfair Hill Resort, Darjeeling, or similar",
+      },
+      {
+        day: 2,
+        title: "Tiger Hill and the toy train",
+        place: "Darjeeling → Glenburn",
+        photo: "darjeeling-toy-train",
+        text: "Leave at four for Tiger Hill and wait in the cold as the light reaches Kanchenjunga, then the peaks beside it; on the clearest mornings Everest shows far to the west. Back for breakfast, then the joy ride on the Darjeeling Himalayan Railway, a narrow-gauge line now a World Heritage Site, which loops around Batasia and climbs to Ghum, the highest station on the line. In the afternoon, drive down to the tea estate for two nights.",
+        moments: [
+          "Kanchenjunga from Tiger Hill",
+          "Steam around the Batasia Loop",
+          "Down to the tea estate",
+        ],
+        overnight: "Glenburn Tea Estate, or similar",
+      },
+      {
+        day: 3,
+        title: "A day among the tea",
+        place: "Glenburn",
+        photo: "darjeeling-tea",
+        text: "A day on the estate. Walk the gardens as the pluckers move along the rows, picking two leaves and a bud. When the factory is working, follow the leaf inside as it is withered, rolled and dried. Then a tasting on the verandah, first flush against second flush, each from the estate's own bushes. In the afternoon, walk down through village paths toward the river, or stay in with a massage and a book, with Kanchenjunga across the valley.",
+        moments: [
+          "Two leaves and a bud",
+          "Tasting on the verandah",
+          "Kanchenjunga across the valley",
+        ],
+        overnight: "Glenburn Tea Estate, or similar",
+      },
+      {
+        day: 4,
+        title: "Into Sikkim",
+        place: "Glenburn → Gangtok",
+        photo: "luxury-suite",
+        text: "A morning cookery lesson at the estate if you would like one, then the drive down to the Teesta river and up into Sikkim, about four hours. At Rangpo, foreign nationals show their Sikkim permit at the checkpost; we arrange it in advance. Gangtok spreads along a ridge, with monasteries above and the river far below. Settle into your hotel. In the evening, walk MG Marg, the town's pedestrian high street, clean and free of cars, for momos and tea.",
+        moments: [
+          "A cookery lesson on the estate",
+          "Down to the Teesta river",
+          "Momos on MG Marg",
+        ],
+        overnight: "Mayfair Spa Resort & Casino, Gangtok, or similar",
+      },
+      {
+        day: 5,
+        title: "Rumtek and the monasteries",
+        place: "Gangtok",
+        photo: "gangtok-monastery",
+        text: "Rumtek, across the valley, is the great monastery of the Karma Kagyu school, built here in the 1960s by the sixteenth Karmapa after he left Tibet. Your guide explains the murals, the prayer halls and the school's long history. Back in Gangtok, Enchey Monastery and the Do Drul Chorten, ringed with prayer wheels, and, on the days it opens, the Namgyal Institute of Tibetology, with its remarkable collection of Tibetan books, icons and thangkas.",
+        moments: [
+          "The prayer halls of Rumtek",
+          "Prayer wheels at Do Drul Chorten",
+          "Thangkas at the Namgyal Institute",
+        ],
+        overnight: "Mayfair Spa Resort & Casino, Gangtok, or similar",
+      },
+      {
+        day: 6,
+        title: "Tsomgo Lake",
+        place: "Gangtok",
+        photo: "sikkim-prayer-flags",
+        text: "With permits arranged the day before, drive up the mountain road to Tsomgo Lake, at around 3,750 metres, a glacial lake held in a bowl of rock and hung with prayer flags. In spring the slopes are bright with rhododendron; in winter the lake can freeze. Stay as long as the altitude is comfortable, then come down for a late lunch. Indian nationals may continue to Nathu La on the old trade route to Tibet when it is open; foreign nationals may not.",
+        moments: [
+          "The mountain road to Tsomgo",
+          "Prayer flags above the lake",
+          "A late lunch back in Gangtok",
+        ],
+        overnight: "Mayfair Spa Resort & Casino, Gangtok, or similar",
+      },
+      {
+        day: 7,
+        title: "Departure",
+        place: "Gangtok → Bagdogra",
+        photo: "luxury-dining",
+        text: "A last breakfast with the valley below you. Then the long drive down through the Teesta gorge to the plains and Bagdogra airport, about four and a half hours, timed to your afternoon flight with a margin for traffic and roadworks. Your driver knows the good places to stop for tea on the way. If you would rather not drive on your last day, we can add a final night in the hills or on the plains near the airport.",
+        moments: [
+          "A last breakfast above the valley",
+          "The Teesta gorge",
+          "Driven to Bagdogra for your flight",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked luxury stays as listed, with daily breakfast",
+      "Private chauffeur-driven car for all transfers and touring",
+      "Private English-speaking guides in Darjeeling and Gangtok (other languages on request)",
+      "Meet-and-assist at Bagdogra airport on arrival and departure",
+      "Tiger Hill entry, the toy train joy ride and monastery entrances",
+      "Sikkim permits and the Tsomgo Lake permit, arranged in advance",
+      "An estate walk and tea tasting at Glenburn",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Flights to and from Bagdogra",
+      "Travel insurance",
+      "Meals not mentioned",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "Permits",
+        text: "Foreign nationals need a Restricted Area Permit to enter Sikkim and a further permit for Tsomgo Lake, and Nathu La is open to Indian nationals only. Send us passport and visa copies when you book and we arrange the rest.",
+      },
+      {
+        title: "Clouds and views",
+        text: "Kanchenjunga can hide behind cloud for days, especially in the monsoon and the spring haze. Glenburn has its own view of the range, so a cloudy Tiger Hill is not your only chance.",
+      },
+      {
+        title: "The toy train",
+        text: "The railway sets its own timetable, and services can be suspended after heavy rain or landslides. We book the joy ride in advance and confirm it the day before.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is the altitude difficult?",
+        a: "Darjeeling and Gangtok sit at around 2,000 and 1,600 metres, which most people find comfortable. Tsomgo Lake is much higher, so the visit is kept short and you can skip it.",
+      },
+      {
+        q: "Can we add Pelling?",
+        a: "Yes. Two nights in Pelling add Pemayangtse monastery and another fine view of Kanchenjunga. North Sikkim needs separate permits and is better as a journey of its own.",
+      },
+      {
+        q: "Can we bring tea home?",
+        a: "Yes, and it is the best way to take Darjeeling with you. Your guide can take you to a good tea merchant in town to taste before you buy.",
+      },
+    ],
+    seo: {
+      title: "Darjeeling and Sikkim: Tea and Toy Train | Tourmelloh",
+      description:
+        "Seven private days in the eastern Himalaya: sunrise on Kanchenjunga, the Darjeeling toy train, two nights on a tea estate, Rumtek and Tsomgo Lake.",
+    },
+  },
+
+  {
+    slug: "shimla-and-manali",
+    collection: "himalaya",
+    title: "Shimla and Manali",
+    display: ["Shimla", "and Manali"],
+    kicker: "A Raj summer capital, cedar forest and the Kullu valley",
+    summary:
+      "Seven days in Himachal: three nights in the cedar forest above Shimla, the toy train and the Ridge, then the Kullu valley, Naggar and the Atal Tunnel.",
+    lead:
+      "Shimla was the summer capital of British India, and the town still keeps its Gothic church on the Ridge, its Mall and its mountain railway. You stay outside it, in a cedar forest at Mashobra on the site of a colonial-era retreat, and come in for the history. Then the drive north along the Beas to the Kullu valley: apple orchards, wooden temples, the castle at Naggar and, on a clear day, the road through the Atal Tunnel to Lahaul.",
+    days: 7,
+    nights: 6,
+    route: ["Chandigarh", "Shimla", "Manali"],
+    cities: ["shimla", "manali"],
+    destinations: ["himachal-pradesh"],
+    experiences: [],
+    hero: "himachal-toy-train",
+    gallery: ["train-journey", "thali-feast", "elder-portrait"],
+    bestFor: "Families with elders, couples and first-time visitors to the Himalaya",
+    season:
+      "March to June and September to November for clear days. December to February brings snow to Manali and sometimes Shimla, and the monsoon, July and August, can close hill roads with landslides.",
+    pace: "Gentle in Shimla, with one long drive of about seven hours to Manali.",
+    highlights: [
+      "Three nights at Wildflower Hall in the cedar forest",
+      "The Ridge, Christ Church and the Viceregal Lodge",
+      "A short run on the Kalka-Shimla toy train",
+      "Hadimba temple and the lanes of Old Manali",
+      "Naggar Castle and the Roerich estate",
+      "Through the Atal Tunnel to Lahaul, weather permitting",
+    ],
+    signature: [
+      {
+        title: "The toy train, in part",
+        text: "Seats on the Kalka-Shimla railway for a short run out of Shimla, through its tunnels and over its stone bridges, with your car waiting at a station further down the line.",
+      },
+      {
+        title: "Shimla with a guide who knows it",
+        text: "A walk through the Raj-era centre, from Christ Church to the Viceregal Lodge, where the Simla Conference met in 1945, with a guide who knows each building's story.",
+      },
+      {
+        title: "A picnic in the orchards",
+        text: "A guided walk through terraced apple orchards above Mashobra, ending with a picnic laid out facing the snows, arranged with the hotel.",
+      },
+      {
+        title: "Kullu shawls at the loom",
+        text: "A visit to weavers in the Kullu valley, where shawls are still woven on wooden handlooms with bright geometric borders.",
+      },
+    ],
+    stays: [
+      { place: "Shimla (Mashobra)", nights: 3, stay: "Wildflower Hall, An Oberoi Resort, Shimla, or similar" },
+      { place: "Manali", nights: 3, stay: "Span Resort & Spa, Manali, or similar" },
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Up from the plains",
+        place: "Chandigarh → Shimla",
+        photo: "private-car",
+        text: "You are met at Chandigarh airport and driven up into the hills, four to five hours with a stop for lunch, as the road climbs from the plains through pine and then cedar forest. Your hotel stands beyond Shimla at Mashobra, at around 2,500 metres in a forest of deodar, on the site of a colonial-era retreat. Arrive by late afternoon, walk the grounds as the light goes, and sit by the fire before dinner.",
+        moments: [
+          "Met on arrival at Chandigarh",
+          "Pine, then cedar, on the climb",
+          "A fire before dinner",
+        ],
+        overnight: "Wildflower Hall, An Oberoi Resort, Shimla, or similar",
+      },
+      {
+        day: 2,
+        title: "Shimla on foot",
+        place: "Shimla",
+        photo: "shimla-ridge",
+        text: "With your guide, walk Shimla's centre as its summer residents did: along the Mall to the Ridge and Christ Church, completed in 1857, past the Gaiety Theatre and the old offices of the Raj. In the afternoon, the Viceregal Lodge, a grey stone mansion finished in 1888 where the viceroys spent their summers and the Simla Conference met in 1945. Then a short run on the toy train out of Shimla station, with the car waiting further down the line.",
+        moments: [
+          "Christ Church on the Ridge",
+          "The Viceregal Lodge",
+          "A short run on the toy train",
+        ],
+        overnight: "Wildflower Hall, An Oberoi Resort, Shimla, or similar",
+      },
+      {
+        day: 3,
+        title: "The cedar forest",
+        place: "Mashobra",
+        photo: "luxury-pool",
+        text: "A day at the hotel and in the forest around it. In the morning, a guided walk through terraced apple orchards, ending with a picnic laid out facing the snows. In the afternoon, the spa, whose treatment rooms sit among the cedars, the indoor pool, or the outdoor whirlpool with its view across the ranges. If you would rather see more, drive out to Naldehra or Chail for the afternoon. Dinner by the fire.",
+        moments: [
+          "A walk through the apple orchards",
+          "A picnic facing the snows",
+          "The whirlpool above the ranges",
+        ],
+        overnight: "Wildflower Hall, An Oberoi Resort, Shimla, or similar",
+      },
+      {
+        day: 4,
+        title: "North to the Kullu valley",
+        place: "Shimla → Manali",
+        photo: "luxury-suite",
+        text: "The longest day of the journey, about seven hours with stops, but a beautiful one. The road follows the ridges down to Mandi, an old temple town on the Beas, then climbs with the river through its gorge into the Kullu valley, where apple orchards and wooden villages line the slopes. Lunch on the way. By late afternoon you reach your hotel on the banks of the Beas below Manali, set in walnut orchards, with the sound of the river outside your room.",
+        moments: [
+          "Mandi's temples on the Beas",
+          "The gorge into the Kullu valley",
+          "A room above the river",
+        ],
+        overnight: "Span Resort & Spa, Manali, or similar",
+      },
+      {
+        day: 5,
+        title: "Old Manali and Naggar",
+        place: "Manali",
+        photo: "textiles-colour",
+        text: "In the morning, the Hadimba Devi temple, a sixteenth-century wooden shrine in a grove of giant deodars, then the lanes of Old Manali and the hot springs at Vashisht. After lunch, cross the river to Naggar, once the capital of the Kullu kings, for its stone and timber castle and the estate of the Russian painter Nicholas Roerich, whose Himalayan canvases hang in the house. On the way back, an hour with Kullu shawl weavers at their looms.",
+        moments: [
+          "Hadimba temple among the deodars",
+          "Roerich's paintings at Naggar",
+          "Kullu shawls on the loom",
+        ],
+        overnight: "Span Resort & Spa, Manali, or similar",
+      },
+      {
+        day: 6,
+        title: "Solang and the Atal Tunnel",
+        place: "Manali",
+        photo: "manali-valley",
+        text: "Up the valley to Solang, a wide meadow below snow peaks, and on through the Atal Tunnel, nine kilometres under the Pir Panjal range, opened in 2020. On the far side lies Lahaul, a dry, high valley that feels closer to Ladakh than to Kullu. Walk at Sissu by the river and its waterfall before turning back. The tunnel and the road beyond depend on the weather and local traffic rules, and your driver decides on the day.",
+        moments: [
+          "Snow peaks above Solang",
+          "Through the Atal Tunnel",
+          "The waterfall at Sissu",
+        ],
+        overnight: "Span Resort & Spa, Manali, or similar",
+      },
+      {
+        day: 7,
+        title: "Departure",
+        place: "Manali → Bhuntar or Chandigarh",
+        photo: "luxury-dining",
+        text: "A slow breakfast by the river. If you are flying from Bhuntar, the small airport in the Kullu valley, it is a short drive down for the flight to Delhi, when it is scheduled and the weather allows. Otherwise your driver takes you back to Chandigarh, a full day on the road, in time for an evening flight or an onward train. We choose between the two when you book, based on the season and the flight schedule.",
+        moments: [
+          "Breakfast beside the Beas",
+          "Bhuntar or the road south",
+          "Seen off for your flight",
+        ],
+        overnight: "Departure",
+      },
+    ],
+    included: [
+      "Handpicked luxury stays as listed, with daily breakfast",
+      "Private chauffeur-driven car for all transfers and touring",
+      "Private English-speaking guides in Shimla and Manali (other languages on request)",
+      "Meet-and-assist at Chandigarh airport on arrival and at departure",
+      "Entrances for the sites named, including the Viceregal Lodge and Naggar Castle",
+      "Toy train tickets for the Shimla run, subject to availability",
+      "The orchard walk and picnic at Mashobra",
+      "A dedicated Tourmelloh trip contact throughout the journey",
+    ],
+    excluded: [
+      "International flights and visas",
+      "Domestic flights and trains, including the Bhuntar flight if used",
+      "Travel insurance",
+      "Meals not mentioned",
+      "Personal expenses, camera fees and gratuities",
+      "Anything not in the written proposal",
+    ],
+    notes: [
+      {
+        title: "The long drive",
+        text: "The road from Shimla to Manali takes about seven hours with stops and can be slower after rain. We leave early and break the day with a good lunch.",
+      },
+      {
+        title: "Mountain roads",
+        text: "Landslides in the monsoon and snow in winter can close roads, including the way to the Atal Tunnel. Your driver and guide decide on the day, and we change the plan before we take a risk.",
+      },
+      {
+        title: "Leaving the valley",
+        text: "Flights from Bhuntar are few and depend on the weather. If yours is cancelled, the drive to Chandigarh is the fallback, so keep the last day free of tight connections.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can we stay in Shimla town instead?",
+        a: "Yes. The Oberoi Cecil on the Mall is a fine heritage hotel, with wooden floors and open fires, and puts the Ridge on your doorstep.",
+      },
+      {
+        q: "Can we ride the whole toy train from Kalka?",
+        a: "Yes. The full line from Kalka to Shimla takes around five to six hours. We can begin the journey with it in place of the drive, if you are happy to spend most of the first day on the train.",
+      },
+      {
+        q: "Will there be snow?",
+        a: "From December to February Manali usually has snow, and Shimla sometimes does. Solang is the place to see it, though roads may close after heavy falls.",
+      },
+    ],
+    seo: {
+      title: "Shimla and Manali: Private Himachal Journey | Tourmelloh",
+      description:
+        "Seven private days in Himachal: three nights at Wildflower Hall above Shimla, the toy train and the Ridge, then the Kullu valley, Naggar and the Atal Tunnel.",
+    },
+  },
+];
