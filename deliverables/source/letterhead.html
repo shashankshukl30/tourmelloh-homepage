@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tourmelloh letterhead</title>
+<style>
+  @font-face { font-family: "Newsreader"; src: url("../../public/fonts/newsreader-400-opsz-normal.woff2") format("woff2"); font-style: normal; }
+  @font-face { font-family: "Newsreader"; src: url("../../public/fonts/newsreader-400-opsz-italic.woff2") format("woff2"); font-style: italic; }
+  @font-face { font-family: "Instrument Sans"; src: url("../../node_modules/@fontsource-variable/instrument-sans/files/instrument-sans-latin-standard-normal.woff2") format("woff2"); font-weight: 400 700; }
+  @page { size: A4; margin: 0; }
+  :root { --ink: #152c20; --clay: #983d24; --muted: #655c53; --line: #cdc2b5; --paper: #f9f5ec; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 210mm; height: 297mm; }
+  body { font-family: "Instrument Sans", Arial, sans-serif; color: var(--ink); background: #fff; }
+  .page { position: relative; width: 210mm; height: 297mm; padding: 0 20mm; }
+  header { display: flex; justify-content: space-between; align-items: flex-end; padding-top: 16mm; padding-bottom: 7mm; border-bottom: 0.4mm solid var(--ink); }
+  header img { width: 58mm; display: block; }
+  .contact { text-align: right; font-size: 8.6pt; line-height: 1.65; color: var(--ink); letter-spacing: .01em; }
+  .contact span { color: var(--muted); }
+  .line-clay { height: 0.9mm; width: 26mm; background: var(--clay); margin-top: -0.65mm; }
+  .tagline { margin-top: 5mm; font-family: "Newsreader", Georgia, serif; font-style: italic; font-size: 11pt; color: var(--clay); }
+  footer { position: absolute; left: 20mm; right: 20mm; bottom: 12mm; padding-top: 4mm; border-top: 0.25mm solid var(--line); display: flex; justify-content: space-between; font-size: 7.8pt; color: var(--muted); letter-spacing: .02em; }
+  footer b { font-weight: 600; color: var(--ink); }
+  .mark { position: absolute; right: 14mm; bottom: 30mm; width: 62mm; opacity: .045; }
+</style>
+</head>
+<body>
+  <div class="page">
+    <header id="lh-header">
+      <img src="../../public/brand/tourmelloh-logo.svg" alt="Tourmelloh">
+      <div class="contact">
+        +91 77069 97271 <span>· Phone &amp; WhatsApp</span><br>
+        tourmelloh@gmail.com<br>
+        tourmelloh.com
+      </div>
+    </header>
+    <div class="line-clay"></div>
+    <p class="tagline">Private journeys across India, designed in Varanasi.</p>
+    <img class="mark" src="../../public/brand/tourmelloh-symbol.svg" alt="">
+    <footer id="lh-footer">
+      <span><b>Tourmelloh</b> · Varanasi, Uttar Pradesh, India</span>
+      <span>tourmelloh.com · +91 77069 97271</span>
+    </footer>
+  </div>
+</body>
+</html>

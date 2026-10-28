@@ -58,3 +58,5 @@
   .search-result h2 { font-size: 24px; }
   .search-result p:not(.search-detail) { display: none; }
 }
+.search-box:focus-within { outline: 2px solid var(--clay); outline-offset: 3px; }
+.search-box input:focus-visible { outline: none; }

@@ -23,7 +23,7 @@ export const SYNONYMS: Record<string, string> = {
   calcutta: "kolkata", bombay: "mumbai", gurgaon: "delhi", ncr: "delhi", taj: "taj", bodhgaya: "bodh",
   budh: "bodh", buddha: "buddha", ladak: "ladakh", leh: "leh", darjiling: "darjeeling", rishikesh: "rishikesh",
   kedar: "kedarnath", badri: "badrinath", chardham: "char", mahakaleshwar: "mahakal", ujjian: "ujjain",
-  amritsar: "amritsar", harmandir: "golden", honeymoon: "couples", couple: "couples", tigers: "tiger",
+  amritsar: "amritsar", harmandir: "golden", couple: "couples", romantic: "honeymoon", tigers: "tiger",
   safari: "safari", beaches: "beach", island: "islands", mountains: "himalaya", hills: "himalaya",
   pilgrimage: "sacred", pilgrimages: "sacred", yatra: "sacred", spiritual: "sacred", temples: "temple",
   palaces: "palace", desert: "thar", camel: "thar", backwaters: "backwater", houseboat: "houseboat",
@@ -89,7 +89,8 @@ export function queryTerms(query: string) {
 export function search(prepared: Prepared[], query: string, kind: "All" | SearchKind = "All") {
   const { terms } = queryTerms(query);
   if (!terms.length) return { results: [] as SearchEntry[], partial: false };
-  const whole = normalize(query);
+  // Compare whole titles against what the visitor meant (Banaras -> varanasi), not what they typed.
+  const whole = terms.join(" ");
   const scored = prepared
     .filter((p) => kind === "All" || p.entry.kind === kind)
     .map((p) => {

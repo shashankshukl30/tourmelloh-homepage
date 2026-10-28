@@ -100,7 +100,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="cat-grid">
-            {articles.slice(0, 3).map((article) => <ArticleCard key={article.slug} article={article} />)}
+            {["the-golden-triangle-done-properly", "andaman-havelock-or-neil", "char-dham-by-helicopter-what-to-know"].map((slug) => articles.find((a) => a.slug === slug)).filter((a) => a !== undefined).map((article) => <ArticleCard key={article.slug} article={article} />)}
           </div>
         </section>
 

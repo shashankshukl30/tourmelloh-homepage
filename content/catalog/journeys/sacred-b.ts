@@ -1056,7 +1056,7 @@ export const journeys: Journey[] = [
     cities: ["ranthambore"],
     destinations: ["rajasthan"],
     experiences: ["tiger-safari-in-ranthambore"],
-    hero: "ranthambore-tiger",
+    hero: "ranthambore-fort",
     gallery: ["luxury-pool", "luxury-dining", "rajasthan-musicians"],
     bestFor:
       "A first tiger safari, a weekend from Delhi or Jaipur, or an addition to a Rajasthan journey.",
@@ -1122,7 +1122,7 @@ export const journeys: Journey[] = [
         day: 3,
         title: "The fort and departure",
         place: "Ranthambore → Jaipur",
-        photo: "ranthambore-fort",
+        photo: "ranthambore-tiger",
         text: "A choice for the last morning: a fourth drive in the park, or Ranthambore Fort, part of the Hill Forts of Rajasthan World Heritage Site, reached by the road through the park gate. Pilgrims climb to the Trinetra Ganesh temple inside its walls, and from the ramparts the whole forest lies below, its lakes catching the early light. Brunch at the lodge, then the drive back to Jaipur or the train from Sawai Madhopur, timed around your onward plans.",
         moments: [
           "A fourth drive, or the fort",

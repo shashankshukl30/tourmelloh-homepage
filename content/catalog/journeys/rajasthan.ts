@@ -193,8 +193,8 @@ export const journeys: Journey[] = [
       "old-kashi-heritage-walk",
       "sarnath-with-a-scholar",
     ],
-    hero: "agra-taj-arch",
-    gallery: ["jaipur-hawa-mahal", "sarnath-dhamek-stupa", "varanasi-aerial-ghats"],
+    hero: "varanasi-aerial-ghats",
+    gallery: ["jaipur-hawa-mahal", "sarnath-dhamek-stupa", "agra-taj-arch"],
     bestFor: "Travellers who want India's great monuments and its spiritual heart in one journey",
     season:
       "October to March. Varanasi's winter mornings are misty and beautiful, and Agra can be fogged in late December and January, so we leave some give in the plan.",

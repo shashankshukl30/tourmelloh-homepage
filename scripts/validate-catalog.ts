@@ -48,6 +48,11 @@ const journeySlugs = new Set(journeys.map((j) => j.slug));
 
 unique("catalogue", "journey slug", journeys.map((j) => j.slug));
 unique("catalogue", "city slug", cities.map((c) => c.slug));
+// Cards of one kind appear side by side, so no two may open on the same photograph.
+unique("catalogue", "journey hero", journeys.map((j) => j.hero));
+unique("catalogue", "city hero", cities.map((c) => c.hero));
+unique("catalogue", "destination hero", destinations.map((d) => d.hero));
+unique("catalogue", "experience hero", experiences.map((e) => e.hero));
 
 for (const j of journeys) {
   const at = `journey ${j.slug}`;

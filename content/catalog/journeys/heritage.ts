@@ -16,7 +16,7 @@ export const journeys: Journey[] = [
     cities: ["lucknow", "agra", "vrindavan"],
     destinations: ["uttar-pradesh"],
     experiences: ["an-awadhi-food-trail", "the-taj-mahal-at-sunrise"],
-    hero: "agra-taj-arch",
+    hero: "lucknow-bara-imambara",
     gallery: ["lucknow-rumi-darwaza", "vrindavan-prem-mandir", "lucknow-chikankari"],
     bestFor:
       "Travellers who want northern India's architecture, food and faith in one unhurried week, including families travelling with elders.",
@@ -68,7 +68,7 @@ export const journeys: Journey[] = [
         day: 2,
         title: "The imambaras and the old city's kitchens",
         place: "Lucknow",
-        photo: "lucknow-bara-imambara",
+        photo: "agra-taj-arch",
         text: "Reach the Bara Imambara early, before the heat, with a guide who knows Nawabi history. Asaf-ud-Daula built its great vaulted hall to give his people work in a famine, and above it runs the Bhool Bhulaiya, a maze of narrow passages reached by steep stairs, worth it if your knees agree. Walk out beneath the Rumi Darwaza to the Chota Imambara and its chandeliers. Rest through the afternoon. At dusk the Awadhi food trail takes you into the old city's kitchens, at the pace of your appetite.",
         moments: ["Bara Imambara and the Bhool Bhulaiya", "Beneath the Rumi Darwaza", "The Awadhi food trail at dusk"],
         overnight: "Taj Mahal Lucknow",

@@ -73,6 +73,9 @@ export function CompanyPage({ slug }: { slug: string }) {
                 </div>
               </Reveal>
             ))}
+            {slug === "terms" && (
+              <p className="cat-legal-note">Some photographs on this site are used under licences that ask for a credit; they are listed on our <a href="/photo-credits">photo credits</a> page.</p>
+            )}
           </div>
         )}
         <EnquiryBand />

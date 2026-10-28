@@ -16,7 +16,7 @@ export function VaranasiEdit() {
       <div className="chapter-heading"><span className="eyebrow">THE HOMEGROUND</span><span>Varanasi · Uttar Pradesh</span></div>
       <div className="chapter-layout">
         <Reveal className="chapter-visual">
-          <div className="chapter-photo"><Photo k="varanasi-ghats-dawn" sizes="(max-width: 700px) 90vw, 43vw" /></div>
+          <div className="chapter-photo"><Photo k="varanasi-river-mist" sizes="(max-width: 700px) 90vw, 43vw" /></div>
           <div className="chapter-photo-note"><span>A city you don’t rush.</span><Link href="/cities/varanasi" aria-label="Read our Varanasi city guide"><ArrowUpRight size={24} /></Link></div>
         </Reveal>
         <Reveal className="chapter-copy" delay={0.1}>

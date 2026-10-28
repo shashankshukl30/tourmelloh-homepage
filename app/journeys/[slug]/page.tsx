@@ -187,7 +187,7 @@ export default async function JourneyPage({ params }: Props) {
               <ul className="cat-list">{journey.excluded.map((item) => <li key={item}>{item}</li>)}</ul>
             </div>
           </div>
-          <div className="cat-moments">
+          <div className="cat-moments cat-notes">
             {journey.notes.map((note) => (
               <article className="cat-moment cat-moment-plain" key={note.title}>
                 <h3>{note.title}</h3>

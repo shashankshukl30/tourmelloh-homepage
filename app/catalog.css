@@ -183,3 +183,6 @@
   .cat-takeaways { position: static; }
   .cat-article-photo > div { aspect-ratio: 4 / 3; border-radius: var(--radius-photo); }
 }
+.cat-notes { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 56px; }
+@media (max-width: 640px) { .cat-notes { grid-template-columns: 1fr; } }
+.cat-legal-note { padding-top: 32px; border-top: 1px solid var(--line); font-size: 15px; color: var(--muted); } .cat-legal-note a { text-decoration: underline; text-underline-offset: 3px; }

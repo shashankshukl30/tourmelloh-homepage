@@ -25,6 +25,20 @@ const ALIASES: Record<string, string> = {
   "the-himalaya": "mountains snow hills himalayas",
 };
 
+/** Journey-specific words people search for. */
+const JOURNEY_TAGS: Record<string, string> = {
+  "andaman-for-two": "honeymoon honeymoon couples romantic anniversary",
+  "udaipur-lakes-and-palaces": "honeymoon couples romantic anniversary",
+  "kerala-backwaters-and-hills": "honeymoon couples families",
+  "kashmir-gardens-and-meadows": "honeymoon couples snow",
+  "goa-beyond-the-beaches": "honeymoon couples beach",
+  "kerala-ayurveda-retreat": "wellness spa detox",
+  "char-dham-by-helicopter": "yatra pilgrimage helicopter chardham",
+  "kedarnath-and-badrinath-by-helicopter": "do dham yatra helicopter",
+  "tigers-of-central-india": "tiger safari wildlife kanha bandhavgarh",
+  "ranthambore-tiger-weekend": "tiger safari wildlife weekend",
+};
+
 const thumb = (key: MediaKey) => ({ src: media[key].src, blur: media[key].blur });
 const short = (text: string, words = 26) => {
   const list = text.split(/\s+/);
@@ -37,7 +51,7 @@ export function buildSearchIndex(): SearchEntry[] {
       id: j.slug, kind: "Journey" as const, title: j.title, href: `/journeys/${j.slug}`,
       detail: `${duration(j)} · ${j.route.join(", ")}`, description: j.summary, thumb: thumb(j.hero),
       fields: [
-        `${j.title} ${j.display.join(" ")}`,
+        `${j.title} ${j.display.join(" ")} ${JOURNEY_TAGS[j.slug] ?? ""}`,
         `${j.route.join(" ")} ${j.cities.map((c) => `${c} ${ALIASES[c] ?? ""}`).join(" ")} ${j.destinations.join(" ")} ${collections.find((c) => c.id === j.collection)?.name ?? ""} ${ALIASES[collections.find((c) => c.id === j.collection)?.slug ?? ""] ?? ""}`,
         `${j.highlights.join(" ")} ${j.signature.map((s) => s.title).join(" ")} ${j.itinerary.map((d) => d.title).join(" ")} ${j.bestFor} ${j.stays.map((s) => s.stay).join(" ")}`,
         `${j.kicker} ${j.summary} ${j.lead}`,

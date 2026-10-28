@@ -18,3 +18,8 @@ namecheap-order-*.pdf
 
 # Agent worktrees
 .claude/
+
+# Client stationery outputs
+deliverables/*.pdf
+deliverables/*.docx
+deliverables/*.png
