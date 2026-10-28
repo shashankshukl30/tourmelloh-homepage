@@ -6,7 +6,7 @@ export const collections: Collection[] = [
     slug: "sacred-journeys",
     name: "Sacred Journeys",
     display: ["Sacred journeys,", "kept unhurried."],
-    hero: "varanasi-ganga-aarti",
+    hero: "varanasi-vishwanath",
     intro:
       "From the ghats of Kashi to the high shrines of the Char Dham, India's pilgrim places ask for time, patience and careful arrangements. These journeys take care of the long drives, the early starts and the official darshan bookings, so your attention can stay where it belongs: on the river, the prayer and the moment itself.",
     body: [
@@ -78,7 +78,7 @@ export const collections: Collection[] = [
     slug: "the-himalaya",
     name: "The Himalaya",
     display: ["The Himalaya,", "taken slowly."],
-    hero: "ladakh-landscape",
+    hero: "ladakh-pangong",
     intro:
       "The Himalaya runs across India's north from Kashmir to Sikkim, and each valley has its own character. These journeys lead to Kashmir's lakes and meadows, the high passes of Ladakh, the tea hills of Darjeeling and the monasteries of Sikkim, and the hill stations of Shimla and Manali, with time built in for altitude, weather and the view.",
     body: [

@@ -85,3 +85,15 @@
   .home-moment { flex: 0 0 78%; scroll-snap-align: start; }
   .home-reading { padding: 22px 18px; }
 }
+
+/* Regions index: the photograph runs the full height of the list, and every name starts on one line. */
+.atlas-number { display: inline-block; width: 26px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+@media (min-width: 701px) {
+  .atlas-layout { align-items: stretch; }
+  .atlas-visual { display: flex; flex-direction: column; }
+  .atlas-photo { flex: 1 1 auto; height: auto; min-height: 520px; }
+  .atlas-description { flex: 0 0 auto; }
+  .atlas-places { gap: 2px; }
+  .atlas-places button { min-height: 56px; padding-block: 10px; font-size: 30px; }
+  .atlas-heading > p { padding-bottom: 8px; }
+}

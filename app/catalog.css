@@ -193,3 +193,10 @@
 .cat-invite p { font-size: 16px; line-height: 1.75; color: oklch(88% .016 87); }
 .cat-invite .cat-card-action { color: var(--paper); }
 .cat-invite:focus-visible { outline: 2px solid var(--clay); outline-offset: 6px; }
+/* Long single words (Ranthambore, Bodh Gaya, Rajasthan) must never push a narrow phone sideways. */
+.tour-opening h1, .cat-intro h2, .collection-heading h1, .cat-article-head h1, .cat-legal-opening h1, .plan-intro h1 { overflow-wrap: break-word; hyphens: manual; }
+@media (max-width: 360px) {
+  .tour-opening h1 { font-size: 46px; }
+  .collection-heading h1, .cat-legal-opening h1, .plan-intro h1 { font-size: 46px; }
+  .cat-intro h2 { font-size: 38px; }
+}

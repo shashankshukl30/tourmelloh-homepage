@@ -2,7 +2,7 @@ import type { MediaKey } from "./media-plan";
 
 /** Navigation data kept small on purpose: the header ships to every page. Checked by the validator. */
 export const navCollections: { name: string; slug: string; photo: MediaKey; line: string }[] = [
-  { name: "Sacred journeys", slug: "sacred-journeys", photo: "varanasi-ganga-aarti", line: "Kashi, the Char Dham, the Buddha's path" },
+  { name: "Sacred journeys", slug: "sacred-journeys", photo: "varanasi-vishwanath", line: "Kashi, the Char Dham, the Buddha's path" },
   { name: "Golden Triangle & Rajasthan", slug: "golden-triangle-and-rajasthan", photo: "jaipur-amber-fort", line: "Delhi, the Taj, palaces and the Thar" },
   { name: "Heritage & culture", slug: "heritage-and-culture", photo: "khajuraho-temples", line: "Awadh, Khajuraho, Hampi, old Delhi" },
   { name: "Coast & islands", slug: "coast-and-islands", photo: "andaman-radhanagar", line: "The Andamans, Kerala and Goa" },
