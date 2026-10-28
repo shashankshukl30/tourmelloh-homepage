@@ -3,11 +3,10 @@ import { ArrowUpRight } from "lucide-react";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
-import { VaranasiEdit } from "@/components/editorial";
 import { Destinations, type AtlasPlace } from "@/components/destinations";
-import { HomeCollections, HowWeTravel } from "@/components/home-sections";
-import { ArticleCard, ExperienceCard, JourneyCard } from "@/components/catalog/cards";
-import { EnquiryBand, FaqBlock, SectionIntro } from "@/components/catalog/blocks";
+import { HomeBeforeYouGo, HomeCollections, HomeMoments, HomeStory } from "@/components/home-sections";
+import { JourneyCard } from "@/components/catalog/cards";
+import { EnquiryBand, SectionIntro } from "@/components/catalog/blocks";
 import { articles, cities, destinations, experiences, journeys, pages } from "@/content/catalog";
 import { media } from "@/content/catalog/media";
 import { navDestinations } from "@/content/catalog/nav";
@@ -29,10 +28,10 @@ const signature = [
   "ladakh-the-high-passes",
 ];
 const featuredExperiences = [
-  "private-sunrise-boat-on-the-ganga",
+  "the-taj-mahal-at-sunrise",
   "balloon-over-the-aravallis",
-  "a-private-houseboat-on-the-backwaters",
-  "tiger-safari-in-ranthambore",
+  "a-dawn-shikara-on-dal-lake",
+  "a-night-on-the-thar",
 ];
 
 export default function HomePage() {
@@ -49,7 +48,10 @@ export default function HomePage() {
   const featured = signature.map((slug) => journeys.find((j) => j.slug === slug)).filter((j) => j !== undefined);
   const moments = featuredExperiences.map((slug) => experiences.find((e) => e.slug === slug)).filter((e) => e !== undefined);
   const faq = pages.find((p) => p.slug === "faq");
-  const faqs = (faq?.sections[0]?.paragraphs ?? []).flatMap((text, i, all) => (i % 2 === 0 ? [{ q: text, a: all[i + 1] ?? "" }] : [])).slice(0, 5);
+  const reading = ["the-golden-triangle-done-properly", "andaman-havelock-or-neil", "char-dham-by-helicopter-what-to-know"]
+    .map((slug) => articles.find((a) => a.slug === slug))
+    .filter((a) => a !== undefined);
+  const faqs = (faq?.sections[0]?.paragraphs ?? []).flatMap((text, i, all) => (i % 2 === 0 ? [{ q: text, a: all[i + 1] ?? "" }] : [])).slice(0, 4);
 
   return (
     <>
@@ -72,39 +74,9 @@ export default function HomePage() {
         </section>
 
         <Destinations places={places} />
-        <VaranasiEdit />
-
-        <section className="page-width section-space" aria-labelledby="experiences-heading">
-          <div className="cat-head">
-            <SectionIntro id="experiences-heading" label="PRIVATE EXPERIENCES" display={["The hours", "you will talk about."]} />
-            <div>
-              <p>A boat on the Ganga before the city wakes. A balloon over the Aravallis. Dinner moored on a backwater. We fit them into your days at the right hour.</p>
-              <Link className="tour-text-link" href="/experiences">All experiences <ArrowUpRight size={16} aria-hidden="true" /></Link>
-            </div>
-          </div>
-          <div className="cat-grid cat-grid-4">
-            {moments.map((item) => (
-              <ExperienceCard key={item.slug} experience={item} cityName={cities.find((c) => c.slug === item.city)?.name} />
-            ))}
-          </div>
-        </section>
-
-        <HowWeTravel />
-
-        <section className="page-width section-space" aria-labelledby="journal-heading">
-          <div className="cat-head">
-            <SectionIntro id="journal-heading" label="THE JOURNAL" display={["Notes", "from the road."]} />
-            <div>
-              <p>When to go, what to pair, and the details that change a day.</p>
-              <Link className="tour-text-link" href="/journal">Read the journal <ArrowUpRight size={16} aria-hidden="true" /></Link>
-            </div>
-          </div>
-          <div className="cat-grid">
-            {["the-golden-triangle-done-properly", "andaman-havelock-or-neil", "char-dham-by-helicopter-what-to-know"].map((slug) => articles.find((a) => a.slug === slug)).filter((a) => a !== undefined).map((article) => <ArticleCard key={article.slug} article={article} />)}
-          </div>
-        </section>
-
-        <FaqBlock faqs={faqs} title={["Before", "you set off."]} />
+        <HomeMoments items={moments.map((item) => ({ ...item, cityName: cities.find((c) => c.slug === item.city)?.name }))} />
+        <HomeStory />
+        <HomeBeforeYouGo faqs={faqs} reading={reading} />
         <EnquiryBand />
       </main>
       <Footer />

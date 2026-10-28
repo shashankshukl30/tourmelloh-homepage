@@ -15,13 +15,7 @@ export const journeys: Journey[] = [
     route: ["Varanasi", "Sarnath"],
     cities: ["varanasi"],
     destinations: ["uttar-pradesh"],
-    experiences: [
-      "private-sunrise-boat-on-the-ganga",
-      "ganga-aarti-from-your-own-boat",
-      "old-kashi-heritage-walk",
-      "sarnath-with-a-scholar",
-      "banarasi-silk-with-the-weavers",
-    ],
+    experiences: ["private-sunrise-boat-on-the-ganga", "ganga-aarti-from-your-own-boat", "old-kashi-heritage-walk", "sarnath-with-a-scholar", "banarasi-silk-with-the-weavers", "kashi-vishwanath-darshan-arranged", "dawn-yoga-on-the-ghats", "a-banaras-street-food-walk", "an-evening-of-banaras-music"],
     hero: "varanasi-boat-sunrise",
     gallery: ["varanasi-aerial-ghats", "varanasi-silk-weaving", "sarnath-monks"],
     bestFor:
@@ -182,11 +176,7 @@ export const journeys: Journey[] = [
     route: ["Varanasi", "Prayagraj", "Ayodhya"],
     cities: ["varanasi", "prayagraj", "ayodhya"],
     destinations: ["uttar-pradesh"],
-    experiences: [
-      "ganga-aarti-from-your-own-boat",
-      "private-sunrise-boat-on-the-ganga",
-      "old-kashi-heritage-walk",
-    ],
+    experiences: ["ganga-aarti-from-your-own-boat", "private-sunrise-boat-on-the-ganga", "old-kashi-heritage-walk", "kashi-vishwanath-darshan-arranged", "a-private-puja-by-the-river"],
     hero: "prayagraj-sangam-birds",
     gallery: ["varanasi-aerial-ghats", "varanasi-diya-floating", "ayodhya-ram-ki-paidi"],
     bestFor:

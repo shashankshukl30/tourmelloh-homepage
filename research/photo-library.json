@@ -1455,6 +1455,17 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 39256057
  },
+ "varanasi-akhara": {
+  "src": "/images/library/varanasi-akhara.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "Two kushti wrestlers mid-throw before a crowd",
+  "by": "Artoffabhi",
+  "page": "https://commons.wikimedia.org/wiki/File:Kushti.jpg",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "licenseName": "CC BY-SA 4.0",
+  "credit": true
+ },
  "varanasi-boat-sunrise": {
   "src": "/images/library/varanasi-boat-sunrise.webp",
   "width": 2600,
@@ -1484,6 +1495,16 @@
   "page": "https://www.pexels.com/photo/traditional-clay-cup-masala-chai-street-vendor-36662612/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 36662612
+ },
+ "varanasi-dev-deepawali": {
+  "src": "/images/library/varanasi-dev-deepawali.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "The Varanasi riverfront lit up at dusk on a festival night",
+  "by": "Yogendra  Singh",
+  "page": "https://www.pexels.com/photo/celebrating-people-during-a-traditional-festival-18215015/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 18215015
  },
  "varanasi-diya-floating": {
   "src": "/images/library/varanasi-diya-floating.webp",
@@ -1515,6 +1536,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 17869813
  },
+ "varanasi-music": {
+  "src": "/images/library/varanasi-music.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "A sitar player in a carved stone alcove",
+  "by": "Kacey Inkwell",
+  "page": "https://www.pexels.com/photo/traditional-indian-music-performance-at-historical-site-39943661/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 39943661
+ },
  "varanasi-old-city-lanes": {
   "src": "/images/library/varanasi-old-city-lanes.webp",
   "width": 2600,
@@ -1535,6 +1566,26 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 34717380
  },
+ "varanasi-puja": {
+  "src": "/images/library/varanasi-puja.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "A lamp ritual by night on the ghats of Varanasi",
+  "by": "Debargha Bhattacharya",
+  "page": "https://www.pexels.com/photo/a-man-standing-on-the-background-of-burning-candles-at-a-ceremony-25951162/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 25951162
+ },
+ "varanasi-ramnagar-fort": {
+  "src": "/images/library/varanasi-ramnagar-fort.webp",
+  "width": 2600,
+  "height": 1816,
+  "alt": "The carved sandstone balconies of Ramnagar Fort, Varanasi",
+  "by": "Sayan Samanta",
+  "page": "https://www.pexels.com/photo/ramnagar-fort-architecture-in-uttar-pradesh-36213406/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 36213406
+ },
  "varanasi-river-mist": {
   "src": "/images/library/varanasi-river-mist.webp",
   "width": 2600,
@@ -1554,6 +1605,36 @@
   "page": "https://www.pexels.com/photo/man-in-a-tailors-workshop-17777833/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 17777833
+ },
+ "varanasi-street-food": {
+  "src": "/images/library/varanasi-street-food.webp",
+  "width": 2600,
+  "height": 1734,
+  "alt": "Snacks frying in an iron kadhai at a Varanasi stall",
+  "by": "Mahmut Yılmaz",
+  "page": "https://www.pexels.com/photo/street-food-preparation-in-varanasi-36853149/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 36853149
+ },
+ "varanasi-vishwanath": {
+  "src": "/images/library/varanasi-vishwanath.webp",
+  "width": 1950,
+  "height": 2600,
+  "alt": "The golden spire of Kashi Vishwanath seen through a carved arch",
+  "by": "Subhrajyoti Paul",
+  "page": "https://www.pexels.com/photo/beautiful-view-through-the-gyanvapi-mosque-archway-37349119/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 37349119
+ },
+ "varanasi-yoga-ghat": {
+  "src": "/images/library/varanasi-yoga-ghat.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "A young man meditating beside the Ganga, Varanasi",
+  "by": "Arto Suraj",
+  "page": "https://www.pexels.com/photo/meditation-by-the-ganges-in-varanasi-india-33178279/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 33178279
  },
  "vrindavan-devotees": {
   "src": "/images/library/vrindavan-devotees.webp",

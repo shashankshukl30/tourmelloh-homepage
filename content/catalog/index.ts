@@ -9,7 +9,8 @@ import { cities as citiesB } from "./cities-b";
 
 export { collections } from "./collections";
 export { destinations } from "./destinations";
-export { experiences } from "./experiences";
+import { experiences as general } from "./experiences";
+import { experiences as varanasi } from "./experiences-varanasi";
 export { articles } from "./journal";
 export { pages } from "./pages";
 
@@ -20,6 +21,8 @@ export const journeys: Journey[] = [
   ...heritage,
   ...coastHimalaya,
 ];
+
+export const experiences = [...general, ...varanasi];
 
 export const cities: City[] = [...citiesA, ...citiesB];
 

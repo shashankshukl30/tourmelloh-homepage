@@ -39,8 +39,8 @@ export default function CitiesPage() {
           current="/cities"
         />
         {groups.map((group) => (
-          <section key={group.name} className="cat-section tour-width" aria-labelledby={`g-${group.name}`}>
-            <SectionIntro id={`g-${group.name}`} label={group.label.toUpperCase()} display={[group.name, ""]} />
+          <section key={group.name} className="cat-section tour-width" aria-labelledby={`g-${group.name.toLowerCase().replace(/[^a-z]+/g, "-")}`}>
+            <SectionIntro id={`g-${group.name.toLowerCase().replace(/[^a-z]+/g, "-")}`} label={group.label.toUpperCase()} display={[group.name, ""]} />
             <div className="cat-grid" style={{ marginTop: 40 }}>
               {group.list.map((city) => <CityCard key={city.slug} city={city} />)}
             </div>
