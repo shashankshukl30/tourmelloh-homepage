@@ -321,3 +321,14 @@
 @container (max-width: 560px) { .enquiry-row, .enquiry-row-3 { grid-template-columns: minmax(0, 1fr); } }
 @container (min-width: 561px) and (max-width: 760px) { .enquiry-row-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .enquiry-field select { text-overflow: ellipsis; }
+
+/* Footer: copyright and legal on one row, the Digiocular credit centred on its own line below,
+   clear of the fixed WhatsApp pill at bottom-right. */
+.cf-bottom { grid-template-columns: minmax(0, 1fr) auto; padding-right: 0; padding-bottom: 30px; }
+.cf-bottom .footer-credit { grid-column: 1 / -1; justify-self: stretch; max-width: none; width: 100%; justify-content: center; padding-top: 20px; border-top: 1px solid var(--line); }
+.cf-legal { justify-content: flex-end; }
+@media (max-width: 760px) {
+  .cf-bottom { grid-template-columns: minmax(0, 1fr); padding-bottom: 28px; }
+  .cf-legal { justify-content: flex-start; }
+  .cf-bottom .footer-credit { justify-self: stretch; }
+}
