@@ -47,4 +47,4 @@ export const itemHref = (id: ItemId) => {
 export const includedIn = (journey: Journey, tier: Tier, id: ItemId) =>
   journey.tiers[tier].lines.some((line) => line.item === id);
 
-export const tierLabel: Record<Tier, string> = { standard: "Standard", premium: "Premium", luxury: "Luxury" };
+export { tierLabel } from "./nav-tiers";

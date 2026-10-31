@@ -1,4 +1,4 @@
-export type SearchKind = "Journey" | "Region" | "City" | "Experience" | "Article" | "Page";
+export type SearchKind = "Journey" | "Service" | "Experience" | "Guide" | "Article" | "Page";
 
 export type SearchEntry = {
   id: string;
@@ -13,22 +13,26 @@ export type SearchEntry = {
 };
 
 const WEIGHTS = [10, 6, 3, 1];
-const KIND_BOOST: Record<SearchKind, number> = { Journey: 1.15, City: 1.1, Region: 1.1, Experience: 1, Article: 0.85, Page: 0.7 };
+const KIND_BOOST: Record<SearchKind, number> = { Journey: 1.15, Service: 1.05, Experience: 1.05, Guide: 1, Article: 0.85, Page: 0.75 };
 
 /** Other names people type for the same place or idea. */
 export const SYNONYMS: Record<string, string> = {
   banaras: "varanasi", benares: "varanasi", benaras: "varanasi", kashi: "varanasi", varansi: "varanasi",
-  allahabad: "prayagraj", cochin: "kochi", alappuzha: "alleppey", alleppy: "alleppey", swaraj: "havelock",
-  shaheed: "neil", sri: "", vijaya: "port", puram: "blair", madras: "chennai", bangalore: "bengaluru",
-  calcutta: "kolkata", bombay: "mumbai", gurgaon: "delhi", ncr: "delhi", taj: "taj", bodhgaya: "bodh",
-  budh: "bodh", buddha: "buddha", ladak: "ladakh", leh: "leh", darjiling: "darjeeling", rishikesh: "rishikesh",
-  kedar: "kedarnath", badri: "badrinath", chardham: "char", mahakaleshwar: "mahakal", ujjian: "ujjain",
-  amritsar: "amritsar", harmandir: "golden", couple: "couples", romantic: "honeymoon", tigers: "tiger",
-  safari: "safari", beaches: "beach", island: "islands", mountains: "himalaya", hills: "himalaya",
-  pilgrimage: "sacred", pilgrimages: "sacred", yatra: "sacred", spiritual: "sacred", temples: "temple",
-  palaces: "palace", desert: "thar", camel: "thar", backwaters: "backwater", houseboat: "houseboat",
-  scuba: "diving", dive: "diving", snorkelling: "diving", snorkeling: "diving", wellness: "ayurveda",
-  family: "families", kids: "families", elderly: "elders", parents: "elders",
+  allahabad: "prayagraj", prayag: "prayagraj", sangam: "sangam", triveni: "sangam", kumbh: "sangam",
+  bodhgaya: "bodh", budh: "bodh", buddhist: "buddha", mahabodhi: "bodh", ayodhyaji: "ayodhya", ram: "ayodhya",
+  vindhyachal: "vindhyachal", mirzapur: "vindhyachal", chitrakut: "chitrakoot", naimisharanya: "naimisharanya",
+  gaya: "gaya", pind: "pind", pinddaan: "pind", shraddh: "pind", ancestors: "pind",
+  taxi: "car", cab: "car", driver: "car", sedan: "car", suv: "car", innova: "car", tempo: "traveller",
+  chopper: "helicopter", heli: "helicopter", airport: "arrival", pickup: "arrival", transfer: "arrival",
+  aarti: "aarti", arti: "aarti", ganga: "river", ganges: "river", boat: "boat", bajra: "boat", cruise: "boat",
+  pooja: "puja", pujan: "puja", rudrabhishek: "puja", priest: "puja", pandit: "puja", darshan: "darshan", vip: "darshan",
+  wheelchair: "accessible", elderly: "senior", parents: "senior", elders: "senior", old: "senior", shravan: "senior",
+  kids: "family", children: "family", families: "family", ladies: "women", womens: "women", female: "women", solo: "women",
+  photographer: "photography", photoshoot: "photography", photos: "photography", video: "film",
+  marriage: "wedding", shaadi: "wedding", vivah: "wedding", venue: "wedding",
+  ayurveda: "wellness", yoga: "wellness", meditation: "wellness", spa: "wellness",
+  food: "food", street: "food", chaat: "food", kachori: "food", lassi: "food", silk: "silk", saree: "silk", weaving: "silk",
+  music: "music", sitar: "music", tabla: "music", pilgrimage: "sacred", yatra: "sacred", spiritual: "sacred", temples: "temple",
 };
 
 export function normalize(value: string) {

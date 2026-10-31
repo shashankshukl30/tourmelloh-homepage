@@ -4,7 +4,9 @@ import { SITE_URL, agencyLd, brand, isProduction } from "@/lib/site";
 import { JsonLd } from "@/components/json-ld";
 import { InterfaceInteractions } from "@/components/interface-interactions";
 import { PhotoInteractions } from "@/components/photo-interactions";
-import { WhatsAppLink } from "@/components/whatsapp-link";
+import { ContactDock } from "@/components/contact-dock";
+import { WishlistProvider } from "@/components/wishlist/provider";
+import { buildCatalogIndex } from "@/lib/catalog-index";
 import "./globals.css";
 
 const newsreader = localFont({
@@ -32,7 +34,7 @@ const instrument = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Tourmelloh | Luxury Private Journeys Across India",
+  title: "Tourmelloh | Travel and Destination Partners in Varanasi",
   description: brand.line,
   applicationName: brand.name,
   robots: isProduction ? { index: true, follow: true } : { index: false, follow: false },
@@ -67,7 +69,14 @@ export default function RootLayout({
       <head>
         <JsonLd data={[agencyLd, websiteLd]} />
       </head>
-      <body>{children}<WhatsAppLink /><InterfaceInteractions /><PhotoInteractions /></body>
+      <body>
+        <WishlistProvider index={buildCatalogIndex()}>
+          {children}
+          <ContactDock />
+        </WishlistProvider>
+        <InterfaceInteractions />
+        <PhotoInteractions />
+      </body>
     </html>
   );
 }

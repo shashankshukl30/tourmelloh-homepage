@@ -1,4 +1,18 @@
 import type { NextConfig } from "next";
+import legacy from "./content/legacy-slugs.json";
+
+/** The pan-India catalogue (archived 2026-10-31) keeps its search equity: every old URL lands on its nearest v5 page. */
+const GUIDES = new Set(["varanasi", "sarnath", "prayagraj", "ayodhya", "gaya", "bodh-gaya"]);
+const legacyRedirects = [
+  ...legacy.journeys.map((slug) => ({ source: `/journeys/${slug}`, destination: "/journeys", permanent: true })),
+  ...legacy.experiences.map((slug) => ({ source: `/experiences/${slug}`, destination: "/experiences", permanent: true })),
+  ...legacy.journal.map((slug) => ({ source: `/journal/${slug}`, destination: "/journal", permanent: true })),
+  ...[...legacy.cities, ...legacy.destinations].flatMap((slug) => [
+    { source: `/cities/${slug}`, destination: GUIDES.has(slug) ? `/guides/${slug}` : "/guides", permanent: true },
+    { source: `/destinations/${slug}`, destination: GUIDES.has(slug) ? `/guides/${slug}` : "/guides", permanent: true },
+  ]),
+  ...legacy.collections.map((slug) => ({ source: `/collections/${slug}`, destination: "/journeys", permanent: true })),
+];
 
 const production = process.env.VERCEL_ENV === "production";
 
@@ -51,15 +65,17 @@ const config: NextConfig = {
     return [
       { source: "/:path*", has: [{ type: "host", value: "www.tourmelloh.com" }], destination: "https://tourmelloh.com/:path*", permanent: true },
       { source: "/blog", destination: "/journal", permanent: true },
-      { source: "/blog/:slug", destination: "/journal/:slug", permanent: true },
-      { source: "/destinations/varanasi", destination: "/cities/varanasi", permanent: true },
-      { source: "/destinations/ayodhya", destination: "/cities/ayodhya", permanent: true },
-      { source: "/destinations/agra", destination: "/cities/agra", permanent: true },
-      { source: "/destinations/bodh-gaya", destination: "/cities/bodh-gaya", permanent: true },
-      { source: "/journeys/the-road-to-bodh-gaya", destination: "/journeys/footsteps-of-the-buddha", permanent: true },
+      { source: "/blog/:slug", destination: "/journal", permanent: true },
+      ...legacyRedirects,
+      { source: "/cities", destination: "/guides", permanent: true },
+      { source: "/destinations", destination: "/guides", permanent: true },
+      { source: "/collections", destination: "/journeys", permanent: true },
+      { source: "/how-we-travel", destination: "/how-it-works", permanent: true },
+      { source: "/plan", destination: "/help-me-plan", permanent: true },
       { source: "/contact-us", destination: "/contact", permanent: true },
       { source: "/packages", destination: "/journeys", permanent: true },
       { source: "/tours", destination: "/journeys", permanent: true },
+      { source: "/weddings", destination: "/wedding-in-varanasi", permanent: true },
     ];
   },
 };

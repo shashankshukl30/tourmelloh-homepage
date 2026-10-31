@@ -4,79 +4,64 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
 import { Destinations, type AtlasPlace } from "@/components/destinations";
-import { HomeBeforeYouGo, HomeCollections, HomeMoments, HomeStory } from "@/components/home-sections";
+import { HomeBeforeYouGo, HomeCollections, HomeFounder, HomeIntro, HomeMoments, HomeTiers } from "@/components/home-sections";
 import { JourneyCard } from "@/components/catalog/cards";
 import { EnquiryBand, SectionIntro } from "@/components/catalog/blocks";
-import { articles, cities, collections, destinations, experiences, journeys, pages } from "@/content/catalog";
+import { articles, collections, experiences, faqGroups, guides, journeys } from "@/content/catalog";
 import { media } from "@/content/catalog/media";
-import { navDestinations } from "@/content/catalog/nav";
 import { pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta({
-  title: "Tourmelloh | Luxury Private Journeys Across India",
+  title: "Tourmelloh | Travel and Destination Partners in Varanasi",
   description:
-    "A Varanasi travel house designing private, luxury journeys across India: sacred cities, the Golden Triangle, Rajasthan's palaces, Kerala, the Andamans and the Himalaya.",
+    "Varanasi travel company planning journeys, services and experiences across Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya, in Standard, Premium and Luxury.",
   path: "/",
 });
 
-const signature = [
-  "royal-rajasthan",
-  "kashi-before-the-world-wakes",
-  "andaman-island-escape",
-  "char-dham-by-helicopter",
-  "kerala-backwaters-and-hills",
-  "ladakh-the-high-passes",
-];
-const featuredExperiences = [
-  "the-taj-mahal-at-sunrise",
-  "balloon-over-the-aravallis",
-  "a-dawn-shikara-on-dal-lake",
-  "a-night-on-the-thar",
-];
+const FEATURED = ["P01", "P03", "P04", "P05", "P06", "P14"];
+const MOMENTS = ["E13", "E19", "E08", "E22"];
+const READING = ["planning-a-first-kashi-visit", "how-journey-coordination-works", "arranging-a-comfortable-trip-for-parents"];
 
 export default function HomePage() {
-  const featured = signature.map((slug) => journeys.find((j) => j.slug === slug)).filter((j) => j !== undefined);
-  const moments = featuredExperiences.map((slug) => experiences.find((e) => e.slug === slug)).filter((e) => e !== undefined);
-  // A region shows the first of its photographs not already on this page, so nothing repeats.
-  const onPage = new Set<string>([...collections.map((c) => c.hero), ...featured.map((j) => j.hero), ...moments.map((e) => e.hero), "varanasi-river-mist"]);
-  const places: AtlasPlace[] = navDestinations
-    .map((nav) => destinations.find((d) => d.slug === nav.slug))
-    .filter((d) => d !== undefined)
-    .map((d) => {
-      const key = [d.hero, ...d.gallery].find((k) => !onPage.has(k)) ?? d.hero;
-      return { slug: d.slug, name: d.name, label: d.label, text: d.intro, photo: { src: media[key].src, alt: media[key].alt, blur: media[key].blur } };
-    });
-  const faq = pages.find((p) => p.slug === "faq");
-  const reading = ["the-golden-triangle-done-properly", "andaman-havelock-or-neil", "char-dham-by-helicopter-what-to-know"]
-    .map((slug) => articles.find((a) => a.slug === slug))
-    .filter((a) => a !== undefined);
-  const faqs = (faq?.sections[0]?.paragraphs ?? []).flatMap((text, i, all) => (i % 2 === 0 ? [{ q: text, a: all[i + 1] ?? "" }] : [])).slice(0, 4);
+  const featured = FEATURED.map((id) => journeys.find((j) => j.id === id)).filter((j) => j !== undefined);
+  const moments = MOMENTS.map((id) => experiences.find((e) => e.id === id)).filter((e) => e !== undefined);
+  // A guide shows the first of its photographs not already on this page, so nothing repeats.
+  const onPage = new Set<string>([...collections.map((c) => c.hero), ...featured.map((j) => j.hero), ...moments.map((e) => e.hero), "varanasi-river-mist", "wedding-mandap"]);
+  const places: AtlasPlace[] = guides.map((g) => {
+    const key = [g.hero, ...g.gallery].find((k) => !onPage.has(k)) ?? g.hero;
+    onPage.add(key);
+    return { slug: g.slug, name: g.name, label: g.state, text: g.intro, photo: { src: media[key].src, alt: media[key].alt, blur: media[key].blur } };
+  });
+  const faqs = faqGroups.flatMap((g) => g.faqs).slice(0, 5);
+  const reading = READING.map((slug) => articles.find((a) => a.slug === slug)).filter((a) => a !== undefined);
 
   return (
     <>
       <Navigation tone="paper" />
       <main id="main">
         <Hero />
-        <HomeCollections />
+        <HomeIntro />
 
         <section className="page-width section-space home-signature" aria-labelledby="signature-heading">
           <div className="cat-head">
-            <SectionIntro id="signature-heading" label="MOST ASKED FOR" display={["Journeys our travellers", "begin with."]} />
+            <SectionIntro id="signature-heading" label="SUGGESTED JOURNEYS" display={["Start with a route,", "then make it yours."]} />
             <div>
-              <p>Each one is a starting point, priced on request for your dates, your hotels and your party.</p>
+              <p>Each journey comes in Standard, Premium and Luxury. Choose one, personalise it, and we quote it for your dates and party.</p>
               <Link className="tour-text-link" href="/journeys">All {journeys.length} journeys <ArrowUpRight size={16} aria-hidden="true" /></Link>
             </div>
           </div>
           <div className="cat-grid">
-            {featured.map((journey) => <JourneyCard key={journey.slug} journey={journey} />)}
+            {featured.map((journey) => <JourneyCard key={journey.id} journey={journey} />)}
           </div>
         </section>
 
+        <HomeCollections />
+        <HomeTiers />
+        <HomeMoments items={moments} />
         <Destinations places={places} />
-        <HomeMoments items={moments.map((item) => ({ ...item, cityName: cities.find((c) => c.slug === item.city)?.name }))} />
-        <HomeStory />
+        <HomeFounder />
         <HomeBeforeYouGo faqs={faqs} reading={reading} />
-        <EnquiryBand />
+        <EnquiryBand title={["Plan your journey", "with Tourmelloh."]} text="Tell us your dates, who is travelling and what matters to you. We reply with questions, a proposed plan and one complete quotation before any payment." />
       </main>
       <Footer />
     </>

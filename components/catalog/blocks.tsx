@@ -141,9 +141,9 @@ export function FaqBlock({ faqs, id = "faq", title = ["Questions,", "answered."]
 
 /** The closing invitation on every catalogue page. */
 export function EnquiryBand({
-  title = ["Your India,", "privately arranged."],
+  title = ["Varanasi and beyond,", "arranged for you."],
   text = "Tell us the places on your mind, your dates and who is travelling. We reply with a written proposal shaped around you.",
-  planHref = "/plan",
+  planHref = "/help-me-plan",
 }: {
   title?: Display;
   text?: string;

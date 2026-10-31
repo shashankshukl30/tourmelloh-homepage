@@ -3,103 +3,40 @@ import { ArrowUpRight, Plus } from "lucide-react";
 import { Photo } from "@/components/catalog/photo";
 import { Reveal } from "@/components/reveal";
 import { JsonLd } from "@/components/json-ld";
-import { collections, journeysIn } from "@/content/catalog";
-import { navCollections } from "@/content/catalog/nav";
+import { collections, journeys } from "@/content/catalog";
+import type { MediaKey } from "@/content/catalog/media-plan";
 import type { Article, Experience, Faq } from "@/content/catalog/types";
-import { faqLd } from "@/lib/site";
-
-/** Six collections, set as an editorial spread: one tall lead image, five smaller around it. */
-export function HomeCollections() {
-  return (
-    <section className="home-collections page-width section-space" id="collections" aria-labelledby="collections-heading">
-      <Reveal className="cat-head">
-        <div className="cat-intro">
-          <span className="tour-kicker" style={{ color: "var(--muted)" }}>SIGNATURE JOURNEYS</span>
-          <h2 id="collections-heading">Six ways <em>to see India.</em></h2>
-        </div>
-        <p>Every journey is private and built around you: your own car and driver, guides who know the place, hotels chosen for character. Start with the kind of journey that calls to you.</p>
-      </Reveal>
-      <div className="home-collection-grid">
-        {navCollections.map((item, index) => {
-          const collection = collections.find((c) => c.slug === item.slug);
-          const count = collection ? journeysIn(collection.id).length : 0;
-          return (
-            <Link key={item.slug} href={`/collections/${item.slug}`} className={`home-collection home-collection-${index}`}>
-              <div className="home-collection-photo">
-                <Photo k={collection?.hero ?? item.photo} sizes={index === 0 ? "(max-width: 760px) 92vw, 40vw" : "(max-width: 760px) 92vw, 28vw"} />
-              </div>
-              <div className="home-collection-copy">
-                <span>{count} journeys</span>
-                <h3>{item.name}</h3>
-                <p>{item.line}</p>
-              </div>
-              <span className="home-collection-arrow" aria-hidden="true"><ArrowUpRight size={20} /></span>
-            </Link>
-          );
-        })}
-      </div>
-    </section>
-  );
-}
-
-/** Experiences as tall photographs with the words on them: moments, not another card grid. */
-export function HomeMoments({ items }: { items: (Experience & { cityName?: string })[] }) {
-  return (
-    <section className="page-width section-space" aria-labelledby="moments-heading">
-      <div className="cat-head">
-        <Reveal className="cat-intro">
-          <span className="tour-kicker" style={{ color: "var(--muted)" }}>PRIVATE EXPERIENCES</span>
-          <h2 id="moments-heading">The hours <em>you will talk about.</em></h2>
-        </Reveal>
-        <div>
-          <p>The Taj at first light, a balloon over the Aravallis, a shikara on Dal Lake before the floating market wakes, a table set on the Thar after dark. Each is arranged privately and fitted into your days at the right hour.</p>
-          <Link className="tour-text-link" href="/experiences">All experiences <ArrowUpRight size={16} aria-hidden="true" /></Link>
-        </div>
-      </div>
-      <div className="home-moments">
-        {items.map((item) => (
-          <Link key={item.slug} href={`/experiences/${item.slug}`} className="home-moment">
-            <Photo k={item.hero} sizes="(max-width: 640px) 80vw, (max-width: 1000px) 45vw, 24vw" />
-            <span className="home-moment-copy">
-              <small>{item.cityName ?? item.category}</small>
-              <strong>{item.title}</strong>
-            </span>
-          </Link>
-        ))}
-      </div>
-    </section>
-  );
-}
+import { brand, faqLd } from "@/lib/site";
 
 const principles = [
   {
-    title: "Private, from door to door",
-    text: "Your own chauffeur-driven car, your own guides and a single trip contact who knows your plans. No coaches, no group departures, no strangers at your table.",
+    title: "One coordinator, start to finish",
+    text: "A named coordinator plans with you before you travel and stays reachable on WhatsApp throughout. Hosts, guides and drivers on the ground all work from the same plan.",
   },
   {
-    title: "Paced for the place",
-    text: "We put the Taj at sunrise, the Ganga before six and the long drives where they belong. Rest is part of the plan, not what is left over.",
+    title: "Your comfort, your choice",
+    text: "Every journey comes in Standard, Premium and Luxury. The tier sets the hotels, the car, the boat and how much is handled for you; the route stays yours to shape.",
   },
   {
-    title: "Hotels with a sense of place",
-    text: "Palaces, heritage houses and the best contemporary hotels, chosen for the view, the welcome and how easily you can step out into the city.",
+    title: "Quoted for your journey",
+    text: "No listed prices that change at checkout. You send your selections, we confirm availability and send one complete quotation before any payment.",
   },
 ];
 
-/** Why Tourmelloh: the Varanasi home ground and the way every journey is run, in one place. */
-export function HomeStory() {
+/** The first section after the hero: what Tourmelloh is and how it works (brief v5, section 6). */
+export function HomeIntro() {
   return (
-    <section className="page-width section-space home-way" aria-labelledby="way-heading">
+    <section className="page-width section-space home-way" id="about-tourmelloh" aria-labelledby="way-heading">
       <Reveal className="home-way-photo">
         <Photo k="varanasi-river-mist" sizes="(max-width: 900px) 92vw, 46vw" />
-        <span className="home-way-caption">Our home ground: the Ganga at Varanasi, before the city wakes</span>
+        <span className="home-way-caption">Home ground: the Ganges at Varanasi, before the city wakes</span>
       </Reveal>
       <Reveal className="home-way-copy" delay={0.08}>
-        <span className="tour-kicker" style={{ color: "var(--muted)" }}>THE TOURMELLOH WAY</span>
-        <h2 id="way-heading">We begin in Kashi. <em>We travel all of India.</em></h2>
+        <span className="tour-kicker" style={{ color: "var(--muted)" }}>{brand.descriptor.toUpperCase()}</span>
+        <h2 id="way-heading">We arrange Kashi <em>and the journeys around it.</em></h2>
         <p className="home-way-lead">
-          We are based in Varanasi, one of the oldest living cities on earth, and it shapes how we plan. Nothing here rewards hurry.
-          The same patience goes into every journey we design, whether it starts on the Ganga or a long way from it.
+          Tourmelloh is a Varanasi travel company. We plan and coordinate journeys through Varanasi, Sarnath, Prayagraj, Ayodhya,
+          Gaya and Bodh Gaya: the hotels and the car, the boats and the darshan, the guides, hosts and rituals, arranged as one plan.
         </p>
         <div className="home-way-list">
           {principles.map((item) => (
@@ -110,23 +47,143 @@ export function HomeStory() {
           ))}
         </div>
         <div className="home-way-links">
-          <Link className="tour-text-link" href="/how-we-travel">How we design a journey <ArrowUpRight size={16} aria-hidden="true" /></Link>
-          <Link className="tour-text-link" href="/experiences#x-varanasi">Experiences in Varanasi <ArrowUpRight size={16} aria-hidden="true" /></Link>
-          <Link className="tour-text-link" href="/cities/varanasi">Our Varanasi guide <ArrowUpRight size={16} aria-hidden="true" /></Link>
+          <Link className="tour-text-link" href="/how-it-works">How it works <ArrowUpRight size={16} aria-hidden="true" /></Link>
+          <Link className="tour-text-link" href="/tiers">Standard, Premium and Luxury <ArrowUpRight size={16} aria-hidden="true" /></Link>
         </div>
       </Reveal>
     </section>
   );
 }
 
-/** One closing section for everything a traveller reads before asking: questions on one side, reading on the other. */
+/** Five specialist collections and weddings, set as an editorial spread: one tall lead image, five around it. */
+export function HomeCollections() {
+  const tiles: { href: string; name: string; line: string; photo: MediaKey; tag: string }[] = [
+    ...collections.map((c) => ({
+      href: `/journeys/${c.slug}`,
+      name: c.name,
+      line: c.subtitle,
+      photo: c.hero,
+      tag: c.journeys.length ? `${c.journeys.filter((id) => journeys.some((j) => j.id === id)).length || c.journeys.length} journeys` : "Collection",
+    })),
+    { href: "/wedding-in-varanasi", name: "Destination Weddings", line: "Weddings in Varanasi, with guest travel arranged as one plan", photo: "wedding-mandap", tag: "Weddings" },
+  ];
+  return (
+    <section className="home-collections page-width section-space" id="collections" aria-labelledby="collections-heading">
+      <Reveal className="cat-head">
+        <div className="cat-intro">
+          <span className="tour-kicker" style={{ color: "var(--muted)" }}>SPECIALIST COLLECTIONS</span>
+          <h2 id="collections-heading">Six ways <em>to travel with us.</em></h2>
+        </div>
+        <p>Some journeys need more than a route. Women travelling together with a female host, parents with a companion beside them, families across generations, the Buddhist circuit, rest by the river, and weddings on the Ganges.</p>
+      </Reveal>
+      <div className="home-collection-grid">
+        {tiles.map((item, index) => (
+          <Link key={item.href} href={item.href} className={`home-collection home-collection-${index}`}>
+            <div className="home-collection-photo">
+              <Photo k={item.photo} sizes={index === 0 ? "(max-width: 760px) 92vw, 40vw" : "(max-width: 760px) 92vw, 28vw"} />
+            </div>
+            <div className="home-collection-copy">
+              <span>{item.tag}</span>
+              <h3>{item.name}</h3>
+              <p>{item.line}</p>
+            </div>
+            <span className="home-collection-arrow" aria-hidden="true"><ArrowUpRight size={20} /></span>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+const tierRows = [
+  { key: "standard", name: "Standard", line: "Selected 3-star hotels, a private air-conditioned car, breakfast, the journey's included boat ride and a named remote coordinator." },
+  { key: "premium", name: "Premium", line: "Selected 4-star hotels, an upgraded MPV or SUV, a private boat where the route has one, accompanied darshan and hosted assistance." },
+  { key: "luxury", name: "Luxury", line: "Heritage, boutique or 4/5-star stays, a confirmed premium vehicle, a dedicated concierge and the journey's Luxury experiences selected for you." },
+];
+
+/** Comfort tiers as an editorial list rather than three cards. */
+export function HomeTiers() {
+  return (
+    <section className="page-width section-space home-tiers" aria-labelledby="tiers-heading">
+      <Reveal className="cat-intro">
+        <span className="tour-kicker" style={{ color: "var(--muted)" }}>CHOOSE YOUR COMFORT</span>
+        <h2 id="tiers-heading">One journey, <em>three ways to travel it.</em></h2>
+      </Reveal>
+      <ol className="home-tier-list">
+        {tierRows.map((t, i) => (
+          <li key={t.key}>
+            <Link href={`/journeys/${t.key}`} className="home-tier">
+              <span className="home-tier-num">{String(i + 1).padStart(2, "0")}</span>
+              <strong>{t.name}</strong>
+              <span className="home-tier-line">{t.line}</span>
+              <ArrowUpRight size={20} aria-hidden="true" />
+            </Link>
+          </li>
+        ))}
+      </ol>
+      <Link className="tour-text-link" href="/tiers">Compare what each tier includes <ArrowUpRight size={16} aria-hidden="true" /></Link>
+    </section>
+  );
+}
+
+/** Experiences as tall photographs with the words on them: moments, not another card grid. */
+export function HomeMoments({ items }: { items: Experience[] }) {
+  return (
+    <section className="page-width section-space" aria-labelledby="moments-heading">
+      <div className="cat-head">
+        <Reveal className="cat-intro">
+          <span className="tour-kicker" style={{ color: "var(--muted)" }}>SERVICES AND EXPERIENCES</span>
+          <h2 id="moments-heading">Add what matters <em>to your days.</em></h2>
+        </Reveal>
+        <div>
+          <p>The aarti from your own boat, a morning with Banarasi weavers, the city&apos;s breakfasts, an evening of raag. Add experiences and services to My Journey and we fit them in at the right hour, never charging twice for what your tier already includes.</p>
+          <div className="home-way-links" style={{ marginTop: 18 }}>
+            <Link className="tour-text-link" href="/experiences">All experiences <ArrowUpRight size={16} aria-hidden="true" /></Link>
+            <Link className="tour-text-link" href="/services">All services <ArrowUpRight size={16} aria-hidden="true" /></Link>
+          </div>
+        </div>
+      </div>
+      <div className="home-moments">
+        {items.map((item) => (
+          <Link key={item.slug} href={`/experiences/${item.slug}`} className="home-moment">
+            <Photo k={item.hero} sizes="(max-width: 640px) 80vw, (max-width: 1000px) 45vw, 24vw" />
+            <span className="home-moment-copy">
+              <small>{item.category}</small>
+              <strong>{item.title}</strong>
+            </span>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+/** The founder, introduced by name. A portrait replaces the initials once supplied. */
+export function HomeFounder() {
+  const initials = brand.founder.split(" ").map((w) => w[0]).join("");
+  return (
+    <section className="page-width section-space home-founder" aria-labelledby="founder-heading">
+      <div className="founder">
+        <span className="founder-photo" aria-hidden="true">{initials}</span>
+        <div>
+          <span className="tour-kicker" style={{ color: "var(--muted)" }}>FOUNDER</span>
+          <h2 id="founder-heading">{brand.founder}</h2>
+          <p>Tourmelloh was founded in Varanasi to make the city, and the pilgrim routes around it, easier to travel well: one plan, one coordinator, and people on the ground who know the ghats, the temples and the timings.</p>
+          <Link className="tour-text-link" href="/about">About Tourmelloh <ArrowUpRight size={16} aria-hidden="true" /></Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/** Questions on one side, reading on the other. */
 export function HomeBeforeYouGo({ faqs, reading }: { faqs: Faq[]; reading: Article[] }) {
   return (
     <section className="page-width section-space home-before" aria-labelledby="before-heading">
       <div>
         <Reveal className="cat-intro">
           <span className="tour-kicker" style={{ color: "var(--muted)" }}>GOOD TO KNOW</span>
-          <h2 id="before-heading">Before <em>you set off.</em></h2>
+          <h2 id="before-heading">Before <em>you enquire.</em></h2>
         </Reveal>
         <div className="faq-list" style={{ marginTop: 32 }}>
           {faqs.map((faq) => (

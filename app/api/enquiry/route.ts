@@ -1,51 +1,70 @@
 import { NextResponse } from "next/server";
-import { enquiryText, readEnquiry } from "@/lib/enquiry";
-import { brand } from "@/lib/site";
+import { checkPayload, LEAD_LABEL, LEAD_ROUTE, makeReference, summaryText, type EnquiryPayload } from "@/lib/enquiry";
+import { brand, mailboxes } from "@/lib/site";
 
 /**
- * Delivers an enquiry to Tourmelloh by email through Resend.
- * Needs RESEND_API_KEY, and ENQUIRY_FROM on a domain verified in Resend (e.g. "Tourmelloh <enquiries@tourmelloh.com>").
- * ENQUIRY_TO overrides the inbox (defaults to the business email). Without a key it answers 503 and the form
- * offers WhatsApp and email instead: it never reports success for a message that went nowhere.
+ * Delivers an enquiry by email through Resend (RESEND_API_KEY, ENQUIRY_FROM).
+ * Every enquiry gets a reference first. Repeated taps with the same key return the same reference.
+ * If email delivery is not configured or fails, the guest is told plainly and offered WhatsApp/email
+ * with the full summary: a request is never reported as received when it was not.
  */
+const recent = new Map<string, { reference: string; delivered: boolean; at: number }>();
+
 export async function POST(request: Request) {
-  let body: Record<string, unknown>;
+  let p: EnquiryPayload;
   try {
-    body = await request.json();
+    p = await request.json();
   } catch {
     return NextResponse.json({ ok: false, error: "We could not read that request." }, { status: 400 });
   }
-
-  // Spam traps: a hidden field people never fill, and a form completed faster than a person could.
-  const started = Number(body.started);
-  if (typeof body.website === "string" && body.website.length > 0) return NextResponse.json({ ok: true });
-  if (!Number.isFinite(started) || Date.now() - started < 2500) {
+  if (p.website) return NextResponse.json({ ok: true, reference: makeReference(), delivered: true });
+  if (!Number.isFinite(p.started) || Date.now() - p.started < 2500) {
     return NextResponse.json({ ok: false, error: "Please take a moment and send it again." }, { status: 400 });
   }
+  const problem = checkPayload(p);
+  if (problem) return NextResponse.json({ ok: false, error: problem }, { status: 422 });
 
-  const { enquiry, error } = readEnquiry(body);
-  if (!enquiry) return NextResponse.json({ ok: false, error }, { status: 422 });
+  const key = String(p.idempotencyKey ?? "").slice(0, 80);
+  const seen = key ? recent.get(key) : undefined;
+  if (seen) return NextResponse.json({ ok: true, reference: seen.reference, delivered: seen.delivered, duplicate: true });
 
+  const reference = makeReference();
+  const text = summaryText(p, reference);
+  const delivered = await deliver(p, reference, text);
+  if (key) {
+    recent.set(key, { reference, delivered, at: Date.now() });
+    for (const [k, v] of recent) if (Date.now() - v.at > 86_400_000) recent.delete(k);
+  }
+  return NextResponse.json({ ok: true, reference, delivered, summary: text });
+}
+
+async function deliver(p: EnquiryPayload, reference: string, text: string) {
   const key = process.env.RESEND_API_KEY;
   const from = process.env.ENQUIRY_FROM;
-  if (!key || !from) {
-    return NextResponse.json({ ok: false, unavailable: true, error: "Our enquiry inbox is not connected yet." }, { status: 503 });
-  }
+  if (!key || !from) return false;
+  const send = (body: object) =>
+    fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json", "Idempotency-Key": `${reference}-${"to" in body ? String((body as { to: string[] }).to[0]) : ""}` },
+      body: JSON.stringify(body),
+    }).then((r) => r.ok).catch(() => false);
 
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
+  const staff = await send({
+    from,
+    to: [process.env.ENQUIRY_TO || mailboxes[LEAD_ROUTE[p.type]]],
+    reply_to: p.contact.email || undefined,
+    subject: `${reference} · ${LEAD_LABEL[p.type]} · ${p.contact.name}`,
+    text,
+  });
+  // Acknowledgement to the guest, only once a verified sending domain is configured.
+  if (staff && p.contact.email && process.env.ENQUIRY_ACK === "1") {
+    await send({
       from,
-      to: [process.env.ENQUIRY_TO || brand.email],
-      reply_to: enquiry.email,
-      subject: `New journey enquiry: ${enquiry.name}${enquiry.interest ? ` · ${enquiry.interest}` : ""}`,
-      text: `${enquiryText(enquiry)}\n\nSent from tourmelloh.com/plan`,
-    }),
-  }).catch(() => null);
-
-  if (!response?.ok) {
-    return NextResponse.json({ ok: false, unavailable: true, error: "Your enquiry did not reach us." }, { status: 502 });
+      to: [p.contact.email],
+      reply_to: brand.email,
+      subject: `We have your request · ${reference}`,
+      text: `Thank you, ${p.contact.name.split(" ")[0]}.\n\nTourmelloh has received your request (reference ${reference}). We review your selections, check feasibility and availability, and send a complete quotation before any payment.\n\n${text}\n\nTourmelloh · ${brand.phone} · ${brand.email}`,
+    });
   }
-  return NextResponse.json({ ok: true });
+  return staff;
 }

@@ -1,5 +1,7 @@
-const message = "Hello Tourmelloh, I'd like to plan a journey. Could you help me explore the options?";
-export const whatsappHref = `https://wa.me/917706997271?text=${encodeURIComponent(message)}`;
+import { whatsappUrl } from "@/lib/whatsapp";
+
+/** The general message; pages set their own through PageWhatsApp. */
+export const whatsappHref = whatsappUrl({ kind: "general" });
 
 // Bootstrap Icons v1.13.1 WhatsApp glyph (MIT); original filled path, unchanged.
 // Source and full copyright/licence: research/whatsapp-icon-source.json.

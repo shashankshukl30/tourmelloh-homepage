@@ -1,116 +1,98 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import type { Article, City, Destination, Experience, Journey, MediaKey } from "@/content/catalog/types";
-import { collections } from "@/content/catalog";
+import type { Article, Experience, Guide, Journey, MediaKey, Service } from "@/content/catalog/types";
 import { Photo } from "@/components/catalog/photo";
+import { AddToJourney } from "@/components/wishlist/add-button";
 
-const collectionName = (id: Journey["collection"]) =>
-  collections.find((collection) => collection.id === id)?.name ?? "";
+export const duration = (j: Pick<Journey, "days" | "nights">) => `${j.nights}N / ${j.days}D`;
+export const durationLong = (j: Pick<Journey, "days" | "nights">) => `${j.nights} nights · ${j.days} days`;
 
-export const duration = (journey: Pick<Journey, "days" | "nights">) =>
-  `${journey.days} days · ${journey.nights} nights`;
+const typeLabel: Record<string, string> = {
+  "hindu-pilgrimage": "Hindu pilgrimage",
+  buddhist: "Buddhist journey",
+  heritage: "Heritage",
+  culture: "Culture",
+  "ancestral-rites": "Ancestral rites",
+};
 
 function Card({
-  href,
-  photo,
-  tag,
-  meta,
-  title,
-  text,
-  action,
-  size = "regular",
+  href, photo, tag, meta, title, subtitle, text, action, footer,
 }: {
-  href: string;
-  photo: MediaKey;
-  tag?: string;
-  meta?: string;
-  title: string;
-  text: string;
-  action: string;
-  size?: "regular" | "wide";
+  href: string; photo: MediaKey; tag?: string; meta?: string; title: string; subtitle?: string; text: string; action: string; footer?: React.ReactNode;
 }) {
   return (
-    <article className={`cat-card cat-card-${size}`}>
+    <article className="cat-card">
       <Link href={href} className="cat-card-photo" aria-label={title} tabIndex={-1}>
-        <Photo k={photo} sizes={size === "wide" ? "(max-width: 760px) 92vw, 46vw" : "(max-width: 760px) 92vw, (max-width: 1150px) 45vw, 30vw"} />
+        <Photo k={photo} sizes="(max-width: 760px) 92vw, (max-width: 1150px) 45vw, 30vw" />
         {tag && <span className="cat-card-tag">{tag}</span>}
       </Link>
       {meta && <p className="cat-card-meta">{meta}</p>}
-      <h3>
-        <Link href={href}>{title}</Link>
-      </h3>
+      <h3><Link href={href}>{title}</Link></h3>
+      {subtitle && <p className="cat-card-sub">{subtitle}</p>}
       <p className="cat-card-text">{text}</p>
-      <Link href={href} className="cat-card-action" aria-hidden="true" tabIndex={-1}>
-        {action} <ArrowUpRight size={16} />
-      </Link>
+      <div className="cat-card-foot">
+        <Link href={href} className="cat-card-action" aria-hidden="true" tabIndex={-1}>{action} <ArrowUpRight size={16} /></Link>
+        {footer}
+      </div>
     </article>
   );
 }
 
-export function JourneyCard({ journey, size }: { journey: Journey; size?: "regular" | "wide" }) {
+/** Journey card: name, descriptive route and duration always shown together (brief v5, section 3). */
+export function JourneyCard({ journey }: { journey: Journey }) {
+  const [name, rest] = journey.title.split(" – ");
   return (
     <Card
       href={`/journeys/${journey.slug}`}
       photo={journey.hero}
-      tag={collectionName(journey.collection)}
-      meta={`${duration(journey)} · ${journey.route.join(", ")}`}
-      title={journey.title}
+      tag={typeLabel[journey.types[0]] ?? "Journey"}
+      meta={`${durationLong(journey)} · ${journey.route}`}
+      title={name}
+      subtitle={rest}
       text={journey.summary}
-      action="View the journey"
-      size={size}
+      action="See the journey"
     />
   );
 }
 
-export function DestinationCard({ destination }: { destination: Destination }) {
+export function ServiceCard({ service }: { service: Service }) {
   return (
     <Card
-      href={`/destinations/${destination.slug}`}
-      photo={destination.hero}
-      meta={destination.label}
-      title={destination.name}
-      text={destination.intro.split(". ")[0] + "."}
-      action="Explore the region"
+      href={`/services/${service.slug}`}
+      photo={service.hero}
+      meta={`${service.category} · Quoted for your journey`}
+      title={service.title}
+      text={service.summary}
+      action="Details"
+      footer={<AddToJourney id={service.id} compact />}
     />
   );
 }
 
-export function CityCard({ city }: { city: City }) {
-  return (
-    <Card
-      href={`/cities/${city.slug}`}
-      photo={city.hero}
-      meta={`${city.label} · ${city.state}`}
-      title={city.name}
-      text={city.intro.split(". ")[0] + "."}
-      action="Read the city guide"
-    />
-  );
-}
-
-export function ExperienceCard({ experience, cityName }: { experience: Experience; cityName?: string }) {
+export function ExperienceCard({ experience }: { experience: Experience }) {
   return (
     <Card
       href={`/experiences/${experience.slug}`}
       photo={experience.hero}
       tag={experience.category}
-      meta={[cityName, experience.duration].filter(Boolean).join(" · ")}
+      meta={experience.locations}
       title={experience.title}
+      subtitle={experience.subtitle}
       text={experience.summary}
-      action="See the experience"
+      action="Details"
+      footer={<AddToJourney id={experience.id} compact />}
     />
+  );
+}
+
+export function GuideCard({ guide }: { guide: Guide }) {
+  return (
+    <Card href={`/guides/${guide.slug}`} photo={guide.hero} meta={guide.state} title={guide.name} text={guide.intro.split(". ")[0] + "."} action="Read the guide" />
   );
 }
 
 export function ArticleCard({ article }: { article: Article }) {
   return (
-    <Card
-      href={`/journal/${article.slug}`}
-      photo={article.hero}
-      tag={article.category}
-      title={article.title}
-      text={article.excerpt}
-      action="Read the article"
-    />
+    <Card href={`/journal/${article.slug}`} photo={article.hero} tag={article.category} title={article.title} text={article.excerpt} action="Read the article" />
   );
 }

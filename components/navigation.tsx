@@ -4,28 +4,34 @@ import { useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { ArrowUpRight, ChevronDown, Menu, Search, X } from "lucide-react";
+import { ArrowUpRight, ChevronDown, Heart, Menu, Search, X } from "lucide-react";
 import { LayoutGroup, motion, useReducedMotion } from "framer-motion";
-import { WhatsAppLink } from "@/components/whatsapp-link";
 import { MegaPanel, type MenuId } from "@/components/nav-mega";
-import { navCollections, navDestinations } from "@/content/catalog/nav";
+import { experiencesMenu, journeysMenu, servicesMenu } from "@/content/catalog/nav";
+import { useWishlist } from "@/components/wishlist/provider";
 
 if (typeof window !== "undefined") window.history.scrollRestoration = "manual";
 const MotionLink = motion.create(Link);
 
 type Item = { name: string; href: string; menu?: MenuId };
+/** Exactly four primary sections (brief v5, section 2). */
 const items: Item[] = [
   { name: "Journeys", href: "/journeys", menu: "journeys" },
-  { name: "Destinations", href: "/destinations", menu: "destinations" },
-  { name: "Experiences", href: "/experiences" },
-  { name: "Journal", href: "/journal" },
-  { name: "About", href: "/about" },
+  { name: "Services", href: "/services", menu: "services" },
+  { name: "Experiences", href: "/experiences", menu: "experiences" },
+  { name: "Destination Weddings", href: "/wedding-in-varanasi" },
 ];
+const menus = {
+  journeys: { groups: journeysMenu, feature: { href: "/journeys", label: "All journeys", image: "/images/library/varanasi-ghats-dawn.webp" } },
+  services: { groups: servicesMenu, feature: { href: "/services", label: "All services", image: "/images/library/boat-motor.webp" } },
+  experiences: { groups: experiencesMenu, feature: { href: "/experiences", label: "All experiences", image: "/images/library/varanasi-boat-sunrise.webp" } },
+};
 
-export function Navigation({ tone = "overlay" }: { tone?: "overlay" | "paper" }) {
+export function Navigation({ tone = "paper" }: { tone?: "overlay" | "paper" }) {
   const pathname = usePathname();
   const reduced = useReducedMotion();
   const groupId = useId();
+  const { count, ready } = useWishlist();
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState<MenuId | null>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -64,9 +70,7 @@ export function Navigation({ tone = "overlay" }: { tone?: "overlay" | "paper" })
 
   const openMenu = (id: MenuId | null) => { window.clearTimeout(closeTimer.current); setMenu(id); };
   const closeSoon = () => { closeTimer.current = window.setTimeout(() => setMenu(null), 160); };
-  const current = items.find((item) => pathname === item.href || pathname.startsWith(`${item.href}/`)
-    || (item.menu === "journeys" && pathname.startsWith("/collections"))
-    || (item.menu === "destinations" && pathname.startsWith("/cities")))?.href;
+  const current = items.find((item) => pathname === item.href || pathname.startsWith(`${item.href}/`))?.href;
   const highlighted = hovered ?? (menu ? items.find((i) => i.menu === menu)?.href : undefined) ?? current;
   const travel = reduced ? { duration: 0 } : { type: "spring" as const, stiffness: 420, damping: 34 };
   const solid = tone === "paper" || scrolled || open || menu !== null;
@@ -77,7 +81,7 @@ export function Navigation({ tone = "overlay" }: { tone?: "overlay" | "paper" })
       <div className="nav-shell" onPointerLeave={(e) => { if (e.pointerType !== "touch") closeSoon(); }} onPointerEnter={() => window.clearTimeout(closeTimer.current)}>
         <header className={`site-header ${solid ? "is-solid" : ""} ${menu ? "has-menu" : ""}`}>
           <div className="header-inner">
-            <Link href="/" className="brand" aria-label="Tourmelloh Home"
+            <Link href="/" className="brand" aria-label="Tourmelloh home"
               onClick={(event) => {
                 setOpen(false);
                 setMenu(null);
@@ -117,9 +121,7 @@ export function Navigation({ tone = "overlay" }: { tone?: "overlay" | "paper" })
                       {body}
                     </button>
                   ) : (
-                    <MotionLink key={item.href} href={item.href} {...shared}
-                      aria-current={current === item.href ? "page" : undefined}
-                      whileTap={reduced ? undefined : { scale: .97 }}>
+                    <MotionLink key={item.href} href={item.href} {...shared} aria-current={current === item.href ? "page" : undefined}>
                       {body}
                     </MotionLink>
                   );
@@ -127,56 +129,54 @@ export function Navigation({ tone = "overlay" }: { tone?: "overlay" | "paper" })
               </nav>
             </LayoutGroup>
             <div className="header-actions">
-              <MotionLink href="/search" className="nav-search" aria-label="Search journeys, places and experiences"
-                whileHover={reduced ? undefined : { scale: 1.07 }} whileTap={reduced ? undefined : { scale: .94 }} transition={travel}>
-                <Search size={20} />
-              </MotionLink>
-              <WhatsAppLink placement="header" />
-              <MotionLink href="/plan" className="header-cta" style={{ color: solid ? "var(--paper)" : "var(--ink)" }}
-                initial="rest" whileHover="hover" whileFocus="hover" whileTap={reduced ? undefined : { scale: .98 }}>
+              <Link href="/search" className="nav-search" aria-label="Search journeys, services and experiences"><Search size={20} /></Link>
+              <Link href="/your-journey" className="nav-wishlist" aria-label={`My Journey${ready && count ? `, ${count} selected` : ""}`}>
+                <Heart size={19} aria-hidden="true" />
+                <span className="nav-wishlist-label">My Journey</span>
+                {ready && count > 0 && <span className="nav-count">{count}</span>}
+              </Link>
+              <MotionLink href={ready && count ? "/your-journey" : "/help-me-plan"} className="header-cta" style={{ color: "var(--paper)" }}
+                initial="rest" whileHover="hover" whileFocus="hover">
                 <motion.span className="nav-cta-fill" aria-hidden="true"
                   variants={{ rest: { y: "105%" }, hover: { y: 0 } }} transition={reduced ? { duration: 0 } : { duration: .28, ease: [.2, .7, .2, 1] }} />
-                <span className="nav-cta-label"><span className="nav-plan-full">Plan your journey</span><span className="nav-plan-short">Plan a trip</span></span>
-                <motion.span className="nav-cta-arrow" variants={{ rest: { x: 0, y: 0 }, hover: { x: reduced ? 0 : 2, y: reduced ? 0 : -2 } }} transition={travel}>
-                  <ArrowUpRight size={17} />
-                </motion.span>
+                <span className="nav-cta-label"><span className="nav-plan-full">Plan Your Journey</span><span className="nav-plan-short">Plan</span></span>
+                <ArrowUpRight className="nav-cta-arrow" size={17} />
               </MotionLink>
-              <motion.button className="menu-toggle" ref={toggle} aria-label={open ? "Close menu" : "Open menu"}
-                aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen((value) => !value)}
-                whileTap={reduced ? undefined : { scale: .92 }}>
+              <button className="menu-toggle" ref={toggle} aria-label={open ? "Close menu" : "Open menu"}
+                aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen((value) => !value)}>
                 {open ? <X /> : <Menu />}
-              </motion.button>
+              </button>
             </div>
           </div>
         </header>
-        <MegaPanel id="journeys" open={menu === "journeys"} onNavigate={() => setMenu(null)} />
-        <MegaPanel id="destinations" open={menu === "destinations"} onNavigate={() => setMenu(null)} />
+        {(Object.keys(menus) as MenuId[]).map((id) => (
+          <MegaPanel key={id} id={id} open={menu === id} groups={menus[id].groups} feature={menus[id].feature} onNavigate={() => setMenu(null)} />
+        ))}
       </div>
       {menu && <div className="mega-scrim" aria-hidden="true" onClick={() => setMenu(null)} />}
       {open && (
         <motion.nav ref={mobile} id="mobile-navigation" className="mobile-nav" aria-label="Mobile navigation"
           initial={reduced ? false : { opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: reduced ? 0 : .22 }}>
           {items.map((item, i) => (
-            <MotionLink key={item.href} href={item.href} onClick={() => setOpen(false)}
-              aria-current={current === item.href ? "page" : undefined}
-              initial={reduced ? false : { opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: reduced ? 0 : .32, delay: reduced ? 0 : .04 * i }}>
+            <Link key={item.href} href={item.href} onClick={() => setOpen(false)} aria-current={current === item.href ? "page" : undefined}>
               <span>0{i + 1}</span>{item.name}<ArrowUpRight />
-            </MotionLink>
+            </Link>
           ))}
           <div className="mobile-sub">
-            <p>Journeys by style</p>
-            {navCollections.map((c) => <Link key={c.slug} href={`/collections/${c.slug}`} onClick={() => setOpen(false)}>{c.name}</Link>)}
+            <p>Specialist collections</p>
+            {journeysMenu[3].links.map((l) => <Link key={l.href} href={l.href} onClick={() => setOpen(false)}>{l.name}</Link>)}
           </div>
           <div className="mobile-sub">
-            <p>Regions</p>
-            {navDestinations.map((d) => <Link key={d.slug} href={`/destinations/${d.slug}`} onClick={() => setOpen(false)}>{d.name}</Link>)}
-            <Link href="/cities" onClick={() => setOpen(false)}>All city guides</Link>
+            <p>Comfort tiers</p>
+            {journeysMenu[2].links.slice(0, 3).map((l) => <Link key={l.href} href={l.href} onClick={() => setOpen(false)}>{l.name}</Link>)}
           </div>
-          <Link href="/search" className="mobile-search-link" onClick={() => setOpen(false)}>
-            <Search size={21} /><span>Search journeys & places</span><ArrowUpRight />
+          <Link href="/your-journey" className="mobile-search-link" onClick={() => setOpen(false)}>
+            <Heart size={20} /><span>My Journey{ready && count ? ` (${count})` : ""}</span><ArrowUpRight />
           </Link>
-          <Link href="/plan" onClick={() => setOpen(false)} className="mobile-plan">Plan your journey <ArrowUpRight /></Link>
+          <Link href="/search" className="mobile-search-link" onClick={() => setOpen(false)}>
+            <Search size={20} /><span>Search</span><ArrowUpRight />
+          </Link>
+          <Link href="/help-me-plan" onClick={() => setOpen(false)} className="mobile-plan">Plan Your Journey <ArrowUpRight /></Link>
         </motion.nav>
       )}
     </>

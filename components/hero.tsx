@@ -4,12 +4,17 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { HeroFilm } from "@/components/hero-film";
 import { animate, useReducedMotion } from "framer-motion";
-import { navCollections, navDestinations } from "@/content/catalog/nav";
+
+const PLACES = [
+  ["varanasi", "Varanasi"], ["prayagraj", "Prayagraj"], ["ayodhya", "Ayodhya"],
+  ["sarnath", "Sarnath"], ["bodh-gaya", "Bodh Gaya"], ["kushinagar", "Kushinagar"],
+] as const;
+const LENGTHS = [["short", "2 to 3 nights"], ["medium", "4 to 5 nights"], ["long", "6 nights or more"]] as const;
 
 export function Hero() {
   const router = useRouter();
-  const [region, setRegion] = useState("");
-  const [style, setStyle] = useState("");
+  const [place, setPlace] = useState("");
+  const [length, setLength] = useState("");
   const reduced = useReducedMotion();
   const content = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -30,11 +35,11 @@ export function Hero() {
         <HeroFilm />
         <div className="hero-shade" />
         <div className="hero-content" ref={content}>
-          <h1 id="hero-heading"><span className="hero-title-line">Begin in Kashi.</span>{" "}<span className="hero-title-line"><em>Go a little further.</em></span></h1>
+          <h1 id="hero-heading"><span className="hero-title-line">Your travel and destination partners</span>{" "}<span className="hero-title-line"><em>in Varanasi and beyond.</em></span></h1>
           <div className="hero-bottom">
-            <p>Private journeys across India, designed in Varanasi.<br className="desktop-break" /> Your own car, your own guides, hotels with a sense of place.</p>
-            <a className="hero-explore" href="#collections" style={{ color: "var(--ink)" }}>
-              See the journeys <span className="round-arrow"><ArrowDown size={20} /></span>
+            <p>Journeys, services and experiences through Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya.<br className="desktop-break" /> Choose your comfort, personalise it, and receive one complete quotation.</p>
+            <a className="hero-explore" href="#about-tourmelloh" style={{ color: "var(--ink)" }}>
+              How we work <span className="round-arrow"><ArrowDown size={20} /></span>
             </a>
           </div>
         </div>
@@ -43,26 +48,29 @@ export function Hero() {
         <form className="trip-finder" aria-label="Find a journey"
           onSubmit={(event) => {
             event.preventDefault();
-            router.push(style ? `/collections/${style}` : region ? `/destinations/${region}` : "/journeys");
+            const q = new URLSearchParams();
+            if (place) q.set("destination", place);
+            if (length) q.set("length", length);
+            router.push(q.size ? `/journeys?${q}` : "/journeys");
           }}>
-          <div className="finder-intro"><span className="eyebrow">WHERE TO NEXT?</span><strong>Follow your curiosity.</strong></div>
-          <label className="finder-field"><span>A region on your mind</span>
+          <div className="finder-intro"><span className="eyebrow">WHERE TO NEXT?</span><strong>Find a suggested journey.</strong></div>
+          <label className="finder-field"><span>Where</span>
             <div className="select-wrap">
-              <select value={region} onChange={(event) => setRegion(event.target.value)}>
-                <option value="">Anywhere in India</option>
-                {navDestinations.map((place) => <option key={place.slug} value={place.slug}>{place.name}</option>)}
+              <select value={place} onChange={(event) => setPlace(event.target.value)}>
+                <option value="">Any destination</option>
+                {PLACES.map(([slug, name]) => <option key={slug} value={slug}>{name}</option>)}
               </select><ChevronDown size={18} />
             </div>
           </label>
-          <label className="finder-field"><span>The kind of journey</span>
+          <label className="finder-field"><span>How long</span>
             <div className="select-wrap">
-              <select value={style} onChange={(event) => setStyle(event.target.value)}>
-                <option value="">A bit of everything</option>
-                {navCollections.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
+              <select value={length} onChange={(event) => setLength(event.target.value)}>
+                <option value="">Any length</option>
+                {LENGTHS.map(([key, label]) => <option key={key} value={key}>{label}</option>)}
               </select><ChevronDown size={18} />
             </div>
           </label>
-          <button className="button button-clay" style={{ color: "var(--paper)" }} type="submit">Find my journey <ArrowUpRight size={19} /></button>
+          <button className="button button-clay" style={{ color: "var(--paper)" }} type="submit">Show journeys <ArrowUpRight size={19} /></button>
         </form>
       </div>
     </>

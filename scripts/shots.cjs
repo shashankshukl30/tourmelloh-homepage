@@ -12,7 +12,7 @@ const fs = require("node:fs");
   page.on("pageerror", (e) => errors.push(`${page.url()}: ${e.message}`));
   page.on("console", (m) => m.type() === "error" && errors.push(`${page.url()}: ${m.text()}`));
   for (const route of routes) {
-    await page.goto(`http://127.0.0.1:3108${route}`, { waitUntil: "networkidle" });
+    await page.goto(`${process.env.BASE || "http://127.0.0.1:3108"}${route}`, { waitUntil: "networkidle" });
     // Walk the page so lazy images and reveals settle, then return to the top.
     const height = await page.evaluate(() => document.body.scrollHeight);
     for (let y = 0; y < height; y += 700) { await page.evaluate((v) => window.scrollTo(0, v), y); await page.waitForTimeout(120); }

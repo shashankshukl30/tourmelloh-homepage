@@ -151,6 +151,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 29175703
  },
+ "arrival-welcome": {
+  "src": "/images/library/arrival-welcome.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "Hands holding a marigold garland",
+  "by": "Lara Jameson",
+  "page": "https://www.pexels.com/photo/hands-holding-garlands-8886982/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 8886982
+ },
  "artisan-pottery": {
   "src": "/images/library/artisan-pottery.webp",
   "width": 2600,
@@ -160,6 +170,26 @@
   "page": "https://www.pexels.com/photo/indian-potter-crafting-traditional-earthenware-outdoors-36779010/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 36779010
+ },
+ "ashram-ganga": {
+  "src": "/images/library/ashram-ganga.webp",
+  "width": 2600,
+  "height": 2600,
+  "alt": "A man in meditation beside the Ganga",
+  "by": "Kundalini Yoga  Ashram",
+  "page": "https://www.pexels.com/photo/man-sitting-on-rocks-medita-13736490/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 13736490
+ },
+ "astrology": {
+  "src": "/images/library/astrology.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "A hand-drawn astrological chart by candlelight",
+  "by": "Ксения Вохминцева",
+  "page": "https://www.pexels.com/photo/a-close-up-of-a-natal-chart-10780188/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 10780188
  },
  "ayodhya-ram-ki-paidi": {
   "src": "/images/library/ayodhya-ram-ki-paidi.webp",
@@ -194,6 +224,16 @@
   "licenseName": "Unsplash License",
   "credit": false
  },
+ "ayurveda-consult": {
+  "src": "/images/library/ayurveda-consult.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "Ayurvedic herbs, oils and turmeric",
+  "by": "Galiya Tenisheva",
+  "page": "https://www.pexels.com/photo/bowls-with-liquid-and-food-ingredients-20689447/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 20689447
+ },
  "badrinath-temple": {
   "src": "/images/library/badrinath-temple.webp",
   "width": 2600,
@@ -213,6 +253,26 @@
   "page": "https://www.pexels.com/photo/majestic-bengal-tiger-crossing-dirt-path-in-forest-30889521/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 30889521
+ },
+ "boat-cruise": {
+  "src": "/images/library/boat-cruise.webp",
+  "width": 1950,
+  "height": 2600,
+  "alt": "A red and white river boat at its mooring",
+  "by": "Arto Suraj",
+  "page": "https://www.pexels.com/photo/red-and-white-boat-on-ganges-river-in-varanasi-33329467/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 33329467
+ },
+ "boat-motor": {
+  "src": "/images/library/boat-motor.webp",
+  "width": 1459,
+  "height": 2600,
+  "alt": "A wooden boat on the Ganga at Varanasi",
+  "by": "Surendra Singh",
+  "page": "https://www.pexels.com/photo/colorful-wooden-boat-on-the-ganges-river-32549463/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 32549463
  },
  "bodhgaya-mahabodhi": {
   "src": "/images/library/bodhgaya-mahabodhi.webp",
@@ -244,6 +304,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 39587563
  },
+ "car-premium": {
+  "src": "/images/library/car-premium.webp",
+  "width": 2600,
+  "height": 1734,
+  "alt": "A chauffeur opening the door of a Mercedes",
+  "by": "Сергей Тарасов",
+  "page": "https://www.pexels.com/photo/man-opening-car-door-for-woman-15774577/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 15774577
+ },
  "central-india-safari": {
   "src": "/images/library/central-india-safari.webp",
   "width": 2600,
@@ -263,6 +333,37 @@
   "page": "https://www.pexels.com/photo/aerial-view-of-kedarnath-temple-in-majestic-himalayas-34376161/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 34376161
+ },
+ "childcare": {
+  "src": "/images/library/childcare.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "A woman playing with a smiling toddler",
+  "by": "Bhola Chourasia",
+  "page": "https://www.pexels.com/photo/joyful-mother-lifting-happy-child-outdoors-32575092/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 32575092
+ },
+ "chitrakoot-ramghat": {
+  "src": "/images/library/chitrakoot-ramghat.webp",
+  "width": 1463,
+  "height": 2600,
+  "alt": "Boats along the riverbank at Chitrakoot",
+  "by": "Lakshmi Raj",
+  "page": "https://www.pexels.com/photo/colorful-boats-along-the-riverbank-in-chitrakoot-36402970/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 36402970
+ },
+ "chunar-fort": {
+  "src": "/images/library/chunar-fort.webp",
+  "width": 2600,
+  "height": 1722,
+  "alt": "Chunar Fort above the Ganga",
+  "by": "Rangan Datta Wiki",
+  "page": "https://commons.wikimedia.org/wiki/File:Chunar_Fort_3.jpg",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "licenseName": "CC BY-SA 4.0",
+  "credit": true
  },
  "cooking-class": {
   "src": "/images/library/cooking-class.webp",
@@ -384,6 +485,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 13982506
  },
+ "family-travellers": {
+  "src": "/images/library/family-travellers.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "A family with a small child setting out by car",
+  "by": "Patel Ankit",
+  "page": "https://www.pexels.com/photo/smiling-mother-with-father-and-daughter-in-car-14124346/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 14124346
+ },
  "fatehpur-sikri": {
   "src": "/images/library/fatehpur-sikri.webp",
   "width": 2600,
@@ -424,6 +535,17 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 37866434
  },
+ "gaya-falgu": {
+  "src": "/images/library/gaya-falgu.webp",
+  "width": 2600,
+  "height": 1950,
+  "alt": "The Falgu riverbed and ghats at Gaya",
+  "by": "Somujha88",
+  "page": "https://commons.wikimedia.org/wiki/File:Phalgu_river_at_gaya.JPG",
+  "license": "https://creativecommons.org/licenses/by-sa/3.0",
+  "licenseName": "CC BY-SA 3.0",
+  "credit": true
+ },
  "gaya-vishnupad": {
   "src": "/images/library/gaya-vishnupad.webp",
   "width": 2600,
@@ -434,6 +556,16 @@
   "license": "https://creativecommons.org/licenses/by-sa/3.0/",
   "licenseName": "CC BY-SA 3.0",
   "credit": true
+ },
+ "gift-hamper": {
+  "src": "/images/library/gift-hamper.webp",
+  "width": 2600,
+  "height": 2600,
+  "alt": "A gift box of baked treats and sweets",
+  "by": "Shanks Emperor",
+  "page": "https://www.pexels.com/photo/festive-gift-box-with-assorted-sweets-and-cookies-28769885/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 28769885
  },
  "goa-beach": {
   "src": "/images/library/goa-beach.webp",
@@ -525,6 +657,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 34480113
  },
+ "helicopter": {
+  "src": "/images/library/helicopter.webp",
+  "width": 2600,
+  "height": 1462,
+  "alt": "A civil helicopter on display",
+  "by": "Aseem Borkar",
+  "page": "https://www.pexels.com/photo/helicopter-on-display-at-aerospace-exhibition-31351478/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 31351478
+ },
  "himachal-toy-train": {
   "src": "/images/library/himachal-toy-train.webp",
   "width": 1950,
@@ -534,6 +676,16 @@
   "page": "https://www.pexels.com/photo/barog-tunnel-entrance-in-himachal-pradesh-38520096/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 38520096
+ },
+ "indian-dining": {
+  "src": "/images/library/indian-dining.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "A traditional Indian thali being served",
+  "by": "Yan Krukau",
+  "page": "https://www.pexels.com/photo/a-person-putting-food-on-the-stainless-plate-8818723/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 8818723
  },
  "jaipur-amber-fort": {
   "src": "/images/library/jaipur-amber-fort.webp",
@@ -845,6 +997,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 31288326
  },
+ "kushinagar-mahaparinirvana": {
+  "src": "/images/library/kushinagar-mahaparinirvana.webp",
+  "width": 1950,
+  "height": 2600,
+  "alt": "The Mahaparinirvana Temple at Kushinagar",
+  "by": "Abhi Mannu",
+  "page": "https://www.pexels.com/photo/kushinagar-s-mahaparinirvana-temple-in-india-39273201/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 39273201
+ },
  "ladakh-khardung-la": {
   "src": "/images/library/ladakh-khardung-la.webp",
   "width": 2600,
@@ -1055,6 +1217,17 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 14730465
  },
+ "naimisharanya": {
+  "src": "/images/library/naimisharanya.webp",
+  "width": 1920,
+  "height": 2560,
+  "alt": "A shrine at Naimisharanya",
+  "by": "Lusifor ,manoj shrestha",
+  "page": "https://commons.wikimedia.org/wiki/File:Naimisharanya_ksetra.jpg",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "licenseName": "CC BY-SA 4.0",
+  "credit": true
+ },
  "nalanda-ruins": {
   "src": "/images/library/nalanda-ruins.webp",
   "width": 2600,
@@ -1095,6 +1268,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 20000876
  },
+ "paan": {
+  "src": "/images/library/paan.webp",
+  "width": 2600,
+  "height": 1732,
+  "alt": "A paan seller holding fresh betel leaves",
+  "by": "Vikram Aditya",
+  "page": "https://www.pexels.com/photo/happy-vendor-selling-fresh-betel-leaves-at-market-40179145/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 40179145
+ },
  "pahalgam-meadow": {
   "src": "/images/library/pahalgam-meadow.webp",
   "width": 2600,
@@ -1104,6 +1287,26 @@
   "page": "https://www.pexels.com/photo/scenic-winter-landscape-in-pahalgam-kashmir-36627785/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 36627785
+ },
+ "photographer": {
+  "src": "/images/library/photographer.webp",
+  "width": 2600,
+  "height": 1737,
+  "alt": "A photographer at work on the Ganga at Varanasi",
+  "by": "Manish Jangid",
+  "page": "https://www.pexels.com/photo/a-man-taking-a-photo-of-a-boat-on-the-water-27583914/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 27583914
+ },
+ "porter": {
+  "src": "/images/library/porter.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "A railway worker on a station platform",
+  "by": "Iqbal farooz",
+  "page": "https://www.pexels.com/photo/railway-worker-at-station-20813094/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 20813094
  },
  "prayagraj-sangam-birds": {
   "src": "/images/library/prayagraj-sangam-birds.webp",
@@ -1245,6 +1448,26 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 6157502
  },
+ "rudrabhishek": {
+  "src": "/images/library/rudrabhishek.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "A Shiva lingam decorated with marigolds",
+  "by": " \"Beyond India by Shubham Thakur\" ",
+  "page": "https://www.pexels.com/photo/shiva-lingam-adorned-with-flowers-in-raipur-39237032/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 39237032
+ },
+ "saree-draping": {
+  "src": "/images/library/saree-draping.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "A woman in a red Banarasi silk sari",
+  "by": "Manish Jangid",
+  "page": "https://www.pexels.com/photo/elegant-woman-in-traditional-indian-saree-28943520/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 28943520
+ },
  "sarnath-dhamek-stupa": {
   "src": "/images/library/sarnath-dhamek-stupa.webp",
   "width": 2600,
@@ -1265,6 +1488,16 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 37954450
  },
+ "senior-travellers": {
+  "src": "/images/library/senior-travellers.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "An older couple on a boat at Varanasi",
+  "by": "Rajesh S  Balouria",
+  "page": "https://www.pexels.com/photo/elderly-couple-on-a-boat-in-tranquil-waters-29148149/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 29148149
+ },
  "shimla-ridge": {
   "src": "/images/library/shimla-ridge.webp",
   "width": 2600,
@@ -1274,6 +1507,17 @@
   "page": "https://www.pexels.com/photo/gaiety-heritage-cultural-complex-shimla-in-india-at-dusk-16777016/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 16777016
+ },
+ "shravasti-jetavana": {
+  "src": "/images/library/shravasti-jetavana.webp",
+  "width": 2600,
+  "height": 1463,
+  "alt": "Anathapindika's Stupa at Jetavana, Shravasti",
+  "by": "Photo Dharma from Penang, Malaysia",
+  "page": "https://commons.wikimedia.org/wiki/File:Jetavana_-_Anathapindika%27s_Stupa,_Shravasti_(9239811156).jpg",
+  "license": "https://creativecommons.org/licenses/by/2.0",
+  "licenseName": "CC BY 2.0",
+  "credit": true
  },
  "sikkim-prayer-flags": {
   "src": "/images/library/sikkim-prayer-flags.webp",
@@ -1315,6 +1559,26 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 40348598
  },
+ "sweets-mithai": {
+  "src": "/images/library/sweets-mithai.webp",
+  "width": 1958,
+  "height": 2600,
+  "alt": "A display of traditional Indian sweets",
+  "by": "Eternal  Traveler",
+  "page": "https://www.pexels.com/photo/assorted-indian-sweets-and-snacks-display-36236282/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 36236282
+ },
+ "temple-shrine": {
+  "src": "/images/library/temple-shrine.webp",
+  "width": 1769,
+  "height": 2600,
+  "alt": "An old temple with a carved arch in a lane",
+  "by": "Stijn Dijkstra",
+  "page": "https://www.pexels.com/photo/exterior-of-a-traditional-building-in-the-city-of-varanasi-india-16747086/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 16747086
+ },
  "textiles-colour": {
   "src": "/images/library/textiles-colour.webp",
   "width": 2600,
@@ -1354,6 +1618,26 @@
   "page": "https://www.pexels.com/photo/blue-train-at-ooty-railway-station-in-tamil-nadu-38204462/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 38204462
+ },
+ "train-station": {
+  "src": "/images/library/train-station.webp",
+  "width": 1928,
+  "height": 2600,
+  "alt": "The facade of Varanasi Junction railway station",
+  "by": "CHANDAN SUMAN 🇮🇳",
+  "page": "https://www.pexels.com/photo/facade-of-a-brown-and-beige-concrete-building-12755778/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 12755778
+ },
+ "travel-host": {
+  "src": "/images/library/travel-host.webp",
+  "width": 2600,
+  "height": 1671,
+  "alt": "A small group on a boat on the Ganga at Varanasi",
+  "by": "Pavan Prasad",
+  "page": "https://www.pexels.com/photo/tourists-enjoying-boat-ride-on-misty-river-35665681/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 35665681
  },
  "udaipur-boat-sunset": {
   "src": "/images/library/udaipur-boat-sunset.webp",
@@ -1636,6 +1920,27 @@
   "license": "https://www.pexels.com/license/",
   "pexelsId": 33178279
  },
+ "village-life": {
+  "src": "/images/library/village-life.webp",
+  "width": 2600,
+  "height": 1950,
+  "alt": "Farmers at work with a tractor in the countryside",
+  "by": "Shashiprakash Saini",
+  "page": "https://www.pexels.com/photo/farmers-working-at-harvest-13044335/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 13044335
+ },
+ "vindhyachal-temple": {
+  "src": "/images/library/vindhyachal-temple.webp",
+  "width": 2600,
+  "height": 1379,
+  "alt": "Inside the Vindhyavasini temple at Vindhyachal",
+  "by": "Rasvihari mishra",
+  "page": "https://commons.wikimedia.org/wiki/File:Vindyvashni_temple.jpg",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "licenseName": "CC BY-SA 4.0",
+  "credit": true
+ },
  "vrindavan-devotees": {
   "src": "/images/library/vrindavan-devotees.webp",
   "width": 2213,
@@ -1665,6 +1970,66 @@
   "page": "https://www.pexels.com/photo/majestic-view-of-prem-mandir-in-vrindavan-at-daytime-35960313/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 35960313
+ },
+ "wedding-ceremony": {
+  "src": "/images/library/wedding-ceremony.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "Hands joined in a Hindu wedding ritual",
+  "by": "Durga prasad muddana",
+  "page": "https://www.pexels.com/photo/people-holding-hands-together-at-hindu-wedding-7245032/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 7245032
+ },
+ "wedding-decor": {
+  "src": "/images/library/wedding-decor.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "A marigold arch made for a wedding",
+  "by": "BANU FILM  ADS",
+  "page": "https://www.pexels.com/photo/flowers-arrangement-over-green-banana-leaves-12718058/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 12718058
+ },
+ "wedding-haldi": {
+  "src": "/images/library/wedding-haldi.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "A bride laughing during her haldi ceremony",
+  "by": "Ankit Pathak",
+  "page": "https://www.pexels.com/photo/colorful-indian-haldi-ceremony-celebration-35816221/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 35816221
+ },
+ "wedding-mandap": {
+  "src": "/images/library/wedding-mandap.webp",
+  "width": 1733,
+  "height": 2600,
+  "alt": "A flower-decked wedding mandap in a historic courtyard",
+  "by": "The Visionary Vows",
+  "page": "https://www.pexels.com/photo/traditional-indian-wedding-mandap-decorated-with-flowers-33417236/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 33417236
+ },
+ "wheelchair-assist": {
+  "src": "/images/library/wheelchair-assist.webp",
+  "width": 1950,
+  "height": 2600,
+  "alt": "A wheelchair user at the Taj Mahal",
+  "by": "Fayas Faz",
+  "page": "https://www.pexels.com/photo/taj-28357557/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 28357557
+ },
+ "women-travellers": {
+  "src": "/images/library/women-travellers.webp",
+  "width": 1461,
+  "height": 2600,
+  "alt": "Two women in saris on the steps of a ghat",
+  "by": "Michael Takahashi",
+  "page": "https://www.pexels.com/photo/traditional-portrait-of-women-at-thanjavur-temple-34630556/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 34630556
  },
  "yamunotri": {
   "src": "/images/library/yamunotri.webp",

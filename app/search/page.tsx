@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/site";
 
 export const metadata = {
   ...pageMeta({
-    title: "Search Journeys, Places & Experiences | Tourmelloh",
-    description: "Search every Tourmelloh journey, region, city guide, private experience and journal article, from Varanasi and the Taj to Havelock and Ladakh.",
+    title: "Search Journeys, Services & Experiences | Tourmelloh",
+    description: "Search every Tourmelloh journey, service, experience, destination guide and journal article across Varanasi, Prayagraj, Ayodhya, Gaya and Bodh Gaya.",
     path: "/search",
   }),
   robots: { index: false, follow: true },

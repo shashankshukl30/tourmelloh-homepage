@@ -10,12 +10,12 @@ import { prepare, search, type SearchEntry, type SearchKind } from "@/lib/search
 const KINDS: { value: "All" | SearchKind; label: string }[] = [
   { value: "All", label: "Everything" },
   { value: "Journey", label: "Journeys" },
-  { value: "Region", label: "Regions" },
-  { value: "City", label: "Cities" },
+  { value: "Service", label: "Services" },
   { value: "Experience", label: "Experiences" },
+  { value: "Guide", label: "Guides" },
   { value: "Article", label: "Journal" },
 ];
-const POPULAR = ["Varanasi", "Golden Triangle", "Andaman", "Char Dham", "Kerala backwaters", "Ladakh", "Tiger safari", "Udaipur", "Honeymoon", "Pilgrimage"];
+const POPULAR = ["Ganga aarti", "Private boat", "Kashi Vishwanath", "Bodh Gaya", "Prayagraj Sangam", "Ayodhya", "Pind daan", "Wheelchair", "Private taxi", "Wedding"];
 
 export function TravelSearch({ entries }: { entries: SearchEntry[] }) {
   const router = useRouter();
@@ -108,7 +108,7 @@ export function TravelSearch({ entries }: { entries: SearchEntry[] }) {
                   {entry.thumb && <Image src={entry.thumb.src} alt="" fill sizes="160px" placeholder="blur" blurDataURL={entry.thumb.blur} />}
                 </div>
                 <div>
-                  <span className="search-kind">{entry.kind === "Region" ? "Region" : entry.kind}</span>
+                  <span className="search-kind">{entry.kind}</span>
                   <h2>{entry.title}</h2>
                   <p className="search-detail">{entry.detail}</p>
                   <p>{entry.description}</p>
@@ -122,7 +122,7 @@ export function TravelSearch({ entries }: { entries: SearchEntry[] }) {
                 <p>Nothing matched “{query.trim()}”. Try a city or a region, or tell us what you have in mind and we will design it.</p>
                 <div>
                   <button className="button button-clay" style={{ color: "var(--paper)" }} onClick={() => { update(""); setKind("All"); }}>Clear the search <ArrowUpRight size={18} /></button>
-                  <Link className="text-link" href="/plan">Plan something personal <ArrowUpRight size={18} /></Link>
+                  <Link className="text-link" href="/help-me-plan">Plan something personal <ArrowUpRight size={18} /></Link>
                 </div>
               </div>
             )}

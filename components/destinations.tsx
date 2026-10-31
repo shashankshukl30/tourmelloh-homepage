@@ -13,15 +13,15 @@ export type AtlasPlace = {
   photo: { src: string; alt: string; blur: string };
 };
 
-/** The homepage index of regions: choose a name, see its photograph and a line about it. */
+/** The homepage index of destinations: choose a name, see its photograph and a line about it. */
 export function Destinations({ places }: { places: AtlasPlace[] }) {
   const [selected, setSelected] = useState(places[0]?.slug);
   const place = places.find((item) => item.slug === selected) ?? places[0];
   return (
     <section className="atlas-section page-width" id="destinations" aria-labelledby="destinations-heading">
       <Reveal className="atlas-heading">
-        <div><span className="eyebrow">PLACES WITH A PULL</span><h2 id="destinations-heading">Find your somewhere.</h2></div>
-        <p>Sacred rivers, desert palaces, tea hills and turquoise islands. {places.length} regions we know well, and love to show.</p>
+        <div><span className="eyebrow">DESTINATION GUIDES</span><h2 id="destinations-heading">Where our journeys go.</h2></div>
+        <p>Kashi first, then the confluence, Ram&apos;s city and the places of the Buddha. {places.length} destinations we plan in depth, each with a practical guide.</p>
       </Reveal>
       <div className="atlas-layout">
         <div className="atlas-visual" id="destination-detail" aria-live="polite" aria-atomic="true">
@@ -31,12 +31,12 @@ export function Destinations({ places }: { places: AtlasPlace[] }) {
             <div className="atlas-photo-label"><span>{place.label.toUpperCase()}</span><h3>{place.name}</h3></div>
           </div>
           <div className="atlas-description"><p>{place.text}</p>
-            <Link href={`/destinations/${place.slug}`} className="text-link">Explore {place.name} <ArrowUpRight size={19} /></Link>
+            <Link href={`/guides/${place.slug}`} className="text-link">The {place.name} guide <ArrowUpRight size={19} /></Link>
           </div>
         </div>
         <div className="atlas-index">
           <p className="atlas-index-title">Where would you like to begin?</p>
-          <div className="atlas-places" role="group" aria-label="Choose a region">
+          <div className="atlas-places" role="group" aria-label="Choose a destination">
             {places.map((item, index) => (
               <button key={item.slug} type="button" className={selected === item.slug ? "is-selected" : ""}
                 onClick={() => setSelected(item.slug)} onPointerEnter={(e) => { if (e.pointerType === "mouse") setSelected(item.slug); }}
@@ -46,14 +46,14 @@ export function Destinations({ places }: { places: AtlasPlace[] }) {
               </button>
             ))}
           </div>
-          <Link className="button atlas-plan" href={`/plan?destination=${place.slug}`} style={{ color: "var(--ink)" }}>Plan for {place.name} <ArrowUpRight size={19} /></Link>
-          <p className="atlas-index-note">Somewhere else in mind?<br />{" "}<Link href="/plan">Tell us about it.</Link></p>
+          <Link className="button atlas-plan" href={`/journeys?destination=${place.slug}`} style={{ color: "var(--ink)" }}>Journeys to {place.name} <ArrowUpRight size={19} /></Link>
+          <p className="atlas-index-note">Somewhere else in mind?<br />{" "}<Link href="/help-me-plan">Tell us about it.</Link></p>
         </div>
       </div>
       {/* Phones: a swipeable row of regions, each with its own photograph. */}
-      <div className="atlas-rail" aria-label="Regions">
+      <div className="atlas-rail" aria-label="Destinations">
         {places.map((item) => (
-          <Link key={item.slug} href={`/destinations/${item.slug}`} className="atlas-card">
+          <Link key={item.slug} href={`/guides/${item.slug}`} className="atlas-card">
             <Image src={item.photo.src} alt={item.photo.alt} fill sizes="75vw" placeholder="blur" blurDataURL={item.photo.blur} />
             <span className="atlas-card-copy">
               <small>{item.label}</small>
@@ -64,7 +64,7 @@ export function Destinations({ places }: { places: AtlasPlace[] }) {
       </div>
       <div className="atlas-rail-foot">
         <span>Swipe to see all {places.length}</span>
-        <Link href="/destinations" className="tour-text-link">All regions <ArrowUpRight size={16} aria-hidden="true" /></Link>
+        <Link href="/guides" className="tour-text-link">All guides <ArrowUpRight size={16} aria-hidden="true" /></Link>
       </div>
     </section>
   );
