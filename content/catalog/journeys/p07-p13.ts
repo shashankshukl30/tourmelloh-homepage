@@ -608,7 +608,7 @@ export const journeys: Journey[] = [
     slug: "journey-of-remembrance",
     status: "draft",
     setup: "Specialist confirmation before publication",
-    title: "A Journey of Remembrance: Varanasi & Gaya",
+    title: "A Journey of Remembrance – Varanasi & Gaya",
     route: "Varanasi and Gaya, with individually scoped ancestral rites (Pind Daan) in Gaya",
     destinations: ["varanasi", "gaya"],
     types: ["ancestral-rites", "hindu-pilgrimage"],

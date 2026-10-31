@@ -60,7 +60,7 @@ export const pages: PageCopy[] = [
       {
         heading: "Talk to us",
         paragraphs: [
-          "Call or send a WhatsApp message to +91 63910 85555, or write to enquiries@tourmelloh.com. Tell us when you would like to travel, who is coming and what matters to you, and we will take it from there.",
+          "Call or send a WhatsApp message to +91 63910 85555, or write to tourmelloh@gmail.com. Tell us when you would like to travel, who is coming and what matters to you, and we will take it from there.",
         ],
       },
     ],
@@ -251,7 +251,7 @@ export const pages: PageCopy[] = [
       {
         heading: "Who we are",
         paragraphs: [
-          "Tourmelloh is a travel and destination company based in Varanasi, Uttar Pradesh, India. For the personal data you share through this website, we are the Data Fiduciary under the Digital Personal Data Protection Act, 2023. You can contact us about this notice or your data at enquiries@tourmelloh.com.",
+          "Tourmelloh is a travel and destination company based in Varanasi, Uttar Pradesh, India. For the personal data you share through this website, we are the Data Fiduciary under the Digital Personal Data Protection Act, 2023. You can contact us about this notice or your data at tourmelloh@gmail.com.",
         ],
       },
       {
@@ -293,7 +293,7 @@ export const pages: PageCopy[] = [
       {
         heading: "Marketing consent",
         paragraphs: [
-          "Submitting an enquiry does not subscribe you to marketing. If you would like to hear from us about journeys and departures, you can tick a separate, optional consent box. You can withdraw that consent at any time by writing to enquiries@tourmelloh.com or using the unsubscribe option in any message.",
+          "Submitting an enquiry does not subscribe you to marketing. If you would like to hear from us about journeys and departures, you can tick a separate, optional consent box. You can withdraw that consent at any time by writing to tourmelloh@gmail.com or using the unsubscribe option in any message.",
         ],
       },
       {
@@ -313,7 +313,7 @@ export const pages: PageCopy[] = [
         heading: "Your rights",
         paragraphs: [
           "Under the Digital Personal Data Protection Act, 2023 you may ask us for a summary of the personal data we hold about you and how it is used, ask us to correct, complete, update or erase it, withdraw consent you have given, and nominate another person to exercise your rights in the event of your death or incapacity. You can also raise a grievance with us, and if it is not resolved, approach the Data Protection Board of India.",
-          "To exercise any of these rights, write to enquiries@tourmelloh.com. We may need to confirm your identity before acting on a request.",
+          "To exercise any of these rights, write to tourmelloh@gmail.com. We may need to confirm your identity before acting on a request.",
         ],
       },
       {
@@ -382,7 +382,7 @@ export const pages: PageCopy[] = [
       {
         heading: "Governing law and contact",
         paragraphs: [
-          "These terms are governed by the laws of India. We may update them from time to time, and the version on this page applies when you use the website. For any question about these terms, write to enquiries@tourmelloh.com.",
+          "These terms are governed by the laws of India. We may update them from time to time, and the version on this page applies when you use the website. For any question about these terms, write to tourmelloh@gmail.com.",
         ],
       },
     ],
@@ -474,7 +474,7 @@ export const pages: PageCopy[] = [
       {
         heading: "Payments and questions",
         paragraphs: [
-          "For questions about a quotation or payment, write to accounts@tourmelloh.com. For anything else about your booking, contact your planning contact or enquiries@tourmelloh.com.",
+          "For questions about a quotation or payment, write to tourmelloh@gmail.com. For anything else about your booking, contact your planning contact or tourmelloh@gmail.com.",
         ],
       },
     ],
@@ -517,7 +517,7 @@ export const pages: PageCopy[] = [
       {
         heading: "How partner enquiries work",
         paragraphs: [
-          "Write to partnerships@tourmelloh.com with your company name, where you are based, the kind of travellers you work with, the dates or volumes you have in mind and the services you need. We will reply to discuss how we can work together. Terms for each arrangement are agreed in writing.",
+          "Write to tourmelloh@gmail.com with your company name, where you are based, the kind of travellers you work with, the dates or volumes you have in mind and the services you need. We will reply to discuss how we can work together. Terms for each arrangement are agreed in writing.",
         ],
       },
       {
@@ -530,7 +530,7 @@ export const pages: PageCopy[] = [
     seo: {
       title: "Travel Partners and B2B Enquiries in Varanasi | Tourmelloh",
       description:
-        "Tourmelloh works with travel agents, tour operators, DMCs and planners sending guests to Varanasi and the region. Write to partnerships@tourmelloh.com.",
+        "Tourmelloh works with travel agents, tour operators, DMCs and planners sending guests to Varanasi and the region. Write to tourmelloh@gmail.com.",
     },
   },
   {

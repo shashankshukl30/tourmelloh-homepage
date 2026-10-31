@@ -29,7 +29,7 @@ export const journeys: Journey[] = [
     slug: "awakening-and-the-first-teaching",
     status: "published",
     setup: "Priority launch candidate",
-    title: "Awakening & the First Teaching: Bodh Gaya & Sarnath",
+    title: "Awakening & the First Teaching – Bodh Gaya & Sarnath",
     route: "Varanasi and Sarnath with Bodh Gaya",
     destinations: ["varanasi", "sarnath", "bodh-gaya"],
     types: ["buddhist"],
