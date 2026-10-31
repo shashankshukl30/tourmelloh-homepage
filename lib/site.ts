@@ -6,13 +6,25 @@ export const SITE_URL = "https://tourmelloh.com";
 
 export const brand = {
   name: "Tourmelloh",
-  line: "Private journeys across India, designed in Varanasi",
-  phone: "+91 77069 97271",
-  phoneHref: "tel:+917706997271",
-  phoneE164: "+917706997271",
-  email: "tourmelloh@gmail.com",
+  descriptor: "Travel and Destination Partners",
+  line: "Your travel and destination partners in Varanasi and beyond",
+  phone: "+91 63910 85555",
+  phoneHref: "tel:+916391085555",
+  phoneE164: "+916391085555",
+  whatsapp: "916391085555",
+  email: "enquiries@tourmelloh.com",
   city: "Varanasi",
   region: "Uttar Pradesh",
+  founder: "Aparajita Upadhyaya",
+};
+
+/** Mailboxes by role (brief v5, section 12). Routing for each lead type lives in the enquiry route. */
+export const mailboxes = {
+  enquiries: "enquiries@tourmelloh.com",
+  partnerships: "partnerships@tourmelloh.com",
+  varanasi: "varanasi@tourmelloh.com",
+  director: "director@tourmelloh.com",
+  accounts: "accounts@tourmelloh.com",
 };
 
 /** Search engines index only the production domain; preview hosts stay out of results. */
@@ -73,10 +85,12 @@ export const agencyLd = {
   url: SITE_URL,
   logo: absolute("/brand/tourmelloh-logo.png"),
   image: absolute("/og.jpg"),
-  description: brand.line,
+  description: `${brand.descriptor}. ${brand.line}.`,
+  slogan: brand.descriptor,
   telephone: brand.phoneE164,
   email: brand.email,
-  areaServed: { "@type": "Country", name: "India" },
+  areaServed: ["Varanasi", "Sarnath", "Prayagraj", "Ayodhya", "Gaya", "Bodh Gaya", "Uttar Pradesh", "Bihar"].map((name) => ({ "@type": "Place", name })),
+  founder: { "@type": "Person", name: brand.founder },
   address: {
     "@type": "PostalAddress",
     addressLocality: brand.city,

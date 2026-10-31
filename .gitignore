@@ -24,3 +24,6 @@ deliverables/*.pdf
 deliverables/*.docx
 deliverables/*.png
 deliverables/source/*.png
+
+# Client source documents stay local
+Tourmelloh_Developer_Brief.docx

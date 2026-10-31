@@ -2,189 +2,285 @@ import type { MediaKey } from "./media-plan";
 
 export type { MediaKey };
 
-/** Two-part display title: the first part sets in roman, the second in italic. */
+/**
+ * The Tourmelloh catalogue, modelled on the developer brief v5 (31 Oct 2026).
+ * IDs (P01, S06, E12...) are the brief's stable IDs. A record with status "draft" stays in the
+ * repository but is never rendered, linked, indexed or searchable.
+ */
+export type Status = "published" | "draft";
+export type Tier = "standard" | "premium" | "luxury";
+export const TIERS: Tier[] = ["standard", "premium", "luxury"];
+
 export type Display = [string, string];
-
-export type Seo = {
-  /** 50–60 characters, including "| Tourmelloh" when it fits. */
-  title: string;
-  /** 140–160 characters. */
-  description: string;
-};
-
+export type Seo = { title: string; description: string };
 export type Faq = { q: string; a: string };
 
-export type CollectionId =
-  | "sacred"
-  | "golden-triangle"
-  | "heritage"
-  | "coast"
-  | "himalaya"
-  | "wildlife";
+export type JourneyId = `P${string}`;
+export type ServiceId = `S${string}`;
+export type ExperienceId = `E${string}`;
+export type ItemId = ServiceId | ExperienceId;
+
+/** Enquiry-stage pricing. Fixed prices only once currency, tax, unit, minimum and validity are approved. */
+export type PriceMode =
+  | { mode: "quote" }
+  | { mode: "fixed"; amount: number; currency: "INR"; tax: string; unit: string; minimum?: string; validFrom: string; validTo: string };
+
+/** Destinations Tourmelloh actually offers. Gaya and Bodh Gaya are distinct records. */
+export type DestinationId =
+  | "varanasi" | "sarnath" | "prayagraj" | "ayodhya" | "chitrakoot" | "gaya" | "bodh-gaya"
+  | "rajgir" | "nalanda" | "kushinagar" | "shravasti" | "sankisa" | "naimisharanya"
+  | "vindhyachal" | "chunar" | "lumbini";
+
+export type JourneyType = "hindu-pilgrimage" | "buddhist" | "heritage" | "culture" | "ancestral-rites";
+export type CollectionId = "womens-journeys" | "shravan" | "family-journeys" | "buddhist-journeys" | "wellness-in-varanasi";
+
+/** One deliverable inside a tier: a service or experience, where and how much. */
+export type InclusionLine = {
+  item: ItemId;
+  /** Day number in the programme, if tied to one. */
+  day?: number;
+  /** "Morning", "Evening", "Day 2 afternoon"... */
+  session?: string;
+  quantity?: number;
+  /** What exactly is included, in plain words. */
+  scope: string;
+  /** Conditional = only if requested and confirmed in the quotation (e.g. security). */
+  state: "included" | "conditional";
+  /** Mandatory items define the product and cannot be declined (e.g. SHRAVAN support). */
+  mandatory: boolean;
+  /** Items in the same group replace one another for the same session (e.g. "boat-day2-morning"). */
+  replacementGroup?: string;
+};
+
+/** What a tier actually includes on one journey. No published journey may have a blank manifest. */
+export type TierManifest = {
+  hotels: string;
+  vehicle: string;
+  meals: string;
+  boat: string;
+  darshan: string;
+  assistance: string;
+  guide: string;
+  admissions: string;
+  photography: string;
+  security: string;
+  lines: InclusionLine[];
+  /** What is not included at this tier. */
+  excluded: string[];
+};
+
+export type DayBlock = {
+  kind: "travel" | "visit" | "rest" | "experience" | "arrival" | "departure" | "free";
+  time: string;
+  title: string;
+  text: string;
+};
 
 export type JourneyDay = {
   day: number;
   title: string;
-  /** Where the day is spent, e.g. "Varanasi" or "Agra → Jaipur". */
   place: string;
   photo: MediaKey;
-  /** 70–110 words. */
-  text: string;
-  /** 2–3 short moments, each under 10 words. */
-  moments: string[];
-  /** e.g. "Taj Nadesar Palace, Varanasi" or "Departure". */
+  blocks: DayBlock[];
   overnight: string;
 };
 
 export type Journey = {
+  id: JourneyId;
   slug: string;
-  collection: CollectionId;
+  status: Status;
+  /** The brief's "Initial setup" note, kept for the team. */
+  setup: string;
   title: string;
-  display: Display;
-  /** One line under the title on cards, under 12 words. */
-  kicker: string;
-  /** Card copy, 18–28 words. */
-  summary: string;
-  /** Opening paragraph on the journey page, 60–90 words. */
-  lead: string;
-  days: number;
+  /** The descriptive route, always shown beside the title. */
+  route: string;
+  destinations: DestinationId[];
+  types: JourneyType[];
   nights: number;
-  /** Ordered stops shown as the route line. */
-  route: string[];
-  /** City slugs this journey visits (must exist in cities). */
-  cities: string[];
-  /** Destination slugs (must exist in destinations). */
-  destinations: string[];
-  /** Experience slugs woven into this journey. */
-  experiences: string[];
-  hero: MediaKey;
-  gallery: [MediaKey, MediaKey, MediaKey];
-  bestFor: string;
-  /** Season guidance, one or two sentences. */
-  season: string;
-  pace: string;
-  /** 5–6 headline highlights, each under 10 words. */
-  highlights: string[];
-  /** 3–4 private, premium moments arranged for this journey. */
-  signature: { title: string; text: string }[];
-  /** Suggested stays per stop, always "or similar". */
-  stays: { place: string; nights: number; stay: string }[];
+  days: number;
+  /** e.g. "Longer assisted version available" or "7N/8D to 8N/9D". */
+  durationNote?: string;
+  overnights: { place: string; nights: number }[];
+  suits: string;
+  style: string;
+  summary: string;
+  lead: string;
+  gateways: { arrival: string; departure: string; timingWarning: string };
   itinerary: JourneyDay[];
-  included: string[];
-  excluded: string[];
-  /** 2–4 practical notes that protect the experience. */
-  notes: { title: string; text: string }[];
+  practical: { walking: string; earlyStarts: string; boarding: string; mobility: string; seasonal: string };
+  tiers: Record<Tier, TierManifest>;
+  /** Experiences and services worth adding, beyond the manifests. */
+  related: ItemId[];
   faqs: Faq[];
+  hero: MediaKey;
+  gallery: [MediaKey, MediaKey, MediaKey];
   seo: Seo;
 };
 
-export type Destination = {
-  slug: string;
-  name: string;
-  /** e.g. "Islands of the Bay of Bengal". */
-  label: string;
-  display: Display;
-  hero: MediaKey;
-  gallery: [MediaKey, MediaKey, MediaKey];
-  /** 50–70 words. */
-  intro: string;
-  /** 2–3 paragraphs of 70–100 words. */
-  body: string[];
-  /** 4–6 reasons to go, each with its own photo. */
-  highlights: { title: string; text: string; photo: MediaKey }[];
-  bestTime: string;
-  gettingThere: string;
-  /** City slugs in this destination (must exist in cities). */
-  cities: string[];
-  faqs: Faq[];
-  seo: Seo;
+export type ServiceCategory =
+  | "Arrival & transport"
+  | "River & boats"
+  | "Temple, ritual & puja"
+  | "Hosts, guides & companions"
+  | "Family, senior & accessible travel"
+  | "Photography & films"
+  | "Occasions, dining & gifts"
+  | "Stays, tickets & insurance"
+  | "Specialist services";
+
+export type Relations = {
+  /** Other records that deliver this one (E28 is delivered by S20): never charged twice. */
+  deliveredBy?: ItemId[];
+  /** Same group = mutually exclusive for one session (boats). */
+  replacementGroup?: string;
+  /** Selecting both needs staff review (E01/E08 breakfast, S24 + E17). */
+  overlapsWith?: ItemId[];
+  /** Display synonyms for search ("private taxi" -> S02). */
+  synonyms?: string[];
 };
 
-export type City = {
+export type Service = {
+  id: ServiceId;
   slug: string;
-  name: string;
-  /** State or territory, e.g. "Uttar Pradesh". */
-  state: string;
-  /** Destination slug it belongs to, or null (Delhi, Amritsar, Hampi). */
-  destination: string | null;
-  /** e.g. "The river and the ritual". */
-  label: string;
-  display: Display;
-  hero: MediaKey;
-  gallery: [MediaKey, MediaKey, MediaKey];
-  /** 50–70 words. */
-  intro: string;
-  /** 2–3 paragraphs of 70–100 words. */
+  status: Status;
+  title: string;
+  category: ServiceCategory;
+  summary: string;
+  /** 2-3 short paragraphs on what it is and how it works. */
   body: string[];
-  /** 5–6 places or moments not to miss. */
-  essentials: { title: string; text: string; photo?: MediaKey }[];
-  /** 2–4 luxury hotels worth staying in, real and currently operating. */
-  stays: { name: string; note: string }[];
-  bestTime: string;
-  howLong: string;
-  gettingThere: string;
-  faqs: Faq[];
+  /** What we need to know to arrange it (the brief's "configuration required"). */
+  weAsk: string[];
+  /** Plain statements of scope and limits. */
+  scope: string[];
+  locations: string;
+  unit: string;
+  price: PriceMode;
+  relations: Relations;
+  hero: MediaKey;
   seo: Seo;
 };
 
 export type ExperienceCategory =
-  | "On the water"
-  | "Walks & heritage"
-  | "Craft & culture"
-  | "Food & table"
-  | "Wildlife & nature"
-  | "Wellness & spirit"
-  | "Adventure";
+  | "Walks"
+  | "Food & tastings"
+  | "On the river"
+  | "Crafts & culture"
+  | "Music"
+  | "Sacred & ritual"
+  | "Excursions";
 
 export type Experience = {
+  id: ExperienceId;
   slug: string;
+  status: Status;
   title: string;
-  display: Display;
+  /** Approved explanatory subtitle, stored separately (the part after the dash). */
+  subtitle?: string;
   category: ExperienceCategory;
-  /** City slug where it happens. */
-  city: string;
+  summary: string;
+  body: string[];
+  expect: string[];
+  practical: string[];
+  locations: string;
+  unit: string;
+  price: PriceMode;
+  relations: Relations;
   hero: MediaKey;
   gallery: [MediaKey, MediaKey];
-  /** Card copy, 18–28 words. */
-  summary: string;
-  /** 2–3 paragraphs of 70–100 words. */
-  body: string[];
-  duration: string;
-  bestTime: string;
-  /** 4–5 steps or moments, each a short sentence. */
-  expect: string[];
-  /** 3–4 practical notes. */
-  goodToKnow: string[];
   seo: Seo;
 };
+
+export type DepartureStatus =
+  | "Dates coming soon" | "Open for enquiries" | "Minimum group pending"
+  | "Departure confirmed" | "Full" | "Closed" | "Cancelled";
+
+/** A hosted women's group departure. Dates appear only once approved, with approver and time. */
+export type Departure = {
+  id: `W${string}`;
+  title: string;
+  parent: JourneyId;
+  route: string;
+  status: DepartureStatus;
+  tiers: Tier[];
+  dates?: { start: string; end: string; approvedBy: string; approvedAt: string };
+  minimum?: number;
+  capacity?: number;
+  roomPolicy?: string;
+  confirmationDeadline?: string;
+  hostScope: string;
+  inclusions: string[];
+};
+
+/** A named collection offer (SHRAVAN SH01, Together F01) that adapts an existing itinerary. */
+export type CollectionOffer = { id: string; title: string; parent: JourneyId; note: string };
 
 export type Collection = {
   id: CollectionId;
   slug: string;
   name: string;
+  subtitle: string;
   display: Display;
   hero: MediaKey;
-  /** 40–60 words. */
-  intro: string;
-  /** 1–2 paragraphs of 70–100 words. */
+  lead: string;
   body: string[];
+  /** Support that defines the product and cannot be removed (female host, SHRAVAN companion). */
+  essentials: { title: string; text: string }[];
+  offers: CollectionOffer[];
+  /** Linked itineraries (Buddhist collection P11-P16). */
+  journeys: JourneyId[];
+  cta: string;
+  faqs: Faq[];
+  seo: Seo;
+};
+
+export type Guide = {
+  slug: DestinationId;
+  name: string;
+  state: string;
+  status: Status;
+  reviewedOn: string;
+  display: Display;
+  hero: MediaKey;
+  gallery: [MediaKey, MediaKey, MediaKey];
+  intro: string;
+  body: string[];
+  essentials: { title: string; text: string; photo?: MediaKey }[];
+  gateways: string;
+  pacing: string;
+  physical: string;
+  season: string;
+  etiquette: string;
+  faqs: Faq[];
   seo: Seo;
 };
 
 export type Article = {
   slug: string;
+  status: Status;
   title: string;
-  /** 20–30 words. */
   excerpt: string;
-  category: "Journal" | "Field notes" | "Planning" | "Places";
+  category: "Planning" | "Places" | "Journeys" | "Weddings";
   hero: MediaKey;
-  /** City or destination slugs the article is about. */
-  places: string[];
-  /** Journey slugs worth linking from the article. */
-  journeys: string[];
+  journeys: JourneyId[];
+  items: ItemId[];
   sections: { heading: string; paragraphs: string[] }[];
   takeaways: string[];
   seo: Seo;
+};
+
+export type Review = {
+  id: string;
+  status: Status;
+  kind: "written" | "video";
+  name: string;
+  place?: string;
+  journey: string;
+  text?: string;
+  photo?: string;
+  video?: { src: string; captions: string; poster: string };
+  source?: string;
+  consent: { recordedOn: string; scope: string };
+  order: number;
 };
 
 export type PageCopy = {

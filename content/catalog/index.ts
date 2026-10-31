@@ -1,36 +1,50 @@
-import type { City, CollectionId, Journey } from "./types";
-import { journeys as sacredA } from "./journeys/sacred-a";
-import { journeys as sacredB } from "./journeys/sacred-b";
-import { journeys as rajasthan } from "./journeys/rajasthan";
-import { journeys as heritage } from "./journeys/heritage";
-import { journeys as coastHimalaya } from "./journeys/coast-himalaya";
-import { cities as citiesA } from "./cities-a";
-import { cities as citiesB } from "./cities-b";
+import type { Experience, Journey, Service, Status, Tier, ItemId } from "./types";
+import { journeys as journeysA } from "./journeys/p01-p06";
+import { journeys as journeysB } from "./journeys/p07-p13";
+import { journeys as journeysC } from "./journeys/p14-p20";
+import { services as allServices } from "./services";
+import { experiences as allExperiences } from "./experiences";
+import { collections } from "./collections";
+import { departures } from "./departures";
+import { guides as allGuides } from "./guides";
+import { articles as allArticles } from "./journal";
+import { pages } from "./pages";
+import { reviews as allReviews } from "./reviews";
+import { faqGroups } from "./faqs";
+import { weddingVenues } from "./wedding";
 
-export { collections } from "./collections";
-export { destinations } from "./destinations";
-import { experiences as general } from "./experiences";
-import { experiences as varanasi } from "./experiences-varanasi";
-export { articles } from "./journal";
-export { pages } from "./pages";
+const live = <T extends { status: Status }>(list: T[]) => list.filter((item) => item.status === "published");
 
-export const journeys: Journey[] = [
-  ...sacredA,
-  ...sacredB,
-  ...rajasthan,
-  ...heritage,
-  ...coastHimalaya,
-];
+/** Every record, drafts included (for validation and the team). */
+export const catalogue = {
+  journeys: [...journeysA, ...journeysB, ...journeysC],
+  services: allServices,
+  experiences: allExperiences,
+  guides: allGuides,
+  articles: allArticles,
+  reviews: allReviews,
+};
 
-export const experiences = [...general, ...varanasi];
+/** What the website shows: published records only. Drafts never render, link or index. */
+export const journeys: Journey[] = live(catalogue.journeys);
+export const services: Service[] = live(allServices);
+export const experiences: Experience[] = live(allExperiences);
+export const guides = live(allGuides);
+export const articles = live(allArticles);
+export const reviews = live(allReviews).sort((a, b) => a.order - b.order);
+export { collections, departures, pages, faqGroups, weddingVenues };
 
-export const cities: City[] = [...citiesA, ...citiesB];
+export const journeyById = (id: string) => journeys.find((j) => j.id === id);
+export const itemById = (id: string) =>
+  (id.startsWith("S") ? services.find((s) => s.id === id) : experiences.find((e) => e.id === id)) ?? undefined;
+export const itemHref = (id: ItemId) => {
+  const item = itemById(id);
+  if (!item) return undefined;
+  return id.startsWith("S") ? `/services/${item.slug}` : `/experiences/${item.slug}`;
+};
 
-export const journeysIn = (collection: CollectionId) =>
-  journeys.filter((journey) => journey.collection === collection);
+/** Is this service or experience part of a journey's tier manifest? */
+export const includedIn = (journey: Journey, tier: Tier, id: ItemId) =>
+  journey.tiers[tier].lines.some((line) => line.item === id);
 
-export const journeysThrough = (city: string) =>
-  journeys.filter((journey) => journey.cities.includes(city));
-
-export const journeysAcross = (destination: string) =>
-  journeys.filter((journey) => journey.destinations.includes(destination));
+export const tierLabel: Record<Tier, string> = { standard: "Standard", premium: "Premium", luxury: "Luxury" };
