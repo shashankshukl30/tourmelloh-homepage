@@ -11,6 +11,9 @@ import type { Experience, Service } from "@/content/catalog/types";
 import { anchor } from "@/content/catalog/nav";
 import { absolute } from "@/lib/site";
 
+/** Kicker labels stay on one line on a 360px phone. */
+const SHORT: Record<string, string> = { "Family, senior & accessible travel": "Family & accessible travel" };
+
 /** One template for a service (S01–S34) or an experience (E01–E34). */
 export function ItemDetail({ item }: { item: Service | Experience }) {
   const isService = item.id.startsWith("S");
@@ -31,7 +34,7 @@ export function ItemDetail({ item }: { item: Service | Experience }) {
       <main id="main" className="cat-page">
         <PageOpening
           trail={[{ name: "Home", path: "/" }, section, { name: item.category, path: `${section.path}#${anchor(item.category)}` }, { name: item.title, path }]}
-          label={`${item.category.toUpperCase()} · ${item.id}`}
+          label={`${(SHORT[item.category] ?? item.category).toUpperCase()} · ${item.id}`}
           display={[item.title, experience?.subtitle ?? ""]}
           meta={[item.locations, item.unit]}
           lead={item.summary}

@@ -1801,14 +1801,14 @@
   "pexelsId": 38063112
  },
  "varanasi-ganga-aarti": {
-  "src": "/images/library/varanasi-ganga-aarti.webp",
+  "src": "/images/library/varanasi-ganga-aarti-36613136.webp",
   "width": 2600,
   "height": 1733,
-  "alt": "A priest performing the Ganga Aarti at night, Varanasi",
-  "by": "Ethan Sarkar",
-  "page": "https://www.pexels.com/photo/priest-performing-ganga-aarti-ceremony-at-night-35655143/",
+  "alt": "Priests raising flaming lamps at the evening Ganga Aarti, Dashashwamedh Ghat, Varanasi",
+  "by": "Sudipto Chakrabarty",
+  "page": "https://www.pexels.com/photo/evening-ganga-aarti-ceremony-at-varanasi-36613136/",
   "license": "https://www.pexels.com/license/",
-  "pexelsId": 35655143
+  "pexelsId": 36613136
  },
  "varanasi-ghats-dawn": {
   "src": "/images/library/varanasi-ghats-dawn.webp",
@@ -1821,14 +1821,14 @@
   "pexelsId": 17869813
  },
  "varanasi-music": {
-  "src": "/images/library/varanasi-music.webp",
+  "src": "/images/library/varanasi-music-19043266.webp",
   "width": 2600,
-  "height": 1733,
-  "alt": "A sitar player in a carved stone alcove",
-  "by": "Kacey Inkwell",
-  "page": "https://www.pexels.com/photo/traditional-indian-music-performance-at-historical-site-39943661/",
+  "height": 1821,
+  "alt": "A singer performing beside his drum in an intimate music room",
+  "by": "Chandi Saha",
+  "page": "https://www.pexels.com/photo/sitting-on-floor-man-playing-drums-19043266/",
   "license": "https://www.pexels.com/license/",
-  "pexelsId": 39943661
+  "pexelsId": 19043266
  },
  "varanasi-old-city-lanes": {
   "src": "/images/library/varanasi-old-city-lanes.webp",
@@ -1881,24 +1881,24 @@
   "pexelsId": 39121733
  },
  "varanasi-silk-weaving": {
-  "src": "/images/library/varanasi-silk-weaving.webp",
-  "width": 2600,
-  "height": 1733,
-  "alt": "An elderly man weaving silk in a workshop, Varanasi",
-  "by": "Satyabrata Maiti",
-  "page": "https://www.pexels.com/photo/man-in-a-tailors-workshop-17777833/",
-  "license": "https://www.pexels.com/license/",
-  "pexelsId": 17777833
- },
- "varanasi-street-food": {
-  "src": "/images/library/varanasi-street-food.webp",
+  "src": "/images/library/varanasi-silk-weaving-14695808.webp",
   "width": 2600,
   "height": 1734,
-  "alt": "Snacks frying in an iron kadhai at a Varanasi stall",
-  "by": "Mahmut Yılmaz",
-  "page": "https://www.pexels.com/photo/street-food-preparation-in-varanasi-36853149/",
+  "alt": "A weaver's hands at a silk handloom, threads in bright colours",
+  "by": "Narasimhan AVPL",
+  "page": "https://www.pexels.com/photo/man-weaving-silk-14695808/",
   "license": "https://www.pexels.com/license/",
-  "pexelsId": 36853149
+  "pexelsId": 14695808
+ },
+ "varanasi-street-food": {
+  "src": "/images/library/varanasi-street-food-6808666.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "Kulhads of lassi and rabri, still steaming, at a sweet shop counter",
+  "by": "Deepak Maurya",
+  "page": "https://www.pexels.com/photo/lassi-popular-indian-drink-6808666/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 6808666
  },
  "varanasi-vishwanath": {
   "src": "/images/library/varanasi-vishwanath.webp",

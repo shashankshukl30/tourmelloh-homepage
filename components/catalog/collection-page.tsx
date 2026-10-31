@@ -32,8 +32,9 @@ export function CollectionPage({ id }: { id: CollectionId }) {
       <main id="main" className="cat-page">
         <PageOpening
           trail={[{ name: "Home", path: "/" }, { name: "Journeys", path: "/journeys" }, { name: c.name, path }]}
-          label={c.subtitle.toUpperCase()}
+          label="SPECIALIST COLLECTION"
           display={c.display}
+          meta={[c.subtitle]}
           lead={c.lead}
           photo={c.hero}
         >

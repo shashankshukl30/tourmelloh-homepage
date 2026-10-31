@@ -9,7 +9,7 @@ export function Photo({
   priority = false,
   position,
   className,
-  quality = 82,
+  quality = 86,
 }: {
   k: MediaKey;
   sizes: string;

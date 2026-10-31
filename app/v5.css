@@ -125,7 +125,7 @@
 
 /* Cards */
 .cat-card-sub { margin-top: 6px; font-size: 15px; color: var(--clay); line-height: 1.5; }
-.cat-card-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 16px; position: relative; z-index: 2; }
+.cat-card-foot { display: flex; flex-wrap: wrap; align-items: center; min-height: 58px; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 16px; position: relative; z-index: 2; }
 .cat-card-foot .cat-card-action { margin-top: 0; }
 
 /* Journey catalogue */
@@ -309,3 +309,15 @@
 @media (min-width: 1001px) { .hero h1 { font-size: clamp(56px, min(5.6vw, 11svh), 96px); } }
 /* Phones: the contact bar sits where the photo caption was. */
 @media (max-width: 700px) { .hero-caption, .hero-location { display: none; } }
+
+/* Alignment: equal cards end level; forms reflow by their own width, not the viewport's. */
+.dep, .offer { display: flex; flex-direction: column; }
+.dep > .tour-text-link, .offer > .tour-text-link, .offer > .dep-note:last-child { margin-top: auto; }
+.dep > .tour-text-link + .dep-form, .dep > p + .dep-form { margin-top: 18px; }
+.dep:not(:has(> .tour-text-link)) > .dep-form { margin-top: auto; }
+.enquiry-form { container-type: inline-size; }
+.enquiry-row { align-items: end; }
+.enquiry-field > span { align-items: baseline; }
+@container (max-width: 560px) { .enquiry-row, .enquiry-row-3 { grid-template-columns: minmax(0, 1fr); } }
+@container (min-width: 561px) and (max-width: 760px) { .enquiry-row-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.enquiry-field select { text-overflow: ellipsis; }
