@@ -1,1 +1,12 @@
-{ "regions": ["sin1"] }
+{
+  "regions": [
+    "sin1"
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "content/*": false,
+      "client-brief-v5": false,
+      "luxury-build": false
+    }
+  }
+}

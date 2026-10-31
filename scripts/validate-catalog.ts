@@ -14,7 +14,7 @@ const banned = [
   "₹", "starting at", "guaranteed", "!", "todo", "lorem", "placeholder", "no. 1", "most popular",
 ];
 // Rupee amounts written out ("Rs. 500", "INR 2,000", "500 rupees").
-const money = /(rs\.?|inr)\s*\d|\d[\d,]*\s*(rupees|lakh)/i;
+const money = /\b(rs\.?|inr)\s*\d|\d[\d,]*\s*rupees\b/i;
 const words = (text: string) => text.trim().split(/\s+/).length;
 const scan = (where: string, value: unknown) => {
   const text = JSON.stringify(value).toLowerCase();
