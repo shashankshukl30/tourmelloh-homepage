@@ -12,19 +12,24 @@ export const brand = {
   phoneHref: "tel:+916391085555",
   phoneE164: "+916391085555",
   whatsapp: "916391085555",
-  email: "enquiries@tourmelloh.com",
+  email: "tourmelloh@gmail.com",
   city: "Varanasi",
   region: "Uttar Pradesh",
   founder: "Aparajita Upadhyaya",
 };
 
-/** Mailboxes by role (brief v5, section 12). Routing for each lead type lives in the enquiry route. */
+/**
+ * Mailboxes by role (brief v5, section 12). Until the client creates the @tourmelloh.com addresses
+ * (enquiries@, partnerships@, varanasi@, director@, accounts@), every role uses the Gmail inbox.
+ * Switching later is a change here only.
+ */
+const MAIN_INBOX = "tourmelloh@gmail.com";
 export const mailboxes = {
-  enquiries: "enquiries@tourmelloh.com",
-  partnerships: "partnerships@tourmelloh.com",
-  varanasi: "varanasi@tourmelloh.com",
-  director: "director@tourmelloh.com",
-  accounts: "accounts@tourmelloh.com",
+  enquiries: MAIN_INBOX,
+  partnerships: MAIN_INBOX,
+  varanasi: MAIN_INBOX,
+  director: MAIN_INBOX,
+  accounts: MAIN_INBOX,
 };
 
 /** Search engines index only the production domain; preview hosts stay out of results. */

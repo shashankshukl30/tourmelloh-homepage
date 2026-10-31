@@ -11,12 +11,15 @@ const fail = (where: string, what: string) => problems.push(`${where}: ${what}`)
 const banned = [
   "—", "nestled", "tapestry", "embark", "unforgettable", "hidden gem", "breathtaking", "delve", "testament",
   "bucket list", "magical", "once-in-a-lifetime", "seamless", "elevate", "immerse yourself", "symphony",
-  "₹", "rs.", "inr ", "starting at", "guaranteed", "!", "todo", "lorem", "placeholder", "no. 1", "most popular",
+  "₹", "starting at", "guaranteed", "!", "todo", "lorem", "placeholder", "no. 1", "most popular",
 ];
+// Rupee amounts written out ("Rs. 500", "INR 2,000", "500 rupees").
+const money = /(rs\.?|inr)\s*\d|\d[\d,]*\s*(rupees|lakh)/i;
 const words = (text: string) => text.trim().split(/\s+/).length;
 const scan = (where: string, value: unknown) => {
   const text = JSON.stringify(value).toLowerCase();
   for (const term of banned) if (text.includes(term)) fail(where, `contains "${term}"`);
+  if (money.test(text)) fail(where, "contains a price");
 };
 const seo = (where: string, s: { title: string; description: string }) => {
   if (s.title.length < 40 || s.title.length > 62) fail(where, `seo.title is ${s.title.length} chars`);
