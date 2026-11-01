@@ -54,6 +54,8 @@ export type InclusionLine = {
 
 /** What a tier actually includes on one journey. No published journey may have a blank manifest. */
 export type TierManifest = {
+  /** The client's short tier lines (2026-10-31 doc), shown on cards and the mobile comparison. */
+  highlights?: string[];
   hotels: string;
   vehicle: string;
   meals: string;

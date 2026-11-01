@@ -16,13 +16,13 @@ const MotionLink = motion.create(Link);
 type Item = { name: string; href: string; menu?: MenuId };
 /** Exactly four primary sections (brief v5, section 2). */
 const items: Item[] = [
-  { name: "Journeys", href: "/journeys", menu: "journeys" },
+  { name: "Packages", href: "/journeys", menu: "journeys" },
   { name: "Services", href: "/services", menu: "services" },
   { name: "Experiences", href: "/experiences", menu: "experiences" },
   { name: "Destination Weddings", href: "/wedding-in-varanasi" },
 ];
 const menus = {
-  journeys: { groups: journeysMenu, feature: { href: "/journeys", label: "All journeys", image: "/images/library/varanasi-ghats-dawn.webp" } },
+  journeys: { groups: journeysMenu, feature: { href: "/journeys", label: "All packages", image: "/images/library/varanasi-ghats-dawn.webp" } },
   services: { groups: servicesMenu, feature: { href: "/services", label: "All services", image: "/images/library/boat-motor.webp" } },
   experiences: { groups: experiencesMenu, feature: { href: "/experiences", label: "All experiences", image: "/images/library/varanasi-boat-sunrise.webp" } },
 };

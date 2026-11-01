@@ -1,11 +1,15 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { absolute } from "@/lib/url";
+
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowUpRight, Check } from "lucide-react";
 import type { ItemId, Tier, TierManifest } from "@/content/catalog/types";
 import { useWishlist, PageWhatsApp } from "@/components/wishlist/provider";
+import { AddToJourney } from "@/components/wishlist/add-button";
+import { TierLadder } from "@/components/journey/tier-ladder";
 import { addItem, changeTier, setJourney, toggleDeclined } from "@/lib/wishlist";
 
 export type PanelLine = { item: ItemId; title: string; href?: string; day?: number; session?: string; scope: string; state: "included" | "conditional"; mandatory: boolean };
@@ -23,6 +27,12 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
   const [tier, setTier] = useState<Tier>("premium");
   const [notice, setNotice] = useState<{ absorbed: string[]; dropped: ItemId[] } | null>(null);
   const isMine = ready && wishlist.journey?.id === journey.id;
+  const detailRef = useRef<HTMLDetailsElement>(null);
+  const linesRef = useRef<HTMLDetailsElement>(null);
+  // Desktop has the width for everything; phones start with the ladder and open detail on demand.
+  useEffect(() => {
+    if (window.matchMedia("(min-width: 1001px)").matches) linesRef.current?.setAttribute("open", "");
+  }, []);
 
   useEffect(() => {
     const fromUrl = new URLSearchParams(window.location.search).get("tier") as Tier | null;
@@ -54,23 +64,31 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
   }
 
   const panel = tiers[tier];
+  const order: Tier[] = ["standard", "premium", "luxury"];
+  const highlights = order.every((t) => tiers[t].highlights?.length) ? (Object.fromEntries(order.map((t) => [t, tiers[t].highlights!])) as Record<Tier, string[]>) : null;
+  // Single upgrades from the tiers above (client call: a Standard guest may want just a wheelchair or a photographer).
+  const here = new Set(panel.lines.map((l) => l.item));
+  const upgrades = order.slice(order.indexOf(tier) + 1).flatMap((t) => tiers[t].lines.map((l) => ({ ...l, from: t })))
+    .filter((l, i, all) => !here.has(l.item) && all.findIndex((x) => x.item === l.item) === i);
   return (
     <section className="tier-panel" aria-labelledby="tiers-title" id="tiers">
-      <PageWhatsApp context={{ kind: "journey", title: journey.title, route: journey.route, tier: TIER_NAME[tier] }} />
+      <PageWhatsApp context={{ kind: "journey", id: journey.id, title: journey.title, route: journey.route, tier: TIER_NAME[tier], url: absolute(`/journeys/${journey.slug}`) }} />
       <div className="tier-head">
         <div>
           <span className="tour-kicker">CHOOSE YOUR COMFORT</span>
           <h2 id="tiers-title">Standard, Premium <em>or Luxury.</em></h2>
           <p>The same journey at three levels of comfort and support. The quotation names the actual hotels, vehicle and inclusions before you pay anything.</p>
         </div>
-        <div className="tier-tabs" role="tablist" aria-label="Comfort tier">
+        {!highlights && <div className="tier-tabs" role="tablist" aria-label="Comfort tier">
           {(Object.keys(TIER_NAME) as Tier[]).map((t) => (
             <button key={t} role="tab" type="button" aria-selected={tier === t} aria-controls="tier-detail" onClick={() => choose(t)}>
               {TIER_NAME[t]}
             </button>
           ))}
-        </div>
+        </div>}
       </div>
+
+      {highlights && <TierLadder journey={journey} highlights={highlights} tier={tier} onTier={setTier} />}
 
       {notice && (
         <div className="tier-notice" role="status">
@@ -87,6 +105,8 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
         </div>
       )}
 
+      <details className="tier-more" ref={detailRef}>
+        <summary>Compare every detail, row by row</summary>
       <div className="tier-compare" role="table" aria-label="Tier comparison">
         <div role="row" className="tier-row tier-row-head">
           <span role="columnheader" />
@@ -99,10 +119,12 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
           </div>
         ))}
       </div>
+      </details>
 
       <div className="tier-detail" id="tier-detail" role="tabpanel">
         <div>
-          <h3>What {TIER_NAME[tier]} includes on this journey</h3>
+          <details className="tier-more tier-more-lines" ref={linesRef}>
+          <summary>Everything {TIER_NAME[tier]} includes, day by day</summary>
           <ul className="tier-lines">
             {panel.lines.map((line, i) => {
               const declined = isMine && wishlist.journey?.tier === tier && wishlist.declined.includes(line.item);
@@ -127,6 +149,21 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
               );
             })}
           </ul>
+          </details>
+          {upgrades.length > 0 && (
+            <div className="tier-upgrades">
+              <h3>Want just one thing from a higher tier?</h3>
+              <p>Keep {TIER_NAME[tier]} and add any of these on their own. They are quoted with your journey.</p>
+              <ul>
+                {upgrades.map((u) => (
+                  <li key={u.item}>
+                    <div><strong>{u.href ? <Link href={u.href}>{u.title}</Link> : u.title}</strong><span>Included in {TIER_NAME[u.from]}</span></div>
+                    <AddToJourney id={u.item} compact short />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
         <aside className="tier-side">
           <h3>Not included</h3>

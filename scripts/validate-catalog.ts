@@ -4,6 +4,7 @@
  */
 import { catalogue, collections, departures, faqGroups, pages, weddingVenues } from "../content/catalog";
 import { TIERS, type ItemId, type Journey } from "../content/catalog/types";
+import { KIND_LABEL, byKind } from "../lib/tier-kinds";
 
 const problems: string[] = [];
 const fail = (where: string, what: string) => problems.push(`${where}: ${what}`);
@@ -60,6 +61,16 @@ function checkJourney(j: Journey) {
   scan(at, j);
   if (j.status !== "published") return;
   seo(at, j.seo);
+  for (const t of TIERS) {
+    const h = j.tiers[t].highlights;
+    if (!h || h.length < 3 || h.length > 5) fail(at, `${t} needs 3-5 highlights (the client's tier lines)`);
+    else for (const line of h) if (line.length > 64) fail(at, `${t} highlight too long for a phone: "${line}"`);
+  }
+  // A higher tier never looks like it loses something: every kind a lower tier lists, the next lists too.
+  for (let i = 1; i < TIERS.length; i++) {
+    const lower = byKind(j.tiers[TIERS[i - 1]].highlights ?? []), higher = byKind(j.tiers[TIERS[i]].highlights ?? []);
+    for (const kind of lower.keys()) if (!higher.has(kind)) fail(at, `${TIERS[i]} highlights say nothing about ${KIND_LABEL[kind]}, which ${TIERS[i - 1]} lists`);
+  }
   if (j.days !== j.nights + 1) fail(at, "days must equal nights + 1");
   if (j.itinerary.length !== j.days) fail(at, `${j.itinerary.length} itinerary days for ${j.days} days`);
   const overnightNights = j.overnights.reduce((sum, o) => sum + o.nights, 0);

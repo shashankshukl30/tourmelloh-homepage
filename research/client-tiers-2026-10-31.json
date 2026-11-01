@@ -1,0 +1,1080 @@
+{
+ "P01": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotel",
+    "AC Sedan",
+    "Shared Ganga Boat Ride",
+    "Standard Darshan"
+   ],
+   "premium": [
+    "4-Star Heritage Hotel",
+    "AC Innova",
+    "Reserved Private Motor Boat",
+    "Escorted VIP Line"
+   ],
+   "luxury": [
+    "5-Star Luxury (Taj / BrijRama)",
+    "Private Luxury SUV",
+    "Private Royal Bajra with Live Sitar & Refreshments",
+    "Personal Priest & Fast-Track VIP"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Arrival & Kashi Vishwanath Darshan",
+    "text": "Arrival transfer & check-in. Afternoon visit Kashi Vishwanath Temple & Manikarnika Ghat. Evening witness grand Ganga Aarti at Dashashwamedh Ghat.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Subah-e-Banaras & Sarnath Excursion",
+    "text": "Early morning boat ride along historic ghats. Assi Ghat & Sankat Mochan visit. Afternoon excursion to Sarnath (Dhamek Stupa & Museum).",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Heritage Walk & Departure",
+    "text": "Morning old alley heritage walk & silk handloom visit. Local breakfast. Departure transfer to airport/station.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P02": {
+  "tiers": {
+   "standard": [
+    "3-Star Deluxe Hotel",
+    "AC Sedan",
+    "Standard Boat Ride",
+    "Assisted Darshan"
+   ],
+   "premium": [
+    "4-Star Hotel / Resort",
+    "AC SUV",
+    "Private Sunrise Boat with Guide",
+    "Escorted VIP Darshan"
+   ],
+   "luxury": [
+    "5-Star Riverside Palace",
+    "Luxury SUV",
+    "Exclusive Private Boat with Musician",
+    "Personal escort, VIP Darshan & Spa session"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Gentle Welcome & Evening Aarti",
+    "text": "Private transfer to hotel. Rest period. Evening gentle stroll to Dashashwamedh Ghat for Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Kashi Vishwanath & Sacred Temples",
+    "text": "Morning Darshan at Kashi Vishwanath & Vishalakshi Temple. Afternoon rest. Evening cultural musical performance.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Ghats by Boat & Classical Sarnath",
+    "text": "Sunrise boat ride with local scholar guide. Afternoon trip to Sarnath with leisurely paced museum tour.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 4",
+    "title": "Wellness Morning & Departure",
+    "text": "Morning yoga/meditation at ghat, breakfast, handicraft shopping, transfer for departure.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P03": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotel",
+    "AC Sedan",
+    "Guided Food Walk",
+    "Regular River Boat"
+   ],
+   "premium": [
+    "4-Star Boutique Hotel",
+    "AC Innova",
+    "Curated Street Food Trail",
+    "Private Motor Boat"
+   ],
+   "luxury": [
+    "5-Star Luxury",
+    "Private Luxury Car",
+    "Premium Chef-led Food Trail",
+    "Private Decorated Bajra with High Tea"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Arrival & Culinary Introduction",
+    "text": "Arrival transfer. Evening Street Food Trail exploring Malaiyyo, Tamatar Chaat, Blue Lassi, and Banarasi Paan.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Spiritual Core & Artisans Walk",
+    "text": "Kashi Vishwanath & Kal Bhairav temple visits. Afternoon visit to traditional Banarasi silk weavers village.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Sunrise Boat Ride & Sarnath Excursion",
+    "text": "Early morning boat trip across famous ghats. Afternoon visit to Sarnath heritage complex.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 4",
+    "title": "Morning Ragas & Departure",
+    "text": "Subah-e-Banaras cultural experience at Assi Ghat. Souvenir collection and transfer for departure.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P04": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels",
+    "AC Sedan",
+    "Standard Sangam Boat Ride"
+   ],
+   "premium": [
+    "4-Star Hotels",
+    "AC Innova Crysta",
+    "Private Reserved Boat at Sangam",
+    "VIP Temple Access"
+   ],
+   "luxury": [
+    "5-Star Varanasi / Premium Prayagraj",
+    "Luxury SUV",
+    "Private Premium Boat with Ritual Pujari at Sangam"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival & Ganga Aarti",
+    "text": "Arrival in Varanasi, check-in, evening boat ride & Dashashwamedh Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Kashi Vishwanath & Drive to Prayagraj",
+    "text": "Morning Kashi Vishwanath Temple Darshan. Post lunch, drive to Prayagraj (approx. 3 hrs). Check-in at hotel.",
+    "overnight": "Overnight stay in Prayagraj"
+   },
+   {
+    "day": "Day 3",
+    "title": "Triveni Sangam & Sacred Prayagraj",
+    "text": "Morning Holy Dip & Boat Ride at Triveni Sangam. Visit Bade Hanumanji Temple, Anand Bhawan, and Alopi Devi Temple.",
+    "overnight": "Overnight stay in Prayagraj/Varanasi"
+   },
+   {
+    "day": "Day 4",
+    "title": "Return / Departure",
+    "text": "Breakfast and departure transfer to Prayagraj or Varanasi airport/station.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P05": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels",
+    "AC Sedan",
+    "Standard Darshan Lines"
+   ],
+   "premium": [
+    "4-Star Hotels",
+    "AC Innova Crysta",
+    "Priority Access & Escort at Ram Mandir & Kashi Vishwanath"
+   ],
+   "luxury": [
+    "5-Star Hotels & Premier Ayodhya Stays",
+    "Luxury SUV",
+    "VIP Protocol Access at Shri Ram Janmabhoomi & Kashi Vishwanath"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival & Evening Aarti",
+    "text": "Arrival in Varanasi, check-in, evening boat ride & Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Kashi Vishwanath & Sarnath",
+    "text": "Morning Kashi Vishwanath temple darshan & Sarnath excursion.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Drive to Ayodhya & Evening Saryu Aarti",
+    "text": "Drive from Varanasi to Ayodhya (approx. 4 hrs). Hotel check-in. Evening Saryu River Aarti at Naya Ghat.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 4",
+    "title": "Shri Ram Janmabhoomi & Ayodhya Temples",
+    "text": "Morning VIP Darshan at Shri Ram Janmabhoomi Mandir, Hanuman Garhi, Kanak Bhawan, and Dashrath Mahal.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 5",
+    "title": "Departure from Ayodhya / Lucknow",
+    "text": "Morning visit to Ram Ki Paidi, departure transfer to Ayodhya or Lucknow airport/station.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P06": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels across all cities",
+    "AC Sedan",
+    "Regular boats & standard darshan"
+   ],
+   "premium": [
+    "4-Star Hotels across all cities",
+    "AC Innova Crysta",
+    "Private boats & VIP passes"
+   ],
+   "luxury": [
+    "5-Star & Top Heritage Properties",
+    "Luxury Chauffeur Vehicle",
+    "Dedicated Tour Manager, VIP Access & Private Rituals"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Arrival in Varanasi",
+    "text": "Airport pick-up, hotel check-in. Evening Ganga Aarti boat experience.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi Temples & Sarnath",
+    "text": "Morning Kashi Vishwanath & Annapurna temple darshan. Afternoon Sarnath tour.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Varanasi to Prayagraj Transfer",
+    "text": "Drive to Prayagraj. Triveni Sangam snan & boat ride, Bade Hanuman Temple, Alopi Devi Temple.",
+    "overnight": "Overnight stay in Prayagraj"
+   },
+   {
+    "day": "Day 4",
+    "title": "Prayagraj to Ayodhya Transfer",
+    "text": "Drive from Prayagraj to Ayodhya. Evening Saryu Aarti.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 5",
+    "title": "Ayodhya Full Day Temple Tour",
+    "text": "Shri Ram Janmabhoomi, Hanuman Garhi, Kanak Bhawan & Guptar Ghat.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 6",
+    "title": "Departure",
+    "text": "Transfer to Ayodhya / Lucknow / Varanasi airport or station for onward journey.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P07": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels / Guesthouse in Chitrakoot",
+    "AC Sedan",
+    "Standard sightseeing"
+   ],
+   "premium": [
+    "4-Star Hotels & Best Available Resort in Chitrakoot",
+    "AC Innova Crysta",
+    "Guided Parikrama"
+   ],
+   "luxury": [
+    "5-Star Varanasi / Premium Prayagraj & Chitrakoot Resort",
+    "Luxury SUV",
+    "Private Priest & Chauffeur throughout"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival",
+    "text": "Check-in, evening Dashashwamedh Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi Spiritual Tour",
+    "text": "Kashi Vishwanath Darshan, ghat boat ride, Sarnath excursion.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Varanasi to Prayagraj",
+    "text": "Drive to Prayagraj, Triveni Sangam boat ride, Anand Bhawan.",
+    "overnight": "Overnight stay in Prayagraj"
+   },
+   {
+    "day": "Day 4",
+    "title": "Prayagraj to Chitrakoot Excursion",
+    "text": "Drive to Chitrakoot (approx. 3 hrs). Visit Ram Ghat, Kamadgiri Parikrama, and Mandakini River Aarti.",
+    "overnight": "Overnight stay in Chitrakoot"
+   },
+   {
+    "day": "Day 5",
+    "title": "Chitrakoot Sightseeing & Return",
+    "text": "Visit Sphatik Shila, Sati Anusuya Ashram, and Gupta Godavari. Drive back to Prayagraj or Varanasi.",
+    "overnight": "Overnight stay in Prayagraj/Varanasi"
+   },
+   {
+    "day": "Day 6",
+    "title": "Departure",
+    "text": "Final departure transfer.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P08": {
+  "tiers": {
+   "standard": [
+    "3-Star Accommodations",
+    "AC Sedan / Tempo Traveller",
+    "Standard Darshan"
+   ],
+   "premium": [
+    "4-Star Accommodations",
+    "AC Innova Crysta",
+    "Priority Darshan & Private Boats"
+   ],
+   "luxury": [
+    "5-Star & Premier Properties",
+    "Luxury SUV",
+    "Full Butler Support, VIP Passes & Customized Itinerary"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival",
+    "text": "Transfer to hotel, evening Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi Local",
+    "text": "Kashi Vishwanath Temple, ghat walk & Sarnath.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Varanasi to Prayagraj",
+    "text": "Drive to Prayagraj, Triveni Sangam snan & temples.",
+    "overnight": "Overnight stay in Prayagraj"
+   },
+   {
+    "day": "Day 4",
+    "title": "Prayagraj to Chitrakoot",
+    "text": "Drive to Chitrakoot, Ram Ghat Aarti, Kamadgiri.",
+    "overnight": "Overnight stay in Chitrakoot"
+   },
+   {
+    "day": "Day 5",
+    "title": "Chitrakoot Sightseeing to Ayodhya",
+    "text": "Gupta Godavari, Sati Anusuya Ashram, proceed towards Ayodhya.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 6",
+    "title": "Ayodhya Pilgrimage",
+    "text": "Shri Ram Janmabhoomi Darshan, Hanuman Garhi, Kanak Bhawan.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 7",
+    "title": "Ayodhya Exploration & Saryu",
+    "text": "Guptar Ghat, Ram ki Paidi, local cultural evening.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 8",
+    "title": "Departure",
+    "text": "Departure transfer via Lucknow or Ayodhya.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P09": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels",
+    "AC Sedan",
+    "Local Priest Arrangement for Ancestral Rites"
+   ],
+   "premium": [
+    "4-Star Hotels",
+    "AC Innova",
+    "Verified Vedic Brahmin Priest, Private Puja Materials & Ghat Setup"
+   ],
+   "luxury": [
+    "5-Star Luxury Hotels",
+    "Luxury SUV",
+    "Elite Senior Vedic Scholar Priest, Private Quiet Ritual Space & Full Assistance"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival",
+    "text": "Pick up, check-in, evening Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi Pind Daan & Temples",
+    "text": "Perform ancestral rites (Pind Daan / Shraddha) at Ganga Ghats with verified priests. Kashi Vishwanath Darshan.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Varanasi to Gaya / Bodh Gaya Transfer",
+    "text": "Drive or train to Gaya (approx. 5-6 hrs). Check-in at hotel.",
+    "overnight": "Overnight stay in Gaya/Bodh Gaya"
+   },
+   {
+    "day": "Day 4",
+    "title": "Gaya Rituals & Vishnupad Temple",
+    "text": "Perform ancestral rites at Vishnupad Temple & Phalgu River. Visit Falgu Ghat & Akshayavat.",
+    "overnight": "Overnight stay in Gaya/Bodh Gaya"
+   },
+   {
+    "day": "Day 5",
+    "title": "Bodh Gaya Quick Visit & Departure",
+    "text": "Visit Mahabodhi Temple complex, transfer to Gaya airport/station for departure.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P10": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels",
+    "AC Sedan",
+    "Standard Ritual & Temple Support"
+   ],
+   "premium": [
+    "4-Star Hotels",
+    "AC Innova",
+    "Escorted Rituals & VIP Lines at Varanasi & Gaya"
+   ],
+   "luxury": [
+    "5-Star / Best Available Luxury",
+    "Luxury SUV",
+    "Complete Private Ritual Assistance & VIP Protocol"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival",
+    "text": "Transfer to hotel, evening Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi to Prayagraj Day Excursion",
+    "text": "Drive to Prayagraj, Triveni Sangam rituals, Hanuman Temple, return to Varanasi.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Varanasi Temples & Rites",
+    "text": "Kashi Vishwanath Temple, Manikarnika Ghat, ancestral homage.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 4",
+    "title": "Varanasi to Gaya Transfer",
+    "text": "Morning travel to Gaya. Evening visit to Vishnupad Temple area.",
+    "overnight": "Overnight stay in Gaya"
+   },
+   {
+    "day": "Day 5",
+    "title": "Gaya Ancestral Rites & Bodh Gaya",
+    "text": "Pind Daan at Vishnupad Temple & Phalgu River, visit Mahabodhi Temple.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 6",
+    "title": "Departure",
+    "text": "Departure from Gaya airport/station.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P11": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotel / Monastery Guest House",
+    "AC Sedan",
+    "Local Guide"
+   ],
+   "premium": [
+    "4-Star Hotel / Lotus Nikko Kushinagar",
+    "AC Innova",
+    "Expert Buddhist Heritage Scholar"
+   ],
+   "luxury": [
+    "Luxury 5-Star / Top Boutique Hotel",
+    "Luxury SUV",
+    "Private Buddhist Scholar & Chauffeur"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival & Sarnath",
+    "text": "Arrival in Varanasi, afternoon visit to Sarnath (Dhamek Stupa, Museum, Mulagandha Kuti Vihar).",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi to Kushinagar",
+    "text": "Scenic drive to Kushinagar (approx. 6 hrs). Hotel check-in.",
+    "overnight": "Overnight stay in Kushinagar"
+   },
+   {
+    "day": "Day 3",
+    "title": "Kushinagar Buddhist Exploration",
+    "text": "Visit Mahaparinirvana Temple, Ramabhar Stupa (cremation site), and Matha Kuar Shrine.",
+    "overnight": "Overnight stay in Kushinagar"
+   },
+   {
+    "day": "Day 4",
+    "title": "Departure via Gorakhpur",
+    "text": "Transfer to Gorakhpur airport/railway station (approx. 1.5 hrs) for onward journey.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P12": {
+  "tiers": {
+   "standard": [
+    "3-Star Accommodations",
+    "AC Sedan",
+    "Standard Guide Service"
+   ],
+   "premium": [
+    "4-Star Accommodations",
+    "AC Innova",
+    "Specialized Buddhist Circuit Guide"
+   ],
+   "luxury": [
+    "Premium Boutique / Top 4-5 Star Properties",
+    "Luxury SUV",
+    "Private Historian & Full Concierge"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Arrival in Varanasi & Sarnath",
+    "text": "Pick-up, check-in, afternoon Sarnath exploration.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi to Kushinagar",
+    "text": "Drive to Kushinagar. Check-in and evening rest.",
+    "overnight": "Overnight stay in Kushinagar"
+   },
+   {
+    "day": "Day 3",
+    "title": "Kushinagar to Shravasti",
+    "text": "Morning Mahaparinirvana Temple & Ramabhar Stupa. Afternoon drive to Shravasti.",
+    "overnight": "Overnight stay in Shravasti"
+   },
+   {
+    "day": "Day 4",
+    "title": "Shravasti Sightseeing",
+    "text": "Visit Jetavana Monastery, Anathapindika Stupa, Angulimala Stupa & Anandabodhi Tree.",
+    "overnight": "Overnight stay in Shravasti"
+   },
+   {
+    "day": "Day 5",
+    "title": "Shravasti to Lucknow / Ayodhya",
+    "text": "Drive to Lucknow or Ayodhya with sightseeing along the way.",
+    "overnight": "Overnight stay in Lucknow/Ayodhya"
+   },
+   {
+    "day": "Day 6",
+    "title": "Departure",
+    "text": "Transfer to Lucknow airport/station.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P13": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels / Pilgrims Lodge",
+    "AC Sedan / Tempo",
+    "Standard Entrance Tickets"
+   ],
+   "premium": [
+    "4-Star Heritage / Hotel Chain",
+    "AC Innova",
+    "Priority Access & Expert Scholar"
+   ],
+   "luxury": [
+    "Top Premium Hotels",
+    "Luxury Chauffeur Vehicle",
+    "Full Customized Luxury Escort & Meals"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival & Sarnath",
+    "text": "Arrival, Sarnath stupas & museum visit.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi to Kushinagar",
+    "text": "Drive to Kushinagar, evening orientation.",
+    "overnight": "Overnight stay in Kushinagar"
+   },
+   {
+    "day": "Day 3",
+    "title": "Kushinagar Pilgrimage",
+    "text": "Mahaparinirvana temple, Ramabhar stupa, meditation.",
+    "overnight": "Overnight stay in Kushinagar"
+   },
+   {
+    "day": "Day 4",
+    "title": "Kushinagar to Shravasti",
+    "text": "Drive to Shravasti via Balrampur.",
+    "overnight": "Overnight stay in Shravasti"
+   },
+   {
+    "day": "Day 5",
+    "title": "Shravasti Exploration",
+    "text": "Jetavana Monastery & ancient ruins.",
+    "overnight": "Overnight stay in Shravasti"
+   },
+   {
+    "day": "Day 6",
+    "title": "Shravasti to Sankisa",
+    "text": "Drive towards Sankisa Buddhist site.",
+    "overnight": "Overnight stay in Sankisa/Farrukhabad"
+   },
+   {
+    "day": "Day 7",
+    "title": "Sankisa to Agra/Lucknow",
+    "text": "Visit Elephant Pillar site, proceed to Lucknow/Agra.",
+    "overnight": "Overnight stay in Lucknow"
+   },
+   {
+    "day": "Day 8",
+    "title": "Departure",
+    "text": "Departure transfer.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P14": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels",
+    "AC Sedan",
+    "Standard Meditation & Sightseeing"
+   ],
+   "premium": [
+    "4-Star Hotels (Lotus Nikko / Oaks)",
+    "AC Innova",
+    "Monastic Interaction & Private Meditation Sessions"
+   ],
+   "luxury": [
+    "5-Star Hotels (Taj Darbar / Hyatt)",
+    "Luxury SUV",
+    "Private Senior Monk Session & Exclusive Transfers"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Gaya/Bodh Gaya Arrival",
+    "text": "Arrival in Bodh Gaya, hotel check-in. Evening meditation at Mahabodhi Temple.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 2",
+    "title": "Bodh Gaya Sacred Sites",
+    "text": "Mahabodhi Temple, Bodhi Tree, 80ft Buddha statue, international monasteries.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 3",
+    "title": "Bodh Gaya to Varanasi Transfer",
+    "text": "Drive or train to Varanasi. Evening Ganga Aarti experience.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 4",
+    "title": "Sarnath & Varanasi Heritage",
+    "text": "Morning Sarnath Buddhist tour, afternoon Kashi Vishwanath & ghats.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 5",
+    "title": "Departure",
+    "text": "Morning boat ride, transfer to Varanasi airport/station.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P15": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels",
+    "AC Sedan",
+    "Standard Monument Passes & Guides"
+   ],
+   "premium": [
+    "4-Star Hotels",
+    "AC Innova Crysta",
+    "Private Ropeway Tickets & University Guide"
+   ],
+   "luxury": [
+    "5-Star Luxury Hotels",
+    "Luxury SUV",
+    "Private Historian, VIP Ropeway & Exclusive Dining"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival & Sarnath",
+    "text": "Arrival, Sarnath exploration.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi to Bodh Gaya",
+    "text": "Drive to Bodh Gaya, evening Mahabodhi Temple.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 3",
+    "title": "Bodh Gaya Full Day",
+    "text": "Bodhi Tree, Monasteries & meditation.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 4",
+    "title": "Excursion to Rajgir & Nalanda",
+    "text": "Drive to Rajgir (Vulture Peak, Ropeway) & Nalanda University Ruins. Return to Bodh Gaya.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 5",
+    "title": "Bodh Gaya to Varanasi",
+    "text": "Return drive to Varanasi. Evening boat ride.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 6",
+    "title": "Varanasi Spiritual Tour",
+    "text": "Kashi Vishwanath, heritage market walk.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 7",
+    "title": "Departure",
+    "text": "Transfer for departure.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P16": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels / Quality Lodges",
+    "AC Sedan / Tempo",
+    "Regular Access"
+   ],
+   "premium": [
+    "4-Star Circuit Hotels",
+    "AC Innova Crysta",
+    "Priority Monument Access & Specialist Guides"
+   ],
+   "luxury": [
+    "5-Star & Best Available Luxury Hotels",
+    "Luxury SUV",
+    "Full Private Concierge, Specialized Scholar & Premium Meals"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival",
+    "text": "Pick up & hotel check-in.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Sarnath & Varanasi",
+    "text": "Sarnath Buddhist tour & Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Varanasi to Bodh Gaya",
+    "text": "Drive to Bodh Gaya.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 4",
+    "title": "Bodh Gaya Sacred Sites",
+    "text": "Mahabodhi Temple & international monasteries.",
+    "overnight": "Overnight stay in Bodh Gaya"
+   },
+   {
+    "day": "Day 5",
+    "title": "Rajgir & Nalanda Ruins",
+    "text": "Full day trip to Rajgir & Nalanda ruins.",
+    "overnight": "Overnight stay in Rajgir/Patna"
+   },
+   {
+    "day": "Day 6",
+    "title": "Rajgir/Patna to Vaishali & Kushinagar",
+    "text": "Drive via Vaishali (Buddha relic stupa) to Kushinagar.",
+    "overnight": "Overnight stay in Kushinagar"
+   },
+   {
+    "day": "Day 7",
+    "title": "Kushinagar Pilgrimage",
+    "text": "Mahaparinirvana Temple & Ramabhar Stupa.",
+    "overnight": "Overnight stay in Kushinagar"
+   },
+   {
+    "day": "Day 8",
+    "title": "Kushinagar to Shravasti",
+    "text": "Drive to Shravasti.",
+    "overnight": "Overnight stay in Shravasti"
+   },
+   {
+    "day": "Day 9",
+    "title": "Shravasti to Lucknow",
+    "text": "Jetavana Monastery visit, proceed to Lucknow.",
+    "overnight": "Overnight stay in Lucknow"
+   },
+   {
+    "day": "Day 10",
+    "title": "Departure",
+    "text": "Transfer to Lucknow airport/station.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P17": {
+  "tiers": {
+   "standard": [
+    "Clean Ashram Guesthouse / 3-Star Hotel",
+    "AC Sedan",
+    "Standard Temple Visit"
+   ],
+   "premium": [
+    "Boutique Resort / Best Available Property",
+    "AC Innova",
+    "Local Resident Pandit for Chakra Tirth Puja"
+   ],
+   "luxury": [
+    "Luxury Hotel in Lucknow with Day Chauffeur / Premier Resort",
+    "Luxury SUV",
+    "Private Special Rudrabhishek & Scholar Escort"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Lucknow Arrival to Naimisharanya",
+    "text": "Arrival in Lucknow, drive to Naimisharanya (approx. 2.5 hrs). Check-in. Evening Chakra Tirth snan.",
+    "overnight": "Overnight stay in Naimisharanya"
+   },
+   {
+    "day": "Day 2",
+    "title": "Sacred Shrines of Naimisharanya",
+    "text": "Visit Vyas Gaddi, Hanuman Garhi, Lalita Devi Temple, and Dashashwamedh Ghat.",
+    "overnight": "Overnight stay in Naimisharanya"
+   },
+   {
+    "day": "Day 3",
+    "title": "Return to Lucknow & Departure",
+    "text": "Morning prayers, drive back to Lucknow, brief Lucknow heritage tour & departure.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P18": {
+  "tiers": {
+   "standard": [
+    "3-Star Deluxe Hotel",
+    "AC Sedan",
+    "Standard Ram Mandir Line"
+   ],
+   "premium": [
+    "4-Star Hotel / Resort",
+    "AC Innova Crysta",
+    "Priority VIP Pass & Escort for Ram Janmabhoomi"
+   ],
+   "luxury": [
+    "5-Star / Premier Heritage Property",
+    "Luxury SUV",
+    "Protocol VIP Access, Private Saryu Aarti Boat & Personal Guide"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Ayodhya Arrival & Saryu Aarti",
+    "text": "Arrival at Ayodhya airport/station, check-in. Evening Saryu River Aarti at Naya Ghat.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 2",
+    "title": "Shri Ram Janmabhoomi & Heritage",
+    "text": "VIP Darshan at Ram Mandir, Hanuman Garhi, Kanak Bhawan, Dashrath Mahal, and Mani Parbat.",
+    "overnight": "Overnight stay in Ayodhya"
+   },
+   {
+    "day": "Day 3",
+    "title": "Guptar Ghat & Departure",
+    "text": "Morning visit to Guptar Ghat & Ram ki Paidi. Transfer for departure.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P19": {
+  "tiers": {
+   "standard": [
+    "Standard Hotel / Tourist Lodge",
+    "AC Sedan",
+    "Regular Parikrama"
+   ],
+   "premium": [
+    "Best Available Resort / 4-Star",
+    "AC Innova",
+    "Guided Kamadgiri Parikrama & Priority Boat"
+   ],
+   "luxury": [
+    "Luxury Resort Stay",
+    "Luxury SUV",
+    "Private Priest for Mandakini Puja & Personal Chauffeur Escort"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Prayagraj/Satna to Chitrakoot",
+    "text": "Arrival at gateway, drive to Chitrakoot. Check-in. Evening Ram Ghat Mandakini Aarti.",
+    "overnight": "Overnight stay in Chitrakoot"
+   },
+   {
+    "day": "Day 2",
+    "title": "Holy Sites of Chitrakoot",
+    "text": "Kamadgiri Parikrama, Sphatik Shila, Sati Anusuya Ashram, and Gupta Godavari caves.",
+    "overnight": "Overnight stay in Chitrakoot"
+   },
+   {
+    "day": "Day 3",
+    "title": "Bharat Koop & Departure",
+    "text": "Visit Bharat Koop, departure transfer to Prayagraj or Satna.",
+    "overnight": "Departure"
+   }
+  ]
+ },
+ "P20": {
+  "tiers": {
+   "standard": [
+    "3-Star Hotels",
+    "AC Sedan / Tempo",
+    "Standard Priest & Boat Services"
+   ],
+   "premium": [
+    "4-Star Hotels",
+    "AC Innova Crysta",
+    "Verified Purohit Rites & Private Boats"
+   ],
+   "luxury": [
+    "5-Star & Top Heritage Properties",
+    "Luxury Chauffeur SUV",
+    "Private Ritual Officiant, VIP Protocol & Butler Assistance"
+   ]
+  },
+  "days": [
+   {
+    "day": "Day 1",
+    "title": "Varanasi Arrival",
+    "text": "Pick up, check-in, evening boat ride & Ganga Aarti.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 2",
+    "title": "Varanasi Temples & Sarnath",
+    "text": "Kashi Vishwanath Darshan & Sarnath excursion.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 3",
+    "title": "Varanasi to Prayagraj",
+    "text": "Drive to Prayagraj, Sangam snan, Hanuman Temple.",
+    "overnight": "Overnight stay in Prayagraj"
+   },
+   {
+    "day": "Day 4",
+    "title": "Prayagraj to Chitrakoot",
+    "text": "Excursion to Chitrakoot (Ram Ghat, Kamadgiri).",
+    "overnight": "Overnight stay in Chitrakoot"
+   },
+   {
+    "day": "Day 5",
+    "title": "Chitrakoot to Varanasi",
+    "text": "Return drive to Varanasi. Free evening.",
+    "overnight": "Overnight stay in Varanasi"
+   },
+   {
+    "day": "Day 6",
+    "title": "Varanasi to Gaya",
+    "text": "Travel to Gaya. Check-in at Gaya/Bodh Gaya.",
+    "overnight": "Overnight stay in Gaya"
+   },
+   {
+    "day": "Day 7",
+    "title": "Gaya Ancestral Rites & Bodh Gaya",
+    "text": "Pind Daan at Vishnupad Temple & Mahabodhi Temple visit.",
+    "overnight": "Overnight stay in Gaya/Bodh Gaya"
+   },
+   {
+    "day": "Day 8",
+    "title": "Departure",
+    "text": "Transfer to Gaya or Varanasi airport/station for departure.",
+    "overnight": "Departure"
+   }
+  ]
+ }
+}

@@ -9,9 +9,9 @@ const mobileFilm = "/videos/india-mobile.mp4";
 const desktopFilm = "/videos/india-desktop.mp4";
 const places = [
   { landmark: "The riverfront at dusk", location: "Varanasi, Uttar Pradesh" },
-  { landmark: "The Taj Mahal", location: "Agra, Uttar Pradesh" },
-  { landmark: "Rumi Darwaza", location: "Lucknow, Uttar Pradesh" },
-  { landmark: "Amber Fort", location: "Jaipur, Rajasthan" },
+  { landmark: "The Triveni Sangam", location: "Prayagraj, Uttar Pradesh" },
+  { landmark: "Shri Ram Janmabhoomi Mandir", location: "Ayodhya, Uttar Pradesh" },
+  { landmark: "The Mahabodhi Temple", location: "Bodh Gaya, Bihar" },
 ];
 
 function placeAt(time: number) {

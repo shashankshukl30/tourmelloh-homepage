@@ -2,12 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { brand } from "@/lib/site";
-import { WhatsAppIcon, whatsappHref } from "@/components/whatsapp-link";
+import { WhatsAppIcon } from "@/components/whatsapp-link";
+import { WhatsAppPageLink } from "@/components/whatsapp-page-link";
 import { journeys } from "@/content/catalog";
 import { journeysMenu } from "@/content/catalog/nav";
 
 const columns = [
-  { title: "Journeys", links: [{ name: "All journeys", href: "/journeys" }, ...journeysMenu[3].links.map(({ name, href }) => ({ name, href }))] },
+  { title: "Packages", links: [{ name: "All packages", href: "/journeys" }, ...journeysMenu[3].links.map(({ name, href }) => ({ name, href }))] },
   {
     title: "Plan",
     links: [
@@ -58,7 +59,7 @@ export function Footer() {
             <p className="cf-line">Stays, transport, experiences and personal assistance in Varanasi and beyond.</p>
             <ul className="cf-contact">
               <li><Phone size={17} aria-hidden="true" /><a href={brand.phoneHref}>{brand.phone}</a></li>
-              <li><WhatsAppIcon size={17} /><a href={whatsappHref} target="_blank" rel="noopener noreferrer">Chat with Tourmelloh</a></li>
+              <li><WhatsAppIcon size={17} /><WhatsAppPageLink>Chat with Tourmelloh</WhatsAppPageLink></li>
               <li><Mail size={17} aria-hidden="true" /><a href={`mailto:${brand.email}`}>{brand.email}</a></li>
               <li><MapPin size={17} aria-hidden="true" /><span>{brand.city}, {brand.region}, India</span></li>
             </ul>

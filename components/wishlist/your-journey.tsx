@@ -29,7 +29,7 @@ export function YourJourney() {
           <h2>Nothing chosen yet.</h2>
           <p>Choose a journey and a comfort tier, or add services and experiences first. Everything stays in this browser until you send it.</p>
           <div className="cat-band-actions">
-            <Link className="tour-primary" href="/journeys" style={{ color: "var(--paper)" }}>Browse journeys <ArrowUpRight size={17} /></Link>
+            <Link className="tour-primary" href="/journeys" style={{ color: "var(--paper)" }}>Browse packages <ArrowUpRight size={17} /></Link>
             <Link className="cat-whatsapp" href="/experiences">Experiences</Link>
             <Link className="cat-whatsapp" href="/help-me-plan">Help me plan</Link>
           </div>

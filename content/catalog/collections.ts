@@ -85,8 +85,8 @@ export const collections: Collection[] = [
         text: "A named person accompanies your parents for the agreed days and visits. SHRAVAN is never a driver-only itinerary, including at Standard; the tiers change the hotels, vehicle and level of service, not the presence of support.",
       },
       {
-        title: "Senior Travel Companion",
-        text: "The Senior Travel Companion helps with walking pace, steps, boarding, check-ins and meal routines, within a defined, non-medical scope agreed before travel. The companion is not a nurse or carer. Where specialist care is needed, it is assessed separately with a qualified provider.",
+        title: "Senior travel companion",
+        text: "The senior travel companion helps with walking pace, steps, boarding, check-ins and meal routines, within a defined, non-medical scope agreed before travel. The companion is not a nurse or carer. Where specialist care is needed, it is assessed separately with a qualified provider.",
       },
       {
         title: "Pacing and assistance reviewed before we quote",
@@ -131,7 +131,7 @@ export const collections: Collection[] = [
         a: "You can be the booking contact while your parents are the ones travelling. Before the journey we ask your parents whether they are happy for us to share updates with you, how often, and on which channel. Photographs and location are shared only if they agree. If they prefer privacy on a given day, we respect that.",
       },
       {
-        q: "Is the Senior Travel Companion a nurse or carer?",
+        q: "Is the senior travel companion a nurse or carer?",
         a: "No. The companion provides defined, non-medical assistance: pace, steps, boarding, check-ins, meals and general reassurance. The companion does not give medical or personal care. If your parents need specialist care, tell us early and we assess it separately with a qualified provider. Please do not send medical records through the website; we arrange anything sensitive through a separate process.",
       },
       {

@@ -95,7 +95,7 @@ export const articles: Article[] = [
       {
         heading: "Coordinator, host, guide and concierge",
         paragraphs: [
-          "These four roles are often confused, and the difference is important. A remote coordinator is your named planning contact through the journey, who confirms arrangements, relays changes and solves problems without travelling with you. Your Travel Host is an accompanying person for specified visits or days. A private sightseeing or specialist guide explains places: a ghat, a museum, a temple's history. A Dedicated Travel Concierge provides broader support over agreed days and hours, accompanying or remote as defined. One confirmed professional can sometimes cover more than one role, and when that happens the same coverage is never charged twice.",
+          "These four roles are often confused, and the difference is important. A remote coordinator is your named planning contact through the journey, who confirms arrangements, relays changes and solves problems without travelling with you. Your travel host is an accompanying person for specified visits or days. A private sightseeing or specialist guide explains places: a ghat, a museum, a temple's history. A Dedicated travel concierge provides broader support over agreed days and hours, accompanying or remote as defined. One confirmed professional can sometimes cover more than one role, and when that happens the same coverage is never charged twice.",
           "A driver, however experienced, is not a guide. Drivers know the roads, the drop-off points and how long a transfer really takes, but interpreting a site is a different job, and it is not assumed unless a guide is listed. Equally, a host is not security, and a coordinator is not a nurse or a carer. Each role in your quotation states its sessions, days, language and scope, so you know who will be with you at the temple door, who to call when a train is late and who explains what you are looking at.",
         ],
       },
@@ -114,7 +114,7 @@ export const articles: Article[] = [
       {
         heading: "Arrivals, transfers and the first hour",
         paragraphs: [
-          "Coordination starts before you land. Airport and railway station transfers are set from your flight or train details, and Arrival Welcome & Assistance means someone meets you at the agreed point and helps you to the car, though restricted-area access is never implied without a confirmed service. Private chauffeured transport is matched to your party, luggage and route, because one sedan does not suit every group. Share your timings, luggage and any assistance needs when you enquire. The smoother the first hour, the more likely the rest of the journey is to feel unhurried and well held from start to finish.",
+          "Coordination starts before you land. Airport and railway station transfers are set from your flight or train details, and arrival welcome and assistance means someone meets you at the agreed point and helps you to the car, though restricted-area access is never implied without a confirmed service. Private chauffeured transport is matched to your party, luggage and route, because one sedan does not suit every group. Share your timings, luggage and any assistance needs when you enquire. The smoother the first hour, the more likely the rest of the journey is to feel unhurried and well held from start to finish.",
         ],
       },
     ],
@@ -214,7 +214,7 @@ export const articles: Article[] = [
         heading: "What SHRAVAN adds",
         paragraphs: [
           "SHRAVAN by Tourmelloh is the collection of thoughtfully accompanied journeys for parents and senior travellers, including trips arranged by overseas or busy adult children. Named accompaniment, suitable pacing and assessed assistance are part of every SHRAVAN journey at every tier, and they stay in place while the journey belongs to the collection. SHRAVAN Varanasi follows Varanasi at Your Pace, while SHRAVAN Varanasi and Ayodhya and SHRAVAN Sacred Confluence follow their parent itineraries with pacing adjusted. A SHRAVAN selection triggers a staff review of mobility, meal routines and assistance scope, and that review may recommend a longer duration.",
-          "The Senior Travel Companion at the heart of SHRAVAN has a defined, non-medical scope: walking alongside, managing pacing, helping with queues and steps, and keeping the day moving at the right speed. It is not nursing or personal care. Where a parent needs specialist care, that is a separate request, assessed and delivered only by a qualified provider, and the general enquiry form is not a medical assessment. Being clear about this boundary from the start protects your parents and sets honest expectations for everyone involved, including the people who will be walking beside them each day.",
+          "The senior travel companion at the heart of SHRAVAN has a defined, non-medical scope: walking alongside, managing pacing, helping with queues and steps, and keeping the day moving at the right speed. It is not nursing or personal care. Where a parent needs specialist care, that is a separate request, assessed and delivered only by a qualified provider, and the general enquiry form is not a medical assessment. Being clear about this boundary from the start protects your parents and sets honest expectations for everyone involved, including the people who will be walking beside them each day.",
         ],
       },
       {
@@ -232,7 +232,7 @@ export const articles: Article[] = [
       {
         heading: "Wheelchairs, porters and the last fifty metres",
         paragraphs: [
-          "The distance that matters most is between the car and the bed. Ask where the car stops, how many steps lie before reception, whether there is a lift and how far the room is from it. Wheelchair and mobility assistance distinguishes between equipment and a person to push or support, and every route is assessed rather than described as fully accessible. Luggage and porter assistance can cover stations and riverside hotels that cars cannot reach. Arrival Welcome & Assistance means someone meets your parents at the agreed point and helps them to the car, within a scope stated in advance.",
+          "The distance that matters most is between the car and the bed. Ask where the car stops, how many steps lie before reception, whether there is a lift and how far the room is from it. Wheelchair and mobility assistance distinguishes between equipment and a person to push or support, and every route is assessed rather than described as fully accessible. Luggage and porter assistance can cover stations and riverside hotels that cars cannot reach. Arrival welcome and assistance means someone meets your parents at the agreed point and helps them to the car, within a scope stated in advance.",
         ],
       },
       {
@@ -331,7 +331,7 @@ export const articles: Article[] = [
       {
         heading: "Two chapters of one life",
         paragraphs: [
-          "Bodh Gaya is where the Buddha attained enlightenment beneath the Bodhi Tree; Sarnath, near Varanasi, is where he gave his first teaching soon afterwards. Most journeys visit them in reverse order, because Varanasi is the easier place to arrive. That is no loss. Beginning at Sarnath lets you learn the vocabulary of the sites, the stupas, monastery plans and carved symbols, before you reach the living temple at Bodh Gaya. Awakening & the First Teaching joins the two over a suggested four nights, with the travel order set by your arrival and departure gateways rather than by the story.",
+          "Bodh Gaya is where the Buddha attained enlightenment beneath the Bodhi Tree; Sarnath, near Varanasi, is where he gave his first teaching soon afterwards. Journeys can run either way. Our Awakening & the First Teaching begins at Bodh Gaya and ends at Sarnath, in the order of the Buddha's own life; others start in Varanasi, the easier place to arrive. Either way works. Beginning at Sarnath lets you learn the vocabulary of the sites, the stupas, monastery plans and carved symbols, before you reach the living temple at Bodh Gaya. Awakening & the First Teaching joins the two over a suggested four nights, with the travel order set by your arrival and departure gateways rather than by the story.",
         ],
       },
       {
@@ -356,7 +356,7 @@ export const articles: Article[] = [
       {
         heading: "Monasteries, Rajgir and Nalanda",
         paragraphs: [
-          "Choose two or three of Bodh Gaya's national monasteries rather than all of them: the Thai temple with its gilded roof, the painted Bhutanese monastery and the Great Buddha Statue among its gardens make a calm afternoon. Confirm visiting times rather than assuming every monastery is open for sightseeing. Those continuing further can add Rajgir, where the Buddha taught on Vulture's Peak, and the ruins of Nalanda, the ancient monastic university and also a World Heritage Site. Language Assistance & Interpreters can help pilgrims more comfortable in another language, subject to confirmation of the language and sessions.",
+          "Choose two or three of Bodh Gaya's national monasteries rather than all of them: the Thai temple with its gilded roof, the painted Bhutanese monastery and the Great Buddha Statue among its gardens make a calm afternoon. Confirm visiting times rather than assuming every monastery is open for sightseeing. Those continuing further can add Rajgir, where the Buddha taught on Vulture's Peak, and the ruins of Nalanda, the ancient monastic university and also a World Heritage Site. Language assistance and interpreters can help pilgrims more comfortable in another language, subject to confirmation of the language and sessions.",
         ],
       },
       {
@@ -523,7 +523,7 @@ export const articles: Article[] = [
       {
         heading: "Arrivals that set the tone",
         paragraphs: [
-          "Guests remember their first hour. Airport and railway station transfers are scheduled from flight and train details, with passenger and luggage counts noted, and Arrival Welcome & Assistance means someone meets them at the agreed point and helps them to their car within a stated scope. For a wedding, arrivals cluster over a day or two, so the plan matches vehicles to waves of guests rather than individuals. Winter fog can delay flights and overnight trains in December and January, which is also a busy wedding season, so the transfer plan needs room to absorb late arrivals calmly.",
+          "Guests remember their first hour. Airport and railway station transfers are scheduled from flight and train details, with passenger and luggage counts noted, and arrival welcome and assistance means someone meets them at the agreed point and helps them to their car within a stated scope. For a wedding, arrivals cluster over a day or two, so the plan matches vehicles to waves of guests rather than individuals. Winter fog can delay flights and overnight trains in December and January, which is also a busy wedding season, so the transfer plan needs room to absorb late arrivals calmly.",
         ],
       },
       {
@@ -535,7 +535,7 @@ export const articles: Article[] = [
       {
         heading: "Moving guests between events",
         paragraphs: [
-          "A wedding spread over several days means many short journeys: hotel to haldi, mehendi venue to sangeet, ceremony to reception. Private chauffeured transport can be planned as a timed shuttle between venues, with vehicle capacity matched to each group and luggage kept separate on arrival and departure days. Share the event schedule early, because the lanes near the ghats are slow and some venues cannot be reached by car at all. Language Assistance & Interpreters can help overseas guests, or relatives more comfortable in another language, subject to confirmation of the language and the sessions needed.",
+          "A wedding spread over several days means many short journeys: hotel to haldi, mehendi venue to sangeet, ceremony to reception. Private chauffeured transport can be planned as a timed shuttle between venues, with vehicle capacity matched to each group and luggage kept separate on arrival and departure days. Share the event schedule early, because the lanes near the ghats are slow and some venues cannot be reached by car at all. Language assistance and interpreters can help overseas guests, or relatives more comfortable in another language, subject to confirmation of the language and the sessions needed.",
         ],
       },
       {

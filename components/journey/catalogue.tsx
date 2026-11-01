@@ -1,15 +1,12 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { Tier } from "@/content/catalog/types";
+import { PackageCard, type PackageCardData } from "@/components/journey/package-card";
 
-export type CatalogueJourney = {
-  slug: string; title: string; subtitle?: string; route: string; nights: number; days: number; summary: string;
-  types: string[]; destinations: string[]; photo: { src: string; alt: string; blur: string };
-};
+export type CatalogueJourney = PackageCardData & { types: string[]; destinations: string[] };
 
 const LENGTHS = [
   { key: "", label: "Any length" },
@@ -17,8 +14,8 @@ const LENGTHS = [
   { key: "medium", label: "4 to 5 nights", test: (n: number) => n >= 4 && n <= 5 },
   { key: "long", label: "6 nights or more", test: (n: number) => n >= 6 },
 ];
-const TYPES: Record<string, string> = { "": "Every kind", "hindu-pilgrimage": "Hindu pilgrimage", buddhist: "Buddhist journeys", culture: "Culture & food", heritage: "Heritage" };
-const PLACES: Record<string, string> = { "": "Anywhere", varanasi: "Varanasi", sarnath: "Sarnath", prayagraj: "Prayagraj", ayodhya: "Ayodhya", "bodh-gaya": "Bodh Gaya", kushinagar: "Kushinagar", shravasti: "Shravasti" };
+const TYPES: Record<string, string> = { "": "Every kind", "hindu-pilgrimage": "Hindu pilgrimage", buddhist: "Buddhist journeys", culture: "Culture & food", heritage: "Heritage", "ancestral-rites": "Ancestral rites" };
+const PLACES: Record<string, string> = { "": "Anywhere", varanasi: "Varanasi", sarnath: "Sarnath", prayagraj: "Prayagraj", ayodhya: "Ayodhya", "bodh-gaya": "Bodh Gaya", chitrakoot: "Chitrakoot", gaya: "Gaya", rajgir: "Rajgir & Nalanda", kushinagar: "Kushinagar", shravasti: "Shravasti", naimisharanya: "Naimisharanya" };
 
 /** Filters live in the URL so menu links land pre-filtered and the back button keeps them (brief v5, section 19). */
 export function JourneyCatalogue({ journeys, tier }: { journeys: CatalogueJourney[]; tier?: Tier }) {
@@ -73,21 +70,7 @@ export function JourneyCatalogue({ journeys, tier }: { journeys: CatalogueJourne
       </div>
       {shown.length ? (
         <div className="cat-grid">
-          {shown.map((j) => (
-            <article className="cat-card" key={j.slug}>
-              <Link href={`/journeys/${j.slug}${tier ? `?tier=${tier}` : ""}`} className="cat-card-photo" tabIndex={-1} aria-label={j.title}>
-                <Image src={j.photo.src} alt={j.photo.alt} fill sizes="(max-width: 760px) 92vw, (max-width: 1150px) 45vw, 30vw" placeholder="blur" blurDataURL={j.photo.blur} />
-                <span className="cat-card-tag">{j.nights}N / {j.days}D</span>
-              </Link>
-              <p className="cat-card-meta">{j.route}</p>
-              <h3><Link href={`/journeys/${j.slug}${tier ? `?tier=${tier}` : ""}`}>{j.title}</Link></h3>
-              {j.subtitle && <p className="cat-card-sub">{j.subtitle}</p>}
-              <p className="cat-card-text">{j.summary}</p>
-              <div className="cat-card-foot">
-                <span className="cat-card-action">See the journey <ArrowUpRight size={16} /></span>
-              </div>
-            </article>
-          ))}
+          {shown.map((j, i) => <PackageCard key={j.slug} pkg={j} tier={tier} priority={i < 2} />)}
         </div>
       ) : (
         <div className="jc-empty">

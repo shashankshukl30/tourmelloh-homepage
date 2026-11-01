@@ -29,6 +29,11 @@ export default function PhotoCreditsPage() {
                 licensed under <a href={photo.license} target="_blank" rel="noopener noreferrer">{photo.licenseName}</a>. Resized and converted for the web.
               </li>
             ))}
+            <li>
+              Homepage film, Bodh Gaya scene: the Mahabodhi Temple, from &ldquo;Sacred Serenity at Mahabodhi Temple, Bodhgaya, Bihar&rdquo; by Rohit Sharma,{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Sacred_Serenity_at_Mahabodhi_Temple,_Bodhgaya,_Bihar.webm" target="_blank" rel="noopener noreferrer">source</a>,{" "}
+              licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Trimmed, cropped and re-encoded.
+            </li>
           </ul>
         </section>
       </main>

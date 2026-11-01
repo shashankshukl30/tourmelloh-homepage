@@ -3,6 +3,8 @@ import { ArrowUpRight } from "lucide-react";
 import type { Article, Experience, Guide, Journey, MediaKey, Service } from "@/content/catalog/types";
 import { Photo } from "@/components/catalog/photo";
 import { AddToJourney } from "@/components/wishlist/add-button";
+import { PackageCard, type PackageCardData } from "@/components/journey/package-card";
+import { media } from "@/content/catalog/media";
 
 export const duration = (j: Pick<Journey, "days" | "nights">) => `${j.nights}N / ${j.days}D`;
 export const durationLong = (j: Pick<Journey, "days" | "nights">) => `${j.nights} nights · ${j.days} days`;
@@ -38,21 +40,20 @@ function Card({
   );
 }
 
-/** Journey card: name, descriptive route and duration always shown together (brief v5, section 3). */
-export function JourneyCard({ journey }: { journey: Journey }) {
-  const [name, rest] = journey.title.split(" – ");
-  return (
-    <Card
-      href={`/journeys/${journey.slug}`}
-      photo={journey.hero}
-      tag={typeLabel[journey.types[0]] ?? "Journey"}
-      meta={`${durationLong(journey)} · ${journey.route}`}
-      title={name}
-      subtitle={rest}
-      text={journey.summary}
-      action="See the journey"
-    />
-  );
+/** Plain data for a package card (client component), from a journey record. */
+export function toPackage(j: Journey): PackageCardData & { types: string[]; destinations: string[] } {
+  const [name, rest] = j.title.split(" – ");
+  const photo = media[j.hero];
+  return {
+    id: j.id, slug: j.slug, title: name, where: rest ?? j.route, route: j.route, nights: j.nights, days: j.days,
+    summary: j.summary, kind: typeLabel[j.types[0]] ?? "Journey", types: j.types, destinations: j.destinations,
+    photo: { src: photo.src, alt: photo.alt, blur: photo.blur },
+  };
+}
+
+/** Package card: name on the photograph, nights, days and places together (brief v5 s3; client call 2026-10-31). */
+export function JourneyCard({ journey, priority }: { journey: Journey; priority?: boolean }) {
+  return <PackageCard pkg={toPackage(journey)} priority={priority} />;
 }
 
 export function ServiceCard({ service }: { service: Service }) {

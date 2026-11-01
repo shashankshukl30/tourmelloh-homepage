@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { AlertTriangle, ArrowRight } from "lucide-react";
+import { AlertTriangle, ArrowRight, ChevronDown } from "lucide-react";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { JsonLd } from "@/components/json-ld";
-import { Reveal } from "@/components/reveal";
 import { Photo } from "@/components/catalog/photo";
 import { ExperienceCard, ServiceCard, durationLong } from "@/components/catalog/cards";
 import { EnquiryBand, FactList, FaqBlock, PageOpening, SectionIntro } from "@/components/catalog/blocks";
 import { TierPanel, type PanelLine } from "@/components/journey/tier-panel";
+import { DayToggle } from "@/components/journey/day-toggle";
+import { WhatsAppIcon } from "@/components/whatsapp-link";
+import { whatsappUrl } from "@/lib/whatsapp";
 import { experiences, itemById, itemHref, journeys, services } from "@/content/catalog";
 import { TIERS, type Tier } from "@/content/catalog/types";
 import { absolute, pageMeta } from "@/lib/site";
@@ -53,15 +55,15 @@ export default async function JourneyPage({ params }: Props) {
       <Navigation tone="paper" />
       <main id="main" className="cat-page">
         <PageOpening
-          trail={[{ name: "Home", path: "/" }, { name: "Journeys", path: "/journeys" }, { name, path }]}
-          label="PROPOSED ITINERARY · CONFIRMED IN YOUR QUOTATION"
-          display={[name, subtitle ?? journey.route]}
-          meta={[durationLong(journey), journey.route]}
+          trail={[{ name: "Home", path: "/" }, { name: "Packages", path: "/journeys" }, { name, path }]}
+          label="PROPOSED ITINERARY"
+          display={[name, subtitle ?? `${journey.nights} nights, ${journey.days} days.`]}
+          meta={subtitle ? [durationLong(journey), journey.route] : [journey.route]}
           lead={journey.lead}
           photo={journey.hero}
         >
-          <a href="#tiers" className="tour-primary" style={{ color: "var(--paper)" }}>Personalise This Journey</a>
-          <Link href={`/help-me-plan?journey=${slug}`} className="cat-whatsapp">Help Me Choose</Link>
+          <a href="#tiers" className="tour-primary" style={{ color: "var(--paper)" }}>Compare Standard, Premium &amp; Luxury</a>
+          <a href={whatsappUrl({ kind: "journey", id: journey.id, title: journey.title, route: journey.route, url: absolute(path) })} className="cat-whatsapp" target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18} /> Get a quote</a>
         </PageOpening>
 
         <div className="tour-width">
@@ -94,24 +96,31 @@ export default async function JourneyPage({ params }: Props) {
 
         <section className="cat-section tour-width" id="itinerary" aria-labelledby="days-title">
           <SectionIntro id="days-title" label="DAY BY DAY" display={["The days,", "with time to breathe."]} text="A proposed programme with its travel and rest built in. We adjust the order to your arrival, the season and your pace." />
-          <div className="cat-days">
+          <div className="dd-head"><DayToggle scope="#itinerary" /></div>
+          <div className="dd-list">
             {journey.itinerary.map((day) => (
-              <Reveal className="cat-day" key={day.day}>
-                <div className="cat-day-photo"><Photo k={day.photo} sizes="(max-width: 900px) 92vw, 44vw" /></div>
-                <div className="cat-day-copy">
-                  <span className="cat-day-label"><strong>{String(day.day).padStart(2, "0")}</strong>{day.place}</span>
-                  <h3>{day.title}</h3>
-                  <ol className="day-blocks">
-                    {day.blocks.map((b, i) => (
-                      <li key={i} data-kind={b.kind}>
-                        <span className="day-block-time">{b.time}<em>{BLOCK_LABEL[b.kind]}</em></span>
-                        <div><strong>{b.title}</strong><p>{b.text}</p></div>
-                      </li>
-                    ))}
-                  </ol>
-                  <p className="cat-day-stay"><span>Overnight · </span>{day.overnight}</p>
+              <details className="dd" key={day.day} open={day.day === 1}>
+                <summary className="dd-sum">
+                  <span className="dd-num">Day {day.day}</span>
+                  <span className="dd-title">{day.title}</span>
+                  <span className="dd-stay">{/departure/i.test(day.overnight) ? "Departure day" : `Overnight in ${day.overnight}`}</span>
+                  <ChevronDown className="dd-chev" size={22} aria-hidden="true" />
+                </summary>
+                <div className="dd-body">
+                  <div className="dd-photo"><Photo k={day.photo} sizes="(max-width: 900px) 92vw, 40vw" /></div>
+                  <div>
+                    <ol className="day-blocks">
+                      {day.blocks.map((b, i) => (
+                        <li key={i} data-kind={b.kind}>
+                          <span className="day-block-time">{b.time}<em>{BLOCK_LABEL[b.kind]}</em></span>
+                          <div><strong>{b.title}</strong><p>{b.text}</p></div>
+                        </li>
+                      ))}
+                    </ol>
+                    <p className="cat-day-stay"><span>Overnight · </span>{day.overnight}</p>
+                  </div>
                 </div>
-              </Reveal>
+              </details>
             ))}
           </div>
         </section>

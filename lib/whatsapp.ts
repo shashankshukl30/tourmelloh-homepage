@@ -1,4 +1,4 @@
-import { brand } from "@/lib/site";
+import { brand } from "@/lib/brand";
 
 /**
  * Page-specific WhatsApp messages (brief v5, section 12). Only known values are interpolated;
@@ -6,7 +6,7 @@ import { brand } from "@/lib/site";
  */
 export type WhatsAppContext =
   | { kind: "home" }
-  | { kind: "journey"; title: string; route?: string; tier?: string; url?: string }
+  | { kind: "journey"; id?: string; title: string; route?: string; tier?: string; url?: string }
   | { kind: "departure"; title: string; dates?: string; url?: string }
   | { kind: "wellness"; url?: string }
   | { kind: "service"; title: string; place?: string; url?: string }
@@ -22,7 +22,7 @@ const join = (...parts: (string | undefined)[]) => parts.filter(Boolean).join(" 
 export function whatsappText(context: WhatsAppContext): string {
   switch (context.kind) {
     case "journey":
-      return join(`I am interested in ${context.title}${context.route ? ` (${context.route})` : ""}${context.tier ? `, ${context.tier}` : ""}.`, "Could you help me with suitable dates, duration and inclusions?", context.url);
+      return join(`Hello Tourmelloh, I am interested in the itinerary ${context.id ? `${context.id} ` : ""}"${context.title}"${context.route ? ` (${context.route})` : ""}${context.tier ? `, ${context.tier} tier` : ""}.`, "Could you help me with suitable dates, duration and inclusions?", context.url);
     case "departure":
       return join(`I am interested in ${context.title}${context.dates ? `, ${context.dates}` : ""}.`, "Is the departure confirmed, and what are the room-sharing options?", context.url);
     case "wellness":

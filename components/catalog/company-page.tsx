@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { Team } from "@/components/team";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { Breadcrumbs, EnquiryBand, PageOpening } from "@/components/catalog/blocks";
@@ -46,17 +47,14 @@ export function CompanyPage({ slug }: { slug: string }) {
             </Reveal>
           ))}
           {slug === "about" && (
-            <div className="founder">
-              <div className="founder-photo" aria-hidden="true"><span>{brand.founder.split(" ").map((w) => w[0]).join("")}</span></div>
-              <div>
-                <span className="tour-kicker">FOUNDER</span>
-                <h2>{brand.founder}</h2>
-                <p>Founder of Tourmelloh, from Varanasi&apos;s hospitality industry. Her perspective shapes how journeys are designed: the accompanying hosts, the pacing for parents and the hosted women&apos;s departures.</p>
-                <div className="founder-links">
-                  <Link href="/journeys">Journeys</Link>
-                  <Link href="/journeys/shravan">SHRAVAN for parents</Link>
-                  <Link href="/journeys/womens-journeys">Her Own Way</Link>
-                </div>
+            <div className="about-team">
+              <span className="tour-kicker">THE TEAM</span>
+              <h2>The people behind Tourmelloh</h2>
+              <Team />
+              <div className="founder-links">
+                <Link href="/journeys">Packages</Link>
+                <Link href="/journeys/shravan">SHRAVAN for parents</Link>
+                <Link href="/journeys/womens-journeys">Her Own Way</Link>
               </div>
             </div>
           )}

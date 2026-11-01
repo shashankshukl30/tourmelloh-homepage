@@ -31,7 +31,7 @@ export function CollectionPage({ id }: { id: CollectionId }) {
       <PageWhatsApp context={id === "wellness-in-varanasi" ? { kind: "wellness" } : { kind: "collection", title: c.name }} />
       <main id="main" className="cat-page">
         <PageOpening
-          trail={[{ name: "Home", path: "/" }, { name: "Journeys", path: "/journeys" }, { name: c.name, path }]}
+          trail={[{ name: "Home", path: "/" }, { name: "Packages", path: "/journeys" }, { name: c.name, path }]}
           label="SPECIALIST COLLECTION"
           display={c.display}
           meta={[c.subtitle]}

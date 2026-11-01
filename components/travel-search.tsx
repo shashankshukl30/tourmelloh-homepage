@@ -9,7 +9,7 @@ import { prepare, search, type SearchEntry, type SearchKind } from "@/lib/search
 
 const KINDS: { value: "All" | SearchKind; label: string }[] = [
   { value: "All", label: "Everything" },
-  { value: "Journey", label: "Journeys" },
+  { value: "Journey", label: "Packages" },
   { value: "Service", label: "Services" },
   { value: "Experience", label: "Experiences" },
   { value: "Guide", label: "Guides" },

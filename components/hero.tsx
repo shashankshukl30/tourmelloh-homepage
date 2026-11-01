@@ -6,8 +6,8 @@ import { HeroFilm } from "@/components/hero-film";
 import { animate, useReducedMotion } from "framer-motion";
 
 const PLACES = [
-  ["varanasi", "Varanasi"], ["prayagraj", "Prayagraj"], ["ayodhya", "Ayodhya"],
-  ["sarnath", "Sarnath"], ["bodh-gaya", "Bodh Gaya"], ["kushinagar", "Kushinagar"],
+  ["varanasi", "Varanasi"], ["prayagraj", "Prayagraj"], ["ayodhya", "Ayodhya"], ["chitrakoot", "Chitrakoot"],
+  ["gaya", "Gaya"], ["sarnath", "Sarnath"], ["bodh-gaya", "Bodh Gaya"], ["kushinagar", "Kushinagar"], ["naimisharanya", "Naimisharanya"],
 ] as const;
 const LENGTHS = [["short", "2 to 3 nights"], ["medium", "4 to 5 nights"], ["long", "6 nights or more"]] as const;
 
@@ -37,9 +37,9 @@ export function Hero() {
         <div className="hero-content" ref={content}>
           <h1 id="hero-heading"><span className="hero-title-line">Your travel and destination partners</span>{" "}<span className="hero-title-line"><em>in Varanasi and beyond.</em></span></h1>
           <div className="hero-bottom">
-            <p>Journeys, services and experiences through Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya.<br className="desktop-break" /> Choose your comfort, personalise it, and receive one complete quotation.</p>
-            <a className="hero-explore" href="#about-tourmelloh" style={{ color: "var(--ink)" }}>
-              How we work <span className="round-arrow"><ArrowDown size={20} /></span>
+            <p>Packages, services and experiences through Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya.<br className="desktop-break" /> Choose your comfort, personalise it, and receive one complete quotation.</p>
+            <a className="hero-explore" href="#packages" style={{ color: "var(--ink)" }}>
+              See the packages <span className="round-arrow"><ArrowDown size={20} /></span>
             </a>
           </div>
         </div>
@@ -53,7 +53,7 @@ export function Hero() {
             if (length) q.set("length", length);
             router.push(q.size ? `/journeys?${q}` : "/journeys");
           }}>
-          <div className="finder-intro"><span className="eyebrow">WHERE TO NEXT?</span><strong>Find a suggested journey.</strong></div>
+          <div className="finder-intro"><span className="eyebrow">WHERE TO NEXT?</span><strong>Find a suggested package.</strong></div>
           <label className="finder-field"><span>Where</span>
             <div className="select-wrap">
               <select value={place} onChange={(event) => setPlace(event.target.value)}>
@@ -70,7 +70,7 @@ export function Hero() {
               </select><ChevronDown size={18} />
             </div>
           </label>
-          <button className="button button-clay" style={{ color: "var(--paper)" }} type="submit">Show journeys <ArrowUpRight size={19} /></button>
+          <button className="button button-clay" style={{ color: "var(--paper)" }} type="submit">Show packages <ArrowUpRight size={19} /></button>
         </form>
       </div>
     </>

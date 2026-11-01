@@ -52,7 +52,7 @@ const widths = (process.argv[3] || "360,390,768,1024,1440").split(",").map(Numbe
           // Count rendered text lines (padding and icons do not count).
           const range = document.createRange(); range.selectNodeContents(el);
           const lines = new Set([...range.getClientRects()].filter((r) => r.width > 1).map((r) => Math.round(r.top / 6))).size;
-          if (lines > 1 && el.textContent.trim().length < 48) out.push(`wrapped label "${el.textContent.trim().slice(0, 30)}"`);
+          if (lines > 1 && el.textContent.trim().length < 90) out.push(`wrapped label "${el.textContent.trim().slice(0, 30)}"`);
         }
         // 4. Clipped text in buttons, pills and selects.
         for (const el of document.querySelectorAll("button, .tour-primary, .cat-whatsapp, .wl-button, .dock-bar a, select, .tier-tabs button, .enquiry-pills button")) {

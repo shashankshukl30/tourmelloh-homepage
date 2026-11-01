@@ -88,7 +88,7 @@ export const experiences: Experience[] = [
     id: "E03",
     slug: "lanes-markets-and-makers",
     status: "published",
-    title: "Lanes Markets and Makers",
+    title: "Lanes, Markets and Makers",
     category: "Walks",
     summary:
       "A guided walk through the trading lanes of old Varanasi, from brass and puja stalls to craft workshops, with the stories of what is made and sold here.",
@@ -117,7 +117,7 @@ export const experiences: Experience[] = [
     hero: "spice-market",
     gallery: ["travel-host", "varanasi-old-city-lanes"],
     seo: {
-      title: "Lanes Markets and Makers: Old City Walk, Varanasi | Tourmelloh",
+      title: "Lanes, Markets and Makers: Varanasi Old City Walk | Tourmelloh",
       description:
         "A guided walk through the trading lanes of old Varanasi: brass, puja goods, silk and spices, with stops at working craft benches and no shopping pressure.",
     },
@@ -750,7 +750,7 @@ export const experiences: Experience[] = [
     id: "E20",
     slug: "hands-on-artisan-session",
     status: "published",
-    title: "Hands on Artisan Session",
+    title: "Hands-on Artisan Session",
     category: "Crafts & culture",
     summary:
       "A hands-on session with a Varanasi artisan, working with real materials under the maker's guidance, with the craft, host and materials confirmed before you book.",
@@ -779,7 +779,7 @@ export const experiences: Experience[] = [
     hero: "artisan-pottery",
     gallery: ["textiles-colour", "travel-host"],
     seo: {
-      title: "Hands on Artisan Session: Make It in Varanasi | Tourmelloh",
+      title: "Hands-on Artisan Session: Make It in Varanasi | Tourmelloh",
       description:
         "Try a Varanasi craft yourself with a confirmed artisan: lacquered toys, clay or another traditional technique, with materials, host and session length stated.",
     },

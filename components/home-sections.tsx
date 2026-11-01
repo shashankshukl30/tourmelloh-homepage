@@ -7,6 +7,7 @@ import { collections, journeys } from "@/content/catalog";
 import type { MediaKey } from "@/content/catalog/media-plan";
 import type { Article, Experience, Faq } from "@/content/catalog/types";
 import { brand, faqLd } from "@/lib/site";
+import { Team } from "@/components/team";
 
 const principles = [
   {
@@ -158,20 +159,21 @@ export function HomeMoments({ items }: { items: Experience[] }) {
   );
 }
 
-/** The founder, introduced by name. A portrait replaces the initials once supplied. */
-export function HomeFounder() {
-  const initials = brand.founder.split(" ").map((w) => w[0]).join("");
+/** The team, introduced by name: two founders and the two people who run sales and operations. */
+export function HomeTeam() {
   return (
-    <section className="page-width section-space home-founder" aria-labelledby="founder-heading">
-      <div className="founder">
-        <span className="founder-photo" aria-hidden="true">{initials}</span>
+    <section className="page-width section-space home-team" aria-labelledby="team-heading">
+      <div className="cat-head">
+        <Reveal className="cat-intro">
+          <span className="tour-kicker" style={{ color: "var(--muted)" }}>THE PEOPLE BEHIND TOURMELLOH</span>
+          <h2 id="team-heading">Planned in Varanasi, <em>by people who live here.</em></h2>
+        </Reveal>
         <div>
-          <span className="tour-kicker" style={{ color: "var(--muted)" }}>FOUNDER</span>
-          <h2 id="founder-heading">{brand.founder}</h2>
-          <p>Tourmelloh was founded in Varanasi to make the city, and the pilgrim routes around it, easier to travel well: one plan, one coordinator, and people on the ground who know the ghats, the temples and the timings.</p>
+          <p>Tourmelloh was founded in Varanasi to make Kashi, and the pilgrim routes around it, easier to travel well: one plan, one coordinator, and people on the ground who know the ghats, the temples and the timings.</p>
           <Link className="tour-text-link" href="/about">About Tourmelloh <ArrowUpRight size={16} aria-hidden="true" /></Link>
         </div>
       </div>
+      <Team />
     </section>
   );
 }

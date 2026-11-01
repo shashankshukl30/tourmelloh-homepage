@@ -137,7 +137,7 @@ export const pages: PageCopy[] = [
           "Sightseeing or specialist guide: explains a site, neighbourhood or subject for a defined session",
           "Dedicated travel concierge, Luxury: looks after your journey within agreed support hours, in person or remotely as stated",
           "Driver: drives you between places; a driver is not a sightseeing guide",
-          "Senior Travel Companion, SHRAVAN: defined, non-medical assistance with pace, steps and routines",
+          "Senior travel companion, SHRAVAN: defined, non-medical assistance with pace, steps and routines",
           "Female accompanying host, Her Own Way: travels with women's group departures for the hosted programme",
         ],
       },
@@ -462,7 +462,7 @@ export const pages: PageCopy[] = [
       {
         heading: "Assistance, wellness and care",
         paragraphs: [
-          "Travel hosts, Senior Travel Companions and wellness practitioners work within the scope stated in your quotation. None of them provides medical or nursing care unless a qualified provider has been separately agreed. Wellness programmes make no claims to cure or treat any condition.",
+          "Travel hosts, senior travel companions and wellness practitioners work within the scope stated in your quotation. None of them provides medical or nursing care unless a qualified provider has been separately agreed. Wellness programmes make no claims to cure or treat any condition.",
         ],
       },
       {
@@ -509,7 +509,7 @@ export const pages: PageCopy[] = [
           "Boat outings, aarti viewing and river experiences",
           "Walks, food, craft and cultural experiences in Varanasi",
           "Priest and ritual coordination, including Ganga puja and ancestral rites",
-          "Travel hosts, specialist guides and Senior Travel Companions",
+          "Travel hosts, specialist guides and senior travel companions",
           "Regional journeys to Sarnath, Prayagraj, Ayodhya, Gaya, Bodh Gaya and beyond",
           "Wedding logistics and guest hospitality in Varanasi",
         ],

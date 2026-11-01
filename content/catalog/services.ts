@@ -30,7 +30,7 @@ export const services: Service[] = [
       "Vehicle size is matched to passengers and luggage; one sedan does not fit every party.",
       "The waiting allowance for a delayed flight or train is stated in your quotation.",
       "The driver handles the transfer only and is not a sightseeing guide.",
-      "Being met by our team at the arrival point is a separate service, Arrival Welcome & Assistance.",
+      "Being met by our team at the arrival point is a separate service, arrival welcome and assistance.",
     ],
     locations:
       "Varanasi airport (Babatpur), Varanasi Junction, Banaras and Pt. Deen Dayal Upadhyaya Junction, plus gateways on your journey route",
@@ -130,7 +130,7 @@ export const services: Service[] = [
     id: "S04",
     slug: "arrival-welcome-and-assistance",
     status: "published",
-    title: "Arrival Welcome & Assistance",
+    title: "Arrival welcome and assistance",
     category: "Arrival & transport",
     summary:
       "Someone from our team meets you at the airport or railway station, helps with bags and the car, and settles you at your hotel, with assistance agreed beforehand.",
@@ -204,7 +204,7 @@ export const services: Service[] = [
     id: "S06",
     slug: "upgrade-your-boat-ride-boat-booking",
     status: "published",
-    title: "Upgrade Your Boat Ride / Boat Booking",
+    title: "Upgrade your boat ride / boat booking",
     category: "River & boats",
     summary:
       "Choose the boat for a river session, from a shared ride to a private rowing boat, motorboat or covered vessel, replacing your included ride for that session.",
@@ -319,14 +319,14 @@ export const services: Service[] = [
     id: "S09",
     slug: "dedicated-travel-concierge",
     status: "published",
-    title: "Dedicated Travel Concierge",
+    title: "Dedicated travel concierge",
     category: "Hosts, guides & companions",
     summary:
       "One named person who looks after every arrangement on agreed days, in person or remotely, with hours and coverage written into your quotation before you travel.",
     body: [
       "A concierge holds the whole journey together: confirming cars and boats each morning, reshaping the day when a train runs late, booking a table, finding a pharmacy, moving a temple visit around the crowd. You have one number to call instead of five.",
       "The role can be remote, by phone and WhatsApp during agreed hours, or accompanying, travelling with you on specified days. Luxury journeys include a dedicated travel concierge with agreed support hours; on Standard and Premium journeys you can add one for the days that matter most, such as arrival day or a festival evening.",
-      "Your concierge and Your Travel Host can be the same professional covering both roles. When that is the case, we quote the coverage once.",
+      "Your concierge and your travel host can be the same professional covering both roles. When that is the case, we quote the coverage once.",
     ],
     weAsk: [
       "Days and places where you want concierge cover",
@@ -346,7 +346,7 @@ export const services: Service[] = [
     relations: { overlapsWith: ["S10"] },
     hero: "varanasi-aerial-ghats",
     seo: {
-      title: "Dedicated Travel Concierge for Varanasi Journeys | Tourmelloh",
+      title: "Dedicated travel concierge for Varanasi Journeys | Tourmelloh",
       description:
         "One named concierge who looks after your arrangements on agreed days in Varanasi and beyond, in person or remotely, with hours set in your quotation.",
     },
@@ -355,7 +355,7 @@ export const services: Service[] = [
     id: "S10",
     slug: "your-travel-host",
     status: "published",
-    title: "Your Travel Host",
+    title: "Your travel host",
     category: "Hosts, guides & companions",
     summary:
       "An accompanying person who walks with you on the visits or journey days you choose, handling tickets, shoes, timings and pace, distinct from a guide or security.",
@@ -382,7 +382,7 @@ export const services: Service[] = [
     relations: { overlapsWith: ["S09"] },
     hero: "travel-host",
     seo: {
-      title: "Your Travel Host in Varanasi | Tourmelloh",
+      title: "Your travel host in Varanasi | Tourmelloh",
       description:
         "An accompanying host who walks with you on chosen visits or days in Varanasi, handling tickets, shoes, timings and pace. Distinct from a guide or security.",
     },
@@ -396,7 +396,7 @@ export const services: Service[] = [
     summary:
       "A woman host who travels with you for agreed days or sessions, essential on Her Own Way departures and available on request to any guest who prefers one.",
     body: [
-      "Some guests simply feel more at ease with a woman beside them in crowded lanes, at temples or on an early walk to the ghats. A female accompanying host gives the same practical support as Your Travel Host, with the comfort many women, mothers travelling with daughters and older women ask for.",
+      "Some guests simply feel more at ease with a woman beside them in crowded lanes, at temples or on an early walk to the ghats. A female accompanying host gives the same practical support as your travel host, with the comfort many women, mothers travelling with daughters and older women ask for.",
       "On Her Own Way, our women-only departures, a female host is part of the programme and cannot be removed. For private journeys, choose the days or sessions you want her with you, and the language you would like her to speak.",
       "The host is a woman; other people on your journey, such as drivers, boatmen or temple staff, may not be, unless a specific role is confirmed in writing.",
     ],
@@ -464,7 +464,7 @@ export const services: Service[] = [
     id: "S13",
     slug: "language-assistance-and-interpreters",
     status: "published",
-    title: "Language Assistance & Interpreters",
+    title: "Language assistance and interpreters",
     category: "Hosts, guides & companions",
     summary:
       "An interpreter or language assistant for visits, rituals and conversations, in the language you request, confirmed with a named supplier before your journey.",
@@ -573,7 +573,7 @@ export const services: Service[] = [
     id: "S16",
     slug: "senior-travel-companion",
     status: "published",
-    title: "Senior Travel Companion",
+    title: "Senior travel companion",
     category: "Family, senior & accessible travel",
     summary:
       "A companion for older guests who sets a comfortable pace, helps with steps and crowds, and keeps family informed with consent, within a defined non-medical scope.",
@@ -602,7 +602,7 @@ export const services: Service[] = [
     relations: { synonyms: ["old-age friendly", "elderly-friendly", "SHRAVAN"] },
     hero: "senior-travellers",
     seo: {
-      title: "Senior Travel Companion for Parents, Varanasi | Tourmelloh",
+      title: "Senior travel companion for Parents, Varanasi | Tourmelloh",
       description:
         "A non-medical companion for older guests in Varanasi who sets a gentle pace, helps with steps and crowds, and shares updates with family by consent.",
     },
@@ -941,7 +941,7 @@ export const services: Service[] = [
     id: "S26",
     slug: "birthday-anniversary-and-occasion-arrangements",
     status: "published",
-    title: "Birthday anniversary and occasion arrangements",
+    title: "Birthday, anniversary and occasion arrangements",
     category: "Occasions, dining & gifts",
     summary:
       "A birthday, anniversary or family milestone marked during your journey, with the occasion, venue, budget and exact deliverables agreed before anything is arranged.",
@@ -1161,7 +1161,7 @@ export const services: Service[] = [
     id: "S32",
     slug: "astrologer-consultation",
     status: "published",
-    title: "Astrologer Consultation",
+    title: "Astrologer consultation",
     category: "Specialist services",
     summary:
       "A consultation with a Vedic astrologer, in person in Varanasi or online, with session length, language and format agreed in advance.",
@@ -1190,7 +1190,7 @@ export const services: Service[] = [
     relations: {},
     hero: "astrology",
     seo: {
-      title: "Astrologer Consultation in Varanasi | Tourmelloh",
+      title: "Astrologer consultation in Varanasi | Tourmelloh",
       description:
         "Consult a Vedic astrologer in person in Varanasi or online, with session length, language and format agreed in advance. No particular outcome is promised.",
     },
@@ -1199,7 +1199,7 @@ export const services: Service[] = [
     id: "S33",
     slug: "helicopter-transfers",
     status: "published",
-    title: "Helicopter Transfers",
+    title: "Helicopter transfers",
     category: "Specialist services",
     summary:
       "Enquiry-only helicopter transfers for a requested route and date, subject to operator, aircraft, landing permissions, weather and availability, and never booked instantly.",
@@ -1229,7 +1229,7 @@ export const services: Service[] = [
     relations: { synonyms: ["chopper"] },
     hero: "helicopter",
     seo: {
-      title: "Helicopter Transfers on Request, Varanasi | Tourmelloh",
+      title: "Helicopter transfers on Request, Varanasi | Tourmelloh",
       description:
         "Enquire about helicopter transfers from Varanasi, subject to operator, aircraft, landing permissions and weather. Enquiry only and never booked instantly.",
     },

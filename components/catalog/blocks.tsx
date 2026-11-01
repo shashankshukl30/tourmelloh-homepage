@@ -3,7 +3,8 @@ import { ArrowUpRight, MapPin, Phone, Plus } from "lucide-react";
 import type { Display, Faq, MediaKey } from "@/content/catalog/types";
 import { Photo, caption } from "@/components/catalog/photo";
 import { Reveal } from "@/components/reveal";
-import { WhatsAppIcon, whatsappHref } from "@/components/whatsapp-link";
+import { WhatsAppIcon } from "@/components/whatsapp-link";
+import { WhatsAppPageLink } from "@/components/whatsapp-page-link";
 import { JsonLd } from "@/components/json-ld";
 import { brand, breadcrumbLd, faqLd } from "@/lib/site";
 
@@ -112,9 +113,9 @@ export function PrimaryLink({ href, children }: { href: string; children: React.
 
 export function WhatsAppButton({ label = "Ask on WhatsApp" }: { label?: string }) {
   return (
-    <a className="cat-whatsapp" href={whatsappHref} target="_blank" rel="noopener noreferrer">
+    <WhatsAppPageLink className="cat-whatsapp">
       <WhatsAppIcon size={19} /> {label}
-    </a>
+    </WhatsAppPageLink>
   );
 }
 
@@ -164,9 +165,9 @@ export function EnquiryBand({
             <Link href={planHref} className="tour-primary" style={{ color: "var(--paper)" }}>
               Plan your journey <ArrowUpRight size={18} aria-hidden="true" />
             </Link>
-            <a className="cat-band-link" href={whatsappHref} target="_blank" rel="noopener noreferrer">
+            <WhatsAppPageLink className="cat-band-link">
               <WhatsAppIcon size={19} /> WhatsApp
-            </a>
+            </WhatsAppPageLink>
             <a className="cat-band-link" href={brand.phoneHref}>
               <Phone size={17} aria-hidden="true" /> {brand.phone}
             </a>

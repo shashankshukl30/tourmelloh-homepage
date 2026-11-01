@@ -6,7 +6,7 @@ import { IndexOpening } from "@/components/catalog/index-opening";
 import { EnquiryBand, SectionIntro } from "@/components/catalog/blocks";
 import { JourneyCatalogue, type CatalogueJourney } from "@/components/journey/catalogue";
 import { collections, journeys, tierLabel } from "@/content/catalog";
-import { media } from "@/content/catalog/media";
+import { toPackage } from "@/components/catalog/cards";
 import type { Tier } from "@/content/catalog/types";
 import { Photo } from "@/components/catalog/photo";
 
@@ -18,28 +18,21 @@ const TIER_NOTE: Record<Tier, string> = {
 
 /** The canonical journey catalogue, optionally opened with a comfort tier selected. */
 export function JourneyCataloguePage({ tier }: { tier?: Tier }) {
-  const list: CatalogueJourney[] = journeys.map((j) => {
-    const [title, subtitle] = j.title.split(" – ");
-    return {
-      slug: j.slug, title, subtitle, route: j.route, nights: j.nights, days: j.days, summary: j.summary,
-      types: j.types, destinations: j.destinations,
-      photo: { src: media[j.hero].src, alt: media[j.hero].alt, blur: media[j.hero].blur },
-    };
-  });
+  const list: CatalogueJourney[] = journeys.map(toPackage);
   const tiers: Tier[] = ["standard", "premium", "luxury"];
   return (
     <>
       <Navigation tone="paper" />
       <main id="main" className="cat-page">
         <IndexOpening
-          trail={[{ name: "Home", path: "/" }, { name: "Journeys", path: "/journeys" }, ...(tier ? [{ name: tierLabel[tier], path: `/journeys/${tier}` }] : [])]}
-          label={tier ? `${tierLabel[tier].toUpperCase()} SELECTED` : "JOURNEYS"}
+          trail={[{ name: "Home", path: "/" }, { name: "Packages", path: "/journeys" }, ...(tier ? [{ name: tierLabel[tier], path: `/journeys/${tier}` }] : [])]}
+          label={tier ? `${tierLabel[tier].toUpperCase()} SELECTED` : "PACKAGES"}
           display={tier ? [`${tierLabel[tier]}`, "journeys."] : ["Varanasi,", "and the journeys beyond."]}
           text={tier ? TIER_NOTE[tier] : "Proposed journeys from our Varanasi base to Prayagraj, Ayodhya, Bodh Gaya and the Buddhist sites of the region. Choose one, pick Standard, Premium or Luxury, and shape it with us. Every price is quoted for your dates."}
           filters={[{ name: "All tiers", href: "/journeys" }, ...tiers.map((t) => ({ name: tierLabel[t], href: `/journeys/${t}` }))]}
           current={tier ? `/journeys/${tier}` : "/journeys"}
         />
-        <section className="cat-section tour-width" aria-label="Journeys" style={{ paddingTop: 0 }}>
+        <section className="cat-section tour-width" aria-label="Packages" style={{ paddingTop: 0 }}>
           <JourneyCatalogue journeys={list} tier={tier} />
         </section>
         <section className="cat-section tour-width" aria-labelledby="collections-title">

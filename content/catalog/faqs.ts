@@ -77,7 +77,7 @@ export const faqGroups: { heading: string; faqs: Faq[] }[] = [
     faqs: [
       {
         q: "I am arranging a journey for my parents. How do family updates work?",
-        a: "You can be the booking contact while your parents travel. With their permission, our coordinator shares updates with you at agreed points on your preferred channel, and photographs or location only if they agree. Our SHRAVAN collection adds named accompaniment and a Senior Travel Companion with a defined, non-medical scope at every tier.",
+        a: "You can be the booking contact while your parents travel. With their permission, our coordinator shares updates with you at agreed points on your preferred channel, and photographs or location only if they agree. Our SHRAVAN collection adds named accompaniment and a senior travel companion with a defined, non-medical scope at every tier.",
       },
       {
         q: "What does the female host do on a Her Own Way departure?",

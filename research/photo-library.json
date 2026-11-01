@@ -305,14 +305,15 @@
   "pexelsId": 39587563
  },
  "car-premium": {
-  "src": "/images/library/car-premium.webp",
-  "width": 2600,
-  "height": 1734,
-  "alt": "A chauffeur opening the door of a Mercedes",
-  "by": "Сергей Тарасов",
-  "page": "https://www.pexels.com/photo/man-opening-car-door-for-woman-15774577/",
-  "license": "https://www.pexels.com/license/",
-  "pexelsId": 15774577
+  "src": "/images/library/car-premium-6b12ceb0.webp",
+  "width": 1950,
+  "height": 2600,
+  "alt": "A white Toyota Fortuner, a premium vehicle option",
+  "by": "Saiphani02",
+  "page": "https://commons.wikimedia.org/wiki/File:Toyota_Fortuner_India.jpg",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "licenseName": "CC BY-SA 4.0",
+  "credit": true
  },
  "central-india-safari": {
   "src": "/images/library/central-india-safari.webp",
@@ -1299,14 +1300,15 @@
   "pexelsId": 27583914
  },
  "porter": {
-  "src": "/images/library/porter.webp",
-  "width": 1733,
-  "height": 2600,
-  "alt": "A railway worker on a station platform",
-  "by": "Iqbal farooz",
-  "page": "https://www.pexels.com/photo/railway-worker-at-station-20813094/",
-  "license": "https://www.pexels.com/license/",
-  "pexelsId": 20813094
+  "src": "/images/library/porter-66bcf725.webp",
+  "width": 2600,
+  "height": 1735,
+  "alt": "Railway porters carrying luggage on a station platform in India",
+  "by": "photobom from Queensland, Australia",
+  "page": "https://commons.wikimedia.org/wiki/File:Rail_Porters_at_Delhi_Central_(32931537520).jpg",
+  "license": "https://creativecommons.org/licenses/by/2.0",
+  "licenseName": "CC BY 2.0",
+  "credit": true
  },
  "prayagraj-sangam-birds": {
   "src": "/images/library/prayagraj-sangam-birds.webp",
@@ -1329,14 +1331,15 @@
   "pexelsId": 31022593
  },
  "private-car": {
-  "src": "/images/library/private-car.webp",
+  "src": "/images/library/private-car-e9e7f3fe.webp",
   "width": 2600,
-  "height": 1499,
-  "alt": "A 4WD vehicle on a mountain road near Ladakheda",
-  "by": "Tan Danh",
-  "page": "https://www.pexels.com/photo/a-car-on-the-road-in-mountains-15804640/",
-  "license": "https://www.pexels.com/license/",
-  "pexelsId": 15804640
+  "height": 1696,
+  "alt": "A white Toyota Innova Crysta, the kind of car used for private transfers",
+  "by": "Premnath Kudva",
+  "page": "https://commons.wikimedia.org/wiki/File:Toyota_Innova_Crysta_2.4_Z_front_right.jpg",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "licenseName": "CC BY-SA 4.0",
+  "credit": true
  },
  "rajasthan-musicians": {
   "src": "/images/library/rajasthan-musicians.webp",
@@ -1610,14 +1613,15 @@
   "pexelsId": 5138790
  },
  "train-journey": {
-  "src": "/images/library/train-journey.webp",
+  "src": "/images/library/train-journey-0fc6d5a0.webp",
   "width": 2600,
-  "height": 1733,
-  "alt": "A blue train at Ooty Railway Station among trees",
-  "by": "Kenneth  Christopher ",
-  "page": "https://www.pexels.com/photo/blue-train-at-ooty-railway-station-in-tamil-nadu-38204462/",
-  "license": "https://www.pexels.com/license/",
-  "pexelsId": 38204462
+  "height": 1464,
+  "alt": "A Vande Bharat express at Varanasi Junction",
+  "by": "Benison",
+  "page": "https://commons.wikimedia.org/wiki/File:Vande_Bharat_at_Varanasi_Junction.jpg",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0",
+  "licenseName": "CC BY-SA 4.0",
+  "credit": true
  },
  "train-station": {
   "src": "/images/library/train-station.webp",
@@ -2012,14 +2016,15 @@
   "pexelsId": 33417236
  },
  "wheelchair-assist": {
-  "src": "/images/library/wheelchair-assist.webp",
-  "width": 1950,
+  "src": "/images/library/wheelchair-assist-4a3b16ad.webp",
+  "width": 1732,
   "height": 2600,
-  "alt": "A wheelchair user at the Taj Mahal",
-  "by": "Fayas Faz",
-  "page": "https://www.pexels.com/photo/taj-28357557/",
-  "license": "https://www.pexels.com/license/",
-  "pexelsId": 28357557
+  "alt": "A wheelchair-accessible ramp beside a heritage building in India",
+  "by": "Sindugab",
+  "page": "https://commons.wikimedia.org/wiki/File:Wheelchair_Accessibility_in_an_Archaeological_heritage_Museum_near_Madurai_Tamilnadu_India.jpg",
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "licenseName": "CC0",
+  "credit": true
  },
  "women-travellers": {
   "src": "/images/library/women-travellers.webp",

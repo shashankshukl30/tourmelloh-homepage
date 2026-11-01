@@ -2,21 +2,11 @@ import type { Metadata } from "next";
 import { media } from "@/content/catalog/media";
 import type { MediaKey } from "@/content/catalog/media-plan";
 
-export const SITE_URL = "https://tourmelloh.com";
+import { SITE_URL, absolute } from "@/lib/url";
+export { SITE_URL, absolute };
 
-export const brand = {
-  name: "Tourmelloh",
-  descriptor: "Travel and Destination Partners",
-  line: "Your travel and destination partners in Varanasi and beyond",
-  phone: "+91 63910 85555",
-  phoneHref: "tel:+916391085555",
-  phoneE164: "+916391085555",
-  whatsapp: "916391085555",
-  email: "tourmelloh@gmail.com",
-  city: "Varanasi",
-  region: "Uttar Pradesh",
-  founder: "Aparajita Upadhyaya",
-};
+import { brand } from "@/lib/brand";
+export { brand };
 
 /**
  * Mailboxes by role (brief v5, section 12). Until the client creates the @tourmelloh.com addresses
@@ -35,7 +25,6 @@ export const mailboxes = {
 /** Search engines index only the production domain; preview hosts stay out of results. */
 export const isProduction = process.env.VERCEL_ENV === "production" || process.env.NEXT_PUBLIC_INDEX === "1";
 
-export const absolute = (path: string) => new URL(path, SITE_URL).toString();
 
 /** One metadata shape for every page: canonical on tourmelloh.com, share card from the page's photograph. */
 export function pageMeta({
@@ -95,7 +84,7 @@ export const agencyLd = {
   telephone: brand.phoneE164,
   email: brand.email,
   areaServed: ["Varanasi", "Sarnath", "Prayagraj", "Ayodhya", "Gaya", "Bodh Gaya", "Uttar Pradesh", "Bihar"].map((name) => ({ "@type": "Place", name })),
-  founder: { "@type": "Person", name: brand.founder },
+  founder: [{ "@type": "Person", name: brand.founder }, { "@type": "Person", name: "Gaurav" }],
   address: {
     "@type": "PostalAddress",
     addressLocality: brand.city,

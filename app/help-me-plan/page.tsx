@@ -4,7 +4,8 @@ import { Footer } from "@/components/footer";
 import { Breadcrumbs } from "@/components/catalog/blocks";
 import { Photo } from "@/components/catalog/photo";
 import { EnquiryForm } from "@/components/forms/enquiry-form";
-import { WhatsAppIcon, whatsappHref } from "@/components/whatsapp-link";
+import { WhatsAppIcon } from "@/components/whatsapp-link";
+import { WhatsAppPageLink } from "@/components/whatsapp-page-link";
 import { brand, pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta({
@@ -29,7 +30,7 @@ export default function Page() {
             <div className="plan-direct">
               <p>Prefer to talk?</p>
               <a href={brand.phoneHref}><Phone size={17} aria-hidden="true" /> {brand.phone}</a>
-              <a href={whatsappHref} target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18} /> Chat with Tourmelloh</a>
+              <WhatsAppPageLink><WhatsAppIcon size={18} /> Chat with Tourmelloh</WhatsAppPageLink>
             </div>
           </div>
           <div className="plan-panel"><EnquiryForm type="custom" context="Help me plan" /></div>

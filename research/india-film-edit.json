@@ -1,9 +1,15 @@
 {
-  "project": "Tourmelloh multi-destination homepage film",
+  "project": "Tourmelloh homepage film: Varanasi, Prayagraj, Ayodhya, Bodh Gaya (client call 2026-10-31: no Taj, Lucknow or Jaipur)",
   "engine": "Existing FFmpeg CPU edit pipeline, one encode at a time through shared renderlock.py",
   "promptStudy": [
-    { "slug": "jake11moran-414633", "applied": "Calm continuous motion and gentle transitions; no copied composition or text." },
-    { "slug": "thismacapital-dfba20", "applied": "Reviewed travel promo reference; retained real destinations instead of graphic showreel treatments." }
+    {
+      "slug": "jake11moran-414633",
+      "applied": "Calm continuous motion and gentle transitions; no copied composition or text."
+    },
+    {
+      "slug": "thismacapital-dfba20",
+      "applied": "Reviewed travel promo reference; retained real destinations instead of graphic showreel treatments."
+    }
   ],
   "durationSeconds": 16,
   "dissolveSeconds": 1,
@@ -17,36 +23,67 @@
       "source": "research/media/india-opening/varanasi-riverfront-dusk-31033220-4k.mp4",
       "start": 0,
       "duration": 5,
-      "sourceCrop": [0, 0, 2304, 1296],
-      "desktopFocus": [0.5, 0.5],
-      "mobileFocus": [0.81, 0.5]
+      "sourceCrop": [
+        0,
+        0,
+        2304,
+        1296
+      ],
+      "desktopFocus": [
+        0.5,
+        0.5
+      ],
+      "mobileFocus": [
+        0.81,
+        0.5
+      ]
     },
     {
-      "place": "Agra",
-      "landmark": "Taj Mahal",
-      "source": "research/media/india-montage/agra-taj-mahal-19705899-4k.mp4",
-      "start": 0,
+      "place": "Prayagraj",
+      "landmark": "Triveni Sangam",
+      "source": "research/media/india-v5/prayagraj-sangam-birds-kenburns.mp4",
+      "start": 0.5,
       "duration": 5,
-      "desktopFocus": [0.5, 0.5],
-      "mobileFocus": [0.5, 0.5]
+      "desktopFocus": [
+        0.5,
+        0.5
+      ],
+      "mobileFocus": [
+        0.44,
+        0.5
+      ]
     },
     {
-      "place": "Lucknow",
-      "landmark": "Rumi Darwaza",
-      "source": "research/media/india-montage/lucknow-rumi-gate-36942483-1440p.mp4",
-      "start": 0.05,
+      "place": "Ayodhya",
+      "landmark": "Shri Ram Janmabhoomi Mandir",
+      "source": "research/media/india-v5/ayodhya-ram-mandir-kenburns.mp4",
+      "start": 0.5,
       "duration": 5,
-      "desktopFocus": [0.5, 0.5],
-      "mobileFocus": [0.57, 0.5]
+      "desktopFocus": [
+        0.5,
+        0.5
+      ],
+      "mobileFocus": [
+        0.5,
+        0.5
+      ]
     },
     {
-      "place": "Jaipur",
-      "landmark": "Amber Fort",
-      "source": "research/media/india-montage/jaipur-amber-fort-18983875-4k.mp4",
-      "start": 2,
+      "place": "Bodh Gaya",
+      "landmark": "Mahabodhi Temple",
+      "source": "research/media/india-v5/bodhgaya-mahabodhi.webm",
+      "start": 6.3,
       "duration": 5,
-      "desktopFocus": [0.5, 0.5],
-      "mobileFocus": [0.7, 0.5]
+      "desktopFocus": [
+        0.5,
+        0.5
+      ],
+      "mobileFocus": [
+        0.5,
+        0.5
+      ],
+      "credit": "Rohit Sharma, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Sacred_Serenity_at_Mahabodhi_Temple,_Bodhgaya,_Bihar.webm"
     }
-  ]
+  ],
+  "stillsMethod": "Prayagraj and Ayodhya have no licensed footage; their scenes are gentle sub-pixel Ken Burns moves on licensed library stills (scripts/film-kenburns.py)."
 }

@@ -1,34 +1,45 @@
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
 import { Destinations, type AtlasPlace } from "@/components/destinations";
-import { HomeBeforeYouGo, HomeCollections, HomeFounder, HomeIntro, HomeMoments, HomeTiers } from "@/components/home-sections";
-import { JourneyCard } from "@/components/catalog/cards";
+import { HomeBeforeYouGo, HomeCollections, HomeIntro, HomeMoments, HomeTeam, HomeTiers } from "@/components/home-sections";
+import { HomePackages, type PackageGroup } from "@/components/journey/home-packages";
+import { toPackage } from "@/components/catalog/cards";
 import { EnquiryBand, SectionIntro } from "@/components/catalog/blocks";
 import { articles, collections, experiences, faqGroups, guides, journeys } from "@/content/catalog";
+import type { Journey } from "@/content/catalog/types";
 import { media } from "@/content/catalog/media";
 import { pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta({
   title: "Tourmelloh | Travel and Destination Partners in Varanasi",
   description:
-    "Varanasi travel company planning journeys, services and experiences across Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya, in Standard, Premium and Luxury.",
+    "Varanasi travel company planning packages, services and experiences across Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya, in Standard, Premium and Luxury.",
   path: "/",
 });
 
-const FEATURED = ["P01", "P03", "P04", "P05", "P06", "P14"];
 const MOMENTS = ["E13", "E19", "E08", "E22"];
 const READING = ["planning-a-first-kashi-visit", "how-journey-coordination-works", "arranging-a-comfortable-trip-for-parents"];
 
+/** Packages grouped the way guests ask for them: Kashi and the pilgrim roads, the Buddhist circuit, ancestral rites. */
+function groupPackages(list: Journey[]): PackageGroup[] {
+  const buddhist = list.filter((j) => j.types.includes("buddhist"));
+  const rites = list.filter((j) => !j.types.includes("buddhist") && j.types.includes("ancestral-rites"));
+  const kashi = list.filter((j) => !buddhist.includes(j) && !rites.includes(j));
+  return [
+    { key: "kashi", label: "Kashi & pilgrim routes", href: "/journeys?type=hindu-pilgrimage", items: kashi.map(toPackage) },
+    { key: "buddhist", label: "Buddhist circuit", href: "/journeys?type=buddhist", items: buddhist.map(toPackage) },
+    { key: "rites", label: "Pind daan & ancestral rites", href: "/journeys?type=ancestral-rites", items: rites.map(toPackage) },
+  ].filter((g) => g.items.length > 0);
+}
+
 export default function HomePage() {
-  const featured = FEATURED.map((id) => journeys.find((j) => j.id === id)).filter((j) => j !== undefined);
+  const groups = groupPackages(journeys);
   const moments = MOMENTS.map((id) => experiences.find((e) => e.id === id)).filter((e) => e !== undefined);
-  // A guide shows the first of its photographs not already on this page, so nothing repeats.
-  const onPage = new Set<string>([...collections.map((c) => c.hero), ...featured.map((j) => j.hero), ...moments.map((e) => e.hero), "varanasi-river-mist", "wedding-mandap"]);
+  // A guide shows the first of its photographs not already near it on this page, so nothing repeats.
+  const onPage = new Set<string>([...collections.map((c) => c.hero), ...moments.map((e) => e.hero), ...(groups[0]?.items.slice(0, 6).map((p) => p.photo.src) ?? []), "varanasi-river-mist", "wedding-mandap"]);
   const places: AtlasPlace[] = guides.map((g) => {
-    const key = [g.hero, ...g.gallery].find((k) => !onPage.has(k)) ?? g.hero;
+    const key = [g.hero, ...g.gallery].find((k) => !onPage.has(k) && !onPage.has(media[k].src)) ?? g.hero;
     onPage.add(key);
     return { slug: g.slug, name: g.name, label: g.state, text: g.intro, photo: { src: media[key].src, alt: media[key].alt, blur: media[key].blur } };
   });
@@ -40,27 +51,24 @@ export default function HomePage() {
       <Navigation tone="paper" />
       <main id="main">
         <Hero />
-        <HomeIntro />
 
-        <section className="page-width section-space home-signature" aria-labelledby="signature-heading">
+        {/* Packages first, straight after the finder (client call, 2026-10-31). */}
+        <section className="page-width section-space home-signature" id="packages" aria-labelledby="signature-heading">
           <div className="cat-head">
-            <SectionIntro id="signature-heading" label="SUGGESTED JOURNEYS" display={["Start with a route,", "then make it yours."]} />
-            <div>
-              <p>Each journey comes in Standard, Premium and Luxury. Choose one, personalise it, and we quote it for your dates and party.</p>
-              <Link className="tour-text-link" href="/journeys">All {journeys.length} journeys <ArrowUpRight size={16} aria-hidden="true" /></Link>
-            </div>
+            <SectionIntro id="signature-heading" label="SUGGESTED PACKAGES" display={["Start with a route,", "then make it yours."]} />
+            <p>Every package comes in Standard, Premium and Luxury. Open the itinerary to see the day-by-day plan and what each comfort level includes, then ask for a quote for your dates.</p>
           </div>
-          <div className="cat-grid">
-            {featured.map((journey) => <JourneyCard key={journey.id} journey={journey} />)}
-          </div>
+          <HomePackages groups={groups} />
         </section>
 
         <HomeCollections />
-        <HomeTiers />
         <HomeMoments items={moments} />
         <Destinations places={places} />
-        <HomeFounder />
+        <HomeTeam />
         <HomeBeforeYouGo faqs={faqs} reading={reading} />
+        {/* Who we are and the comfort levels, at the end as the client asked. */}
+        <HomeIntro />
+        <HomeTiers />
         <EnquiryBand title={["Plan your journey", "with Tourmelloh."]} text="Tell us your dates, who is travelling and what matters to you. We reply with questions, a proposed plan and one complete quotation before any payment." />
       </main>
       <Footer />
