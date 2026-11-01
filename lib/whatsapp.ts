@@ -15,6 +15,7 @@ export type WhatsAppContext =
   | { kind: "guide"; place: string; url?: string }
   | { kind: "collection"; title: string; url?: string }
   | { kind: "enquiry"; reference: string; summary?: string }
+  | { kind: "tier"; tier: string; url?: string }
   | { kind: "general"; page?: string; url?: string };
 
 const join = (...parts: (string | undefined)[]) => parts.filter(Boolean).join(" ");
@@ -39,6 +40,8 @@ export function whatsappText(context: WhatsAppContext): string {
       return join(`I am interested in ${context.title}. Could you tell me more about how it works?`, context.url);
     case "enquiry":
       return join(`Hello Tourmelloh, I have sent an enquiry, reference ${context.reference}.`, context.summary);
+    case "tier":
+      return join(`Hello Tourmelloh, I would like to know more about the ${context.tier} level and which packages suit us.`, context.url);
     case "general":
       return join("I would like help planning a journey with Tourmelloh.", context.url);
     default:

@@ -16,7 +16,7 @@ export function companyMeta(slug: string) {
 }
 
 /** About, how we travel, FAQ and the three policies share one layout. */
-export function CompanyPage({ slug }: { slug: string }) {
+export function CompanyPage({ slug, children }: { slug: string; children?: React.ReactNode }) {
   const page = pages.find((item) => item.slug === slug);
   if (!page) notFound();
   const trail = [{ name: "Home", path: "/" }, { name: page.title, path: `/${slug}` }];
@@ -33,6 +33,8 @@ export function CompanyPage({ slug }: { slug: string }) {
             <p className="tour-lead">{page.lead}</p>
           </div>
         )}
+
+        {children}
 
         <div className={`tour-width cat-section ${LEGAL.has(slug) ? "cat-legal" : ""}`}>
           {page.sections.map((section) => (

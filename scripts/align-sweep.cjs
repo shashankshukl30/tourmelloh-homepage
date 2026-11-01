@@ -1,10 +1,13 @@
 // Alignment sweep across every sitemap page: uneven card endings, unlevel form fields,
-// wrapped caps labels and clipped button text. Collapsed forms are opened first.
+// wrapped caps labels, clipped button text, and (phones) swipe cards taller than the visible screen.
+// Collapsed forms are opened first.
 // node scripts/align-sweep.cjs [baseUrl] [widths]
 const { chromium } = require("playwright-core");
 
 const base = process.argv[2] || "http://127.0.0.1:3108";
-const widths = (process.argv[3] || "360,390,768,1024,1440").split(",").map(Number);
+const widths = (process.argv[3] || "360,390,414,768,1024,1440").split(",").map(Number);
+// Real device heights, so "fits on one screen" is tested honestly.
+const HEIGHT = { 360: 740, 390: 844, 414: 896, 768: 1024, 1024: 768, 1440: 900 };
 
 (async () => {
   const browser = await chromium.launch({ channel: "chrome" }).catch(() => chromium.launch());
@@ -13,7 +16,7 @@ const widths = (process.argv[3] || "360,390,768,1024,1440").split(",").map(Numbe
   paths.push("/search", "/your-journey");
   const found = new Map();
   for (const width of widths) {
-    const page = await browser.newPage({ viewport: { width, height: 900 }, reducedMotion: "reduce" });
+    const page = await browser.newPage({ viewport: { width, height: HEIGHT[width] ?? 900 }, reducedMotion: "reduce" });
     for (const path of paths) {
       await page.goto(base + path, { waitUntil: "domcontentloaded" });
       await page.waitForTimeout(120);
@@ -39,6 +42,18 @@ const widths = (process.argv[3] || "360,390,768,1024,1440").split(",").map(Numbe
           }
         }
         document.querySelectorAll("details").forEach((d) => (d.open = true));
+        // 1b. Phones: one swipe card (a tier level, a package, a tile) must fit the screen between header and contact bar.
+        if (innerWidth <= 700) {
+          const header = document.querySelector(".site-header")?.getBoundingClientRect().height ?? 0;
+          const dock = document.querySelector(".dock-bar")?.getBoundingClientRect().height ?? 0;
+          const room = innerHeight - header - dock - 16;
+          for (const el of document.querySelectorAll(".tl-card, .hp-rail > .pk, .coll-tile, .atlas-card, .home-moment, .home-collection")) {
+            if (!vis(el)) continue;
+            const extra = el.classList.contains("tl-card") ? (document.querySelector(".tl-switch")?.getBoundingClientRect().height ?? 0) + 18 : 0;
+            const h = el.getBoundingClientRect().height + extra;
+            if (h > room) out.push(`${name(el)} taller than the screen (${Math.round(h)} > ${Math.round(room)})`);
+          }
+        }
         // 2. Form rows: controls start level.
         for (const row of document.querySelectorAll(".enquiry-row")) {
           const ctrls = [...row.querySelectorAll(":scope > .enquiry-field > input, :scope > .enquiry-field > textarea, :scope > .enquiry-field > .select-wrap")].filter(vis);

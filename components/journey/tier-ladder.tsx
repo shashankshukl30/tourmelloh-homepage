@@ -26,17 +26,19 @@ const ICON: Record<Kind, LucideIcon> = { stay: BedDouble, car: Car, boat: Sailbo
  * one card per tier to swipe through, every upgrade marked against the tier before it so nothing
  * has to be remembered, an at-a-glance grid on demand, and two actions per tier.
  */
-export function TierLadder({ journey, highlights, tier, onTier }: {
-  journey: { id: string; slug: string; title: string; route: string };
+export function TierLadder({ journey, highlights, tier, onTier, openCompare = false }: {
+  /** Omit for the general comparison (the Tiers page): actions then lead to that tier's packages. */
+  journey?: { id: string; slug: string; title: string; route: string };
   highlights: Record<Tier, string[]>;
   tier: Tier;
   onTier: (t: Tier) => void;
+  openCompare?: boolean;
 }) {
   const { wishlist, update, ready } = useWishlist();
   const deck = useRef<HTMLDivElement>(null);
-  const [compare, setCompare] = useState(false);
+  const [compare, setCompare] = useState(openCompare);
   const [added, setAdded] = useState<Tier | null>(null);
-  const inMine = ready && wishlist.journey?.id === journey.id ? wishlist.journey.tier : null;
+  const inMine = journey && ready && wishlist.journey?.id === journey.id ? wishlist.journey.tier : null;
   const kinds = TIERS.map((t) => byKind(highlights[t]));
 
   // Swiping the deck moves the selector; tapping the selector moves the deck.
@@ -60,6 +62,7 @@ export function TierLadder({ journey, highlights, tier, onTier }: {
   }
 
   function addToJourney(t: Tier) {
+    if (!journey) return;
     if (wishlist.journey && wishlist.journey.id !== journey.id &&
       !window.confirm(`My Journey is built around ${wishlist.journey.title}. Replace it with ${journey.title}? Added services and experiences stay as requests.`)) return;
     update((w) => setJourney(w, { id: journey.id as `P${string}`, slug: journey.slug, title: journey.title, tier: t }));
@@ -100,21 +103,35 @@ export function TierLadder({ journey, highlights, tier, onTier }: {
                       <span className="tl-icon" aria-hidden="true"><Icon size={18} /></span>
                       <span className="tl-text">
                         {line}
-                        {mark === "upgrade" && <em className="tl-mark">↑ Upgrade from {NAME[TIERS[ti - 1]]}</em>}
-                        {mark === "added" && <em className="tl-mark">+ Not in {NAME[TIERS[ti - 1]]}</em>}
+                        {mark === "upgrade" && <em className="tl-mark">↑ Upgrade<span className="sr-only"> from {NAME[TIERS[ti - 1]]}</span></em>}
+                        {mark === "added" && <em className="tl-mark">+ New<span className="sr-only">, not in {NAME[TIERS[ti - 1]]}</span></em>}
                       </span>
                     </li>
                   );
                 })}
               </ul>
               <div className="tl-actions">
-                <button type="button" className="tl-add" onClick={(e) => { e.stopPropagation(); addToJourney(t); }} aria-pressed={mine}>
-                  {mine ? <><Check size={17} aria-hidden="true" /> In My Journey</> : <><Plus size={17} aria-hidden="true" /> Add to My Journey</>}
-                </button>
-                <a className="tl-quote" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" aria-label={`Get a ${NAME[t]} quote on WhatsApp`}
-                  href={whatsappUrl({ kind: "journey", id: journey.id, title: journey.title, route: journey.route, tier: NAME[t], url: absolute(`/journeys/${journey.slug}?tier=${t}`) })}>
-                  <WhatsAppIcon size={17} /> Get a quote
-                </a>
+                {journey ? (
+                  <>
+                    <button type="button" className="tl-add" onClick={(e) => { e.stopPropagation(); addToJourney(t); }} aria-pressed={mine}>
+                      {mine ? <><Check size={17} aria-hidden="true" /> In My Journey</> : <><Plus size={17} aria-hidden="true" /> Add to My Journey</>}
+                    </button>
+                    <a className="tl-quote" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" aria-label={`Get a ${NAME[t]} quote on WhatsApp`}
+                      href={whatsappUrl({ kind: "journey", id: journey.id, title: journey.title, route: journey.route, tier: NAME[t], url: absolute(`/journeys/${journey.slug}?tier=${t}`) })}>
+                      <WhatsAppIcon size={17} /> Get a quote
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    <Link className="tl-add" href={`/journeys/${t}`} onClick={(e) => e.stopPropagation()} style={{ color: "var(--paper)" }} aria-label={`See ${NAME[t]} packages`}>
+                      See packages <ArrowUpRight size={17} aria-hidden="true" />
+                    </Link>
+                    <a className="tl-quote" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" aria-label={`Ask about ${NAME[t]} on WhatsApp`}
+                      href={whatsappUrl({ kind: "tier", tier: NAME[t], url: absolute("/tiers") })}>
+                      <WhatsAppIcon size={17} /> Ask us
+                    </a>
+                  </>
+                )}
               </div>
               {added === t && (
                 <p className="tl-added" role="status"><Check size={15} aria-hidden="true" /> Added. <Link href="/your-journey">Review My Journey <ArrowUpRight size={14} aria-hidden="true" /></Link></p>
@@ -142,7 +159,7 @@ export function TierLadder({ journey, highlights, tier, onTier }: {
                 return (
                   <tr key={kind}>
                     <th scope="row"><Icon size={16} aria-hidden="true" /> {meta.label}</th>
-                    {TIERS.map((t, ti) => <td key={t} data-active={tier === t}>{kinds[ti].get(kind) ?? <span className="tl-none">Not included</span>}</td>)}
+                    {TIERS.map((t, ti) => <td key={t} data-active={tier === t} data-label={NAME[t]}>{kinds[ti].get(kind) ?? <span className="tl-none">Not included</span>}</td>)}
                   </tr>
                 );
               })}

@@ -114,3 +114,53 @@
   .tour-breadcrumb > span:nth-last-child(2) > span[aria-hidden] { display: none; }
   .tour-breadcrumb > span:nth-last-child(2) > a::before { content: "←  "; }
 }
+
+/* Tiers page: general comparison */
+.tier-compare-page { display: grid; gap: 18px; }
+.tier-compare-note { font-size: 14px; color: var(--muted); max-width: 72ch; }
+.home-tiers-cta { justify-self: start; }
+
+/* Phones: the side-by-side grid restacks per row (category, then Standard / Premium / Luxury), never four squeezed columns. */
+@media (max-width: 600px) {
+  .tl-grid { border: 0; border-radius: 0; overflow: visible; }
+  .tl-grid table, .tl-grid tbody, .tl-grid tr, .tl-grid th, .tl-grid td { display: block; width: auto; }
+  .tl-grid thead { display: none; }
+  .tl-grid tbody tr { padding: 14px 0 10px; border-top: 1px solid var(--line); }
+  .tl-grid tbody th { display: flex; align-items: center; gap: 8px; width: auto; padding: 0 0 8px; border: 0; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink); }
+  .tl-grid tbody th svg { display: inline; margin: 0; }
+  .tl-grid td { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 10px; padding: 7px 10px; border: 0; border-radius: 12px; font-size: 14.5px; }
+  .tl-grid td::before { content: attr(data-label); font-size: 13px; font-weight: 600; color: var(--muted); }
+  .tl-grid td[data-active="true"] { background: var(--paper-deep); }
+  .tl-grid td[data-active="true"]::before { color: var(--clay); }
+}
+
+/* Phones: a tier card (with its level switch) fits on one screen, even at 360 x 740, so a level reads
+   without scrolling (client feedback, 2026-11-01). */
+@media (max-width: 600px) {
+  .tl-deck { align-items: flex-start; }
+  .tl-head { padding: 14px 16px 12px; }
+  .tl-head p { display: none; }
+  .tl-level { font-size: 11px; }
+  .tl-head h3 { margin-top: 2px; font-size: 27px; }
+  .tl-lines { padding: 2px 16px 0; }
+  .tl-lines li { grid-template-columns: 28px minmax(0, 1fr); gap: 10px; padding: 8px 0; }
+  .tl-icon { width: 28px; height: 28px; }
+  .tl-icon svg { width: 15px; height: 15px; }
+  .tl-text { padding-top: 4px; font-size: 13.5px; line-height: 1.38; }
+  .tl-lines li { padding: 7px 0; }
+  .tl-mark { display: inline-block; margin: 0 0 0 6px; padding: 0 7px; vertical-align: 1px; border-radius: var(--radius-pill); background: oklch(93% .04 45); font-size: 11.5px; line-height: 1.5; }
+  .tl-actions { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; padding: 12px 16px 14px; }
+  .tl-add, .tl-quote { min-height: 44px; padding: 0 10px; font-size: 13.5px; gap: 6px; }
+  .tl-add svg, .tl-quote svg { width: 15px; height: 15px; }
+  .tl-added { padding: 0 16px 12px; margin-top: -4px; }
+}
+
+/* Phones: the contact bar takes the hero card's exact geometry (10px inset, 28px corners, concentric
+   inner buttons), so at the hero's foot the two edges meet instead of leaving slivers. */
+@media (max-width: 700px) {
+  .dock-bar { left: 10px; right: 10px; bottom: max(10px, env(safe-area-inset-bottom)); padding: 6px; border-radius: 28px; }
+  .dock-bar a { border-radius: 22px; }
+}
+
+/* Absolutely positioned helpers (sr-only text) stay inside the swipe deck, never widening the page. */
+.tl-deck, .tl-card, .hp-rail { position: relative; }
