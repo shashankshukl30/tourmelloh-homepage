@@ -8,7 +8,7 @@ const { pathToFileURL } = require("node:url");
   const page = await browser.newPage();
   await page.goto(pathToFileURL(path.join(__dirname, "changes.html")).href, { waitUntil: "networkidle" });
   await page.evaluate(() => document.fonts.ready);
-  await page.pdf({ path: path.join(__dirname, "..", "..", "Tourmelloh - Website Update.pdf"), format: "A4", printBackground: true, preferCSSPageSize: true });
+  await page.pdf({ path: path.join(__dirname, "..", "..", "Tourmelloh - Website Update v2.pdf"), format: "A4", printBackground: true, preferCSSPageSize: true });
   await browser.close();
   console.log("pdf ok");
 })();
