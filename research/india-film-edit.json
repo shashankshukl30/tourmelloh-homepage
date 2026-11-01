@@ -40,18 +40,19 @@
     },
     {
       "place": "Prayagraj",
-      "landmark": "Triveni Sangam",
-      "source": "research/media/india-v5/prayagraj-sangam-birds-kenburns.mp4",
-      "start": 0.5,
+      "landmark": "Boats and gulls at the Triveni Sangam",
+      "source": "research/media/india-v5/prayagraj-gulls-14861837.mp4",
+      "start": 8.5,
       "duration": 5,
       "desktopFocus": [
         0.5,
         0.5
       ],
       "mobileFocus": [
-        0.44,
+        0.5,
         0.5
-      ]
+      ],
+      "credit": "The. Picsmania, Pexels License, https://www.pexels.com/video/seagulls-flying-around-a-group-of-boats-near-the-coast-of-prayagraj-india-14861837/"
     },
     {
       "place": "Ayodhya",
@@ -85,5 +86,5 @@
       "credit": "Rohit Sharma, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Sacred_Serenity_at_Mahabodhi_Temple,_Bodhgaya,_Bihar.webm"
     }
   ],
-  "stillsMethod": "Prayagraj and Ayodhya have no licensed footage; their scenes are gentle sub-pixel Ken Burns moves on licensed library stills (scripts/film-kenburns.py)."
+  "stillsMethod": "Ayodhya has no openly licensed footage (Pexels, Wikimedia Commons checked 2026-11-01); its scene is a gentle Ken Burns move on the licensed Ram Mandir still (scripts/film-kenburns.py)."
 }
