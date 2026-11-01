@@ -148,6 +148,7 @@ for (const a of articles) {
 }
 for (const r of reviews) {
   if (r.status === "published" && !r.consent.recordedOn) fail(`review ${r.id}`, "published without recorded consent");
+  if (r.sample && r.status === "published") fail(`review ${r.id}`, "a sample review can never be published");
 }
 for (const p of pages) {
   scan(`page ${p.slug}`, p);

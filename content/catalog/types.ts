@@ -283,6 +283,12 @@ export type Review = {
   source?: string;
   consent: { recordedOn: string; scope: string };
   order: number;
+  /** 1 to 5, as the guest gave it. */
+  rating?: number;
+  /** "March 2026": when they travelled. */
+  month?: string;
+  /** Design samples: shown on preview builds only, never on tourmelloh.com, never published. */
+  sample?: boolean;
 };
 
 export type PageCopy = {

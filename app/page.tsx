@@ -4,6 +4,7 @@ import { Hero } from "@/components/hero";
 import { Destinations, type AtlasPlace } from "@/components/destinations";
 import { HomeBeforeYouGo, HomeCollections, HomeIntro, HomeMoments, HomeTeam, HomeTiers } from "@/components/home-sections";
 import { HomePackages, type PackageGroup } from "@/components/journey/home-packages";
+import { ReviewsSection } from "@/components/reviews-section";
 import { toPackage } from "@/components/catalog/cards";
 import { EnquiryBand, SectionIntro } from "@/components/catalog/blocks";
 import { articles, collections, experiences, faqGroups, guides, journeys } from "@/content/catalog";
@@ -61,6 +62,7 @@ export default function HomePage() {
           <HomePackages groups={groups} />
         </section>
 
+        <ReviewsSection />
         <HomeCollections />
         <HomeMoments items={moments} />
         <Destinations places={places} />

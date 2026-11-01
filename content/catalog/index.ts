@@ -31,7 +31,9 @@ export const services: Service[] = live(allServices);
 export const experiences: Experience[] = live(allExperiences);
 export const guides = live(allGuides);
 export const articles = live(allArticles);
-export const reviews = live(allReviews).sort((a, b) => a.order - b.order);
+export const reviews = live(allReviews).filter((r) => !r.sample && r.consent.recordedOn).sort((a, b) => a.order - b.order);
+/** Design samples for preview builds only (never rendered on production). */
+export const sampleReviews = allReviews.filter((r) => r.sample).sort((a, b) => a.order - b.order);
 export { collections, departures, pages, faqGroups, weddingVenues };
 
 export const journeyById = (id: string) => journeys.find((j) => j.id === id);

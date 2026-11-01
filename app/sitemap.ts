@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { articles, collections, experiences, guides, journeys, pages, services } from "@/content/catalog";
+import { articles, collections, experiences, guides, journeys, pages, reviews, services } from "@/content/catalog";
 import { absolute } from "@/lib/site";
 import { media } from "@/content/catalog/media";
 import type { MediaKey } from "@/content/catalog/media-plan";
@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry("/help-me-plan", 0.8),
     entry("/faq", 0.6),
     entry("/contact", 0.6),
+    ...(reviews.length ? [entry("/reviews", 0.6)] : []),
     entry("/photo-credits", 0.2),
     ...collections.map((c) => entry(`/journeys/${c.slug}`, 0.85, c.hero)),
     ...journeys.map((j) => entry(`/journeys/${j.slug}`, 0.9, j.hero)),
