@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tourmelloh – Website update</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Inter", sans-serif; color: #0b0b0b; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; padding: 15mm 15mm 12mm; position: relative; page-break-after: always; overflow: hidden; }
+  .page:last-child { page-break-after: auto; }
+  .top { display: flex; justify-content: space-between; align-items: center; }
+  .top img { height: 8.4mm; }
+  .label { font-size: 7.5pt; letter-spacing: .28em; text-transform: uppercase; color: #666; font-weight: 500; }
+  .foot { position: absolute; left: 15mm; right: 15mm; bottom: 10mm; display: flex; justify-content: space-between; align-items: center; font-size: 7.5pt; letter-spacing: .28em; color: #777; }
+  .dots { display: inline-flex; gap: 5px; margin-left: 10px; vertical-align: middle; }
+  .dots i, .k i { width: 5px; height: 5px; border-radius: 50%; display: inline-block; }
+  .b { background: #4285f4; } .r { background: #ea4335; } .y { background: #fbbc05; } .g { background: #34a853; }
+  h1 { font-size: 40pt; line-height: .98; font-weight: 900; letter-spacing: -.045em; margin-top: 16mm; }
+  h1 em { font-style: normal; color: #3b82f6; }
+  h2 { font-size: 25pt; line-height: 1.02; font-weight: 900; letter-spacing: -.04em; margin: 2.5mm 0 3mm; }
+  .sub { font-size: 11.5pt; line-height: 1.55; color: #555; margin-top: 6mm; max-width: 150mm; }
+  .k { display: flex; align-items: center; gap: 7px; font-size: 7.5pt; letter-spacing: .28em; text-transform: uppercase; color: #666; font-weight: 600; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #e3e3e3; margin-top: 12mm; padding-top: 7mm; }
+  .stat { padding-left: 4mm; border-left: 1px solid #e3e3e3; }
+  .stat:first-child { border-left: 0; padding-left: 0; }
+  .stat strong { display: flex; align-items: center; gap: 6px; font-size: 24pt; font-weight: 900; letter-spacing: -.04em; }
+  .stat strong i { width: 7px; height: 7px; border-radius: 50%; }
+  .stat span { display: block; margin-top: 2mm; font-size: 7pt; letter-spacing: .2em; text-transform: uppercase; color: #777; line-height: 1.6; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6.5mm 9mm; margin-top: 5mm; }
+  .item h3 { display: flex; gap: 7px; align-items: baseline; font-size: 11pt; font-weight: 800; letter-spacing: -.01em; }
+  .item h3 i { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; transform: translateY(-1px); }
+  .item p { margin-top: 1.6mm; padding-left: 14px; font-size: 9pt; line-height: 1.55; color: #555; }
+  .item p b { color: #0b0b0b; font-weight: 600; }
+  .rule { border-top: 1px solid #e3e3e3; margin: 8mm 0 6mm; }
+  .phase { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6mm; margin-top: 5mm; }
+  .phase div { border: 1px solid #e6e6e6; border-radius: 4mm; padding: 4.5mm; }
+  .phase strong { display: block; font-size: 20pt; font-weight: 900; letter-spacing: -.04em; }
+  .phase span { display: block; margin-top: 1mm; font-size: 8.5pt; color: #555; line-height: 1.45; }
+  .checks { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5mm 9mm; margin-top: 4mm; }
+  .checks li { font-size: 9pt; line-height: 1.5; color: #444; padding-left: 14px; position: relative; }
+  .checks li::before { content: ""; position: absolute; left: 0; top: 5px; width: 6px; height: 6px; border-radius: 50%; background: #34a853; }
+  .panel { margin-top: 9mm; background: #0b0b0b; color: #fff; border-radius: 6mm; padding: 10mm 11mm; display: grid; grid-template-columns: 1fr 52mm; gap: 8mm; align-items: center; }
+  .panel h2 { color: #fff; font-size: 25pt; margin: 0; }
+  .panel p { margin-top: 4mm; font-size: 10pt; line-height: 1.6; color: #bdbdbd; max-width: 95mm; }
+  .contact { list-style: none; margin-top: 6mm; display: grid; gap: 3.2mm; }
+  .contact li { display: flex; align-items: center; gap: 3.5mm; font-size: 10.5pt; font-weight: 700; }
+  .ic { width: 7.5mm; height: 7.5mm; border-radius: 50%; display: grid; place-items: center; background: #222; flex-shrink: 0; }
+  .ic.wa { background: #25d366; }
+  .ic svg { width: 4mm; height: 4mm; }
+  .qr { text-align: center; }
+  .qr img { width: 52mm; border-radius: 4mm; display: block; }
+  .qr span { display: block; margin-top: 4mm; font-size: 6.8pt; letter-spacing: .24em; color: #9a9a9a; font-weight: 600; }
+  .hq { margin-top: 3.5mm; font-size: 8pt; color: #888; }
+  a { color: #3b82f6; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<!-- Page 1 -->
+<section class="page">
+  <div class="top"><img src="logo.png" alt="Digiocular"><span class="label">Tourmelloh · Website update</span></div>
+  <h1>Your website, rebuilt<br>around <em>your brief.</em></h1>
+  <p class="sub">Everything we changed on tourmelloh.com since the first build: the full developer brief (v5), your 3-tier package document and the points from our call on 31 October, built, checked on phones and live on the preview.</p>
+
+  <div class="stats">
+    <div class="stat"><strong><i class="b"></i>20</strong><span>Packages live,<br>3 tiers each</span></div>
+    <div class="stat"><strong><i class="r"></i>64</strong><span>Services and<br>experiences</span></div>
+    <div class="stat"><strong><i class="y"></i>129</strong><span>Pages, all<br>mobile-checked</span></div>
+    <div class="stat"><strong><i class="g"></i>9</strong><span>Wrong or weak<br>photos replaced</span></div>
+  </div>
+
+  <div class="rule"></div>
+  <div class="k"><i class="b"></i>Two rounds of work</div>
+  <h2>From a pan-India site<br>to Tourmelloh.</h2>
+  <div class="phase">
+    <div><strong>Brief v5</strong><span>The whole site restructured to your developer brief: Packages, Services, Experiences and Destination Weddings, quote-led, no checkout.</span></div>
+    <div><strong>Your doc</strong><span>All 20 packages rewritten to your day-by-day plans and your Standard, Premium and Luxury lines.</span></div>
+    <div><strong>Your call</strong><span>Packages first, WhatsApp that names the package, a clear tier comparison on phones, and a cleaner homepage.</span></div>
+  </div>
+  <p class="sub" style="margin-top:7mm">Preview: <a href="https://tourmelloh-preview.vercel.app">tourmelloh-preview.vercel.app</a></p>
+
+  <div class="foot"><span>DIGIOCULAR.COM<span class="dots"><i class="b"></i><i class="r"></i><i class="y"></i><i class="g"></i></span></span><span>01</span></div>
+</section>
+
+<!-- Page 2 -->
+<section class="page">
+  <div class="top"><img src="logo.png" alt="Digiocular"><span class="label">What changed</span></div>
+  <div class="k" style="margin-top:9mm"><i class="b"></i>What we changed</div>
+  <h2>Built around how your<br>guests choose and enquire.</h2>
+  <div class="grid">
+    <div class="item"><h3><i class="b"></i>20 packages, one structure</h3><p>Every package from your document, with its <b>day-by-day plan</b>, overnights and gateways, and the <b>Standard, Premium and Luxury</b> lines for each.</p></div>
+    <div class="item"><h3><i class="r"></i>Tiers you can compare</h3><p>Three cards per package. Every upgrade is <b>marked against the level below</b>, plus a side-by-side view. A new Tiers page compares the levels in general.</p></div>
+    <div class="item"><h3><i class="y"></i>WhatsApp that names the package</h3><p>Every “Get a quote” opens WhatsApp with the <b>package code, name and tier</b> already written, so you know exactly what the guest is asking about.</p></div>
+    <div class="item"><h3><i class="g"></i>My Journey, like a cart</h3><p>Guests add a package, services and experiences, or <b>single upgrades from a higher tier</b> (a wheelchair, a photographer), then ask for one quotation.</p></div>
+    <div class="item"><h3><i class="b"></i>Homepage, packages first</h3><p>Packages straight after the finder, grouped as <b>Kashi & pilgrim routes, Buddhist circuit and Pind daan</b>. About and tiers moved to the end. A team section added.</p></div>
+    <div class="item"><h3><i class="r"></i>Package cards that sell</h3><p>Name on the photograph, nights, days and places in bold, and two clear buttons: <b>Get your itinerary</b> and <b>Get a quote</b>.</p></div>
+    <div class="item"><h3><i class="y"></i>A hero film of your places</h3><p>Taj Mahal, Lucknow and Jaipur removed. The film now shows <b>Varanasi, Prayagraj, Ayodhya and Bodh Gaya</b>, mostly real footage.</p></div>
+    <div class="item"><h3><i class="g"></i>Photos that are true to place</h3><p>Replaced a Ladakh mountain road, a Jammu station sign, the Taj behind a wheelchair, a hill-station train, and weak aarti, silk, food and music shots.</p></div>
+    <div class="item"><h3><i class="b"></i>Specialist collections</h3><p>Her Own Way (women, female host), SHRAVAN (parents), Together (families), the Buddhist circuit and Wellness, plus <b>Destination Weddings</b> with venues.</p></div>
+    <div class="item"><h3><i class="r"></i>Found on Google, found on the site</h3><p>Site search that understands guests’ words (Banaras, pind daan, private taxi), a full sitemap, structured data, and <b>every old link redirected</b>.</p></div>
+    <div class="item"><h3><i class="y"></i>Menus and wording</h3><p>Menu now reads <b>Packages, Services, Experiences, Destination Weddings</b>. Titles corrected for commas and capitals across the site.</p></div>
+    <div class="item"><h3><i class="g"></i>Letterhead and signature</h3><p>Brand letterhead (PDF and Word) and email signature, now with <b>+91 63910 85555</b>.</p></div>
+  </div>
+  <div class="foot"><span>DIGIOCULAR.COM<span class="dots"><i class="b"></i><i class="r"></i><i class="y"></i><i class="g"></i></span></span><span>02</span></div>
+</section>
+
+<!-- Page 3 -->
+<section class="page">
+  <div class="top"><img src="logo.png" alt="Digiocular"><span class="label">Built for phones</span></div>
+  <div class="k" style="margin-top:9mm"><i class="g"></i>Mobile first, checked page by page</div>
+  <h2>Made for the phone<br>your guests hold.</h2>
+  <ul class="checks">
+    <li>Every page checked at six screen sizes, from small phones to desktop.</li>
+    <li>No page scrolls sideways; every card lines up with its neighbours.</li>
+    <li>Each tier card fits one phone screen, so a level reads at a glance.</li>
+    <li>Button labels never break onto two lines.</li>
+    <li>The Plan Your Journey and WhatsApp bar matches the hero’s corners.</li>
+    <li>Day-by-day plans open like a list, one day at a time on phones.</li>
+    <li>Enquiries carry a reference number and a printable summary.</li>
+    <li>Sharper photographs, served light and fast.</li>
+  </ul>
+
+  <div class="rule"></div>
+  <div class="k"><i class="y"></i>To finish together</div>
+  <ul class="checks" style="grid-template-columns:1fr 1fr">
+    <li>Team photographs of Aparajita, Gaurav, Vishal and Faizan.</li>
+    <li>A short Ayodhya clip from your next tour, for the hero film.</li>
+    <li>Your nod on hotel names and VIP darshan wording.</li>
+    <li>Access to tourmelloh.com and your hosting, to go live.</li>
+  </ul>
+
+  <div class="panel">
+    <div>
+      <h2>Your free homepage,<br>in 48 hours.</h2>
+      <p>Reply with your business name and city, and we’ll start today. Or scan the code to message us on WhatsApp.</p>
+      <ul class="contact">
+        <li><span class="ic wa"><svg viewBox="0 0 16 16" fill="#fff"><path d="M13.6 2.33A7.85 7.85 0 0 0 8 0C3.63 0 .07 3.56.06 7.93c0 1.4.37 2.76 1.06 3.96L0 16l4.2-1.1a7.9 7.9 0 0 0 3.79.97c4.37 0 7.93-3.56 7.93-7.93a7.9 7.9 0 0 0-2.32-5.61zM8 14.52a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.65.67-2.43-.16-.25a6.56 6.56 0 0 1-1-3.5C1.41 4.3 4.37 1.34 8 1.34a6.6 6.6 0 0 1 6.59 6.6c0 3.63-2.96 6.58-6.6 6.58z"/></svg></span>WhatsApp +63 945 566 6778</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></span>digiocular.com</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>digiocular@gmail.com</li>
+      </ul>
+    </div>
+    <div class="qr"><img src="qr.png" alt="WhatsApp QR"><span>SCAN TO CHAT ON WHATSAPP</span></div>
+  </div>
+  <p class="hq">Remote-first, headquartered in Manila, working with clients worldwide.</p>
+  <div class="foot"><span>DIGIOCULAR.COM<span class="dots"><i class="b"></i><i class="r"></i><i class="y"></i><i class="g"></i></span></span><span>03</span></div>
+</section>
+</body>
+</html>
