@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face { font-family: "Newsreader"; src: url("../../public/fonts/newsreader-400-opsz-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Newsreader"; src: url("../../public/fonts/newsreader-400-opsz-italic.woff2") format("woff2"); font-style: italic; }
+  @font-face { font-family: "Instrument Sans"; src: url("../../node_modules/@fontsource-variable/instrument-sans/files/instrument-sans-latin-standard-normal.woff2") format("woff2"); font-weight: 100 900; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  .card { position: relative; width: 1200px; height: 630px; background: #10241b; font-family: "Instrument Sans", sans-serif; color: #f7f1e6; }
+  .photo { position: absolute; inset: 0; background: url("../../public/images/library/varanasi-ganga-aarti-36613136.webp") 72% 45% / cover no-repeat; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14,28,21,.94) 0%, rgba(14,28,21,.86) 38%, rgba(14,28,21,.35) 66%, rgba(14,28,21,.05) 100%); }
+  .copy { position: absolute; left: 72px; top: 64px; bottom: 60px; width: 640px; display: flex; flex-direction: column; }
+  .logo { height: 54px; width: auto; align-self: flex-start; }
+  h1 { margin-top: auto; font-family: "Newsreader", Georgia, serif; font-weight: 400; font-size: 66px; line-height: 1.02; letter-spacing: -.035em; }
+  h1 em { display: block; font-style: italic; color: #e7b27a; }
+  .line { margin-top: 26px; font-size: 22px; line-height: 1.45; color: rgba(247,241,230,.86); }
+  .foot { margin-top: 30px; display: flex; align-items: center; gap: 16px; font-size: 21px; font-weight: 600; letter-spacing: .02em; }
+  .foot span { padding: 9px 18px; border-radius: 999px; background: #f7f1e6; color: #10241b; }
+</style></head>
+<body>
+  <div class="card">
+    <div class="photo"></div><div class="shade"></div>
+    <div class="copy">
+      <img class="logo" src="../../public/brand/tourmelloh-logo-ivory.svg" alt="">
+      <h1>Your travel and destination partners <em>in Varanasi and beyond.</em></h1>
+      <p class="line">Packages, services and experiences across Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya.</p>
+      <div class="foot"><span>tourmelloh.com</span></div>
+    </div>
+  </div>
+</body></html>
