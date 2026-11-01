@@ -66,6 +66,9 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
   const panel = tiers[tier];
   const order: Tier[] = ["standard", "premium", "luxury"];
   const highlights = order.every((t) => tiers[t].highlights?.length) ? (Object.fromEntries(order.map((t) => [t, tiers[t].highlights!])) as Record<Tier, string[]>) : null;
+  const includedByTier = Object.fromEntries(order.map((t) => [t, tiers[t].lines
+    .filter((l, i, all) => all.findIndex((x) => x.item === l.item) === i)
+    .map((l) => ({ item: l.item, title: l.title, href: l.href }))])) as Record<Tier, { item: string; title: string; href?: string }[]>;
   // Single upgrades from the tiers above (client call: a Standard guest may want just a wheelchair or a photographer).
   const here = new Set(panel.lines.map((l) => l.item));
   const upgrades = order.slice(order.indexOf(tier) + 1).flatMap((t) => tiers[t].lines.map((l) => ({ ...l, from: t })))
@@ -88,7 +91,7 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
         </div>}
       </div>
 
-      {highlights && <TierLadder journey={journey} highlights={highlights} tier={tier} onTier={setTier} />}
+      {highlights && <TierLadder journey={journey} highlights={highlights} tier={tier} onTier={setTier} included={includedByTier} />}
 
       {notice && (
         <div className="tier-notice" role="status">
@@ -150,6 +153,23 @@ export function TierPanel({ journey, tiers }: { journey: { id: string; slug: str
             })}
           </ul>
           </details>
+          {(() => {
+            const taken = new Set<string>([...panel.lines.map((l) => l.item), ...upgrades.map((u) => u.item)]);
+            const others = index.items.filter((i) => i.id.startsWith("S") && !taken.has(i.id));
+            return others.length > 0 ? (
+              <details className="tier-more tier-others">
+                <summary>More services you can add to {TIER_NAME[tier]} · {others.length}</summary>
+                <ul className="tier-others-list">
+                  {others.map((o) => (
+                    <li key={o.id}>
+                      <div><strong><Link href={o.href}>{o.title}</Link></strong><span>{o.category}</span></div>
+                      <AddToJourney id={o.id as ItemId} compact short />
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ) : null;
+          })()}
           {upgrades.length > 0 && (
             <div className="tier-upgrades">
               <h3>Want just one thing from a higher tier?</h3>

@@ -26,13 +26,17 @@ const ICON: Record<Kind, LucideIcon> = { stay: BedDouble, car: Car, boat: Sailbo
  * one card per tier to swipe through, every upgrade marked against the tier before it so nothing
  * has to be remembered, an at-a-glance grid on demand, and two actions per tier.
  */
-export function TierLadder({ journey, highlights, tier, onTier, openCompare = false }: {
+export type IncludedLine = { item: string; title: string; href?: string };
+
+export function TierLadder({ journey, highlights, tier, onTier, openCompare = false, included }: {
   /** Omit for the general comparison (the Tiers page): actions then lead to that tier's packages. */
   journey?: { id: string; slug: string; title: string; route: string };
   highlights: Record<Tier, string[]>;
   tier: Tier;
   onTier: (t: Tier) => void;
   openCompare?: boolean;
+  /** Every service and experience the tier includes on this package (client: show them all, not just the headline lines). */
+  included?: Record<Tier, IncludedLine[]>;
 }) {
   const { wishlist, update, ready } = useWishlist();
   const deck = useRef<HTMLDivElement>(null);
@@ -110,6 +114,14 @@ export function TierLadder({ journey, highlights, tier, onTier, openCompare = fa
                   );
                 })}
               </ul>
+              {included && included[t].length > 0 && (
+                <details className="tl-more" onClick={(e) => e.stopPropagation()}>
+                  <summary>Everything included in {NAME[t]} · {included[t].length}</summary>
+                  <ul>
+                    {included[t].map((l) => <li key={l.item}>{l.href ? <Link href={l.href}>{l.title}</Link> : l.title}</li>)}
+                  </ul>
+                </details>
+              )}
               <div className="tl-actions">
                 {journey ? (
                   <>

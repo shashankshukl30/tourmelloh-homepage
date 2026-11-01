@@ -84,7 +84,7 @@ export const agencyLd = {
   telephone: brand.phoneE164,
   email: brand.email,
   areaServed: ["Varanasi", "Sarnath", "Prayagraj", "Ayodhya", "Gaya", "Bodh Gaya", "Uttar Pradesh", "Bihar"].map((name) => ({ "@type": "Place", name })),
-  founder: [{ "@type": "Person", name: brand.founder }, { "@type": "Person", name: "Gaurav" }],
+  founder: [{ "@type": "Person", name: "Aparajita" }, { "@type": "Person", name: "Gaurav" }],
   address: {
     "@type": "PostalAddress",
     addressLocality: brand.city,

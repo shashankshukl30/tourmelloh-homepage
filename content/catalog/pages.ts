@@ -23,9 +23,9 @@ export const pages: PageCopy[] = [
         ],
       },
       {
-        heading: "Our founder",
+        heading: "Our Founders",
         paragraphs: [
-          "Tourmelloh was founded by Aparajita Upadhyaya, who leads the company as its Founder. Like the rest of our founding team, she comes from Varanasi's hospitality industry, and she brings that experience of looking after guests in this city to every journey we plan.",
+          "Tourmelloh was founded by Aparajita and Gaurav, who lead the company as its founders. Like the rest of our founding team, they come from Varanasi's hospitality industry, and they bring that experience of looking after guests in this city to every journey we plan.",
         ],
       },
       {

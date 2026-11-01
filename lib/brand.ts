@@ -10,7 +10,7 @@ export const brand = {
   email: "tourmelloh@gmail.com",
   city: "Varanasi",
   region: "Uttar Pradesh",
-  founder: "Aparajita Upadhyaya",
+  founder: "Aparajita & Gaurav",
   founders: ["Aparajita", "Gaurav"],
 };
 

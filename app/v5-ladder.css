@@ -193,3 +193,22 @@ button, .button, .tour-primary, .cat-whatsapp, .wl-button, .tl-add, .tl-quote, .
   .hero-bottom { gap: 18px; padding-top: 18px; }
   .hero-bottom p { font-size: 16px; line-height: 1.6; }
 }
+
+/* Each tier card lists everything it includes; other services sit in one expandable list (client, 2026-11-01). */
+.tl-more { margin: 4px 22px 0; border-top: 1px solid var(--line); }
+.tl-more > summary { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 0 4px; font-size: 14px; font-weight: 600; color: var(--ink); cursor: pointer; list-style: none; }
+.tl-more > summary::-webkit-details-marker { display: none; }
+.tl-more > summary::after { content: "+"; font-size: 18px; font-weight: 400; transition: transform .2s; }
+.tl-more[open] > summary::after { transform: rotate(45deg); }
+.tl-more ul { list-style: none; margin: 6px 0 4px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.tl-more li { font-size: 12.5px; line-height: 1.35; padding: 5px 10px; border: 1px solid var(--line); border-radius: var(--radius-pill); background: var(--paper); }
+.tl-more li a:hover { color: var(--clay); }
+.tier-others { margin-top: 28px; }
+.tier-others-list { list-style: none; margin: 0 0 12px; padding: 0; display: grid; }
+.tier-others-list li { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); }
+.tier-others-list li > div { display: grid; gap: 2px; min-width: 0; }
+.tier-others-list strong { font-size: 15.5px; font-weight: 500; }
+.tier-others-list strong a:hover { color: var(--clay); }
+.tier-others-list span { font-size: 13px; color: var(--muted); }
+.tier-others-list .wl-button { min-height: 40px; padding: 0 14px; font-size: 14px; }
+@media (max-width: 600px) { .tl-more { margin: 2px 16px 0; } .tl-more > summary { font-size: 13.5px; padding: 10px 0 2px; } }
