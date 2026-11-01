@@ -1,9 +1,49 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 
-export type ReviewCard = { id: string; name: string; place?: string; journey: string; text: string; rating?: number; month?: string; sample?: boolean };
+export type ReviewCard = {
+  id: string;
+  name: string;
+  place?: string;
+  journey: string;
+  href?: string;
+  group?: string;
+  text: string;
+  rating?: number;
+  month?: string;
+};
+
+export function Stars({ rating, size = 16 }: { rating: number; size?: number }) {
+  return (
+    <span className="rv-stars" role="img" aria-label={`${rating} out of 5`}>
+      {Array.from({ length: 5 }, (_, i) => <Star key={i} size={size} aria-hidden="true" fill={i < rating ? "currentColor" : "none"} />)}
+    </span>
+  );
+}
+
+function initials(name: string) {
+  const words = name.split(/\s+/).filter((w) => /^\p{L}/u.test(w));
+  return ((words[0]?.[0] ?? "") + (words.length > 1 ? words[words.length - 1][0] : "")).toUpperCase();
+}
+
+/** Avatar, name, place and the package travelled: one byline for the slider and the reviews page. */
+export function ReviewByline({ r, index }: { r: ReviewCard; index: number }) {
+  return (
+    <figcaption className="rv-byline">
+      <span className="rv-avatar" data-tone={index % 3} aria-hidden="true">{initials(r.name)}</span>
+      <span className="rv-who">
+        <strong>{r.name}</strong>
+        {r.place && <span>{r.place}</span>}
+      </span>
+      {r.href
+        ? <Link className="rv-journey" href={r.href}>{r.journey}</Link>
+        : <span className="rv-journey">{r.journey}</span>}
+    </figcaption>
+  );
+}
 
 /** Guest reviews as a slider: swipe on phones (with dots), arrows and three cards on larger screens. */
 export function ReviewsSlider({ reviews }: { reviews: ReviewCard[] }) {
@@ -30,21 +70,14 @@ export function ReviewsSlider({ reviews }: { reviews: ReviewCard[] }) {
   return (
     <div className="rv">
       <div className="rv-rail" ref={rail} aria-label="Guest reviews">
-        {reviews.map((r) => (
+        {reviews.map((r, i) => (
           <figure className="rv-card" key={r.id}>
             <div className="rv-top">
-              {r.rating ? (
-                <span className="rv-stars" aria-label={`${r.rating} out of 5`}>
-                  {Array.from({ length: 5 }, (_, i) => <Star key={i} size={16} aria-hidden="true" fill={i < r.rating! ? "currentColor" : "none"} />)}
-                </span>
-              ) : <span />}
-              {r.sample && <span className="rv-sample">Sample</span>}
+              {r.rating ? <Stars rating={r.rating} /> : <span />}
+              {r.month && <span className="rv-month">{r.month}</span>}
             </div>
             <blockquote>&ldquo;{r.text}&rdquo;</blockquote>
-            <figcaption>
-              <strong>{r.name}{r.place ? `, ${r.place}` : ""}</strong>
-              <span>{r.journey}{r.month && !r.sample ? ` · ${r.month}` : ""}</span>
-            </figcaption>
+            <ReviewByline r={r} index={i} />
           </figure>
         ))}
       </div>

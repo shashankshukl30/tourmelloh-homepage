@@ -3,7 +3,7 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { IndexOpening } from "@/components/catalog/index-opening";
 import { EnquiryBand } from "@/components/catalog/blocks";
-import { ReviewsSlider } from "@/components/reviews-slider";
+import { ReviewsWall } from "@/components/reviews-wall";
 import { shownReviews } from "@/components/reviews-section";
 import { WhatsAppPageLink } from "@/components/whatsapp-page-link";
 import { WhatsAppIcon } from "@/components/whatsapp-link";
@@ -28,8 +28,7 @@ export default function ReviewsPage() {
       <main id="main" className="cat-page">
         <IndexOpening trail={[{ name: "Home", path: "/" }, { name: "Reviews", path: "/reviews" }]} label="GUEST REVIEWS" display={["In their", "own words."]} text="Reviews from guests who travelled with us, shared with their permission." />
         <section className="cat-section tour-width" aria-label="Reviews" style={{ paddingTop: 0 }}>
-          {list.some((r) => r.sample) && <p className="rv-preview-note">Preview only: sample reviews showing the design. They are replaced by real guest reviews and never appear on tourmelloh.com.</p>}
-          <ReviewsSlider reviews={list} />
+          <ReviewsWall reviews={list} />
           <div className="rv-share">
             <p>Travelled with us? We would love to hear how it went.</p>
             <WhatsAppPageLink className="cat-whatsapp"><WhatsAppIcon size={18} /> Share your review</WhatsAppPageLink>

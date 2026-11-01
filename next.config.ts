@@ -33,6 +33,8 @@ const csp = [
 
 const config: NextConfig = {
   poweredByHeader: false,
+  // Inlined into client code too: the menu shows the reviews link on tourmelloh.com only once real reviews exist.
+  env: { TM_INDEXED: String(production || process.env.NEXT_PUBLIC_INDEX === "1") },
   devIndicators: false,
   images: { qualities: [75, 82, 86, 88, 90], formats: ["image/avif", "image/webp"] },
   turbopack: { root: process.cwd() },

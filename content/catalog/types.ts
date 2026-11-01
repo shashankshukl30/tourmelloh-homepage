@@ -277,6 +277,8 @@ export type Review = {
   name: string;
   place?: string;
   journey: string;
+  /** The package travelled (P01 to P20): links the review to its page and drives the review filters. */
+  journeyId?: string;
   text?: string;
   photo?: string;
   video?: { src: string; captions: string; poster: string };

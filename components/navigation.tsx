@@ -4,14 +4,17 @@ import { useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { ArrowUpRight, ChevronDown, Heart, Menu, Search, X } from "lucide-react";
+import { ArrowUpRight, ChevronDown, Heart, Menu, Search, Star, X } from "lucide-react";
 import { LayoutGroup, motion, useReducedMotion } from "framer-motion";
 import { MegaPanel, type MenuId } from "@/components/nav-mega";
 import { experiencesMenu, journeysMenu, servicesMenu } from "@/content/catalog/nav";
+import { hasPublishedReviews } from "@/content/catalog/reviews";
 import { useWishlist } from "@/components/wishlist/provider";
 
 if (typeof window !== "undefined") window.history.scrollRestoration = "manual";
 const MotionLink = motion.create(Link);
+/** Preview builds always show the reviews page; tourmelloh.com shows it once a real review is live. */
+const showReviews = hasPublishedReviews || process.env.TM_INDEXED !== "true";
 
 type Item = { name: string; href: string; menu?: MenuId };
 /** Exactly four primary sections (brief v5, section 2). */
@@ -170,6 +173,11 @@ export function Navigation({ tone = "paper" }: { tone?: "overlay" | "paper" }) {
             <p>Comfort tiers</p>
             {journeysMenu[2].links.slice(0, 3).map((l) => <Link key={l.href} href={l.href} onClick={() => setOpen(false)}>{l.name}</Link>)}
           </div>
+          {showReviews && (
+            <Link href="/reviews" className="mobile-search-link" onClick={() => setOpen(false)}>
+              <Star size={20} /><span>Guest reviews</span><ArrowUpRight />
+            </Link>
+          )}
           <Link href="/your-journey" className="mobile-search-link" onClick={() => setOpen(false)}>
             <Heart size={20} /><span>My Journey{ready && count ? ` (${count})` : ""}</span><ArrowUpRight />
           </Link>
