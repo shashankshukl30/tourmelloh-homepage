@@ -5,9 +5,9 @@
 const { chromium } = require("playwright-core");
 
 const base = process.argv[2] || "http://127.0.0.1:3108";
-const widths = (process.argv[3] || "360,390,414,768,1024,1440").split(",").map(Number);
+const widths = (process.argv[3] || "320,360,375,390,414,768,1024,1440").split(",").map(Number);
 // Real device heights, so "fits on one screen" is tested honestly.
-const HEIGHT = { 360: 740, 390: 844, 414: 896, 768: 1024, 1024: 768, 1440: 900 };
+const HEIGHT = { 320: 640, 375: 812, 360: 740, 390: 844, 414: 896, 768: 1024, 1024: 768, 1440: 900 };
 
 (async () => {
   const browser = await chromium.launch({ channel: "chrome" }).catch(() => chromium.launch());
@@ -68,6 +68,22 @@ const HEIGHT = { 360: 740, 390: 844, 414: 896, 768: 1024, 1024: 768, 1440: 900 }
           const range = document.createRange(); range.selectNodeContents(el);
           const lines = new Set([...range.getClientRects()].filter((r) => r.width > 1).map((r) => Math.round(r.top / 6))).size;
           if (lines > 1 && el.textContent.trim().length < 90) out.push(`wrapped label "${el.textContent.trim().slice(0, 30)}"`);
+        }
+        // 3b. Button labels never wrap onto a second line.
+        for (const el of document.querySelectorAll("button, a.tour-primary, a.cat-whatsapp, .wl-button, .tl-add, .tl-quote, .pk-primary, .pk-quote, .dock-bar a, .hero-explore, .header-cta, .cat-band-link, .dep-form summary")) {
+          if (!vis(el) || el.closest(".mega, .mobile-nav, .faq-list, details > summary.dd-sum") || el.matches(".dd-sum, .tier-more > summary")) continue;
+          // Count lines from text nodes only (icons and small number spans are not lines); rects that overlap vertically share a line.
+          const rects = [];
+          const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+          for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+            if (!n.textContent.trim()) continue;
+            const range = document.createRange(); range.selectNodeContents(n);
+            for (const r of range.getClientRects()) if (r.width > 2 && r.height > 6) rects.push(r);
+          }
+          rects.sort((p, q) => p.top - q.top);
+          let lines = 0, bottom = -Infinity;
+          for (const r of rects) { if (r.top >= bottom - 2) { lines++; bottom = r.bottom; } else bottom = Math.max(bottom, r.bottom); }
+          if (lines > 1 && el.textContent.trim().length < 40) out.push(`wrapped button "${el.textContent.trim().slice(0, 30)}"`);
         }
         // 4. Clipped text in buttons, pills and selects.
         for (const el of document.querySelectorAll("button, .tour-primary, .cat-whatsapp, .wl-button, .dock-bar a, select, .tier-tabs button, .enquiry-pills button")) {

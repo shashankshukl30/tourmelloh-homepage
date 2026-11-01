@@ -37,7 +37,7 @@ export function Hero() {
         <div className="hero-content" ref={content}>
           <h1 id="hero-heading"><span className="hero-title-line">Your travel and destination partners</span>{" "}<span className="hero-title-line"><em>in Varanasi and beyond.</em></span></h1>
           <div className="hero-bottom">
-            <p>Packages, services and experiences through Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya.<br className="desktop-break" /> Choose your comfort, personalise it, and receive one complete quotation.</p>
+            <p>Packages, services and experiences through Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya.<br className="desktop-break" /><span className="hero-more"> Choose your comfort, personalise it, and receive one complete quotation.</span></p>
             <a className="hero-explore" href="#packages" style={{ color: "var(--ink)" }}>
               See the packages <span className="round-arrow"><ArrowDown size={20} /></span>
             </a>

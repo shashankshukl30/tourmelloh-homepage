@@ -34,7 +34,7 @@ export default async function Page({ params }: Props) {
       <main id="main" className="cat-page">
         <PageOpening
           trail={[{ name: "Home", path: "/" }, { name: "Guides", path: "/guides" }, { name: g.name, path }]}
-          label={`${g.state.toUpperCase()} · DESTINATION GUIDE`}
+          label={`${g.state.toUpperCase()} · GUIDE`}
           display={g.display}
           lead={g.intro}
           photo={g.hero}

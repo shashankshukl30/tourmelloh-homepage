@@ -12,7 +12,7 @@ import { anchor } from "@/content/catalog/nav";
 import { absolute } from "@/lib/site";
 
 /** Kicker labels stay on one line on a 360px phone. */
-const SHORT: Record<string, string> = { "Family, senior & accessible travel": "Family & accessible travel" };
+const SHORT: Record<string, string> = { "Family, senior & accessible travel": "Family & accessible travel", "Hosts, guides & companions": "Hosts & guides" };
 
 /** One template for a service (S01–S34) or an experience (E01–E34). */
 export function ItemDetail({ item }: { item: Service | Experience }) {
