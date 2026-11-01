@@ -279,6 +279,12 @@ export type Review = {
   journey: string;
   /** The package travelled (P01 to P20): links the review to its page and drives the review filters. */
   journeyId?: string;
+  /** Direct link for the package label when it is a collection rather than one package. */
+  href?: string;
+  /** "testimonial": a longer story featured at the top of /reviews. "review": a short star-rated review. */
+  format?: "testimonial" | "review";
+  /** The guest's headline. */
+  title?: string;
   text?: string;
   photo?: string;
   video?: { src: string; captions: string; poster: string };

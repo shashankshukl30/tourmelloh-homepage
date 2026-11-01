@@ -23,7 +23,8 @@ export function shownReviews(): ReviewCard[] {
     const j = r.journeyId ? journeys.find((x) => x.id === r.journeyId) : undefined;
     return {
       id: r.id, name: r.name, place: r.place, text: r.text!, rating: r.rating, month: r.month,
-      journey: r.journey, href: j ? `/journeys/${j.slug}` : undefined, group: groupOf(r.journeyId),
+      journey: r.journey, href: r.href ?? (j ? `/journeys/${j.slug}` : undefined), group: groupOf(r.journeyId),
+      title: r.title, format: r.format,
     };
   });
 }
@@ -37,7 +38,7 @@ export function ReviewsSection() {
         <SectionIntro id="reviews-heading" label="GUEST REVIEWS" display={["In their", "own words."]} />
         <div>
           <p>What guests say about travelling with Tourmelloh: the planning, the people on the ground and the days themselves.</p>
-          <Link className="tour-text-link" href="/reviews">Read all {list.length} reviews <ArrowUpRight size={16} aria-hidden="true" /></Link>
+          <Link className="tour-text-link" href="/reviews">Read all testimonials and reviews <ArrowUpRight size={16} aria-hidden="true" /></Link>
         </div>
       </div>
       <ReviewsSlider reviews={list.slice(0, 8)} />

@@ -1,55 +1,59 @@
 import type { Review } from "./types";
 
 /**
- * Genuine guest reviews, each with recorded publication consent, go here with status "published"
- * and no `sample` flag. The homepage slider, the /reviews page and the menu link appear on
- * tourmelloh.com as soon as one exists.
+ * Guest testimonials and reviews, as supplied by Tourmelloh for publication on 2026-11-01.
+ * Wording is the client's; only an obvious typo was corrected. Add new ones with status
+ * "published" and the date the client (or guest) approved publication in consent.recordedOn.
  *
- * The SAMPLE entries below show the client the finished design on preview builds only. They are
- * status "draft" + sample: true: production never renders them and the validator refuses to publish
- * them. Delete them when the real reviews are in.
+ * format "testimonial": a longer story with a headline, featured at the top of /reviews.
+ * format "review": a short star-rated review, counted in the rating summary.
  */
-const consentPending = { recordedOn: "", scope: "" };
-const sample = { sample: true, status: "draft", kind: "written", consent: consentPending } as const;
+const supplied = { status: "published", kind: "written", consent: { recordedOn: "2026-11-01", scope: "Supplied by Tourmelloh for tourmelloh.com" } } as const;
 
 export const reviews: Review[] = [
-  { ...sample, id: "SAMPLE-01", order: 1, rating: 5, month: "October 2026", journeyId: "P05", journey: "Varanasi and Ayodhya Pilgrimage",
-    name: "Ritika S.", place: "Mumbai",
-    text: "We took my in-laws to Ayodhya and Kashi for their fortieth anniversary. The darshan timings were planned around their knees, not around a checklist, and the car was always waiting close to the gate. My mother-in-law still talks about the Sarayu aarti." },
-  { ...sample, id: "SAMPLE-02", order: 2, rating: 5, month: "February 2026", journeyId: "P01", journey: "First Impressions of Varanasi",
-    name: "James & Helen W.", place: "Manchester, UK",
-    text: "Our first time in India, and we were nervous about Varanasi. We needn't have been. We were met at the airport, the dawn boat was ours alone, and every evening someone checked whether the next day's plan still suited us." },
-  { ...sample, id: "SAMPLE-03", order: 3, rating: 5, month: "March 2026", journeyId: "P09", journey: "A Journey of Remembrance",
-    name: "Suresh I.", place: "Hyderabad",
-    text: "We came for my father's pind daan in Varanasi and Gaya. The priest, the samagri and the timings were arranged in both cities, and each step was explained to us the evening before. At a hard time, we only had to be present." },
-  { ...sample, id: "SAMPLE-04", order: 4, rating: 5, month: "January 2026", journeyId: "P14", journey: "Awakening & the First Teaching",
-    name: "Mei L.", place: "Singapore",
-    text: "Bodh Gaya before sunrise, ahead of the crowds, was the reason we came. Our guide knew the sites deeply and never hurried our meditation. The written quotation matched the trip down to the last transfer." },
-  { ...sample, id: "SAMPLE-05", order: 5, rating: 5, month: "September 2026", journeyId: "P02", journey: "Varanasi at Your Pace",
-    name: "Rajeev & Anjali T.", place: "New Delhi",
-    text: "My father uses a walker, and that shaped every part of the plan: ramps checked in advance, a wheelchair at the temple, rest every afternoon. It was the first trip in years where he wasn't exhausted by noon." },
-  { ...sample, id: "SAMPLE-06", order: 6, rating: 4, month: "December 2025", journeyId: "P03", journey: "The Many Moods of Varanasi",
-    name: "Aarav & Nisha K.", place: "Bengaluru",
-    text: "Loved the breakfast walk and the old-city lanes. The one miss was traffic on the way to Sarnath, which cost us an hour, but our coordinator moved lunch so we still had time in the museum. Would book again." },
-  { ...sample, id: "SAMPLE-07", order: 7, rating: 5, month: "November 2025", journeyId: "P04", journey: "Varanasi and Prayagraj Pilgrimage",
-    name: "Kavita M.", place: "Pune",
-    text: "The Sangam boat at sunrise and a calm, unhurried darshan at Kashi Vishwanath. The hotels were exactly the ones named in our quote, and small things, like a car seat for our daughter, were there without asking twice." },
-  { ...sample, id: "SAMPLE-08", order: 8, rating: 5, month: "October 2025", journeyId: "P11", journey: "Sarnath and Kushinagar Buddhist Journey",
-    name: "Daniel R.", place: "Melbourne, Australia",
-    text: "Sarnath to Kushinagar is a long drive, and they made it easy: a comfortable car, a careful driver and a lunch stop that turned out to be a highlight. Kushinagar at dusk was deeply moving." },
-  { ...sample, id: "SAMPLE-09", order: 9, rating: 5, month: "January 2026", journeyId: "P03", journey: "The Many Moods of Varanasi",
-    name: "Ananya R.", place: "Kolkata",
-    text: "I travelled alone and felt looked after without feeling watched. A woman host joined me for the evening aarti and the lanes, and the hotel they chose was quiet, safe and a short walk from the ghats." },
-  { ...sample, id: "SAMPLE-10", order: 10, rating: 5, month: "July 2026", journeyId: "P18", journey: "Ayodhya Pilgrimage",
-    name: "Pooja V.", place: "Ahmedabad",
-    text: "Ram Mandir darshan with my parents went smoothly from start to finish. We were told exactly what to carry and where to leave our phones, which saved a lot of stress at security." },
-  { ...sample, id: "SAMPLE-11", order: 11, rating: 4, month: "April 2026", journeyId: "P06", journey: "The Sacred Confluence",
-    name: "Neha & Karan B.", place: "Gurugram",
-    text: "Three cities in six days sounded rushed, but the pacing worked. The April afternoons were hot, so we would travel earlier in the year next time. That is on us, not them. Everything they promised, they delivered." },
-  { ...sample, id: "SAMPLE-12", order: 12, rating: 5, month: "March 2026", journeyId: "P15", journey: "Sarnath, Bodh Gaya, Rajgir and Nalanda",
-    name: "Sarah & Tom H.", place: "Toronto, Canada",
-    text: "Nalanda and Rajgir were the surprise of the trip. Our guide brought the ruins to life, and every transfer between Uttar Pradesh and Bihar ran without a hitch." },
+  // Testimonials
+  { ...supplied, id: "T01", format: "testimonial", order: 1, title: "A peaceful Varanasi getaway",
+    name: "Ramesh K.", journey: "Short stays: 2 to 3 nights, Standard package", href: "/journeys/first-impressions-of-varanasi",
+    text: "Booking our short 3-night stay in Varanasi & Sarnath through Tourmelloh was the best decision we made. From the seamless private car arrangements to the handpicked stays, everything was meticulously planned. We didn't have to worry about a single detail, allowing us to just immerse ourselves in the spiritual essence of the Ganges." },
+  { ...supplied, id: "T02", format: "testimonial", order: 2, title: "Pilgrimage made easy for my parents",
+    name: "Sunita S.", journey: "SHRAVAN package, Prayagraj & Ayodhya", href: "/journeys/shravan",
+    text: "I booked the SHRAVAN package for my aging parents to visit Prayagraj and Ayodhya, and I couldn’t be more grateful. The team ensured they had an incredibly comfortable AC Innova, a thoughtful guide, and accessible 4-star stays. They felt respected, safe, and deeply cared for throughout the entire spiritual journey." },
+  { ...supplied, id: "T03", format: "testimonial", order: 3, title: "Comfort and safety for a solo woman",
+    name: "Priya M.", journey: "Her Own Way, Varanasi & Sarnath", href: "/journeys/womens-journeys",
+    text: "As a solo female traveler, safety is my top priority. My 'Her Own Way' trip to Varanasi & Sarnath was an empowering and secure experience. Having a female host made a world of difference, and the itinerary offered the perfect blend of local insights and personal space. A beautiful, hassle-free journey." },
+  { ...supplied, id: "T04", format: "testimonial", order: 4, title: "The Footsteps of the Buddha",
+    name: "David L.", journey: "In the Footsteps of the Buddha, 6 nights or more", href: "/journeys/buddhist-journeys",
+    text: "Our 6-night journey through Bodh Gaya, Rajgir & Nalanda was flawless. Tracing the Buddhist heritage with knowledgeable guides who truly understood the history made this more than just a tour—it was a deeply moving experience. Every accommodation and transfer was handled with absolute precision." },
+  { ...supplied, id: "T05", format: "testimonial", order: 5, title: "Spiritual family journey",
+    name: "The Sharma Family", journey: "Together package, Gaya & Pind Daan, Luxury tier", href: "/journeys/family-journeys",
+    text: "Organizing a multi-generational trip for our family to Gaya for Pind Daan seemed daunting, but the 'Together' package made it effortless. Our luxury SUV was spacious, the 5-star stays were top-notch, and the priests and guides they arranged in Gaya made our rituals seamless. Exceptional service from start to finish." },
+
+  // Reviews
+  { ...supplied, id: "R01", format: "review", order: 11, rating: 5, title: "Spiritual peace in Varanasi",
+    name: "Arpita G.", journey: "Stillness by the Ganges", href: "/journeys/wellness-in-varanasi",
+    text: "A truly rejuvenating experience with the 'Stillness by the Ganges' wellness package. The morning boat ride and private rituals in Varanasi & Sarnath were unforgettable." },
+  { ...supplied, id: "R02", format: "review", order: 12, rating: 5, title: "Shravan package for parents is a blessing!",
+    name: "Vijay R.", journey: "SHRAVAN, Prayagraj & Ayodhya", href: "/journeys/shravan",
+    text: "Sent my parents on the Prayagraj & Ayodhya pilgrimage. Exceptional planning, respectful drivers, and very comfortable stays. High recommendation for seniors." },
+  { ...supplied, id: "R03", format: "review", order: 13, rating: 5, title: "Flawless Gaya & Pind Daan tour",
+    name: "Amit T.", journey: "Gaya & Pind Daan", href: "/journeys/journey-of-remembrance",
+    text: "They handled our visa assistance, local coordination, and rituals for the Pind Daan in Gaya perfectly. Very respectful and highly organized team." },
+  { ...supplied, id: "R04", format: "review", order: 14, rating: 4, title: "Enlightening journey",
+    name: "Sarah J.", journey: "Bodh Gaya & Nalanda", href: "/journeys/buddhist-journeys",
+    text: "The historical and spiritual tour of Bodh Gaya & Nalanda was beautifully paced. Deducting one star only because of a small delay with our hotel check-in in Rajgir, but the 24/7 support team resolved it immediately." },
+  { ...supplied, id: "R05", format: "review", order: 15, rating: 5, title: "The perfect short stay",
+    name: "Rajesh M.", journey: "Varanasi & Sarnath, Standard package", href: "/journeys/first-impressions-of-varanasi",
+    text: "We did a quick 3-day trip to Varanasi & Sarnath. The standard package with the private car made exploring the crowded ghats and historic sites incredibly easy." },
+  { ...supplied, id: "R06", format: "review", order: 16, rating: 5, title: "Highly recommend Her Own Way!",
+    name: "Neha P.", journey: "Her Own Way, Kushinagar & Shravasti", href: "/journeys/womens-journeys",
+    text: "I booked the Kushinagar & Shravasti tour under the women-only package. Incredible female host, safe transport, and deep spiritual insights. I will definitely book through them again." },
+  { ...supplied, id: "R07", format: "review", order: 17, rating: 4, title: "Well-organized Spiritual Tour",
+    name: "Srikant B.", journey: "Chitrakoot & Naimisharanya",
+    text: "Our Chitrakoot & Naimisharanya trip was excellent. The itinerary was packed but we never felt rushed. Tourmelloh took the stress out of planning these off-the-beaten-path locations." },
+  { ...supplied, id: "R08", format: "review", order: 18, rating: 5, title: "Memory of a lifetime",
+    name: "The Kapoors", journey: "Together, Ayodhya & Prayagraj", href: "/journeys/family-journeys",
+    text: "Our family 'Together' trip to Ayodhya & Prayagraj was perfect. The premium AC Innova and comfortable accommodations made traveling with kids and elders completely stress-free." },
 ];
 
-/** True once a real, consented review is live. The menu link on tourmelloh.com waits for this. */
+/** True once a real, consented review is live: the menu, footer and homepage show reviews from then on. */
 export const hasPublishedReviews = reviews.some((r) => !r.sample && r.status === "published" && r.consent.recordedOn);

@@ -122,7 +122,7 @@ export function HomeTiers() {
           </li>
         ))}
       </ol>
-      <Link className="tour-primary home-tiers-cta" href="/tiers#compare" style={{ color: "var(--paper)" }}>Compare Standard, Premium &amp; Luxury <ArrowUpRight size={17} aria-hidden="true" /></Link>
+      <Link className="tour-primary home-tiers-cta" href="/tiers#compare" style={{ color: "var(--paper)" }}><span className="label-long">Compare Standard, Premium &amp; Luxury</span><span className="label-short">Compare the three tiers</span> <ArrowUpRight size={17} aria-hidden="true" /></Link>
     </section>
   );
 }

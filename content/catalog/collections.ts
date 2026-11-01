@@ -255,7 +255,7 @@ export const collections: Collection[] = [
     ],
     offers: [],
     journeys: ["P11", "P12", "P13", "P14", "P15", "P16"],
-    cta: "Explore the Buddhist Journeys",
+    cta: "Plan a Buddhist Journey",
     faqs: [
       {
         q: "What is the difference between the Uttar Pradesh and Bihar journeys?",

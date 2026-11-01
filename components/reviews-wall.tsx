@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ReviewByline, Stars, type ReviewCard } from "@/components/reviews-slider";
+import { ReviewBody, ReviewByline, Stars, type ReviewCard } from "@/components/reviews-slider";
 
 /** The /reviews page: rating summary, filters by kind of journey, and every review as a card wall. */
 export function ReviewsWall({ reviews }: { reviews: ReviewCard[] }) {
@@ -48,11 +48,7 @@ export function ReviewsWall({ reviews }: { reviews: ReviewCard[] }) {
       <div className="rw-grid" key={group ?? "all"}>
         {shown.map((r, i) => (
           <figure className="rv-card rw-card" key={r.id}>
-            <div className="rv-top">
-              {r.rating ? <Stars rating={r.rating} /> : <span />}
-              {r.month && <span className="rv-month">{r.month}</span>}
-            </div>
-            <blockquote>&ldquo;{r.text}&rdquo;</blockquote>
+            <ReviewBody r={r} />
             <ReviewByline r={r} index={i} />
           </figure>
         ))}

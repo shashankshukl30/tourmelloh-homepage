@@ -33,6 +33,7 @@ const columns = [
     title: "Tourmelloh",
     links: [
       { name: "Our story", href: "/about" },
+      { name: "Guest reviews", href: "/reviews" },
       { name: "Contact", href: "/contact" },
       { name: "Travel partners", href: "/partners" },
     ],

@@ -14,6 +14,8 @@ export type ReviewCard = {
   text: string;
   rating?: number;
   month?: string;
+  title?: string;
+  format?: "testimonial" | "review";
 };
 
 export function Stars({ rating, size = 16 }: { rating: number; size?: number }) {
@@ -45,6 +47,20 @@ export function ReviewByline({ r, index }: { r: ReviewCard; index: number }) {
   );
 }
 
+/** Stars (reviews) or a "Testimonial" tag, then the guest's headline and words. */
+export function ReviewBody({ r }: { r: ReviewCard }) {
+  return (
+    <>
+      <div className="rv-top">
+        {r.rating ? <Stars rating={r.rating} /> : <span className="rv-kind">Testimonial</span>}
+        {r.month && <span className="rv-month">{r.month}</span>}
+      </div>
+      {r.title && <h3 className="rv-title">{r.title}</h3>}
+      <blockquote>&ldquo;{r.text}&rdquo;</blockquote>
+    </>
+  );
+}
+
 /** Guest reviews as a slider: swipe on phones (with dots), arrows and three cards on larger screens. */
 export function ReviewsSlider({ reviews }: { reviews: ReviewCard[] }) {
   const rail = useRef<HTMLDivElement>(null);
@@ -72,11 +88,7 @@ export function ReviewsSlider({ reviews }: { reviews: ReviewCard[] }) {
       <div className="rv-rail" ref={rail} aria-label="Guest reviews">
         {reviews.map((r, i) => (
           <figure className="rv-card" key={r.id}>
-            <div className="rv-top">
-              {r.rating ? <Stars rating={r.rating} /> : <span />}
-              {r.month && <span className="rv-month">{r.month}</span>}
-            </div>
-            <blockquote>&ldquo;{r.text}&rdquo;</blockquote>
+            <ReviewBody r={r} />
             <ReviewByline r={r} index={i} />
           </figure>
         ))}
