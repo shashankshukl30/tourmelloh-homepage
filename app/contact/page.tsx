@@ -7,7 +7,7 @@ import { WhatsAppIcon, whatsappHref } from "@/components/whatsapp-link";
 import { brand, pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta({
-  title: "Contact Tourmelloh | Travel and Destination Partners, Varanasi",
+  title: "Contact Tourmelloh | Travel Destination Partner, Varanasi",
   description: "Call, WhatsApp or email Tourmelloh in Varanasi about journeys, services, experiences or a wedding in Kashi. We reply with questions and a proposal.",
   path: "/contact",
   image: "varanasi-boats-evening",

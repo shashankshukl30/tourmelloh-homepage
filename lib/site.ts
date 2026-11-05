@@ -40,7 +40,7 @@ export function pageMeta({
   image?: MediaKey;
   type?: "website" | "article";
 }): Metadata {
-  const og = image ? { url: `/og/${image}.jpg`, width: 1200, height: 630, alt: media[image].alt } : { url: "/og-tourmelloh.jpg", width: 1200, height: 630, alt: brand.line };
+  const og = image ? { url: `/og/${image}.jpg`, width: 1200, height: 630, alt: media[image].alt } : { url: "/og-tourmelloh-v2.jpg", width: 1200, height: 630, alt: brand.line };
   return {
     title: { absolute: title },
     description,
@@ -77,8 +77,8 @@ export const agencyLd = {
   "@id": `${SITE_URL}/#agency`,
   name: brand.name,
   url: SITE_URL,
-  logo: absolute("/brand/tourmelloh-logo.png"),
-  image: absolute("/og-tourmelloh.jpg"),
+  logo: absolute("/brand/tourmelloh-logo-google.png"),
+  image: absolute("/og-tourmelloh-v2.jpg"),
   description: `${brand.descriptor}. ${brand.line}.`,
   slogan: brand.descriptor,
   telephone: brand.phoneE164,

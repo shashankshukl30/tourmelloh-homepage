@@ -94,8 +94,8 @@ export function Navigation({ tone = "paper" }: { tone?: "overlay" | "paper" }) {
                   window.scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
                 }
               }}>
-              <Image className="brand-logo" src={solid ? "/brand/tourmelloh-logo.svg" : "/brand/tourmelloh-logo-ivory.svg"}
-                alt="Tourmelloh" width={220} height={52} unoptimized />
+              <Image className="brand-logo" src={solid ? "/brand/tourmelloh-wordmark.svg" : "/brand/tourmelloh-wordmark-cream.svg"}
+                alt="Tourmelloh" width={233} height={40} unoptimized priority />
             </Link>
             <LayoutGroup id={groupId}>
               <nav className="desktop-nav" aria-label="Main navigation" onPointerLeave={() => setHovered(null)}>

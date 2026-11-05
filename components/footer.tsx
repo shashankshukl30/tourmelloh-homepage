@@ -54,9 +54,8 @@ export function Footer() {
         <div className="cf-top">
           <div className="cf-brand">
             <Link href="/" className="footer-brand" aria-label="Tourmelloh home">
-              <Image src="/brand/tourmelloh-logo.svg" alt="Tourmelloh" width={240} height={58} unoptimized />
+              <Image src="/brand/tourmelloh-lockup-full.svg" alt="Tourmelloh, Travel Destination Partner. Varanasi, India, Beyond" width={270} height={95} unoptimized />
             </Link>
-            <p className="cf-descriptor">{brand.descriptor}</p>
             <p className="cf-line">Stays, transport, experiences and personal assistance in Varanasi and beyond.</p>
             <ul className="cf-contact">
               <li><Phone size={17} aria-hidden="true" /><a href={brand.phoneHref}>{brand.phone}</a></li>

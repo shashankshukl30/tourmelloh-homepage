@@ -1,0 +1,40 @@
+{
+ "source": "TOURMELLOH BRAND GUIDELINES.pdf (client, designmonkey.in), cover page vector paths",
+ "colours": {
+  "green": "#093629",
+  "copper": "#B96024",
+  "cream": "#FFF3E3"
+ },
+ "exports": {
+  "tourmelloh-wordmark.svg": {
+   "width_pt": 385.77,
+   "height_pt": 66.16
+  },
+  "tourmelloh-wordmark-cream.svg": {
+   "width_pt": 385.77,
+   "height_pt": 66.16
+  },
+  "tourmelloh-lockup.svg": {
+   "width_pt": 385.77,
+   "height_pt": 91.74
+  },
+  "tourmelloh-lockup-cream.svg": {
+   "width_pt": 385.77,
+   "height_pt": 91.74
+  },
+  "tourmelloh-lockup-full.svg": {
+   "width_pt": 385.77,
+   "height_pt": 135.43
+  },
+  "tourmelloh-lockup-full-cream.svg": {
+   "width_pt": 385.77,
+   "height_pt": 135.43
+  }
+ },
+ "icon": "tourmelloh-icon.svg",
+ "drawings": {
+  "wordmark": 10,
+  "tagline": 1,
+  "places": 5
+ }
+}

@@ -34,11 +34,11 @@ const instrument = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Tourmelloh | Travel and Destination Partners in Varanasi",
+  title: "Tourmelloh | Your Travel Destination Partner in Varanasi",
   description: brand.line,
   applicationName: brand.name,
   robots: isProduction ? { index: true, follow: true } : { index: false, follow: false },
-  icons: { icon: "/brand/tourmelloh-favicon.svg", apple: "/brand/tourmelloh-favicon.png" },
+  icons: { icon: [{ url: "/brand/tourmelloh-icon.svg", type: "image/svg+xml" }, { url: "/brand/tourmelloh-icon-32.png", sizes: "32x32", type: "image/png" }], apple: "/brand/tourmelloh-icon-180.png" },
   verification: {
     google: process.env.GOOGLE_SITE_VERIFICATION,
     other: process.env.BING_SITE_VERIFICATION ? { "msvalidate.01": process.env.BING_SITE_VERIFICATION } : undefined,

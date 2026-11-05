@@ -1,7 +1,7 @@
 /** Who Tourmelloh is and how to reach them. Client-safe: no catalogue imports. */
 export const brand = {
   name: "Tourmelloh",
-  descriptor: "Travel and Destination Partners",
+  descriptor: "Travel Destination Partner",
   line: "Your travel and destination partners in Varanasi and beyond",
   phone: "+91 63910 85555",
   phoneHref: "tel:+916391085555",

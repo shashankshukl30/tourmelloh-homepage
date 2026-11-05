@@ -12,7 +12,7 @@ export const pages: PageCopy[] = [
     display: ["Our story,", "from Varanasi."],
     hero: "varanasi-old-city-lanes",
     lead:
-      "Tourmelloh: Travel and Destination Partners, based in Varanasi. We bring together stays, transport, local experiences, rituals and personal assistance for journeys in Kashi and the pilgrimage region around it, and we plan weddings in the city.",
+      "Tourmelloh: your travel destination partner, based in Varanasi. We bring together stays, transport, local experiences, rituals and personal assistance for journeys in Kashi and the pilgrimage region around it, and we plan weddings in the city.",
     sections: [
       {
         heading: "Our story",
@@ -65,7 +65,7 @@ export const pages: PageCopy[] = [
       },
     ],
     seo: {
-      title: "About Tourmelloh: Travel and Destination Partners, Varanasi",
+      title: "About Tourmelloh: Travel Destination Partner in Varanasi",
       description:
         "Tourmelloh was founded in Varanasi by people from the city's hospitality industry to bring stays, transport, experiences and assistance together for guests.",
     },

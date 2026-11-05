@@ -13,7 +13,7 @@ import { media } from "@/content/catalog/media";
 import { pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta({
-  title: "Tourmelloh | Travel and Destination Partners in Varanasi",
+  title: "Tourmelloh | Your Travel Destination Partner in Varanasi",
   description:
     "Varanasi travel company planning packages, services and experiences across Kashi, Prayagraj, Ayodhya, Gaya and Bodh Gaya, in Standard, Premium and Luxury.",
   path: "/",
