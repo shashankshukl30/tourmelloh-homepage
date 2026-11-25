@@ -2056,5 +2056,75 @@
   "page": "https://www.pexels.com/photo/woman-doing-yoga-near-sea-during-sunset-13044308/",
   "license": "https://www.pexels.com/license/",
   "pexelsId": 13044308
+ },
+ "varanasi-gulls-boat": {
+  "src": "/images/library/varanasi-gulls-boat-34322182.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "A family feeding migratory gulls from a boat on the Ganga in winter, Varanasi",
+  "by": "Pavan Prasad",
+  "page": "https://www.pexels.com/photo/seagulls-flying-over-ganges-river-in-varanasi-34322182/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 34322182
+ },
+ "varanasi-gulls-mist": {
+  "src": "/images/library/varanasi-gulls-mist-35645381.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "Migratory gulls around a boat on the misty Ganga at sunrise, Varanasi",
+  "by": "Pavan Prasad",
+  "page": "https://www.pexels.com/photo/serene-boat-ride-amidst-seagulls-on-misty-water-35645381/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 35645381
+ },
+ "varanasi-gull-feeding": {
+  "src": "/images/library/varanasi-gull-feeding-28587724.webp",
+  "width": 2600,
+  "height": 1950,
+  "alt": "A gull catching sev thrown from a boat on the Ganga, Varanasi",
+  "by": "Dev Choubey",
+  "page": "https://www.pexels.com/photo/dynamic-capture-of-seagulls-in-varanasi-waters-28587724/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 28587724
+ },
+ "varanasi-winter-fog": {
+  "src": "/images/library/varanasi-winter-fog-35665682.webp",
+  "width": 2600,
+  "height": 1595,
+  "alt": "A rowboat on the foggy Ganga on a winter morning, Varanasi",
+  "by": "Pavan Prasad",
+  "page": "https://www.pexels.com/photo/rowboat-on-foggy-ganges-river-in-varanasi-35665682/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 35665682
+ },
+ "varanasi-winter-boat-ride": {
+  "src": "/images/library/varanasi-winter-boat-ride-35665681.webp",
+  "width": 2600,
+  "height": 1671,
+  "alt": "Visitors on a morning boat ride on the misty Ganga in winter, Varanasi",
+  "by": "Pavan Prasad",
+  "page": "https://www.pexels.com/photo/tourists-enjoying-boat-ride-on-misty-river-35665681/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 35665681
+ },
+ "varanasi-aarti-night-wide": {
+  "src": "/images/library/varanasi-aarti-night-wide-39004187.webp",
+  "width": 2600,
+  "height": 1733,
+  "alt": "Evening Ganga aarti on the ghats of Varanasi, with boats gathered on the river",
+  "by": "Dipanjan Banerjee",
+  "page": "https://www.pexels.com/photo/nighttime-ganga-aarti-ritual-on-the-ghats-of-varanasi-39004187/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 39004187
+ },
+ "varanasi-diyas-dusk": {
+  "src": "/images/library/varanasi-diyas-dusk-8112549.webp",
+  "width": 1734,
+  "height": 2600,
+  "alt": "Diyas floating on the Ganga at dusk, Varanasi",
+  "by": "Rachel Claire",
+  "page": "https://www.pexels.com/photo/photo-of-the-light-reflecting-in-water-at-dusk-8112549/",
+  "license": "https://www.pexels.com/license/",
+  "pexelsId": 8112549
  }
 }

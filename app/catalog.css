@@ -169,7 +169,8 @@
 .cat-article-head .tour-lead { font-size: 19px; max-width: 60ch; }
 .cat-article-photo > div { position: relative; aspect-ratio: 16 / 8; border-radius: var(--radius-section); overflow: hidden; background: var(--paper-deep); }
 .cat-article-photo figcaption { margin-top: 12px; font-size: 14px; color: var(--muted); }
-.cat-article-body { display: grid; grid-template-columns: minmax(240px, .38fr) minmax(0, 1fr); gap: 8%; align-items: start; padding-block: 72px 40px; }
+.cat-article-body { display: grid; grid-template-columns: minmax(240px, .38fr) minmax(0, 1fr); column-gap: 8%; row-gap: 40px; align-items: start; padding-block: 72px 40px; }
+/* row-gap is fixed: a percentage row gap resolves against the grid's own height and pushed stacked text past the grid on phones. */
 .cat-takeaways { position: sticky; top: 130px; padding: 28px; border-radius: var(--radius-panel); background: var(--paper-deep); }
 .cat-takeaways h2 { font-size: 30px; letter-spacing: -.03em; margin-bottom: 10px; }
 .cat-takeaways .cat-list li { font-size: 15px; }
@@ -179,7 +180,7 @@
 .cat-article-text p { font-size: 18px; line-height: 1.85; }
 .cat-article-text p + p { margin-top: 18px; }
 @media (max-width: 900px) {
-  .cat-article-body { grid-template-columns: 1fr; padding-top: 48px; }
+  .cat-article-body { grid-template-columns: minmax(0, 1fr); padding-top: 48px; }
   .cat-takeaways { position: static; }
   .cat-article-photo > div { aspect-ratio: 4 / 3; border-radius: var(--radius-photo); }
 }

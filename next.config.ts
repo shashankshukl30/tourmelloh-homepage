@@ -67,6 +67,9 @@ const config: NextConfig = {
     return [
       { source: "/:path*", has: [{ type: "host", value: "www.tourmelloh.com" }], destination: "https://tourmelloh.com/:path*", permanent: true },
       { source: "/blog", destination: "/journal", permanent: true },
+      // The client's drafts name /blog/ URLs; the Journal is canonical.
+      { source: "/blog/siberian-birds-varanasi-winter", destination: "/journal/siberian-birds-varanasi-winter", permanent: true },
+      { source: "/blog/new-year-in-varanasi", destination: "/journal/new-year-in-varanasi", permanent: true },
       { source: "/blog/:slug", destination: "/journal", permanent: true },
       ...legacyRedirects,
       { source: "/cities", destination: "/guides", permanent: true },

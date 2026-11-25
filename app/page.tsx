@@ -20,7 +20,8 @@ export const metadata = pageMeta({
 });
 
 const MOMENTS = ["E13", "E19", "E08", "E22"];
-const READING = ["planning-a-first-kashi-visit", "how-journey-coordination-works", "arranging-a-comfortable-trip-for-parents"];
+// Seasonal posts first while they are timely (winter 2026-27).
+const READING = ["new-year-in-varanasi", "siberian-birds-varanasi-winter", "planning-a-first-kashi-visit"];
 
 /** Packages grouped the way guests ask for them: Kashi and the pilgrim roads, the Buddhist circuit, ancestral rites. */
 function groupPackages(list: Journey[]): PackageGroup[] {

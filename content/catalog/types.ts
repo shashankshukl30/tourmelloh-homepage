@@ -265,9 +265,28 @@ export type Article = {
   hero: MediaKey;
   journeys: JourneyId[];
   items: ItemId[];
-  sections: { heading: string; paragraphs: string[] }[];
+  sections: ArticleSection[];
   takeaways: string[];
   seo: Seo;
+  /** ISO date, shown in the byline and sent to Google as datePublished. */
+  published?: string;
+  /** Rendered as a question list and FAQPage structured data. */
+  faqs?: Faq[];
+  /** Closing buttons. `whatsapp: true` opens WhatsApp with the article named in the message. */
+  actions?: { label: string; href?: string; whatsapp?: boolean }[];
+};
+
+/**
+ * One article section. Paragraphs, points, steps and after-paragraphs support inline
+ * `**bold**` and `[label](/path)` links.
+ */
+export type ArticleSection = {
+  heading: string;
+  paragraphs: string[];
+  points?: string[];
+  steps?: string[];
+  after?: string[];
+  image?: MediaKey;
 };
 
 export type Review = {

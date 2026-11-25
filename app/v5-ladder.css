@@ -309,3 +309,30 @@ a.rv-journey:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px;
   .home-tiers-cta .label-long { display: none; }
   .home-tiers-cta .label-short { display: inline; }
 }
+
+/* Journal articles: byline, in-article photos, lists, closing actions. */
+.cat-article-meta { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 22px; font-size: 14px; color: var(--muted); }
+.cat-article-meta > * + *::before { content: "·"; margin-right: 18px; color: var(--line); }
+.cat-article-figure { margin: 6px 0 26px; }
+.cat-article-figure > div { position: relative; border-radius: var(--radius-photo); overflow: hidden; background: var(--paper-deep); max-height: 560px; }
+.cat-article-figure.is-tall { max-width: 420px; }
+.cat-article-figure figcaption { margin-top: 10px; font-size: 14px; color: var(--muted); }
+.cat-article-text a { color: var(--clay); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.cat-article-text a:hover { color: var(--ink); }
+.cat-article-text strong { font-weight: 600; color: var(--ink); }
+.cat-article-list { margin: 18px 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+.cat-article-list li { position: relative; padding-left: 26px; font-size: 18px; line-height: 1.75; }
+.cat-article-list li::before { content: ""; position: absolute; left: 4px; top: 14px; width: 8px; height: 8px; border-radius: 50%; background: var(--clay); }
+.cat-article-list.is-numbered { counter-reset: step; }
+.cat-article-list.is-numbered li { counter-increment: step; padding-left: 40px; }
+.cat-article-list.is-numbered li::before { content: counter(step); top: 3px; left: 0; width: 26px; height: 26px; display: grid; place-items: center; background: var(--paper-deep); color: var(--clay); font-size: 13px; font-weight: 600; }
+.cat-article-list + p { margin-top: 18px; }
+.cat-article-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 34px; }
+.cat-article-actions > a { white-space: nowrap; }
+@media (max-width: 640px) {
+  .cat-article-figure.is-tall { max-width: 100%; }
+  .cat-article-figure.is-tall > div { max-height: 520px; }
+  .cat-article-list li { font-size: 17px; }
+  .cat-article-actions > a { width: 100%; justify-content: center; }
+}
+@media (max-width: 380px) { .cat-article-actions > a { font-size: 13.5px; padding-inline: 12px; gap: 7px; } }

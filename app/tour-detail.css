@@ -5,7 +5,7 @@
 .tour-breadcrumb a { padding-block: 6px; }
 .tour-breadcrumb a:hover { color: var(--clay); }
 .tour-breadcrumb [aria-current] { color: var(--ink); }
-.tour-opening { display: grid; grid-template-columns: minmax(0, .91fr) minmax(0, 1fr); gap: 7%; align-items: center; }
+.tour-opening { display: grid; grid-template-columns: minmax(0, .91fr) minmax(0, 1fr); column-gap: 7%; row-gap: 32px; align-items: center; }
 .tour-opening-copy { min-width: 0; padding-block: 30px 54px; }
 .tour-opening-copy > .tour-kicker { color: var(--clay); }
 .tour-opening h1 { font-size: clamp(62px, 6.1vw, 96px); letter-spacing: -.052em; line-height: .98; margin: 27px 0 30px; text-wrap: balance; }
@@ -105,7 +105,7 @@
   .tour-opening h1 { font-size: 96px; }
 }
 @media (max-width: 1150px) {
-  .tour-opening { gap: 5%; }
+  .tour-opening { column-gap: 5%; row-gap: 32px; }
   .tour-opening h1 { font-size: 70px; }
   .tour-hero-photo { min-height: 640px; }
   .tour-body { column-gap: 6%; grid-template-columns: minmax(0,1fr) 300px; }

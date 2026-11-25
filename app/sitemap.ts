@@ -7,9 +7,9 @@ import type { MediaKey } from "@/content/catalog/media-plan";
 const updated = new Date("2026-10-31");
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const entry = (path: string, priority: number, image?: MediaKey) => ({
+  const entry = (path: string, priority: number, image?: MediaKey, date?: string) => ({
     url: absolute(path),
-    lastModified: updated,
+    lastModified: date ? new Date(date) : updated,
     changeFrequency: "monthly" as const,
     priority,
     ...(image ? { images: [absolute(media[image].src)] } : {}),
@@ -35,7 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...services.map((s) => entry(`/services/${s.slug}`, 0.7, s.hero)),
     ...experiences.map((e) => entry(`/experiences/${e.slug}`, 0.7, e.hero)),
     ...guides.map((g) => entry(`/guides/${g.slug}`, 0.7, g.hero)),
-    ...articles.map((a) => entry(`/journal/${a.slug}`, 0.6, a.hero)),
+    ...articles.map((a) => entry(`/journal/${a.slug}`, a.published ? 0.7 : 0.6, a.hero, a.published)),
     ...pages.map((p) => entry(`/${p.slug}`, ["privacy", "terms", "booking-terms"].includes(p.slug) ? 0.3 : 0.65)),
   ];
 }

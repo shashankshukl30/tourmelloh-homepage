@@ -41,7 +41,6 @@ const HEIGHT = { 320: 640, 375: 812, 360: 740, 390: 844, 414: 896, 768: 1024, 10
             if (v.length === row.length && Math.max(...v) - Math.min(...v) > 6) out.push(`uneven card endings in ${name(box)} (${Math.round(Math.max(...v) - Math.min(...v))}px)`);
           }
         }
-        document.querySelectorAll("details").forEach((d) => (d.open = true));
         // 1b. Phones: one swipe card (a tier level, a package, a tile) must fit the screen between header and contact bar.
         if (innerWidth <= 700) {
           const header = document.querySelector(".site-header")?.getBoundingClientRect().height ?? 0;
@@ -54,6 +53,8 @@ const HEIGHT = { 320: 640, 375: 812, 360: 740, 390: 844, 414: 896, 768: 1024, 10
             if (h > room) out.push(`${name(el)} taller than the screen (${Math.round(h)} > ${Math.round(room)})`);
           }
         }
+        // Forms inside closed <details> are checked open; swipe cards above are measured as visitors see them.
+        document.querySelectorAll("details").forEach((d) => (d.open = true));
         // 2. Form rows: controls start level.
         for (const row of document.querySelectorAll(".enquiry-row")) {
           const ctrls = [...row.querySelectorAll(":scope > .enquiry-field > input, :scope > .enquiry-field > textarea, :scope > .enquiry-field > .select-wrap")].filter(vis);
